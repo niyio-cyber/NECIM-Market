@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-16T21:38:31Z",
+  "generated": "2026-01-16T21:43:06Z",
   "version": "3.0",
   "item_count": 366,
   "coverage": {
@@ -47,11 +47,11 @@
     "by_business_line": {
       "highway": 23,
       "hma": 2,
-      "aggregates": 26,
+      "aggregates": 25,
       "concrete": 11,
       "liquid_asphalt": 0,
       "trucking": 5,
-      "general": 299
+      "general": 300
     }
   },
   "items": [
@@ -2123,9 +2123,22 @@
       "id": "7f522cdee466"
     },
     {
-      "title": "Teens arrested after chases in Saco, Auburn and Lewiston",
+      "title": "Mariners reschedule games postponed by strike",
+      "url": "https://www.pressherald.com/2026/01/16/mariners-reschedule-games-postponed-by-strike/",
+      "summary": "The ECHL team announces dates for three postponed games and also changes opponents for two upcoming home games.",
+      "date": "2026-01-16",
+      "source": "Press Herald",
+      "source_type": "news",
+      "state": "ME",
+      "priority": "low",
+      "category": "news",
+      "business_line": "general",
+      "id": "1ec725a5e507"
+    },
+    {
+      "title": "Teens arrested after chases in Saco, Auburn, Lewiston",
       "url": "https://www.pressherald.com/2026/01/16/teens-arrested-after-chases-in-saco-auburn-and-lewiston/",
-      "summary": "Police said some of the suspects may be linked to a spree of vehicle burglaries in the Portland area.",
+      "summary": "Police said some of the suspects may be linked to a string of vehicle burglaries in the Portland area.",
       "date": "2026-01-16",
       "source": "Press Herald",
       "source_type": "news",
@@ -2682,19 +2695,6 @@
       "id": "7b6ce17d882e"
     },
     {
-      "title": "Obituary: James J. Gilman",
-      "url": "https://www.pressherald.com/2026/01/16/obituaryjames-j-gilman/",
-      "summary": "PHIPPSBURG - James J. Gilman, 69, of Phippsburg, passed away peacefully on Sunday, Jan. 4, 2026, at Mid Coast Hospital, with ...",
-      "date": "2026-01-16",
-      "source": "Press Herald",
-      "source_type": "news",
-      "state": "ME",
-      "priority": "low",
-      "category": "news",
-      "business_line": "aggregates",
-      "id": "ca529723a7d2"
-    },
-    {
       "title": "23 sickened by swimming pool at Brunswick hotel, lawsuit claims",
       "url": "https://www.bangordailynews.com/2026/01/16/midcoast/midcoast-police-courts/contaminated-pool-lawsuit-maine/",
       "summary": "The lawsuit claims the owner of the hotel knew had failed pool inspections for more than a year before the outbreak.",
@@ -2903,19 +2903,6 @@
       "id": "fa3db1f35886"
     },
     {
-      "title": "How to watch \u2018Love During Lockup\u2019 Season 7 premiere for free online",
-      "url": "https://www.syracuse.com/tv/2026/01/how-to-watch-love-during-lockup-season-7-premiere-for-free-online.html",
-      "summary": "\"Love During Lockup\" Season 7 premieres Friday, Jan. 16, on We TV.",
-      "date": "2026-01-16",
-      "source": "Syracuse.com",
-      "source_type": "news",
-      "state": "NY",
-      "priority": "low",
-      "category": "news",
-      "business_line": "general",
-      "id": "bb718a7d9714"
-    },
-    {
       "title": "Where to watch Bulls vs. Nets today: NBA free live stream",
       "url": "https://www.syracuse.com/tv/2026/01/where-to-watch-bulls-vs-nets-today-nba-free-live-stream.html",
       "summary": "Brooklyn hosts Chicago Friday at 7:30 p.m. ET.",
@@ -2927,6 +2914,19 @@
       "category": "news",
       "business_line": "general",
       "id": "926129bc4cc5"
+    },
+    {
+      "title": "How to watch \u2018Love During Lockup\u2019 Season 7 premiere for free online",
+      "url": "https://www.syracuse.com/tv/2026/01/how-to-watch-love-during-lockup-season-7-premiere-for-free-online.html",
+      "summary": "\"Love During Lockup\" Season 7 premieres Friday, Jan. 16, on We TV.",
+      "date": "2026-01-16",
+      "source": "Syracuse.com",
+      "source_type": "news",
+      "state": "NY",
+      "priority": "low",
+      "category": "news",
+      "business_line": "general",
+      "id": "bb718a7d9714"
     },
     {
       "title": "Bills activate Ed Oliver off injured reserve for divisional playoff game",
@@ -3512,6 +3512,19 @@
       "category": "news",
       "business_line": "general",
       "id": "6dbe7f9364e9"
+    },
+    {
+      "title": "Rep. Perry doesn\u2019t expect Trump will use force, only \u2018negotiation\u2019 on Greenland",
+      "url": "https://www.pennlive.com/news/2026/01/rep-perry-doesnt-expect-trump-will-use-force-only-negotiation-on-greenland.html",
+      "summary": "Perry said he didn't want to get into hypotheticals as to whether Congressional war powers oversight would be needed regarding Greenland.",
+      "date": "2026-01-16",
+      "source": "PennLive",
+      "source_type": "news",
+      "state": "PA",
+      "priority": "low",
+      "category": "news",
+      "business_line": "general",
+      "id": "f004186462ed"
     },
     {
       "title": "Progressive Pa. group targeting Fetterman launches website to get contributions refunded",
@@ -4123,19 +4136,6 @@
       "category": "news",
       "business_line": "general",
       "id": "c79130e476f0"
-    },
-    {
-      "title": "Family demands answers after Border Patrol kills their dog",
-      "url": "https://www.pennlive.com/palabra/2026/01/family-demands-answers-after-border-patrol-kills-their-dog.html",
-      "summary": "\u201cHe was his best friend,\u201d says the attorney for a distraught El Paso man whose dog was killed inside his own home during an immigration check that found no wrongdoing.",
-      "date": "2026-01-16",
-      "source": "PennLive",
-      "source_type": "news",
-      "state": "PA",
-      "priority": "low",
-      "category": "news",
-      "business_line": "general",
-      "id": "f7d9d2f0eb07"
     },
     {
       "title": "How to get tickets for Seahawks vs. 49ers AFC Divisional playoff game in Seattle",

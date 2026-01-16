@@ -1,0 +1,40 @@
+name: NECMIS Daily Scrape
+
+on:
+  schedule:
+    # Run at 11:00 UTC (6:00 AM EST)
+    - cron: '0 11 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Permissions needed to push updated data
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Run scraper
+        run: python scraper.py
+      
+      - name: Commit and push data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/necmis_data.json
+          git diff --staged --quiet || git commit -m "Update data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

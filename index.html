@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NECMIS - Northeast Construction Intelligence</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --blue: #1e3a5f;
+            --blue-light: #2d5a87;
+            --green: #059669;
+            --red: #dc2626;
+            --orange: #d97706;
+            --gray: #6b7280;
+            --gray-light: #f3f4f6;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--gray-light);
+            min-height: 100vh;
+            line-height: 1.5;
+        }
+        
+        /* PASSWORD SCREEN */
+        #password-screen {
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(135deg, var(--blue) 0%, var(--blue-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .password-box {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        .password-box h1 { color: var(--blue); margin-bottom: 8px; font-size: 1.5em; }
+        .password-box p { color: var(--gray); margin-bottom: 24px; }
+        
+        .password-box input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .password-box input:focus { outline: none; border-color: var(--blue); }
+        
+        .password-box button {
+            width: 100%;
+            padding: 12px;
+            background: var(--blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .password-box button:hover { background: var(--blue-light); }
+        .password-error { color: var(--red); font-size: 14px; margin-top: 12px; display: none; }
+        
+        /* MAIN APP */
+        #app { display: none; }
+        
+        .header {
+            background: linear-gradient(135deg, var(--blue) 0%, var(--blue-light) 100%);
+            color: white;
+            padding: 20px;
+        }
+        
+        .header-content { max-width: 1400px; margin: 0 auto; }
+        .header h1 { font-size: 1.75em; margin-bottom: 4px; }
+        .header-meta { display: flex; gap: 20px; font-size: 0.9em; opacity: 0.9; flex-wrap: wrap; }
+        
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        
+        /* STATS */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .stat-value { font-size: 1.8em; font-weight: 700; color: var(--blue); }
+        .stat-label { font-size: 0.8em; color: var(--gray); }
+        
+        /* FILTERS */
+        .filters {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .filter-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .filter-row:last-child { margin-bottom: 0; }
+        .filter-label { font-weight: 600; color: var(--gray); font-size: 0.85em; min-width: 80px; }
+        
+        .filter-btn {
+            padding: 5px 12px;
+            border: 2px solid #e5e7eb;
+            background: white;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+        
+        .filter-btn:hover { border-color: var(--blue); }
+        .filter-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
+        
+        /* LAYOUT */
+        .main-layout { display: grid; grid-template-columns: 1fr 300px; gap: 20px; }
+        @media (max-width: 900px) { .main-layout { grid-template-columns: 1fr; } }
+        
+        /* FEED */
+        .feed {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .feed-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            font-weight: 600;
+            font-size: 1.1em;
+            color: var(--blue);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .feed-count { font-weight: normal; font-size: 0.85em; color: var(--gray); }
+        .feed-list { max-height: 70vh; overflow-y: auto; }
+        
+        .news-item {
+            padding: 14px 20px;
+            border-bottom: 1px solid #f3f4f6;
+            transition: background 0.2s;
+        }
+        
+        .news-item:hover { background: #fafafa; }
+        .news-item:last-child { border-bottom: none; }
+        
+        .news-meta { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+        
+        .news-state {
+            background: var(--blue);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            font-weight: 600;
+        }
+        
+        .news-priority {
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            font-weight: 600;
+        }
+        
+        .news-priority.high { background: #fef2f2; color: var(--red); }
+        .news-priority.medium { background: #fffbeb; color: var(--orange); }
+        .news-priority.low { background: var(--gray-light); color: var(--gray); }
+        
+        .news-biz {
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            background: #ecfdf5;
+            color: var(--green);
+        }
+        
+        .news-date { font-size: 0.7em; color: var(--gray); margin-left: auto; }
+        
+        .news-title { font-weight: 600; color: #1f2937; margin-bottom: 4px; font-size: 0.95em; }
+        .news-title a { color: inherit; text-decoration: none; }
+        .news-title a:hover { color: var(--blue); text-decoration: underline; }
+        
+        .news-source { font-size: 0.8em; color: var(--gray); }
+        
+        /* SIDEBAR */
+        .sidebar { display: flex; flex-direction: column; gap: 16px; }
+        
+        .sidebar-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .sidebar-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e5e7eb;
+            font-weight: 600;
+            color: var(--blue);
+            font-size: 0.95em;
+        }
+        
+        .sidebar-content { padding: 16px; }
+        
+        .state-bar { display: flex; align-items: center; padding: 5px 0; }
+        .state-bar-label { width: 30px; font-weight: 600; font-size: 0.8em; }
+        
+        .state-bar-fill {
+            flex: 1;
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            margin: 0 8px;
+            overflow: hidden;
+        }
+        
+        .state-bar-value {
+            height: 100%;
+            background: var(--blue);
+            border-radius: 4px;
+            transition: width 0.3s;
+        }
+        
+        .state-bar-count { width: 25px; text-align: right; font-size: 0.8em; color: var(--gray); }
+        
+        .dot-link {
+            display: block;
+            padding: 8px 10px;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            margin-bottom: 6px;
+            text-decoration: none;
+            color: #1f2937;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+        
+        .dot-link:hover { border-color: var(--blue); background: #f0f9ff; }
+        .dot-link:last-child { margin-bottom: 0; }
+        .dot-link-state { font-weight: 600; }
+        
+        .refresh-btn {
+            width: 100%;
+            padding: 12px;
+            background: var(--green);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .refresh-btn:hover { opacity: 0.9; }
+        .refresh-btn:disabled { background: var(--gray); cursor: not-allowed; }
+        
+        .loading { text-align: center; padding: 60px 20px; color: var(--gray); }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e5e7eb;
+            border-top-color: var(--blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        .empty-state { text-align: center; padding: 40px 20px; color: var(--gray); }
+        
+        .logout-btn {
+            background: none;
+            border: none;
+            color: rgba(255,255,255,0.8);
+            cursor: pointer;
+            font-size: 0.85em;
+        }
+        
+        .logout-btn:hover { color: white; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <!-- PASSWORD SCREEN -->
+    <div id="password-screen">
+        <div class="password-box">
+            <h1>🏗️ NECMIS</h1>
+            <p>Northeast Construction Market Intelligence</p>
+            <input type="password" id="password-input" placeholder="Enter team password" autocomplete="off" onkeypress="if(event.key==='Enter')checkPassword()">
+            <button onclick="checkPassword()">Access Dashboard</button>
+            <div class="password-error" id="password-error">Incorrect password</div>
+        </div>
+    </div>
+    
+    <!-- MAIN APP -->
+    <div id="app">
+        <header class="header">
+            <div class="header-content">
+                <h1>🏗️ NECMIS</h1>
+                <div class="header-meta">
+                    <span>Northeast Construction Market Intelligence</span>
+                    <span id="last-updated">Loading...</span>
+                    <button class="logout-btn" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container">
+            <!-- STATS -->
+            <div class="stats-row">
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-total">-</div>
+                    <div class="stat-label">Total</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-high">-</div>
+                    <div class="stat-label">High Priority</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-bids">-</div>
+                    <div class="stat-label">Bids</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-dot">-</div>
+                    <div class="stat-label">DOT</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-funding">-</div>
+                    <div class="stat-label">Funding</div>
+                </div>
+            </div>
+            
+            <!-- FILTERS -->
+            <div class="filters">
+                <div class="filter-row">
+                    <span class="filter-label">State:</span>
+                    <button class="filter-btn active" data-filter="state" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="state" data-value="VT">VT</button>
+                    <button class="filter-btn" data-filter="state" data-value="NH">NH</button>
+                    <button class="filter-btn" data-filter="state" data-value="ME">ME</button>
+                    <button class="filter-btn" data-filter="state" data-value="NY">NY</button>
+                    <button class="filter-btn" data-filter="state" data-value="PA">PA</button>
+                    <button class="filter-btn" data-filter="state" data-value="MA">MA</button>
+                    <button class="filter-btn" data-filter="state" data-value="RI">RI</button>
+                    <button class="filter-btn" data-filter="state" data-value="CT">CT</button>
+                </div>
+                <div class="filter-row">
+                    <span class="filter-label">Business:</span>
+                    <button class="filter-btn active" data-filter="biz" data-value="all">All</button>
+                    <button class="filter-btn" data-filter="biz" data-value="highway">Highway</button>
+                    <button class="filter-btn" data-filter="biz" data-value="hma">HMA</button>
+                    <button class="filter-btn" data-filter="biz" data-value="aggregates">Aggregates</button>
+                    <button class="filter-btn" data-filter="biz" data-value="concrete">Concrete</button>
+                    <button class="filter-btn" data-filter="biz" data-value="liquid_asphalt">Bitumen</button>
+                    <button class="filter-btn" data-filter="biz" data-value="trucking">Trucking</button>
+                </div>
+            </div>
+            
+            <!-- MAIN LAYOUT -->
+            <div class="main-layout">
+                <div class="feed">
+                    <div class="feed-header">
+                        <span>📰 Intelligence Feed</span>
+                        <span class="feed-count" id="feed-count"></span>
+                    </div>
+                    <div class="feed-list" id="feed-list">
+                        <div class="loading">
+                            <div class="loading-spinner"></div>
+                            <div>Loading data...</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sidebar">
+                    <button class="refresh-btn" id="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
+                    
+                    <div class="sidebar-card">
+                        <div class="sidebar-header">📊 By State</div>
+                        <div class="sidebar-content" id="state-breakdown"></div>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <div class="sidebar-header">🔗 DOT Bid Portals</div>
+                        <div class="sidebar-content">
+                            <a href="https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting" target="_blank" class="dot-link"><span class="dot-link-state">VT</span> VTrans Bids</a>
+                            <a href="https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid" target="_blank" class="dot-link"><span class="dot-link-state">NH</span> NHDOT Bids</a>
+                            <a href="https://www.maine.gov/dot/projects/" target="_blank" class="dot-link"><span class="dot-link-state">ME</span> MaineDOT</a>
+                            <a href="https://www.dot.ny.gov/doing-business/opportunities/const-highway" target="_blank" class="dot-link"><span class="dot-link-state">NY</span> NYSDOT</a>
+                            <a href="https://www.ecms.penndot.pa.gov/ECMS/" target="_blank" class="dot-link"><span class="dot-link-state">PA</span> PennDOT ECMS</a>
+                            <a href="https://www.mass.gov/info-details/advertised-projects-bid-opening-schedule" target="_blank" class="dot-link"><span class="dot-link-state">MA</span> MassDOT</a>
+                            <a href="https://www.dot.ri.gov/ridotbidding/" target="_blank" class="dot-link"><span class="dot-link-state">RI</span> RIDOT</a>
+                            <a href="https://portal.ct.gov/dot/business/contractor-resources/ctdot-construction-bids-menu" target="_blank" class="dot-link"><span class="dot-link-state">CT</span> CTDOT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // =====================================================================
+        // CONFIGURATION - CHANGE THESE
+        // =====================================================================
+        
+        // SET YOUR TEAM PASSWORD HERE
+        const TEAM_PASSWORD = 'necmis2025';
+        
+        // Data URL - will be relative when hosted on GitHub Pages
+        const DATA_URL = 'data/necmis_data.json';
+        
+        // =====================================================================
+        // STATE
+        // =====================================================================
+        
+        let allData = null;
+        let filters = { state: 'all', biz: 'all' };
+        const STATES = ['VT', 'NH', 'ME', 'NY', 'PA', 'MA', 'RI', 'CT'];
+        
+        // =====================================================================
+        // AUTH
+        // =====================================================================
+        
+        function checkPassword() {
+            const input = document.getElementById('password-input').value;
+            if (input === TEAM_PASSWORD) {
+                localStorage.setItem('necmis_auth', 'true');
+                showApp();
+            } else {
+                document.getElementById('password-error').style.display = 'block';
+            }
+        }
+        
+        function logout() {
+            localStorage.removeItem('necmis_auth');
+            location.reload();
+        }
+        
+        function showApp() {
+            document.getElementById('password-screen').style.display = 'none';
+            document.getElementById('app').style.display = 'block';
+            loadData();
+        }
+        
+        // =====================================================================
+        // DATA
+        // =====================================================================
+        
+        async function loadData() {
+            const btn = document.getElementById('refresh-btn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Loading...';
+            
+            try {
+                const response = await fetch(DATA_URL + '?t=' + Date.now());
+                if (!response.ok) throw new Error('Failed to fetch');
+                allData = await response.json();
+                
+                document.getElementById('last-updated').textContent = 
+                    'Updated: ' + new Date(allData.generated).toLocaleString();
+                
+                updateStats();
+                updateStateBreakdown();
+                renderFeed();
+                
+                btn.textContent = '✓ Refreshed';
+                setTimeout(() => { btn.textContent = '🔄 Refresh Data'; }, 2000);
+            } catch (err) {
+                console.error(err);
+                document.getElementById('feed-list').innerHTML = 
+                    '<div class="empty-state">Failed to load data. Check console.</div>';
+                btn.textContent = '❌ Error';
+            }
+            
+            btn.disabled = false;
+        }
+        
+        function updateStats() {
+            if (!allData) return;
+            
+            document.getElementById('stat-total').textContent = allData.item_count;
+            document.getElementById('stat-high').textContent = allData.stats.by_priority.high;
+            document.getElementById('stat-bids').textContent = allData.stats.by_category.bid;
+            document.getElementById('stat-dot').textContent = allData.stats.by_category.dot_project;
+            document.getElementById('stat-funding').textContent = allData.stats.by_category.funding;
+        }
+        
+        function updateStateBreakdown() {
+            if (!allData) return;
+            
+            const container = document.getElementById('state-breakdown');
+            const maxCount = Math.max(...Object.values(allData.stats.by_state));
+            
+            container.innerHTML = STATES.map(state => {
+                const count = allData.stats.by_state[state] || 0;
+                const pct = maxCount > 0 ? (count / maxCount) * 100 : 0;
+                return `
+                    <div class="state-bar">
+                        <span class="state-bar-label">${state}</span>
+                        <div class="state-bar-fill">
+                            <div class="state-bar-value" style="width: ${pct}%"></div>
+                        </div>
+                        <span class="state-bar-count">${count}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function renderFeed() {
+            if (!allData || !allData.items) return;
+            
+            const filtered = allData.items.filter(item => {
+                if (filters.state !== 'all' && item.state !== filters.state) return false;
+                if (filters.biz !== 'all' && item.business_line !== filters.biz) return false;
+                return true;
+            });
+            
+            document.getElementById('feed-count').textContent = `${filtered.length} items`;
+            
+            if (filtered.length === 0) {
+                document.getElementById('feed-list').innerHTML = 
+                    '<div class="empty-state">No items match current filters</div>';
+                return;
+            }
+            
+            document.getElementById('feed-list').innerHTML = filtered.map(item => `
+                <div class="news-item">
+                    <div class="news-meta">
+                        <span class="news-state">${item.state}</span>
+                        <span class="news-priority ${item.priority}">${item.priority}</span>
+                        <span class="news-biz">${formatBizLine(item.business_line)}</span>
+                        <span class="news-date">${item.date}</span>
+                    </div>
+                    <div class="news-title">
+                        <a href="${item.url}" target="_blank">${item.title}</a>
+                    </div>
+                    <div class="news-source">${item.source}</div>
+                </div>
+            `).join('');
+        }
+        
+        function formatBizLine(line) {
+            const map = {
+                'highway': 'Highway',
+                'hma': 'HMA',
+                'aggregates': 'Aggregates',
+                'concrete': 'Concrete',
+                'liquid_asphalt': 'Bitumen',
+                'trucking': 'Trucking',
+                'general': 'General'
+            };
+            return map[line] || line;
+        }
+        
+        // =====================================================================
+        // FILTERS
+        // =====================================================================
+        
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filterType = btn.dataset.filter;
+                const value = btn.dataset.value;
+                
+                // Update active state
+                document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`)
+                    .forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Update filter
+                filters[filterType] = value;
+                renderFeed();
+            });
+        });
+        
+        // =====================================================================
+        // INIT
+        // =====================================================================
+        
+        if (localStorage.getItem('necmis_auth') === 'true') {
+            showApp();
+        }
+    </script>
+</body>
+</html>

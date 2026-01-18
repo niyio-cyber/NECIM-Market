@@ -1,9 +1,9 @@
 {
-  "generated": "2026-01-18T19:34:44.992517Z",
+  "generated": "2026-01-18T19:52:09.116498Z",
   "summary": {
     "total_opportunities": 368,
-    "total_value_low": 3216717007,
-    "total_value_high": 3216717007,
+    "total_value_low": 2692156492,
+    "total_value_high": 2692156492,
     "by_state": {
       "VT": 1,
       "NH": 173,
@@ -3701,25 +3701,6 @@
       ]
     },
     {
-      "id": "e653c9d0de0c",
-      "state": "NH",
-      "project_id": "13742",
-      "description": "BOW-CONCORD",
-      "cost_low": 524560515,
-      "cost_high": 524560515,
-      "cost_display": "$524.6M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "BOW",
-      "district": null,
-      "url": "data/nh_stip/2025-2028-stip-project-monthly-list.pdf",
-      "source": "NH STIP (Manual: 2025-2028-stip-project-monthly-list.pdf)",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "bcbcb5f754f1",
       "state": "NH",
       "project_id": "14633",
@@ -6562,6 +6543,25 @@
       "let_date": null,
       "project_type": "Highway",
       "location": "GREENLAND",
+      "district": null,
+      "url": "data/nh_stip/2025-2028-stip-project-monthly-list.pdf",
+      "source": "NH STIP (Manual: 2025-2028-stip-project-monthly-list.pdf)",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e653c9d0de0c",
+      "state": "NH",
+      "project_id": "13742",
+      "description": "BOW-CONCORD",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See STIP",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "BOW",
       "district": null,
       "url": "data/nh_stip/2025-2028-stip-project-monthly-list.pdf",
       "source": "NH STIP (Manual: 2025-2028-stip-project-monthly-list.pdf)",

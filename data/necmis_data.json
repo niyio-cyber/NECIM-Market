@@ -1,22 +1,22 @@
 {
-  "generated": "2026-01-18T17:33:08.238541Z",
+  "generated": "2026-01-18T18:31:23.211602Z",
   "summary": {
-    "total_opportunities": 201,
+    "total_opportunities": 215,
     "total_value_low": 820020596,
     "total_value_high": 820020596,
     "by_state": {
       "VT": 1,
-      "NH": 6,
+      "NH": 20,
       "ME": 172,
-      "MA": 26,
+      "MA": 25,
       "NY": 1,
       "RI": 1,
       "CT": 1,
       "PA": 1
     },
     "by_category": {
-      "dot_letting": 199,
-      "news": 8,
+      "dot_letting": 213,
+      "news": 7,
       "funding": 2
     }
   },
@@ -3701,22 +3701,288 @@
       ]
     },
     {
-      "id": "2bd36bd2d6e8",
+      "id": "c99ee02baa4f",
       "state": "NH",
-      "project_id": null,
-      "description": "NHDOT Bid Schedule - Visit portal for current lettings",
+      "project_id": "RFQ0026-012126The",
+      "description": "Nashua Bids: Administrative Services3 BidsArchitectural & Engineering Services for the Nashua Public Library Renovation & AdditionBid No.RFQ0026-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is s",
       "cost_low": null,
       "cost_high": null,
-      "cost_display": "See Portal",
+      "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": null,
-      "project_type": null,
-      "location": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
       "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
       "business_lines": [
         "highway"
+      ]
+    },
+    {
+      "id": "b1aaa006589d",
+      "state": "NH",
+      "project_id": "RFQ0275-012126The",
+      "description": "Nashua Bids: Nashua Public Library Renovation & Expansion Project Construction Managment ServicesBid No.RFQ0275-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking qualification submittals f",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b1aaa006589d",
+      "state": "NH",
+      "project_id": "RFQ0275-012126The",
+      "description": "Nashua Bids: Nashua Public Library Renovation & Expansion Project Construction Managment ServicesBid No.RFQ0275-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking qualification submittals f",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0ca83a3fef76",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: 2026 Paving Program Contract 1Bid No.IFB0660-020626The City of Nashua, Division of Public Works, is seeking bids for the 2026 Paving Program Contract 1. The scheduled work is located in various areas ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "0ca83a3fef76",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: 2026 Paving Program Contract 1Bid No.IFB0660-020626The City of Nashua, Division of Public Works, is seeking bids for the 2026 Paving Program Contract 1. The scheduled work is located in various areas ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "b1aaa006589d",
+      "state": "NH",
+      "project_id": "RFQ0275-012126The",
+      "description": "Nashua Bids: Nashua Public Library Renovation & Expansion Project Construction Managment ServicesBid No.RFQ0275-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking qualification submittals f",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b1aaa006589d",
+      "state": "NH",
+      "project_id": "RFQ0275-012126The",
+      "description": "Nashua Bids: Nashua Public Library Renovation & Expansion Project Construction Managment ServicesBid No.RFQ0275-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking qualification submittals f",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0ca83a3fef76",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: 2026 Paving Program Contract 1Bid No.IFB0660-020626The City of Nashua, Division of Public Works, is seeking bids for the 2026 Paving Program Contract 1. The scheduled work is located in various areas ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "0ca83a3fef76",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: 2026 Paving Program Contract 1Bid No.IFB0660-020626The City of Nashua, Division of Public Works, is seeking bids for the 2026 Paving Program Contract 1. The scheduled work is located in various areas ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "b1aaa006589d",
+      "state": "NH",
+      "project_id": "RFQ0275-012126The",
+      "description": "Nashua Bids: Nashua Public Library Renovation & Expansion Project Construction Managment ServicesBid No.RFQ0275-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking qualification submittals f",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b1aaa006589d",
+      "state": "NH",
+      "project_id": "RFQ0275-012126The",
+      "description": "Nashua Bids: Nashua Public Library Renovation & Expansion Project Construction Managment ServicesBid No.RFQ0275-012126The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking qualification submittals f",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "04f529f23167",
+      "state": "NH",
+      "project_id": null,
+      "description": "Manchester Bids: ANNUAL-CY2026 Highway: Prequalification of Construction ContractorsQuestions: DPW_Engineering@manchesternh.gov RFQ Applications Due:December 19, 2025 by 1:00pm ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "Manchester Bids",
+      "district": null,
+      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
+      "source": "Manchester Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "348e812ba130",
+      "state": "NH",
+      "project_id": null,
+      "description": "Manchester Bids: FY26-500-23 Highway: Traffic Signal InstallationQuestions: kclarke@manchesternh.gov RFP Proposals Due:January 14, 2026 by 1:00 PM PlansAddendum 1 ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Safety",
+      "location": "Manchester Bids",
+      "district": null,
+      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
+      "source": "Manchester Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "376adae0fae8",
+      "state": "NH",
+      "project_id": null,
+      "description": "Manchester Bids: FY26-804-26 Water Works: Trench Milling and Paving, Pavement Milling and OverlayQuestions: jlavacchia@manchesternh.gov RFQ Responses Due:February 10, 2026 by 2:00 PM ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Manchester Bids",
+      "district": null,
+      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
+      "source": "Manchester Bids Municipal",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "c09bfeb04640",
+      "state": "NH",
+      "project_id": null,
+      "description": "Manchester Bids: FY26-804-27 Water Works: Patch Paving ServicesQuestions: jlavacchia@manchesternh.gov RFQ Responses Due:February 10, 2026 by 2:00 PM ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Manchester Bids",
+      "district": null,
+      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
+      "source": "Manchester Bids Municipal",
+      "business_lines": [
+        "hma"
       ]
     },
     {
@@ -3865,20 +4131,6 @@
       "url": "https://www.bangordailynews.com/2026/01/18/portland/portland-police-courts/connecticut-woman-19-killed-in-falmouth-crash/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-01-18",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "885be37da75f",
-      "title": "At abandoned Monson Developmental Center, Westmass prepares, slowly, to \u2018create a village\u2019",
-      "summary": "The public will get its first chance to comment on zoning changes at the site 7 p.m. Tuesday, Jan. 20 at Granite Valley School, 21 Thompson St., Monson.",
-      "url": "https://www.masslive.com/westernmass/2026/01/at-abandoned-monson-developmental-center-westmass-prepares-slowly-to-create-a-village.html",
-      "source": "MassLive",
-      "state": "MA",
       "date": "2026-01-18",
       "category": "news",
       "priority": "medium",

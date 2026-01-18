@@ -56,7 +56,7 @@ DOT_SOURCES = {
 # NH Alternative Sources - All verified accessible
 NH_LIVE_SOURCES = {
     'stip': [
-        # PRIMARY SOURCE: NH STIP Monthly Project List - authoritative statewide project data with costs
+        # NH STIP PDFs - blocked from GitHub Actions (403), but kept for future reference
         {'name': 'NH STIP Project List', 'url': 'https://mm.nh.gov/files/uploads/dot/remote-docs/2025-2028-stip-project-monthly-list.pdf'},
         {'name': 'NH STIP Current Report', 'url': 'https://mm.nh.gov/files/uploads/dot/remote-docs/stip-current-report-website-0.pdf'},
     ],
@@ -64,9 +64,15 @@ NH_LIVE_SOURCES = {
         {'name': 'NHDOT ITB', 'url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid'},
         {'name': 'NHDOT Advertising', 'url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/advertising-schedule'},
     ],
+    'rpc_pdfs': [
+        # Direct TIP PDFs from Regional Planning Commissions - THESE WORK from GitHub Actions
+        {'name': 'Rockingham TIP Projects', 'url': 'https://www.therpc.org/application/files/2017/3894/2144/Figure12_2025TIPRegional.pdf', 'region': 'Seacoast'},
+        {'name': 'Rockingham TIP Full', 'url': 'https://www.therpc.org/download_file/view/3184/481', 'region': 'Seacoast'},
+    ],
     'rpc': [
-        {'name': 'Rockingham PC TIP', 'url': 'https://www.therpc.org/TIPAmendments', 'region': 'Seacoast'},
-        {'name': 'Southern NH PC', 'url': 'https://www.snhpc.org/transportation/road-networks-highways-and-bridges', 'region': 'Manchester'},
+        # HTML pages for fallback/discovery
+        {'name': 'Rockingham PC TIP', 'url': 'https://www.therpc.org/transportation/tip/2025-2028-tip', 'region': 'Seacoast'},
+        {'name': 'Southern NH PC', 'url': 'https://www.snhpc.org/', 'region': 'Manchester'},
         {'name': 'Nashua RPC', 'url': 'https://www.nashuarpc.org/mpo/transportation_plans.php', 'region': 'Nashua'},
         {'name': 'Central NH RPC', 'url': 'https://cnhrpc.org/transportation-planning/', 'region': 'Concord'},
     ],
@@ -849,9 +855,39 @@ def parse_nhdot() -> List[Dict]:
         return lettings
     
     # ==========================================================================
-    # TIER 3: Regional Planning Commission TIPs
+    # TIER 3: RPC TIP PDFs (Direct Links - Best Source for Costs)
     # ==========================================================================
-    print(f"    🔍 Tier 3: Regional Planning Commissions...")
+    print(f"    🔍 Tier 3: RPC TIP PDFs (Direct Links)...")
+    
+    for rpc_pdf in NH_LIVE_SOURCES.get('rpc_pdfs', []):
+        try:
+            response = session.get(rpc_pdf['url'], timeout=60, allow_redirects=True)
+            
+            if response.status_code != 200:
+                sources_tried.append(f"{rpc_pdf['name']}: {response.status_code}")
+                continue
+            
+            # Parse TIP PDF using dedicated parser
+            parsed = parse_rpc_tip_pdf_detailed(response.content, rpc_pdf['name'], rpc_pdf['region'], rpc_pdf['url'])
+            if parsed:
+                lettings.extend(parsed)
+                sources_tried.append(f"{rpc_pdf['name']}: PDF {len(parsed)} projects")
+            else:
+                sources_tried.append(f"{rpc_pdf['name']}: PDF parse failed")
+                
+        except Exception as e:
+            sources_tried.append(f"{rpc_pdf['name']}: {type(e).__name__}")
+    
+    if lettings:
+        total = sum(l.get('cost_low') or 0 for l in lettings)
+        print(f"    ✓ Tier 3 success: {len(lettings)} projects, {format_currency(total)}")
+        print(f"      Sources: {', '.join(sources_tried)}")
+        return lettings
+    
+    # ==========================================================================
+    # TIER 4: Regional Planning Commission HTML Pages (Fallback)
+    # ==========================================================================
+    print(f"    🔍 Tier 4: RPC HTML Pages...")
     
     for rpc in NH_LIVE_SOURCES.get('rpc', []):
         try:
@@ -886,14 +922,14 @@ def parse_nhdot() -> List[Dict]:
     
     if lettings:
         total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 3 success: {len(lettings)} projects, {format_currency(total)}")
+        print(f"    ✓ Tier 4 success: {len(lettings)} projects, {format_currency(total)}")
         print(f"      Sources: {', '.join(sources_tried)}")
         return lettings
     
     # ==========================================================================
-    # TIER 4: Municipal Bid Pages
+    # TIER 5: Municipal Bid Pages
     # ==========================================================================
-    print(f"    🔍 Tier 4: Municipal Bid Pages...")
+    print(f"    🔍 Tier 5: Municipal Bid Pages...")
     
     for muni in NH_LIVE_SOURCES.get('municipal', []):
         try:
@@ -1235,6 +1271,139 @@ def parse_rpc_tip_pdf(pdf_content: bytes, rpc_name: str, region: str) -> List[Di
         pass
     except Exception:
         pass
+    
+    return lettings
+
+
+def parse_rpc_tip_pdf_detailed(pdf_content: bytes, rpc_name: str, region: str, url: str) -> List[Dict]:
+    """
+    Parse Rockingham-style RPC TIP PDF with detailed project data.
+    
+    Format:
+    LOCATION (PROJECT_ID)
+    Phase 2025 2026 2027 2028 Total
+    Facility: ROUTE
+    SCOPE: Description
+    FEDERAL STATE OTHER
+    Total Cost: $XX,XXX,XXX
+    """
+    lettings = []
+    
+    try:
+        import pdfplumber
+        import io
+        
+        with pdfplumber.open(io.BytesIO(pdf_content)) as pdf:
+            print(f"      RPC PDF has {len(pdf.pages)} pages")
+            
+            full_text = ""
+            for page in pdf.pages:
+                text = page.extract_text() or ''
+                full_text += text + "\n"
+            
+            # Split into project blocks
+            # Each project starts with "LOCATION (5-digit-ID)"
+            project_pattern = re.compile(r'([A-Z][A-Z\s\-]+?)\s*\((\d{5}[A-Z]?)\)')
+            
+            # Find all project headers
+            matches = list(project_pattern.finditer(full_text))
+            
+            seen_projects = set()
+            
+            for i, match in enumerate(matches):
+                location = match.group(1).strip()
+                project_id = match.group(2)
+                
+                # Skip duplicates
+                if project_id in seen_projects:
+                    continue
+                seen_projects.add(project_id)
+                
+                # Get the text block for this project (until next project or end)
+                start_pos = match.start()
+                if i + 1 < len(matches):
+                    end_pos = matches[i + 1].start()
+                else:
+                    end_pos = len(full_text)
+                
+                project_text = full_text[start_pos:end_pos]
+                
+                # Extract Facility/Route
+                facility_match = re.search(r'Facility:\s*(.+?)(?:\n|SCOPE)', project_text, re.DOTALL)
+                facility = facility_match.group(1).strip() if facility_match else None
+                
+                # Extract Scope/Description
+                scope_match = re.search(r'SCOPE:\s*(.+?)(?:FEDERAL|Total Cost)', project_text, re.DOTALL)
+                scope = scope_match.group(1).strip().replace('\n', ' ') if scope_match else None
+                
+                # Extract Total Cost
+                cost = None
+                cost_match = re.search(r'Total Cost:\s*\$([\d,]+)', project_text)
+                if cost_match:
+                    cost = parse_currency(cost_match.group(1))
+                else:
+                    # Try alternate patterns
+                    cost_match = re.search(r'2025-2028 Funding:\s*\$([\d,]+)', project_text)
+                    if cost_match:
+                        cost = parse_currency(cost_match.group(1))
+                
+                # Skip very small projects or programs
+                if cost and cost < 50000:
+                    continue
+                
+                # Skip transit/program entries
+                if 'PROGRAM' in location or 'FTA' in (facility or '') or 'TRANSIT' in location.upper():
+                    continue
+                
+                # Build description
+                if facility and scope:
+                    description = f"{facility}: {scope}"
+                elif scope:
+                    description = scope
+                elif facility:
+                    description = facility
+                else:
+                    description = location
+                
+                # Clean description
+                description = re.sub(r'\s+', ' ', description).strip()[:200]
+                
+                # Determine project type
+                combined = f"{location} {facility or ''} {scope or ''}"
+                proj_type = classify_project_type(combined)
+                
+                lettings.append({
+                    'id': generate_id(f"NH-RPC-{project_id}"),
+                    'state': 'NH',
+                    'project_id': project_id,
+                    'description': f"{location}: {description}",
+                    'cost_low': int(cost) if cost else None,
+                    'cost_high': int(cost) if cost else None,
+                    'cost_display': format_currency(cost) if cost else 'See TIP',
+                    'ad_date': None,
+                    'let_date': None,
+                    'project_type': proj_type,
+                    'location': location.split('-')[0].strip() if '-' in location else location.strip(),
+                    'district': region,
+                    'url': url,
+                    'source': f'{rpc_name}',
+                    'business_lines': get_business_lines(combined)
+                })
+            
+            if lettings:
+                # Sort by cost (highest first)
+                lettings.sort(key=lambda x: x.get('cost_low') or 0, reverse=True)
+                
+                total = sum(l.get('cost_low') or 0 for l in lettings)
+                with_cost = len([l for l in lettings if l.get('cost_low')])
+                print(f"      Parsed {len(lettings)} projects ({with_cost} with costs), {format_currency(total)} total")
+                
+    except ImportError:
+        print("      pdfplumber not installed")
+    except Exception as e:
+        print(f"      RPC PDF parse error: {e}")
+        import traceback
+        traceback.print_exc()
     
     return lettings
 

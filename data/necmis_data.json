@@ -1,13 +1,13 @@
 {
-  "generated": "2026-01-18T16:35:23.757350Z",
+  "generated": "2026-01-18T16:45:50.979835Z",
   "summary": {
-    "total_opportunities": 34,
-    "total_value_low": 209260596,
-    "total_value_high": 209260596,
+    "total_opportunities": 201,
+    "total_value_low": 820020596,
+    "total_value_high": 820020596,
     "by_state": {
       "VT": 1,
       "NH": 6,
-      "ME": 5,
+      "ME": 172,
       "MA": 26,
       "NY": 1,
       "RI": 1,
@@ -15,7 +15,7 @@
       "PA": 1
     },
     "by_category": {
-      "dot_letting": 32,
+      "dot_letting": 199,
       "news": 8,
       "funding": 2
     }
@@ -507,20 +507,3195 @@
       ]
     },
     {
-      "id": "8b98c149c319",
+      "id": "ec5c6210d62e",
       "state": "ME",
-      "project_id": null,
-      "description": "MaineDOT Bid Schedule - Visit portal for current lettings",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": null,
-      "location": null,
+      "project_id": "026180.00",
+      "description": "CUMBERLAND, NOYES BRIDGE #5932",
+      "cost_low": 2313000,
+      "cost_high": 2313000,
+      "cost_display": "$2.3M",
+      "ad_date": "2026-01-14",
+      "let_date": "2026-01-14",
+      "project_type": "Bridge",
+      "location": "CUMBERLAND",
       "district": null,
       "url": "https://www.maine.gov/dot/major-projects/cap",
-      "source": "MaineDOT",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a8196a5f71e1",
+      "state": "ME",
+      "project_id": "026184.00",
+      "description": "SABATTUS, SABATTUS RIVER BRIDGE #5393",
+      "cost_low": 4044000,
+      "cost_high": 4044000,
+      "cost_display": "$4.0M",
+      "ad_date": "2026-01-28",
+      "let_date": "2026-01-28",
+      "project_type": "Bridge",
+      "location": "SABATTUS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3564f39d4ac9",
+      "state": "ME",
+      "project_id": "027230.00",
+      "description": "LEWISTON, HART'S RIVER ROAD BRIDGE #0093",
+      "cost_low": 2357000,
+      "cost_high": 2357000,
+      "cost_display": "$2.4M",
+      "ad_date": "2026-02-18",
+      "let_date": "2026-02-18",
+      "project_type": "Bridge",
+      "location": "LEWISTON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "585f77c56c8d",
+      "state": "ME",
+      "project_id": "026236.00",
+      "description": "BRIDGTON, CORNSHOP BRIDGE #0318",
+      "cost_low": 3173000,
+      "cost_high": 3173000,
+      "cost_display": "$3.2M",
+      "ad_date": "2026-02-25",
+      "let_date": "2026-02-25",
+      "project_type": "Bridge",
+      "location": "BRIDGTON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e5f640d4ef75",
+      "state": "ME",
+      "project_id": "027838.01",
+      "description": "WESLEY, BEAVER DAM BRIDGE #2061",
+      "cost_low": 3074000,
+      "cost_high": 3074000,
+      "cost_display": "$3.1M",
+      "ad_date": "2026-02-25",
+      "let_date": "2026-02-25",
+      "project_type": "Bridge",
+      "location": "WESLEY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f739a5b3fb57",
+      "state": "ME",
+      "project_id": "027838.02",
+      "description": "WESLEY, BIG NEW STREAM #6289",
+      "cost_low": 2608000,
+      "cost_high": 2608000,
+      "cost_display": "$2.6M",
+      "ad_date": "2026-02-25",
+      "let_date": "2026-02-25",
+      "project_type": "Bridge",
+      "location": "WESLEY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6ae0c50a88ac",
+      "state": "ME",
+      "project_id": "025449.00",
+      "description": "NEWCASTLE, MEADOW BROOK BRIDGE #2535",
+      "cost_low": 1445000,
+      "cost_high": 1445000,
+      "cost_display": "$1.4M",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "NEWCASTLE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "80fbaf19eef9",
+      "state": "ME",
+      "project_id": "027228.00",
+      "description": "RICHMOND, JOSH BRIDGE #0976",
+      "cost_low": 1645000,
+      "cost_high": 1645000,
+      "cost_display": "$1.6M",
+      "ad_date": "2026-03-25",
+      "let_date": "2026-03-25",
+      "project_type": "Bridge",
+      "location": "RICHMOND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0cd8850145a4",
+      "state": "ME",
+      "project_id": "023643.00",
+      "description": "HOLLIS, SALMON FALLS BRIDGE #3708",
+      "cost_low": 10665000,
+      "cost_high": 10665000,
+      "cost_display": "$10.7M",
+      "ad_date": "2026-04-08",
+      "let_date": "2026-04-08",
+      "project_type": "Bridge",
+      "location": "HOLLIS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f220d5d5c3e7",
+      "state": "ME",
+      "project_id": "028270.00",
+      "description": "CROSS LAKE TWP, SULLIMOND BROOK BRIDGE",
+      "cost_low": 1205000,
+      "cost_high": 1205000,
+      "cost_display": "$1.2M",
+      "ad_date": "2026-05-13",
+      "let_date": "2026-05-13",
+      "project_type": "Bridge",
+      "location": "CROSS LAKE TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "87b9e1ab2a47",
+      "state": "ME",
+      "project_id": "029178.00",
+      "description": "SANFORD-ALFRED, HAY BROOK BRIDGE #3162",
+      "cost_low": 1205000,
+      "cost_high": 1205000,
+      "cost_display": "$1.2M",
+      "ad_date": "2026-05-13",
+      "let_date": "2026-05-13",
+      "project_type": "Bridge",
+      "location": "SANFORD-ALFRED",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f1ced500a1eb",
+      "state": "ME",
+      "project_id": "026089.00",
+      "description": "TRESCOTT TWP, RICE BRIDGE #2714",
+      "cost_low": 2300000,
+      "cost_high": 2300000,
+      "cost_display": "$2.3M",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Bridge",
+      "location": "TRESCOTT TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a0da2f5efc1a",
+      "state": "ME",
+      "project_id": "026087.00",
+      "description": "June HOWLAND, I95 SB OVER SEBOEIS ROAD",
+      "cost_low": 4620000,
+      "cost_high": 4620000,
+      "cost_display": "$4.6M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "June HOWLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "38244fd4be83",
+      "state": "ME",
+      "project_id": "029484.00",
+      "description": "July BANGOR - BREWER, I-395 BRIDGES",
+      "cost_low": 78771000,
+      "cost_high": 78771000,
+      "cost_display": "$78.8M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "July BANGOR - BREWER",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b4c01d680f4f",
+      "state": "ME",
+      "project_id": "026476.00",
+      "description": "July CORINNA, MULLIGAN STREAM BRIDGE #6160",
+      "cost_low": 1345000,
+      "cost_high": 1345000,
+      "cost_display": "$1.3M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "July CORINNA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e27df1360600",
+      "state": "ME",
+      "project_id": "025315.00",
+      "description": "August PALMYRA, ROUTE 100 / I-95 BRIDGE #5957",
+      "cost_low": 11855000,
+      "cost_high": 11855000,
+      "cost_display": "$11.9M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "August PALMYRA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e6f0c5e65c2a",
+      "state": "ME",
+      "project_id": "027836.03",
+      "description": "August ALNA, BEN BROOK BRIDGE #0610",
+      "cost_low": 2138000,
+      "cost_high": 2138000,
+      "cost_display": "$2.1M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "August ALNA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c01582156991",
+      "state": "ME",
+      "project_id": "027270.00",
+      "description": "August T8 R3 NBPP, BIG MEADOW BRIDGE #0064",
+      "cost_low": 2310000,
+      "cost_high": 2310000,
+      "cost_display": "$2.3M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "August T8 R3 NBPP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f2ebcbd94d49",
+      "state": "ME",
+      "project_id": "027160.00",
+      "description": "September ADDISON, LOT NORTON BRIDGE #3754",
+      "cost_low": 4505000,
+      "cost_high": 4505000,
+      "cost_display": "$4.5M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September ADDISON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "33b722c740b1",
+      "state": "ME",
+      "project_id": "027532.00",
+      "description": "September PRENTISS TWP T 7R3NBPP MATTAGODUS",
+      "cost_low": 2288000,
+      "cost_high": 2288000,
+      "cost_display": "$2.3M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September PRENTISS TWP T 7R3NBPP MATTAGODUS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "97600660b920",
+      "state": "ME",
+      "project_id": "028262.00",
+      "description": "September BANCROFT TWP, SMITH BROOK BRIDGE #3189",
+      "cost_low": 4398000,
+      "cost_high": 4398000,
+      "cost_display": "$4.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September BANCROFT TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8b0cf6102714",
+      "state": "ME",
+      "project_id": "027158.00",
+      "description": "September UNION, ST. GEORGE RIVER BRIDGE #5893",
+      "cost_low": 10365000,
+      "cost_high": 10365000,
+      "cost_display": "$10.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September UNION",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "26a2e63ec7fb",
+      "state": "ME",
+      "project_id": "027278.00",
+      "description": "September CARIBOU, AROOSTOOK RIVER BRIDGE #5572",
+      "cost_low": 25700000,
+      "cost_high": 25700000,
+      "cost_display": "$25.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September CARIBOU",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e0a93b2a67a0",
+      "state": "ME",
+      "project_id": "027084.00",
+      "description": "September CENTERVILLE TWP., MILL STREAM BRIDGE",
+      "cost_low": 1335000,
+      "cost_high": 1335000,
+      "cost_display": "$1.3M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September CENTERVILLE TWP.",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3977eb0e2438",
+      "state": "ME",
+      "project_id": "022304.00",
+      "description": "October DREW PLT. -MATTAWAMKEAG RIVER BRIDGE",
+      "cost_low": 14700000,
+      "cost_high": 14700000,
+      "cost_display": "$14.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "October DREW PLT. -MATTAWAMKEAG RIVER BRIDGE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e0310a75f5de",
+      "state": "ME",
+      "project_id": "028080.00",
+      "description": "October NORTH YARMOUTH ACADEMY GRANT TWP,",
+      "cost_low": 2400000,
+      "cost_high": 2400000,
+      "cost_display": "$2.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "October NORTH YARMOUTH ACADEMY GRANT TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f4f2ddd75331",
+      "state": "ME",
+      "project_id": "028076.00",
+      "description": "October TWP 01 R 05 WELS, GULLIVER BROOK BRIDGE",
+      "cost_low": 2444000,
+      "cost_high": 2444000,
+      "cost_display": "$2.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "October TWP 01 R 05 WELS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "342374a844f4",
+      "state": "ME",
+      "project_id": "026120.00",
+      "description": "October KINGFIELD, REED BROOK BRIDGE #5351",
+      "cost_low": 4105000,
+      "cost_high": 4105000,
+      "cost_display": "$4.1M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "October KINGFIELD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "15aadf04ee9b",
+      "state": "ME",
+      "project_id": "026190.00",
+      "description": "October WINDHAM, LOVEITT BRIDGE #3018",
+      "cost_low": 4220000,
+      "cost_high": 4220000,
+      "cost_display": "$4.2M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "October WINDHAM",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5c7537497d38",
+      "state": "ME",
+      "project_id": "027238.00",
+      "description": "November SWANVILLE, NICKERSONS MILLS BRIDGE #3737",
+      "cost_low": 1735000,
+      "cost_high": 1735000,
+      "cost_display": "$1.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "November SWANVILLE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ac99ecc6dd36",
+      "state": "ME",
+      "project_id": "028248.00",
+      "description": "November NEW LIMERICK, MILL BROOK BRIDGE #2557",
+      "cost_low": 2592000,
+      "cost_high": 2592000,
+      "cost_display": "$2.6M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "November NEW LIMERICK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "20f7a6357171",
+      "state": "ME",
+      "project_id": "028250.00",
+      "description": "November DOVER-FOXCROFT. STINCHFIELD BROOK",
+      "cost_low": 1805000,
+      "cost_high": 1805000,
+      "cost_display": "$1.8M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "November DOVER-FOXCROFT. STINCHFIELD BROOK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "697076a3e64d",
+      "state": "ME",
+      "project_id": "027236.00",
+      "description": "November MONROE-WINTERPORT, CONANT STREAM",
+      "cost_low": 1965000,
+      "cost_high": 1965000,
+      "cost_display": "$2.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "November MONROE-WINTERPORT",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f811ecfaf6ee",
+      "state": "ME",
+      "project_id": "023132.00",
+      "description": "December DRESDEN, MIDDLE BRIDGE #3341",
+      "cost_low": 13330000,
+      "cost_high": 13330000,
+      "cost_display": "$13.3M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December DRESDEN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6682495d0d79",
+      "state": "ME",
+      "project_id": "028302.00",
+      "description": "December SILVER RIDGE TWP, MOLUNKUS STREAM",
+      "cost_low": 3899000,
+      "cost_high": 3899000,
+      "cost_display": "$3.9M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December SILVER RIDGE TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c52fa8287eaa",
+      "state": "ME",
+      "project_id": "027100.00",
+      "description": "December LEBANON, PIERCE BRIDGE #5583",
+      "cost_low": 1400000,
+      "cost_high": 1400000,
+      "cost_display": "$1.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December LEBANON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e347fbb0ca56",
+      "state": "ME",
+      "project_id": "026474.00",
+      "description": "December WYMAN TWP, STONEY BROOK BRIDGE #5342",
+      "cost_low": 5530000,
+      "cost_high": 5530000,
+      "cost_display": "$5.5M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December WYMAN TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway",
+        "aggregates"
+      ]
+    },
+    {
+      "id": "10a05964c23e",
+      "state": "ME",
+      "project_id": "027026.00",
+      "description": "December BELFAST, BRIER BRIDGE #1123",
+      "cost_low": 1155000,
+      "cost_high": 1155000,
+      "cost_display": "$1.2M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December BELFAST",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "04342e84762e",
+      "state": "ME",
+      "project_id": "027836.04",
+      "description": "December PITTSTON, NEHUMKEAG BRIDGE #5283",
+      "cost_low": 2970000,
+      "cost_high": 2970000,
+      "cost_display": "$3.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December PITTSTON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f16a71cfe316",
+      "state": "ME",
+      "project_id": "024775.00",
+      "description": "December RUMFORD, MARTINS BRIDGE #2514",
+      "cost_low": 11930000,
+      "cost_high": 11930000,
+      "cost_display": "$11.9M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December RUMFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6aaec8144ab4",
+      "state": "ME",
+      "project_id": "023230.00",
+      "description": "December WARREN, FULLER BRIDGE #3784",
+      "cost_low": 6030000,
+      "cost_high": 6030000,
+      "cost_display": "$6.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December WARREN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ba952f45c14a",
+      "state": "ME",
+      "project_id": "028292.00",
+      "description": "December STRONG, STEVENS BRIDGE #3364",
+      "cost_low": 3700000,
+      "cost_high": 3700000,
+      "cost_display": "$3.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December STRONG",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5cf11a5c8361",
+      "state": "ME",
+      "project_id": "029528.00",
+      "description": "WATERVILLE \u2013 WINSLOW, DONALD V CARTER",
+      "cost_low": 3840000,
+      "cost_high": 3840000,
+      "cost_display": "$3.8M",
+      "ad_date": "2026-02-25",
+      "let_date": "2026-02-25",
+      "project_type": "Bridge",
+      "location": "WATERVILLE \u2013 WINSLOW",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b2026b27d5d7",
+      "state": "ME",
+      "project_id": "025313.00",
+      "description": "BANGOR, JOSHUA CHAMBERLAIN BRIDGE",
+      "cost_low": 2426000,
+      "cost_high": 2426000,
+      "cost_display": "$2.4M",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Bridge",
+      "location": "BANGOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "47f92bff3c01",
+      "state": "ME",
+      "project_id": "028402.00",
+      "description": "OLD TOWN, OLD TOWN, MILFORD BRIDGE #2630",
+      "cost_low": 1800000,
+      "cost_high": 1800000,
+      "cost_display": "$1.8M",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Bridge",
+      "location": "OLD TOWN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6efb555bec21",
+      "state": "ME",
+      "project_id": "028396.00",
+      "description": "ALBANY TWP, CROOKED RIVER BRIDGE #5079",
+      "cost_low": 200000,
+      "cost_high": 200000,
+      "cost_display": "$200K",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "ALBANY TWP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0c4468e155da",
+      "state": "ME",
+      "project_id": "028382.00",
+      "description": "BATH, CENTRE ST. CONNECTION BRIDGE #6142",
+      "cost_low": 500000,
+      "cost_high": 500000,
+      "cost_display": "$500K",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "BATH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0dce25004977",
+      "state": "ME",
+      "project_id": "028378.00",
+      "description": "HAMPDEN, COLD BROOK ROAD/I-95 BRIDGE",
+      "cost_low": 1000000,
+      "cost_high": 1000000,
+      "cost_display": "$1.0M",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "HAMPDEN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c4eff66342b3",
+      "state": "ME",
+      "project_id": "027096.00",
+      "description": "LEWISTON, MTPK EXIT 13/MCRR BRIDGE #0059",
+      "cost_low": 300000,
+      "cost_high": 300000,
+      "cost_display": "$300K",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "LEWISTON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ea32c8ceb1ee",
+      "state": "ME",
+      "project_id": "028388.00",
+      "description": "NORWAY, PLEASANT STREET BRIDGE #2677",
+      "cost_low": 300000,
+      "cost_high": 300000,
+      "cost_display": "$300K",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "NORWAY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "886b7d9235c0",
+      "state": "ME",
+      "project_id": "028412.00",
+      "description": "PLYMOUTH, ROUTE 7 / I-95 BRIDGE #5960",
+      "cost_low": 1500000,
+      "cost_high": 1500000,
+      "cost_display": "$1.5M",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "PLYMOUTH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "76a85c02e7ef",
+      "state": "ME",
+      "project_id": "028386.00",
+      "description": "WEST BATH, NEW MEADOWS ROAD BRIDGE",
+      "cost_low": 700000,
+      "cost_high": 700000,
+      "cost_display": "$700K",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "WEST BATH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bf36c24f9246",
+      "state": "ME",
+      "project_id": "028384.00",
+      "description": "WOOLWICH, MAX L. WILDER MEMORIAL BRIDGE",
+      "cost_low": 7000000,
+      "cost_high": 7000000,
+      "cost_display": "$7.0M",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Bridge",
+      "location": "WOOLWICH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "884e90855351",
+      "state": "ME",
+      "project_id": "029318.00",
+      "description": "TOPSHAM, ROUTE 196/I-295 BRIDGE #6307",
+      "cost_low": 400000,
+      "cost_high": 400000,
+      "cost_display": "$400K",
+      "ad_date": "2026-04-01",
+      "let_date": "2026-04-01",
+      "project_type": "Bridge",
+      "location": "TOPSHAM",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f70eb95fb915",
+      "state": "ME",
+      "project_id": "028398.00",
+      "description": "JEFFERSON, HOTEL BRIDGE #2378",
+      "cost_low": 541000,
+      "cost_high": 541000,
+      "cost_display": "$541K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Bridge",
+      "location": "JEFFERSON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7b39b25ca4b7",
+      "state": "ME",
+      "project_id": "026224.00",
+      "description": "VANCEBORO, INTERNATIONAL BRIDGE #2401",
+      "cost_low": 1815000,
+      "cost_high": 1815000,
+      "cost_display": "$1.8M",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Bridge",
+      "location": "VANCEBORO",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a8489c5133ce",
+      "state": "ME",
+      "project_id": "029276.00",
+      "description": "BRUNSWICK, I-295 SB OFF RAMP BRIDGE #1142",
+      "cost_low": 755000,
+      "cost_high": 755000,
+      "cost_display": "$755K",
+      "ad_date": "2026-04-22",
+      "let_date": "2026-04-22",
+      "project_type": "Bridge",
+      "location": "BRUNSWICK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8a6434187bfd",
+      "state": "ME",
+      "project_id": "029314.00",
+      "description": "BRUNSWICK, US 1 S B RAMP BRIDGE #6286",
+      "cost_low": 1205000,
+      "cost_high": 1205000,
+      "cost_display": "$1.2M",
+      "ad_date": "2026-04-22",
+      "let_date": "2026-04-22",
+      "project_type": "Bridge",
+      "location": "BRUNSWICK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d293b99ff9e2",
+      "state": "ME",
+      "project_id": "026920.00",
+      "description": "PEAKS ISLAND TRANSFER BRIDGE #6348",
+      "cost_low": 1130000,
+      "cost_high": 1130000,
+      "cost_display": "$1.1M",
+      "ad_date": "2026-04-22",
+      "let_date": "2026-04-22",
+      "project_type": "Bridge",
+      "location": "PEAKS ISLAND TRANSFER BRIDGE #6348",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "83181e0a5dc4",
+      "state": "ME",
+      "project_id": "029290.00",
+      "description": "GEORGETOWN, EAST BRIDGE #2248",
+      "cost_low": 351000,
+      "cost_high": 351000,
+      "cost_display": "$351K",
+      "ad_date": "2026-04-29",
+      "let_date": "2026-04-29",
+      "project_type": "Bridge",
+      "location": "GEORGETOWN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "28643532ec76",
+      "state": "ME",
+      "project_id": "029310.00",
+      "description": "GEORGETOWN, WEST BRIDGE #2927",
+      "cost_low": 351000,
+      "cost_high": 351000,
+      "cost_display": "$351K",
+      "ad_date": "2026-04-29",
+      "let_date": "2026-04-29",
+      "project_type": "Bridge",
+      "location": "GEORGETOWN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "15501c90b2e5",
+      "state": "ME",
+      "project_id": "027146.00",
+      "description": "NEW SHARON, SANDY RIVER BRIDGE #5724",
+      "cost_low": 1295000,
+      "cost_high": 1295000,
+      "cost_display": "$1.3M",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Bridge",
+      "location": "NEW SHARON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway",
+        "aggregates"
+      ]
+    },
+    {
+      "id": "665c3901bd56",
+      "state": "ME",
+      "project_id": "029308.00",
+      "description": "FALMOUTH, STAPLES POINT BRIDGE #5278",
+      "cost_low": 550000,
+      "cost_high": 550000,
+      "cost_display": "$550K",
+      "ad_date": "2026-05-27",
+      "let_date": "2026-05-27",
+      "project_type": "Bridge",
+      "location": "FALMOUTH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f74039b35138",
+      "state": "ME",
+      "project_id": "028122.00",
+      "description": "June KITTERY, I-95/PISCATAQUA RIVER BRIDGE",
+      "cost_low": 20000000,
+      "cost_high": 20000000,
+      "cost_display": "$20.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "June KITTERY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2f1cdab1cb36",
+      "state": "ME",
+      "project_id": "023126.00",
+      "description": "July AUGUSTA, SPAULDING BROOK BRIDGE #2790",
+      "cost_low": 885000,
+      "cost_high": 885000,
+      "cost_display": "$885K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "July AUGUSTA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e6419055fb41",
+      "state": "ME",
+      "project_id": "026444.00",
+      "description": "July AUGUSTA, THORNE BROOK BRIDGE #2850",
+      "cost_low": 885000,
+      "cost_high": 885000,
+      "cost_display": "$885K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "July AUGUSTA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "377101cdfac4",
+      "state": "ME",
+      "project_id": "026164.00",
+      "description": "August AUGUSTA, AUGUSTA MEMORIAL BRIDGE #5196",
+      "cost_low": 9995000,
+      "cost_high": 9995000,
+      "cost_display": "$10.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "August AUGUSTA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "def6b3982efd",
+      "state": "ME",
+      "project_id": "025309.00",
+      "description": "August TURNER, TURNER CENTER BRIDGE #3886",
+      "cost_low": 3500000,
+      "cost_high": 3500000,
+      "cost_display": "$3.5M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "August TURNER",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "74e6f6fd53ac",
+      "state": "ME",
+      "project_id": "028526.00",
+      "description": "September YORK, SCOTLAND BRIDGE #2750",
+      "cost_low": 675000,
+      "cost_high": 675000,
+      "cost_display": "$675K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "September YORK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9023bfa3c721",
+      "state": "ME",
+      "project_id": "029896.00",
+      "description": "December BANGOR, JOSHUA CHAMBERLAIN BRIDGE",
+      "cost_low": 1950000,
+      "cost_high": 1950000,
+      "cost_display": "$1.9M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December BANGOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c2814c81f27e",
+      "state": "ME",
+      "project_id": "025311.00",
+      "description": "December BANGOR, PENOBSCOT BRIDGE #2038",
+      "cost_low": 4390000,
+      "cost_high": 4390000,
+      "cost_display": "$4.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December BANGOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6891134c3268",
+      "state": "ME",
+      "project_id": "027250.00",
+      "description": "December ALNA, DOCK BRIDGE #3284",
+      "cost_low": 2195000,
+      "cost_high": 2195000,
+      "cost_display": "$2.2M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Bridge",
+      "location": "December ALNA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1e9dc37f2c76",
+      "state": "ME",
+      "project_id": "028940.10",
+      "description": "PORTLAND, EAST DEERING AREA",
+      "cost_low": 8131000,
+      "cost_high": 8131000,
+      "cost_display": "$8.1M",
+      "ad_date": "2026-01-28",
+      "let_date": "2026-01-28",
+      "project_type": "Highway",
+      "location": "PORTLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "899e188a248c",
+      "state": "ME",
+      "project_id": "022643.00",
+      "description": "LIVERMORE FALLS, ROUTE 17",
+      "cost_low": 15066000,
+      "cost_high": 15066000,
+      "cost_display": "$15.1M",
+      "ad_date": "2026-02-04",
+      "let_date": "2026-02-04",
+      "project_type": "Highway",
+      "location": "LIVERMORE FALLS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bc8368478535",
+      "state": "ME",
+      "project_id": "021651.00",
+      "description": "YORK, ROUTE 1A. PHASE 1",
+      "cost_low": 4830000,
+      "cost_high": 4830000,
+      "cost_display": "$4.8M",
+      "ad_date": "2026-02-25",
+      "let_date": "2026-02-25",
+      "project_type": "Highway",
+      "location": "YORK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7185b596524b",
+      "state": "ME",
+      "project_id": "027044.00",
+      "description": "June OXFORD, ROUTE 26",
+      "cost_low": 1500000,
+      "cost_high": 1500000,
+      "cost_display": "$1.5M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "June OXFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c2c73e05918f",
+      "state": "ME",
+      "project_id": "022657.00",
+      "description": "June FRENCHVILLE, ROUTE 1",
+      "cost_low": 21250000,
+      "cost_high": 21250000,
+      "cost_display": "$21.2M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "June FRENCHVILLE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5effde4c9cd3",
+      "state": "ME",
+      "project_id": "023012.00",
+      "description": "July SWANVILLE, ROUTE 141",
+      "cost_low": 2800000,
+      "cost_high": 2800000,
+      "cost_display": "$2.8M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "July SWANVILLE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8cf070b887fb",
+      "state": "ME",
+      "project_id": "022642.01",
+      "description": "July SANFORD, DOWNTOWN, ROUTE 202",
+      "cost_low": 32059000,
+      "cost_high": 32059000,
+      "cost_display": "$32.1M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "July SANFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "912a513d986b",
+      "state": "ME",
+      "project_id": "022656.00",
+      "description": "August FRENCHVILLE-FORT KENT, ROUTE 1",
+      "cost_low": 19125000,
+      "cost_high": 19125000,
+      "cost_display": "$19.1M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "August FRENCHVILLE-FORT KENT",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b24a650ea242",
+      "state": "ME",
+      "project_id": "025653.00",
+      "description": "September BIDDEFORD, ELM STREET",
+      "cost_low": 13250000,
+      "cost_high": 13250000,
+      "cost_display": "$13.2M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "September BIDDEFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e670155c3f83",
+      "state": "ME",
+      "project_id": "027036.00",
+      "description": "October WARREN, ROUTE 90",
+      "cost_low": 3419000,
+      "cost_high": 3419000,
+      "cost_display": "$3.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "October WARREN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "687c82680cb2",
+      "state": "ME",
+      "project_id": "026958.00",
+      "description": "CHINA-VASSALBORO, ROUTE 32",
+      "cost_low": 3950000,
+      "cost_high": 3950000,
+      "cost_display": "$4.0M",
+      "ad_date": "2026-02-18",
+      "let_date": "2026-02-18",
+      "project_type": "Highway",
+      "location": "CHINA-VASSALBORO",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "33e4b4de98bc",
+      "state": "ME",
+      "project_id": "028902.00",
+      "description": "WINSLOW-BENTON, BENTON AVENUE",
+      "cost_low": 1150000,
+      "cost_high": 1150000,
+      "cost_display": "$1.1M",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "WINSLOW-BENTON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "da0678dbe632",
+      "state": "ME",
+      "project_id": "027666.00",
+      "description": "BOWDOINHAM, ROUTE 125",
+      "cost_low": 1391000,
+      "cost_high": 1391000,
+      "cost_display": "$1.4M",
+      "ad_date": "2026-04-01",
+      "let_date": "2026-04-01",
+      "project_type": "Highway",
+      "location": "BOWDOINHAM",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e47b00e5306b",
+      "state": "ME",
+      "project_id": "027678.00",
+      "description": "LITCHFIELD-RICHMOND, ROUTE 197",
+      "cost_low": 6575000,
+      "cost_high": 6575000,
+      "cost_display": "$6.6M",
+      "ad_date": "2026-04-01",
+      "let_date": "2026-04-01",
+      "project_type": "Highway",
+      "location": "LITCHFIELD-RICHMOND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a2b43c5a0bd8",
+      "state": "ME",
+      "project_id": "028136.00",
+      "description": "ALBANYTWP-ALBANY-BETHEL, ROUTE 5",
+      "cost_low": 18478000,
+      "cost_high": 18478000,
+      "cost_display": "$18.5M",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "ALBANYTWP-ALBANY-BETHEL",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "52e60fc70e83",
+      "state": "ME",
+      "project_id": "018777.00",
+      "description": "August BLUE HILL, ROUTE 15",
+      "cost_low": 10035000,
+      "cost_high": 10035000,
+      "cost_display": "$10.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "August BLUE HILL",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "60c402c72061",
+      "state": "ME",
+      "project_id": "022845.10",
+      "description": "CARIBOU, ROUTE 164 #931080",
+      "cost_low": 7800000,
+      "cost_high": 7800000,
+      "cost_display": "$7.8M",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "CARIBOU",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a1a0fb949bfd",
+      "state": "ME",
+      "project_id": "026358.00",
+      "description": "DIXMONT LARGE CULVERT #188337",
+      "cost_low": 376000,
+      "cost_high": 376000,
+      "cost_display": "$376K",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "DIXMONT LARGE CULVERT #188337",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7834b84bfcba",
+      "state": "ME",
+      "project_id": "025521.00",
+      "description": "DREW PLT., ROUTE 171 (#137691)",
+      "cost_low": 720000,
+      "cost_high": 720000,
+      "cost_display": "$720K",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "DREW PLT.",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b3ffa329fc46",
+      "state": "ME",
+      "project_id": "025411.00",
+      "description": "MAPLETON, HUGHES ROAD (#227865)",
+      "cost_low": 620000,
+      "cost_high": 620000,
+      "cost_display": "$620K",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "MAPLETON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "066d16fed204",
+      "state": "ME",
+      "project_id": "024241.00",
+      "description": "PATTEN, ROUTE 11 (#46557)",
+      "cost_low": 1075000,
+      "cost_high": 1075000,
+      "cost_display": "$1.1M",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "PATTEN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6b779405b34b",
+      "state": "ME",
+      "project_id": "023781.00",
+      "description": "T17R4, ROUTE 162 (#181630)",
+      "cost_low": 595000,
+      "cost_high": 595000,
+      "cost_display": "$595K",
+      "ad_date": "2026-03-04",
+      "let_date": "2026-03-04",
+      "project_type": "Highway",
+      "location": "T17R4",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "025c1a5a8228",
+      "state": "ME",
+      "project_id": "027040.00",
+      "description": "AUBURN, ROUTE 202 & DANVILLE",
+      "cost_low": 640000,
+      "cost_high": 640000,
+      "cost_display": "$640K",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Highway",
+      "location": "AUBURN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "996202bb33e0",
+      "state": "ME",
+      "project_id": "024249.00",
+      "description": "CASCO RTE 302, LARGE CUL 46309",
+      "cost_low": 303000,
+      "cost_high": 303000,
+      "cost_display": "$303K",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Highway",
+      "location": "CASCO RTE 302",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "40d071119092",
+      "state": "ME",
+      "project_id": "025281.00",
+      "description": "HAMPDEN, ROUTE 202",
+      "cost_low": 480000,
+      "cost_high": 480000,
+      "cost_display": "$480K",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Highway",
+      "location": "HAMPDEN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6e95b689b991",
+      "state": "ME",
+      "project_id": "025415.00",
+      "description": "PORTLAND I-295 LARGE CULVERT SLIPLINE",
+      "cost_low": 560000,
+      "cost_high": 560000,
+      "cost_display": "$560K",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Highway",
+      "location": "PORTLAND I-295 LARGE CULVERT SLIPLINE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e667f6c690ec",
+      "state": "ME",
+      "project_id": "025511.00",
+      "description": "PORTLAND, I-295 (#019009)",
+      "cost_low": 560000,
+      "cost_high": 560000,
+      "cost_display": "$560K",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Highway",
+      "location": "PORTLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4c9433cf2c2f",
+      "state": "ME",
+      "project_id": "025523.00",
+      "description": "PORTLAND, I-295 TWIN PIPES (#47337)",
+      "cost_low": 1375000,
+      "cost_high": 1375000,
+      "cost_display": "$1.4M",
+      "ad_date": "2026-03-11",
+      "let_date": "2026-03-11",
+      "project_type": "Highway",
+      "location": "PORTLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5ae930392f73",
+      "state": "ME",
+      "project_id": "023913.10",
+      "description": "WELLS, FURBISH ROAD (FLAP)",
+      "cost_low": 326000,
+      "cost_high": 326000,
+      "cost_display": "$326K",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Highway",
+      "location": "WELLS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fd70679d28dc",
+      "state": "ME",
+      "project_id": "028480.00",
+      "description": "BREWER, ROUTE 9",
+      "cost_low": 745000,
+      "cost_high": 745000,
+      "cost_display": "$745K",
+      "ad_date": "2026-03-25",
+      "let_date": "2026-03-25",
+      "project_type": "Highway",
+      "location": "BREWER",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2b1f887f8a58",
+      "state": "ME",
+      "project_id": "028164.00",
+      "description": "ALBION, ROUTE 202 (#47048)",
+      "cost_low": 585000,
+      "cost_high": 585000,
+      "cost_display": "$585K",
+      "ad_date": "2026-04-08",
+      "let_date": "2026-04-08",
+      "project_type": "Highway",
+      "location": "ALBION",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e3fabbd9b229",
+      "state": "ME",
+      "project_id": "027224.00",
+      "description": "INDUSTRY, ROUTE 43 (#1068804)",
+      "cost_low": 1180000,
+      "cost_high": 1180000,
+      "cost_display": "$1.2M",
+      "ad_date": "2026-04-08",
+      "let_date": "2026-04-08",
+      "project_type": "Highway",
+      "location": "INDUSTRY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ce952aac8344",
+      "state": "ME",
+      "project_id": "026808.30",
+      "description": "BOOTHBAY HARBOR, ROUTE 27",
+      "cost_low": 430000,
+      "cost_high": 430000,
+      "cost_display": "$430K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "BOOTHBAY HARBOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "28b07180d0a3",
+      "state": "ME",
+      "project_id": "027300.00",
+      "description": "PHIPPSBURG, ROUTE 216",
+      "cost_low": 670000,
+      "cost_high": 670000,
+      "cost_display": "$670K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "PHIPPSBURG",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "43361956b8a0",
+      "state": "ME",
+      "project_id": "028850.00",
+      "description": "REGION 3, GREENVILLE AREA, ADA RAMP",
+      "cost_low": 1373000,
+      "cost_high": 1373000,
+      "cost_display": "$1.4M",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "REGION 3",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1781e8603c5a",
+      "state": "ME",
+      "project_id": "028852.00",
+      "description": "REGION 4, EASTERN REGION, ADA RAMP",
+      "cost_low": 246000,
+      "cost_high": 246000,
+      "cost_display": "$246K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "REGION 4",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "418d827573cc",
+      "state": "ME",
+      "project_id": "027174.02",
+      "description": "WOOLWICH, ROUTE 127, LC #228492",
+      "cost_low": 950000,
+      "cost_high": 950000,
+      "cost_display": "$950K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "WOOLWICH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "277075b28cc5",
+      "state": "ME",
+      "project_id": "021845.01",
+      "description": "[RAMP] BLUE HILL, ROUTE 15",
+      "cost_low": 317000,
+      "cost_high": 317000,
+      "cost_display": "$317K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Highway",
+      "location": "[RAMP] BLUE HILL",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "17e57e0178b4",
+      "state": "ME",
+      "project_id": "024277.00",
+      "description": "BAILEYVILLE, ROUTE 9 LC# 46925",
+      "cost_low": 1014000,
+      "cost_high": 1014000,
+      "cost_display": "$1.0M",
+      "ad_date": "2026-04-29",
+      "let_date": "2026-04-29",
+      "project_type": "Highway",
+      "location": "BAILEYVILLE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d6bd8bf60472",
+      "state": "ME",
+      "project_id": "028836.10",
+      "description": "PARSONFIELD, REGION 1 ADA RAMP",
+      "cost_low": 17000,
+      "cost_high": 17000,
+      "cost_display": "$17K",
+      "ad_date": "2026-04-29",
+      "let_date": "2026-04-29",
+      "project_type": "Highway",
+      "location": "PARSONFIELD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fa9b0e3f2d6b",
+      "state": "ME",
+      "project_id": "028836.20",
+      "description": "PORTER-HIRAM, REGION 1 ADA RAMP",
+      "cost_low": 390000,
+      "cost_high": 390000,
+      "cost_display": "$390K",
+      "ad_date": "2026-04-29",
+      "let_date": "2026-04-29",
+      "project_type": "Highway",
+      "location": "PORTER-HIRAM",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2b91d9703bab",
+      "state": "ME",
+      "project_id": "028836.00",
+      "description": "SOUTHERN REGION 1 ADA RAMP",
+      "cost_low": 193000,
+      "cost_high": 193000,
+      "cost_display": "$193K",
+      "ad_date": "2026-04-29",
+      "let_date": "2026-04-29",
+      "project_type": "Highway",
+      "location": "SOUTHERN REGION 1 ADA RAMP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "747b7d3b2eb5",
+      "state": "ME",
+      "project_id": "027222.00",
+      "description": "MEDFORD, PADDY HILL ROAD (#120362)",
+      "cost_low": 1472000,
+      "cost_high": 1472000,
+      "cost_display": "$1.5M",
+      "ad_date": "2026-05-07",
+      "let_date": "2026-05-07",
+      "project_type": "Highway",
+      "location": "MEDFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bd3398088e83",
+      "state": "ME",
+      "project_id": "021794.00",
+      "description": "KINGSBURY, LARGE CULV 46502",
+      "cost_low": 1280000,
+      "cost_high": 1280000,
+      "cost_display": "$1.3M",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Highway",
+      "location": "KINGSBURY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5b885414b978",
+      "state": "ME",
+      "project_id": "025509.00",
+      "description": "LINCOLN PLT., ROUTE 16 (#1032130)",
+      "cost_low": 704000,
+      "cost_high": 704000,
+      "cost_display": "$704K",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Highway",
+      "location": "LINCOLN PLT.",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a5a32b528d88",
+      "state": "ME",
+      "project_id": "029638.00",
+      "description": "LOWER KENNEBEC AREA 2026 ADA",
+      "cost_low": 520000,
+      "cost_high": 520000,
+      "cost_display": "$520K",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Highway",
+      "location": "LOWER KENNEBEC AREA 2026 ADA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "16c3fb2daee4",
+      "state": "ME",
+      "project_id": "022958.00",
+      "description": "PARKMAN, ROUTE 150",
+      "cost_low": 972000,
+      "cost_high": 972000,
+      "cost_display": "$972K",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Highway",
+      "location": "PARKMAN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ca076945d148",
+      "state": "ME",
+      "project_id": "029636.00",
+      "description": "PENOBSCOT BAY AREA 2026 ADA",
+      "cost_low": 720000,
+      "cost_high": 720000,
+      "cost_display": "$720K",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Highway",
+      "location": "PENOBSCOT BAY AREA 2026 ADA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "38a5534c2c9d",
+      "state": "ME",
+      "project_id": "028436.00",
+      "description": "June 2026 STATEWIDE RUMBLE STRIPS",
+      "cost_low": 745000,
+      "cost_high": 745000,
+      "cost_display": "$745K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "June 2026 STATEWIDE RUMBLE STRIPS",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "86bab31df991",
+      "state": "ME",
+      "project_id": "027194.00",
+      "description": "June ORONO LARGE CULVERT #1013530",
+      "cost_low": 945000,
+      "cost_high": 945000,
+      "cost_display": "$945K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "June ORONO LARGE CULVERT #1013530",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4efa52652bcf",
+      "state": "ME",
+      "project_id": "027196.00",
+      "description": "June ORONO, FOREST AVENUE # 914698",
+      "cost_low": 1095000,
+      "cost_high": 1095000,
+      "cost_display": "$1.1M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "June ORONO",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0683e10bcfae",
+      "state": "ME",
+      "project_id": "027496.00",
+      "description": "June ETNA, ROUTE 2 (#47396)",
+      "cost_low": 990000,
+      "cost_high": 990000,
+      "cost_display": "$990K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "June ETNA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "306946a099a6",
+      "state": "ME",
+      "project_id": "027034.00",
+      "description": "July WARREN, ROUTE 235 AND OLD AUGUSTA ROAD",
+      "cost_low": 681000,
+      "cost_high": 681000,
+      "cost_display": "$681K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "July WARREN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d8b323a8860b",
+      "state": "ME",
+      "project_id": "028152.00",
+      "description": "July SEBAGO, CONVENE ROAD (#85804)",
+      "cost_low": 715000,
+      "cost_high": 715000,
+      "cost_display": "$715K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "July SEBAGO",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e1535af27c04",
+      "state": "ME",
+      "project_id": "028150.00",
+      "description": "July SEBAGO, CONVENE ROAD (#86111)",
+      "cost_low": 640000,
+      "cost_high": 640000,
+      "cost_display": "$640K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "July SEBAGO",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6e582b721334",
+      "state": "ME",
+      "project_id": "028476.00",
+      "description": "August BANGOR, BROADWAY AND STILLWATER",
+      "cost_low": 715000,
+      "cost_high": 715000,
+      "cost_display": "$715K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "August BANGOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8e8a80fa60cc",
+      "state": "ME",
+      "project_id": "026376.00",
+      "description": "August ALFRED, ROUTE 202",
+      "cost_low": 515000,
+      "cost_high": 515000,
+      "cost_display": "$515K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "August ALFRED",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "be20f9af818e",
+      "state": "ME",
+      "project_id": "028148.00",
+      "description": "August BIDDEFORD, ROUTE 111 (#1088540)",
+      "cost_low": 490000,
+      "cost_high": 490000,
+      "cost_display": "$490K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "August BIDDEFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "18ce48308f5a",
+      "state": "ME",
+      "project_id": "028428.00",
+      "description": "August UNION, ROUTE 17",
+      "cost_low": 535000,
+      "cost_high": 535000,
+      "cost_display": "$535K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "August UNION",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "11622efde79c",
+      "state": "ME",
+      "project_id": "029378.00",
+      "description": "September BIDDEFORD-ALFRED, ROUTE 111",
+      "cost_low": 230000,
+      "cost_high": 230000,
+      "cost_display": "$230K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "September BIDDEFORD-ALFRED",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8bf730b3d7b9",
+      "state": "ME",
+      "project_id": "025429.00",
+      "description": "September MEXICO, ROUTE 2",
+      "cost_low": 1726000,
+      "cost_high": 1726000,
+      "cost_display": "$1.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "September MEXICO",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1a6b0c4eb859",
+      "state": "ME",
+      "project_id": "025431.00",
+      "description": "September RUMFORD, ROUTE 2",
+      "cost_low": 1847000,
+      "cost_high": 1847000,
+      "cost_display": "$1.8M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "September RUMFORD",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e6004f980fdb",
+      "state": "ME",
+      "project_id": "026356.00",
+      "description": "November BREWER, WILSON STREET AND PARKWAY",
+      "cost_low": 175000,
+      "cost_high": 175000,
+      "cost_display": "$175K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "November BREWER",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "567d550625be",
+      "state": "ME",
+      "project_id": "027032.00",
+      "description": "November BELFAST, ROUTE 1 AND CONGRESS STREET",
+      "cost_low": 973000,
+      "cost_high": 973000,
+      "cost_display": "$973K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "November BELFAST",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1e730b64fd06",
+      "state": "ME",
+      "project_id": "023022.00",
+      "description": "December TRENTON, ROUTE 230",
+      "cost_low": 867000,
+      "cost_high": 867000,
+      "cost_display": "$867K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "December TRENTON",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2bf1b6ab2867",
+      "state": "ME",
+      "project_id": "025507.00",
+      "description": "December CHARLOTTE, ROUTE 214 (#88727)",
+      "cost_low": 1000000,
+      "cost_high": 1000000,
+      "cost_display": "$1.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "December CHARLOTTE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "82456fd804dd",
+      "state": "ME",
+      "project_id": "025163.00",
+      "description": "December DIXMONT, ROUTE 143 LARGE CULVERT #188325",
+      "cost_low": 1000000,
+      "cost_high": 1000000,
+      "cost_display": "$1.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": "December DIXMONT",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6d13a82f9314",
+      "state": "ME",
+      "project_id": "028704.00",
+      "description": "SOUTHWEST HARBOR, ROUTE 102A",
+      "cost_low": 1400000,
+      "cost_high": 1400000,
+      "cost_display": "$1.4M",
+      "ad_date": "2026-03-25",
+      "let_date": "2026-03-25",
+      "project_type": "Maintenance",
+      "location": "SOUTHWEST HARBOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "594eab924c55",
+      "state": "ME",
+      "project_id": "027114.00",
+      "description": "PITTSFIELD-HAMPDEN, HIGHWAY TRAFFIC",
+      "cost_low": 1000000,
+      "cost_high": 1000000,
+      "cost_display": "$1.0M",
+      "ad_date": "2026-05-27",
+      "let_date": "2026-05-27",
+      "project_type": "Maintenance",
+      "location": "PITTSFIELD-HAMPDEN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0358439fb8a2",
+      "state": "ME",
+      "project_id": "028452.00",
+      "description": "July OLD TOWN-MEDWAY, HIGHWAY TRAFFIC",
+      "cost_low": 660000,
+      "cost_high": 660000,
+      "cost_display": "$660K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Maintenance",
+      "location": "July OLD TOWN-MEDWAY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5efcbe9003ed",
+      "state": "ME",
+      "project_id": "028454.00",
+      "description": "December STATEWIDE, RWIS ITS",
+      "cost_low": 725000,
+      "cost_high": 725000,
+      "cost_display": "$725K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Maintenance",
+      "location": "December STATEWIDE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1eff392e3d29",
+      "state": "ME",
+      "project_id": "029634.00",
+      "description": "YARMOUTH, SHIP",
+      "cost_low": 500000,
+      "cost_high": 500000,
+      "cost_display": "$500K",
+      "ad_date": "2026-01-28",
+      "let_date": "2026-01-28",
+      "project_type": "Multimodal",
+      "location": "YARMOUTH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8303d421b7aa",
+      "state": "ME",
+      "project_id": "026300.00",
+      "description": "NORRIDGEWOCK, PEDESTRIAN IMPROVEMENTS",
+      "cost_low": 3206000,
+      "cost_high": 3206000,
+      "cost_display": "$3.2M",
+      "ad_date": "2026-03-18",
+      "let_date": "2026-03-18",
+      "project_type": "Multimodal",
+      "location": "NORRIDGEWOCK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "473cfdbda7d3",
+      "state": "ME",
+      "project_id": "026326.00",
+      "description": "BRUNSWICK HEADS UP - PED SAFETY",
+      "cost_low": 352000,
+      "cost_high": 352000,
+      "cost_display": "$352K",
+      "ad_date": "2026-04-15",
+      "let_date": "2026-04-15",
+      "project_type": "Multimodal",
+      "location": "BRUNSWICK HEADS UP - PED SAFETY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6cbecc3d241b",
+      "state": "ME",
+      "project_id": "028720.00",
+      "description": "ROCKLAND, MIDDLE PIER SHIP",
+      "cost_low": 3439000,
+      "cost_high": 3439000,
+      "cost_display": "$3.4M",
+      "ad_date": "2026-04-22",
+      "let_date": "2026-04-22",
+      "project_type": "Multimodal",
+      "location": "ROCKLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d41760d20ecd",
+      "state": "ME",
+      "project_id": "027472.00",
+      "description": "CAMDEN HEADS UP - JOHN STREET SIDEWALK",
+      "cost_low": 2481000,
+      "cost_high": 2481000,
+      "cost_display": "$2.5M",
+      "ad_date": "2026-05-20",
+      "let_date": "2026-05-20",
+      "project_type": "Multimodal",
+      "location": "CAMDEN HEADS UP - JOHN STREET SIDEWALK",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "002cbaedee6b",
+      "state": "ME",
+      "project_id": "028650.00",
+      "description": "WELLS COMMERCIAL DOCK EXPANSION",
+      "cost_low": 500000,
+      "cost_high": 500000,
+      "cost_display": "$500K",
+      "ad_date": "2026-05-27",
+      "let_date": "2026-05-27",
+      "project_type": "Multimodal",
+      "location": "WELLS COMMERCIAL DOCK EXPANSION",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6322e5036441",
+      "state": "ME",
+      "project_id": "019397.01",
+      "description": "BOOTHBAY/BOOTHBAY HBR SIDEWALK-PHASE",
+      "cost_low": 1130000,
+      "cost_high": 1130000,
+      "cost_display": "$1.1M",
+      "ad_date": "2026-06-03",
+      "let_date": "2026-06-03",
+      "project_type": "Multimodal",
+      "location": "BOOTHBAY/BOOTHBAY HBR SIDEWALK-PHASE",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c7f64fb63e6f",
+      "state": "ME",
+      "project_id": "027356.00",
+      "description": "June SOUTH PORTLAND HEADS UP - BROADWAY",
+      "cost_low": 1452000,
+      "cost_high": 1452000,
+      "cost_display": "$1.5M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "June SOUTH PORTLAND HEADS UP - BROADWAY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "459f10bf2da9",
+      "state": "ME",
+      "project_id": "028458.00",
+      "description": "July BANGOR, MOUNT HOPE AVENUE",
+      "cost_low": 792000,
+      "cost_high": 792000,
+      "cost_display": "$792K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "July BANGOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bde642e60916",
+      "state": "ME",
+      "project_id": "024357.00",
+      "description": "July EASTPORT, HIGH ST. SIDEWALKS",
+      "cost_low": 765000,
+      "cost_high": 765000,
+      "cost_display": "$765K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "July EASTPORT",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "daad6b0017d4",
+      "state": "ME",
+      "project_id": "024367.00",
+      "description": "September BETHEL, ROUTE 2 SIDEWALK",
+      "cost_low": 1654000,
+      "cost_high": 1654000,
+      "cost_display": "$1.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "September BETHEL",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "68c1f7a07ce6",
+      "state": "ME",
+      "project_id": "025985.00",
+      "description": "September YARMOUTH, BETH CONDON TRAIL SHARED USE",
+      "cost_low": 2925000,
+      "cost_high": 2925000,
+      "cost_display": "$2.9M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "September YARMOUTH",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "08bfa11fd600",
+      "state": "ME",
+      "project_id": "018638.00",
+      "description": "September SOUTH PORTLAND, MULITUSE PATH",
+      "cost_low": 3550000,
+      "cost_high": 3550000,
+      "cost_display": "$3.5M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "September SOUTH PORTLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "658afe44eede",
+      "state": "ME",
+      "project_id": "026858.10",
+      "description": "October FRYEBURG-HIRAM, MOUNTAIN DIVISION TRAIL",
+      "cost_low": 11970000,
+      "cost_high": 11970000,
+      "cost_display": "$12.0M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October FRYEBURG-HIRAM",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ca1886b4b450",
+      "state": "ME",
+      "project_id": "027478.00",
+      "description": "October AUGUSTA HEADS UP - EASTERN AVE PED",
+      "cost_low": 373000,
+      "cost_high": 373000,
+      "cost_display": "$373K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October AUGUSTA HEADS UP - EASTERN AVE PED",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "94d3a5403d42",
+      "state": "ME",
+      "project_id": "026406.00",
+      "description": "October HALLOWELL HEADS UP, PED SAFETY",
+      "cost_low": 433000,
+      "cost_high": 433000,
+      "cost_display": "$433K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October HALLOWELL HEADS UP",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5f127fdfe287",
+      "state": "ME",
+      "project_id": "026324.00",
+      "description": "October HALLOWELL/AUGUSTA HEADS UP - SECOND ST.",
+      "cost_low": 1905000,
+      "cost_high": 1905000,
+      "cost_display": "$1.9M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October HALLOWELL/AUGUSTA HEADS UP - SECOND ST.",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "75ec079ab046",
+      "state": "ME",
+      "project_id": "026312.00",
+      "description": "October ROCKLAND HEADS UP - RECTANGULAR RAPID",
+      "cost_low": 665000,
+      "cost_high": 665000,
+      "cost_display": "$665K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October ROCKLAND HEADS UP - RECTANGULAR RAPID",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "42599d142d0d",
+      "state": "ME",
+      "project_id": "029662.00",
+      "description": "October SOUTHWEST HARBOR, SMALL HARBOR",
+      "cost_low": 200000,
+      "cost_high": 200000,
+      "cost_display": "$200K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October SOUTHWEST HARBOR",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9fb5a65b0c26",
+      "state": "ME",
+      "project_id": "025337.00",
+      "description": "October DAMARISCOTTA, MAIN STREET SIDEWALK AND",
+      "cost_low": 1730000,
+      "cost_high": 1730000,
+      "cost_display": "$1.7M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October DAMARISCOTTA",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d00f788a1604",
+      "state": "ME",
+      "project_id": "029898.00",
+      "description": "October CUMBERLAND, SHIP",
+      "cost_low": 260000,
+      "cost_high": 260000,
+      "cost_display": "$260K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "October CUMBERLAND",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c0a12e5b87cd",
+      "state": "ME",
+      "project_id": "026328.00",
+      "description": "November BRUNSWICK HEADS UP - PED CROSSING AT",
+      "cost_low": 399000,
+      "cost_high": 399000,
+      "cost_display": "$399K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "November BRUNSWICK HEADS UP - PED CROSSING AT",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b46d465d322c",
+      "state": "ME",
+      "project_id": "028722.00",
+      "description": "December MATINICUS ISL. PLANTATION, SHIP/BIG",
+      "cost_low": 107000,
+      "cost_high": 107000,
+      "cost_display": "$107K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "December MATINICUS ISL. PLANTATION",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9f04052fe89b",
+      "state": "ME",
+      "project_id": "027752.00",
+      "description": "December LINCOLNVILLE AND ISLESBORO FERRY",
+      "cost_low": 13415000,
+      "cost_high": 13415000,
+      "cost_display": "$13.4M",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "December LINCOLNVILLE AND ISLESBORO FERRY",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "35a3e1e1a2f4",
+      "state": "ME",
+      "project_id": "028472.00",
+      "description": "December SKOWHEGAN, ROUTE 201A",
+      "cost_low": 663000,
+      "cost_high": 663000,
+      "cost_display": "$663K",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Multimodal",
+      "location": "December SKOWHEGAN",
+      "district": null,
+      "url": "https://www.maine.gov/dot/major-projects/cap",
+      "source": "MaineDOT CAP",
       "business_lines": [
         "highway"
       ]

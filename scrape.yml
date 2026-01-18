@@ -23,7 +23,7 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install requests feedparser beautifulsoup4
+          pip install requests feedparser beautifulsoup4 pdfplumber
           
       - name: Run scraper
         run: python scraper.py

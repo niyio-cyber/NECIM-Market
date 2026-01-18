@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-NECMIS Scraper - Phase 3.0 (Dynamic NHDOT Parser)
-==================================================
+NECMIS Scraper - Phase 3.0 + v5 Enhancements (Deduplication + Manual STIP)
+===========================================================================
 MA: Plain text parser (PRESERVED - NO CHANGES)
 ME: Excel/PDF parser (PRESERVED - NO CHANGES)
-NH: Dynamic multi-approach parser (sessions, Playwright, multiple sources)
+NH: Dynamic multi-approach parser with DEDUPLICATION + Manual STIP folder
+
+v5 Additions:
+- ProjectDeduplicator class removes duplicate NH projects by project_id
+- Manual STIP folder (data/nh_stip/) for user-committed PDFs
+- All tiers now collect projects, deduplication applied at end
 """
 
 import json
@@ -83,6 +88,9 @@ NH_LIVE_SOURCES = {
     ]
 }
 
+# Manual STIP PDFs - user commits these to data/nh_stip/ directory
+MANUAL_NH_STIP_DIR = 'data/nh_stip'
+
 CONSTRUCTION_KEYWORDS = {
     'high_priority': ['highway', 'bridge', 'DOT', 'bid', 'letting', 'RFP', 'contract award', 'paving', 'resurfacing', 'infrastructure', 'IIJA', 'federal grant'],
     'medium_priority': ['construction', 'road', 'pavement', 'asphalt', 'concrete', 'aggregate', 'gravel', 'development', 'permit', 'municipal'],
@@ -152,6 +160,68 @@ def clean_location(loc: str) -> str:
         num = re.search(r'\d+', loc)
         return f"District {num.group()}" if num else "Various Locations"
     return loc.title()
+
+
+# =============================================================================
+# DEDUPLICATION
+# =============================================================================
+
+class ProjectDeduplicator:
+    """Deduplicates projects by project_id across all NH sources."""
+    
+    def __init__(self):
+        self.seen_ids = set()
+        self.seen_titles = set()
+        self.duplicates_removed = 0
+    
+    def normalize_project_id(self, project_id: str) -> str:
+        """Normalize project ID for comparison."""
+        if not project_id:
+            return ""
+        # Remove common prefixes/suffixes, standardize format
+        normalized = re.sub(r'[^A-Z0-9]', '', str(project_id).upper())
+        return normalized
+    
+    def normalize_title(self, title: str) -> str:
+        """Normalize title for fuzzy matching."""
+        if not title:
+            return ""
+        # Lowercase, remove punctuation, normalize whitespace
+        normalized = re.sub(r'[^\w\s]', '', str(title).lower())
+        normalized = ' '.join(normalized.split())
+        return normalized
+    
+    def is_duplicate(self, project: dict) -> bool:
+        """Check if project is a duplicate."""
+        # Check by project_id first (most reliable)
+        project_id = project.get('project_id', '')
+        if project_id:
+            normalized_id = self.normalize_project_id(project_id)
+            if normalized_id and normalized_id in self.seen_ids:
+                self.duplicates_removed += 1
+                return True
+            if normalized_id:
+                self.seen_ids.add(normalized_id)
+        
+        # Fallback: check by normalized title
+        title = project.get('description', '')
+        if title:
+            normalized_title = self.normalize_title(title)
+            if normalized_title and normalized_title in self.seen_titles:
+                self.duplicates_removed += 1
+                return True
+            if normalized_title:
+                self.seen_titles.add(normalized_title)
+        
+        return False
+    
+    def deduplicate(self, projects: list) -> list:
+        """Remove duplicates from project list."""
+        unique = []
+        for p in projects:
+            if not self.is_duplicate(p):
+                unique.append(p)
+        return unique
 
 
 # =============================================================================
@@ -787,7 +857,15 @@ def parse_nhdot() -> List[Dict]:
         total = sum(l.get('cost_low') or 0 for l in lettings)
         print(f"    ✓ Tier 0 success: {len(lettings)} projects, {format_currency(total)}")
         print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
+        # Don't return yet - continue to collect from other sources for deduplication
+    
+    # ==========================================================================
+    # TIER 0.5: Manual STIP PDFs (from data/nh_stip/ directory)
+    # ==========================================================================
+    manual_stip = parse_manual_nh_stip()
+    if manual_stip:
+        lettings.extend(manual_stip)
+        sources_tried.append(f"Manual STIP: {len(manual_stip)} projects")
     
     # ==========================================================================
     # TIER 1: Official NHDOT with Session + Full Browser Mimicking
@@ -828,9 +906,8 @@ def parse_nhdot() -> List[Dict]:
     
     if lettings:
         total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 1 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
+        print(f"    ✓ Tier 1 collected: {len(lettings)} projects so far, {format_currency(total)}")
+        # Continue to collect from other tiers for comprehensive deduplication
     
     # ==========================================================================
     # TIER 2: Playwright Headless Browser (for JS-rendered content)
@@ -850,9 +927,7 @@ def parse_nhdot() -> List[Dict]:
     
     if lettings:
         total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 2 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
+        print(f"    ✓ Tier 2 collected: {len(lettings)} projects so far, {format_currency(total)}")
     
     # ==========================================================================
     # TIER 3: RPC TIP PDFs (Direct Links - Best Source for Costs)
@@ -880,9 +955,7 @@ def parse_nhdot() -> List[Dict]:
     
     if lettings:
         total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 3 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
+        print(f"    ✓ Tier 3 collected: {len(lettings)} projects so far, {format_currency(total)}")
     
     # ==========================================================================
     # TIER 4: Regional Planning Commission HTML Pages (Fallback)
@@ -922,9 +995,7 @@ def parse_nhdot() -> List[Dict]:
     
     if lettings:
         total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 4 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
+        print(f"    ✓ Tier 4 collected: {len(lettings)} projects so far, {format_currency(total)}")
     
     # ==========================================================================
     # TIER 5: Municipal Bid Pages
@@ -949,9 +1020,16 @@ def parse_nhdot() -> List[Dict]:
         except Exception as e:
             sources_tried.append(f"{muni['name']}: {type(e).__name__}")
     
+    # ==========================================================================
+    # FINAL: Apply deduplication and return
+    # ==========================================================================
     if lettings:
+        # Deduplicate all collected projects
+        lettings = deduplicate_nh_projects(lettings)
+        
         total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 4 success: {len(lettings)} projects, {format_currency(total)}")
+        with_cost = len([l for l in lettings if l.get('cost_low')])
+        print(f"    ✓ NH Final: {len(lettings)} unique projects ({with_cost} with $), {format_currency(total)}")
         print(f"      Sources: {', '.join(sources_tried)}")
         return lettings
     
@@ -963,6 +1041,20 @@ def parse_nhdot() -> List[Dict]:
     
     # Return portal stub with clear message - NO STATIC DATA
     return [create_portal_stub('NH')]
+
+
+def deduplicate_nh_projects(lettings: List[Dict]) -> List[Dict]:
+    """Apply deduplication to NH projects collected from multiple sources."""
+    if not lettings:
+        return lettings
+    
+    dedup = ProjectDeduplicator()
+    unique = dedup.deduplicate(lettings)
+    
+    if dedup.duplicates_removed > 0:
+        print(f"    🔄 Deduplication: removed {dedup.duplicates_removed} duplicates")
+    
+    return unique
 
 
 def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
@@ -1088,6 +1180,49 @@ def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
         traceback.print_exc()
     
     return []
+
+
+def parse_manual_nh_stip() -> List[Dict]:
+    """Parse manually committed NH STIP PDFs from data/nh_stip/ directory."""
+    if not os.path.exists(MANUAL_NH_STIP_DIR):
+        return []
+    
+    try:
+        import pdfplumber
+    except ImportError:
+        return []
+    
+    lettings = []
+    pdf_files = [f for f in os.listdir(MANUAL_NH_STIP_DIR) if f.lower().endswith('.pdf')]
+    
+    if pdf_files:
+        print(f"    📁 Found {len(pdf_files)} manual STIP PDFs")
+    
+    for pdf_file in pdf_files:
+        pdf_path = os.path.join(MANUAL_NH_STIP_DIR, pdf_file)
+        print(f"      📄 Parsing {pdf_file}...")
+        
+        try:
+            with open(pdf_path, 'rb') as f:
+                pdf_content = f.read()
+            
+            # Use existing STIP parser
+            parsed = parse_nh_stip_pdf(pdf_content, pdf_path)
+            if parsed:
+                # Update source to indicate manual
+                for p in parsed:
+                    p['source'] = f'NH STIP (Manual: {pdf_file})'
+                lettings.extend(parsed)
+                
+        except Exception as e:
+            print(f"      ⚠ Error parsing {pdf_file}: {e}")
+    
+    if lettings:
+        with_cost = len([l for l in lettings if l.get('cost_low')])
+        total = sum(l.get('cost_low') or 0 for l in lettings)
+        print(f"      ✓ Manual STIP: {len(lettings)} projects ({with_cost} with $), {format_currency(total)}")
+    
+    return lettings
 
 
 def parse_nhdot_html(html: str, url: str, source_name: str) -> List[Dict]:
@@ -1742,7 +1877,7 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
 
 def run_scraper() -> Dict:
     print("=" * 60)
-    print("NECMIS SCRAPER - PHASE 3.0 (Dynamic NHDOT Parser)")
+    print("NECMIS SCRAPER v5 - Deduplication + Manual STIP")
     print("=" * 60)
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()

@@ -20,14 +20,6 @@ except ImportError as e:
     print(f"Missing dependency: {e}")
     raise
 
-# For Maine Excel parsing
-try:
-    import pandas as pd
-    HAS_PANDAS = True
-except ImportError:
-    HAS_PANDAS = False
-    print("Note: pandas not installed - Maine Excel parser will use fallback")
-
 
 # =============================================================================
 # CONFIGURATION
@@ -50,7 +42,7 @@ RSS_FEEDS = {
 
 DOT_SOURCES = {
     'MA': {'name': 'MassDOT', 'portal_url': 'https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp', 'parser': 'active'},
-    'ME': {'name': 'MaineDOT', 'portal_url': 'https://www.maine.gov/mdot/projects/advertised/', 'parser': 'active'},  # CHANGED: stub -> active
+    'ME': {'name': 'MaineDOT', 'portal_url': 'https://www.maine.gov/dot/doing-business/bid-opportunities', 'parser': 'active'},
     'NH': {'name': 'NHDOT', 'portal_url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid', 'parser': 'stub'},
     'VT': {'name': 'VTrans', 'portal_url': 'https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting', 'parser': 'stub'},
     'NY': {'name': 'NYSDOT', 'portal_url': 'https://www.dot.ny.gov/doing-business/opportunities/const-highway', 'parser': 'stub'},
@@ -312,240 +304,120 @@ def parse_massdot() -> List[Dict]:
 
 
 # =============================================================================
-# MAINEDOT PARSER (NEW) - Excel from CAP Schedule
+# MAINEDOT PARSER - HTML table from Bid Opportunities page
 # =============================================================================
 
 def parse_mainedot() -> List[Dict]:
     """
-    Parse MaineDOT Capital Advertising Program (CAP) Schedule.
-    Primary: Excel file from https://www.maine.gov/dot/major-projects/cap/schedule
-    Fallback: HTML table scraping
+    Parse MaineDOT Bid Opportunities page.
+    URL: https://www.maine.gov/dot/doing-business/bid-opportunities
+    The page has an HTML table with current bid projects.
     """
     lettings = []
+    html_url = "https://www.maine.gov/dot/doing-business/bid-opportunities"
     
-    # Excel URL for CAP Schedule
-    excel_url = "https://www.maine.gov/dot/major-projects/cap/schedule/docs/CAP-Schedule.xlsx"
-    
-    # Try Excel first if pandas available
-    if HAS_PANDAS:
-        try:
-            print(f"    🔍 Fetching MaineDOT Excel...")
-            response = requests.get(excel_url, timeout=30, headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-            })
-            
-            if response.status_code == 200:
-                print(f"    📄 Got {len(response.content)} bytes")
-                
-                import io
-                excel_data = io.BytesIO(response.content)
-                
-                # Try openpyxl first (xlsx), then xlrd (xls)
-                try:
-                    df = pd.read_excel(excel_data, engine='openpyxl')
-                except:
-                    excel_data.seek(0)
-                    try:
-                        df = pd.read_excel(excel_data, engine='xlrd')
-                    except:
-                        df = pd.read_excel(excel_data)
-                
-                print(f"    📊 Loaded {len(df)} rows")
-                print(f"    📝 Columns: {list(df.columns)[:6]}...")
-                
-                # Map columns - MaineDOT uses various names
-                col_map = {}
-                for col in df.columns:
-                    col_lower = str(col).lower()
-                    if 'win' in col_lower or 'project' in col_lower and 'number' in col_lower:
-                        col_map['win'] = col
-                    elif 'description' in col_lower or 'summary' in col_lower or 'work' in col_lower:
-                        col_map['description'] = col
-                    elif 'town' in col_lower or 'location' in col_lower or 'municipal' in col_lower:
-                        col_map['location'] = col
-                    elif 'county' in col_lower:
-                        col_map['county'] = col
-                    elif 'ad' in col_lower and 'date' in col_lower:
-                        col_map['ad_date'] = col
-                    elif 'let' in col_lower and 'date' in col_lower:
-                        col_map['let_date'] = col
-                    elif 'cost' in col_lower or 'estimate' in col_lower or 'amount' in col_lower:
-                        col_map['cost'] = col
-                
-                print(f"    📝 Mapped: {list(col_map.keys())}")
-                
-                for idx, row in df.iterrows():
-                    try:
-                        # Get description (required)
-                        desc = None
-                        if 'description' in col_map:
-                            desc = row[col_map['description']]
-                            if pd.isna(desc):
-                                desc = None
-                            else:
-                                desc = str(desc).strip()
-                        
-                        if not desc or desc == 'nan':
-                            continue
-                        
-                        # Get WIN
-                        win = None
-                        if 'win' in col_map:
-                            win = row[col_map['win']]
-                            if pd.notna(win):
-                                win = str(win).replace('.0', '').strip()
-                            else:
-                                win = None
-                        
-                        # Get location
-                        location = None
-                        if 'location' in col_map:
-                            location = row[col_map['location']]
-                            if pd.notna(location):
-                                location = str(location).strip()
-                            else:
-                                location = None
-                        if location == 'nan':
-                            location = None
-                        
-                        # Get county
-                        county = None
-                        if 'county' in col_map:
-                            county = row[col_map['county']]
-                            if pd.notna(county):
-                                county = str(county).strip()
-                            else:
-                                county = None
-                        if county == 'nan':
-                            county = None
-                        
-                        # Build location string
-                        loc_str = location
-                        if county and location:
-                            loc_str = f"{location}, {county} County"
-                        elif county:
-                            loc_str = f"{county} County"
-                        
-                        # Get ad_date
-                        ad_date = None
-                        if 'ad_date' in col_map:
-                            ad_val = row[col_map['ad_date']]
-                            if pd.notna(ad_val):
-                                if isinstance(ad_val, datetime):
-                                    ad_date = ad_val.strftime('%Y-%m-%d')
-                                else:
-                                    try:
-                                        ad_date = pd.to_datetime(ad_val).strftime('%Y-%m-%d')
-                                    except:
-                                        pass
-                        
-                        # Get let_date
-                        let_date = None
-                        if 'let_date' in col_map:
-                            let_val = row[col_map['let_date']]
-                            if pd.notna(let_val):
-                                if isinstance(let_val, datetime):
-                                    let_date = let_val.strftime('%Y-%m-%d')
-                                else:
-                                    try:
-                                        let_date = pd.to_datetime(let_val).strftime('%Y-%m-%d')
-                                    except:
-                                        pass
-                        
-                        # Get cost
-                        cost = None
-                        if 'cost' in col_map:
-                            cost_val = row[col_map['cost']]
-                            if pd.notna(cost_val):
-                                if isinstance(cost_val, (int, float)):
-                                    cost = int(cost_val)
-                                else:
-                                    parsed = parse_currency(str(cost_val))
-                                    if parsed:
-                                        cost = int(parsed)
-                        
-                        # Create letting record
-                        letting = {
-                            'id': generate_id(f"ME-{win or idx}-{desc[:25]}"),
-                            'state': 'ME',
-                            'project_id': win,
-                            'description': desc[:200],
-                            'cost_low': cost,
-                            'cost_high': cost,
-                            'cost_display': format_currency(cost) if cost else 'TBD',
-                            'ad_date': ad_date,
-                            'let_date': let_date,
-                            'project_type': None,
-                            'location': loc_str,
-                            'district': None,
-                            'url': DOT_SOURCES['ME']['portal_url'],
-                            'source': 'MaineDOT',
-                            'business_lines': get_business_lines(desc)
-                        }
-                        lettings.append(letting)
-                        
-                    except Exception as e:
-                        continue
-                
-                if lettings:
-                    total = sum(l.get('cost_low') or 0 for l in lettings)
-                    with_cost = len([l for l in lettings if l.get('cost_low')])
-                    print(f"    ✓ {len(lettings)} projects ({with_cost} with $), {format_currency(total)} pipeline")
-                    return lettings
-                    
-        except Exception as e:
-            print(f"    ⚠ Excel failed: {e}")
-    
-    # Fallback: scrape HTML advertised projects page
     try:
-        print(f"    🔄 Trying HTML fallback...")
-        html_url = "https://www.maine.gov/mdot/projects/advertised/"
+        print(f"    🔍 Fetching MaineDOT bid opportunities...")
         response = requests.get(html_url, timeout=30, headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
         response.raise_for_status()
         
+        print(f"    📄 Got {len(response.text)} bytes")
+        
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Look for project links or tables
-        links = soup.find_all('a', href=True)
-        for link in links:
-            href = link.get('href', '')
-            text = link.get_text(strip=True)
+        # Find the bid table - it has columns: Bid Date, WIN(s), Municipality, Summary, Status, Date posted
+        table = soup.find('table')
+        if not table:
+            print(f"    ⚠ No table found")
+            return [create_portal_stub('ME')]
+        
+        rows = table.find_all('tr')
+        print(f"    📊 Found {len(rows)} table rows")
+        
+        for row in rows[1:]:  # Skip header row
+            cells = row.find_all('td')
+            if len(cells) < 4:
+                continue
             
-            # Look for project-like links (WIN numbers, bid documents)
-            if 'win' in href.lower() or 'bid' in href.lower() or re.search(r'\d{5,}', text):
-                # Extract what we can
-                win_match = re.search(r'(\d{5,})', text + href)
-                win = win_match.group(1) if win_match else None
+            try:
+                # Extract data from cells
+                # Column order: Bid Date | WIN(s) | Municipality | Summary | Status | Date posted
+                bid_date_text = cells[0].get_text(strip=True)
+                win_cell = cells[1]
+                municipality = cells[2].get_text(strip=True)
+                summary = cells[3].get_text(strip=True)
+                
+                # Get WIN and project link
+                win_link = win_cell.find('a')
+                win = win_cell.get_text(strip=True)
+                project_url = html_url
+                if win_link and win_link.get('href'):
+                    href = win_link.get('href')
+                    if href.startswith('/'):
+                        project_url = f"https://www.maine.gov{href}"
+                    elif href.startswith('http'):
+                        project_url = href
+                
+                # Parse bid date
+                let_date = None
+                if bid_date_text:
+                    try:
+                        # Format: MM/DD/YYYY
+                        let_date = datetime.strptime(bid_date_text, '%m/%d/%Y').strftime('%Y-%m-%d')
+                    except:
+                        pass
+                
+                # Build description
+                desc = summary if summary else f"MaineDOT Project {win}"
+                
+                # Determine project type from description
+                proj_type = None
+                desc_lower = desc.lower()
+                if 'bridge' in desc_lower:
+                    proj_type = 'Bridge'
+                elif 'pavement' in desc_lower or 'resurfacing' in desc_lower or 'overlay' in desc_lower:
+                    proj_type = 'Pavement'
+                elif 'highway' in desc_lower or 'interchange' in desc_lower:
+                    proj_type = 'Highway'
+                elif 'culvert' in desc_lower:
+                    proj_type = 'Culvert'
+                elif 'signal' in desc_lower:
+                    proj_type = 'Signals'
                 
                 letting = {
-                    'id': generate_id(f"ME-{win or text[:20]}"),
+                    'id': generate_id(f"ME-{win}-{desc[:25]}"),
                     'state': 'ME',
                     'project_id': win,
-                    'description': text[:200] if text else 'MaineDOT Project',
-                    'cost_low': None,
+                    'description': desc[:200],
+                    'cost_low': None,  # MaineDOT doesn't show estimates on this page
                     'cost_high': None,
                     'cost_display': 'See Portal',
                     'ad_date': None,
-                    'let_date': None,
-                    'project_type': None,
-                    'location': None,
+                    'let_date': let_date,
+                    'project_type': proj_type,
+                    'location': municipality,
                     'district': None,
-                    'url': html_url,
+                    'url': project_url,
                     'source': 'MaineDOT',
-                    'business_lines': get_business_lines(text)
+                    'business_lines': get_business_lines(desc)
                 }
                 lettings.append(letting)
+                
+            except Exception as e:
+                continue
         
         if lettings:
-            print(f"    ✓ {len(lettings)} projects from HTML")
+            print(f"    ✓ {len(lettings)} projects from bid table")
             return lettings
             
     except Exception as e:
-        print(f"    ⚠ HTML fallback failed: {e}")
+        print(f"    ✗ Error: {e}")
+        import traceback
+        traceback.print_exc()
     
-    # Ultimate fallback: portal stub
+    # Fallback: portal stub
     print(f"    ⚠ Using portal stub")
     return [create_portal_stub('ME')]
 

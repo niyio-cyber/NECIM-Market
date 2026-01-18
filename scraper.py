@@ -43,7 +43,7 @@ RSS_FEEDS = {
 DOT_SOURCES = {
     'MA': {'name': 'MassDOT', 'portal_url': 'https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp', 'parser': 'active'},
     'ME': {'name': 'MaineDOT', 'portal_url': 'https://www.maine.gov/dot/major-projects/cap', 'parser': 'active'},
-    'NH': {'name': 'NHDOT', 'portal_url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid', 'parser': 'stub'},
+    'NH': {'name': 'NHDOT', 'portal_url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid', 'parser': 'active'},
     'VT': {'name': 'VTrans', 'portal_url': 'https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting', 'parser': 'stub'},
     'NY': {'name': 'NYSDOT', 'portal_url': 'https://www.dot.ny.gov/doing-business/opportunities/const-highway', 'parser': 'stub'},
     'RI': {'name': 'RIDOT', 'portal_url': 'https://www.dot.ri.gov/about/current_projects.php', 'parser': 'stub'},
@@ -709,6 +709,268 @@ def parse_mainedot() -> List[Dict]:
 
 
 # =============================================================================
+# NEW HAMPSHIRE DOT PARSER
+# =============================================================================
+
+def parse_nhdot() -> List[Dict]:
+    """
+    Parse NHDOT bid information.
+    
+    Sources (in priority order):
+    1. Invitation to Bid HTML page - current active bids with project details
+    2. Advertising Schedule PDF - future projects with dates
+    3. Portal stub fallback
+    
+    Note: NHDOT manages ~$200M annual construction program
+    """
+    lettings = []
+    
+    # URLs
+    itb_url = "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid"
+    alt_itb_url = "https://www.nh.gov/dot/org/administration/finance/bids/invitations/index.htm"
+    ad_schedule_url = "https://mm.nh.gov/files/uploads/dot/remote-docs/current-ad-schedule.pdf"
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Connection': 'keep-alive',
+    }
+    
+    # === ATTEMPT 1: Parse Invitation to Bid HTML ===
+    for url in [itb_url, alt_itb_url]:
+        try:
+            print(f"    🔍 Fetching NHDOT Invitation to Bid...")
+            response = requests.get(url, timeout=30, headers=headers)
+            
+            if response.status_code == 403:
+                print(f"    ⚠ Access blocked (403), trying alternative...")
+                continue
+                
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            print(f"    📄 Got HTML: {len(response.text)} bytes")
+            
+            # Look for project entries - NHDOT uses various formats
+            # Try to find project blocks with project numbers like 45075, 43071A, etc.
+            text = soup.get_text()
+            
+            # Pattern for NHDOT projects: Project number followed by scope/description
+            # Examples from search results:
+            # - "Statewide Tier 2 Resurfacing (Central) 45075"
+            # - "Belmont-Gilford-Tilton 45073"
+            # - "Manchester-Hooksett 43071A"
+            
+            # Find all project number patterns
+            project_patterns = [
+                r'([A-Za-z\-\s]+)\s+(\d{5}[A-Z]?)\s+[Ss]cope[:\s]+([^\n]+)',
+                r'(\d{5}[A-Z]?)\s*[-–]\s*([^\n]+)',
+                r'Project\s+(?:Number|#|No\.?)?\s*[:\s]*(\d{5}[A-Z]?)',
+            ]
+            
+            found_projects = []
+            
+            for pattern in project_patterns:
+                matches = re.findall(pattern, text, re.IGNORECASE)
+                for match in matches:
+                    if isinstance(match, tuple):
+                        found_projects.append(match)
+                    else:
+                        found_projects.append((match,))
+            
+            # Also look for table rows with project info
+            tables = soup.find_all('table')
+            for table in tables:
+                rows = table.find_all('tr')
+                for row in rows:
+                    cells = row.find_all(['td', 'th'])
+                    if len(cells) >= 2:
+                        row_text = ' '.join(c.get_text(strip=True) for c in cells)
+                        # Look for project numbers
+                        proj_match = re.search(r'(\d{5}[A-Z]?)', row_text)
+                        if proj_match:
+                            found_projects.append((row_text, proj_match.group(1)))
+            
+            # Also look for links to specific projects
+            links = soup.find_all('a', href=True)
+            for link in links:
+                link_text = link.get_text(strip=True)
+                href = link.get('href', '')
+                
+                # NHDOT project links often contain project numbers
+                proj_match = re.search(r'(\d{5}[A-Z]?)', f"{link_text} {href}")
+                if proj_match and len(link_text) > 10:
+                    found_projects.append((link_text, proj_match.group(1), href))
+            
+            print(f"    🔬 Found {len(found_projects)} potential project entries")
+            
+            # Process found projects
+            seen_ids = set()
+            for proj in found_projects:
+                try:
+                    if len(proj) >= 2:
+                        description = str(proj[0])[:200] if proj[0] else ''
+                        project_id = str(proj[1]) if len(proj) > 1 else None
+                    else:
+                        description = str(proj[0])[:200]
+                        project_id = re.search(r'(\d{5}[A-Z]?)', description)
+                        project_id = project_id.group(1) if project_id else None
+                    
+                    if not project_id or project_id in seen_ids:
+                        continue
+                    seen_ids.add(project_id)
+                    
+                    # Get URL if available
+                    proj_url = itb_url
+                    if len(proj) >= 3 and proj[2]:
+                        if proj[2].startswith('http'):
+                            proj_url = proj[2]
+                        elif proj[2].startswith('/'):
+                            proj_url = f"https://www.dot.nh.gov{proj[2]}"
+                    
+                    # Determine project type from description
+                    desc_lower = description.lower()
+                    if 'resurfacing' in desc_lower or 'paving' in desc_lower or 'pavement' in desc_lower:
+                        proj_type = 'Pavement'
+                    elif 'bridge' in desc_lower:
+                        proj_type = 'Bridge'
+                    elif 'i-93' in desc_lower or 'i-89' in desc_lower or 'interstate' in desc_lower:
+                        proj_type = 'Highway'
+                    elif 'intersection' in desc_lower or 'signal' in desc_lower:
+                        proj_type = 'Safety'
+                    else:
+                        proj_type = 'Highway'
+                    
+                    # Extract location from description
+                    location = None
+                    # Common NH town names in the beginning of descriptions
+                    loc_match = re.match(r'^([A-Z][a-z]+(?:[\-\s][A-Z][a-z]+)*)', description)
+                    if loc_match:
+                        location = loc_match.group(1)
+                    
+                    lettings.append({
+                        'id': generate_id(f"NH-{project_id}"),
+                        'state': 'NH',
+                        'project_id': project_id,
+                        'description': description,
+                        'cost_low': None,  # NHDOT ITB page doesn't show cost estimates
+                        'cost_high': None,
+                        'cost_display': 'See Bid Docs',
+                        'ad_date': None,
+                        'let_date': None,
+                        'project_type': proj_type,
+                        'location': location,
+                        'district': None,
+                        'url': proj_url,
+                        'source': 'NHDOT',
+                        'business_lines': get_business_lines(description)
+                    })
+                    
+                except Exception as e:
+                    continue
+            
+            if lettings:
+                print(f"    ✓ {len(lettings)} projects from Invitation to Bid")
+                return lettings
+            else:
+                print(f"    ⚠ No projects extracted from HTML")
+                
+        except requests.exceptions.HTTPError as e:
+            if '403' in str(e):
+                print(f"    ⚠ Access blocked (403)")
+            else:
+                print(f"    ⚠ HTTP error: {e}")
+        except Exception as e:
+            print(f"    ⚠ HTML parse error: {e}")
+    
+    # === ATTEMPT 2: Parse Advertising Schedule PDF ===
+    try:
+        print(f"    🔄 Fetching NHDOT Advertising Schedule PDF...")
+        response = requests.get(ad_schedule_url, timeout=60, headers=headers)
+        
+        if response.status_code == 403:
+            print(f"    ⚠ PDF access blocked (403)")
+        else:
+            response.raise_for_status()
+            print(f"    📄 Got PDF: {len(response.content)} bytes")
+            
+            try:
+                import pdfplumber
+                import io
+                
+                with pdfplumber.open(io.BytesIO(response.content)) as pdf:
+                    print(f"    📑 PDF has {len(pdf.pages)} pages")
+                    
+                    for page in pdf.pages:
+                        text = page.extract_text() or ''
+                        lines = text.split('\n')
+                        
+                        for line in lines:
+                            # Look for project entries with dates and project numbers
+                            # Format: "TOWN PROJECT# DATE DESCRIPTION"
+                            proj_match = re.search(r'(\d{5}[A-Z]?)', line)
+                            date_match = re.search(r'(\d{1,2}/\d{1,2}/20\d{2})', line)
+                            
+                            if proj_match:
+                                project_id = proj_match.group(1)
+                                if project_id in [l['project_id'] for l in lettings]:
+                                    continue
+                                
+                                # Parse the line for more details
+                                description = line[:200].strip()
+                                let_date = None
+                                if date_match:
+                                    try:
+                                        let_date = datetime.strptime(date_match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
+                                    except:
+                                        pass
+                                
+                                # Determine project type
+                                desc_lower = description.lower()
+                                if 'resurfacing' in desc_lower or 'paving' in desc_lower:
+                                    proj_type = 'Pavement'
+                                elif 'bridge' in desc_lower:
+                                    proj_type = 'Bridge'
+                                else:
+                                    proj_type = 'Highway'
+                                
+                                lettings.append({
+                                    'id': generate_id(f"NH-{project_id}"),
+                                    'state': 'NH',
+                                    'project_id': project_id,
+                                    'description': description,
+                                    'cost_low': None,
+                                    'cost_high': None,
+                                    'cost_display': 'See Bid Docs',
+                                    'ad_date': let_date,
+                                    'let_date': let_date,
+                                    'project_type': proj_type,
+                                    'location': None,
+                                    'district': None,
+                                    'url': itb_url,
+                                    'source': 'NHDOT Ad Schedule',
+                                    'business_lines': get_business_lines(description)
+                                })
+                    
+                    if lettings:
+                        print(f"    ✓ {len(lettings)} projects from Ad Schedule PDF")
+                        return lettings
+                        
+            except ImportError:
+                print(f"    ⚠ pdfplumber not installed")
+            except Exception as e:
+                print(f"    ⚠ PDF parse error: {e}")
+                
+    except Exception as e:
+        print(f"    ⚠ PDF fetch error: {e}")
+    
+    # === FALLBACK: Portal stub ===
+    print(f"    ⚠ All sources failed, using portal stub")
+    return [create_portal_stub('NH')]
+
+
+# =============================================================================
 # PORTAL STUBS
 # =============================================================================
 
@@ -746,6 +1008,8 @@ def fetch_dot_lettings() -> List[Dict]:
                 lettings.extend(parse_massdot())
             elif cfg['parser'] == 'active' and state == 'ME':
                 lettings.extend(parse_mainedot())
+            elif cfg['parser'] == 'active' and state == 'NH':
+                lettings.extend(parse_nhdot())
             else:
                 lettings.append(create_portal_stub(state))
                 print(f"    ✓ Portal link")

@@ -3,613 +3,458 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NECMIS - Northeast Construction Intelligence</title>
+    <title>NECMIS - Market Intelligence</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        :root {
-            --blue: #1e3a5f;
-            --blue-light: #2d5a87;
-            --green: #059669;
-            --red: #dc2626;
-            --orange: #d97706;
-            --gray: #6b7280;
-            --gray-light: #f3f4f6;
-        }
-        
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--gray-light);
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
-            line-height: 1.5;
+            color: #e0e0e0;
         }
-        
-        /* PASSWORD SCREEN */
-        #password-screen {
-            position: fixed;
-            inset: 0;
-            background: linear-gradient(135deg, var(--blue) 0%, var(--blue-light) 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-        }
-        
-        .password-box {
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 25px 50px rgba(0,0,0,0.25);
-            text-align: center;
-            max-width: 400px;
-            width: 90%;
-        }
-        
-        .password-box h1 { color: var(--blue); margin-bottom: 8px; font-size: 1.5em; }
-        .password-box p { color: var(--gray); margin-bottom: 24px; }
-        
-        .password-box input {
-            width: 100%;
-            padding: 12px 16px;
-            border: 2px solid #e5e7eb;
-            border-radius: 8px;
-            font-size: 16px;
-            margin-bottom: 16px;
-        }
-        
-        .password-box input:focus { outline: none; border-color: var(--blue); }
-        
-        .password-box button {
-            width: 100%;
-            padding: 12px;
-            background: var(--blue);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-        }
-        
-        .password-box button:hover { background: var(--blue-light); }
-        .password-error { color: var(--red); font-size: 14px; margin-top: 12px; display: none; }
-        
-        /* MAIN APP */
-        #app { display: none; }
-        
-        .header {
-            background: linear-gradient(135deg, var(--blue) 0%, var(--blue-light) 100%);
-            color: white;
-            padding: 20px;
-        }
-        
-        .header-content { max-width: 1400px; margin: 0 auto; }
-        .header h1 { font-size: 1.75em; margin-bottom: 4px; }
-        .header-meta { display: flex; gap: 20px; font-size: 0.9em; opacity: 0.9; flex-wrap: wrap; }
-        
         .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
         
-        /* STATS */
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 12px;
-            margin-bottom: 20px;
+        /* Login */
+        .login-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.95); display: flex; justify-content: center;
+            align-items: center; z-index: 1000;
         }
+        .login-overlay.hidden { display: none; }
+        .login-box {
+            background: #1e2a3a; padding: 40px; border-radius: 16px;
+            text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        .login-box h2 { color: #4da6ff; margin-bottom: 10px; }
+        .login-box p { color: #888; margin-bottom: 20px; font-size: 0.9em; }
+        .login-box input {
+            padding: 12px 20px; border: 2px solid #333; border-radius: 8px;
+            background: #0d1520; color: #fff; font-size: 1em; width: 250px;
+            margin-bottom: 15px;
+        }
+        .login-box button {
+            padding: 12px 30px; background: linear-gradient(135deg, #4da6ff, #2d7dd2);
+            border: none; border-radius: 8px; color: white; font-weight: 600;
+            cursor: pointer; font-size: 1em;
+        }
+        .login-error { color: #ff6b6b; margin-top: 10px; font-size: 0.9em; }
+        .login-error.hidden { display: none; }
         
+        /* Header */
+        .header {
+            background: rgba(30, 42, 58, 0.95); border-radius: 16px;
+            padding: 25px; margin-bottom: 25px;
+            border: 1px solid rgba(77, 166, 255, 0.2);
+        }
+        .header h1 { color: #4da6ff; font-size: 1.8em; margin-bottom: 5px; }
+        .header .subtitle { color: #888; font-size: 0.95em; }
+        .header .date { color: #4da6ff; font-weight: 600; }
+        
+        /* Stats Grid */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px; margin-bottom: 25px;
+        }
         .stat-card {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            text-align: center;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            background: rgba(30, 42, 58, 0.9); border-radius: 12px; padding: 20px;
+            text-align: center; border: 1px solid rgba(77, 166, 255, 0.15);
         }
+        .stat-card .value { font-size: 1.8em; font-weight: 700; color: #4da6ff; }
+        .stat-card .label { font-size: 0.85em; color: #888; margin-top: 5px; }
         
-        .stat-value { font-size: 1.8em; font-weight: 700; color: var(--blue); }
-        .stat-label { font-size: 0.8em; color: var(--gray); }
-        
-        /* FILTERS */
-        .filters {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        /* Market Health */
+        .market-health {
+            background: rgba(30, 42, 58, 0.95); border-radius: 16px;
+            padding: 25px; margin-bottom: 25px;
+            border: 1px solid rgba(77, 166, 255, 0.2);
         }
+        .section-title { color: #4da6ff; font-size: 1.3em; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .section-subtitle { color: #666; font-size: 0.85em; margin-bottom: 20px; }
+        .overall-score {
+            text-align: center; padding: 20px; background: rgba(77, 166, 255, 0.1);
+            border-radius: 12px; margin-bottom: 20px;
+        }
+        .overall-score .score { font-size: 3em; font-weight: 700; color: #4da6ff; }
+        .overall-score .status { font-size: 1.1em; color: #888; margin-top: 5px; }
+        .overall-score .guidance { font-size: 0.85em; color: #666; margin-top: 10px; }
+        .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+        .metric-card {
+            background: rgba(13, 21, 32, 0.8); border-radius: 10px; padding: 15px;
+            border-left: 4px solid #4da6ff;
+        }
+        .metric-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .metric-name { font-weight: 600; color: #e0e0e0; font-size: 0.95em; }
+        .metric-score { font-size: 1.2em; font-weight: 700; }
+        .metric-trend { font-size: 0.9em; }
+        .trend-up { color: #4ade80; }
+        .trend-down { color: #f87171; }
+        .trend-stable { color: #fbbf24; }
+        .metric-action { font-size: 0.85em; color: #888; }
         
-        .filter-row {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            align-items: center;
+        /* Feed */
+        .feed-section {
+            background: rgba(30, 42, 58, 0.95); border-radius: 16px;
+            padding: 25px; margin-bottom: 25px;
+            border: 1px solid rgba(77, 166, 255, 0.2);
+        }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .tab {
+            padding: 10px 20px; border-radius: 8px; cursor: pointer;
+            background: rgba(13, 21, 32, 0.8); color: #888; border: 1px solid transparent;
+            font-size: 0.9em; transition: all 0.2s;
+        }
+        .tab:hover { color: #4da6ff; }
+        .tab.active { background: rgba(77, 166, 255, 0.2); color: #4da6ff; border-color: #4da6ff; }
+        .feed-content { display: none; }
+        .feed-content.active { display: block; }
+        
+        /* Project Cards - Refined */
+        .project-card {
+            background: rgba(13, 21, 32, 0.9); border-radius: 12px; padding: 18px;
+            margin-bottom: 12px; border-left: 4px solid #4da6ff;
+            transition: all 0.2s;
+        }
+        .project-card:hover { transform: translateX(5px); border-left-color: #2dd4bf; }
+        .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+        .project-location { 
+            font-size: 1.1em; font-weight: 700; color: #4da6ff;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .project-value {
+            font-size: 1.3em; font-weight: 700; color: #2dd4bf;
+            white-space: nowrap;
+        }
+        .project-name {
+            font-size: 0.95em; color: #e0e0e0; line-height: 1.5;
             margin-bottom: 10px;
         }
-        
-        .filter-row:last-child { margin-bottom: 0; }
-        .filter-label { font-weight: 600; color: var(--gray); font-size: 0.85em; min-width: 80px; }
-        
-        .filter-btn {
-            padding: 5px 12px;
-            border: 2px solid #e5e7eb;
-            background: white;
-            border-radius: 16px;
-            cursor: pointer;
-            font-size: 0.85em;
-            transition: all 0.2s;
+        .project-meta {
+            display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.85em; color: #888;
+            margin-bottom: 10px;
         }
-        
-        .filter-btn:hover { border-color: var(--blue); }
-        .filter-btn.active { background: var(--blue); color: white; border-color: var(--blue); }
-        
-        /* LAYOUT */
-        .main-layout { display: grid; grid-template-columns: 1fr 300px; gap: 20px; }
-        @media (max-width: 900px) { .main-layout { grid-template-columns: 1fr; } }
-        
-        /* FEED */
-        .feed {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            overflow: hidden;
+        .project-meta span { display: flex; align-items: center; gap: 5px; }
+        .project-type {
+            display: inline-block; padding: 4px 10px; border-radius: 6px;
+            font-size: 0.8em; font-weight: 600; margin-right: 8px;
+            background: rgba(77, 166, 255, 0.15); color: #4da6ff;
         }
-        
-        .feed-header {
-            padding: 16px 20px;
-            border-bottom: 1px solid #e5e7eb;
-            font-weight: 600;
-            font-size: 1.1em;
-            color: var(--blue);
-            display: flex;
-            justify-content: space-between;
+        .project-type.bridge { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
+        .project-type.highway { background: rgba(45, 212, 191, 0.15); color: #2dd4bf; }
+        .project-type.pavement { background: rgba(167, 139, 250, 0.15); color: #a78bfa; }
+        .project-type.drainage { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
+        .project-type.signals { background: rgba(251, 146, 60, 0.15); color: #fb923c; }
+        .project-link {
+            display: inline-block; padding: 6px 14px; border-radius: 6px;
+            font-size: 0.85em; text-decoration: none;
+            background: rgba(77, 166, 255, 0.2); color: #4da6ff;
         }
+        .project-link:hover { background: rgba(77, 166, 255, 0.3); }
         
-        .feed-count { font-weight: normal; font-size: 0.85em; color: var(--gray); }
-        .feed-list { max-height: 70vh; overflow-y: auto; }
-        
-        .news-item {
-            padding: 14px 20px;
-            border-bottom: 1px solid #f3f4f6;
-            transition: background 0.2s;
+        /* News Cards */
+        .news-card {
+            background: rgba(13, 21, 32, 0.9); border-radius: 12px; padding: 18px;
+            margin-bottom: 12px; border-left: 4px solid #a78bfa;
         }
+        .news-card.funding { border-left-color: #2dd4bf; }
+        .news-source { font-size: 0.85em; color: #888; margin-bottom: 5px; }
+        .news-title { font-size: 1em; color: #e0e0e0; margin-bottom: 8px; line-height: 1.4; }
+        .news-summary { font-size: 0.9em; color: #888; line-height: 1.5; }
         
-        .news-item:hover { background: #fafafa; }
-        .news-item:last-child { border-bottom: none; }
-        
-        .news-meta { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
-        
-        .news-state {
-            background: var(--blue);
-            color: white;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.7em;
-            font-weight: 600;
+        /* Sidebar */
+        .main-grid { display: grid; grid-template-columns: 1fr 300px; gap: 25px; }
+        @media (max-width: 900px) { .main-grid { grid-template-columns: 1fr; } }
+        .sidebar-widget {
+            background: rgba(30, 42, 58, 0.95); border-radius: 12px;
+            padding: 20px; margin-bottom: 20px;
+            border: 1px solid rgba(77, 166, 255, 0.15);
         }
-        
-        .news-priority {
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.7em;
-            font-weight: 600;
+        .widget-title { font-size: 1em; color: #4da6ff; margin-bottom: 15px; }
+        .state-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .state-item:last-child { border-bottom: none; }
+        .portal-link {
+            display: block; padding: 10px; margin-bottom: 8px; border-radius: 8px;
+            background: rgba(13, 21, 32, 0.8); text-decoration: none;
+            color: #888; font-size: 0.85em; transition: all 0.2s;
         }
+        .portal-link:hover { background: rgba(77, 166, 255, 0.1); color: #4da6ff; }
+        .portal-link strong { color: #e0e0e0; display: block; margin-bottom: 3px; }
         
-        .news-priority.high { background: #fef2f2; color: var(--red); }
-        .news-priority.medium { background: #fffbeb; color: var(--orange); }
-        .news-priority.low { background: var(--gray-light); color: var(--gray); }
-        
-        .news-biz {
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.7em;
-            background: #ecfdf5;
-            color: var(--green);
-        }
-        
-        .news-date { font-size: 0.7em; color: var(--gray); margin-left: auto; }
-        
-        .news-title { font-weight: 600; color: #1f2937; margin-bottom: 4px; font-size: 0.95em; }
-        .news-title a { color: inherit; text-decoration: none; }
-        .news-title a:hover { color: var(--blue); text-decoration: underline; }
-        
-        .news-source { font-size: 0.8em; color: var(--gray); }
-        
-        /* SIDEBAR */
-        .sidebar { display: flex; flex-direction: column; gap: 16px; }
-        
-        .sidebar-card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-        
-        .sidebar-header {
-            padding: 12px 16px;
-            border-bottom: 1px solid #e5e7eb;
-            font-weight: 600;
-            color: var(--blue);
-            font-size: 0.95em;
-        }
-        
-        .sidebar-content { padding: 16px; }
-        
-        .state-bar { display: flex; align-items: center; padding: 5px 0; }
-        .state-bar-label { width: 30px; font-weight: 600; font-size: 0.8em; }
-        
-        .state-bar-fill {
-            flex: 1;
-            height: 8px;
-            background: #e5e7eb;
-            border-radius: 4px;
-            margin: 0 8px;
-            overflow: hidden;
-        }
-        
-        .state-bar-value {
-            height: 100%;
-            background: var(--blue);
-            border-radius: 4px;
-            transition: width 0.3s;
-        }
-        
-        .state-bar-count { width: 25px; text-align: right; font-size: 0.8em; color: var(--gray); }
-        
-        .dot-link {
-            display: block;
-            padding: 8px 10px;
-            border: 1px solid #e5e7eb;
-            border-radius: 6px;
-            margin-bottom: 6px;
-            text-decoration: none;
-            color: #1f2937;
-            font-size: 0.85em;
-            transition: all 0.2s;
-        }
-        
-        .dot-link:hover { border-color: var(--blue); background: #f0f9ff; }
-        .dot-link:last-child { margin-bottom: 0; }
-        .dot-link-state { font-weight: 600; }
-        
-        .refresh-btn {
-            width: 100%;
-            padding: 12px;
-            background: var(--green);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 0.9em;
-            font-weight: 600;
-            cursor: pointer;
-        }
-        
-        .refresh-btn:hover { opacity: 0.9; }
-        .refresh-btn:disabled { background: var(--gray); cursor: not-allowed; }
-        
-        .loading { text-align: center; padding: 60px 20px; color: var(--gray); }
-        
-        .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid #e5e7eb;
-            border-top-color: var(--blue);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 16px;
-        }
-        
-        @keyframes spin { to { transform: rotate(360deg); } }
-        
-        .empty-state { text-align: center; padding: 40px 20px; color: var(--gray); }
-        
-        .logout-btn {
-            background: none;
-            border: none;
-            color: rgba(255,255,255,0.8);
-            cursor: pointer;
-            font-size: 0.85em;
-        }
-        
-        .logout-btn:hover { color: white; text-decoration: underline; }
+        /* Footer */
+        .footer { text-align: center; padding: 20px; color: #666; font-size: 0.85em; }
     </style>
 </head>
 <body>
-    <!-- PASSWORD SCREEN -->
-    <div id="password-screen">
-        <div class="password-box">
-            <h1>🏗️ NECMIS</h1>
-            <p>Northeast Construction Market Intelligence</p>
-            <input type="password" id="password-input" placeholder="Enter team password" autocomplete="off" onkeypress="if(event.key==='Enter')checkPassword()">
+    <!-- Login -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-box">
+            <h2>🔐 NECMIS Access</h2>
+            <p>Northeast Construction Market Intelligence System</p>
+            <input type="password" id="passwordInput" placeholder="Enter password" onkeypress="if(event.key==='Enter')checkPassword()">
+            <br>
             <button onclick="checkPassword()">Access Dashboard</button>
-            <div class="password-error" id="password-error">Incorrect password</div>
+            <div class="login-error hidden" id="loginError">Incorrect password. Please try again.</div>
         </div>
     </div>
-    
-    <!-- MAIN APP -->
-    <div id="app">
-        <header class="header">
-            <div class="header-content">
-                <h1>🏗️ NECMIS</h1>
-                <div class="header-meta">
-                    <span>Northeast Construction Market Intelligence</span>
-                    <span id="last-updated">Loading...</span>
-                    <button class="logout-btn" onclick="logout()">Logout</button>
+
+    <div class="container">
+        <div class="header">
+            <h1>📊 NECMIS - Market Intelligence</h1>
+            <p class="subtitle">
+                <span class="date" id="currentDate"></span><br>
+                Northeast Construction Market Intelligence System | VT • NH • ME • MA • NY • RI • CT • PA
+            </p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card"><div class="value" id="pipelineValue">--</div><div class="label">Pipeline Value</div></div>
+            <div class="stat-card"><div class="value" id="totalOpportunities">--</div><div class="label">Total Opportunities</div></div>
+            <div class="stat-card"><div class="value" id="dotLettings">--</div><div class="label">DOT Lettings</div></div>
+            <div class="stat-card"><div class="value" id="fundingCount">--</div><div class="label">Funding</div></div>
+            <div class="stat-card"><div class="value" id="newsCount">--</div><div class="label">News</div></div>
+            <div class="stat-card"><div class="value" id="totalItems">--</div><div class="label">Total Items</div></div>
+        </div>
+
+        <!-- Market Health -->
+        <div class="market-health">
+            <div class="section-title">📈 Market Health Framework</div>
+            <div class="section-subtitle">6 Public Metrics | Scores + Trends + Actions</div>
+            <div class="overall-score">
+                <div class="score" id="overallScore">--</div>
+                <div class="status" id="overallStatus">Loading...</div>
+                <div class="guidance" id="overallGuidance"></div>
+            </div>
+            <div class="metrics-grid" id="metricsGrid"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-grid">
+            <div class="feed-section">
+                <div class="section-title">📋 Intelligence Feed</div>
+                <div class="tabs">
+                    <div class="tab active" data-tab="dot">🏗️ DOT Lettings</div>
+                    <div class="tab" data-tab="news">📰 News</div>
+                    <div class="tab" data-tab="funding">💵 Funding</div>
+                    <div class="tab" data-tab="all">All</div>
+                </div>
+                <div class="feed-content active" id="dot-content"></div>
+                <div class="feed-content" id="news-content"></div>
+                <div class="feed-content" id="funding-content"></div>
+                <div class="feed-content" id="all-content"></div>
+            </div>
+
+            <div class="sidebar">
+                <div class="sidebar-widget">
+                    <div class="widget-title">📊 By State</div>
+                    <div id="stateBreakdown"></div>
+                </div>
+                <div class="sidebar-widget">
+                    <div class="widget-title">🔗 DOT Bid Portals</div>
+                    <div id="portalLinks"></div>
                 </div>
             </div>
-        </header>
-        
-        <div class="container">
-            <!-- STATS -->
-            <div class="stats-row">
-                <div class="stat-card">
-                    <div class="stat-value" id="stat-total">-</div>
-                    <div class="stat-label">Total</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="stat-high">-</div>
-                    <div class="stat-label">High Priority</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="stat-bids">-</div>
-                    <div class="stat-label">Bids</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="stat-dot">-</div>
-                    <div class="stat-label">DOT</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value" id="stat-funding">-</div>
-                    <div class="stat-label">Funding</div>
-                </div>
-            </div>
-            
-            <!-- FILTERS -->
-            <div class="filters">
-                <div class="filter-row">
-                    <span class="filter-label">State:</span>
-                    <button class="filter-btn active" data-filter="state" data-value="all">All</button>
-                    <button class="filter-btn" data-filter="state" data-value="VT">VT</button>
-                    <button class="filter-btn" data-filter="state" data-value="NH">NH</button>
-                    <button class="filter-btn" data-filter="state" data-value="ME">ME</button>
-                    <button class="filter-btn" data-filter="state" data-value="NY">NY</button>
-                    <button class="filter-btn" data-filter="state" data-value="PA">PA</button>
-                    <button class="filter-btn" data-filter="state" data-value="MA">MA</button>
-                    <button class="filter-btn" data-filter="state" data-value="RI">RI</button>
-                    <button class="filter-btn" data-filter="state" data-value="CT">CT</button>
-                </div>
-                <div class="filter-row">
-                    <span class="filter-label">Business:</span>
-                    <button class="filter-btn active" data-filter="biz" data-value="all">All</button>
-                    <button class="filter-btn" data-filter="biz" data-value="highway">Highway</button>
-                    <button class="filter-btn" data-filter="biz" data-value="hma">HMA</button>
-                    <button class="filter-btn" data-filter="biz" data-value="aggregates">Aggregates</button>
-                    <button class="filter-btn" data-filter="biz" data-value="concrete">Concrete</button>
-                    <button class="filter-btn" data-filter="biz" data-value="liquid_asphalt">Bitumen</button>
-                    <button class="filter-btn" data-filter="biz" data-value="trucking">Trucking</button>
-                </div>
-            </div>
-            
-            <!-- MAIN LAYOUT -->
-            <div class="main-layout">
-                <div class="feed">
-                    <div class="feed-header">
-                        <span>📰 Intelligence Feed</span>
-                        <span class="feed-count" id="feed-count"></span>
-                    </div>
-                    <div class="feed-list" id="feed-list">
-                        <div class="loading">
-                            <div class="loading-spinner"></div>
-                            <div>Loading data...</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="sidebar">
-                    <button class="refresh-btn" id="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
-                    
-                    <div class="sidebar-card">
-                        <div class="sidebar-header">📊 By State</div>
-                        <div class="sidebar-content" id="state-breakdown"></div>
-                    </div>
-                    
-                    <div class="sidebar-card">
-                        <div class="sidebar-header">🔗 DOT Bid Portals</div>
-                        <div class="sidebar-content">
-                            <a href="https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting" target="_blank" class="dot-link"><span class="dot-link-state">VT</span> VTrans Bids</a>
-                            <a href="https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid" target="_blank" class="dot-link"><span class="dot-link-state">NH</span> NHDOT Bids</a>
-                            <a href="https://www.maine.gov/dot/projects/" target="_blank" class="dot-link"><span class="dot-link-state">ME</span> MaineDOT</a>
-                            <a href="https://www.dot.ny.gov/doing-business/opportunities/const-highway" target="_blank" class="dot-link"><span class="dot-link-state">NY</span> NYSDOT</a>
-                            <a href="https://www.ecms.penndot.pa.gov/ECMS/" target="_blank" class="dot-link"><span class="dot-link-state">PA</span> PennDOT ECMS</a>
-                            <a href="https://www.mass.gov/info-details/advertised-projects-bid-opening-schedule" target="_blank" class="dot-link"><span class="dot-link-state">MA</span> MassDOT</a>
-                            <a href="https://www.dot.ri.gov/ridotbidding/" target="_blank" class="dot-link"><span class="dot-link-state">RI</span> RIDOT</a>
-                            <a href="https://portal.ct.gov/dot/business/contractor-resources/ctdot-construction-bids-menu" target="_blank" class="dot-link"><span class="dot-link-state">CT</span> CTDOT</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
+
+        <div class="footer">
+            <strong>NECMIS - Northeast Construction Market Intelligence System</strong><br>
+            Data Sources: State DOT Portals (8 states) | Regional News RSS (10 feeds) | Market Health Framework (6 public metrics)<br>
+            Last Updated: <span id="lastUpdated">--</span>
         </div>
     </div>
 
     <script>
-        // =====================================================================
-        // CONFIGURATION - CHANGE THESE
-        // =====================================================================
-        
-        // SET YOUR TEAM PASSWORD HERE
-        const TEAM_PASSWORD = 'necmis2025';
-        
-        // Data URL - will be relative when hosted on GitHub Pages
-        const DATA_URL = 'data/necmis_data.json';
-        
-        // =====================================================================
-        // STATE
-        // =====================================================================
-        
-        let allData = null;
-        let filters = { state: 'all', biz: 'all' };
-        const STATES = ['VT', 'NH', 'ME', 'NY', 'PA', 'MA', 'RI', 'CT'];
-        
-        // =====================================================================
-        // AUTH
-        // =====================================================================
-        
+        const PASSWORD = 'NECMIS2026!';
+        const PORTALS = {
+            'VT': { name: 'VTrans', desc: 'Construction Contracting', url: 'https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting' },
+            'NH': { name: 'NHDOT', desc: 'Invitation to Bid', url: 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid' },
+            'ME': { name: 'MaineDOT', desc: 'Advertised Projects', url: 'https://www.maine.gov/mdot/projects/advertised/' },
+            'MA': { name: 'MassDOT', desc: 'Status Report', url: 'https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp' },
+            'NY': { name: 'NYSDOT', desc: 'Highway Construction', url: 'https://www.dot.ny.gov/doing-business/opportunities/const-highway' },
+            'RI': { name: 'RIDOT', desc: 'Current Projects', url: 'https://www.dot.ri.gov/about/current_projects.php' },
+            'CT': { name: 'CTDOT', desc: 'Contractor Information', url: 'https://portal.ct.gov/DOT/Doing-Business/Contractor-Information' },
+            'PA': { name: 'PennDOT', desc: 'Letting Information', url: 'https://www.penndot.pa.gov/business/Letting/Pages/default.aspx' }
+        };
+
         function checkPassword() {
-            const input = document.getElementById('password-input').value;
-            if (input === TEAM_PASSWORD) {
+            const input = document.getElementById('passwordInput').value;
+            if (input === PASSWORD) {
+                document.getElementById('loginOverlay').classList.add('hidden');
                 localStorage.setItem('necmis_auth', 'true');
-                showApp();
+                loadData();
             } else {
-                document.getElementById('password-error').style.display = 'block';
+                document.getElementById('loginError').classList.remove('hidden');
             }
         }
-        
-        function logout() {
-            localStorage.removeItem('necmis_auth');
-            location.reload();
+
+        function init() {
+            document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            if (localStorage.getItem('necmis_auth') === 'true') {
+                document.getElementById('loginOverlay').classList.add('hidden');
+                loadData();
+            }
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.feed-content').forEach(c => c.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.getElementById(tab.dataset.tab + '-content').classList.add('active');
+                });
+            });
+            renderPortals();
         }
-        
-        function showApp() {
-            document.getElementById('password-screen').style.display = 'none';
-            document.getElementById('app').style.display = 'block';
-            loadData();
+
+        function renderPortals() {
+            const container = document.getElementById('portalLinks');
+            container.innerHTML = Object.entries(PORTALS).map(([state, info]) =>
+                `<a href="${info.url}" target="_blank" class="portal-link"><strong>${state} - ${info.name}</strong>${info.desc}</a>`
+            ).join('');
         }
-        
-        // =====================================================================
-        // DATA
-        // =====================================================================
-        
+
+        function formatCurrency(val) {
+            if (!val) return '--';
+            if (val >= 1e9) return '$' + (val/1e9).toFixed(1) + 'B';
+            if (val >= 1e6) return '$' + (val/1e6).toFixed(1) + 'M';
+            if (val >= 1e3) return '$' + (val/1e3).toFixed(0) + 'K';
+            return '$' + val.toLocaleString();
+        }
+
+        function getProjectTypeClass(type) {
+            if (!type) return '';
+            const t = type.toLowerCase();
+            if (t.includes('bridge')) return 'bridge';
+            if (t.includes('highway') || t.includes('reconstruction')) return 'highway';
+            if (t.includes('pavement') || t.includes('surfacing') || t.includes('resurfacing')) return 'pavement';
+            if (t.includes('drainage') || t.includes('sewer')) return 'drainage';
+            if (t.includes('signal') || t.includes('traffic')) return 'signals';
+            return '';
+        }
+
         async function loadData() {
-            const btn = document.getElementById('refresh-btn');
-            btn.disabled = true;
-            btn.textContent = '⏳ Loading...';
-            
             try {
-                const response = await fetch(DATA_URL + '?t=' + Date.now());
-                if (!response.ok) throw new Error('Failed to fetch');
-                allData = await response.json();
-                
-                document.getElementById('last-updated').textContent = 
-                    'Updated: ' + new Date(allData.generated).toLocaleString();
-                
-                updateStats();
-                updateStateBreakdown();
-                renderFeed();
-                
-                btn.textContent = '✓ Refreshed';
-                setTimeout(() => { btn.textContent = '🔄 Refresh Data'; }, 2000);
-            } catch (err) {
-                console.error(err);
-                document.getElementById('feed-list').innerHTML = 
-                    '<div class="empty-state">Failed to load data. Check console.</div>';
-                btn.textContent = '❌ Error';
+                const resp = await fetch('data/necmis_data.json?' + Date.now());
+                const data = await resp.json();
+                renderDashboard(data);
+            } catch (e) {
+                console.error('Error loading data:', e);
             }
-            
-            btn.disabled = false;
         }
-        
-        function updateStats() {
-            if (!allData) return;
-            
-            document.getElementById('stat-total').textContent = allData.item_count;
-            document.getElementById('stat-high').textContent = allData.stats.by_priority.high;
-            document.getElementById('stat-bids').textContent = allData.stats.by_category.bid;
-            document.getElementById('stat-dot').textContent = allData.stats.by_category.dot_project;
-            document.getElementById('stat-funding').textContent = allData.stats.by_category.funding;
-        }
-        
-        function updateStateBreakdown() {
-            if (!allData) return;
-            
-            const container = document.getElementById('state-breakdown');
-            const maxCount = Math.max(...Object.values(allData.stats.by_state));
-            
-            container.innerHTML = STATES.map(state => {
-                const count = allData.stats.by_state[state] || 0;
-                const pct = maxCount > 0 ? (count / maxCount) * 100 : 0;
-                return `
-                    <div class="state-bar">
-                        <span class="state-bar-label">${state}</span>
-                        <div class="state-bar-fill">
-                            <div class="state-bar-value" style="width: ${pct}%"></div>
-                        </div>
-                        <span class="state-bar-count">${count}</span>
+
+        function renderDashboard(data) {
+            // Stats
+            document.getElementById('pipelineValue').textContent = formatCurrency(data.summary?.total_value_low);
+            document.getElementById('totalOpportunities').textContent = data.summary?.total_opportunities || '--';
+            document.getElementById('dotLettings').textContent = data.summary?.by_category?.dot_letting || '--';
+            document.getElementById('fundingCount').textContent = data.summary?.by_category?.funding || '--';
+            document.getElementById('newsCount').textContent = data.summary?.by_category?.news || '--';
+            const total = (data.dot_lettings?.length || 0) + (data.news?.length || 0);
+            document.getElementById('totalItems').textContent = total;
+            document.getElementById('lastUpdated').textContent = data.generated ? new Date(data.generated).toLocaleString() : '--';
+
+            // Market Health
+            const mh = data.market_health || {};
+            document.getElementById('overallScore').innerHTML = `${mh.overall_score || '--'}<span style="font-size:0.4em;color:#888">/10</span>`;
+            document.getElementById('overallStatus').textContent = `Overall Market Health: ${(mh.overall_status || '').toUpperCase()}`;
+            const guidance = {
+                'growth': '7.5+ — Aggressive expansion, invest in capacity',
+                'stable': '6.0 - 7.5 — Maintain position, selective investments',
+                'watchlist': '< 6.0 — Conservative mode, protect margins'
+            };
+            document.getElementById('overallGuidance').textContent = guidance[mh.overall_status] || '';
+
+            const metricLabels = {
+                'dot_pipeline': 'DOT Project Pipeline (15%)',
+                'housing_permits': 'Housing Permit Momentum (10%)',
+                'construction_spending': 'Construction Spending (10%)',
+                'migration': 'Migration Patterns (10%)',
+                'input_cost_stability': 'Input Cost Stability (8%)',
+                'infrastructure_funding': 'Infrastructure Funding (7%)'
+            };
+            const metricsHtml = Object.entries(metricLabels).map(([key, label]) => {
+                const m = mh[key] || {};
+                const trendClass = m.trend === 'up' ? 'trend-up' : m.trend === 'down' ? 'trend-down' : 'trend-stable';
+                const trendIcon = m.trend === 'up' ? '↑' : m.trend === 'down' ? '↓' : '→';
+                return `<div class="metric-card">
+                    <div class="metric-header">
+                        <span class="metric-name">${label}</span>
+                        <span class="metric-score ${trendClass}">${m.score || '--'}/10</span>
                     </div>
-                `;
+                    <div class="metric-trend ${trendClass}">${trendIcon}</div>
+                    <div class="metric-action">→ ${m.action || '--'}</div>
+                </div>`;
+            }).join('');
+            document.getElementById('metricsGrid').innerHTML = metricsHtml;
+
+            // State breakdown
+            const states = data.summary?.by_state || {};
+            document.getElementById('stateBreakdown').innerHTML = Object.entries(states)
+                .map(([s, c]) => `<div class="state-item"><span>${s}</span><span>${c}</span></div>`).join('');
+
+            // DOT Lettings
+            const dotHtml = (data.dot_lettings || []).map(d => {
+                const typeClass = getProjectTypeClass(d.project_type);
+                const location = d.location || d.state;
+                const projectType = d.project_type ? `<span class="project-type ${typeClass}">${d.project_type}</span>` : '';
+                const adDate = d.ad_date ? `<span>📅 Ad: ${new Date(d.ad_date).toLocaleDateString()}</span>` : '';
+                const district = d.district ? `<span>🏛️ District ${d.district}</span>` : '';
+                const projectId = d.project_id ? `<span>📋 #${d.project_id}</span>` : '';
+                
+                return `<div class="project-card">
+                    <div class="project-header">
+                        <div class="project-location">${d.state} - ${location}</div>
+                        <div class="project-value">${d.cost_display || 'See Portal'}</div>
+                    </div>
+                    <div class="project-name">${projectType}${d.description}</div>
+                    <div class="project-meta">${district}${adDate}${projectId}</div>
+                    <a href="${d.url}" target="_blank" class="project-link">View on ${d.source} →</a>
+                </div>`;
+            }).join('') || '<p style="color:#666">No DOT lettings found</p>';
+            document.getElementById('dot-content').innerHTML = dotHtml;
+
+            // News
+            const newsItems = (data.news || []).filter(n => n.category === 'news');
+            document.getElementById('news-content').innerHTML = newsItems.map(n =>
+                `<div class="news-card">
+                    <div class="news-source">${n.source} (${n.state}) • ${n.date}</div>
+                    <div class="news-title"><a href="${n.url}" target="_blank" style="color:#e0e0e0;text-decoration:none">${n.title}</a></div>
+                    <div class="news-summary">${n.summary || ''}</div>
+                </div>`
+            ).join('') || '<p style="color:#666">No news items found</p>';
+
+            // Funding
+            const fundingItems = (data.news || []).filter(n => n.category === 'funding');
+            document.getElementById('funding-content').innerHTML = fundingItems.map(n =>
+                `<div class="news-card funding">
+                    <div class="news-source">${n.source} (${n.state}) • ${n.date}</div>
+                    <div class="news-title"><a href="${n.url}" target="_blank" style="color:#e0e0e0;text-decoration:none">${n.title}</a></div>
+                    <div class="news-summary">${n.summary || ''}</div>
+                </div>`
+            ).join('') || '<p style="color:#666">No funding announcements found</p>';
+
+            // All
+            const allItems = [...(data.dot_lettings || []).map(d => ({...d, _type: 'dot'})), ...(data.news || []).map(n => ({...n, _type: 'news'}))];
+            document.getElementById('all-content').innerHTML = allItems.slice(0, 50).map(item => {
+                if (item._type === 'dot') {
+                    const typeClass = getProjectTypeClass(item.project_type);
+                    const location = item.location || item.state;
+                    const projectType = item.project_type ? `<span class="project-type ${typeClass}">${item.project_type}</span>` : '';
+                    return `<div class="project-card">
+                        <div class="project-header">
+                            <div class="project-location">${item.state} - ${location}</div>
+                            <div class="project-value">${item.cost_display || 'See Portal'}</div>
+                        </div>
+                        <div class="project-name">${projectType}${item.description}</div>
+                        <a href="${item.url}" target="_blank" class="project-link">View on ${item.source} →</a>
+                    </div>`;
+                } else {
+                    return `<div class="news-card ${item.category === 'funding' ? 'funding' : ''}">
+                        <div class="news-source">${item.source} (${item.state}) • ${item.date}</div>
+                        <div class="news-title"><a href="${item.url}" target="_blank" style="color:#e0e0e0;text-decoration:none">${item.title}</a></div>
+                    </div>`;
+                }
             }).join('');
         }
-        
-        function renderFeed() {
-            if (!allData || !allData.items) return;
-            
-            const filtered = allData.items.filter(item => {
-                if (filters.state !== 'all' && item.state !== filters.state) return false;
-                if (filters.biz !== 'all' && item.business_line !== filters.biz) return false;
-                return true;
-            });
-            
-            document.getElementById('feed-count').textContent = `${filtered.length} items`;
-            
-            if (filtered.length === 0) {
-                document.getElementById('feed-list').innerHTML = 
-                    '<div class="empty-state">No items match current filters</div>';
-                return;
-            }
-            
-            document.getElementById('feed-list').innerHTML = filtered.map(item => `
-                <div class="news-item">
-                    <div class="news-meta">
-                        <span class="news-state">${item.state}</span>
-                        <span class="news-priority ${item.priority}">${item.priority}</span>
-                        <span class="news-biz">${formatBizLine(item.business_line)}</span>
-                        <span class="news-date">${item.date}</span>
-                    </div>
-                    <div class="news-title">
-                        <a href="${item.url}" target="_blank">${item.title}</a>
-                    </div>
-                    <div class="news-source">${item.source}</div>
-                </div>
-            `).join('');
-        }
-        
-        function formatBizLine(line) {
-            const map = {
-                'highway': 'Highway',
-                'hma': 'HMA',
-                'aggregates': 'Aggregates',
-                'concrete': 'Concrete',
-                'liquid_asphalt': 'Bitumen',
-                'trucking': 'Trucking',
-                'general': 'General'
-            };
-            return map[line] || line;
-        }
-        
-        // =====================================================================
-        // FILTERS
-        // =====================================================================
-        
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const filterType = btn.dataset.filter;
-                const value = btn.dataset.value;
-                
-                // Update active state
-                document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`)
-                    .forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                
-                // Update filter
-                filters[filterType] = value;
-                renderFeed();
-            });
-        });
-        
-        // =====================================================================
-        // INIT
-        // =====================================================================
-        
-        if (localStorage.getItem('necmis_auth') === 'true') {
-            showApp();
-        }
+
+        init();
     </script>
 </body>
 </html>

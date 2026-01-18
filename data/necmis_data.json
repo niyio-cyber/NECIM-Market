@@ -1,13 +1,13 @@
 {
-  "generated": "2026-01-18T15:26:14.581068Z",
+  "generated": "2026-01-18T15:59:14.692429Z",
   "summary": {
-    "total_opportunities": 53,
+    "total_opportunities": 34,
     "total_value_low": 209260596,
     "total_value_high": 209260596,
     "by_state": {
       "VT": 1,
       "NH": 6,
-      "ME": 24,
+      "ME": 5,
       "MA": 26,
       "NY": 1,
       "RI": 1,
@@ -15,7 +15,7 @@
       "PA": 1
     },
     "by_category": {
-      "dot_letting": 51,
+      "dot_letting": 32,
       "news": 8,
       "funding": 2
     }
@@ -507,389 +507,22 @@
       ]
     },
     {
-      "id": "4031e1642e51",
+      "id": "8b98c149c319",
       "state": "ME",
-      "project_id": "018595.11",
-      "description": "Highway improvements and other incidental work.Diverging Diamond Interchange on Hogan Road at the Interstate 95 Exit 187. Bridge #05823 over Interstate 95. Located 0.26 of a mile north of Haskell Road",
+      "project_id": null,
+      "description": "MaineDOT Bid Schedule - Visit portal for current lettings",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Portal",
       "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": "Bridge",
-      "location": "Bangor",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/01859511-bangor-region-4-wed-01282026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2155c7f42d54",
-      "state": "ME",
-      "project_id": "025313.10",
-      "description": "Joshua Chamberlain Bridge Modular Joint Supply and Delivery",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Bridge",
-      "location": "Bangor and Brewer",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02531310-bangor-and-brewer-region-4-wed-01212026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f1e8a91aa52f",
-      "state": "ME",
-      "project_id": "024339.00",
-      "description": "Temporary signal installation and associated spot improvements, plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Signals",
-      "location": "Skowhegan",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02433900-skowhegan-region-3-wed-01212026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "84dfbc78704e",
-      "state": "ME",
-      "project_id": "026398.00",
-      "description": "Large Culvert (#51171) Replacement and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Culvert",
-      "location": "Brooks",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02639800-brooks-region-2-wed-01212026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "1a1fdf48aa2e",
-      "state": "ME",
-      "project_id": "026172.00",
-      "description": "Subject:Letter of Interest for the above project in the cities of Kittery, Maine, and Portsmouth, New Hampshire.Requirement:Maine Department of Transportation is seeking Letters of Interest from contr",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-29",
+      "let_date": null,
       "project_type": null,
-      "location": "Kittery",
+      "location": null,
       "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02617200-sarah-mildred-long-bridge-3641-rfloi-thu-01292026-1200",
+      "url": "https://www.maine.gov/dot/major-projects/cap",
       "source": "MaineDOT",
       "business_lines": [
         "highway"
-      ]
-    },
-    {
-      "id": "89dbb5f101ac",
-      "state": "ME",
-      "project_id": "PH20260107EXCA",
-      "description": "On call excavators, dozers, wheeled skid steer loaders and compact track loaders equipment rental WITH operator.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": null,
-      "location": "Regions 1, 2, 3, 4 & 5",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/ph20260107exca-regions-1-2-3-4-5-wed-01282026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "686c4c1e8717",
-      "state": "ME",
-      "project_id": "029694.00 & 029698.00",
-      "description": "Cyclical pavement resurfacing and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": "Pavement",
-      "location": "Cape Elizabeth & South Portland",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02969400-02969800-cape-elizabeth-south-portland-region-1-wed",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
-      "id": "2048ea2f5647",
-      "state": "ME",
-      "project_id": "026568.00",
-      "description": "New ferry terminal parking lot and pedestrian access improvements, plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": null,
-      "location": "Lincolnville",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02656800-lincolnville-region-2-wed-01282026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d088df6408e0",
-      "state": "ME",
-      "project_id": "029414.00 & 029702.00",
-      "description": "Cyclical pavement resurfacing and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": "Pavement",
-      "location": "Wells, Kennebunk & Kennebunkport",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02941400-02970200-wells-kennebunk-kennebunkport-region-1-wed",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
-      "id": "8dca478320f9",
-      "state": "ME",
-      "project_id": "026083.00",
-      "description": "St. Mary's Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Van Buren",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02608300-van-buren-region-5-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "b44741e8ba94",
-      "state": "ME",
-      "project_id": "028559.00",
-      "description": "Construction of crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": null,
-      "location": "Waldoboro",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02855900-waldoboro-region-2-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "679204fedb32",
-      "state": "ME",
-      "project_id": "030331.00",
-      "description": "Construction of a crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": null,
-      "location": "Medway",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/03033100-medway-region-4-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a925ac49742a",
-      "state": "ME",
-      "project_id": "027522.00",
-      "description": "Hot mix asphalt overlay with safety improvements and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Pavement",
-      "location": "Kennebunk & Wells",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02752200-kennebunk-wells-region-1-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "36e2e68c546d",
-      "state": "ME",
-      "project_id": "026180.00",
-      "description": "Noyes Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Cumberland",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02618000-cumberland-region-1-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "82c43eaf71b5",
-      "state": "ME",
-      "project_id": "029528.10",
-      "description": "Donald V. Carter bridge expansion devices and delivery, plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Waterville & Winslow",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02952810-waterville-winslow-region-2-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6aa28d664556",
-      "state": "ME",
-      "project_id": "030333.00",
-      "description": "Construction of a crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": null,
-      "location": "Eddington",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/03033300-eddington-region-4-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3521206af67b",
-      "state": "ME",
-      "project_id": "025541.00",
-      "description": "Colson Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Prospect",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02554100-prospect-region-2-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "16253fc9836d",
-      "state": "ME",
-      "project_id": "026434.00",
-      "description": "Phair Crossing Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Presque Isle",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02643400-presque-isle-region-5-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "e98d1e47c834",
-      "state": "ME",
-      "project_id": "030325.00",
-      "description": "Construction of a crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": null,
-      "location": "Dixfield",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/03032500-dixfield-region-3-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7e100dad6cd9",
-      "state": "ME",
-      "project_id": "PH20260114MIL",
-      "description": "On-call milling machines and grinders.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": null,
-      "location": "Regions 1-5",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/ph20260114mil-regions-1-5-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "hma"
       ]
     },
     {

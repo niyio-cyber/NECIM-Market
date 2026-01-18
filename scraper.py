@@ -55,17 +55,20 @@ DOT_SOURCES = {
 
 # NH Alternative Sources - All verified accessible
 NH_LIVE_SOURCES = {
+    'stip': [
+        # PRIMARY SOURCE: NH STIP Monthly Project List - authoritative statewide project data with costs
+        {'name': 'NH STIP Project List', 'url': 'https://mm.nh.gov/files/uploads/dot/remote-docs/2025-2028-stip-project-monthly-list.pdf'},
+        {'name': 'NH STIP Current Report', 'url': 'https://mm.nh.gov/files/uploads/dot/remote-docs/stip-current-report-website-0.pdf'},
+    ],
     'official': [
         {'name': 'NHDOT ITB', 'url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid'},
         {'name': 'NHDOT Advertising', 'url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/advertising-schedule'},
-        {'name': 'NHDOT Plan Inventory', 'url': 'https://maps.dot.nh.gov/reports/plan-inventory/'},
     ],
     'rpc': [
-        {'name': 'Rockingham PC', 'url': 'https://www.therpc.org/transportation/tip/', 'region': 'Seacoast'},
-        {'name': 'Southern NH PC', 'url': 'https://www.snhpc.org/transportation', 'region': 'Manchester'},
-        {'name': 'Nashua RPC', 'url': 'https://www.nashuarpc.org/transportation/', 'region': 'Nashua'},
+        {'name': 'Rockingham PC TIP', 'url': 'https://www.therpc.org/TIPAmendments', 'region': 'Seacoast'},
+        {'name': 'Southern NH PC', 'url': 'https://www.snhpc.org/transportation/road-networks-highways-and-bridges', 'region': 'Manchester'},
+        {'name': 'Nashua RPC', 'url': 'https://www.nashuarpc.org/mpo/transportation_plans.php', 'region': 'Nashua'},
         {'name': 'Central NH RPC', 'url': 'https://cnhrpc.org/transportation-planning/', 'region': 'Concord'},
-        {'name': 'Strafford RPC', 'url': 'https://strafford.org/cmsAdmin/uploads/tip_25_28_final.pdf', 'region': 'Dover'},
     ],
     'municipal': [
         {'name': 'Nashua Bids', 'url': 'https://www.nashuanh.gov/Bids.aspx'},
@@ -737,6 +740,7 @@ def parse_nhdot() -> List[Dict]:
     """
     Parse NHDOT using dynamic multi-approach strategy:
     
+    Tier 0: NH STIP PDF (authoritative statewide project list with costs) - PRIMARY
     Tier 1: Official NHDOT with session + full browser headers + cookies
     Tier 2: Playwright headless browser for JS-rendered content  
     Tier 3: Regional Planning Commission TIPs (live alternatives)
@@ -749,6 +753,35 @@ def parse_nhdot() -> List[Dict]:
     itb_url = DOT_SOURCES['NH']['portal_url']
     
     print(f"    📋 NHDOT Dynamic Multi-Approach Parser")
+    
+    # ==========================================================================
+    # TIER 0: NH STIP PDF (Primary Source - Authoritative Project List)
+    # ==========================================================================
+    print(f"    🔍 Tier 0: NH STIP PDF (Primary)...")
+    
+    for stip_source in NH_LIVE_SOURCES.get('stip', []):
+        try:
+            response = requests.get(stip_source['url'], timeout=60, headers=get_full_browser_headers())
+            
+            if response.status_code != 200:
+                sources_tried.append(f"{stip_source['name']}: {response.status_code}")
+                continue
+            
+            sources_tried.append(f"{stip_source['name']}: {len(response.content)} bytes")
+            
+            # Parse STIP PDF
+            parsed = parse_nh_stip_pdf(response.content, stip_source['url'])
+            if parsed:
+                lettings.extend(parsed)
+                
+        except Exception as e:
+            sources_tried.append(f"{stip_source['name']}: {type(e).__name__}")
+    
+    if lettings:
+        total = sum(l.get('cost_low') or 0 for l in lettings)
+        print(f"    ✓ Tier 0 success: {len(lettings)} projects, {format_currency(total)}")
+        print(f"      Sources: {', '.join(sources_tried)}")
+        return lettings
     
     # ==========================================================================
     # TIER 1: Official NHDOT with Session + Full Browser Mimicking
@@ -765,7 +798,7 @@ def parse_nhdot() -> List[Dict]:
         pass
     
     # Try the official ITB page
-    for source in NH_LIVE_SOURCES['official']:
+    for source in NH_LIVE_SOURCES.get('official', []):
         try:
             response = session.get(source['url'], timeout=30)
             
@@ -798,7 +831,7 @@ def parse_nhdot() -> List[Dict]:
     # ==========================================================================
     print(f"    🔍 Tier 2: Playwright Headless Browser...")
     
-    for source in NH_LIVE_SOURCES['official']:
+    for source in NH_LIVE_SOURCES.get('official', []):
         html = fetch_with_playwright(source['url'], wait_for='table')
         
         if html:
@@ -820,7 +853,7 @@ def parse_nhdot() -> List[Dict]:
     # ==========================================================================
     print(f"    🔍 Tier 3: Regional Planning Commissions...")
     
-    for rpc in NH_LIVE_SOURCES['rpc']:
+    for rpc in NH_LIVE_SOURCES.get('rpc', []):
         try:
             # Use session for RPC sites too
             response = session.get(rpc['url'], timeout=30)
@@ -862,7 +895,7 @@ def parse_nhdot() -> List[Dict]:
     # ==========================================================================
     print(f"    🔍 Tier 4: Municipal Bid Pages...")
     
-    for muni in NH_LIVE_SOURCES['municipal']:
+    for muni in NH_LIVE_SOURCES.get('municipal', []):
         try:
             response = session.get(muni['url'], timeout=30)
             
@@ -894,6 +927,131 @@ def parse_nhdot() -> List[Dict]:
     
     # Return portal stub with clear message - NO STATIC DATA
     return [create_portal_stub('NH')]
+
+
+def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
+    """
+    Parse NH STIP Monthly Project List PDF.
+    
+    Format:
+    - Project ID: 5-digit number like 42437, 44160
+    - Location: TOWN-TOWN format like BETHLEHEM-LITTLETON
+    - Route: I-93, NH 18, US 3, etc.
+    - Cost: $24,652,457 format
+    - RPC region
+    - Phase info (PE, ROW, CON)
+    """
+    lettings = []
+    
+    try:
+        import pdfplumber
+        import io
+        
+        with pdfplumber.open(io.BytesIO(pdf_content)) as pdf:
+            print(f"      STIP PDF has {len(pdf.pages)} pages")
+            
+            seen_projects = set()
+            
+            for page in pdf.pages:
+                text = page.extract_text() or ''
+                
+                # Split into lines and process
+                lines = text.split('\n')
+                
+                for i, line in enumerate(lines):
+                    # Skip headers and empty lines
+                    if not line.strip() or 'Report Project List' in line or 'Page' in line:
+                        continue
+                    
+                    # Look for project ID pattern: (5-digit number)
+                    # Format: "LOCATION (PROJECT_ID) ROUTE"
+                    project_match = re.search(r'\((\d{5})\)', line)
+                    if not project_match:
+                        continue
+                    
+                    project_id = project_match.group(1)
+                    
+                    # Skip if we've already seen this project
+                    if project_id in seen_projects:
+                        continue
+                    seen_projects.add(project_id)
+                    
+                    # Extract location (text before the project ID)
+                    location_part = line[:project_match.start()].strip()
+                    # Clean up location - remove any leading numbers/dates
+                    location = re.sub(r'^\d+[\s/]*\d*[\s/]*\d*\s*', '', location_part).strip()
+                    
+                    # Extract route (text after project ID)
+                    route_part = line[project_match.end():].strip()
+                    route_match = re.search(r'(I-\d+|US\s*\d+|NH\s*\d+|SR\s*\d+)', route_part, re.I)
+                    route = route_match.group(1) if route_match else None
+                    
+                    # Look for cost in this line or nearby lines
+                    cost = None
+                    # Check current line and next few lines for cost
+                    search_text = ' '.join(lines[i:min(i+5, len(lines))])
+                    
+                    # Look for "Project Cost: $X" or "All Project Cost: $X"
+                    cost_match = re.search(r'(?:All\s+)?Project\s+Cost:\s*\$([\d,]+)', search_text, re.I)
+                    if cost_match:
+                        cost = parse_currency(cost_match.group(1))
+                    else:
+                        # Look for standalone dollar amounts in reasonable range
+                        dollar_matches = re.findall(r'\$([\d,]+(?:\.\d{2})?)', search_text)
+                        for dm in dollar_matches:
+                            val = parse_currency(dm)
+                            if val and 100000 <= val <= 1000000000:  # $100K to $1B
+                                cost = val
+                                break
+                    
+                    # Determine project type from route/location
+                    combined_text = f"{location} {route or ''}"
+                    proj_type = classify_project_type(combined_text)
+                    
+                    # Build description
+                    description = location
+                    if route:
+                        description = f"{location} - {route}"
+                    
+                    # Extract RPC region if present
+                    rpc_match = re.search(r'(NCC|RPC|SNHPC|NRPC|CNHRPC|SRPC|SWRPC|LRPC|UVLSRPC)', search_text)
+                    district = rpc_match.group(1) if rpc_match else None
+                    
+                    lettings.append({
+                        'id': generate_id(f"NH-STIP-{project_id}"),
+                        'state': 'NH',
+                        'project_id': project_id,
+                        'description': description[:200],
+                        'cost_low': int(cost) if cost else None,
+                        'cost_high': int(cost) if cost else None,
+                        'cost_display': format_currency(cost) if cost else 'See STIP',
+                        'ad_date': None,
+                        'let_date': None,
+                        'project_type': proj_type,
+                        'location': location.split('-')[0] if '-' in location else location,
+                        'district': district,
+                        'url': url,
+                        'source': 'NH STIP',
+                        'business_lines': get_business_lines(combined_text)
+                    })
+            
+            if lettings:
+                # Sort by cost (highest first) for better visibility
+                lettings.sort(key=lambda x: x.get('cost_low') or 0, reverse=True)
+                
+                total = sum(l.get('cost_low') or 0 for l in lettings)
+                with_cost = len([l for l in lettings if l.get('cost_low')])
+                print(f"      Parsed {len(lettings)} projects ({with_cost} with $), {format_currency(total)} total")
+                return lettings
+                
+    except ImportError:
+        print("      pdfplumber not installed - cannot parse STIP PDF")
+    except Exception as e:
+        print(f"      STIP PDF parse error: {e}")
+        import traceback
+        traceback.print_exc()
+    
+    return []
 
 
 def parse_nhdot_html(html: str, url: str, source_name: str) -> List[Dict]:

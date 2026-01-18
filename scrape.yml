@@ -23,7 +23,7 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install requests feedparser beautifulsoup4 pandas openpyxl
+          pip install requests feedparser beautifulsoup4
           
       - name: Run scraper
         run: python scraper.py

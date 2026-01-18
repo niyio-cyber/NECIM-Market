@@ -1123,12 +1123,15 @@ def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
                     cost_match = re.search(r'(?:All\s+)?Project\s+Cost:\s*\$([\d,]+)', search_text, re.I)
                     if cost_match:
                         cost = parse_currency(cost_match.group(1))
+                        # Sanity check
+                        if cost and cost > 400000000:
+                            cost = None
                     else:
                         # Look for standalone dollar amounts in reasonable range
                         dollar_matches = re.findall(r'\$([\d,]+(?:\.\d{2})?)', search_text)
                         for dm in dollar_matches:
                             val = parse_currency(dm)
-                            if val and 100000 <= val <= 1000000000:  # $100K to $1B
+                            if val and 100000 <= val <= 400000000:  # $100K to $400M
                                 cost = val
                                 break
                     
@@ -1378,6 +1381,9 @@ def parse_rpc_tip_pdf(pdf_content: bytes, rpc_name: str, region: str) -> List[Di
                     cost_match = re.search(r'\$([\d,]+)', line)
                     if cost_match:
                         cost = parse_currency(cost_match.group(1))
+                        # Sanity check: skip if cost seems unreasonably high for a single line item
+                        if cost and cost > 400000000:
+                            cost = None
                     
                     # Clean up description
                     description = re.sub(r'\d{5}[A-Z]?', '', line)
@@ -1459,7 +1465,8 @@ def parse_rpc_tip_pdf_detailed(pdf_content: bytes, rpc_name: str, region: str, u
                 if i + 1 < len(matches):
                     end_pos = matches[i + 1].start()
                 else:
-                    end_pos = len(full_text)
+                    # For last project, limit capture to prevent grabbing summary tables
+                    end_pos = min(start_pos + 3000, len(full_text))
                 
                 project_text = full_text[start_pos:end_pos]
                 
@@ -1471,16 +1478,23 @@ def parse_rpc_tip_pdf_detailed(pdf_content: bytes, rpc_name: str, region: str, u
                 scope_match = re.search(r'SCOPE:\s*(.+?)(?:FEDERAL|Total Cost)', project_text, re.DOTALL)
                 scope = scope_match.group(1).strip().replace('\n', ' ') if scope_match else None
                 
-                # Extract Total Cost
+                # Extract Total Cost - search only in first 2000 chars to avoid summary tables
                 cost = None
-                cost_match = re.search(r'Total Cost:\s*\$([\d,]+)', project_text)
+                cost_search_text = project_text[:2000]
+                cost_match = re.search(r'Total Cost:\s*\$([\d,]+)', cost_search_text)
                 if cost_match:
                     cost = parse_currency(cost_match.group(1))
                 else:
                     # Try alternate patterns
-                    cost_match = re.search(r'2025-2028 Funding:\s*\$([\d,]+)', project_text)
+                    cost_match = re.search(r'2025-2028 Funding:\s*\$([\d,]+)', cost_search_text)
                     if cost_match:
                         cost = parse_currency(cost_match.group(1))
+                
+                # Sanity check: individual projects rarely exceed $400M
+                # (except mega-projects like I-93 widening which are ~$370M)
+                if cost and cost > 400000000:
+                    print(f"        ⚠ Suspiciously high cost for {project_id}: {format_currency(cost)} - skipping")
+                    cost = None
                 
                 # Skip very small projects or programs
                 if cost and cost < 50000:

@@ -1,84 +1,23 @@
 {
-  "generated": "2026-01-18T04:19:56.498642Z",
-  "version": "3.0",
+  "generated": "2026-01-18T11:28:50.948655Z",
   "summary": {
-    "total_opportunities": 80,
-    "total_value_low": 261266470,
-    "total_value_high": 261266470,
+    "total_opportunities": 34,
+    "total_value_low": 209260596,
+    "total_value_high": 209260596,
     "by_state": {
-      "VT": {
-        "projects": 25,
-        "value": 0
-      },
-      "NH": {
-        "projects": 8,
-        "value": 52005874
-      },
-      "ME": {
-        "projects": 20,
-        "value": 0
-      },
-      "MA": {
-        "projects": 25,
-        "value": 209260596
-      },
-      "NY": {
-        "projects": 1,
-        "value": 0
-      },
-      "RI": {
-        "projects": 1,
-        "value": 0
-      },
-      "CT": {
-        "projects": 1,
-        "value": 0
-      },
-      "PA": {
-        "projects": 1,
-        "value": 0
-      }
+      "VT": 1,
+      "NH": 6,
+      "ME": 4,
+      "MA": 26,
+      "NY": 1,
+      "RI": 1,
+      "CT": 1,
+      "PA": 1
     },
     "by_category": {
-      "dot_letting": 78,
-      "news": 6,
+      "dot_letting": 32,
+      "news": 7,
       "funding": 2
-    },
-    "core_states": {
-      "VT": {
-        "projects": 25,
-        "value": 0
-      },
-      "NH": {
-        "projects": 8,
-        "value": 52005874
-      },
-      "ME": {
-        "projects": 20,
-        "value": 0
-      },
-      "MA": {
-        "projects": 25,
-        "value": 209260596
-      }
-    },
-    "extended_states": {
-      "NY": {
-        "projects": 1,
-        "value": 0
-      },
-      "RI": {
-        "projects": 1,
-        "value": 0
-      },
-      "CT": {
-        "projects": 1,
-        "value": 0
-      },
-      "PA": {
-        "projects": 1,
-        "value": 0
-      }
     }
   },
   "dot_lettings": [
@@ -136,8 +75,7 @@
       "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=609531",
       "source": "MassDOT",
       "business_lines": [
-        "highway",
-        "ready_mix"
+        "highway"
       ]
     },
     {
@@ -387,7 +325,6 @@
       "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614080",
       "source": "MassDOT",
       "business_lines": [
-        "highway",
         "hma"
       ]
     },
@@ -570,1080 +507,61 @@
       ]
     },
     {
-      "id": "4031e1642e51",
+      "id": "8b98c149c319",
       "state": "ME",
-      "project_id": "018595.11",
-      "description": "Highway improvements and other incidental work.Diverging Diamond Interchange on Hogan Road at the Interstate 95 Exit 187. Bridge #05823 over Interstate 95. Located 0.26 of a mile north of Haskell Road",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": "Bridge",
-      "location": "Bangor",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/01859511-bangor-region-4-wed-01282026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2155c7f42d54",
-      "state": "ME",
-      "project_id": "025313.10",
-      "description": "Joshua Chamberlain Bridge Modular Joint Supply and Delivery",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Bridge",
-      "location": "Bangor and Brewer",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02531310-bangor-and-brewer-region-4-wed-01212026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f1e8a91aa52f",
-      "state": "ME",
-      "project_id": "024339.00",
-      "description": "Temporary signal installation and associated spot improvements, plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Traffic Signals",
-      "location": "Skowhegan",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02433900-skowhegan-region-3-wed-01212026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "84dfbc78704e",
-      "state": "ME",
-      "project_id": "026398.00",
-      "description": "Large Culvert (#51171) Replacement and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Culvert",
-      "location": "Brooks",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02639800-brooks-region-2-wed-01212026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "1a1fdf48aa2e",
-      "state": "ME",
-      "project_id": "026172.00",
-      "description": "Subject:Letter of Interest for the above project in the cities of Kittery, Maine, and Portsmouth, New Hampshire.Requirement:Maine Department of Transportation is seeking Letters of Interest from contr",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-29",
-      "project_type": null,
-      "location": "Kittery",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02617200-sarah-mildred-long-bridge-3641-rfloi-thu-01292026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d088df6408e0",
-      "state": "ME",
-      "project_id": "029414.00 & 029702.00",
-      "description": "Cyclical pavement resurfacing and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": "Pavement",
-      "location": "Wells, Kennebunk & Kennebunkport",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02941400-02970200-wells-kennebunk-kennebunkport-region-1-wed",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
-      "id": "89dbb5f101ac",
-      "state": "ME",
-      "project_id": "PH20260107EXCA",
-      "description": "On call excavators, dozers, wheeled skid steer loaders and compact track loaders equipment rental WITH operator.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": null,
-      "location": "Regions 1, 2, 3, 4 & 5",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/ph20260107exca-regions-1-2-3-4-5-wed-01282026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "686c4c1e8717",
-      "state": "ME",
-      "project_id": "029694.00 & 029698.00",
-      "description": "Cyclical pavement resurfacing and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": "Pavement",
-      "location": "Cape Elizabeth & South Portland",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02969400-02969800-cape-elizabeth-south-portland-region-1-wed",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
-      "id": "2048ea2f5647",
-      "state": "ME",
-      "project_id": "026568.00",
-      "description": "New ferry terminal parking lot and pedestrian access improvements, plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "project_type": null,
-      "location": "Lincolnville",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02656800-lincolnville-region-2-wed-01282026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8dca478320f9",
-      "state": "ME",
-      "project_id": "026083.00",
-      "description": "St. Mary's Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Van Buren",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02608300-van-buren-region-5-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "b44741e8ba94",
-      "state": "ME",
-      "project_id": "028559.00",
-      "description": "Construction of crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Building",
-      "location": "Waldoboro",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02855900-waldoboro-region-2-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "679204fedb32",
-      "state": "ME",
-      "project_id": "030331.00",
-      "description": "Construction of a crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Building",
-      "location": "Medway",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/03033100-medway-region-4-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a925ac49742a",
-      "state": "ME",
-      "project_id": "027522.00",
-      "description": "Hot mix asphalt overlay with safety improvements and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Pavement",
-      "location": "Kennebunk & Wells",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02752200-kennebunk-wells-region-1-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "36e2e68c546d",
-      "state": "ME",
-      "project_id": "026180.00",
-      "description": "Noyes Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Cumberland",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02618000-cumberland-region-1-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "82c43eaf71b5",
-      "state": "ME",
-      "project_id": "029528.10",
-      "description": "Donald V. Carter bridge expansion devices and delivery, plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Waterville & Winslow",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02952810-waterville-winslow-region-2-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6aa28d664556",
-      "state": "ME",
-      "project_id": "030333.00",
-      "description": "Construction of a crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Building",
-      "location": "Eddington",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/03033300-eddington-region-4-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3521206af67b",
-      "state": "ME",
-      "project_id": "025541.00",
-      "description": "Colson Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Prospect",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02554100-prospect-region-2-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "16253fc9836d",
-      "state": "ME",
-      "project_id": "026434.00",
-      "description": "Phair Crossing Bridge replacement plus other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Bridge",
-      "location": "Presque Isle",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/02643400-presque-isle-region-5-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "e98d1e47c834",
-      "state": "ME",
-      "project_id": "030325.00",
-      "description": "Construction of a crew quarters building and other incidental work.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": "Building",
-      "location": "Dixfield",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/03032500-dixfield-region-3-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7e100dad6cd9",
-      "state": "ME",
-      "project_id": "PH20260114MIL",
-      "description": "On-call milling machines and grinders.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "project_type": null,
-      "location": "Regions 1-5",
-      "district": null,
-      "url": "https://www.maine.gov/dot/doing-business/bid-opportunities/ph20260114mil-regions-1-5-wed-02042026-1200",
-      "source": "MaineDOT",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "ff6cc90f9923",
-      "state": "VT",
-      "project_id": "C03247",
-      "description": "BARRE TOWN STP 6100 (15) - Awarded to Engineers Construction, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-12-05",
-      "project_type": "Pavement",
-      "location": "Barre Town",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23G012%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Engineers Construction, Inc."
-    },
-    {
-      "id": "d803b2a6ad36",
-      "state": "VT",
-      "project_id": "C03245",
-      "description": "BRIDGEWATER ER P23-1 (302) & PLYMOUTH ER P23-1 (332) - Awarded to Jointa Lime LLC",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-11-21",
-      "project_type": "Bridge",
-      "location": null,
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23B754%20Bids%20Results%20Detail%20Report%202-2.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Jointa Lime LLC"
-    },
-    {
-      "id": "f8ba045eb778",
-      "state": "VT",
-      "project_id": "C03242",
-      "description": "COLCHESTER-ESSEX NH PS24 (11) - Awarded to Frank W. Whitcomb Construction, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-11-21",
-      "project_type": "Safety",
-      "location": "Colchester-Essex",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V413%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Frank W. Whitcomb Construction, Inc."
-    },
-    {
-      "id": "dd964090e020",
-      "state": "VT",
-      "project_id": "C03241",
-      "description": "NORTON STP CULV (118) - Awarded to Dirt Tech Company, LLC",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-11-14",
-      "project_type": "Pavement",
-      "location": "Norton",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/22D248%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Dirt Tech Company, LLC"
-    },
-    {
-      "id": "fbad9d66f5e2",
-      "state": "VT",
-      "project_id": "C03234",
-      "description": "CAVENDISH GMRC (24) (RE-AD) - Awarded to Engineers Construction, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-10-24",
-      "project_type": "Green Mountain Railroad",
-      "location": "Cavendish",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/15G155%20Bids%20Results%20Detail%20Report_0.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Engineers Construction, Inc."
-    },
-    {
-      "id": "34cb018305a1",
-      "state": "VT",
-      "project_id": "C03240",
-      "description": "BARRE-EAST MONTPELIER STP FPAV (73) - Awarded to Frank W. Whitcomb Co",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-10-24",
-      "project_type": "Pavement",
-      "location": "Barre-East Montpelier",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V398%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Frank W. Whitcomb Co"
-    },
-    {
-      "id": "c86c3af5f24d",
-      "state": "VT",
-      "project_id": "C03239",
-      "description": "DANVILLE RELV2405 - Awarded to J. P. Sicard, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-08-08",
-      "project_type": null,
-      "location": "Danville",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24M075%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "J. P. Sicard, Inc."
-    },
-    {
-      "id": "5f15501b3672",
-      "state": "VT",
-      "project_id": "C03232",
-      "description": "NORTON BF 0321 (21) (RE-AD) - Awarded to S. D. Ireland Brothers Corp",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-07-11",
-      "project_type": "Bridge",
-      "location": "Norton",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/22B360%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "S. D. Ireland Brothers Corp"
-    },
-    {
-      "id": "e8c7ae90d7fe",
-      "state": "VT",
-      "project_id": "C03238",
-      "description": "ST. JOHNSBURY RELV2407 - Awarded to Kirk Fenoff & Son Excavating, LLC",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-06-27",
-      "project_type": null,
-      "location": null,
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24M222%20Bids%20Results%20Detail%20Report_0.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Kirk Fenoff & Son Excavating, LLC"
-    },
-    {
-      "id": "56d2b534d483",
-      "state": "VT",
-      "project_id": "C03233",
-      "description": "POULTNEY BF 0145 (13) - Awarded to Winn Construction Services, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-06-13",
-      "project_type": "Bridge",
-      "location": "Poultney",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21J164%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Winn Construction Services, Inc."
-    },
-    {
-      "id": "dc737baf8d47",
-      "state": "VT",
-      "project_id": "C03236",
-      "description": "HARTFORD PLAT (4) - Awarded to Engineers Construction, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-06-06",
-      "project_type": null,
-      "location": null,
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/18G345%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Engineers Construction, Inc."
-    },
-    {
-      "id": "fbad9d66f5e2",
-      "state": "VT",
-      "project_id": "C03234",
-      "description": "CAVENDISH GMRC (24) (RE-AD)",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-05-30",
-      "project_type": "Green Mountain Railroad",
-      "location": "Cavendish",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": null
-    },
-    {
-      "id": "1caa7bec4365",
-      "state": "VT",
-      "project_id": "C03233",
-      "description": "BARRE CITY STP 2961 (3) & BARRE CITY STP 6000 (32) - Awarded to J. P. Sicard, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-05-23",
-      "project_type": "Pavement",
-      "location": "Barre City",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/16V185%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "J. P. Sicard, Inc."
-    },
-    {
-      "id": "86f70565c167",
-      "state": "VT",
-      "project_id": "C03235",
-      "description": "STATEWIDE STP CRAK (46) - Awarded to Annseal, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-05-23",
-      "project_type": "Pavement",
-      "location": "Statewide",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/25V001%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Annseal, Inc."
-    },
-    {
-      "id": "2317161bba16",
-      "state": "VT",
-      "project_id": "C03197",
-      "description": "COLCHESTER HES NH 5600 (14) C/2 (RE-AD) - Awarded to S. D. Ireland Brothers Corp",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-05-02",
-      "project_type": "Safety",
-      "location": "Colchester",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/12D046%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "S. D. Ireland Brothers Corp"
-    },
-    {
-      "id": "606980f699f1",
-      "state": "VT",
-      "project_id": "C03232",
-      "description": "NORTON BF 0321 (21)",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-05-02",
-      "project_type": "Bridge",
-      "location": "Norton",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": null
-    },
-    {
-      "id": "2b26c3175653",
-      "state": "VT",
-      "project_id": "C03229",
-      "description": "STATEWIDE AV-FY26-001 - Awarded to Pavement Solutions LLC",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-25",
-      "project_type": "Aviation",
-      "location": "Statewide",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/25H002%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Pavement Solutions LLC"
-    },
-    {
-      "id": "7a5ff83188bc",
-      "state": "VT",
-      "project_id": "C03230",
-      "description": "FAIRLEE IM 091-2 (97) - Awarded to J. A. McDonald Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-25",
-      "project_type": "Interstate",
-      "location": "Fairlee",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24D016%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "J. A. McDonald Inc."
-    },
-    {
-      "id": "6e81435b98cf",
-      "state": "VT",
-      "project_id": "C03231",
-      "description": "MORRISTOWN AV-FY22-003 - Awarded to G. W. Tatro Construction, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-25",
-      "project_type": "Aviation",
-      "location": "Morristown",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/17H002%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "G. W. Tatro Construction, Inc."
-    },
-    {
-      "id": "27f3e2d8652a",
-      "state": "VT",
-      "project_id": "C03228",
-      "description": "WASHINGTON ER P23-1 (669) - Awarded to Waters Excavation, Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-18",
-      "project_type": null,
-      "location": null,
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23B742%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Waters Excavation, Inc."
-    },
-    {
-      "id": "2317161bba16",
-      "state": "VT",
-      "project_id": "C03197",
-      "description": "COLCHESTER HES NH 5600 (14) C/2 (RE-AD)",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-11",
-      "project_type": "Safety",
-      "location": "Colchester",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": null
-    },
-    {
-      "id": "6a3b70f6f536",
-      "state": "VT",
-      "project_id": "C03227",
-      "description": "STATEWIDE HES HRRR (24) & STATEWIDE HES HRRR (25) - Awarded to F. R. Lafayette Inc.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-11",
-      "project_type": "Safety",
-      "location": "Statewide",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/15T036%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "F. R. Lafayette Inc."
-    },
-    {
-      "id": "90627aa285b9",
-      "state": "VT",
-      "project_id": "C03222",
-      "description": "ESSEX NH SWFR (4) & SOUTH BURLINGTON IM SWFR (3) - Awarded to Jointa Lime LLC",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-11",
-      "project_type": "Interstate",
-      "location": "Essex",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21D056%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "Jointa Lime LLC"
-    },
-    {
-      "id": "06478060d58c",
-      "state": "VT",
-      "project_id": "C03223",
-      "description": "STATEWIDE NE STPG MARK (326) - Awarded to L & D Safety Marking Corp",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-04",
-      "project_type": "Pavement",
-      "location": "Statewide Ne",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24T001%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "L & D Safety Marking Corp"
-    },
-    {
-      "id": "9e55eb10a18b",
-      "state": "VT",
-      "project_id": "C03224",
-      "description": "STATEWIDE NW STPG MARK (327) - Awarded to L & D Safety Marking Corp",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Results",
-      "ad_date": null,
-      "let_date": "2025-04-04",
-      "project_type": "Pavement",
-      "location": "Statewide Nw",
-      "district": null,
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24T002%20Bids%20Results%20Detail%20Report.pdf",
-      "source": "VTrans",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "awarded",
-      "contractor": "L & D Safety Marking Corp"
-    },
-    {
-      "id": "088e2a2fd0ce",
-      "state": "NH",
-      "project_id": "45074",
-      "description": "Pavement resurfacing on four sections in five Towns in Districts 3 & 5",
-      "cost_low": 10230532,
-      "cost_high": 10230532,
-      "cost_display": "$10.2M",
-      "ad_date": null,
-      "let_date": "2025-11-06",
-      "project_type": "Pavement",
-      "location": "Allenstown-Pembroke-Epsom",
-      "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ],
-      "status": "verify"
-    },
-    {
-      "id": "4ffae452048a",
-      "state": "NH",
-      "project_id": "45075",
-      "description": "Statewide Tier 2 Resurfacing (Central)",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2025-11-06",
-      "project_type": "Pavement",
-      "location": "Statewide",
-      "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ],
-      "status": "verify"
-    },
-    {
-      "id": "fd67218acfa7",
-      "state": "NH",
-      "project_id": "45073",
-      "description": "Pavement resurfacing on two sections in four towns in District 3",
-      "cost_low": 5583159,
-      "cost_high": 5583159,
-      "cost_display": "$5.6M",
-      "ad_date": null,
-      "let_date": "2025-11-13",
-      "project_type": "Pavement",
-      "location": "Belmont-Gilford-Tilton",
-      "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ],
-      "status": "verify"
-    },
-    {
-      "id": "72fe4fa8d9fa",
-      "state": "NH",
-      "project_id": "40514",
-      "description": "Pavement rehabilitation along I-93 in Franconia",
-      "cost_low": 31273556,
-      "cost_high": 31273556,
-      "cost_display": "$31.3M",
-      "ad_date": null,
-      "let_date": "2025-11-06",
-      "project_type": "Interstate",
-      "location": "Franconia",
-      "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "verify"
-    },
-    {
-      "id": "9df52689c961",
-      "state": "NH",
-      "project_id": "43071A",
-      "description": "Pavement resurfacing on one section along I-93 northbound in District 5",
+      "project_id": null,
+      "description": "MaineDOT Bid Schedule - Visit portal for current lettings",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Portal",
       "ad_date": null,
       "let_date": null,
-      "project_type": "Interstate",
-      "location": "Manchester-Hooksett",
+      "project_type": null,
+      "location": null,
       "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
-      "business_lines": [
-        "highway",
-        "hma"
-      ],
-      "status": "verify"
-    },
-    {
-      "id": "5d16e726bc22",
-      "state": "NH",
-      "project_id": "44822",
-      "description": "Replace 19,000 feet of deficient cable and W-beam guardrail with 23,100 feet of new beam guardrail on US 3",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": "2025-10-23",
-      "project_type": "Safety",
-      "location": "Pittsburg",
-      "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
+      "url": "https://www.maine.gov/mdot/projects/advertised/",
+      "source": "MaineDOT",
       "business_lines": [
         "highway"
-      ],
-      "status": "verify"
+      ]
     },
     {
-      "id": "cb6eba12fb5e",
+      "id": "2bd36bd2d6e8",
       "state": "NH",
-      "project_id": "45027",
-      "description": "Highway construction and improvements",
-      "cost_low": 4918627,
-      "cost_high": 4918627,
-      "cost_display": "$4.9M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "North Hampton-Greenland-Portsmouth",
-      "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
-      "business_lines": [
-        "highway"
-      ],
-      "status": "verify"
-    },
-    {
-      "id": "628073460dd4",
-      "state": "NH",
-      "project_id": "40392",
-      "description": "Replacement of US 4 Bridge over Blackwater River and reconstruction of 1100 feet of US 4",
+      "project_id": null,
+      "description": "NHDOT Bid Schedule - Visit portal for current lettings",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Portal",
       "ad_date": null,
       "let_date": null,
-      "project_type": "Bridge",
-      "location": "Andover",
+      "project_type": null,
+      "location": null,
       "district": null,
       "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
       "source": "NHDOT",
       "business_lines": [
-        "highway",
-        "ready_mix"
-      ],
-      "status": "verify"
+        "highway"
+      ]
+    },
+    {
+      "id": "eaf60f83f209",
+      "state": "VT",
+      "project_id": null,
+      "description": "VTrans Bid Schedule - Visit portal for current lettings",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Portal",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": null,
+      "location": null,
+      "district": null,
+      "url": "https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting",
+      "source": "VTrans",
+      "business_lines": [
+        "highway"
+      ]
     },
     {
       "id": "b6fe0913cb20",
@@ -1724,13 +642,27 @@
   ],
   "news": [
     {
-      "id": "95693a9c92e5",
-      "title": "DOT workers killed in I-95 crash loved their jobs, family, outdoors",
-      "summary": "James Brown and Dwayne Campbell were a part of a tight-knit community and loved their families.",
-      "url": "https://www.pressherald.com/2026/01/17/dot-workers-killed-in-i-95-crash-loved-their-jobs-family-outdoors/",
+      "id": "f5ce9726bfa9",
+      "title": "Obituary: Nils Peter Mickelson",
+      "summary": "BUXTON - Nils Peter Mickelson, 82, of Waterman Road, passed away peacefully on Jan. 3, 2026 after a long illness.\n\nPete was ...",
+      "url": "https://www.pressherald.com/2026/01/18/obituarynils-peter-mickelson-2/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-01-17",
+      "date": "2026-01-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1220f1170cff",
+      "title": "Death Notice: Dorothy \u201cDot\u201d (Mullen) Feeney",
+      "summary": "Feeney, Dorothy \u201cDot\u201d (Mullen) 100, of Topsham, Jan. 11. No services, spring burial. Lindquist Funeral Home. ...",
+      "url": "https://www.pressherald.com/2026/01/18/obituarydorothy-dot-mullen-feeney/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-18",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -1738,13 +670,27 @@
       ]
     },
     {
-      "id": "6f2d5e8b4bf8",
-      "title": "Light snowfall expected Saturday throughout Maine",
-      "summary": "Drivers should plan on slippery road conditions.",
-      "url": "https://www.pressherald.com/2026/01/17/light-snowfall-expected-saturday-throughout-maine/",
-      "source": "Portland Press Herald",
+      "id": "8753b6db03a8",
+      "title": "How a Depression-era \u2018Hooverville\u2019 turned into UMaine\u2019s hippie paradise",
+      "summary": "This story was originally published in April 2023. The area adjacent to the Rangeley Road entrance to the University of Maine campus, off Park Street in Orono, is an empty field now. For nearly 70 years until the 1980s, however, it housed a community of cabins dubbed \u201cHungry Hollow\u201d by residents and",
+      "url": "https://www.bangordailynews.com/2026/01/18/bangor/bangor-culture/bumstock-music-festival-umaine-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-01-17",
+      "date": "2026-01-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "885be37da75f",
+      "title": "At abandoned Monson Developmental Center, Westmass prepares, slowly, to \u2018create a village\u2019",
+      "summary": "The public will get its first chance to comment on zoning changes at the site 7 p.m. Tuesday, Jan. 20 at Granite Valley School, 21 Thompson St., Monson.",
+      "url": "https://www.masslive.com/westernmass/2026/01/at-abandoned-monson-developmental-center-westmass-prepares-slowly-to-create-a-village.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-18",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -1775,20 +721,6 @@
       "date": "2026-01-15",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4a241b4f4be0",
-      "title": "Report Says Rep. Noble\u2019s Chat Supports \u2018Segregated Schools\u2019",
-      "summary": "A statement on behalf of Republican Rep. Kristin Noble of Bedford didn't deny a Granite Post report regarding leaked Signal chats supporting \u201csegregated schools\u201d\u00a0but talked about segregating Republicans from Democrats and other hot button issues.",
-      "url": "https://indepthnh.org/2026/01/14/report-rep-nobles-chat-supports-segregated-schools/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-01-14",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -1838,9 +770,9 @@
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 9.5,
+      "score": 9.0,
       "trend": "up",
-      "action": "Aggressive expansion - exceptional pipeline"
+      "action": "Expand highway capacity - strong pipeline"
     },
     "housing_permits": {
       "score": 6.5,
@@ -1867,7 +799,7 @@
       "trend": "stable",
       "action": "Selective growth"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable"
   }
 }

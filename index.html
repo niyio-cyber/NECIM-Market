@@ -97,6 +97,27 @@
             padding: 25px; margin-bottom: 25px;
             border: 1px solid rgba(77, 166, 255, 0.2);
         }
+        
+        /* STATE FILTER - NEW */
+        .state-filters {
+            display: flex; gap: 8px; margin-bottom: 15px; flex-wrap: wrap;
+            padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .state-filter {
+            padding: 8px 16px; border-radius: 20px; cursor: pointer;
+            background: rgba(13, 21, 32, 0.8); color: #888; border: 1px solid transparent;
+            font-size: 0.85em; font-weight: 600; transition: all 0.2s;
+        }
+        .state-filter:hover { color: #4da6ff; border-color: rgba(77, 166, 255, 0.3); }
+        .state-filter.active { 
+            background: rgba(77, 166, 255, 0.2); color: #4da6ff; 
+            border-color: #4da6ff; 
+        }
+        .state-filter .count {
+            display: inline-block; margin-left: 6px; padding: 2px 6px;
+            background: rgba(0,0,0,0.3); border-radius: 10px; font-size: 0.8em;
+        }
+        
         .tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
         .tab {
             padding: 10px 20px; border-radius: 8px; cursor: pointer;
@@ -169,8 +190,10 @@
             border: 1px solid rgba(77, 166, 255, 0.15);
         }
         .widget-title { font-size: 1em; color: #4da6ff; margin-bottom: 15px; }
-        .state-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .state-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); cursor: pointer; }
         .state-item:last-child { border-bottom: none; }
+        .state-item:hover { color: #4da6ff; }
+        .state-item.active { color: #4da6ff; font-weight: 600; }
         .portal-link {
             display: block; padding: 10px; margin-bottom: 8px; border-radius: 8px;
             background: rgba(13, 21, 32, 0.8); text-decoration: none;
@@ -231,6 +254,10 @@
         <div class="main-grid">
             <div class="feed-section">
                 <div class="section-title">📋 Intelligence Feed</div>
+                
+                <!-- STATE FILTERS - NEW -->
+                <div class="state-filters" id="stateFilters"></div>
+                
                 <div class="tabs">
                     <div class="tab active" data-tab="dot">🏗️ DOT Lettings</div>
                     <div class="tab" data-tab="news">📰 News</div>
@@ -264,6 +291,7 @@
 
     <script>
         const PASSWORD = 'NECMIS2026!';
+        const STATES = ['VT', 'NH', 'ME', 'MA', 'NY', 'RI', 'CT', 'PA'];
         const PORTALS = {
             'VT': { name: 'VTrans', desc: 'Construction Contracting', url: 'https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting' },
             'NH': { name: 'NHDOT', desc: 'Invitation to Bid', url: 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid' },
@@ -274,6 +302,10 @@
             'CT': { name: 'CTDOT', desc: 'Contractor Information', url: 'https://portal.ct.gov/DOT/Doing-Business/Contractor-Information' },
             'PA': { name: 'PennDOT', desc: 'Letting Information', url: 'https://www.penndot.pa.gov/business/Letting/Pages/default.aspx' }
         };
+
+        // Global state
+        let currentData = null;
+        let selectedState = 'all';
 
         function checkPassword() {
             const input = document.getElementById('passwordInput').value;
@@ -333,10 +365,25 @@
             try {
                 const resp = await fetch('data/necmis_data.json?' + Date.now());
                 const data = await resp.json();
+                currentData = data;
                 renderDashboard(data);
             } catch (e) {
                 console.error('Error loading data:', e);
             }
+        }
+
+        function setStateFilter(state) {
+            selectedState = state;
+            // Update filter buttons
+            document.querySelectorAll('.state-filter').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.state === state);
+            });
+            // Update sidebar
+            document.querySelectorAll('.state-item').forEach(item => {
+                item.classList.toggle('active', item.dataset.state === state);
+            });
+            // Re-render with filter
+            if (currentData) renderFeeds(currentData);
         }
 
         function renderDashboard(data) {
@@ -384,13 +431,38 @@
             }).join('');
             document.getElementById('metricsGrid').innerHTML = metricsHtml;
 
-            // State breakdown
+            // State filters (NEW)
+            const stateCounts = {};
+            STATES.forEach(s => stateCounts[s] = 0);
+            (data.dot_lettings || []).forEach(d => { if (stateCounts[d.state] !== undefined) stateCounts[d.state]++; });
+            (data.news || []).forEach(n => { if (stateCounts[n.state] !== undefined) stateCounts[n.state]++; });
+            
+            const totalCount = Object.values(stateCounts).reduce((a,b) => a+b, 0);
+            let filtersHtml = `<div class="state-filter ${selectedState === 'all' ? 'active' : ''}" data-state="all" onclick="setStateFilter('all')">All<span class="count">${totalCount}</span></div>`;
+            STATES.forEach(s => {
+                filtersHtml += `<div class="state-filter ${selectedState === s ? 'active' : ''}" data-state="${s}" onclick="setStateFilter('${s}')">${s}<span class="count">${stateCounts[s]}</span></div>`;
+            });
+            document.getElementById('stateFilters').innerHTML = filtersHtml;
+
+            // State breakdown sidebar (clickable)
             const states = data.summary?.by_state || {};
             document.getElementById('stateBreakdown').innerHTML = Object.entries(states)
-                .map(([s, c]) => `<div class="state-item"><span>${s}</span><span>${c}</span></div>`).join('');
+                .map(([s, c]) => `<div class="state-item ${selectedState === s ? 'active' : ''}" data-state="${s}" onclick="setStateFilter('${s}')"><span>${s}</span><span>${c}</span></div>`).join('');
+
+            // Render feeds
+            renderFeeds(data);
+        }
+
+        function renderFeeds(data) {
+            // Filter by selected state
+            const filterByState = (items) => {
+                if (selectedState === 'all') return items;
+                return items.filter(item => item.state === selectedState);
+            };
 
             // DOT Lettings
-            const dotHtml = (data.dot_lettings || []).map(d => {
+            const filteredDot = filterByState(data.dot_lettings || []);
+            const dotHtml = filteredDot.map(d => {
                 const typeClass = getProjectTypeClass(d.project_type);
                 const location = d.location || d.state;
                 const projectType = d.project_type ? `<span class="project-type ${typeClass}">${d.project_type}</span>` : '';
@@ -407,31 +479,33 @@
                     <div class="project-meta">${district}${adDate}${projectId}</div>
                     <a href="${d.url}" target="_blank" class="project-link">View on ${d.source} →</a>
                 </div>`;
-            }).join('') || '<p style="color:#666">No DOT lettings found</p>';
+            }).join('') || `<p style="color:#666">No DOT lettings found${selectedState !== 'all' ? ' for ' + selectedState : ''}</p>`;
             document.getElementById('dot-content').innerHTML = dotHtml;
 
             // News
-            const newsItems = (data.news || []).filter(n => n.category === 'news');
-            document.getElementById('news-content').innerHTML = newsItems.map(n =>
+            const filteredNews = filterByState((data.news || []).filter(n => n.category === 'news'));
+            document.getElementById('news-content').innerHTML = filteredNews.map(n =>
                 `<div class="news-card">
                     <div class="news-source">${n.source} (${n.state}) • ${n.date}</div>
                     <div class="news-title"><a href="${n.url}" target="_blank" style="color:#e0e0e0;text-decoration:none">${n.title}</a></div>
                     <div class="news-summary">${n.summary || ''}</div>
                 </div>`
-            ).join('') || '<p style="color:#666">No news items found</p>';
+            ).join('') || `<p style="color:#666">No news items found${selectedState !== 'all' ? ' for ' + selectedState : ''}</p>`;
 
             // Funding
-            const fundingItems = (data.news || []).filter(n => n.category === 'funding');
-            document.getElementById('funding-content').innerHTML = fundingItems.map(n =>
+            const filteredFunding = filterByState((data.news || []).filter(n => n.category === 'funding'));
+            document.getElementById('funding-content').innerHTML = filteredFunding.map(n =>
                 `<div class="news-card funding">
                     <div class="news-source">${n.source} (${n.state}) • ${n.date}</div>
                     <div class="news-title"><a href="${n.url}" target="_blank" style="color:#e0e0e0;text-decoration:none">${n.title}</a></div>
                     <div class="news-summary">${n.summary || ''}</div>
                 </div>`
-            ).join('') || '<p style="color:#666">No funding announcements found</p>';
+            ).join('') || `<p style="color:#666">No funding announcements found${selectedState !== 'all' ? ' for ' + selectedState : ''}</p>`;
 
             // All
-            const allItems = [...(data.dot_lettings || []).map(d => ({...d, _type: 'dot'})), ...(data.news || []).map(n => ({...n, _type: 'news'}))];
+            const allDot = filterByState(data.dot_lettings || []).map(d => ({...d, _type: 'dot'}));
+            const allNews = filterByState(data.news || []).map(n => ({...n, _type: 'news'}));
+            const allItems = [...allDot, ...allNews];
             document.getElementById('all-content').innerHTML = allItems.slice(0, 50).map(item => {
                 if (item._type === 'dot') {
                     const typeClass = getProjectTypeClass(item.project_type);
@@ -451,7 +525,7 @@
                         <div class="news-title"><a href="${item.url}" target="_blank" style="color:#e0e0e0;text-decoration:none">${item.title}</a></div>
                     </div>`;
                 }
-            }).join('');
+            }).join('') || `<p style="color:#666">No items found${selectedState !== 'all' ? ' for ' + selectedState : ''}</p>`;
         }
 
         init();

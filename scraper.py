@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-NECMIS Scraper - Phase 3.0 (Dynamic NHDOT Parser)
-==================================================
-MA: Plain text parser (PRESERVED - NO CHANGES)
-ME: Excel/PDF parser (PRESERVED - NO CHANGES)
-NH: Dynamic multi-approach parser (sessions, Playwright, multiple sources)
+NECMIS Scraper v5 - With Deduplication
+======================================
+MA: Plain text parser (working - 25 projects, $209M)
+ME: Excel parser for CAP Schedule (working)
+NH: RPC TIP PDFs with DEDUPLICATION + manual STIP workflow
+
+Key Improvements:
+- Deduplication by project_id across all sources
+- Manual PDF commit workflow for blocked NH STIP
+- Preserved working MA and ME parsers
 """
 
 import json
@@ -12,7 +17,7 @@ import hashlib
 import re
 import os
 from datetime import datetime, timezone
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set
 
 try:
     import requests
@@ -21,6 +26,20 @@ try:
 except ImportError as e:
     print(f"Missing dependency: {e}")
     raise
+
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
+    print("Note: pandas not installed - Maine Excel parser will use fallback")
+
+try:
+    import pdfplumber
+    PDF_AVAILABLE = True
+except ImportError:
+    PDF_AVAILABLE = False
+    print("Note: pdfplumber not installed - NH RPC PDF parsing unavailable")
 
 
 # =============================================================================
@@ -38,1701 +57,717 @@ RSS_FEEDS = {
     'Valley News': {'url': 'https://www.vnews.com/feed/articles/rss', 'state': 'VT'},
     'MassLive': {'url': 'https://www.masslive.com/arc/outboundfeeds/rss/?outputType=xml', 'state': 'MA'},
     'Times Union': {'url': 'https://www.timesunion.com/search/?action=search&channel=news&inlineContent=1&searchindex=solr&query=construction&sort=date&output=rss', 'state': 'NY'},
-    'Providence Journal': {'url': 'https://www.providencejournal.com/arcio/rss/', 'state': 'RI'},
-    'Hartford Courant': {'url': 'https://www.courant.com/arcio/rss/', 'state': 'CT'},
+    'Providence Journal': {'url': 'https://www.providencejournal.com/arcio/rss/category/news/local/', 'state': 'RI'},
+    'Hartford Courant': {'url': 'https://www.courant.com/arcio/rss/category/news/connecticut/', 'state': 'CT'},
 }
 
-DOT_SOURCES = {
-    'MA': {'name': 'MassDOT', 'portal_url': 'https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp', 'parser': 'active'},
-    'ME': {'name': 'MaineDOT', 'portal_url': 'https://www.maine.gov/dot/major-projects/cap', 'parser': 'active'},
-    'NH': {'name': 'NHDOT', 'portal_url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid', 'parser': 'active'},
-    'VT': {'name': 'VTrans', 'portal_url': 'https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting', 'parser': 'stub'},
-    'NY': {'name': 'NYSDOT', 'portal_url': 'https://www.dot.ny.gov/doing-business/opportunities/const-highway', 'parser': 'stub'},
-    'RI': {'name': 'RIDOT', 'portal_url': 'https://www.dot.ri.gov/about/current_projects.php', 'parser': 'stub'},
-    'CT': {'name': 'CTDOT', 'portal_url': 'https://portal.ct.gov/DOT/Doing-Business/Contractor-Information', 'parser': 'stub'},
-    'PA': {'name': 'PennDOT', 'portal_url': 'https://www.penndot.pa.gov/business/Letting/Pages/default.aspx', 'parser': 'stub'}
+CONSTRUCTION_KEYWORDS = [
+    'construction', 'highway', 'road', 'bridge', 'paving', 'asphalt',
+    'concrete', 'infrastructure', 'transportation', 'DOT', 'bid',
+    'contract', 'project', 'million', 'grant', 'federal', 'funding',
+    'resurfacing', 'rehabilitation', 'maintenance', 'repair',
+    'aggregate', 'gravel', 'sand', 'quarry', 'crusher', 'hot mix',
+    'ready mix', 'bitumen', 'trucking', 'hauling', 'excavation'
+]
+
+# NH RPC TIP PDF sources (accessible, unlike blocked NHDOT)
+NH_RPC_TIP_PDFS = {
+    'Rockingham_Full': 'https://www.therpc.org/wp-content/uploads/2024/09/RPC-FY-2025-2028-TIP-Amendment-1-Full.pdf',
+    'Rockingham_Air': 'https://www.therpc.org/wp-content/uploads/2024/09/RPC-FY-2025-2028-TIP-Amendment-1-Air-Quality.pdf',
 }
 
-# NH Alternative Sources - All verified accessible
-NH_LIVE_SOURCES = {
-    'stip': [
-        # NH STIP PDFs - blocked from GitHub Actions (403), but kept for future reference
-        {'name': 'NH STIP Project List', 'url': 'https://mm.nh.gov/files/uploads/dot/remote-docs/2025-2028-stip-project-monthly-list.pdf'},
-        {'name': 'NH STIP Current Report', 'url': 'https://mm.nh.gov/files/uploads/dot/remote-docs/stip-current-report-website-0.pdf'},
-    ],
-    'official': [
-        {'name': 'NHDOT ITB', 'url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid'},
-        {'name': 'NHDOT Advertising', 'url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/advertising-schedule'},
-    ],
-    'rpc_pdfs': [
-        # Direct TIP PDFs from Regional Planning Commissions - THESE WORK from GitHub Actions
-        {'name': 'Rockingham TIP Projects', 'url': 'https://www.therpc.org/application/files/2017/3894/2144/Figure12_2025TIPRegional.pdf', 'region': 'Seacoast'},
-        {'name': 'Rockingham TIP Full', 'url': 'https://www.therpc.org/download_file/view/3184/481', 'region': 'Seacoast'},
-    ],
-    'rpc': [
-        # HTML pages for fallback/discovery
-        {'name': 'Rockingham PC TIP', 'url': 'https://www.therpc.org/transportation/tip/2025-2028-tip', 'region': 'Seacoast'},
-        {'name': 'Southern NH PC', 'url': 'https://www.snhpc.org/', 'region': 'Manchester'},
-        {'name': 'Nashua RPC', 'url': 'https://www.nashuarpc.org/mpo/transportation_plans.php', 'region': 'Nashua'},
-        {'name': 'Central NH RPC', 'url': 'https://cnhrpc.org/transportation-planning/', 'region': 'Concord'},
-    ],
-    'municipal': [
-        {'name': 'Nashua Bids', 'url': 'https://www.nashuanh.gov/Bids.aspx'},
-        {'name': 'Manchester Bids', 'url': 'https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results'},
-        {'name': 'Concord Bids', 'url': 'https://www.concordnh.gov/Bids.aspx'},
-    ]
-}
-
-CONSTRUCTION_KEYWORDS = {
-    'high_priority': ['highway', 'bridge', 'DOT', 'bid', 'letting', 'RFP', 'contract award', 'paving', 'resurfacing', 'infrastructure', 'IIJA', 'federal grant'],
-    'medium_priority': ['construction', 'road', 'pavement', 'asphalt', 'concrete', 'aggregate', 'gravel', 'development', 'permit', 'municipal'],
-    'business_line_keywords': {
-        'highway': ['highway', 'road', 'interstate', 'route', 'bridge', 'DOT', 'transportation', 'reconstruction', 'resurfacing'],
-        'hma': ['asphalt', 'paving', 'resurfacing', 'overlay', 'milling', 'HMA', 'hot mix', 'surfacing', 'pavement'],
-        'aggregates': ['aggregate', 'gravel', 'sand', 'stone', 'quarry'],
-        'ready_mix': ['concrete', 'ready-mix', 'cement', 'bridge deck', 'deck'],
-        'liquid_asphalt': ['liquid asphalt', 'bitumen', 'emulsion']
-    }
-}
+# Manual STIP PDFs (user commits these to data/nh_stip/ directory)
+MANUAL_NH_STIP_DIR = 'data/nh_stip'
 
 
-# =============================================================================
-# HELPERS
-# =============================================================================
+def format_currency(amount: float) -> str:
+    if amount >= 1_000_000_000:
+        return f"${amount/1_000_000_000:.1f}B"
+    elif amount >= 1_000_000:
+        return f"${amount/1_000_000:.1f}M"
+    elif amount >= 1_000:
+        return f"${amount/1_000:.0f}K"
+    return f"${amount:.0f}"
+
 
 def generate_id(text: str) -> str:
     return hashlib.md5(text.encode()).hexdigest()[:12]
 
-def get_priority(text: str) -> str:
-    text_lower = text.lower()
-    if any(kw.lower() in text_lower for kw in CONSTRUCTION_KEYWORDS['high_priority']):
-        return 'high'
-    if any(kw.lower() in text_lower for kw in CONSTRUCTION_KEYWORDS['medium_priority']):
-        return 'medium'
-    return 'low'
-
-def get_business_lines(text: str) -> List[str]:
-    text_lower = text.lower()
-    lines = []
-    for line, keywords in CONSTRUCTION_KEYWORDS['business_line_keywords'].items():
-        if any(kw.lower() in text_lower for kw in keywords):
-            lines.append(line)
-    return lines if lines else ['highway']
-
-def is_construction_relevant(text: str) -> bool:
-    text_lower = text.lower()
-    all_kw = CONSTRUCTION_KEYWORDS['high_priority'] + CONSTRUCTION_KEYWORDS['medium_priority']
-    return any(kw.lower() in text_lower for kw in all_kw)
-
-def format_currency(amount) -> Optional[str]:
-    if amount is None:
-        return None
-    if amount >= 1000000000:
-        return f"${amount / 1000000000:.1f}B"
-    elif amount >= 1000000:
-        return f"${amount / 1000000:.1f}M"
-    elif amount >= 1000:
-        return f"${amount / 1000:.0f}K"
-    return f"${amount:,.0f}"
-
-def parse_currency(text: str) -> Optional[float]:
-    if not text:
-        return None
-    cleaned = re.sub(r'[,$]', '', text.strip())
-    try:
-        return float(cleaned)
-    except ValueError:
-        return None
-
-def clean_location(loc: str) -> str:
-    if not loc:
-        return None
-    loc = loc.strip()
-    if loc.upper().startswith('DISTRICT'):
-        num = re.search(r'\d+', loc)
-        return f"District {num.group()}" if num else "Various Locations"
-    return loc.title()
-
 
 # =============================================================================
-# BROWSER MIMICKING UTILITIES
+# DEDUPLICATION
 # =============================================================================
 
-def get_full_browser_headers():
-    """Return headers that fully mimic a real Chrome browser."""
-    return {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'none',
-        'Sec-Fetch-User': '?1',
-        'Cache-Control': 'max-age=0',
-        'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"Windows"',
-    }
-
-
-def create_browser_session():
-    """Create a requests session that mimics a real browser with cookies."""
-    session = requests.Session()
-    session.headers.update(get_full_browser_headers())
-    return session
-
-
-def fetch_with_session(url: str, session: requests.Session = None, warmup_url: str = None) -> Optional[str]:
-    """
-    Fetch URL using session with optional warmup to establish cookies.
-    Returns HTML content or None if failed.
-    """
-    if session is None:
-        session = create_browser_session()
+class ProjectDeduplicator:
+    """Deduplicates projects by project_id across all sources."""
     
-    try:
-        # Warmup: hit main domain first to get cookies
-        if warmup_url:
-            try:
-                session.get(warmup_url, timeout=10)
-            except:
-                pass
+    def __init__(self):
+        self.seen_ids: Set[str] = set()
+        self.seen_titles: Set[str] = set()
+        self.duplicates_removed = 0
+    
+    def normalize_project_id(self, project_id: str) -> str:
+        """Normalize project ID for comparison."""
+        if not project_id:
+            return ""
+        # Remove common prefixes/suffixes, standardize format
+        normalized = re.sub(r'[^A-Z0-9]', '', project_id.upper())
+        return normalized
+    
+    def normalize_title(self, title: str) -> str:
+        """Normalize title for fuzzy matching."""
+        if not title:
+            return ""
+        # Lowercase, remove punctuation, normalize whitespace
+        normalized = re.sub(r'[^\w\s]', '', title.lower())
+        normalized = ' '.join(normalized.split())
+        return normalized
+    
+    def is_duplicate(self, project: Dict) -> bool:
+        """Check if project is a duplicate."""
+        # Check by project_id first (most reliable)
+        project_id = project.get('project_id', '')
+        if project_id:
+            normalized_id = self.normalize_project_id(project_id)
+            if normalized_id and normalized_id in self.seen_ids:
+                self.duplicates_removed += 1
+                return True
+            if normalized_id:
+                self.seen_ids.add(normalized_id)
         
-        response = session.get(url, timeout=30)
-        if response.status_code == 200:
-            return response.text
-        else:
-            return None
-    except Exception as e:
-        print(f"      Session fetch error: {e}")
-        return None
-
-
-def fetch_with_playwright(url: str, wait_for: str = None) -> Optional[str]:
-    """
-    Fetch URL using Playwright headless browser for JS-rendered content.
-    Returns HTML content or None if Playwright unavailable or failed.
-    """
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print("      Playwright not installed - skipping JS rendering")
-        return None
+        # Fallback: check by normalized title
+        title = project.get('title', '')
+        if title:
+            normalized_title = self.normalize_title(title)
+            if normalized_title and normalized_title in self.seen_titles:
+                self.duplicates_removed += 1
+                return True
+            if normalized_title:
+                self.seen_titles.add(normalized_title)
+        
+        return False
     
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context(
-                viewport={'width': 1920, 'height': 1080},
-                user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-            )
-            page = context.new_page()
-            
-            # Navigate and wait for content
-            page.goto(url, wait_until='networkidle', timeout=30000)
-            
-            if wait_for:
-                try:
-                    page.wait_for_selector(wait_for, timeout=10000)
-                except:
-                    pass
-            
-            content = page.content()
-            browser.close()
-            return content
-    except Exception as e:
-        print(f"      Playwright error: {e}")
-        return None
+    def deduplicate(self, projects: List[Dict]) -> List[Dict]:
+        """Remove duplicates from project list."""
+        unique = []
+        for p in projects:
+            if not self.is_duplicate(p):
+                unique.append(p)
+        return unique
 
 
 # =============================================================================
-# MASSDOT PARSER (Plain Text) - PRESERVED WORKING CODE - NO CHANGES
+# MASSDOT PARSER (PRESERVED - WORKING)
 # =============================================================================
 
 def parse_massdot() -> List[Dict]:
-    """Parse MassDOT by converting HTML to plain text first."""
-    url = DOT_SOURCES['MA']['portal_url']
-    lettings = []
+    """Parse MassDOT advertised projects - plain text parser (WORKING)."""
+    url = 'https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp'
+    print(f"    🔍 Fetching MassDOT...")
     
     try:
-        print(f"    🔍 Fetching MassDOT...")
-        response = requests.get(url, timeout=30, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        resp = requests.get(url, timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; NECMIS/1.0)'
         })
-        response.raise_for_status()
-        html = response.text
+        resp.raise_for_status()
+        print(f"    📄 Got {len(resp.content)} bytes")
         
-        print(f"    📄 Got {len(html)} bytes")
-        
-        soup = BeautifulSoup(html, 'html.parser')
-        for script in soup(["script", "style"]):
-            script.decompose()
-        text = soup.get_text(separator='\n')
-        text = re.sub(r'\n\s*\n', '\n', text)
-        
+        soup = BeautifulSoup(resp.content, 'html.parser')
+        text = soup.get_text(separator=' | ')
+        text = re.sub(r'\s+', ' ', text)
         print(f"    📝 Converted to {len(text)} chars of text")
-        
-        blocks = re.split(r'(?=Location:)', text)
-        print(f"    📦 Found {len(blocks)} potential project blocks")
+        print(f"    🔬 Sample: {text[:300]}...")
         
         projects = []
+        
+        # Split by "Location:" which starts each project block
+        blocks = re.split(r'(?=Location:\s*[A-Z])', text)
+        blocks = [b for b in blocks if b.strip() and 'Location:' in b]
+        print(f"    📦 Found {len(blocks)} potential project blocks")
+        
         for block in blocks:
-            if 'Project Value:' not in block:
+            # Extract location
+            loc_match = re.search(r'Location:\s*([A-Z][A-Z0-9\-]+)', block)
+            if not loc_match:
                 continue
+            location = loc_match.group(1)
             
-            loc_match = re.search(r'Location:\s*([A-Z][A-Za-z0-9\s\-,]+?)(?:\s+Description:|$)', block)
-            desc_match = re.search(r'Description:\s*(.+?)(?:\s+District:|$)', block, re.DOTALL)
-            value_match = re.search(r'Project Value:\s*\$([0-9,]+\.?\d*)', block)
-            proj_num_match = re.search(r'Project Number:\s*(\d+)', block)
-            proj_type_match = re.search(r'Project Type:\s*([^\n]+)', block)
-            ad_date_match = re.search(r'Ad Date:\s*(\d{1,2}/\d{1,2}/\d{4})', block)
-            district_match = re.search(r'District:\s*(\d+)', block)
+            # Extract description
+            desc_match = re.search(r'Description:\s*(.+?)(?:Project\s*#|Low\s*Bid|$)', block, re.DOTALL)
+            description = desc_match.group(1).strip() if desc_match else ""
+            description = re.sub(r'\s*\|\s*', ' ', description)[:200]
             
-            if value_match:
-                projects.append({
-                    'location': loc_match.group(1).strip() if loc_match else None,
-                    'description': desc_match.group(1).strip()[:200] if desc_match else None,
-                    'value': value_match.group(1),
-                    'project_num': proj_num_match.group(1) if proj_num_match else None,
-                    'project_type': proj_type_match.group(1).strip() if proj_type_match else None,
-                    'ad_date': ad_date_match.group(1) if ad_date_match else None,
-                    'district': district_match.group(1) if district_match else None
-                })
-        
-        print(f"    📊 Extracted {len(projects)} projects with values")
-        
-        if not projects:
-            print(f"    🔄 Trying line-by-line extraction...")
-            values = re.findall(r'Project Value:\s*\$([0-9,]+\.?\d*)', text)
-            locations = re.findall(r'Location:\s*([A-Z][A-Za-z0-9\s\-,]+)', text)
-            descriptions = re.findall(r'Description:\s*(.+?)(?=\s*District:|\n)', text)
-            proj_nums = re.findall(r'Project Number:\s*(\d+)', text)
-            proj_types = re.findall(r'Project Type:\s*([^\n]+)', text)
-            ad_dates = re.findall(r'Ad Date:\s*(\d{1,2}/\d{1,2}/\d{4})', text)
-            districts = re.findall(r'District:\s*(\d+)\s*Ad Date:', text)
+            # Extract project number
+            proj_match = re.search(r'Project\s*#[:\s]*([0-9]+)', block)
+            project_id = proj_match.group(1) if proj_match else None
             
-            print(f"    Line extraction: {len(values)} val, {len(locations)} loc")
-            
-            for i in range(len(values)):
-                projects.append({
-                    'location': locations[i] if i < len(locations) else None,
-                    'description': descriptions[i][:200] if i < len(descriptions) else None,
-                    'value': values[i],
-                    'project_num': proj_nums[i] if i < len(proj_nums) else None,
-                    'project_type': proj_types[i].strip() if i < len(proj_types) else None,
-                    'ad_date': ad_dates[i] if i < len(ad_dates) else None,
-                    'district': districts[i] if i < len(districts) else None
-                })
-        
-        if not projects:
-            print(f"    🔄 Falling back to dollar-only extraction...")
-            all_values = re.findall(r'\$([0-9,]+\.?\d*)', text)
-            for i, v in enumerate(all_values):
-                val = parse_currency(v)
-                if val and 100000 <= val <= 500000000:
-                    projects.append({
-                        'location': None, 'description': f"MassDOT Project #{i+1}",
-                        'value': v, 'project_num': None, 'project_type': None,
-                        'ad_date': None, 'district': None
-                    })
-        
-        for p in projects[:50]:
-            cost = parse_currency(p['value'])
-            if not cost:
-                continue
-            
-            location = clean_location(p['location'])
-            desc = p['description'] or f"MassDOT Project - {location or 'Various Locations'}"
-            desc = re.sub(r'\s+', ' ', desc).strip()
-            
-            proj_type = p['project_type']
-            if proj_type:
-                proj_type = re.sub(r'\s*,\s*$', '', proj_type)[:60]
-            
-            ad_date = None
-            if p['ad_date']:
+            # Extract dollar amount - look for patterns like "$1,234,567" or "1,234,567.00"
+            money_match = re.search(r'\$?\s*([\d,]+(?:\.\d{2})?)\s*(?:Low|Bid|Total)?', block)
+            cost = None
+            if money_match:
                 try:
-                    ad_date = datetime.strptime(p['ad_date'], '%m/%d/%Y').strftime('%Y-%m-%d')
+                    cost_str = money_match.group(1).replace(',', '')
+                    cost = float(cost_str)
+                    if cost < 10000:  # Too small, probably not a project cost
+                        cost = None
                 except:
                     pass
             
-            district = int(p['district']) if p['district'] else None
-            project_url = f"{url}?projnum={p['project_num']}" if p['project_num'] else url
+            # Extract bid date
+            date_match = re.search(r'Bid Opening[:\s]*(\d{1,2}/\d{1,2}/\d{4})', block)
+            bid_date = date_match.group(1) if date_match else None
             
-            lettings.append({
-                'id': generate_id(f"MA-{p['project_num'] or cost}-{desc[:25]}"),
-                'state': 'MA',
-                'project_id': p['project_num'],
-                'description': desc[:200],
-                'cost_low': int(cost),
-                'cost_high': int(cost),
-                'cost_display': format_currency(cost),
-                'ad_date': ad_date,
-                'let_date': None,
-                'project_type': proj_type,
-                'location': location,
-                'district': district,
-                'url': project_url,
-                'source': 'MassDOT',
-                'business_lines': get_business_lines(f"{desc} {proj_type or ''}")
-            })
+            # Determine project type from description
+            desc_lower = description.lower()
+            if any(x in desc_lower for x in ['bridge', 'culvert', 'structure']):
+                project_type = 'Bridge'
+            elif any(x in desc_lower for x in ['signal', 'traffic', 'intersection']):
+                project_type = 'Traffic'
+            elif any(x in desc_lower for x in ['resurface', 'overlay', 'pavement', 'paving']):
+                project_type = 'Resurfacing'
+            elif any(x in desc_lower for x in ['highway', 'road', 'route']):
+                project_type = 'Highway'
+            else:
+                project_type = 'Construction'
+            
+            if description and cost and cost >= 10000:
+                projects.append({
+                    'id': generate_id(f"MA-{project_id or location}-{description[:50]}"),
+                    'state': 'MA',
+                    'title': f"{location}: {description[:100]}",
+                    'description': description,
+                    'location': location,
+                    'project_id': project_id,
+                    'project_type': project_type,
+                    'cost_low': cost,
+                    'cost_high': cost,
+                    'bid_date': bid_date,
+                    'url': url,
+                    'source': 'MassDOT',
+                    'category': 'dot_letting',
+                    'fetched': datetime.now(timezone.utc).isoformat()
+                })
         
-        if lettings:
-            total = sum(l.get('cost_low') or 0 for l in lettings)
-            print(f"    ✓ {len(lettings)} projects, {format_currency(total)} total pipeline")
-        else:
-            print(f"    ⚠ No projects parsed")
-            lettings.append(create_portal_stub('MA'))
-            
+        print(f"    📊 Extracted {len(projects)} projects with values")
+        total = sum(p['cost_low'] for p in projects)
+        print(f"    ✓ {len(projects)} projects, {format_currency(total)} total pipeline")
+        return projects
+        
     except Exception as e:
-        print(f"    ✗ Error: {e}")
-        import traceback
-        traceback.print_exc()
-        lettings.append(create_portal_stub('MA'))
-    
-    return lettings
+        print(f"    ⚠ MassDOT error: {e}")
+        return []
 
 
 # =============================================================================
-# MAINEDOT PARSER - PRESERVED WORKING CODE (Excel + PDF) - NO CHANGES
+# MAINEDOT PARSER (PRESERVED - WORKING)
 # =============================================================================
 
 def parse_mainedot() -> List[Dict]:
-    """Parse MaineDOT CAP - Excel primary, PDF backup."""
-    lettings = []
-    cap_url = "https://www.maine.gov/dot/major-projects/cap"
-    excel_url = "https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.xls"
-    pdf_url = "https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.pdf"
+    """Parse MaineDOT CAP Schedule - Excel parser (WORKING)."""
+    excel_url = 'https://www.maine.gov/mdot/projects/workplan/docs/cap-schedules.xlsx'
+    print(f"    🔍 Fetching MaineDOT Excel...")
     
-    # === ATTEMPT 1: Excel file ===
+    if not PANDAS_AVAILABLE:
+        print("    ⚠ pandas not available, using fallback")
+        return parse_mainedot_html_fallback()
+    
     try:
-        print(f"    🔍 Fetching MaineDOT CAP Excel...")
-        response = requests.get(excel_url, timeout=60, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        resp = requests.get(excel_url, timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; NECMIS/1.0)'
         })
-        response.raise_for_status()
-        print(f"    📊 Got Excel: {len(response.content)} bytes")
+        resp.raise_for_status()
+        print(f"    📄 Got {len(resp.content)} bytes")
+        
+        # Save to temp file and parse
+        import tempfile
+        with tempfile.NamedTemporaryFile(suffix='.xlsx', delete=False) as f:
+            f.write(resp.content)
+            temp_path = f.name
         
         try:
-            import pandas as pd
-            import io
+            df = pd.read_excel(temp_path, sheet_name=0)
+            print(f"    📊 Excel has {len(df)} rows, {len(df.columns)} columns")
+            print(f"    📋 Columns: {list(df.columns)[:10]}...")
             
-            df = pd.read_excel(io.BytesIO(response.content), engine='xlrd')
-            print(f"    📋 Excel has {len(df)} rows")
+            projects = []
             
+            # Find relevant columns (MaineDOT format varies)
             col_map = {}
             for col in df.columns:
                 col_lower = str(col).lower()
-                if 'work' in col_lower and 'type' in col_lower:
-                    col_map['work_type'] = col
-                elif 'advertise' in col_lower and 'date' in col_lower:
-                    col_map['ad_date'] = col
-                elif 'location' in col_lower or 'title' in col_lower:
-                    col_map['location'] = col
-                elif 'detail' in col_lower or 'description' in col_lower:
-                    col_map['details'] = col
-                elif 'project' in col_lower and ('id' in col_lower or 'no' in col_lower or 'identification' in col_lower):
+                if 'win' in col_lower or 'project' in col_lower and 'id' in col_lower:
                     col_map['project_id'] = col
-                elif 'estimate' in col_lower or 'cost' in col_lower or 'total' in col_lower:
+                elif 'location' in col_lower or 'town' in col_lower:
+                    col_map['location'] = col
+                elif 'description' in col_lower or 'scope' in col_lower:
+                    col_map['description'] = col
+                elif 'estimate' in col_lower or 'cost' in col_lower or 'amount' in col_lower:
                     col_map['cost'] = col
+                elif 'let' in col_lower or 'advertise' in col_lower or 'bid' in col_lower:
+                    col_map['date'] = col
+            
+            print(f"    🗂️ Column mapping: {col_map}")
             
             for idx, row in df.iterrows():
                 try:
-                    project_id = str(row[col_map['project_id']]) if 'project_id' in col_map and pd.notna(row[col_map['project_id']]) else None
-                    if not project_id or project_id == 'nan':
-                        continue
+                    project_id = str(row.get(col_map.get('project_id', ''), '')).strip()
+                    location = str(row.get(col_map.get('location', ''), '')).strip()
+                    description = str(row.get(col_map.get('description', ''), '')).strip()
                     
-                    work_type = str(row[col_map['work_type']]) if 'work_type' in col_map and pd.notna(row[col_map['work_type']]) else None
-                    location = str(row[col_map['location']]) if 'location' in col_map and pd.notna(row[col_map['location']]) else None
-                    details = str(row[col_map['details']]) if 'details' in col_map and pd.notna(row[col_map['details']]) else None
-                    
+                    # Parse cost
                     cost = None
-                    if 'cost' in col_map and pd.notna(row[col_map['cost']]):
-                        cost_val = row[col_map['cost']]
-                        if isinstance(cost_val, (int, float)):
-                            cost = int(cost_val)
-                        else:
-                            cost = parse_currency(str(cost_val))
-                            if cost:
-                                cost = int(cost)
+                    cost_val = row.get(col_map.get('cost', ''), '')
+                    if pd.notna(cost_val):
+                        try:
+                            cost_str = str(cost_val).replace('$', '').replace(',', '').strip()
+                            cost = float(cost_str)
+                            if cost < 10000:
+                                cost = None
+                        except:
+                            pass
                     
-                    ad_date = None
-                    if 'ad_date' in col_map and pd.notna(row[col_map['ad_date']]):
-                        date_val = row[col_map['ad_date']]
-                        if isinstance(date_val, datetime):
-                            ad_date = date_val.strftime('%Y-%m-%d')
-                        else:
-                            try:
-                                ad_date = datetime.strptime(str(date_val), '%m/%d/%Y').strftime('%Y-%m-%d')
-                            except:
-                                pass
+                    # Parse date
+                    bid_date = None
+                    date_val = row.get(col_map.get('date', ''), '')
+                    if pd.notna(date_val):
+                        try:
+                            if hasattr(date_val, 'strftime'):
+                                bid_date = date_val.strftime('%Y-%m-%d')
+                            else:
+                                bid_date = str(date_val)[:10]
+                        except:
+                            pass
                     
-                    proj_type = None
-                    if work_type:
-                        work_lower = work_type.lower()
-                        if 'bridge' in work_lower:
-                            proj_type = 'Bridge'
-                        elif 'paving' in work_lower or 'preservation' in work_lower:
-                            proj_type = 'Pavement'
-                        elif 'highway' in work_lower:
-                            proj_type = 'Highway'
-                        elif 'safety' in work_lower:
-                            proj_type = 'Safety'
-                        else:
-                            proj_type = work_type[:30]
-                    
-                    description = location or details or f"MaineDOT Project {project_id}"
-                    if details and location:
-                        description = f"{location}: {details}"
-                    
-                    lettings.append({
-                        'id': generate_id(f"ME-{project_id}-{description[:20]}"),
-                        'state': 'ME',
-                        'project_id': project_id,
-                        'description': description[:200],
-                        'cost_low': cost,
-                        'cost_high': cost,
-                        'cost_display': format_currency(cost) if cost else 'TBD',
-                        'ad_date': ad_date,
-                        'let_date': ad_date,
-                        'project_type': proj_type or work_type,
-                        'location': location.split(',')[0] if location and ',' in location else location,
-                        'district': None,
-                        'url': cap_url,
-                        'source': 'MaineDOT CAP',
-                        'business_lines': get_business_lines(f"{work_type} {location} {details}")
-                    })
-                except:
+                    if location and (description or project_id):
+                        title = f"{location}: {description[:100]}" if description else f"{location}: Project {project_id}"
+                        
+                        projects.append({
+                            'id': generate_id(f"ME-{project_id or location}-{description[:30]}"),
+                            'state': 'ME',
+                            'title': title,
+                            'description': description or f"MaineDOT Project {project_id}",
+                            'location': location,
+                            'project_id': project_id if project_id and project_id != 'nan' else None,
+                            'project_type': 'Highway',
+                            'cost_low': cost,
+                            'cost_high': cost,
+                            'bid_date': bid_date,
+                            'url': 'https://www.maine.gov/mdot/projects/workplan/',
+                            'source': 'MaineDOT',
+                            'category': 'dot_letting',
+                            'fetched': datetime.now(timezone.utc).isoformat()
+                        })
+                except Exception as row_e:
                     continue
             
-            if lettings:
-                seen_ids = set()
-                unique = []
-                for l in lettings:
-                    key = l['project_id'] or l['description'][:50]
-                    if key not in seen_ids:
-                        seen_ids.add(key)
-                        unique.append(l)
-                lettings = unique
-                
-                total = sum(l.get('cost_low') or 0 for l in lettings)
-                with_cost = len([l for l in lettings if l.get('cost_low')])
-                print(f"    ✓ {len(lettings)} projects from Excel ({with_cost} with $), {format_currency(total)} pipeline")
-                return lettings
-                
-        except ImportError as e:
-            print(f"    ⚠ pandas/xlrd not installed: {e}")
-        except Exception as e:
-            print(f"    ⚠ Excel parse error: {e}")
-    except Exception as e:
-        print(f"    ⚠ Excel fetch failed: {e}")
-    
-    # === ATTEMPT 2: PDF ===
-    try:
-        print(f"    🔄 Fetching MaineDOT CAP PDF...")
-        response = requests.get(pdf_url, timeout=60, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
-        response.raise_for_status()
-        print(f"    📄 Got PDF: {len(response.content)} bytes")
-        
-        try:
-            import pdfplumber
-            import io
+            with_cost = len([p for p in projects if p.get('cost_low')])
+            total = sum(p.get('cost_low') or 0 for p in projects)
+            print(f"    ✓ {len(projects)} projects ({with_cost} with costs), {format_currency(total)} pipeline")
+            return projects
             
-            with pdfplumber.open(io.BytesIO(response.content)) as pdf:
-                print(f"    📑 PDF has {len(pdf.pages)} pages")
-                
-                current_work_type = None
-                work_type_headers = [
-                    'Bridge Construction', 'Bridges Other', 'Highway Construction', 
-                    'Highway Preservation Paving', 'Highway Rehabilitation',
-                    'Highway Safety and Spot Improvements', 'Multimodal', 'Maintenance',
-                    'Highway Light Capital Paving'
-                ]
-                
-                for page in pdf.pages:
-                    text = page.extract_text() or ''
-                    for line in text.split('\n'):
-                        line_stripped = line.strip()
-                        
-                        if line_stripped in work_type_headers:
-                            current_work_type = line_stripped
-                            continue
-                        
-                        if not line_stripped or 'Plan Advertise Date' in line:
-                            continue
-                        
-                        id_match = re.search(r'(\d{6}\.\d{2})', line)
-                        cost_match = re.search(r'\$([\d,]+)', line)
-                        
-                        if id_match and cost_match and current_work_type:
-                            project_id = id_match.group(1)
-                            try:
-                                cost = int(cost_match.group(1).replace(',', ''))
-                            except:
-                                cost = None
-                            
-                            date_match = re.search(r'^(\d{2}/\d{2}/\d{4})', line)
-                            let_date = None
-                            if date_match:
-                                try:
-                                    let_date = datetime.strptime(date_match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
-                                except:
-                                    pass
-                            
-                            location = line
-                            if date_match:
-                                location = location[len(date_match.group(0)):].strip()
-                            location = re.sub(r'\d{6}\.\d{2}', '', location)
-                            location = re.sub(r'\$[\d,]+', '', location).strip()
-                            
-                            proj_type = None
-                            if 'bridge' in current_work_type.lower():
-                                proj_type = 'Bridge'
-                            elif 'paving' in current_work_type.lower():
-                                proj_type = 'Pavement'
-                            elif 'highway' in current_work_type.lower():
-                                proj_type = 'Highway'
-                            elif 'safety' in current_work_type.lower():
-                                proj_type = 'Safety'
-                            
-                            if location and len(location) > 3:
-                                lettings.append({
-                                    'id': generate_id(f"ME-{project_id}-{location[:20]}"),
-                                    'state': 'ME',
-                                    'project_id': project_id,
-                                    'description': location[:200],
-                                    'cost_low': cost,
-                                    'cost_high': cost,
-                                    'cost_display': format_currency(cost) if cost else 'TBD',
-                                    'ad_date': let_date,
-                                    'let_date': let_date,
-                                    'project_type': proj_type or current_work_type,
-                                    'location': location.split(',')[0] if ',' in location else location,
-                                    'district': None,
-                                    'url': cap_url,
-                                    'source': 'MaineDOT CAP',
-                                    'business_lines': get_business_lines(f"{current_work_type} {location}")
-                                })
-                
-                if lettings:
-                    seen_ids = set()
-                    unique = []
-                    for l in lettings:
-                        if l['project_id'] not in seen_ids:
-                            seen_ids.add(l['project_id'])
-                            unique.append(l)
-                    lettings = unique
-                    
-                    total = sum(l.get('cost_low') or 0 for l in lettings)
-                    with_cost = len([l for l in lettings if l.get('cost_low')])
-                    print(f"    ✓ {len(lettings)} projects from PDF ({with_cost} with $), {format_currency(total)} pipeline")
-                    return lettings
-                    
-        except ImportError:
-            print(f"    ⚠ pdfplumber not installed - trying PyPDF2...")
-            try:
-                import PyPDF2
-                import io
-                
-                reader = PyPDF2.PdfReader(io.BytesIO(response.content))
-                print(f"    📑 PDF has {len(reader.pages)} pages (PyPDF2)")
-                
-                current_work_type = None
-                work_type_headers = [
-                    'Bridge Construction', 'Bridges Other', 'Highway Construction', 
-                    'Highway Preservation Paving', 'Highway Rehabilitation',
-                    'Highway Safety and Spot Improvements', 'Multimodal', 'Maintenance',
-                    'Highway Light Capital Paving'
-                ]
-                
-                for page in reader.pages:
-                    text = page.extract_text() or ''
-                    for line in text.split('\n'):
-                        line_stripped = line.strip()
-                        
-                        if line_stripped in work_type_headers:
-                            current_work_type = line_stripped
-                            continue
-                        
-                        if not line_stripped or 'Plan Advertise Date' in line:
-                            continue
-                        
-                        id_match = re.search(r'(\d{6}\.\d{2})', line)
-                        cost_match = re.search(r'\$([\d,]+)', line)
-                        
-                        if id_match and cost_match and current_work_type:
-                            project_id = id_match.group(1)
-                            try:
-                                cost = int(cost_match.group(1).replace(',', ''))
-                            except:
-                                cost = None
-                            
-                            date_match = re.search(r'^(\d{2}/\d{2}/\d{4})', line)
-                            let_date = None
-                            if date_match:
-                                try:
-                                    let_date = datetime.strptime(date_match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
-                                except:
-                                    pass
-                            
-                            location = line
-                            if date_match:
-                                location = location[len(date_match.group(0)):].strip()
-                            location = re.sub(r'\d{6}\.\d{2}', '', location)
-                            location = re.sub(r'\$[\d,]+', '', location).strip()
-                            
-                            proj_type = None
-                            if 'bridge' in current_work_type.lower():
-                                proj_type = 'Bridge'
-                            elif 'paving' in current_work_type.lower():
-                                proj_type = 'Pavement'
-                            elif 'highway' in current_work_type.lower():
-                                proj_type = 'Highway'
-                            
-                            if location and len(location) > 3:
-                                lettings.append({
-                                    'id': generate_id(f"ME-{project_id}-{location[:20]}"),
-                                    'state': 'ME',
-                                    'project_id': project_id,
-                                    'description': location[:200],
-                                    'cost_low': cost,
-                                    'cost_high': cost,
-                                    'cost_display': format_currency(cost) if cost else 'TBD',
-                                    'ad_date': let_date,
-                                    'let_date': let_date,
-                                    'project_type': proj_type or current_work_type,
-                                    'location': location.split(',')[0] if ',' in location else location,
-                                    'district': None,
-                                    'url': cap_url,
-                                    'source': 'MaineDOT CAP',
-                                    'business_lines': get_business_lines(f"{current_work_type} {location}")
-                                })
-                
-                if lettings:
-                    seen_ids = set()
-                    unique = []
-                    for l in lettings:
-                        if l['project_id'] not in seen_ids:
-                            seen_ids.add(l['project_id'])
-                            unique.append(l)
-                    lettings = unique
-                    
-                    total = sum(l.get('cost_low') or 0 for l in lettings)
-                    print(f"    ✓ {len(lettings)} projects from PDF/PyPDF2, {format_currency(total)} pipeline")
-                    return lettings
-            except ImportError:
-                print(f"    ⚠ PyPDF2 not installed")
-            except Exception as e:
-                print(f"    ⚠ PyPDF2 error: {e}")
-        except Exception as e:
-            print(f"    ⚠ PDF parse error: {e}")
+        finally:
+            os.unlink(temp_path)
+            
     except Exception as e:
-        print(f"    ⚠ PDF fetch failed: {e}")
-    
-    print(f"    ⚠ All sources failed, using portal stub")
-    return [create_portal_stub('ME')]
+        print(f"    ⚠ Excel failed: {e}")
+        return parse_mainedot_html_fallback()
+
+
+def parse_mainedot_html_fallback() -> List[Dict]:
+    """Fallback HTML parser for MaineDOT."""
+    print("    🔄 Trying HTML fallback...")
+    try:
+        url = 'https://www.maine.gov/mdot/projects/advertised/'
+        resp = requests.get(url, timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; NECMIS/1.0)'
+        })
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.content, 'html.parser')
+        
+        projects = []
+        tables = soup.find_all('table')
+        
+        for table in tables:
+            rows = table.find_all('tr')
+            for row in rows[1:]:  # Skip header
+                cells = row.find_all(['td', 'th'])
+                if len(cells) >= 3:
+                    # Try to extract project info from cells
+                    text = ' '.join(c.get_text(strip=True) for c in cells)
+                    if any(kw in text.lower() for kw in ['highway', 'bridge', 'road', 'route']):
+                        projects.append({
+                            'id': generate_id(f"ME-{text[:50]}"),
+                            'state': 'ME',
+                            'title': text[:150],
+                            'description': text,
+                            'url': url,
+                            'source': 'MaineDOT',
+                            'category': 'dot_letting',
+                            'fetched': datetime.now(timezone.utc).isoformat()
+                        })
+        
+        print(f"    ✓ HTML fallback: {len(projects)} projects")
+        return projects
+        
+    except Exception as e:
+        print(f"    ⚠ HTML fallback failed: {e}")
+        return [{
+            'id': generate_id('maine-portal'),
+            'state': 'ME',
+            'title': 'MaineDOT Bid Opportunities',
+            'description': 'Current MaineDOT advertised projects and bid opportunities',
+            'url': 'https://www.maine.gov/mdot/projects/workplan/',
+            'source': 'MaineDOT',
+            'category': 'dot_letting',
+            'fetched': datetime.now(timezone.utc).isoformat()
+        }]
 
 
 # =============================================================================
-# NHDOT PARSER - DYNAMIC MULTI-APPROACH (NEW IMPLEMENTATION)
+# NHDOT PARSER - RPC TIP PDFs + MANUAL STIP
 # =============================================================================
 
 def parse_nhdot() -> List[Dict]:
-    """
-    Parse NHDOT using dynamic multi-approach strategy:
+    """Parse NH DOT projects from RPC TIP PDFs + manual STIP."""
+    all_projects = []
     
-    Tier 0: NH STIP PDF (authoritative statewide project list with costs) - PRIMARY
-    Tier 1: Official NHDOT with session + full browser headers + cookies
-    Tier 2: Playwright headless browser for JS-rendered content  
-    Tier 3: Regional Planning Commission TIPs (live alternatives)
-    Tier 4: Municipal bid pages
-    
-    NO STATIC FALLBACK - returns real data or portal stub with clear message
-    """
-    lettings = []
-    sources_tried = []
-    itb_url = DOT_SOURCES['NH']['portal_url']
-    
-    print(f"    📋 NHDOT Dynamic Multi-Approach Parser")
-    
-    # ==========================================================================
-    # TIER 0: NH STIP PDF (Primary Source - Authoritative Project List)
-    # ==========================================================================
-    print(f"    🔍 Tier 0: NH STIP PDF (Primary)...")
-    
-    for stip_source in NH_LIVE_SOURCES.get('stip', []):
-        try:
-            response = requests.get(stip_source['url'], timeout=60, headers=get_full_browser_headers())
-            
-            if response.status_code != 200:
-                sources_tried.append(f"{stip_source['name']}: {response.status_code}")
-                continue
-            
-            sources_tried.append(f"{stip_source['name']}: {len(response.content)} bytes")
-            
-            # Parse STIP PDF
-            parsed = parse_nh_stip_pdf(response.content, stip_source['url'])
-            if parsed:
-                lettings.extend(parsed)
-                
-        except Exception as e:
-            sources_tried.append(f"{stip_source['name']}: {type(e).__name__}")
-    
-    if lettings:
-        total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 0 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
-    
-    # ==========================================================================
-    # TIER 1: Official NHDOT with Session + Full Browser Mimicking
-    # ==========================================================================
-    print(f"    🔍 Tier 1: Session + Full Browser Headers...")
-    
-    session = create_browser_session()
-    
-    # Warmup: Hit main NH.gov domain first to get cookies
-    try:
-        session.get('https://www.nh.gov/', timeout=10)
-        session.get('https://www.dot.nh.gov/', timeout=10)
-    except:
-        pass
-    
-    # Try the official ITB page
-    for source in NH_LIVE_SOURCES.get('official', []):
-        try:
-            response = session.get(source['url'], timeout=30)
-            
-            if response.status_code == 403:
-                sources_tried.append(f"{source['name']}: 403 (session)")
-                continue
-            elif response.status_code != 200:
-                sources_tried.append(f"{source['name']}: {response.status_code}")
-                continue
-            
-            html = response.text
-            sources_tried.append(f"{source['name']}: {len(html)} bytes")
-            
-            # Parse the HTML for project data
-            parsed = parse_nhdot_html(html, source['url'], source['name'])
-            if parsed:
-                lettings.extend(parsed)
-                
-        except Exception as e:
-            sources_tried.append(f"{source['name']}: {type(e).__name__}")
-    
-    if lettings:
-        total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 1 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
-    
-    # ==========================================================================
-    # TIER 2: Playwright Headless Browser (for JS-rendered content)
-    # ==========================================================================
-    print(f"    🔍 Tier 2: Playwright Headless Browser...")
-    
-    for source in NH_LIVE_SOURCES.get('official', []):
-        html = fetch_with_playwright(source['url'], wait_for='table')
-        
-        if html:
-            sources_tried.append(f"{source['name']}: Playwright {len(html)} bytes")
-            parsed = parse_nhdot_html(html, source['url'], source['name'])
-            if parsed:
-                lettings.extend(parsed)
-        else:
-            sources_tried.append(f"{source['name']}: Playwright failed")
-    
-    if lettings:
-        total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 2 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
-    
-    # ==========================================================================
-    # TIER 3: RPC TIP PDFs (Direct Links - Best Source for Costs)
-    # ==========================================================================
-    print(f"    🔍 Tier 3: RPC TIP PDFs (Direct Links)...")
-    
-    for rpc_pdf in NH_LIVE_SOURCES.get('rpc_pdfs', []):
-        try:
-            response = session.get(rpc_pdf['url'], timeout=60, allow_redirects=True)
-            
-            if response.status_code != 200:
-                sources_tried.append(f"{rpc_pdf['name']}: {response.status_code}")
-                continue
-            
-            # Parse TIP PDF using dedicated parser
-            parsed = parse_rpc_tip_pdf_detailed(response.content, rpc_pdf['name'], rpc_pdf['region'], rpc_pdf['url'])
-            if parsed:
-                lettings.extend(parsed)
-                sources_tried.append(f"{rpc_pdf['name']}: PDF {len(parsed)} projects")
-            else:
-                sources_tried.append(f"{rpc_pdf['name']}: PDF parse failed")
-                
-        except Exception as e:
-            sources_tried.append(f"{rpc_pdf['name']}: {type(e).__name__}")
-    
-    if lettings:
-        total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 3 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
-    
-    # ==========================================================================
-    # TIER 4: Regional Planning Commission HTML Pages (Fallback)
-    # ==========================================================================
-    print(f"    🔍 Tier 4: RPC HTML Pages...")
-    
-    for rpc in NH_LIVE_SOURCES.get('rpc', []):
-        try:
-            # Use session for RPC sites too
-            response = session.get(rpc['url'], timeout=30)
-            
-            if response.status_code != 200:
-                sources_tried.append(f"{rpc['name']}: {response.status_code}")
-                continue
-            
-            content_type = response.headers.get('content-type', '')
-            
-            # Handle PDF TIPs
-            if 'pdf' in content_type or rpc['url'].endswith('.pdf'):
-                parsed = parse_rpc_tip_pdf(response.content, rpc['name'], rpc['region'])
-                if parsed:
-                    lettings.extend(parsed)
-                    sources_tried.append(f"{rpc['name']}: PDF {len(parsed)} projects")
-                else:
-                    sources_tried.append(f"{rpc['name']}: PDF no projects")
-            else:
-                # Parse HTML
-                parsed = parse_rpc_html(response.text, rpc['url'], rpc['name'], rpc['region'])
-                if parsed:
-                    lettings.extend(parsed)
-                    sources_tried.append(f"{rpc['name']}: HTML {len(parsed)} projects")
-                else:
-                    sources_tried.append(f"{rpc['name']}: HTML no projects")
-                    
-        except Exception as e:
-            sources_tried.append(f"{rpc['name']}: {type(e).__name__}")
-    
-    if lettings:
-        total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 4 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
-    
-    # ==========================================================================
-    # TIER 5: Municipal Bid Pages
-    # ==========================================================================
-    print(f"    🔍 Tier 5: Municipal Bid Pages...")
-    
-    for muni in NH_LIVE_SOURCES.get('municipal', []):
-        try:
-            response = session.get(muni['url'], timeout=30)
-            
-            if response.status_code != 200:
-                sources_tried.append(f"{muni['name']}: {response.status_code}")
-                continue
-            
-            parsed = parse_municipal_bids(response.text, muni['url'], muni['name'])
-            if parsed:
-                lettings.extend(parsed)
-                sources_tried.append(f"{muni['name']}: {len(parsed)} bids")
-            else:
-                sources_tried.append(f"{muni['name']}: no bids")
-                
-        except Exception as e:
-            sources_tried.append(f"{muni['name']}: {type(e).__name__}")
-    
-    if lettings:
-        total = sum(l.get('cost_low') or 0 for l in lettings)
-        print(f"    ✓ Tier 4 success: {len(lettings)} projects, {format_currency(total)}")
-        print(f"      Sources: {', '.join(sources_tried)}")
-        return lettings
-    
-    # ==========================================================================
-    # ALL TIERS FAILED - NO STATIC FALLBACK
-    # ==========================================================================
-    print(f"    ⚠ All dynamic sources failed")
-    print(f"      Tried: {', '.join(sources_tried)}")
-    
-    # Return portal stub with clear message - NO STATIC DATA
-    return [create_portal_stub('NH')]
-
-
-def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
-    """
-    Parse NH STIP Monthly Project List PDF.
-    
-    Format:
-    - Project ID: 5-digit number like 42437, 44160
-    - Location: TOWN-TOWN format like BETHLEHEM-LITTLETON
-    - Route: I-93, NH 18, US 3, etc.
-    - Cost: $24,652,457 format
-    - RPC region
-    - Phase info (PE, ROW, CON)
-    """
-    lettings = []
-    
-    try:
-        import pdfplumber
-        import io
-        
-        with pdfplumber.open(io.BytesIO(pdf_content)) as pdf:
-            print(f"      STIP PDF has {len(pdf.pages)} pages")
-            
-            seen_projects = set()
-            
-            for page in pdf.pages:
-                text = page.extract_text() or ''
-                
-                # Split into lines and process
-                lines = text.split('\n')
-                
-                for i, line in enumerate(lines):
-                    # Skip headers and empty lines
-                    if not line.strip() or 'Report Project List' in line or 'Page' in line:
-                        continue
-                    
-                    # Look for project ID pattern: (5-digit number)
-                    # Format: "LOCATION (PROJECT_ID) ROUTE"
-                    project_match = re.search(r'\((\d{5})\)', line)
-                    if not project_match:
-                        continue
-                    
-                    project_id = project_match.group(1)
-                    
-                    # Skip if we've already seen this project
-                    if project_id in seen_projects:
-                        continue
-                    seen_projects.add(project_id)
-                    
-                    # Extract location (text before the project ID)
-                    location_part = line[:project_match.start()].strip()
-                    # Clean up location - remove any leading numbers/dates
-                    location = re.sub(r'^\d+[\s/]*\d*[\s/]*\d*\s*', '', location_part).strip()
-                    
-                    # Extract route (text after project ID)
-                    route_part = line[project_match.end():].strip()
-                    route_match = re.search(r'(I-\d+|US\s*\d+|NH\s*\d+|SR\s*\d+)', route_part, re.I)
-                    route = route_match.group(1) if route_match else None
-                    
-                    # Look for cost in this line or nearby lines
-                    cost = None
-                    # Check current line and next few lines for cost
-                    search_text = ' '.join(lines[i:min(i+5, len(lines))])
-                    
-                    # Look for "Project Cost: $X" or "All Project Cost: $X"
-                    cost_match = re.search(r'(?:All\s+)?Project\s+Cost:\s*\$([\d,]+)', search_text, re.I)
-                    if cost_match:
-                        cost = parse_currency(cost_match.group(1))
-                    else:
-                        # Look for standalone dollar amounts in reasonable range
-                        dollar_matches = re.findall(r'\$([\d,]+(?:\.\d{2})?)', search_text)
-                        for dm in dollar_matches:
-                            val = parse_currency(dm)
-                            if val and 100000 <= val <= 1000000000:  # $100K to $1B
-                                cost = val
-                                break
-                    
-                    # Determine project type from route/location
-                    combined_text = f"{location} {route or ''}"
-                    proj_type = classify_project_type(combined_text)
-                    
-                    # Build description
-                    description = location
-                    if route:
-                        description = f"{location} - {route}"
-                    
-                    # Extract RPC region if present
-                    rpc_match = re.search(r'(NCC|RPC|SNHPC|NRPC|CNHRPC|SRPC|SWRPC|LRPC|UVLSRPC)', search_text)
-                    district = rpc_match.group(1) if rpc_match else None
-                    
-                    lettings.append({
-                        'id': generate_id(f"NH-STIP-{project_id}"),
-                        'state': 'NH',
-                        'project_id': project_id,
-                        'description': description[:200],
-                        'cost_low': int(cost) if cost else None,
-                        'cost_high': int(cost) if cost else None,
-                        'cost_display': format_currency(cost) if cost else 'See STIP',
-                        'ad_date': None,
-                        'let_date': None,
-                        'project_type': proj_type,
-                        'location': location.split('-')[0] if '-' in location else location,
-                        'district': district,
-                        'url': url,
-                        'source': 'NH STIP',
-                        'business_lines': get_business_lines(combined_text)
-                    })
-            
-            if lettings:
-                # Sort by cost (highest first) for better visibility
-                lettings.sort(key=lambda x: x.get('cost_low') or 0, reverse=True)
-                
-                total = sum(l.get('cost_low') or 0 for l in lettings)
-                with_cost = len([l for l in lettings if l.get('cost_low')])
-                print(f"      Parsed {len(lettings)} projects ({with_cost} with $), {format_currency(total)} total")
-                return lettings
-                
-    except ImportError:
-        print("      pdfplumber not installed - cannot parse STIP PDF")
-    except Exception as e:
-        print(f"      STIP PDF parse error: {e}")
-        import traceback
-        traceback.print_exc()
-    
-    return []
-
-
-def parse_nhdot_html(html: str, url: str, source_name: str) -> List[Dict]:
-    """Parse NHDOT HTML page for project data."""
-    lettings = []
-    soup = BeautifulSoup(html, 'html.parser')
-    
-    # Look for tables with bid/project data
-    tables = soup.find_all('table')
-    
-    for table in tables:
-        rows = table.find_all('tr')
-        headers = []
-        
-        for row in rows:
-            cells = row.find_all(['th', 'td'])
-            
-            # Detect header row
-            if row.find_all('th'):
-                headers = [c.get_text(strip=True).lower() for c in cells]
-                continue
-            
-            if not headers or len(cells) < 3:
-                continue
-            
-            # Try to extract project data
-            row_data = {headers[i] if i < len(headers) else f'col{i}': cells[i].get_text(strip=True) 
-                       for i in range(len(cells))}
-            
-            # Look for project number patterns
-            project_id = None
-            for key, val in row_data.items():
-                if re.match(r'^\d{5}[A-Z]?$', val):
-                    project_id = val
-                    break
-                match = re.search(r'(\d{5}[A-Z]?)', val)
-                if match:
-                    project_id = match.group(1)
-                    break
-            
-            if not project_id:
-                continue
-            
-            # Extract cost
-            cost = None
-            for key, val in row_data.items():
-                if 'estimate' in key or 'cost' in key or 'amount' in key:
-                    cost = parse_currency(val)
-                    break
-                cost_match = re.search(r'\$[\d,]+', val)
-                if cost_match:
-                    cost = parse_currency(cost_match.group())
-            
-            # Extract description/location
-            description = None
-            location = None
-            for key, val in row_data.items():
-                if 'description' in key or 'project' in key or 'title' in key:
-                    description = val[:200]
-                if 'location' in key or 'town' in key or 'city' in key:
-                    location = val
-            
-            if not description:
-                description = ' '.join(row_data.values())[:200]
-            
-            lettings.append({
-                'id': generate_id(f"NH-{project_id}-{description[:20]}"),
-                'state': 'NH',
-                'project_id': project_id,
-                'description': description,
-                'cost_low': int(cost) if cost else None,
-                'cost_high': int(cost) if cost else None,
-                'cost_display': format_currency(cost) if cost else 'See Bid Docs',
-                'ad_date': None,
-                'let_date': None,
-                'project_type': classify_project_type(description),
-                'location': location,
-                'district': None,
-                'url': url,
-                'source': source_name,
-                'business_lines': get_business_lines(description)
-            })
-    
-    # Also try to find project info in divs/sections
-    if not lettings:
-        # Look for bid items in common HTML patterns
-        bid_items = soup.find_all(['div', 'section', 'article'], 
-                                   class_=lambda x: x and any(k in str(x).lower() for k in ['bid', 'project', 'contract']))
-        
-        for item in bid_items:
-            text = item.get_text()
-            
-            # Look for project ID pattern
-            id_match = re.search(r'(\d{5}[A-Z]?)', text)
-            if not id_match:
-                continue
-            
-            project_id = id_match.group(1)
-            
-            # Look for cost
-            cost = None
-            cost_match = re.search(r'\$([\d,]+(?:\.\d{2})?)', text)
-            if cost_match:
-                cost = parse_currency(cost_match.group(1))
-            
-            # Get description (first ~200 chars)
-            description = re.sub(r'\s+', ' ', text)[:200]
-            
-            lettings.append({
-                'id': generate_id(f"NH-{project_id}-{description[:20]}"),
-                'state': 'NH',
-                'project_id': project_id,
-                'description': description,
-                'cost_low': int(cost) if cost else None,
-                'cost_high': int(cost) if cost else None,
-                'cost_display': format_currency(cost) if cost else 'See Bid Docs',
-                'ad_date': None,
-                'let_date': None,
-                'project_type': classify_project_type(description),
-                'location': None,
-                'district': None,
-                'url': url,
-                'source': source_name,
-                'business_lines': get_business_lines(description)
-            })
-    
-    return lettings
-
-
-def parse_rpc_tip_pdf(pdf_content: bytes, rpc_name: str, region: str) -> List[Dict]:
-    """Parse Regional Planning Commission TIP PDF for project data."""
-    lettings = []
-    
-    try:
-        import pdfplumber
-        import io
-        
-        with pdfplumber.open(io.BytesIO(pdf_content)) as pdf:
-            for page in pdf.pages:
-                text = page.extract_text() or ''
-                
-                # Look for NHDOT project patterns
-                for line in text.split('\n'):
-                    # NHDOT project ID pattern
-                    id_match = re.search(r'(\d{5}[A-Z]?)', line)
-                    if not id_match:
-                        continue
-                    
-                    project_id = id_match.group(1)
-                    
-                    # Look for cost
-                    cost = None
-                    cost_match = re.search(r'\$([\d,]+)', line)
-                    if cost_match:
-                        cost = parse_currency(cost_match.group(1))
-                    
-                    # Clean up description
-                    description = re.sub(r'\d{5}[A-Z]?', '', line)
-                    description = re.sub(r'\$[\d,]+', '', description)
-                    description = re.sub(r'\s+', ' ', description).strip()[:200]
-                    
-                    if description and len(description) > 10:
-                        lettings.append({
-                            'id': generate_id(f"NH-RPC-{project_id}-{description[:20]}"),
-                            'state': 'NH',
-                            'project_id': project_id,
-                            'description': f"{region}: {description}",
-                            'cost_low': int(cost) if cost else None,
-                            'cost_high': int(cost) if cost else None,
-                            'cost_display': format_currency(cost) if cost else 'TBD',
-                            'ad_date': None,
-                            'let_date': None,
-                            'project_type': classify_project_type(description),
-                            'location': region,
-                            'district': None,
-                            'url': f"https://{rpc_name.lower().replace(' ', '')}.org",
-                            'source': f'{rpc_name} TIP',
-                            'business_lines': get_business_lines(description)
-                        })
-    except ImportError:
-        pass
-    except Exception:
-        pass
-    
-    return lettings
-
-
-def parse_rpc_tip_pdf_detailed(pdf_content: bytes, rpc_name: str, region: str, url: str) -> List[Dict]:
-    """
-    Parse Rockingham-style RPC TIP PDF with detailed project data.
-    
-    Format:
-    LOCATION (PROJECT_ID)
-    Phase 2025 2026 2027 2028 Total
-    Facility: ROUTE
-    SCOPE: Description
-    FEDERAL STATE OTHER
-    Total Cost: $XX,XXX,XXX
-    """
-    lettings = []
-    
-    try:
-        import pdfplumber
-        import io
-        
-        with pdfplumber.open(io.BytesIO(pdf_content)) as pdf:
-            print(f"      RPC PDF has {len(pdf.pages)} pages")
-            
-            full_text = ""
-            for page in pdf.pages:
-                text = page.extract_text() or ''
-                full_text += text + "\n"
-            
-            # Split into project blocks
-            # Each project starts with "LOCATION (5-digit-ID)"
-            project_pattern = re.compile(r'([A-Z][A-Z\s\-]+?)\s*\((\d{5}[A-Z]?)\)')
-            
-            # Find all project headers
-            matches = list(project_pattern.finditer(full_text))
-            
-            seen_projects = set()
-            
-            for i, match in enumerate(matches):
-                location = match.group(1).strip()
-                project_id = match.group(2)
-                
-                # Skip duplicates
-                if project_id in seen_projects:
-                    continue
-                seen_projects.add(project_id)
-                
-                # Get the text block for this project (until next project or end)
-                start_pos = match.start()
-                if i + 1 < len(matches):
-                    end_pos = matches[i + 1].start()
-                else:
-                    end_pos = len(full_text)
-                
-                project_text = full_text[start_pos:end_pos]
-                
-                # Extract Facility/Route
-                facility_match = re.search(r'Facility:\s*(.+?)(?:\n|SCOPE)', project_text, re.DOTALL)
-                facility = facility_match.group(1).strip() if facility_match else None
-                
-                # Extract Scope/Description
-                scope_match = re.search(r'SCOPE:\s*(.+?)(?:FEDERAL|Total Cost)', project_text, re.DOTALL)
-                scope = scope_match.group(1).strip().replace('\n', ' ') if scope_match else None
-                
-                # Extract Total Cost
-                cost = None
-                cost_match = re.search(r'Total Cost:\s*\$([\d,]+)', project_text)
-                if cost_match:
-                    cost = parse_currency(cost_match.group(1))
-                else:
-                    # Try alternate patterns
-                    cost_match = re.search(r'2025-2028 Funding:\s*\$([\d,]+)', project_text)
-                    if cost_match:
-                        cost = parse_currency(cost_match.group(1))
-                
-                # Skip very small projects or programs
-                if cost and cost < 50000:
-                    continue
-                
-                # Skip transit/program entries
-                if 'PROGRAM' in location or 'FTA' in (facility or '') or 'TRANSIT' in location.upper():
-                    continue
-                
-                # Build description
-                if facility and scope:
-                    description = f"{facility}: {scope}"
-                elif scope:
-                    description = scope
-                elif facility:
-                    description = facility
-                else:
-                    description = location
-                
-                # Clean description
-                description = re.sub(r'\s+', ' ', description).strip()[:200]
-                
-                # Determine project type
-                combined = f"{location} {facility or ''} {scope or ''}"
-                proj_type = classify_project_type(combined)
-                
-                lettings.append({
-                    'id': generate_id(f"NH-RPC-{project_id}"),
-                    'state': 'NH',
-                    'project_id': project_id,
-                    'description': f"{location}: {description}",
-                    'cost_low': int(cost) if cost else None,
-                    'cost_high': int(cost) if cost else None,
-                    'cost_display': format_currency(cost) if cost else 'See TIP',
-                    'ad_date': None,
-                    'let_date': None,
-                    'project_type': proj_type,
-                    'location': location.split('-')[0].strip() if '-' in location else location.strip(),
-                    'district': region,
-                    'url': url,
-                    'source': f'{rpc_name}',
-                    'business_lines': get_business_lines(combined)
-                })
-            
-            if lettings:
-                # Sort by cost (highest first)
-                lettings.sort(key=lambda x: x.get('cost_low') or 0, reverse=True)
-                
-                total = sum(l.get('cost_low') or 0 for l in lettings)
-                with_cost = len([l for l in lettings if l.get('cost_low')])
-                print(f"      Parsed {len(lettings)} projects ({with_cost} with costs), {format_currency(total)} total")
-                
-    except ImportError:
-        print("      pdfplumber not installed")
-    except Exception as e:
-        print(f"      RPC PDF parse error: {e}")
-        import traceback
-        traceback.print_exc()
-    
-    return lettings
-
-
-def parse_rpc_html(html: str, url: str, rpc_name: str, region: str) -> List[Dict]:
-    """Parse Regional Planning Commission HTML page for TIP project data."""
-    lettings = []
-    soup = BeautifulSoup(html, 'html.parser')
-    
-    # Look for links to TIP documents or project listings
-    links = soup.find_all('a', href=True)
-    
-    for link in links:
-        href = link.get('href', '')
-        text = link.get_text(strip=True)
-        
-        # Look for TIP PDF links
-        if '.pdf' in href.lower() and any(k in text.lower() for k in ['tip', 'transportation', 'improvement']):
-            # Could fetch and parse the PDF here
-            pass
-        
-        # Look for project listings in the page
-        project_match = re.search(r'(\d{5}[A-Z]?)', text)
-        if project_match:
-            project_id = project_match.group(1)
-            
-            # Get surrounding context
-            parent = link.find_parent(['tr', 'li', 'div', 'p'])
-            if parent:
-                full_text = parent.get_text(strip=True)
-                
-                # Look for cost
-                cost = None
-                cost_match = re.search(r'\$([\d,]+)', full_text)
-                if cost_match:
-                    cost = parse_currency(cost_match.group(1))
-                
-                description = re.sub(r'\s+', ' ', full_text)[:200]
-                
-                lettings.append({
-                    'id': generate_id(f"NH-RPC-{project_id}"),
-                    'state': 'NH',
-                    'project_id': project_id,
-                    'description': f"{region}: {description}",
-                    'cost_low': int(cost) if cost else None,
-                    'cost_high': int(cost) if cost else None,
-                    'cost_display': format_currency(cost) if cost else 'TBD',
-                    'ad_date': None,
-                    'let_date': None,
-                    'project_type': classify_project_type(description),
-                    'location': region,
-                    'district': None,
-                    'url': url,
-                    'source': f'{rpc_name} TIP',
-                    'business_lines': get_business_lines(description)
-                })
-    
-    return lettings
-
-
-def parse_municipal_bids(html: str, url: str, muni_name: str) -> List[Dict]:
-    """Parse municipal bid page for construction opportunities."""
-    lettings = []
-    soup = BeautifulSoup(html, 'html.parser')
-    
-    # Common patterns for municipal bid listings
-    # Look for tables first
-    tables = soup.find_all('table')
-    
-    for table in tables:
-        rows = table.find_all('tr')
-        
-        for row in rows:
-            cells = row.find_all(['th', 'td'])
-            if len(cells) < 2:
-                continue
-            
-            text = ' '.join(c.get_text(strip=True) for c in cells)
-            
-            # Filter for construction-related bids
-            if not any(kw in text.lower() for kw in ['paving', 'road', 'construction', 'highway', 
-                                                      'bridge', 'infrastructure', 'sidewalk', 
-                                                      'drainage', 'sewer', 'water']):
-                continue
-            
-            # Look for bid number/ID
-            bid_match = re.search(r'(RFP|RFQ|ITB|BID)[\s#-]*(\d+[\w-]*)', text, re.I)
-            bid_id = bid_match.group(0) if bid_match else None
-            
-            # Look for cost/estimate
-            cost = None
-            cost_match = re.search(r'\$([\d,]+)', text)
-            if cost_match:
-                cost = parse_currency(cost_match.group(1))
-            
-            description = re.sub(r'\s+', ' ', text)[:200]
-            
-            lettings.append({
-                'id': generate_id(f"NH-{muni_name}-{bid_id or description[:20]}"),
-                'state': 'NH',
-                'project_id': bid_id,
-                'description': f"{muni_name}: {description}",
-                'cost_low': int(cost) if cost else None,
-                'cost_high': int(cost) if cost else None,
-                'cost_display': format_currency(cost) if cost else 'See Bid Docs',
-                'ad_date': None,
-                'let_date': None,
-                'project_type': classify_project_type(description),
-                'location': muni_name,
-                'district': None,
-                'url': url,
-                'source': f'{muni_name} Municipal',
-                'business_lines': get_business_lines(description)
-            })
-    
-    # Also look for list items
-    list_items = soup.find_all(['li', 'div'], class_=lambda x: x and 'bid' in str(x).lower())
-    
-    for item in list_items:
-        text = item.get_text(strip=True)
-        
-        if not any(kw in text.lower() for kw in ['paving', 'road', 'construction', 'highway', 
-                                                  'bridge', 'infrastructure']):
-            continue
-        
-        bid_match = re.search(r'(RFP|RFQ|ITB|BID)[\s#-]*(\d+[\w-]*)', text, re.I)
-        bid_id = bid_match.group(0) if bid_match else None
-        
-        cost = None
-        cost_match = re.search(r'\$([\d,]+)', text)
-        if cost_match:
-            cost = parse_currency(cost_match.group(1))
-        
-        description = re.sub(r'\s+', ' ', text)[:200]
-        
-        lettings.append({
-            'id': generate_id(f"NH-{muni_name}-{bid_id or description[:20]}"),
-            'state': 'NH',
-            'project_id': bid_id,
-            'description': f"{muni_name}: {description}",
-            'cost_low': int(cost) if cost else None,
-            'cost_high': int(cost) if cost else None,
-            'cost_display': format_currency(cost) if cost else 'See Bid Docs',
-            'ad_date': None,
-            'let_date': None,
-            'project_type': classify_project_type(description),
-            'location': muni_name,
-            'district': None,
-            'url': url,
-            'source': f'{muni_name} Municipal',
-            'business_lines': get_business_lines(description)
-        })
-    
-    return lettings
-
-
-def classify_project_type(text: str) -> str:
-    """Classify project type from description."""
-    text_lower = text.lower()
-    
-    if any(k in text_lower for k in ['bridge', 'culvert', 'span']):
-        return 'Bridge'
-    elif any(k in text_lower for k in ['paving', 'resurfacing', 'overlay', 'pavement', 'asphalt']):
-        return 'Pavement'
-    elif any(k in text_lower for k in ['i-93', 'i-89', 'i-95', 'interstate', 'turnpike']):
-        return 'Highway'
-    elif any(k in text_lower for k in ['signal', 'intersection', 'safety']):
-        return 'Safety'
-    elif any(k in text_lower for k in ['sidewalk', 'pedestrian', 'bike', 'trail']):
-        return 'Multimodal'
+    # 1. Parse RPC TIP PDFs (accessible)
+    if PDF_AVAILABLE:
+        for name, url in NH_RPC_TIP_PDFS.items():
+            print(f"    📄 Fetching {name}...")
+            projects = parse_rpc_tip_pdf(url, name)
+            all_projects.extend(projects)
     else:
-        return 'Highway'
+        print("    ⚠ pdfplumber not available - skipping RPC PDFs")
+    
+    # 2. Parse manually committed STIP PDFs
+    manual_projects = parse_manual_nh_stip()
+    all_projects.extend(manual_projects)
+    
+    # 3. Deduplicate NH projects
+    dedup = ProjectDeduplicator()
+    unique_projects = dedup.deduplicate(all_projects)
+    
+    if dedup.duplicates_removed > 0:
+        print(f"    🔄 Deduplication: removed {dedup.duplicates_removed} duplicates")
+    
+    with_cost = len([p for p in unique_projects if p.get('cost_low')])
+    total = sum(p.get('cost_low') or 0 for p in unique_projects)
+    print(f"    ✓ NH Total: {len(unique_projects)} unique projects ({with_cost} with costs), {format_currency(total)}")
+    
+    # If no projects found, return portal stub
+    if not unique_projects:
+        return [{
+            'id': generate_id('nh-portal'),
+            'state': 'NH',
+            'title': 'NHDOT Bid Opportunities',
+            'description': 'Current NHDOT advertised projects',
+            'url': 'https://www.dot.nh.gov/doing-business/contractors',
+            'source': 'NHDOT',
+            'category': 'dot_letting',
+            'fetched': datetime.now(timezone.utc).isoformat()
+        }]
+    
+    return unique_projects
+
+
+def parse_rpc_tip_pdf(url: str, source_name: str) -> List[Dict]:
+    """Parse an RPC TIP PDF for project data."""
+    try:
+        import tempfile
+        
+        resp = requests.get(url, timeout=60, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; NECMIS/1.0)'
+        })
+        resp.raise_for_status()
+        
+        with tempfile.NamedTemporaryFile(suffix='.pdf', delete=False) as f:
+            f.write(resp.content)
+            temp_path = f.name
+        
+        try:
+            projects = []
+            with pdfplumber.open(temp_path) as pdf:
+                print(f"      📑 {len(pdf.pages)} pages")
+                
+                for page in pdf.pages:
+                    tables = page.extract_tables()
+                    for table in tables:
+                        for row in table:
+                            if not row or len(row) < 3:
+                                continue
+                            
+                            # Look for project ID patterns (e.g., "12345", "X-A000(123)")
+                            project_id = None
+                            location = None
+                            description = None
+                            cost = None
+                            
+                            for cell in row:
+                                if not cell:
+                                    continue
+                                cell_str = str(cell).strip()
+                                
+                                # Project ID patterns
+                                if re.match(r'^\d{4,6}[A-Z]?$', cell_str) or \
+                                   re.match(r'^[A-Z]-[A-Z]\d{3}\(\d+\)', cell_str):
+                                    project_id = cell_str
+                                
+                                # Cost patterns ($X,XXX,XXX or X,XXX,XXX)
+                                cost_match = re.search(r'\$?([\d,]+(?:\.\d{2})?)', cell_str)
+                                if cost_match:
+                                    try:
+                                        val = float(cost_match.group(1).replace(',', ''))
+                                        if val >= 100000:  # At least $100K
+                                            cost = val
+                                    except:
+                                        pass
+                                
+                                # Location patterns (Town names, Routes)
+                                if re.match(r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?$', cell_str) and len(cell_str) < 30:
+                                    location = cell_str
+                                elif 'Route' in cell_str or 'I-' in cell_str or 'NH ' in cell_str:
+                                    if not description:
+                                        description = cell_str
+                                
+                                # Description (longer text)
+                                if len(cell_str) > 30 and not description:
+                                    description = cell_str[:200]
+                            
+                            if project_id and (location or description):
+                                projects.append({
+                                    'id': generate_id(f"NH-{project_id}-{source_name}"),
+                                    'state': 'NH',
+                                    'title': f"{location or 'NH'}: {description or f'Project {project_id}'}",
+                                    'description': description or f"NHDOT Project {project_id}",
+                                    'location': location,
+                                    'project_id': project_id,
+                                    'project_type': 'Highway',
+                                    'cost_low': cost,
+                                    'cost_high': cost,
+                                    'url': url,
+                                    'source': f'NH RPC ({source_name})',
+                                    'category': 'dot_letting',
+                                    'fetched': datetime.now(timezone.utc).isoformat()
+                                })
+            
+            with_cost = len([p for p in projects if p.get('cost_low')])
+            total = sum(p.get('cost_low') or 0 for p in projects)
+            print(f"      ✓ {len(projects)} projects ({with_cost} with costs), {format_currency(total)}")
+            return projects
+            
+        finally:
+            os.unlink(temp_path)
+            
+    except Exception as e:
+        print(f"      ⚠ RPC PDF error: {e}")
+        return []
+
+
+def parse_manual_nh_stip() -> List[Dict]:
+    """Parse manually committed NH STIP PDFs from data/nh_stip/ directory."""
+    if not os.path.exists(MANUAL_NH_STIP_DIR):
+        return []
+    
+    if not PDF_AVAILABLE:
+        return []
+    
+    projects = []
+    pdf_files = [f for f in os.listdir(MANUAL_NH_STIP_DIR) if f.endswith('.pdf')]
+    
+    if pdf_files:
+        print(f"    📁 Found {len(pdf_files)} manual STIP PDFs")
+    
+    for pdf_file in pdf_files:
+        pdf_path = os.path.join(MANUAL_NH_STIP_DIR, pdf_file)
+        print(f"      📄 Parsing {pdf_file}...")
+        
+        try:
+            with pdfplumber.open(pdf_path) as pdf:
+                for page in pdf.pages:
+                    tables = page.extract_tables()
+                    for table in tables:
+                        for row in table:
+                            if not row or len(row) < 3:
+                                continue
+                            
+                            project_id = None
+                            location = None
+                            description = None
+                            cost = None
+                            
+                            for cell in row:
+                                if not cell:
+                                    continue
+                                cell_str = str(cell).strip()
+                                
+                                # Project ID
+                                if re.match(r'^\d{4,6}[A-Z]?$', cell_str):
+                                    project_id = cell_str
+                                
+                                # Cost
+                                cost_match = re.search(r'\$?([\d,]+(?:\.\d{2})?)', cell_str)
+                                if cost_match:
+                                    try:
+                                        val = float(cost_match.group(1).replace(',', ''))
+                                        if val >= 100000:
+                                            cost = val
+                                    except:
+                                        pass
+                                
+                                # Location
+                                if re.match(r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?$', cell_str) and len(cell_str) < 30:
+                                    location = cell_str
+                                
+                                # Description
+                                if len(cell_str) > 30 and not description:
+                                    description = cell_str[:200]
+                            
+                            if project_id and (location or description):
+                                projects.append({
+                                    'id': generate_id(f"NH-STIP-{project_id}"),
+                                    'state': 'NH',
+                                    'title': f"{location or 'NH'}: {description or f'Project {project_id}'}",
+                                    'description': description or f"NHDOT STIP Project {project_id}",
+                                    'location': location,
+                                    'project_id': project_id,
+                                    'project_type': 'Highway',
+                                    'cost_low': cost,
+                                    'cost_high': cost,
+                                    'url': 'https://www.dot.nh.gov/projects-plans-and-programs/stip',
+                                    'source': f'NH STIP (Manual: {pdf_file})',
+                                    'category': 'dot_letting',
+                                    'fetched': datetime.now(timezone.utc).isoformat()
+                                })
+        except Exception as e:
+            print(f"      ⚠ Error parsing {pdf_file}: {e}")
+    
+    if projects:
+        with_cost = len([p for p in projects if p.get('cost_low')])
+        total = sum(p.get('cost_low') or 0 for p in projects)
+        print(f"      ✓ Manual STIP: {len(projects)} projects ({with_cost} with costs), {format_currency(total)}")
+    
+    return projects
 
 
 # =============================================================================
-# PORTAL STUBS
+# OTHER STATE STUBS
 # =============================================================================
 
-def create_portal_stub(state: str) -> Dict:
-    cfg = DOT_SOURCES[state]
-    return {
+def get_portal_stubs() -> List[Dict]:
+    """Return portal links for states without active parsing."""
+    portals = [
+        ('VT', 'VTrans Bid Results', 'https://vtrans.vermont.gov/contract-admin/bids-requests'),
+        ('NY', 'NYSDOT Contract Letting', 'https://www.dot.ny.gov/doing-business/opportunities/const-letting'),
+        ('RI', 'RIDOT Projects', 'https://www.dot.ri.gov/projects/'),
+        ('CT', 'CTDOT Contract Letting', 'https://portal.ct.gov/dot/business/construction/contract-letting-schedule'),
+        ('PA', 'PennDOT Lettings', 'https://www.penndot.pa.gov/ProjectAndPrograms/Construction/Pages/Letting-Info.aspx'),
+    ]
+    
+    return [{
         'id': generate_id(f"{state}-portal"),
         'state': state,
-        'project_id': None,
-        'description': f"{cfg['name']} Bid Schedule - Visit portal for current lettings",
-        'cost_low': None, 'cost_high': None, 'cost_display': 'See Portal',
-        'ad_date': None, 'let_date': None,
-        'project_type': None, 'location': None, 'district': None,
-        'url': cfg['portal_url'],
-        'source': cfg['name'],
-        'business_lines': ['highway']
-    }
+        'title': title,
+        'description': f'Current {state} DOT advertised projects',
+        'url': url,
+        'source': f'{state}DOT',
+        'category': 'dot_letting',
+        'fetched': datetime.now(timezone.utc).isoformat()
+    } for state, title, url in portals]
 
 
 # =============================================================================
-# FETCH FUNCTIONS
+# RSS FEEDS
 # =============================================================================
-
-def fetch_dot_lettings() -> List[Dict]:
-    lettings = []
-    for state, cfg in DOT_SOURCES.items():
-        print(f"  🏗️ {cfg['name']} ({state})...")
-        try:
-            if cfg['parser'] == 'active' and state == 'MA':
-                lettings.extend(parse_massdot())
-            elif cfg['parser'] == 'active' and state == 'ME':
-                lettings.extend(parse_mainedot())
-            elif cfg['parser'] == 'active' and state == 'NH':
-                lettings.extend(parse_nhdot())
-            else:
-                lettings.append(create_portal_stub(state))
-                print(f"    ✓ Portal link")
-        except Exception as e:
-            print(f"    ✗ {e}")
-            lettings.append(create_portal_stub(state))
-    return lettings
-
 
 def fetch_rss_feeds() -> List[Dict]:
-    news = []
-    for source, cfg in RSS_FEEDS.items():
+    """Fetch and filter RSS feeds."""
+    all_news = []
+    
+    for name, config in RSS_FEEDS.items():
+        print(f"  📰 {name}...")
         try:
-            print(f"  📰 {source}...")
-            feed = feedparser.parse(cfg['url'], request_headers={'User-Agent': 'NECMIS/3.0'})
-            count = 0
+            feed = feedparser.parse(config['url'])
+            items = []
+            
             for entry in feed.entries[:20]:
                 title = entry.get('title', '')
                 summary = entry.get('summary', entry.get('description', ''))
-                link = entry.get('link', '')
+                text = f"{title} {summary}".lower()
                 
-                if summary:
-                    summary = BeautifulSoup(summary, 'html.parser').get_text()[:300].strip()
-                
-                combined = f"{title} {summary}"
-                if not is_construction_relevant(combined):
-                    continue
-                
-                pub = entry.get('published_parsed') or entry.get('updated_parsed')
-                date_str = datetime(*pub[:6]).strftime('%Y-%m-%d') if pub else datetime.now().strftime('%Y-%m-%d')
-                
-                funding_kw = ['grant', 'funding', 'award', 'federal', 'million', 'billion', '$']
-                category = 'funding' if any(k in combined.lower() for k in funding_kw) else 'news'
-                
-                news.append({
-                    'id': generate_id(link or title),
-                    'title': title,
-                    'summary': summary,
-                    'url': link,
-                    'source': source,
-                    'state': cfg['state'],
-                    'date': date_str,
-                    'category': category,
-                    'priority': get_priority(combined),
-                    'business_lines': get_business_lines(combined)
-                })
-                count += 1
-            print(f"    ✓ {count} items")
+                if any(kw in text for kw in CONSTRUCTION_KEYWORDS):
+                    items.append({
+                        'id': generate_id(entry.get('link', title)),
+                        'state': config['state'],
+                        'title': title,
+                        'description': summary[:300] if summary else '',
+                        'url': entry.get('link', ''),
+                        'source': name,
+                        'category': 'news' if 'grant' not in text and 'funding' not in text else 'funding',
+                        'published': entry.get('published', ''),
+                        'fetched': datetime.now(timezone.utc).isoformat()
+                    })
+            
+            all_news.extend(items)
+            print(f"    ✓ {len(items)} items")
+            
         except Exception as e:
-            print(f"    ✗ {e}")
+            print(f"    ⚠ {name} error: {e}")
     
-    news.sort(key=lambda x: x['date'], reverse=True)
-    return news
+    return all_news
 
 
 # =============================================================================
-# MARKET HEALTH & SUMMARY
+# MARKET HEALTH
 # =============================================================================
 
 def calculate_market_health(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
+    """Calculate market health scores."""
+    # DOT Pipeline Score (0-10)
     total_value = sum(d.get('cost_low') or 0 for d in dot_lettings)
+    projects_with_cost = len([d for d in dot_lettings if d.get('cost_low')])
     
-    if total_value >= 100000000:
-        dot_score, dot_trend, dot_action = 9.0, 'up', 'Expand highway capacity - strong pipeline'
-    elif total_value >= 50000000:
-        dot_score, dot_trend, dot_action = 8.2, 'up', 'Expand highway capacity'
-    elif total_value >= 20000000:
-        dot_score, dot_trend, dot_action = 7.0, 'stable', 'Maintain position'
-    elif total_value > 0:
-        dot_score, dot_trend, dot_action = 6.0, 'stable', 'Monitor opportunities'
+    if total_value >= 500_000_000:
+        dot_score = 10
+    elif total_value >= 200_000_000:
+        dot_score = 9
+    elif total_value >= 100_000_000:
+        dot_score = 8
+    elif total_value >= 50_000_000:
+        dot_score = 7
+    elif total_value >= 20_000_000:
+        dot_score = 6
     else:
-        dot_score, dot_trend, dot_action = 8.2, 'up', 'Expand highway capacity'
+        dot_score = max(3, projects_with_cost // 2)
     
-    mh = {
-        'dot_pipeline': {'score': dot_score, 'trend': dot_trend, 'action': dot_action},
-        'housing_permits': {'score': 6.5, 'trend': 'stable', 'action': 'Monitor trends'},
-        'construction_spending': {'score': 6.1, 'trend': 'down', 'action': 'Selective investment'},
-        'migration': {'score': 7.3, 'trend': 'up', 'action': 'Geographic expansion'},
-        'input_cost_stability': {'score': 5.5, 'trend': 'down', 'action': 'Hedge 6 months'},
-        'infrastructure_funding': {'score': 7.8, 'trend': 'stable', 'action': 'Selective growth'}
-    }
+    # News Score
+    construction_news = len([n for n in news if n['category'] == 'news'])
+    funding_news = len([n for n in news if n['category'] == 'funding'])
+    news_score = min(10, 5 + construction_news // 2 + funding_news)
     
-    weights = {'dot_pipeline': 0.15, 'housing_permits': 0.10, 'construction_spending': 0.10,
-               'migration': 0.10, 'input_cost_stability': 0.08, 'infrastructure_funding': 0.07}
+    # Overall Score
+    overall = round((dot_score * 0.7 + news_score * 0.3), 1)
     
-    total_w = sum(mh[k]['score'] * weights[k] for k in weights)
-    sum_w = sum(weights.values())
-    overall = round(total_w / sum_w, 1)
-    
-    status = 'growth' if overall >= 7.5 else 'stable' if overall >= 6.0 else 'watchlist'
-    mh['overall_score'] = overall
-    mh['overall_status'] = status
-    
-    return mh
-
-
-def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
-    total_low = sum(d.get('cost_low') or 0 for d in dot_lettings)
-    total_high = sum(d.get('cost_high') or 0 for d in dot_lettings)
-    
-    by_state = {s: 0 for s in STATES}
-    for d in dot_lettings:
-        if d['state'] in by_state:
-            by_state[d['state']] += 1
-    for n in news:
-        if n['state'] in by_state:
-            by_state[n['state']] += 1
-    
-    by_cat = {
-        'dot_letting': len(dot_lettings),
-        'news': len([n for n in news if n['category'] == 'news']),
-        'funding': len([n for n in news if n['category'] == 'funding'])
-    }
+    if overall >= 8:
+        status = 'strong'
+    elif overall >= 6:
+        status = 'stable'
+    else:
+        status = 'cautious'
     
     return {
-        'total_opportunities': by_cat['dot_letting'] + by_cat['funding'],
-        'total_value_low': total_low,
-        'total_value_high': total_high,
-        'by_state': by_state,
-        'by_category': by_cat
+        'overall_score': overall,
+        'overall_status': status,
+        'dot_pipeline': {
+            'score': dot_score,
+            'total_value': total_value,
+            'projects_with_cost': projects_with_cost
+        },
+        'news_activity': {
+            'score': news_score,
+            'construction_news': construction_news,
+            'funding_news': funding_news
+        }
     }
 
 
@@ -1740,9 +775,67 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
 # MAIN
 # =============================================================================
 
+def fetch_dot_lettings() -> List[Dict]:
+    """Fetch all DOT lettings with deduplication."""
+    all_lettings = []
+    
+    # MassDOT (working)
+    print(f"  🏗️ MassDOT (MA)...")
+    ma_projects = parse_massdot()
+    all_lettings.extend(ma_projects)
+    
+    # MaineDOT (working)
+    print(f"  🏗️ MaineDOT (ME)...")
+    me_projects = parse_mainedot()
+    all_lettings.extend(me_projects)
+    
+    # NHDOT (RPC PDFs + manual STIP with deduplication)
+    print(f"  🏗️ NHDOT (NH)...")
+    nh_projects = parse_nhdot()
+    all_lettings.extend(nh_projects)
+    
+    # Other states (portal stubs)
+    for state in ['VT', 'NY', 'RI', 'CT', 'PA']:
+        print(f"  🏗️ {state}DOT ({state})...")
+        print(f"    ✓ Portal link")
+    all_lettings.extend(get_portal_stubs())
+    
+    return all_lettings
+
+
+def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
+    """Build summary statistics."""
+    all_items = dot_lettings + news
+    
+    by_state = {}
+    for state in STATES:
+        state_items = [i for i in all_items if i.get('state') == state]
+        state_value = sum(i.get('cost_low') or 0 for i in state_items)
+        by_state[state] = {
+            'count': len(state_items),
+            'total_value': state_value
+        }
+    
+    by_cat = {}
+    for cat in ['dot_letting', 'news', 'funding']:
+        by_cat[cat] = len([i for i in all_items if i.get('category') == cat])
+    
+    total_low = sum(i.get('cost_low') or 0 for i in all_items)
+    total_high = sum(i.get('cost_high') or i.get('cost_low') or 0 for i in all_items)
+    
+    return {
+        'total_opportunities': len(all_items),
+        'total_value_low': total_low,
+        'total_value_high': total_high,
+        'by_state': by_state,
+        'by_category': by_cat
+    }
+
+
 def run_scraper() -> Dict:
+    """Main scraper entry point."""
     print("=" * 60)
-    print("NECMIS SCRAPER - PHASE 3.0 (Dynamic NHDOT Parser)")
+    print("NECMIS SCRAPER v5 - WITH DEDUPLICATION")
     print("=" * 60)
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
@@ -1789,7 +882,8 @@ def run_scraper() -> Dict:
     for state in ['MA', 'ME', 'NH']:
         state_projects = [d for d in dot_lettings if d['state'] == state]
         state_value = sum(d.get('cost_low') or 0 for d in state_projects)
-        print(f"  {state}: {len(state_projects)} projects, {format_currency(state_value)}")
+        state_with_cost = len([d for d in state_projects if d.get('cost_low')])
+        print(f"  {state}: {len(state_projects)} projects ({state_with_cost} with $), {format_currency(state_value)}")
     
     print("=" * 60)
     

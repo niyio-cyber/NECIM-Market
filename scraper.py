@@ -305,126 +305,168 @@ def parse_massdot() -> List[Dict]:
 
 # =============================================================================
 # MAINEDOT PARSER - Multi-source with $$ values from CAP
-# Sources: 1) Embedded JSON in HTML, 2) CAP PDF, 3) Portal stub
+# Priority: 1) Excel file, 2) PDF, 3) Portal stub
 # =============================================================================
 
 def parse_mainedot() -> List[Dict]:
     """
     Parse MaineDOT Construction Advertisement Plan (CAP).
-    Primary: Extract JSON data embedded in HTML at https://www.maine.gov/dot/major-projects/cap
-    Fallback: PDF at https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.pdf
+    Primary: Excel file at https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.xls
+    Backup: PDF at https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.pdf
+    Note: HTML table uses DataTables (JS-loaded) - cannot be scraped without headless browser
     """
     lettings = []
     cap_url = "https://www.maine.gov/dot/major-projects/cap"
+    excel_url = "https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.xls"
     pdf_url = "https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.pdf"
     
-    # === ATTEMPT 1: Look for embedded JSON data in HTML (DataTables often embeds data) ===
+    # === ATTEMPT 1: Parse Excel file (BEST SOURCE - structured data) ===
     try:
-        print(f"    🔍 Fetching MaineDOT CAP page...")
-        response = requests.get(cap_url, timeout=30, headers={
+        print(f"    🔍 Fetching MaineDOT CAP Excel file...")
+        response = requests.get(excel_url, timeout=60, headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
         response.raise_for_status()
-        html_text = response.text
         
-        # Look for JSON data patterns in the HTML
-        # DataTables often has: "data": [...] or var tableData = [...]
-        json_patterns = [
-            r'"data"\s*:\s*(\[\s*\[.*?\]\s*\])',  # "data": [[...], [...]]
-            r'var\s+\w+\s*=\s*(\[\s*\{.*?\}\s*\])',  # var data = [{...}, {...}]
-            r"'data'\s*:\s*(\[\s*\[.*?\]\s*\])",  # 'data': [[...], [...]]
-        ]
+        print(f"    📊 Got Excel: {len(response.content)} bytes")
         
-        for pattern in json_patterns:
-            match = re.search(pattern, html_text, re.DOTALL)
-            if match:
-                try:
-                    data = json.loads(match.group(1))
-                    print(f"    📊 Found embedded JSON with {len(data)} items")
-                    # Process JSON data here if found
-                    break
-                except json.JSONDecodeError:
-                    continue
-        
-        # If no JSON found, check if there are pre-rendered table rows
-        soup = BeautifulSoup(html_text, 'html.parser')
-        tables = soup.find_all('table')
-        print(f"    📊 Found {len(tables)} tables in HTML")
-        
-        for table in tables:
-            rows = table.find_all('tr')
-            data_rows = [r for r in rows if r.find_all('td')]  # Only rows with data cells
+        try:
+            import pandas as pd
+            import io
             
-            if len(data_rows) > 5:  # Meaningful amount of data
-                print(f"    📋 Found table with {len(data_rows)} data rows")
-                
-                for row in data_rows:
-                    cells = row.find_all('td')
-                    if len(cells) >= 6:
-                        try:
-                            work_type = cells[0].get_text(strip=True)
-                            ad_date = cells[1].get_text(strip=True)
-                            location = cells[2].get_text(strip=True)
-                            details = cells[3].get_text(strip=True)
-                            project_id = cells[4].get_text(strip=True)
-                            cost_text = cells[5].get_text(strip=True)
-                            
-                            if not location or 'Location' in location:
-                                continue
-                            
-                            # Parse cost
-                            cost = None
-                            cost_match = re.search(r'\$?([\d,]+)', cost_text)
+            # Read Excel file
+            df = pd.read_excel(io.BytesIO(response.content), engine='xlrd')
+            print(f"    📋 Excel has {len(df)} rows, columns: {list(df.columns)[:6]}...")
+            
+            # Expected columns (may vary): Work Type, Planned Advertise Date, Location/Title, Details, Project ID, Total Project Estimate
+            # Try to find the right columns
+            col_map = {}
+            for col in df.columns:
+                col_lower = str(col).lower()
+                if 'work' in col_lower and 'type' in col_lower:
+                    col_map['work_type'] = col
+                elif 'advertise' in col_lower and 'date' in col_lower:
+                    col_map['ad_date'] = col
+                elif 'location' in col_lower or 'title' in col_lower:
+                    col_map['location'] = col
+                elif 'detail' in col_lower or 'description' in col_lower:
+                    col_map['details'] = col
+                elif 'project' in col_lower and ('id' in col_lower or 'no' in col_lower or 'identification' in col_lower):
+                    col_map['project_id'] = col
+                elif 'estimate' in col_lower or 'cost' in col_lower or 'total' in col_lower:
+                    col_map['cost'] = col
+            
+            print(f"    🔬 Column mapping: {col_map}")
+            
+            for idx, row in df.iterrows():
+                try:
+                    work_type = str(row.get(col_map.get('work_type', ''), '')).strip()
+                    ad_date_raw = row.get(col_map.get('ad_date', ''), '')
+                    location = str(row.get(col_map.get('location', ''), '')).strip()
+                    details = str(row.get(col_map.get('details', ''), '')).strip()
+                    project_id = str(row.get(col_map.get('project_id', ''), '')).strip()
+                    cost_raw = row.get(col_map.get('cost', ''), '')
+                    
+                    # Skip empty rows or header-like rows
+                    if not location or location == 'nan' or 'Location' in location:
+                        continue
+                    
+                    # Parse cost
+                    cost = None
+                    if pd.notna(cost_raw):
+                        if isinstance(cost_raw, (int, float)):
+                            cost = int(cost_raw)
+                        else:
+                            cost_match = re.search(r'\$?([\d,]+)', str(cost_raw))
                             if cost_match:
                                 cost = int(cost_match.group(1).replace(',', ''))
-                            
-                            # Parse date
-                            let_date = None
-                            try:
-                                let_date = datetime.strptime(ad_date, '%m/%d/%Y').strftime('%Y-%m-%d')
-                            except:
-                                pass
-                            
-                            # Extract description
-                            desc_match = re.search(r'Description:\s*(.+?)(?:Program Manager:|Phone:|$)', details, re.DOTALL)
-                            description = desc_match.group(1).strip() if desc_match else location
-                            
-                            # Map work type
-                            proj_type = 'Bridge' if 'bridge' in work_type.lower() else \
-                                       'Pavement' if 'paving' in work_type.lower() else \
-                                       'Highway' if 'highway' in work_type.lower() else \
-                                       'Safety' if 'safety' in work_type.lower() else work_type
-                            
-                            lettings.append({
-                                'id': generate_id(f"ME-{project_id}-{location[:20]}"),
-                                'state': 'ME',
-                                'project_id': project_id,
-                                'description': f"{location}: {description[:150]}" if description != location else location,
-                                'cost_low': cost,
-                                'cost_high': cost,
-                                'cost_display': format_currency(cost) if cost else 'TBD',
-                                'ad_date': let_date,
-                                'let_date': let_date,
-                                'project_type': proj_type,
-                                'location': location.split(',')[0] if ',' in location else location,
-                                'district': None,
-                                'url': cap_url,
-                                'source': 'MaineDOT CAP',
-                                'business_lines': get_business_lines(f"{work_type} {location} {description}")
-                            })
-                        except Exception as e:
-                            continue
+                    
+                    # Parse date
+                    let_date = None
+                    if pd.notna(ad_date_raw):
+                        try:
+                            if isinstance(ad_date_raw, datetime):
+                                let_date = ad_date_raw.strftime('%Y-%m-%d')
+                            else:
+                                let_date = datetime.strptime(str(ad_date_raw), '%m/%d/%Y').strftime('%Y-%m-%d')
+                        except:
+                            pass
+                    
+                    # Extract description from details
+                    description = location
+                    if details and details != 'nan':
+                        desc_match = re.search(r'Description:\s*(.+?)(?:Program Manager:|Phone:|$)', details, re.DOTALL)
+                        if desc_match:
+                            description = f"{location}: {desc_match.group(1).strip()[:150]}"
+                    
+                    # Map work type to project type
+                    proj_type = None
+                    wt_lower = work_type.lower()
+                    if 'bridge' in wt_lower:
+                        proj_type = 'Bridge'
+                    elif 'paving' in wt_lower or 'preservation' in wt_lower or 'lcp' in wt_lower:
+                        proj_type = 'Pavement'
+                    elif 'highway' in wt_lower and 'construction' in wt_lower:
+                        proj_type = 'Highway'
+                    elif 'highway' in wt_lower and 'rehab' in wt_lower:
+                        proj_type = 'Highway Rehab'
+                    elif 'safety' in wt_lower or 'spot' in wt_lower:
+                        proj_type = 'Safety'
+                    elif 'multimodal' in wt_lower:
+                        proj_type = 'Multimodal'
+                    elif 'maintenance' in wt_lower:
+                        proj_type = 'Maintenance'
+                    else:
+                        proj_type = work_type[:30] if work_type else None
+                    
+                    lettings.append({
+                        'id': generate_id(f"ME-{project_id}-{location[:20]}"),
+                        'state': 'ME',
+                        'project_id': project_id if project_id != 'nan' else None,
+                        'description': description[:200],
+                        'cost_low': cost,
+                        'cost_high': cost,
+                        'cost_display': format_currency(cost) if cost else 'TBD',
+                        'ad_date': let_date,
+                        'let_date': let_date,
+                        'project_type': proj_type,
+                        'location': location.split(',')[0] if ',' in location else location,
+                        'district': None,
+                        'url': cap_url,
+                        'source': 'MaineDOT CAP',
+                        'business_lines': get_business_lines(f"{work_type} {location} {details}")
+                    })
+                    
+                except Exception as e:
+                    continue
+            
+            if lettings:
+                # Deduplicate by project_id
+                seen_ids = set()
+                unique_lettings = []
+                for l in lettings:
+                    key = l['project_id'] or l['description'][:50]
+                    if key not in seen_ids:
+                        seen_ids.add(key)
+                        unique_lettings.append(l)
+                lettings = unique_lettings
                 
-                if lettings:
-                    total = sum(l.get('cost_low') or 0 for l in lettings)
-                    with_cost = len([l for l in lettings if l.get('cost_low')])
-                    print(f"    ✓ {len(lettings)} projects from HTML ({with_cost} with $), {format_currency(total)} pipeline")
-                    return lettings
-        
-        print(f"    ⚠ HTML table empty (DataTables loads via JS), trying PDF...")
-        
+                total = sum(l.get('cost_low') or 0 for l in lettings)
+                with_cost = len([l for l in lettings if l.get('cost_low')])
+                print(f"    ✓ {len(lettings)} projects from Excel ({with_cost} with $), {format_currency(total)} pipeline")
+                return lettings
+            else:
+                print(f"    ⚠ No projects extracted from Excel")
+                
+        except ImportError as e:
+            print(f"    ⚠ pandas/xlrd not installed: {e}")
+        except Exception as e:
+            print(f"    ⚠ Excel parse error: {e}")
+            import traceback
+            traceback.print_exc()
+            
     except Exception as e:
-        print(f"    ⚠ HTML fetch failed: {e}")
+        print(f"    ⚠ Excel fetch failed: {e}")
     
     # === ATTEMPT 2: Parse PDF (Primary reliable source) ===
     try:
@@ -549,7 +591,110 @@ def parse_mainedot() -> List[Dict]:
                     print(f"    ⚠ No projects extracted from PDF")
                     
         except ImportError:
-            print(f"    ⚠ pdfplumber not installed - cannot parse PDF")
+            print(f"    ⚠ pdfplumber not installed - trying PyPDF2...")
+            
+            # Fallback to PyPDF2
+            try:
+                import PyPDF2
+                import io
+                
+                reader = PyPDF2.PdfReader(io.BytesIO(response.content))
+                print(f"    📑 PDF has {len(reader.pages)} pages (PyPDF2)")
+                
+                current_work_type = None
+                work_type_headers = [
+                    'Bridge Construction', 'Bridges Other', 'Highway Construction', 
+                    'Highway Preservation Paving', 'Highway Rehabilitation',
+                    'Highway Safety and Spot Improvements', 'Multimodal', 'Maintenance',
+                    'Highway Light Capital Paving'
+                ]
+                
+                for page in reader.pages:
+                    text = page.extract_text() or ''
+                    lines = text.split('\n')
+                    
+                    for line in lines:
+                        line_stripped = line.strip()
+                        
+                        if line_stripped in work_type_headers:
+                            current_work_type = line_stripped
+                            continue
+                        
+                        if not line_stripped or 'Plan Advertise Date' in line:
+                            continue
+                        
+                        id_match = re.search(r'(\d{6}\.\d{2})', line)
+                        cost_match = re.search(r'\$([\d,]+)', line)
+                        
+                        if id_match and cost_match and current_work_type:
+                            project_id = id_match.group(1)
+                            try:
+                                cost = int(cost_match.group(1).replace(',', ''))
+                            except:
+                                cost = None
+                            
+                            date_match = re.search(r'^(\d{2}/\d{2}/\d{4})', line)
+                            let_date = None
+                            if date_match:
+                                try:
+                                    let_date = datetime.strptime(date_match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
+                                except:
+                                    pass
+                            
+                            location = line
+                            if date_match:
+                                location = location[len(date_match.group(0)):].strip()
+                            location = re.sub(r'\d{6}\.\d{2}', '', location)
+                            location = re.sub(r'\$[\d,]+', '', location)
+                            location = location.strip()
+                            
+                            proj_type = None
+                            if 'bridge' in current_work_type.lower():
+                                proj_type = 'Bridge'
+                            elif 'paving' in current_work_type.lower():
+                                proj_type = 'Pavement'
+                            elif 'highway' in current_work_type.lower():
+                                proj_type = 'Highway'
+                            elif 'safety' in current_work_type.lower():
+                                proj_type = 'Safety'
+                            
+                            if location and len(location) > 3:
+                                lettings.append({
+                                    'id': generate_id(f"ME-{project_id}-{location[:20]}"),
+                                    'state': 'ME',
+                                    'project_id': project_id,
+                                    'description': location[:200],
+                                    'cost_low': cost,
+                                    'cost_high': cost,
+                                    'cost_display': format_currency(cost) if cost else 'TBD',
+                                    'ad_date': let_date,
+                                    'let_date': let_date,
+                                    'project_type': proj_type or current_work_type,
+                                    'location': location.split(',')[0] if ',' in location else location,
+                                    'district': None,
+                                    'url': cap_url,
+                                    'source': 'MaineDOT CAP',
+                                    'business_lines': get_business_lines(f"{current_work_type} {location}")
+                                })
+                
+                if lettings:
+                    seen_ids = set()
+                    unique_lettings = []
+                    for l in lettings:
+                        if l['project_id'] not in seen_ids:
+                            seen_ids.add(l['project_id'])
+                            unique_lettings.append(l)
+                    lettings = unique_lettings
+                    
+                    total = sum(l.get('cost_low') or 0 for l in lettings)
+                    with_cost = len([l for l in lettings if l.get('cost_low')])
+                    print(f"    ✓ {len(lettings)} projects from PDF/PyPDF2 ({with_cost} with $), {format_currency(total)} pipeline")
+                    return lettings
+                    
+            except ImportError:
+                print(f"    ⚠ PyPDF2 also not installed - cannot parse PDF")
+            except Exception as e:
+                print(f"    ⚠ PyPDF2 parse error: {e}")
         except Exception as e:
             print(f"    ⚠ PDF parse error: {e}")
             import traceback

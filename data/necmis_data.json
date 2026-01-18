@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-18T01:52:31Z",
+  "generated": "2026-01-18T01:58:41Z",
   "version": "3.0",
   "item_count": 365,
   "coverage": {
@@ -48,10 +48,10 @@
       "highway": 22,
       "hma": 0,
       "aggregates": 22,
-      "concrete": 10,
+      "concrete": 9,
       "liquid_asphalt": 0,
       "trucking": 3,
-      "general": 308
+      "general": 309
     }
   },
   "items": [
@@ -2890,19 +2890,6 @@
       "id": "1a194451c67b"
     },
     {
-      "title": "Experts release final Texans-Patriots predictions following late Nico Collins ruling",
-      "url": "https://www.syracuse.com/betting/2026/01/experts-release-final-texans-patriots-predictions-following-late-nico-collins-ruling.html",
-      "summary": "The Texans face the Patriots tomorrow without star WR Nico Collins. See how his absence and Christian Kirk's role shift our expert betting picks.",
-      "date": "2026-01-17",
-      "source": "Syracuse.com",
-      "source_type": "news",
-      "state": "NY",
-      "priority": "low",
-      "category": "news",
-      "business_line": "general",
-      "id": "c1a10fb154c2"
-    },
-    {
       "title": "DraftKings promo code updated: $300 promo for 49ers, Seahawks NFL tonight",
       "url": "https://www.syracuse.com/betting/2026/01/draftkings-promo-code-updated-300-promo-for-49ers-seahawks-nfl-tonight.html",
       "summary": "Get the top NFL Divisional Round promo for the 49ers vs. Seahawks Saturday night clash. Claim $300 in bonus bets with the DraftKings promo code and tail the \"+700 Quick Ten\" boosted parlay for the late game at Lumen Field.",
@@ -2914,6 +2901,19 @@
       "category": "news",
       "business_line": "general",
       "id": "d5519c6242d1"
+    },
+    {
+      "title": "Experts release final Texans-Patriots predictions following late Nico Collins ruling",
+      "url": "https://www.syracuse.com/betting/2026/01/experts-release-final-texans-patriots-predictions-following-late-nico-collins-ruling.html",
+      "summary": "The Texans face the Patriots tomorrow without star WR Nico Collins. See how his absence and Christian Kirk's role shift our expert betting picks.",
+      "date": "2026-01-17",
+      "source": "Syracuse.com",
+      "source_type": "news",
+      "state": "NY",
+      "priority": "low",
+      "category": "news",
+      "business_line": "general",
+      "id": "c1a10fb154c2"
     },
     {
       "title": "Syracuse commits 18 turnovers in loss to BC: \u2018I\u2019m trying my hardest not to turn over the ball\u2019",
@@ -3137,19 +3137,6 @@
       "id": "a073958c004b"
     },
     {
-      "title": "New FanDuel promo code: $300 bonus for NFL Divisional games",
-      "url": "https://www.syracuse.com/betting/2026/01/new-fanduel-promo-code-300-bonus-for-conference-championship-weekend.html",
-      "summary": "Unlock the top NFL Divisional Round offers with the FanDuel promo code for Saturday, Jan 17, 2026. Get $300 in bonus bets, play \"The Daily Play\" for a share of $100,000, and tail exclusive SGPs for Bills vs. Broncos and 49ers vs. Seahawks.",
-      "date": "2026-01-17",
-      "source": "Syracuse.com",
-      "source_type": "news",
-      "state": "NY",
-      "priority": "low",
-      "category": "news",
-      "business_line": "general",
-      "id": "a4ba936c4d90"
-    },
-    {
       "title": "NFL BetMGM Bonus Code CUSE: $150 \u201cBet and Get\u201d available in NJ for Bills vs. Broncos",
       "url": "https://www.syracuse.com/betting/2026/01/nfl-betmgm-bonus-code-cuse-150-bet-and-get-available-in-nj-for-bills-vs-broncos.html",
       "summary": "Unlock $150 in bonus bets for the Bills vs. Broncos game with BetMGM bonus code CUSE. New users in New Jersey can bet $10 and win a $150 bonus today.",
@@ -3161,6 +3148,19 @@
       "category": "news",
       "business_line": "general",
       "id": "2547f6763d13"
+    },
+    {
+      "title": "New FanDuel promo code: $300 bonus for NFL Divisional games",
+      "url": "https://www.syracuse.com/betting/2026/01/new-fanduel-promo-code-300-bonus-for-conference-championship-weekend.html",
+      "summary": "Unlock the top NFL Divisional Round offers with the FanDuel promo code for Saturday, Jan 17, 2026. Get $300 in bonus bets, play \"The Daily Play\" for a share of $100,000, and tail exclusive SGPs for Bills vs. Broncos and 49ers vs. Seahawks.",
+      "date": "2026-01-17",
+      "source": "Syracuse.com",
+      "source_type": "news",
+      "state": "NY",
+      "priority": "low",
+      "category": "news",
+      "business_line": "general",
+      "id": "a4ba936c4d90"
     },
     {
       "title": "Update: Snow squall warning for Finger Lakes predicted to expire at 5:15 p.m.",
@@ -3943,17 +3943,17 @@
       "id": "0dfcf5ae0b54"
     },
     {
-      "title": "Legendary singer makes surprising announcement just weeks after cancer diagnosis",
-      "url": "https://www.pennlive.com/entertainment/2026/01/legendary-singer-makes-surprising-announcement-just-weeks-after-cancer-diagnosis.html",
-      "summary": "The iconic singer surprised fans this week.",
+      "title": "Ex-NFL player breaks silence after \u2018homophobic\u2019 dig from ex-\u2019Friends\u2019 actor",
+      "url": "https://www.pennlive.com/entertainment/2026/01/ex-nfl-player-breaks-silence-after-homophobic-dig-from-ex-friends-actor.html",
+      "summary": "The 33-year-old said he is making it a point to stand up for himself.",
       "date": "2026-01-17",
       "source": "PennLive",
       "source_type": "news",
       "state": "PA",
       "priority": "low",
       "category": "news",
-      "business_line": "concrete",
-      "id": "27d7e27db0d3"
+      "business_line": "general",
+      "id": "df01b4869eea"
     },
     {
       "title": "Miami commit Caleb Gaskins seizing moment as \u201cThe Guy\u201d at Christopher Columbus",

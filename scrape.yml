@@ -1,37 +1,37 @@
-name: NECMIS Daily Scraper
+name: NECMIS Daily Scrape
 
 on:
   schedule:
-    - cron: '0 11 * * *'
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+    - cron: '0 11 * * *'  # 6 AM EST (11 UTC)
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+        
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+          
       - name: Install dependencies
-        run: pip install requests feedparser beautifulsoup4
-      
-      - name: Run NECMIS scraper
-        run: python scraper.py
-      
-      - name: Commit and push changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/necmis_data.json
-          git diff --staged --quiet || git commit -m "Update data"
+          pip install requests feedparser beautifulsoup4 pandas openpyxl
+          
+      - name: Run scraper
+        run: python scraper.py
+        
+      - name: Commit and push data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update NECMIS data $(date +'%Y-%m-%d %H:%M')"
           git push

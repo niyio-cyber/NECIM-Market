@@ -42,7 +42,7 @@ RSS_FEEDS = {
 
 DOT_SOURCES = {
     'MA': {'name': 'MassDOT', 'portal_url': 'https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp', 'parser': 'active'},
-    'ME': {'name': 'MaineDOT', 'portal_url': 'https://www.maine.gov/dot/doing-business/bid-opportunities', 'parser': 'active'},
+    'ME': {'name': 'MaineDOT', 'portal_url': 'https://www.maine.gov/dot/major-projects/cap', 'parser': 'active'},
     'NH': {'name': 'NHDOT', 'portal_url': 'https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid', 'parser': 'stub'},
     'VT': {'name': 'VTrans', 'portal_url': 'https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting', 'parser': 'stub'},
     'NY': {'name': 'NYSDOT', 'portal_url': 'https://www.dot.ny.gov/doing-business/opportunities/const-highway', 'parser': 'stub'},
@@ -304,121 +304,262 @@ def parse_massdot() -> List[Dict]:
 
 
 # =============================================================================
-# MAINEDOT PARSER - HTML table from Bid Opportunities page
+# MAINEDOT PARSER - Multi-source with $$ values from CAP
+# Sources: 1) Embedded JSON in HTML, 2) CAP PDF, 3) Portal stub
 # =============================================================================
 
 def parse_mainedot() -> List[Dict]:
     """
-    Parse MaineDOT Bid Opportunities page.
-    URL: https://www.maine.gov/dot/doing-business/bid-opportunities
-    The page has an HTML table with current bid projects.
+    Parse MaineDOT Construction Advertisement Plan (CAP).
+    Primary: Extract JSON data embedded in HTML at https://www.maine.gov/dot/major-projects/cap
+    Fallback: PDF at https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.pdf
     """
     lettings = []
-    html_url = "https://www.maine.gov/dot/doing-business/bid-opportunities"
+    cap_url = "https://www.maine.gov/dot/major-projects/cap"
+    pdf_url = "https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/annual.pdf"
     
+    # === ATTEMPT 1: Look for embedded JSON data in HTML (DataTables often embeds data) ===
     try:
-        print(f"    🔍 Fetching MaineDOT bid opportunities...")
-        response = requests.get(html_url, timeout=30, headers={
+        print(f"    🔍 Fetching MaineDOT CAP page...")
+        response = requests.get(cap_url, timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
+        response.raise_for_status()
+        html_text = response.text
+        
+        # Look for JSON data patterns in the HTML
+        # DataTables often has: "data": [...] or var tableData = [...]
+        json_patterns = [
+            r'"data"\s*:\s*(\[\s*\[.*?\]\s*\])',  # "data": [[...], [...]]
+            r'var\s+\w+\s*=\s*(\[\s*\{.*?\}\s*\])',  # var data = [{...}, {...}]
+            r"'data'\s*:\s*(\[\s*\[.*?\]\s*\])",  # 'data': [[...], [...]]
+        ]
+        
+        for pattern in json_patterns:
+            match = re.search(pattern, html_text, re.DOTALL)
+            if match:
+                try:
+                    data = json.loads(match.group(1))
+                    print(f"    📊 Found embedded JSON with {len(data)} items")
+                    # Process JSON data here if found
+                    break
+                except json.JSONDecodeError:
+                    continue
+        
+        # If no JSON found, check if there are pre-rendered table rows
+        soup = BeautifulSoup(html_text, 'html.parser')
+        tables = soup.find_all('table')
+        print(f"    📊 Found {len(tables)} tables in HTML")
+        
+        for table in tables:
+            rows = table.find_all('tr')
+            data_rows = [r for r in rows if r.find_all('td')]  # Only rows with data cells
+            
+            if len(data_rows) > 5:  # Meaningful amount of data
+                print(f"    📋 Found table with {len(data_rows)} data rows")
+                
+                for row in data_rows:
+                    cells = row.find_all('td')
+                    if len(cells) >= 6:
+                        try:
+                            work_type = cells[0].get_text(strip=True)
+                            ad_date = cells[1].get_text(strip=True)
+                            location = cells[2].get_text(strip=True)
+                            details = cells[3].get_text(strip=True)
+                            project_id = cells[4].get_text(strip=True)
+                            cost_text = cells[5].get_text(strip=True)
+                            
+                            if not location or 'Location' in location:
+                                continue
+                            
+                            # Parse cost
+                            cost = None
+                            cost_match = re.search(r'\$?([\d,]+)', cost_text)
+                            if cost_match:
+                                cost = int(cost_match.group(1).replace(',', ''))
+                            
+                            # Parse date
+                            let_date = None
+                            try:
+                                let_date = datetime.strptime(ad_date, '%m/%d/%Y').strftime('%Y-%m-%d')
+                            except:
+                                pass
+                            
+                            # Extract description
+                            desc_match = re.search(r'Description:\s*(.+?)(?:Program Manager:|Phone:|$)', details, re.DOTALL)
+                            description = desc_match.group(1).strip() if desc_match else location
+                            
+                            # Map work type
+                            proj_type = 'Bridge' if 'bridge' in work_type.lower() else \
+                                       'Pavement' if 'paving' in work_type.lower() else \
+                                       'Highway' if 'highway' in work_type.lower() else \
+                                       'Safety' if 'safety' in work_type.lower() else work_type
+                            
+                            lettings.append({
+                                'id': generate_id(f"ME-{project_id}-{location[:20]}"),
+                                'state': 'ME',
+                                'project_id': project_id,
+                                'description': f"{location}: {description[:150]}" if description != location else location,
+                                'cost_low': cost,
+                                'cost_high': cost,
+                                'cost_display': format_currency(cost) if cost else 'TBD',
+                                'ad_date': let_date,
+                                'let_date': let_date,
+                                'project_type': proj_type,
+                                'location': location.split(',')[0] if ',' in location else location,
+                                'district': None,
+                                'url': cap_url,
+                                'source': 'MaineDOT CAP',
+                                'business_lines': get_business_lines(f"{work_type} {location} {description}")
+                            })
+                        except Exception as e:
+                            continue
+                
+                if lettings:
+                    total = sum(l.get('cost_low') or 0 for l in lettings)
+                    with_cost = len([l for l in lettings if l.get('cost_low')])
+                    print(f"    ✓ {len(lettings)} projects from HTML ({with_cost} with $), {format_currency(total)} pipeline")
+                    return lettings
+        
+        print(f"    ⚠ HTML table empty (DataTables loads via JS), trying PDF...")
+        
+    except Exception as e:
+        print(f"    ⚠ HTML fetch failed: {e}")
+    
+    # === ATTEMPT 2: Parse PDF (Primary reliable source) ===
+    try:
+        print(f"    🔄 Fetching MaineDOT CAP PDF...")
+        response = requests.get(pdf_url, timeout=60, headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
         response.raise_for_status()
         
-        print(f"    📄 Got {len(response.text)} bytes")
+        print(f"    📄 Got PDF: {len(response.content)} bytes")
         
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Find the bid table - it has columns: Bid Date, WIN(s), Municipality, Summary, Status, Date posted
-        table = soup.find('table')
-        if not table:
-            print(f"    ⚠ No table found")
-            return [create_portal_stub('ME')]
-        
-        rows = table.find_all('tr')
-        print(f"    📊 Found {len(rows)} table rows")
-        
-        for row in rows[1:]:  # Skip header row
-            cells = row.find_all('td')
-            if len(cells) < 4:
-                continue
+        try:
+            import pdfplumber
+            import io
             
-            try:
-                # Extract data from cells
-                # Column order: Bid Date | WIN(s) | Municipality | Summary | Status | Date posted
-                bid_date_text = cells[0].get_text(strip=True)
-                win_cell = cells[1]
-                municipality = cells[2].get_text(strip=True)
-                summary = cells[3].get_text(strip=True)
+            with pdfplumber.open(io.BytesIO(response.content)) as pdf:
+                print(f"    📑 PDF has {len(pdf.pages)} pages")
                 
-                # Get WIN and project link
-                win_link = win_cell.find('a')
-                win = win_cell.get_text(strip=True)
-                project_url = html_url
-                if win_link and win_link.get('href'):
-                    href = win_link.get('href')
-                    if href.startswith('/'):
-                        project_url = f"https://www.maine.gov{href}"
-                    elif href.startswith('http'):
-                        project_url = href
+                current_work_type = None
+                work_type_headers = [
+                    'Bridge Construction', 'Bridges Other', 'Highway Construction', 
+                    'Highway Preservation Paving', 'Highway Rehabilitation',
+                    'Highway Safety and Spot Improvements', 'Multimodal', 'Maintenance',
+                    'Highway Light Capital Paving'
+                ]
                 
-                # Parse bid date
-                let_date = None
-                if bid_date_text:
-                    try:
-                        # Format: MM/DD/YYYY
-                        let_date = datetime.strptime(bid_date_text, '%m/%d/%Y').strftime('%Y-%m-%d')
-                    except:
-                        pass
+                for page_num, page in enumerate(pdf.pages):
+                    text = page.extract_text() or ''
+                    lines = text.split('\n')
+                    
+                    for line in lines:
+                        line_stripped = line.strip()
+                        
+                        # Detect work type headers
+                        if line_stripped in work_type_headers:
+                            current_work_type = line_stripped
+                            continue
+                        
+                        # Skip header rows and empty lines
+                        if not line_stripped or 'Plan Advertise Date' in line or 'Total Project Estimate' in line:
+                            continue
+                        
+                        # Look for lines with project ID pattern (6 digits.2 digits) AND cost ($X,XXX,XXX)
+                        id_match = re.search(r'(\d{6}\.\d{2})', line)
+                        cost_match = re.search(r'\$([\d,]+)', line)
+                        
+                        if id_match and cost_match and current_work_type:
+                            project_id = id_match.group(1)
+                            
+                            # Parse cost
+                            try:
+                                cost = int(cost_match.group(1).replace(',', ''))
+                            except:
+                                cost = None
+                            
+                            # Extract date (MM/DD/YYYY at start of line)
+                            date_match = re.search(r'^(\d{2}/\d{2}/\d{4})', line)
+                            let_date = None
+                            if date_match:
+                                try:
+                                    let_date = datetime.strptime(date_match.group(1), '%m/%d/%Y').strftime('%Y-%m-%d')
+                                except:
+                                    pass
+                            
+                            # Extract location (between date and project ID)
+                            location = line
+                            if date_match:
+                                location = location[len(date_match.group(0)):].strip()
+                            # Remove project ID and cost from location
+                            location = re.sub(r'\d{6}\.\d{2}', '', location)
+                            location = re.sub(r'\$[\d,]+', '', location)
+                            location = location.strip()
+                            
+                            # Map work type to project type
+                            proj_type = None
+                            if 'bridge' in current_work_type.lower():
+                                proj_type = 'Bridge'
+                            elif 'paving' in current_work_type.lower() or 'preservation' in current_work_type.lower():
+                                proj_type = 'Pavement'
+                            elif 'highway' in current_work_type.lower():
+                                proj_type = 'Highway'
+                            elif 'safety' in current_work_type.lower():
+                                proj_type = 'Safety'
+                            elif 'multimodal' in current_work_type.lower():
+                                proj_type = 'Multimodal'
+                            
+                            # Only add if we have meaningful location data
+                            if location and len(location) > 3:
+                                lettings.append({
+                                    'id': generate_id(f"ME-{project_id}-{location[:20]}"),
+                                    'state': 'ME',
+                                    'project_id': project_id,
+                                    'description': location[:200],
+                                    'cost_low': cost,
+                                    'cost_high': cost,
+                                    'cost_display': format_currency(cost) if cost else 'TBD',
+                                    'ad_date': let_date,
+                                    'let_date': let_date,
+                                    'project_type': proj_type or current_work_type,
+                                    'location': location.split(',')[0] if ',' in location else location,
+                                    'district': None,
+                                    'url': cap_url,
+                                    'source': 'MaineDOT CAP',
+                                    'business_lines': get_business_lines(f"{current_work_type} {location}")
+                                })
                 
-                # Build description
-                desc = summary if summary else f"MaineDOT Project {win}"
-                
-                # Determine project type from description
-                proj_type = None
-                desc_lower = desc.lower()
-                if 'bridge' in desc_lower:
-                    proj_type = 'Bridge'
-                elif 'pavement' in desc_lower or 'resurfacing' in desc_lower or 'overlay' in desc_lower:
-                    proj_type = 'Pavement'
-                elif 'highway' in desc_lower or 'interchange' in desc_lower:
-                    proj_type = 'Highway'
-                elif 'culvert' in desc_lower:
-                    proj_type = 'Culvert'
-                elif 'signal' in desc_lower:
-                    proj_type = 'Signals'
-                
-                letting = {
-                    'id': generate_id(f"ME-{win}-{desc[:25]}"),
-                    'state': 'ME',
-                    'project_id': win,
-                    'description': desc[:200],
-                    'cost_low': None,  # MaineDOT doesn't show estimates on this page
-                    'cost_high': None,
-                    'cost_display': 'See Portal',
-                    'ad_date': None,
-                    'let_date': let_date,
-                    'project_type': proj_type,
-                    'location': municipality,
-                    'district': None,
-                    'url': project_url,
-                    'source': 'MaineDOT',
-                    'business_lines': get_business_lines(desc)
-                }
-                lettings.append(letting)
-                
-            except Exception as e:
-                continue
-        
-        if lettings:
-            print(f"    ✓ {len(lettings)} projects from bid table")
-            return lettings
+                if lettings:
+                    # Deduplicate by project_id
+                    seen_ids = set()
+                    unique_lettings = []
+                    for l in lettings:
+                        if l['project_id'] not in seen_ids:
+                            seen_ids.add(l['project_id'])
+                            unique_lettings.append(l)
+                    lettings = unique_lettings
+                    
+                    total = sum(l.get('cost_low') or 0 for l in lettings)
+                    with_cost = len([l for l in lettings if l.get('cost_low')])
+                    print(f"    ✓ {len(lettings)} projects from PDF ({with_cost} with $), {format_currency(total)} pipeline")
+                    return lettings
+                else:
+                    print(f"    ⚠ No projects extracted from PDF")
+                    
+        except ImportError:
+            print(f"    ⚠ pdfplumber not installed - cannot parse PDF")
+        except Exception as e:
+            print(f"    ⚠ PDF parse error: {e}")
+            import traceback
+            traceback.print_exc()
             
     except Exception as e:
-        print(f"    ✗ Error: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"    ⚠ PDF fetch failed: {e}")
     
-    # Fallback: portal stub
-    print(f"    ⚠ Using portal stub")
+    # === FALLBACK: Portal stub ===
+    print(f"    ⚠ All sources failed, using portal stub")
     return [create_portal_stub('ME')]
 
 

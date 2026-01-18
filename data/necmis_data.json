@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-18T11:28:50.948655Z",
+  "generated": "2026-01-18T15:10:16.416034Z",
   "summary": {
     "total_opportunities": 34,
     "total_value_low": 209260596,
@@ -7,7 +7,7 @@
     "by_state": {
       "VT": 1,
       "NH": 6,
-      "ME": 4,
+      "ME": 5,
       "MA": 26,
       "NY": 1,
       "RI": 1,
@@ -16,7 +16,7 @@
     },
     "by_category": {
       "dot_letting": 32,
-      "news": 7,
+      "news": 8,
       "funding": 2
     }
   },
@@ -642,6 +642,34 @@
   ],
   "news": [
     {
+      "id": "a37290585879",
+      "title": "Fatal car crash reported in Falmouth amid snowy weather",
+      "summary": "A car went of the road yesterday afternoon on the Falmouth Spur. The driver did not survive.",
+      "url": "https://www.pressherald.com/2026/01/18/fatal-car-crash-reported-in-falmouth-amidst-snowy-weather/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "399fd355b5c7",
+      "title": "Obituary: Dorothy \u201cDot\u201d (Mullen) Feeney",
+      "summary": "TOPSHAM - Dorothy \u201cDot\u201d Mullen Feeney, 100, passed away Jan. 11, 2026.\n\nDot was born in South Portland on July 25, 1925 ...",
+      "url": "https://www.pressherald.com/2026/01/18/obituarydorothy-dot-mullen-feeney-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "f5ce9726bfa9",
       "title": "Obituary: Nils Peter Mickelson",
       "summary": "BUXTON - Nils Peter Mickelson, 82, of Waterman Road, passed away peacefully on Jan. 3, 2026 after a long illness.\n\nPete was ...",
@@ -656,24 +684,10 @@
       ]
     },
     {
-      "id": "1220f1170cff",
-      "title": "Death Notice: Dorothy \u201cDot\u201d (Mullen) Feeney",
-      "summary": "Feeney, Dorothy \u201cDot\u201d (Mullen) 100, of Topsham, Jan. 11. No services, spring burial. Lindquist Funeral Home. ...",
-      "url": "https://www.pressherald.com/2026/01/18/obituarydorothy-dot-mullen-feeney/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-18",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8753b6db03a8",
-      "title": "How a Depression-era \u2018Hooverville\u2019 turned into UMaine\u2019s hippie paradise",
-      "summary": "This story was originally published in April 2023. The area adjacent to the Rangeley Road entrance to the University of Maine campus, off Park Street in Orono, is an empty field now. For nearly 70 years until the 1980s, however, it housed a community of cabins dubbed \u201cHungry Hollow\u201d by residents and",
-      "url": "https://www.bangordailynews.com/2026/01/18/bangor/bangor-culture/bumstock-music-festival-umaine-joam40zk0w/",
+      "id": "c7d66a1eccf5",
+      "title": "Connecticut woman, 19, killed in Falmouth crash",
+      "summary": "Weather and road conditions are thought to be the primary causes of the crash Saturday afternoon on the Falmouth Spur.",
+      "url": "https://www.bangordailynews.com/2026/01/18/portland/portland-police-courts/connecticut-woman-19-killed-in-falmouth-crash/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-01-18",

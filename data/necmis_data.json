@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-19T00:12:03.116848Z",
+  "generated": "2026-01-19T11:40:47.798444Z",
   "summary": {
     "total_opportunities": 648,
     "total_value_low": 1896456086,
@@ -12309,27 +12309,13 @@
   ],
   "news": [
     {
-      "id": "a37290585879",
-      "title": "Fatal car crash reported in Falmouth amid snowy weather",
-      "summary": "A car went of the road yesterday afternoon on the Falmouth Spur. The driver did not survive.",
-      "url": "https://www.pressherald.com/2026/01/18/fatal-car-crash-reported-in-falmouth-amidst-snowy-weather/",
+      "id": "ff8c40390e72",
+      "title": "Biddeford WinterFest offers a chance to shake off the winter blues",
+      "summary": "This year's edition of the weekendlong family-friendly event is scheduled for Feb. 6-8.",
+      "url": "https://www.pressherald.com/2026/01/19/biddeford-winterfest-offers-a-chance-to-shake-off-the-winter-blues/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-01-18",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "399fd355b5c7",
-      "title": "Obituary: Dorothy \u201cDot\u201d (Mullen) Feeney",
-      "summary": "TOPSHAM - Dorothy \u201cDot\u201d Mullen Feeney, 100, passed away Jan. 11, 2026.\n\nDot was born in South Portland on July 25, 1925 ...",
-      "url": "https://www.pressherald.com/2026/01/18/obituarydorothy-dot-mullen-feeney-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-18",
+      "date": "2026-01-19",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -12337,10 +12323,38 @@
       ]
     },
     {
-      "id": "f5ce9726bfa9",
-      "title": "Obituary: Nils Peter Mickelson",
-      "summary": "BUXTON - Nils Peter Mickelson, 82, of Waterman Road, passed away peacefully on Jan. 3, 2026 after a long illness.\n\nPete was ...",
-      "url": "https://www.pressherald.com/2026/01/18/obituarynils-peter-mickelson-2/",
+      "id": "8a095fee1170",
+      "title": "State to start evaluating future of 89-year old coastal\u00a0Maine bridge",
+      "summary": "The bridge, which opened in 1939, connects Deer Isle and Stonington to the mainland, and is part of the only road off the island.",
+      "url": "https://www.bangordailynews.com/2026/01/19/midcoast/midcoast-government/state-evaluating-89-year-old-coastal-maine-bridge-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-01-19",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "34ac4a8dd1cd",
+      "title": "Expats and Tourists Join To Denounce ICE in Mexican City",
+      "summary": "Under Article 33 of the Mexican constitution, foreigners can\u2019t meddle in Mexican politics, but they otherwise are entitled to human rights, including freedom of expression.\u00a0 Democrats Abroad has held sidewalk protests and rallies before.",
+      "url": "https://indepthnh.org/2026/01/18/expats-and-tourists-join-to-denounce-ice-in-mexican-city/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-01-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a37290585879",
+      "title": "Fatal car crash reported in Falmouth amid snowy weather",
+      "summary": "A car went of the road yesterday afternoon on the Falmouth Spur. The driver did not survive.",
+      "url": "https://www.pressherald.com/2026/01/18/fatal-car-crash-reported-in-falmouth-amidst-snowy-weather/",
       "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-01-18",
@@ -12428,20 +12442,6 @@
       "source": "CT Mirror",
       "state": "CT",
       "date": "2026-01-15",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b40e2ab2aeec",
-      "title": "Preventing County and State Owned Land To Be Used for Carbon Capture Debated",
-      "summary": "Propelled by a change in historic timber cutting practices in the state brought on by the advent of carbon sequestration, a bill that would prohibit state- and county-owned lands from participating in such programs was heard Tuesday before the House Municipal and County Government Committee.",
-      "url": "https://indepthnh.org/2026/01/13/preventing-county-and-state-owned-land-to-be-used-for-carbon-capture-debated/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-01-13",
       "category": "news",
       "priority": "medium",
       "business_lines": [

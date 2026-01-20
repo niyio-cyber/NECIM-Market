@@ -1,23 +1,23 @@
 {
-  "generated": "2026-01-19T11:40:47.798444Z",
+  "generated": "2026-01-20T11:43:02.786970Z",
   "summary": {
-    "total_opportunities": 648,
+    "total_opportunities": 647,
     "total_value_low": 1896456086,
     "total_value_high": 1896456086,
     "by_state": {
-      "VT": 1,
-      "NH": 115,
-      "ME": 172,
-      "MA": 25,
+      "VT": 2,
+      "NH": 114,
+      "ME": 169,
+      "MA": 26,
       "NY": 1,
       "RI": 1,
-      "CT": 341,
+      "CT": 340,
       "PA": 1
     },
     "by_category": {
       "dot_letting": 645,
-      "news": 9,
-      "funding": 3
+      "news": 7,
+      "funding": 2
     }
   },
   "dot_lettings": [
@@ -12309,13 +12309,41 @@
   ],
   "news": [
     {
-      "id": "ff8c40390e72",
-      "title": "Biddeford WinterFest offers a chance to shake off the winter blues",
-      "summary": "This year's edition of the weekendlong family-friendly event is scheduled for Feb. 6-8.",
-      "url": "https://www.pressherald.com/2026/01/19/biddeford-winterfest-offers-a-chance-to-shake-off-the-winter-blues/",
-      "source": "Portland Press Herald",
+      "id": "ac153789faee",
+      "title": "Bangor police investigate property manager\u00a0who reportedly owes landlords thousands",
+      "summary": "It represents a major development in the effort by clients to recoup money from Roland \"Chip\" Foss, who shuttered his company last year.",
+      "url": "https://www.bangordailynews.com/2026/01/20/mainefocus/mainefocus-police-courts/bangor-police-investigate-property-manager-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-01-19",
+      "date": "2026-01-20",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "b001bd51017f",
+      "title": "Celtics road trip sends crucial trade deadline message to Brad Stevens",
+      "summary": "The Celtics held their own yet again against a contender on Monday night in Detroit.",
+      "url": "https://www.masslive.com/celtics/2026/01/celtics-road-trip-sends-crucial-trade-deadline-message-to-brad-stevens.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-20",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2460978723ad",
+      "title": "Childcare is essential infrastructure",
+      "summary": "There is no functioning economy without childcare. It is a load-bearing support for the workforce.",
+      "url": "https://ctmirror.org/2026/01/20/childcare-is-essential-infrastructure-for-connecticut/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-01-20",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -12323,12 +12351,26 @@
       ]
     },
     {
-      "id": "8a095fee1170",
-      "title": "State to start evaluating future of 89-year old coastal\u00a0Maine bridge",
-      "summary": "The bridge, which opened in 1939, connects Deer Isle and Stonington to the mainland, and is part of the only road off the island.",
-      "url": "https://www.bangordailynews.com/2026/01/19/midcoast/midcoast-government/state-evaluating-89-year-old-coastal-maine-bridge-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "c2c18dd62dbf",
+      "title": "After three decades of work, Randolph housing organization to shutter",
+      "summary": "The Randolph Area Community Development Corporation announced it will dissolve over the course of 2026, citing dwindling federal funding and project pipeline issues.\nRead the story on VTDigger here:  After three decades of work, Randolph housing organization to shutter.",
+      "url": "https://vtdigger.org/2026/01/19/after-three-decades-of-work-randolph-housing-organization-to-shutter/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-01-19",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fb3626efed98",
+      "title": "Teamsters President Sean O\u2019Brien kicks off reelection campaign",
+      "summary": "Teamsters President Sean O\u2019Brien kicked off a 2026 reelection bid in Charlestown, Mass., on Sunday \u2014 defending his record, speaking to the future and warning his opponent that Teamsters politics are a \u201cfull contact sport.\u201d",
+      "url": "https://www.unionleader.com/news/business/teamsters-president-sean-o-brien-kicks-off-reelection-campaign/article_12cf91f8-4495-4193-826d-4b622ae513c4.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-01-19",
       "category": "news",
       "priority": "high",
@@ -12344,34 +12386,6 @@
       "source": "InDepthNH",
       "state": "NH",
       "date": "2026-01-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a37290585879",
-      "title": "Fatal car crash reported in Falmouth amid snowy weather",
-      "summary": "A car went of the road yesterday afternoon on the Falmouth Spur. The driver did not survive.",
-      "url": "https://www.pressherald.com/2026/01/18/fatal-car-crash-reported-in-falmouth-amidst-snowy-weather/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-18",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c7d66a1eccf5",
-      "title": "Connecticut woman, 19, killed in Falmouth crash",
-      "summary": "Weather and road conditions are thought to be the primary causes of the crash Saturday afternoon on the Falmouth Spur.",
-      "url": "https://www.bangordailynews.com/2026/01/18/portland/portland-police-courts/connecticut-woman-19-killed-in-falmouth-crash/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-01-18",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -12415,62 +12429,6 @@
       "state": "NH",
       "date": "2026-01-15",
       "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0e1806da9228",
-      "title": "PURA ordered to reconsider sale of Aquarion Water Company",
-      "summary": "The decision is a lifeline for Eversource's bid to sell Aquarion to South Central CT Regional Water Authority in a deal worth over $2 billion",
-      "url": "https://ctmirror.org/2026/01/15/aquarion-water-appeal-pura-ordered-to-reconsider/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-01-15",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a6c24f3a0b32",
-      "title": "NY wind project back on after judge rules against Trump administration",
-      "summary": "Judge Carl J. Nichols, an appointee of President Trump, ruled construction on Empire Wind could proceed as he considers the merits of the government\u2019s order.",
-      "url": "https://ctmirror.org/2026/01/15/ny-wind-project-back-on-after-judge-rules-against-trump-administration/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-01-15",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9fc53e02338c",
-      "title": "Plan NH announces free municipal memberships for 2026",
-      "summary": "In recognition of the countless partnerships forged through our Community Design Charrette Program, Plan NH is offering free membership to municipalities in 2026. Our long-standing Design Charrette Program has always centered around municipal collaboration, and offering free memberships is our\u2026",
-      "url": "https://www.unionleader.com/news/business/plan-nh-announces-free-municipal-memberships-for-2026/article_baf8f666-e4e6-4f82-8219-4517a18ae2ae.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-01-11",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3be5e0b1dec7",
-      "title": "BrightBridge Credit Union finalizes merger with Arrha Credit Union",
-      "summary": "BrightBridge Credit Union has officially finalized its merger with Arrha Credit Union. The newly merged credit union has expanded its footprint with 23 retail branches, combined assets of nearly $2.4 billion and approximately 125,000 members.",
-      "url": "https://www.unionleader.com/news/business/brightbridge-credit-union-finalizes-merger-with-arrha-credit-union/article_a816291a-3828-40a0-8a07-b320fa4d8300.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-01-11",
-      "category": "funding",
       "priority": "high",
       "business_lines": [
         "highway"

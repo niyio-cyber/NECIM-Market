@@ -1,22 +1,22 @@
 {
-  "generated": "2026-01-20T11:43:02.786970Z",
+  "generated": "2026-01-21T11:45:05.037793Z",
   "summary": {
-    "total_opportunities": 647,
+    "total_opportunities": 648,
     "total_value_low": 1896456086,
     "total_value_high": 1896456086,
     "by_state": {
       "VT": 2,
       "NH": 114,
-      "ME": 169,
-      "MA": 26,
+      "ME": 170,
+      "MA": 25,
       "NY": 1,
       "RI": 1,
       "CT": 340,
       "PA": 1
     },
     "by_category": {
-      "dot_letting": 645,
-      "news": 7,
+      "dot_letting": 646,
+      "news": 6,
       "funding": 2
     }
   },
@@ -6015,6 +6015,25 @@
       "business_lines": [
         "highway",
         "hma"
+      ]
+    },
+    {
+      "id": "baa24cfcb2b9",
+      "state": "CT",
+      "project_id": "0301-0564",
+      "description": "Bridge No. 08008R Cos Cob New Haven Main Line M.P. 29.90 Over Mianus River\n&\nBridge No. 08032R Saga Bridge New Haven Main Line M.P. 44.32 Over Saugatuck River",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-02-18",
+      "project_type": "Bridge",
+      "location": "New Haven",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
       ]
     },
     {
@@ -12309,27 +12328,27 @@
   ],
   "news": [
     {
-      "id": "ac153789faee",
-      "title": "Bangor police investigate property manager\u00a0who reportedly owes landlords thousands",
-      "summary": "It represents a major development in the effort by clients to recoup money from Roland \"Chip\" Foss, who shuttered his company last year.",
-      "url": "https://www.bangordailynews.com/2026/01/20/mainefocus/mainefocus-police-courts/bangor-police-investigate-property-manager-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "c6e3ff59609d",
+      "title": "Mainers should be permitted to drive Japanese vehicles | Letter",
+      "summary": "With the ballooning cost of cars, one of the few options for affordable motor vehicles open to us working class folks are imported JDMs (Japanese Domestic Market). These vehicles can be legally imported, as many of them are 25 years or older, yet the state of Maine has made it impossible to import t",
+      "url": "https://www.pressherald.com/2026/01/21/mainers-should-be-permitted-to-drive-japanese-vehicles-letter/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-01-20",
+      "date": "2026-01-21",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "aggregates"
+        "highway"
       ]
     },
     {
-      "id": "b001bd51017f",
-      "title": "Celtics road trip sends crucial trade deadline message to Brad Stevens",
-      "summary": "The Celtics held their own yet again against a contender on Monday night in Detroit.",
-      "url": "https://www.masslive.com/celtics/2026/01/celtics-road-trip-sends-crucial-trade-deadline-message-to-brad-stevens.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-01-20",
+      "id": "73ed8d5f09df",
+      "title": "One year in, Trump\u2019s Maine supporters say he\u2019s \u2018doing a great job\u2019",
+      "summary": "President Trump has brought a flurry of broad-reaching changes since taking office one year ago, and they've been largely welcomed by Republican voters.",
+      "url": "https://www.pressherald.com/2026/01/21/one-year-in-trumps-maine-supporters-say-hes-doing-a-great-job/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-21",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -12352,8 +12371,8 @@
     },
     {
       "id": "c2c18dd62dbf",
-      "title": "After three decades of work, Randolph housing organization to shutter",
-      "summary": "The Randolph Area Community Development Corporation announced it will dissolve over the course of 2026, citing dwindling federal funding and project pipeline issues.\nRead the story on VTDigger here:  After three decades of work, Randolph housing organization to shutter.",
+      "title": "After 3 decades of work, Randolph housing organization to shutter",
+      "summary": "The Randolph Area Community Development Corporation announced it will dissolve over the course of 2026, citing dwindling federal funding and project pipeline issues.\nRead the story on VTDigger here:  After 3 decades of work, Randolph housing organization to shutter.",
       "url": "https://vtdigger.org/2026/01/19/after-three-decades-of-work-randolph-housing-organization-to-shutter/",
       "source": "VTDigger",
       "state": "VT",
@@ -12401,20 +12420,6 @@
       "state": "NH",
       "date": "2026-01-16",
       "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "84a925b17339",
-      "title": "As temperatures dip, Bridgeport shelters struggle to meet the need",
-      "summary": "While more CT households seek shelter each year, available shelter beds have declined, according to Opening Doors Fairfield County.",
-      "url": "https://ctmirror.org/2026/01/16/bridgeport-ct-shelters-cold-weather/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-01-16",
-      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"

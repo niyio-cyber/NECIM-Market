@@ -1,64 +1,26 @@
 {
-  "generated": "2026-01-21T11:45:05.037793Z",
+  "generated": "2026-01-22T11:42:22.074113Z",
   "summary": {
-    "total_opportunities": 648,
-    "total_value_low": 1896456086,
-    "total_value_high": 1896456086,
+    "total_opportunities": 644,
+    "total_value_low": 1895020396,
+    "total_value_high": 1895020396,
     "by_state": {
       "VT": 2,
       "NH": 114,
-      "ME": 170,
+      "ME": 171,
       "MA": 25,
       "NY": 1,
       "RI": 1,
-      "CT": 340,
+      "CT": 339,
       "PA": 1
     },
     "by_category": {
-      "dot_letting": 646,
-      "news": 6,
-      "funding": 2
+      "dot_letting": 643,
+      "news": 10,
+      "funding": 1
     }
   },
   "dot_lettings": [
-    {
-      "id": "ad652deb9595",
-      "state": "MA",
-      "project_id": "614149",
-      "description": "Highway Cleaning (Sweeping) at Various Locations",
-      "cost_low": 750000,
-      "cost_high": 750000,
-      "cost_display": "$750K",
-      "ad_date": "2025-12-27",
-      "let_date": null,
-      "project_type": "Street Sweeping",
-      "location": "District 4",
-      "district": 4,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614149",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8cd1a7eaa70d",
-      "state": "MA",
-      "project_id": "614082",
-      "description": "Scheduled and Emergency Fence Repairs at Various Locations",
-      "cost_low": 685690,
-      "cost_high": 685690,
-      "cost_display": "$686K",
-      "ad_date": "2025-12-27",
-      "let_date": null,
-      "project_type": "Guard Rail & Fencing",
-      "location": "District 5",
-      "district": 5,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614082",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
     {
       "id": "3100593790d2",
       "state": "MA",
@@ -5881,44 +5843,6 @@
       ]
     },
     {
-      "id": "847ba3ef9d79",
-      "state": "CT",
-      "project_id": "0053-0199",
-      "description": "REHABILITATION OF BRIDGE NO. 00417, THE PUTNAM MEMORIAL BRIDGE ROUTE 3 OVER THE CONNECTICUT RIVER",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Bridge",
-      "location": "ROUTE 3",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e9d407e305f8",
-      "state": "CT",
-      "project_id": "0079-0240",
-      "description": "I-91 / I-691 / ROUTE 15 INTERCHANGE SOUTHBOUND IMPROVEMENTS",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Highway",
-      "location": "I-91",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "59c5e05a01b3",
       "state": "CT",
       "project_id": "0115-0122",
@@ -5930,26 +5854,6 @@
       "let_date": "2026-02-04",
       "project_type": "Structural",
       "location": "ROUTE 44",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "bc01d97670ec",
-      "state": "CT",
-      "project_id": "0130-0190",
-      "description": "REPLACEMENT OF BRIDGE NO. 07051 - ROUTE 6 AND ROUTE 67 OVER SOUTH BRANCH BULLET HILL BROOK",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-21",
-      "project_type": "Bridge",
-      "location": "ROUTE 6",
       "district": null,
       "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
       "source": "CTDOT Q&A",
@@ -7922,6 +7826,25 @@
       "state": "CT",
       "project_id": "0053-0196",
       "description": "CT Project 0053-0196",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9ef6b1d0b525",
+      "state": "CT",
+      "project_id": "0053-0199",
+      "description": "CT Project 0053-0199",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -10616,6 +10539,25 @@
       ]
     },
     {
+      "id": "46e974807824",
+      "state": "CT",
+      "project_id": "0079-0240",
+      "description": "CT Project 0079-0240",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Highway",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "0881b17b2033",
       "state": "CT",
       "project_id": "0124-0173",
@@ -12328,12 +12270,82 @@
   ],
   "news": [
     {
-      "id": "c6e3ff59609d",
-      "title": "Mainers should be permitted to drive Japanese vehicles | Letter",
-      "summary": "With the ballooning cost of cars, one of the few options for affordable motor vehicles open to us working class folks are imported JDMs (Japanese Domestic Market). These vehicles can be legally imported, as many of them are 25 years or older, yet the state of Maine has made it impossible to import t",
-      "url": "https://www.pressherald.com/2026/01/21/mainers-should-be-permitted-to-drive-japanese-vehicles-letter/",
+      "id": "da7458a4ba12",
+      "title": "Death Notice: Lucille Duclos",
+      "summary": "Duclos RN, Lucille 96, of Saco, Jan. 16. Visitation, Jan. 24, 9 a.m. - 11 a.m., Hope Memorial Chapel, Biddeford. Funeral ...",
+      "url": "https://www.pressherald.com/2026/01/22/obituarylucille-duclos/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-01-22",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "76ff6e5f2c3f",
+      "title": "Students will forge a 20-foot Acadian star from former Aroostook landmark",
+      "summary": "A 20-foot Acadian star sculpture will be raised in Madawaska using pieces of a former international bridge, created by welding students.",
+      "url": "https://www.bangordailynews.com/2026/01/22/aroostook/aroostook-education/students-will-giant-acadian-star-from-aroostook-landmark-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-01-22",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "82a23b19ae4d",
+      "title": "Crews spread salt on roads and people stock up on batteries as a winter storm threatens the US",
+      "summary": "ATLANTA (AP) \u2014 Bags of ice-thwarting salt aren\u2019t usually a hot item at Bates Ace Hardware in Atlanta, but store manager Lewis Pane sold all 275 he had in stock in one morning as residents braced for a major storm to deliver heavy snow, sleet and freezing rain on a broad section of the U.S. [\u2026]",
+      "url": "https://www.bangordailynews.com/2026/01/22/nation/crews-spread-salt-on-roads-and-people-stock-up-on-batteries-as-a-winter-storm-threatens-the-us/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-01-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5f4905b858ba",
+      "title": "Westfield\u2019s Flat Fast 5K crosses its final finish line",
+      "summary": "Run Westfield\u2019s Flat Fast 5K Road Race has come to an end.",
+      "url": "https://www.masslive.com/westfieldnews/2026/01/westfields-flat-fast-5k-crosses-its-final-finish-line.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "491750d049d1",
+      "title": "What Mike Vrabel believes keys to Patriots\u2019 perfect road record have been",
+      "summary": "Since Mike Vrabel took over as head coach, the Patriots have yet to lose a road game.",
+      "url": "https://www.masslive.com/patriots/2026/01/what-mike-vrabel-believes-keys-to-patriots-perfect-road-record-have-been.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d21f731b7034",
+      "title": "Norwich University appoints new provost",
+      "summary": "Lea Williams has previously served as the university\u2019s faculty development coordinator and a department chair. \nRead the story on VTDigger here:  Norwich University appoints new provost.",
+      "url": "https://vtdigger.org/2026/01/21/norwich-university-appoints-new-provost/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-01-21",
       "category": "news",
       "priority": "medium",
@@ -12342,15 +12354,15 @@
       ]
     },
     {
-      "id": "73ed8d5f09df",
-      "title": "One year in, Trump\u2019s Maine supporters say he\u2019s \u2018doing a great job\u2019",
-      "summary": "President Trump has brought a flurry of broad-reaching changes since taking office one year ago, and they've been largely welcomed by Republican voters.",
-      "url": "https://www.pressherald.com/2026/01/21/one-year-in-trumps-maine-supporters-say-hes-doing-a-great-job/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-21",
+      "id": "047c06c9fa0b",
+      "title": "US Postal Service opens bidding for last\u2011mile delivery access to raise revenue",
+      "summary": "WASHINGTON - The U.S. Postal \u200dService said on Tuesday it is launching an online bidding platform \u200cto take proposals for access to its last-mile delivery network, opening more than 18,000 destination delivery units and local processing centers \u200dnationwide to a\u2026",
+      "url": "https://www.unionleader.com/news/business/us-postal-service-opens-bidding-for-last-mile-delivery-access-to-raise-revenue/article_69030e1a-902f-5286-a732-8b029d553da2.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-01-20",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -12365,20 +12377,6 @@
       "date": "2026-01-20",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c2c18dd62dbf",
-      "title": "After 3 decades of work, Randolph housing organization to shutter",
-      "summary": "The Randolph Area Community Development Corporation announced it will dissolve over the course of 2026, citing dwindling federal funding and project pipeline issues.\nRead the story on VTDigger here:  After 3 decades of work, Randolph housing organization to shutter.",
-      "url": "https://vtdigger.org/2026/01/19/after-three-decades-of-work-randolph-housing-organization-to-shutter/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-01-19",
-      "category": "funding",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -12420,20 +12418,6 @@
       "state": "NH",
       "date": "2026-01-16",
       "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6abc946b4c61",
-      "title": "State Police Investigate Crash Involving Conway Police Cruiser",
-      "summary": "At 7:14 p.m. on Monday, January 12, 2026, State Police dispatch received a report of a collision between a Conway Police Department cruiser and a privately-owned SUV on White Mountain Highway near Eastman Road in Conway.",
-      "url": "https://indepthnh.org/2026/01/14/state-police-investigate-crash-involving-conway-police-cruiser/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-01-15",
-      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"

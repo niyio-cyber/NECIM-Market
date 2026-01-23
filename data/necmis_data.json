@@ -1,13 +1,13 @@
 {
-  "generated": "2026-01-22T11:42:22.074113Z",
+  "generated": "2026-01-23T11:39:44.217512Z",
   "summary": {
-    "total_opportunities": 644,
+    "total_opportunities": 646,
     "total_value_low": 1895020396,
     "total_value_high": 1895020396,
     "by_state": {
-      "VT": 2,
+      "VT": 3,
       "NH": 114,
-      "ME": 171,
+      "ME": 173,
       "MA": 25,
       "NY": 1,
       "RI": 1,
@@ -16,8 +16,8 @@
     },
     "by_category": {
       "dot_letting": 643,
-      "news": 10,
-      "funding": 1
+      "news": 11,
+      "funding": 3
     }
   },
   "dot_lettings": [
@@ -12270,13 +12270,13 @@
   ],
   "news": [
     {
-      "id": "da7458a4ba12",
-      "title": "Death Notice: Lucille Duclos",
-      "summary": "Duclos RN, Lucille 96, of Saco, Jan. 16. Visitation, Jan. 24, 9 a.m. - 11 a.m., Hope Memorial Chapel, Biddeford. Funeral ...",
-      "url": "https://www.pressherald.com/2026/01/22/obituarylucille-duclos/",
+      "id": "88a850b63bc4",
+      "title": "Obituary: Orella P. Milliard",
+      "summary": "BIDDEFORD - Orella P. Milliard, 97, of Biddeford, passed away peacefully on Monday, Jan. 19, 2026, at St. Andre\u2019s Health Care ...",
+      "url": "https://www.pressherald.com/2026/01/23/obituaryorella-p-milliard-2/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-01-22",
+      "date": "2026-01-23",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -12284,13 +12284,13 @@
       ]
     },
     {
-      "id": "76ff6e5f2c3f",
-      "title": "Students will forge a 20-foot Acadian star from former Aroostook landmark",
-      "summary": "A 20-foot Acadian star sculpture will be raised in Madawaska using pieces of a former international bridge, created by welding students.",
-      "url": "https://www.bangordailynews.com/2026/01/22/aroostook/aroostook-education/students-will-giant-acadian-star-from-aroostook-landmark-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "4f335cad80c7",
+      "title": "Obituary: Dr. Thomas J. Trott",
+      "summary": "BIDDEFORD - Dr. Thomas J. Trott, noted benthic ecologist, passed away on Tuesday, Jan. 13, 2026, at his home in Biddeford, ...",
+      "url": "https://www.pressherald.com/2026/01/23/obituarydr-thomas-j-trott-2/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-01-22",
+      "date": "2026-01-23",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -12298,13 +12298,41 @@
       ]
     },
     {
-      "id": "82a23b19ae4d",
-      "title": "Crews spread salt on roads and people stock up on batteries as a winter storm threatens the US",
-      "summary": "ATLANTA (AP) \u2014 Bags of ice-thwarting salt aren\u2019t usually a hot item at Bates Ace Hardware in Atlanta, but store manager Lewis Pane sold all 275 he had in stock in one morning as residents braced for a major storm to deliver heavy snow, sleet and freezing rain on a broad section of the U.S. [\u2026]",
-      "url": "https://www.bangordailynews.com/2026/01/22/nation/crews-spread-salt-on-roads-and-people-stock-up-on-batteries-as-a-winter-storm-threatens-the-us/",
+      "id": "88745d033278",
+      "title": "Death Notice: Orella P. Milliard",
+      "summary": "Milliard, Orella P. 97, of Biddeford, Jan. 19. Visitation, 11 a.m. to 1 p.m. with a funeral service at 1 p.m., ...",
+      "url": "https://www.pressherald.com/2026/01/23/obituaryorella-p-milliard/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-23",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "06323ec2f87e",
+      "title": "Death Notice: Dr. Thomas J. Trott",
+      "summary": "Trott, Dr. Thomas J. 71, of Biddeford, Jan. 13. Funeral, Most Holy Trinity Church, Saco, Jan. 30, 1 p.m. ...",
+      "url": "https://www.pressherald.com/2026/01/23/obituarydr-thomas-j-trott/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-23",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "54ad4369b0b7",
+      "title": "Texas and Oklahoma brace for snow and ice as winter storm barrels toward eastern two-thirds of US",
+      "summary": "DALLAS (AP) \u2014 Texas and Oklahoma braced for heavy snow and ice that could make roadways treacherous Friday in what forecasters predict will be some of the initial effects of a huge, dayslong winter storm threatening catastrophic damage, extensive power outages and bitterly cold weather to the easter",
+      "url": "https://www.bangordailynews.com/2026/01/23/nation/texas-and-oklahoma-brace-for-snow-and-ice-as-winter-storm-barrels-toward-eastern-two-thirds-of-us/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-01-22",
+      "date": "2026-01-23",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -12312,13 +12340,13 @@
       ]
     },
     {
-      "id": "5f4905b858ba",
-      "title": "Westfield\u2019s Flat Fast 5K crosses its final finish line",
-      "summary": "Run Westfield\u2019s Flat Fast 5K Road Race has come to an end.",
-      "url": "https://www.masslive.com/westfieldnews/2026/01/westfields-flat-fast-5k-crosses-its-final-finish-line.html",
+      "id": "f88eb1625614",
+      "title": "Crepes Tea House owner back in front of Planning Board",
+      "summary": "Before the Southwick Planning Board tackled a request by Art Ribinskas, the owner of Crepes Tea House, to continue outdoor cooking once a week at his restaurant on Feeding Hill Road, he had to answer why there had been two complaints about it over the last few months.",
+      "url": "https://www.masslive.com/westfieldnews/2026/01/crepes-tea-house-owner-back-in-front-of-planning-board.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-01-22",
+      "date": "2026-01-23",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -12326,14 +12354,42 @@
       ]
     },
     {
-      "id": "491750d049d1",
-      "title": "What Mike Vrabel believes keys to Patriots\u2019 perfect road record have been",
-      "summary": "Since Mike Vrabel took over as head coach, the Patriots have yet to lose a road game.",
-      "url": "https://www.masslive.com/patriots/2026/01/what-mike-vrabel-believes-keys-to-patriots-perfect-road-record-have-been.html",
+      "id": "848b5e344829",
+      "title": "A year after snow plowing debacle, Worcester hopes to dig out of bad reputation",
+      "summary": "With a major storm coming, some residents are concerned whether the DPW can clear the roads efficiently.",
+      "url": "https://www.masslive.com/worcester/2026/01/a-year-after-snow-plowing-debacle-worcester-hopes-to-dig-out-of-bad-reputation.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-01-22",
+      "date": "2026-01-23",
       "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "38bed2320893",
+      "title": "A mile away, worlds apart. Education funding in CT is still inequitable",
+      "summary": "The biggest threat to Connecticut\u2019s children isn\u2019t beyond our borders. It\u2019s right here at home. Connecticut loves to brag about being a leader in education. On paper, we spend more than $22,000 per student statewide. Sounds impressive, right? But that is on average.\u00a0 Walk inside classrooms in Bridge",
+      "url": "https://ctmirror.org/2026/01/23/a-mile-away-worlds-apart-education-funding-in-ct/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-01-23",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cdb9dd62a527",
+      "title": "Economic development leader denies embezzling as court records reveal new details of probe",
+      "summary": "Melissa Bounty was charged with stealing more than $70,000 from the Central Vermont Economic Development Corporation to pay for personal expenses, such as buying meals at restaurants and renting luxury vehicles.\nRead the story on VTDigger here:  Economic development leader denies embezzling as cour",
+      "url": "https://vtdigger.org/2026/01/22/economic-development-leader-denies-embezzling-as-court-records-reveal-new-details-of-probe/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-01-22",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -12360,20 +12416,6 @@
       "url": "https://www.unionleader.com/news/business/us-postal-service-opens-bidding-for-last-mile-delivery-access-to-raise-revenue/article_69030e1a-902f-5286-a732-8b029d553da2.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-01-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2460978723ad",
-      "title": "Childcare is essential infrastructure",
-      "summary": "There is no functioning economy without childcare. It is a load-bearing support for the workforce.",
-      "url": "https://ctmirror.org/2026/01/20/childcare-is-essential-infrastructure-for-connecticut/",
-      "source": "CT Mirror",
-      "state": "CT",
       "date": "2026-01-20",
       "category": "news",
       "priority": "high",

@@ -1,13 +1,13 @@
 {
-  "generated": "2026-01-25T11:31:46.145477Z",
+  "generated": "2026-01-26T11:39:15.329588Z",
   "summary": {
-    "total_opportunities": 648,
+    "total_opportunities": 649,
     "total_value_low": 1909813071,
     "total_value_high": 1909813071,
     "by_state": {
       "VT": 3,
       "NH": 113,
-      "ME": 173,
+      "ME": 171,
       "MA": 26,
       "NY": 1,
       "RI": 1,
@@ -16,8 +16,8 @@
     },
     "by_category": {
       "dot_letting": 646,
-      "news": 8,
-      "funding": 2
+      "news": 5,
+      "funding": 3
     }
   },
   "dot_lettings": [
@@ -12327,13 +12327,28 @@
   ],
   "news": [
     {
-      "id": "9308827e4097",
-      "title": "Obituary: Robert C. Peary Jr.",
-      "summary": "SCARBOROUGH - Robert C. Peary Jr. \u201cBobby\u201d, 77, of Black Point Road, passed away on Jan. 16, 2026, at Maine Medical ...",
-      "url": "https://www.pressherald.com/2026/01/25/obituaryrobert-c-peary-jr-2/",
+      "id": "b1ff9b4f21ab",
+      "title": "Maine must continue to support public broadcasting | Letter",
+      "summary": "On Friday, Jan. 9, the moderators of PBS NewsHour ended their broadcast with the\u00a0 announcement that \u2014 because of the fiscal crisis created by the Trump administration\u2019s defunding of the Corporation For Public Broadcasting \u2014 PBS News Weekend would have to be discontinued. The regret voiced by Geoff B",
+      "url": "https://www.pressherald.com/2026/01/25/maine-must-continue-to-support-public-broadcasting-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-01-25",
+      "date": "2026-01-26",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "7a6ffd6a035a",
+      "title": "Northeast gets last brunt of winter storm that brought ice, snow, cold to much of the US",
+      "summary": "The U.S. work week opened with yet more snow dumping on the Northeast under the tail end of a colossal winter storm that brought ice and power outages, impassable roads, canceled flights and frigid cold to much of the southern and eastern United States. Deep snow \u2014 over a foot (30 centimeters) exten",
+      "url": "https://www.bangordailynews.com/2026/01/26/nation/northeast-gets-last-brunt-of-winter-storm-that-brought-ice-snow-cold-to-much-of-the-us/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-01-26",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -12341,53 +12356,11 @@
       ]
     },
     {
-      "id": "a354a8f1967d",
-      "title": "Obituary: Doris Paulette Denison",
-      "summary": "SACO - Doris Paulette Denison of Saco, passed away on Christmas Eve of 2025.\n\nShe was born and raised in Biddeford to ...",
-      "url": "https://www.pressherald.com/2026/01/25/obituarydoris-paulette-denison-2/",
+      "id": "1d3871ecdb92",
+      "title": "Emergency bill to let towns, counties file for bankruptcy protection garners little support",
+      "summary": "The Maine County Commissioners Association and the Maine Municipal Association testified against the bill Wednesday, citing concerns that interest rates could rise if banks get nervous about lending.",
+      "url": "https://www.pressherald.com/2026/01/25/emergency-bill-to-let-towns-counties-file-for-bankruptcy-protection-garners-little-support/",
       "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-25",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9d802877c395",
-      "title": "Obituary: Peter Boroyan",
-      "summary": "SCARBOROUGH - Peter Boroyan, 86, died Wednesday, Jan. 21, 2026, at Maine Medical Center in Portland.\n\nBorn May 15, 1939, in Cambridge, ...",
-      "url": "https://www.pressherald.com/2026/01/25/obituarypeter-boroyan-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-25",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2a5d67b0f700",
-      "title": "Death Notice: Doris Paulette Denison",
-      "summary": "Denison, Doris Paulette 78, of Saco, Dec. 24, 2025. Service 3 p.m., Feb. 6, Hope Memorial Chapel, Biddeford. ...",
-      "url": "https://www.pressherald.com/2026/01/25/obituarydoris-paulette-denison/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-25",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3276b1e01cc0",
-      "title": "From frigid quiet to outraged sorrow, a few hours on Minneapolis street where agents killed man",
-      "summary": "MINNEAPOLIS (AP) \u2014 Saturday morning started frigid and quiet on Minneapolis\u2019 \u201cEat Street,\u201d a stretch of road south of downtown famous for its small coffee shops and restaurants ranging from New American to Vietnamese. Within five hours, seemingly everything had changed. A protester was dead. Videos",
-      "url": "https://www.bangordailynews.com/2026/01/24/nation/from-frigid-quiet-to-outraged-sorrow-a-few-hours-on-minneapolis-street-where-agents-killed-man/",
-      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-01-25",
       "category": "news",

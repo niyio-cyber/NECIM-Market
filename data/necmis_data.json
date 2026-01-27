@@ -1,12 +1,12 @@
 {
-  "generated": "2026-01-27T04:21:15.046873Z",
+  "generated": "2026-01-27T04:34:18.667799Z",
   "summary": {
-    "total_opportunities": 646,
-    "total_value_low": 1909813071,
-    "total_value_high": 1909813071,
+    "total_opportunities": 592,
+    "total_value_low": 1373361641,
+    "total_value_high": 1373361641,
     "by_state": {
       "VT": 2,
-      "NH": 113,
+      "NH": 59,
       "ME": 168,
       "MA": 27,
       "NY": 1,
@@ -15,7 +15,7 @@
       "PA": 1
     },
     "by_category": {
-      "dot_letting": 646,
+      "dot_letting": 592,
       "news": 5,
       "funding": 0
     }
@@ -4807,473 +4807,6 @@
       "fy_info": null
     },
     {
-      "id": "0900798ec167",
-      "state": "NH",
-      "project_id": "15731C",
-      "description": "ME: US ROUTE 1 BYPASS: Functional replacement for the PDA-DPH side barge wharf, SML Pre 2025 Funding: $44,574,533 Bridge ROW Mitigation. Facility: US ROUTE 1 BYPASS 2025-2028 Funding: $27,500 Post 2028 Fu",
-      "cost_low": 71735946,
-      "cost_high": 71735946,
-      "cost_display": "$71.7M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "ME",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "a25f526e1117",
-      "state": "NH",
-      "project_id": "28393",
-      "description": "NEWFIELDS - NEWMARKET: NH 108: Bridge Replacement for bridges carrying NH 108 over BMRR lines Pre 2025 Funding: $205,700 Br No 127/081 & 125/054 Facility: NH 108 2025-2028 Funding: $446,160 Post 2028 Funding: $0 Phase 2025 ",
-      "cost_low": 66287691,
-      "cost_high": 66287691,
-      "cost_display": "$66.3M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "NEWFIELDS",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "c885f4e4a989",
-      "state": "NH",
-      "project_id": "44628",
-      "description": "SALEM: South Broadway: Install (2) electric vehicle DC fast charging stations at 135 South Pre 2025 Funding: $0 Broadway, Salem Facility: South Broadway 2025-2028 Funding: $44,606 Post 2028 Funding: $481,429",
-      "cost_low": 49770743,
-      "cost_high": 49770743,
-      "cost_display": "$49.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "SALEM",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "2caec1cd72eb",
-      "state": "NH",
-      "project_id": "44636",
-      "description": "PORTSMOUTH: Lafayette Road: Install (2) DCFC dispensers with charge rates up to 200kW at Pre 2025 Funding: $0 Market Basket Grocery Store Facility: Lafayette Road 2025-2028 Funding: $11,769 Post 2028 Funding: $1,",
-      "cost_low": 44602033,
-      "cost_high": 44602033,
-      "cost_display": "$44.6M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "592fbd02bc4a",
-      "state": "NH",
-      "project_id": "44287",
-      "description": "NEWTON: Wilders Grove Rd: Replace Wilders Grove Rd bridge over Country Pond (Brg#053/105) Pre 2025 Funding: $0 Facility: Wilders Grove Rd 2025-2028 Funding: $741,468 Post 2028 Funding: $0 Phase 2025 2026 2027",
-      "cost_low": 30445300,
-      "cost_high": 30445300,
-      "cost_display": "$30.4M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "NEWTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "4137cc0847c7",
-      "state": "NH",
-      "project_id": "44367",
-      "description": "COAST: Cooperative Alliance for Seacoast Transportation (COAST): Reinvigorate the CommuteSMART Seacoast(TMA) with new Pre 2025 Funding: $0 programming& outreach proposed 5 years Facility: Cooperative Allianc",
-      "cost_low": 27369249,
-      "cost_high": 27369249,
-      "cost_display": "$27.4M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "COAST",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "bbb6e0baf1e2",
-      "state": "NH",
-      "project_id": "42312C",
-      "description": "NORTH HAMPTON-RYE: NH 1A: Reconstruction of revetment sea walls Pre 2025 Funding: $0 Facility: NH 1A 2025-2028 Funding: $1,181,339 Post 2028 Funding: $22,061,574 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 27317089,
-      "cost_high": 27317089,
-      "cost_display": "$27.3M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "NORTH HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "ae5404a71f72",
-      "state": "NH",
-      "project_id": "42312B",
-      "description": "NORTH HAMPTON-RYE: NH 1A: Reconstruction of revetment sea walls Pre 2025 Funding: $0 Reconstruction of revetment sea walls Facility: NH 1A 2025-2028 Funding: $14,571,081 Post 2028 Funding: $0 Phase 2025 2026 2027 2028 T",
-      "cost_low": 23242912,
-      "cost_high": 23242912,
-      "cost_display": "$23.2M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "NORTH HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "95942e7bf043",
-      "state": "NH",
-      "project_id": "24457",
-      "description": "NORTH HAMPTON: US Route 1: Superstructure replacement of bridge carrying US 1 over Boston & Pre 2025 Funding: $1,072,500 Maine RR (Red List Br No 148/132) Facility: US Route 1 2025-2028 Funding: $7,636,640 Post 2028",
-      "cost_low": 20392694,
-      "cost_high": 20392694,
-      "cost_display": "$20.4M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "NORTH HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "05f09af05b9e",
-      "state": "NH",
-      "project_id": "20258",
-      "description": "PORTSMOUTH: Peverly Hill Rd.: Const. new sidewalk and striped bicycle shoulders and associated Pre 2025 Funding: $911,635 drainage along Peverly Hill Road. Facility: Peverly Hill Rd. 2025-2028 Funding: $6,920,000",
-      "cost_low": 18801179,
-      "cost_high": 18801179,
-      "cost_display": "$18.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Multimodal",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "b7f9d2da60cb",
-      "state": "NH",
-      "project_id": "44355",
-      "description": "SEABROOK: NH 102/NH 111/US 1: Implement improvements on 3 signalized corridors in Londonderry Pre 2025 Funding: $0 NH102 ,Windham NH111 & Seabrook US1 Facility: NH 102/NH 111/US 1 2025-2028 Funding: $174,974 Po",
-      "cost_low": 14959885,
-      "cost_high": 14959885,
-      "cost_display": "$15.0M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "SEABROOK",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "d5172362c7c2",
-      "state": "NH",
-      "project_id": "42312A",
-      "description": "NORTH HAMPTON-RYE: NH 1A: Reconstruction of revetment sea walls Pre 2025 Funding: $0 Facility: NH 1A 2025-2028 Funding: $20,392,694 Post 2028 Funding: $0 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 14571081,
-      "cost_high": 14571081,
-      "cost_display": "$14.6M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "NORTH HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "aac8ad75e244",
-      "state": "NH",
-      "project_id": "41717",
-      "description": "HAMPSTEAD: NH121/Derry Rd/Depot Rd: Improve the intersection of NH121/Derry Rd/Depot Rd Pre 2025 Funding: $174,369 Facility: NH121/Derry Rd/Depot Rd 2025-2028 Funding: $2,474,922 Post 2028 Funding: $0 Phase 2025",
-      "cost_low": 13283996,
-      "cost_high": 13283996,
-      "cost_display": "$13.3M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "HAMPSTEAD",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "824252ed7bb7",
-      "state": "NH",
-      "project_id": "40623",
-      "description": "EXETER: NH 111A: Bridge Replacement to address Priority Bridge carrying NH 111A Pre 2025 Funding: $0 over Little River (Br No 075/078) Facility: NH 111A 2025-2028 Funding: $550,000 Post 2028 Funding: $3,635,0",
-      "cost_low": 8802970,
-      "cost_high": 8802970,
-      "cost_display": "$8.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "EXETER",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "fcf01efe764b",
-      "state": "NH",
-      "project_id": "42312",
-      "description": "NORTH HAMPTON - RYE: NH 1A: Reconstruct NHDOT Stone Revetment seawalls/Berms Pre 2025 Funding: $2,320,000 Facility: NH 1A 2025-2028 Funding: $28,125,300 Post 2028 Funding: $0 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 8709140,
-      "cost_high": 8709140,
-      "cost_display": "$8.7M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "NORTH HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway",
-        "aggregates"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "fb4af3ad6535",
-      "state": "NH",
-      "project_id": "40797",
-      "description": "HAMPTON: NH 1A (Ocean Boulevard): Improvements to NH 1A (Ocean Boulevard) from State Park Road Pre 2025 Funding: $3,553,790 to NH 27 (High St). Facility: NH 1A (Ocean Boulevard) 2025-2028 Funding: $9,730,206 P",
-      "cost_low": 7840898,
-      "cost_high": 7840898,
-      "cost_display": "$7.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "4d119377475b",
-      "state": "NH",
-      "project_id": "40645",
-      "description": "PLAISTOW: NH 125: Signal coordination and control along corridor from Mass S/L to Pre 2025 Funding: $357,500 Old County Road Facility: NH 125 2025-2028 Funding: $1,125,494 Post 2028 Funding: $0 Phase 2025 2026 ",
-      "cost_low": 7831635,
-      "cost_high": 7831635,
-      "cost_display": "$7.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "PLAISTOW",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "19c3d946becb",
-      "state": "NH",
-      "project_id": "16127",
-      "description": "NEW CASTLE - RYE: NH 1B: Bridge replace, Single Leaf Bascule Bridge, NH 1B over Little Pre 2025 Funding: $3,201,110 Harbor (Red List) Br No 066/071 Facility: NH 1B 2025-2028 Funding: $55,000 Post 2028 Funding: $11,703,",
-      "cost_low": 7826935,
-      "cost_high": 7826935,
-      "cost_display": "$7.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "NEW CASTLE",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "c8620d4a0b57",
-      "state": "NH",
-      "project_id": "41584",
-      "description": "HAMPTON: NH101/US1: NH 101/ US 1 interchange reconfiguration Pre 2025 Funding: $440,000 Facility: NH101/US1 2025-2028 Funding: $709,744 Post 2028 Funding: $6,691,155 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 7129797,
-      "cost_high": 7129797,
-      "cost_display": "$7.1M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "f53f4e1588e3",
-      "state": "NH",
-      "project_id": "42606",
-      "description": "HAMPTON: Winnacunnet Rd: Complete Streets Improvements on Winnacunnet Road. Pre 2025 Funding: $0 Facility: Winnacunnet Rd 2025-2028 Funding: $235,987 Post 2028 Funding: $991,055 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 6841303,
-      "cost_high": 6841303,
-      "cost_display": "$6.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "c7d4d5bfae2c",
-      "state": "NH",
-      "project_id": "14800A",
-      "description": "SALEM TO MANCHESTER: I-93: MAINLINE, EXIT 1-Sta 1130 & NH38 (Salem), BRIDGES 073/063 & Pre 2025 Funding: $43,264,424 077/063 Both Red List-DEBT SERV 13933D Facility: I-93 2025-2028 Funding: $6,506,319 Post 2028 Funding: $",
-      "cost_low": 6517718,
-      "cost_high": 6517718,
-      "cost_display": "$6.5M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "SALEM TO MANCHESTER",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "c7261d30a0e7",
-      "state": "NH",
-      "project_id": "43002",
-      "description": "RYE: NH Route 1A: Replacement of 4 ft x 5.5 ft stone walled, concrete deck culvert Pre 2025 Funding: $481,100 just north of Locke Rd. Facility: NH Route 1A 2025-2028 Funding: $1,304,327 Post 2028 Funding: ",
-      "cost_low": 4925000,
-      "cost_high": 4925000,
-      "cost_display": "$4.9M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "RYE",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway",
-        "aggregates",
-        "ready_mix"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "efe836e7ff3c",
-      "state": "NH",
-      "project_id": "43430",
-      "description": "EPPING: NH125: Address Red-Listed bridge carrying NH 125 over Piscassic River (Br. Pre 2025 Funding: $0 No. 108/030) Facility: NH125 2025-2028 Funding: $441,868 Post 2028 Funding: $2,300,152 Phase 2025 2026 2",
-      "cost_low": 4185058,
-      "cost_high": 4185058,
-      "cost_display": "$4.2M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "EPPING",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
       "id": "ad12557fb70a",
       "state": "NH",
       "project_id": "44559",
@@ -5285,626 +4818,6 @@
       "let_date": null,
       "project_type": "Highway",
       "location": "UNH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "9c5534b41504",
-      "state": "NH",
-      "project_id": "44358",
-      "description": "PORTSMOUTH: Rte1/Coakley Rd/Cottage St: Remove traffic signal,install median, const a connector Rd&Cons Pre 2025 Funding: $0 multi-use path to reduce emissions Facility: Rte1/Coakley Rd/Cottage St 2025-2028 Fundi",
-      "cost_low": 3749196,
-      "cost_high": 3749196,
-      "cost_display": "$3.7M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "3ec747126108",
-      "state": "NH",
-      "project_id": "44493",
-      "description": "B CAUSEWAY: NH Route 1B: Modifications to the portion of Route 1B that runs from Goat Pre 2025 Funding: $0 Island to New Castle Island Facility: NH Route 1B 2025-2028 Funding: $745,328 Post 2028 Funding: $7,081,6",
-      "cost_low": 2926922,
-      "cost_high": 2926922,
-      "cost_display": "$2.9M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "B CAUSEWAY",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "ab6729f7ddbe",
-      "state": "NH",
-      "project_id": "44879",
-      "description": "HAMPTON-NORTH HAMPTON: I-95/Route101: AET Fesibility Study at Hampton Interchange (I-95/101). Pre 2025 Funding: $0 Facility: I-95/Route101 2025-2028 Funding: $1,000,000 Post 2028 Funding: $1,000,000 Phase 2025 2026 2027 202",
-      "cost_low": 2814363,
-      "cost_high": 2814363,
-      "cost_display": "$2.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "fd171797ba97",
-      "state": "NH",
-      "project_id": "42874",
-      "description": "PORTSMOUTH: VARIOUS: Purchse & install 8 e-charging stations for EVs (2 @ Pease Tradeprt Pre 2025 Funding: $0 2@Pease GC 4 @ Pease Airprt) Facility: VARIOUS 2025-2028 Funding: $52,972 Post 2028 Funding: $0 Phase ",
-      "cost_low": 2792653,
-      "cost_high": 2792653,
-      "cost_display": "$2.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "a3935519fe76",
-      "state": "NH",
-      "project_id": "29608",
-      "description": "EPPING: NH 125: NH Rte 125 Capacity and traffic management improvements from Pre 2025 Funding: $3,206,830 Brickyard Plaza to NH 87 Facility: NH 125 2025-2028 Funding: $7,423,849 Post 2028 Funding: $16,738,570",
-      "cost_low": 2742020,
-      "cost_high": 2742020,
-      "cost_display": "$2.7M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "EPPING",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "d83fa2ba67ae",
-      "state": "NH",
-      "project_id": "43849",
-      "description": "GREENLAND: NH 33: Engineering assessment to improve resiliency and capacity to Pre 2025 Funding: $0 NH33 bridge over Winnicut River. Facility: NH 33 2025-2028 Funding: $220,000 Post 2028 Funding: $0 Phase 2025 2",
-      "cost_low": 2649291,
-      "cost_high": 2649291,
-      "cost_display": "$2.6M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "GREENLAND",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "f87dc7c7877f",
-      "state": "NH",
-      "project_id": "26485A",
-      "description": "HAMPTON-PORTSMOUTH: Hampton Branch Rail Corridor: Construct the NH Seacoast Greenway, from Drakeside Rd north to Pre 2025 Funding: $842,600 the Hampton/North Hampton Town line Facility: Hampton Branch Rail Corridor 2025-",
-      "cost_low": 2581280,
-      "cost_high": 2581280,
-      "cost_display": "$2.6M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "ce41662ebb2c",
-      "state": "NH",
-      "project_id": "43537",
-      "description": "HAMPTON-HAMPTON FALLS: Hampton Branch RR: Construct rail trail on 2.3 miles of the abandoned Hampton Branch Pre 2025 Funding: $0 rail corridor (Phase III of ECG) Facility: Hampton Branch RR 2025-2028 Funding: $1,959,541 Pos",
-      "cost_low": 2000000,
-      "cost_high": 2000000,
-      "cost_display": "$2.0M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Multimodal",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "5eb28d5bb448",
-      "state": "NH",
-      "project_id": "44630",
-      "description": "RAYMOND: Old Manchester Rd, Scribner Rd: Install 3 ChargePoint electric vehicle DC fast chargers close to high Pre 2025 Funding: $0 volume corridors Facility: Old Manchester Rd, Scribner Rd 2025-2028 Funding: ",
-      "cost_low": 1785427,
-      "cost_high": 1785427,
-      "cost_display": "$1.8M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "RAYMOND",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "3bcad17b8134",
-      "state": "NH",
-      "project_id": "40641",
-      "description": "PLAISTOW: NH 121A / Main Street: Traf Calm & Sfty Imprves to NH121A from Library Dr just south of Pre 2025 Funding: $385,000 Pollard Rd to the RR xing.(~1.6m) Facility: NH 121A / Main Street 2025-2028 Funding: ",
-      "cost_low": 1482994,
-      "cost_high": 1482994,
-      "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "PLAISTOW",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "0a36936a49f5",
-      "state": "NH",
-      "project_id": "10044E",
-      "description": "PLAISTOW - KINGSTON: NH 125: Reconstruct NH 125: anticipated 3 lanes, from south of town line Pre 2025 Funding: $5,409,800 northerly approx 1.8 mi Facility: NH 125 2025-2028 Funding: $21,907,289 Post 2028 Funding: $0 Phas",
-      "cost_low": 1482399,
-      "cost_high": 1482399,
-      "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "PLAISTOW",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "e32bea9bd164",
-      "state": "NH",
-      "project_id": "41712",
-      "description": "SEABROOK: US 1: Capacity Improvements on US 1 between New Zealand Road and Pre 2025 Funding: $0 the Hampton Falls Town Line. Facility: US 1 2025-2028 Funding: $1,663,226 Post 2028 Funding: $4,854,492 Phase 2025",
-      "cost_low": 1457349,
-      "cost_high": 1457349,
-      "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "SEABROOK",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "56c5ccb07f0c",
-      "state": "NH",
-      "project_id": "40644",
-      "description": "PORTSMOUTH: Market Street - RR: Railroad crossing upgrade on Market Street Pre 2025 Funding: $69,000 Facility: Market Street - RR 2025-2028 Funding: $666,480 Post 2028 Funding: $0 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 1452066,
-      "cost_high": 1452066,
-      "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "e7b36a92f25f",
-      "state": "NH",
-      "project_id": "41752",
-      "description": "PORTSMOUTH: Elwyn Road: Add a multi-use path for bike/ped along Elwyn Rd extending from Pre 2025 Funding: $173,781 Rt1 to Harding Rd. Facility: Elwyn Road 2025-2028 Funding: $1,278,285 Post 2028 Funding: $0 Phase",
-      "cost_low": 1449837,
-      "cost_high": 1449837,
-      "cost_display": "$1.4M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Multimodal",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "511c6d99d586",
-      "state": "NH",
-      "project_id": "42609",
-      "description": "SEABROOK: Seabrook Branch Rail Corridor: Multi-use path on former B & M Railroad tracks. Pre 2025 Funding: $0 Facility: Seabrook Branch Rail Corridor 2025-2028 Funding: $146,584 Post 2028 Funding: $1,310,766 Ph",
-      "cost_low": 1302393,
-      "cost_high": 1302393,
-      "cost_display": "$1.3M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "SEABROOK",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "dc74c08ae94b",
-      "state": "NH",
-      "project_id": "42573",
-      "description": "HAMPTON: US Route 1: Address Red List bridge (163/184) carrying US 1 over PAR (Abd) in Pre 2025 Funding: $550,000 the Town of Hampton Facility: US Route 1 2025-2028 Funding: $855,525 Post 2028 Funding: $5,724,",
-      "cost_low": 1227042,
-      "cost_high": 1227042,
-      "cost_display": "$1.2M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "HAMPTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "32d3d8c0f2e1",
-      "state": "NH",
-      "project_id": "44411",
-      "description": "PORTSMOUTH: NH 33: Address condition of bridge carrying NH 33 over PAR (Br. No. Pre 2025 Funding: $0 144/115) Facility: NH 33 2025-2028 Funding: $486,536 Post 2028 Funding: $3,262,660 Phase 2025 2026 2027 2028 To",
-      "cost_low": 1063487,
-      "cost_high": 1063487,
-      "cost_display": "$1.1M",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "e9aec8c08f0b",
-      "state": "NH",
-      "project_id": "42610",
-      "description": "KENSINGTON: NH107/NH150: Intersection re-alignment and upgrades Pre 2025 Funding: $0 Facility: NH107/NH150 2025-2028 Funding: $595,272 Post 2028 Funding: $1,986,008 Phase 2025 2026 2027 2028 Total",
-      "cost_low": 927338,
-      "cost_high": 927338,
-      "cost_display": "$927K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "KENSINGTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "3b335aef6c63",
-      "state": "NH",
-      "project_id": "44362",
-      "description": "STRATHAM: Portsmouth Avenue: Signal coordination on four traffic signals located on Portsmouth Pre 2025 Funding: $0 Avenue Facility: Portsmouth Avenue 2025-2028 Funding: $346,926 Post 2028 Funding: $0 Phase 202",
-      "cost_low": 894296,
-      "cost_high": 894296,
-      "cost_display": "$894K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "STRATHAM",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "22de17f63300",
-      "state": "NH",
-      "project_id": "43839",
-      "description": "CANDIA - RAYMOND: NH Route 101: Rehabilitation/Reconstruction of a section NH Route 101 Pre 2025 Funding: $1,430,000 Facility: NH Route 101 2025-2028 Funding: $22,984,922 Post 2028 Funding: $0 Phase 2025 2026 2027 2028",
-      "cost_low": 751825,
-      "cost_high": 751825,
-      "cost_display": "$752K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "CANDIA",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "6914a9fd3ede",
-      "state": "NH",
-      "project_id": "42879",
-      "description": "NEWINGTON: New Hampshire Ave/Arboretum Dr/Pease Blvd: Construct right turn lane on the Northbound direction of New Pre 2025 Funding: $151,479 Hampshire Ave Intersection Facility: New Hampshire Ave/Arboretum Dr/P",
-      "cost_low": 741468,
-      "cost_high": 741468,
-      "cost_display": "$741K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "NEWINGTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "11eba1483681",
-      "state": "NH",
-      "project_id": "29640",
-      "description": "PORTSMOUTH: US 1: Corridor improvements from Constitution Av to Wilson Rd & from Pre 2025 Funding: $1,265,000 Ocean Rd to White Cedar Blvd (~1.7m) Facility: US 1 2025-2028 Funding: $11,208,115 Post 2028 Funding: ",
-      "cost_low": 735480,
-      "cost_high": 735480,
-      "cost_display": "$735K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "4a011b080cac",
-      "state": "NH",
-      "project_id": "42608",
-      "description": "PORTSMOUTH: Market St/Russell St: Market St / Russell St Intersection Improvements Pre 2025 Funding: $0 Facility: Market St/Russell St 2025-2028 Funding: $304,767 Post 2028 Funding: $1,145,070 Phase 2025 2026 202",
-      "cost_low": 675623,
-      "cost_high": 675623,
-      "cost_display": "$676K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "78276c213722",
-      "state": "NH",
-      "project_id": "11238S",
-      "description": "NEWINGTON - DOVER: SPAULDING TURNPIKE / LITTLE BAY BRIDGES: Remove the superstructure General Sullivan Br & provide the most Pre 2025 Funding: $1,622,000 cost effective bike/ped connection Facility: SPAULDING TURNPIKE /",
-      "cost_low": 665479,
-      "cost_high": 665479,
-      "cost_display": "$665K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "NEWINGTON",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "a4c5b8c59587",
-      "state": "NH",
-      "project_id": "41713",
-      "description": "NEW CASTLE-RYE: NH 1A & 1B: Bike shldrs Svy Creek-OSP/ NH1B-NH1A/Sdwlks Wild Rose-Beach Pre 2025 Funding: $179,252 Hill/Shldrs Wild Rose-USCG (~4.2m) Facility: NH 1A & 1B 2025-2028 Funding: $2,747,670 Post 2028 Fundi",
-      "cost_low": 651860,
-      "cost_high": 651860,
-      "cost_display": "$652K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Multimodal",
-      "location": "NEW CASTLE",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "c61cd604ac96",
-      "state": "NH",
-      "project_id": "44309",
-      "description": "SALEM: Bridge Street: Replace Bridge St Bridge over Spicket River (Brg #115/097) Pre 2025 Funding: $0 Facility: Bridge Street 2025-2028 Funding: $4,925,000 Post 2028 Funding: $0 Phase 2025 2026 2027 2028 Tot",
-      "cost_low": 526036,
-      "cost_high": 526036,
-      "cost_display": "$526K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "SALEM",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "ff57bf639408",
-      "state": "NH",
-      "project_id": "44410",
-      "description": "EXETER: NH 108: Address condition of bridge carrying NH 108 over Exeter River (Br. Pre 2025 Funding: $0 No. 089/045) Facility: NH 108 2025-2028 Funding: $1,416,125 Post 2028 Funding: $7,386,845 Phase 2025 202",
-      "cost_low": 507267,
-      "cost_high": 507267,
-      "cost_display": "$507K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "EXETER",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "7536ba3c6f85",
-      "state": "NH",
-      "project_id": "42611",
-      "description": "PORTSMOUTH: Grafton Drive: Intersection improvements on Grafton Drive by Portsmouth Pre 2025 Funding: $0 Transportation Center & Pease Golf Course Facility: Grafton Drive 2025-2028 Funding: $120,096 Post 2028 Fun",
-      "cost_low": 405889,
-      "cost_high": 405889,
-      "cost_display": "$406K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "PORTSMOUTH",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "0d2663228004",
-      "state": "NH",
-      "project_id": "41711",
-      "description": "STRATHAM: NH108/Bunker Hill Avenue: Signalization, Turn Lanes and Intersection Realignment at the Pre 2025 Funding: $195,627 NH108/ Bunker Hill Intersection. Facility: NH108/Bunker Hill Avenue 2025-2028 Funding",
-      "cost_low": 346926,
-      "cost_high": 346926,
-      "cost_display": "$347K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "STRATHAM",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "01ce804592ea",
-      "state": "NH",
-      "project_id": "44624",
-      "description": "EXETER: Epping Road: Install (2) electric vehicle DC fast charging stations at 158 Epping Pre 2025 Funding: $0 Road Facility: Epping Road 2025-2028 Funding: $43,015 Post 2028 Funding: $464,252 Phase 2025 2026",
-      "cost_low": 220000,
-      "cost_high": 220000,
-      "cost_display": "$220K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Highway",
-      "location": "EXETER",
-      "district": "Seacoast",
-      "url": "https://www.therpc.org/download_file/view/3184/481",
-      "source": "Rockingham TIP Full",
-      "business_lines": [
-        "highway"
-      ],
-      "fy_info": null
-    },
-    {
-      "id": "ae54717e38a3",
-      "state": "NH",
-      "project_id": "42612",
-      "description": "PORTSMOUTH: International Dr/Manchester Sq/Corporate Dr: Signalization of Intersection - International Drive / Manchester Pre 2025 Funding: $0 Square / Corporate Drive Facility: International Dr/Manchester Sq/Cor",
-      "cost_low": 52972,
-      "cost_high": 52972,
-      "cost_display": "$53K",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "PORTSMOUTH",
       "district": "Seacoast",
       "url": "https://www.therpc.org/download_file/view/3184/481",
       "source": "Rockingham TIP Full",
@@ -12509,17 +11422,17 @@
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 6.7,
+      "score": 5.1,
       "trend": "down",
-      "action": "Maintain position - adequate pipeline",
-      "raw": 5723400332.377067,
-      "raw_display": "$5.72B",
+      "action": "Selective bidding - pipeline softening",
+      "raw": 4333633494.3904,
+      "raw_display": "$4.33B",
       "source": "scraper_v2",
-      "updated": "2026-01-27T04:21:09.032730",
+      "updated": "2026-01-27T04:34:18.426485",
       "v2_details": {
-        "raw_total": "$1.91B",
-        "weighted_total": "$1.10B",
-        "extrapolated_total": "$9.90B",
+        "raw_total": "$1.37B",
+        "weighted_total": "$836.4M",
+        "extrapolated_total": "$7.12B",
         "by_horizon": {
           "near": {
             "value": 389397581,
@@ -12540,9 +11453,9 @@
             "label": "18+ months"
           },
           "unknown": {
-            "value": 1520415490,
-            "display": "$1.52B",
-            "count": 195,
+            "value": 983964060,
+            "display": "$984.0M",
+            "count": 141,
             "label": "No date"
           }
         },
@@ -12562,44 +11475,44 @@
             "fhwa_ratio": "3.7%"
           },
           "NH": {
-            "raw": 1076435490,
-            "weighted": 538217745.0,
-            "estimated": 1076435490,
+            "raw": 539984060,
+            "weighted": 269992030.0,
+            "estimated": 539984060,
             "is_scraped": true,
             "fhwa_ratio": "3.3%"
           },
           "CT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 947267283.2159998,
+            "estimated": 681187373.9359999,
             "is_scraped": false,
             "fhwa_ratio": "9.6%"
           },
           "VT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 339522323.7333333,
+            "estimated": 244153180.62222221,
             "is_scraped": false,
             "fhwa_ratio": "3.4%"
           },
           "NY": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 3104931650.5413327,
+            "estimated": 2232780836.790222,
             "is_scraped": false,
             "fhwa_ratio": "31.4%"
           },
           "RI": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 366684109.63199997,
+            "estimated": 263685435.07199997,
             "is_scraped": false,
             "fhwa_ratio": "3.7%"
           },
           "PA": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 3227159687.0853324,
+            "estimated": 2320675981.814222,
             "is_scraped": false,
             "fhwa_ratio": "32.6%"
           }
@@ -12608,38 +11521,38 @@
           "states_with_data": 3,
           "states_total": 8,
           "market_coverage": "19.3%",
-          "projects_with_cost": 303,
+          "projects_with_cost": 249,
           "projects_with_date": 108,
-          "date_coverage": "35.6%"
+          "date_coverage": "43.4%"
         },
         "scoring_params": {
           "baseline": 6000000000,
           "baseline_display": "$6.00B",
           "score_at_baseline": 7.0,
-          "scoring_value": 5723400332.377067,
-          "scoring_value_display": "$5.72B"
+          "scoring_value": 4333633494.3904,
+          "scoring_value_display": "$4.33B"
         }
       }
     },
     "housing_permits": {
-      "score": 7.0,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 8841.320183533115,
-      "raw_display": "8,841 units/mo",
-      "yoy_change": 9.9,
-      "source": "FRED API",
-      "updated": "2026-01-27T04:21:09.032730"
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T04:34:18.426485"
     },
     "construction_spending": {
-      "score": 4.8,
+      "score": 5.0,
       "trend": "stable",
-      "action": "Cost focus",
-      "raw": 142581.0,
-      "raw_display": "$142.6B SAAR",
-      "yoy_change": -1.1,
-      "source": "FRED API",
-      "updated": "2026-01-27T04:21:09.032730"
+      "action": "Selective investment",
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T04:34:18.426485"
     },
     "migration": {
       "score": 5.0,
@@ -12649,35 +11562,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-27T04:21:09.032730"
+      "updated": "2026-01-27T04:34:18.426485"
     },
     "construction_employment": {
-      "score": 4.7,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 985099.9999999999,
-      "raw_display": "985K workers",
-      "yoy_change": -1.3,
-      "source": "FRED API",
-      "updated": "2026-01-27T04:21:09.032730"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T04:34:18.426485"
     },
     "input_cost": {
-      "score": 10,
+      "score": 9.5,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $2.79 | Diesel $4.01",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 2.79,
-        "score": 10,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.01,
-        "score": 9.9,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T04:21:09.032730"
+      "source": "historical data",
+      "updated": "2026-01-27T04:34:18.426485"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -12686,19 +11599,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-27T04:21:09.032730"
+      "updated": "2026-01-27T04:34:18.426485"
     },
-    "overall_score": 6.6,
+    "overall_score": 6.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-27T04:21:09.032730"
+    "calculated_at": "2026-01-27T04:34:18.426485"
   }
 }

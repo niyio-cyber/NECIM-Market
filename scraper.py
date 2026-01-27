@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-NECMIS Scraper - Phase 5.0 (CT Parser Added)
+NECMIS Scraper - Phase 6.0 (Real Market Health)
 ==================================================
-MA: Plain text parser (PRESERVED - NO CHANGES)
-ME: Excel/PDF parser (PRESERVED - NO CHANGES)
+MA: Plain text parser (PRESERVED)
+ME: Excel/PDF parser (PRESERVED)
 NH: Dynamic multi-approach parser (sessions, Playwright, multiple sources)
-CT: HTML table + Excel parser (NEW - Q&A + STIP sources)
+CT: HTML table + Excel parser (Q&A + STIP sources)
+NEW: Real market health scoring via FRED/EIA/Census APIs
 """
 
 import json
@@ -22,6 +23,15 @@ try:
 except ImportError as e:
     print(f"Missing dependency: {e}")
     raise
+
+# Market Health Engine integration
+try:
+    from market_health_engine import calculate_market_health as calc_real_market_health
+    USE_REAL_MARKET_HEALTH = True
+    print("✓ Market Health Engine loaded - using real API data")
+except ImportError:
+    USE_REAL_MARKET_HEALTH = False
+    print("⚠️ market_health_engine.py not found - using basic scoring")
 
 
 # =============================================================================
@@ -2090,7 +2100,7 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
 
 def run_scraper() -> Dict:
     print("=" * 60)
-    print("NECMIS SCRAPER - PHASE 5.0 (CT Parser Added)")
+    print("NECMIS SCRAPER - PHASE 6.0 (Real Market Health)")
     print("=" * 60)
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
@@ -2110,9 +2120,25 @@ def run_scraper() -> Dict:
     print()
     
     print("[3/3] Market Health...")
-    mh = calculate_market_health(dot_lettings, news)
-    print(f"  Score: {mh['overall_score']}/10 ({mh['overall_status'].upper()})")
-    print(f"  DOT Pipeline: {mh['dot_pipeline']['score']}/10")
+    if USE_REAL_MARKET_HEALTH:
+        # Count active states (those with actual cost data)
+        active_states = len(set(d['state'] for d in dot_lettings if d.get('cost_low')))
+        active_states = max(1, active_states)  # At least 1
+        
+        # Use real market health engine with API data
+        mh = calc_real_market_health(
+            dot_pipeline_total=total_val,
+            available_states=active_states
+        )
+        print(f"  ✅ Using REAL market health data from APIs")
+    else:
+        # Fallback to basic scoring (hardcoded)
+        mh = calculate_market_health(dot_lettings, news)
+        print(f"  ⚠️ Using BASIC market health (hardcoded values)")
+    
+    print(f"  Score: {mh.get('overall_score', '--')}/10 ({mh.get('overall_status', '--').upper()})")
+    if 'dot_pipeline' in mh:
+        print(f"  DOT Pipeline: {mh['dot_pipeline'].get('score', '--')}/10")
     print()
     
     summary = build_summary(dot_lettings, news)
@@ -2138,6 +2164,12 @@ def run_scraper() -> Dict:
         state_projects = [d for d in dot_lettings if d['state'] == state]
         state_value = sum(d.get('cost_low') or 0 for d in state_projects)
         print(f"  {state}: {len(state_projects)} projects, {format_currency(state_value)}")
+    
+    # Show market health data sources if using real engine
+    if USE_REAL_MARKET_HEALTH and 'data_sources' in mh:
+        print("\nMarket Health Sources:")
+        for metric, source in mh['data_sources'].items():
+            print(f"  {metric}: {source}")
     
     print("=" * 60)
     

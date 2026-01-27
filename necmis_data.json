@@ -1,41 +1,986 @@
 {
-  "generated": "2026-01-15T06:00:00Z",
-  "version": "3.0",
-  "item_count": 24,
-  "coverage": {
-    "states": ["VT", "NH", "ME", "NY", "PA", "MA", "RI", "CT"],
-    "business_lines": ["highway", "hma", "aggregates", "concrete", "liquid_asphalt", "trucking"]
+  "generated": "2025-01-27T12:00:00Z",
+  "dot_lettings": [
+    {
+      "state": "MA",
+      "cost_low": 45000000,
+      "project_type": "Bridge Replacement",
+      "let_date": "2025-04-15",
+      "description": "I-90 Bridge Deck Replacement",
+      "location": "Worcester",
+      "source": "MassDOT"
+    },
+    {
+      "state": "MA",
+      "cost_low": 28000000,
+      "project_type": "Resurfacing",
+      "let_date": "2025-08-01",
+      "description": "Route 9 Resurfacing Project",
+      "location": "Framingham",
+      "source": "MassDOT"
+    },
+    {
+      "state": "MA",
+      "cost_low": 12000000,
+      "project_type": "Signal Safety",
+      "let_date": "2026-02-15",
+      "description": "Intersection Safety Improvements",
+      "location": "Boston",
+      "source": "MassDOT"
+    },
+    {
+      "state": "NH",
+      "cost_low": 120000000,
+      "project_type": "I-93 Reconstruction",
+      "let_date": "2026-06-01",
+      "description": "I-93 Widening Phase 2",
+      "location": "Manchester",
+      "source": "NHDOT"
+    },
+    {
+      "state": "NH",
+      "cost_low": 35000000,
+      "project_type": "Bridge",
+      "let_date": "2025-11-01",
+      "description": "NH-101 Bridge Rehabilitation",
+      "location": "Bedford",
+      "source": "NHDOT"
+    },
+    {
+      "state": "VT",
+      "cost_low": 52000000,
+      "project_type": "Interchange",
+      "let_date": "2026-03-15",
+      "description": "I-89 Exit 16 DDI Project",
+      "location": "Colchester",
+      "source": "VTrans"
+    },
+    {
+      "state": "VT",
+      "cost_low": 18000000,
+      "project_type": "Pavement",
+      "let_date": "2025-07-01",
+      "description": "Route 100 Paving",
+      "location": "Waterbury",
+      "source": "VTrans"
+    },
+    {
+      "state": "ME",
+      "cost_low": 22000000,
+      "project_type": "Bridge Replacement",
+      "let_date": "2025-09-15",
+      "description": "Penobscot River Bridge",
+      "location": "Bangor",
+      "source": "MaineDOT"
+    },
+    {
+      "state": "CT",
+      "cost_low": 85000000,
+      "project_type": "Highway",
+      "let_date": "2026-01-10",
+      "description": "I-95 Corridor Improvements",
+      "location": "New Haven",
+      "source": "CTDOT"
+    },
+    {
+      "state": "CT",
+      "cost_low": 42000000,
+      "project_type": "Pavement",
+      "let_date": "2025-10-20",
+      "description": "Route 15 Resurfacing",
+      "location": "Milford",
+      "source": "CTDOT"
+    },
+    {
+      "state": "RI",
+      "cost_low": 550000000,
+      "project_type": "Bridge Replacement",
+      "fiscal_year": "FY2024-2027",
+      "description": "I-95 15 Bridges Project",
+      "location": "Providence",
+      "source": "RIDOT"
+    },
+    {
+      "state": "RI",
+      "cost_low": 144000000,
+      "project_type": "Interchange",
+      "let_date": "2026-09-01",
+      "description": "Missing Move Interchange",
+      "location": "Warwick",
+      "source": "RIDOT"
+    },
+    {
+      "state": "PA",
+      "cost_low": 135000000,
+      "project_type": "Restoration",
+      "let_date": "2026-01-15",
+      "description": "I-81 Preservation Project",
+      "location": "Scranton",
+      "source": "PennDOT"
+    },
+    {
+      "state": "PA",
+      "cost_low": 75000000,
+      "project_type": "Bridge",
+      "let_date": "2026-02-20",
+      "description": "US-22 Bridge Replacements",
+      "location": "Allentown",
+      "source": "PennDOT"
+    }
+  ],
+  "news": [
+    {
+      "state": "VT",
+      "category": "funding",
+      "title": "VT receives $50M federal grant"
+    },
+    {
+      "state": "NH",
+      "category": "news",
+      "title": "I-93 project advances"
+    },
+    {
+      "state": "MA",
+      "category": "funding",
+      "title": "MassDOT secures bridge funding"
+    }
+  ],
+  "summary": {
+    "total_opportunities": 16,
+    "total_value_low": 1363000000,
+    "total_value_high": 0,
+    "by_state": {
+      "VT": 3,
+      "NH": 3,
+      "ME": 1,
+      "MA": 4,
+      "NY": 0,
+      "RI": 2,
+      "CT": 2,
+      "PA": 2
+    },
+    "by_category": {
+      "dot_letting": 14,
+      "news": 1,
+      "funding": 2
+    },
+    "pipeline_analysis": {
+      "project_types": [
+        "Bridge",
+        "Pavement",
+        "Highway",
+        "Safety",
+        "Other"
+      ],
+      "fiscal_years": [
+        "FY2025",
+        "FY2026",
+        "FY2027",
+        "FY2028",
+        "FY2029"
+      ],
+      "by_type": {
+        "Bridge": {
+          "count": 5,
+          "value": 727000000
+        },
+        "Pavement": {
+          "count": 3,
+          "value": 88000000
+        },
+        "Highway": {
+          "count": 3,
+          "value": 340000000
+        },
+        "Safety": {
+          "count": 1,
+          "value": 12000000
+        },
+        "Other": {
+          "count": 2,
+          "value": 196000000
+        }
+      },
+      "by_type_fy": [
+        {
+          "fy": "FY2025",
+          "year": 2025,
+          "Bridge": 204500000.0,
+          "Pavement": 46000000,
+          "Highway": 0,
+          "Safety": 0,
+          "Other": 0,
+          "total": 250500000.0,
+          "yoy_pct": null
+        },
+        {
+          "fy": "FY2026",
+          "year": 2026,
+          "Bridge": 247500000.0,
+          "Pavement": 42000000,
+          "Highway": 340000000,
+          "Safety": 12000000,
+          "Other": 196000000,
+          "total": 837500000.0,
+          "yoy_pct": 234.3
+        },
+        {
+          "fy": "FY2027",
+          "year": 2027,
+          "Bridge": 137500000.0,
+          "Pavement": 0,
+          "Highway": 0,
+          "Safety": 0,
+          "Other": 0,
+          "total": 137500000.0,
+          "yoy_pct": -83.6
+        },
+        {
+          "fy": "FY2028",
+          "year": 2028,
+          "Bridge": 0,
+          "Pavement": 0,
+          "Highway": 0,
+          "Safety": 0,
+          "Other": 0,
+          "total": 0,
+          "yoy_pct": -100.0
+        },
+        {
+          "fy": "FY2029",
+          "year": 2029,
+          "Bridge": 0,
+          "Pavement": 0,
+          "Highway": 0,
+          "Safety": 0,
+          "Other": 0,
+          "total": 0,
+          "yoy_pct": null
+        }
+      ],
+      "by_state_value": {
+        "VT": {
+          "count": 2,
+          "value": 70000000
+        },
+        "NH": {
+          "count": 2,
+          "value": 155000000
+        },
+        "ME": {
+          "count": 1,
+          "value": 22000000
+        },
+        "MA": {
+          "count": 3,
+          "value": 85000000
+        },
+        "NY": {
+          "count": 0,
+          "value": 0
+        },
+        "RI": {
+          "count": 2,
+          "value": 694000000
+        },
+        "CT": {
+          "count": 2,
+          "value": 127000000
+        },
+        "PA": {
+          "count": 2,
+          "value": 210000000
+        }
+      },
+      "by_state_type": {
+        "VT": {
+          "Bridge": {
+            "count": 0,
+            "value": 0
+          },
+          "Pavement": {
+            "count": 1,
+            "value": 18000000
+          },
+          "Highway": {
+            "count": 0,
+            "value": 0
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 1,
+            "value": 52000000
+          }
+        },
+        "NH": {
+          "Bridge": {
+            "count": 1,
+            "value": 35000000
+          },
+          "Pavement": {
+            "count": 0,
+            "value": 0
+          },
+          "Highway": {
+            "count": 1,
+            "value": 120000000
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 0,
+            "value": 0
+          }
+        },
+        "ME": {
+          "Bridge": {
+            "count": 1,
+            "value": 22000000
+          },
+          "Pavement": {
+            "count": 0,
+            "value": 0
+          },
+          "Highway": {
+            "count": 0,
+            "value": 0
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 0,
+            "value": 0
+          }
+        },
+        "MA": {
+          "Bridge": {
+            "count": 1,
+            "value": 45000000
+          },
+          "Pavement": {
+            "count": 1,
+            "value": 28000000
+          },
+          "Highway": {
+            "count": 0,
+            "value": 0
+          },
+          "Safety": {
+            "count": 1,
+            "value": 12000000
+          },
+          "Other": {
+            "count": 0,
+            "value": 0
+          }
+        },
+        "NY": {
+          "Bridge": {
+            "count": 0,
+            "value": 0
+          },
+          "Pavement": {
+            "count": 0,
+            "value": 0
+          },
+          "Highway": {
+            "count": 0,
+            "value": 0
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 0,
+            "value": 0
+          }
+        },
+        "RI": {
+          "Bridge": {
+            "count": 1,
+            "value": 550000000
+          },
+          "Pavement": {
+            "count": 0,
+            "value": 0
+          },
+          "Highway": {
+            "count": 0,
+            "value": 0
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 1,
+            "value": 144000000
+          }
+        },
+        "CT": {
+          "Bridge": {
+            "count": 0,
+            "value": 0
+          },
+          "Pavement": {
+            "count": 1,
+            "value": 42000000
+          },
+          "Highway": {
+            "count": 1,
+            "value": 85000000
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 0,
+            "value": 0
+          }
+        },
+        "PA": {
+          "Bridge": {
+            "count": 1,
+            "value": 75000000
+          },
+          "Pavement": {
+            "count": 0,
+            "value": 0
+          },
+          "Highway": {
+            "count": 1,
+            "value": 135000000
+          },
+          "Safety": {
+            "count": 0,
+            "value": 0
+          },
+          "Other": {
+            "count": 0,
+            "value": 0
+          }
+        }
+      },
+      "by_state_type_fy": {
+        "VT": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 0,
+            "Pavement": 18000000,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 18000000,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 52000000,
+            "total": 52000000,
+            "yoy_pct": 188.9
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "NH": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 35000000,
+            "Pavement": 0,
+            "Highway": 120000000,
+            "Safety": 0,
+            "Other": 0,
+            "total": 155000000,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "ME": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 22000000,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 22000000,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "MA": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 45000000,
+            "Pavement": 28000000,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 73000000,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 12000000,
+            "Other": 0,
+            "total": 12000000,
+            "yoy_pct": -83.6
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "NY": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "RI": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 137500000.0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 137500000.0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 137500000.0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 144000000,
+            "total": 281500000.0,
+            "yoy_pct": 104.7
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 137500000.0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 137500000.0,
+            "yoy_pct": -51.2
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "CT": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 0,
+            "Pavement": 42000000,
+            "Highway": 85000000,
+            "Safety": 0,
+            "Other": 0,
+            "total": 127000000,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ],
+        "PA": [
+          {
+            "fy": "FY2025",
+            "year": 2025,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2026",
+            "year": 2026,
+            "Bridge": 75000000,
+            "Pavement": 0,
+            "Highway": 135000000,
+            "Safety": 0,
+            "Other": 0,
+            "total": 210000000,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2027",
+            "year": 2027,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": -100.0
+          },
+          {
+            "fy": "FY2028",
+            "year": 2028,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          },
+          {
+            "fy": "FY2029",
+            "year": 2029,
+            "Bridge": 0,
+            "Pavement": 0,
+            "Highway": 0,
+            "Safety": 0,
+            "Other": 0,
+            "total": 0,
+            "yoy_pct": null
+          }
+        ]
+      },
+      "yoy_changes": {
+        "2026": 234.3,
+        "2027": -83.6,
+        "2028": -100.0,
+        "2029": null
+      },
+      "current_fy": 2026
+    }
   },
-  "stats": {
-    "by_state": {"VT": 4, "NH": 4, "ME": 4, "NY": 3, "PA": 3, "MA": 2, "RI": 2, "CT": 2},
-    "by_priority": {"high": 8, "medium": 10, "low": 6},
-    "by_category": {"bid": 6, "dot_project": 10, "funding": 4, "news": 4},
-    "by_business_line": {"highway": 10, "hma": 4, "aggregates": 3, "concrete": 2, "liquid_asphalt": 1, "trucking": 1, "general": 3}
-  },
-  "items": [
-    {"id": "vt001", "title": "VTrans I-89 Exit 16 Diverging Diamond Project - $52M", "url": "https://vtrans.vermont.gov/projects/i89-exit16", "summary": "Major interchange reconstruction in Colchester featuring diverging diamond design.", "date": "2026-01-14", "source": "VTrans", "source_type": "dot_projects", "state": "VT", "priority": "high", "category": "dot_project", "business_line": "highway"},
-    {"id": "vt002", "title": "Vermont FY26 Paving Program - $102.9M for 46 Projects", "url": "https://vtrans.vermont.gov/highway/roadwork", "summary": "Statewide paving program includes resurfacing projects across all 14 counties.", "date": "2026-01-13", "source": "VTDigger", "source_type": "news", "state": "VT", "priority": "high", "category": "bid", "business_line": "hma"},
-    {"id": "vt003", "title": "Champlain Parkway Contract Awarded - $14.4M", "url": "https://www.burlingtonvt.gov/dpw/champlain-parkway", "summary": "Burlington southern connector project moves forward with contract award.", "date": "2026-01-12", "source": "VTDigger", "source_type": "news", "state": "VT", "priority": "medium", "category": "dot_project", "business_line": "highway"},
-    {"id": "vt004", "title": "VT-NH Connecticut River Bridge Expansion Study", "url": "https://vtrans.vermont.gov/planning/studies", "summary": "Joint VT-NH study for bridge improvements between White River Junction and Lebanon.", "date": "2026-01-10", "source": "Vermont Biz", "source_type": "news", "state": "VT", "priority": "medium", "category": "dot_project", "business_line": "highway"},
-    {"id": "nh001", "title": "NHDOT Ten Year Plan 2027-2036 Released", "url": "https://www.dot.nh.gov/ten-year-plan", "summary": "New plan includes major I-93 corridor investments and bridge rehabilitation program.", "date": "2026-01-14", "source": "Union Leader", "source_type": "news", "state": "NH", "priority": "high", "category": "funding", "business_line": "highway"},
-    {"id": "nh002", "title": "Everett Turnpike Resurfacing - Active Construction", "url": "https://www.dot.nh.gov/projects/everett-turnpike", "summary": "Ongoing paving work on Everett Turnpike between exits 4-8.", "date": "2026-01-13", "source": "NHDOT", "source_type": "dot_projects", "state": "NH", "priority": "medium", "category": "dot_project", "business_line": "hma"},
-    {"id": "nh003", "title": "NH Fuel & Asphalt Prices: Liquid Asphalt $619.58/ton", "url": "https://www.dot.nh.gov/document/new-hampshire-monthly-fuel-asphalt-and-steel-prices", "summary": "January 2026 update: liquid asphalt up 9.2% vs H2 2024. Diesel at $2.91/gal.", "date": "2026-01-12", "source": "NHDOT", "source_type": "dot_bids", "state": "NH", "priority": "medium", "category": "news", "business_line": "liquid_asphalt"},
-    {"id": "nh004", "title": "Transportation Alternative Program Round 5 Open", "url": "https://www.dot.nh.gov/tap", "summary": "Federal TAP funding available. Application deadline March 1.", "date": "2026-01-11", "source": "InDepthNH", "source_type": "news", "state": "NH", "priority": "medium", "category": "funding", "business_line": "highway"},
-    {"id": "me001", "title": "MaineDOT $4.8B Work Plan 2025-2027 - 2,716 Projects", "url": "https://www.maine.gov/dot/major-projects/work-plan", "summary": "Historic investment includes Route 1 reconstruction and major bridge program.", "date": "2026-01-14", "source": "Bangor Daily", "source_type": "news", "state": "ME", "priority": "high", "category": "funding", "business_line": "highway"},
-    {"id": "me002", "title": "Presque Isle Bypass Phase II - Sargent Corp $78M", "url": "https://www.maine.gov/dot/projects/presque-isle", "summary": "Major northern Maine highway project Phase II award.", "date": "2026-01-13", "source": "Press Herald", "source_type": "news", "state": "ME", "priority": "high", "category": "dot_project", "business_line": "highway"},
-    {"id": "me003", "title": "Portland Area Aggregate Demand Strong for 2026", "url": "https://www.pitandquarry.com/", "summary": "Southern Maine producers report strong booking for spring construction.", "date": "2026-01-11", "source": "Pit & Quarry", "source_type": "news", "state": "ME", "priority": "medium", "category": "news", "business_line": "aggregates"},
-    {"id": "me004", "title": "Maine Turnpike Seeking Paving Contractors", "url": "https://www.maineturnpike.com/business-opportunities.aspx", "summary": "Multiple I-95 resurfacing packages. Pre-qualification deadline Jan 31.", "date": "2026-01-10", "source": "MaineDOT", "source_type": "dot_bids", "state": "ME", "priority": "high", "category": "bid", "business_line": "hma"},
-    {"id": "ny001", "title": "NYSDOT $600M Statewide Paving - 180 Projects", "url": "https://www.dot.ny.gov/doing-business/opportunities/const-highway", "summary": "Largest paving initiative in state history - 2,100+ lane miles.", "date": "2026-01-14", "source": "Times Union", "source_type": "news", "state": "NY", "priority": "high", "category": "dot_project", "business_line": "hma"},
-    {"id": "ny002", "title": "Upstate NY Ready-Mix Concrete Market Outlook", "url": "https://www.forconstructionpros.com/concrete", "summary": "Albany-Syracuse corridor seeing increased commercial development.", "date": "2026-01-12", "source": "ForConstructionPros", "source_type": "news", "state": "NY", "priority": "low", "category": "news", "business_line": "concrete"},
-    {"id": "ny003", "title": "NY Thruway Letting Schedule - Q1 2026", "url": "https://www.thruway.ny.gov/business/contractors.html", "summary": "Bridge deck and resurfacing lettings for February-March.", "date": "2026-01-10", "source": "NYSDOT", "source_type": "dot_bids", "state": "NY", "priority": "medium", "category": "bid", "business_line": "highway"},
-    {"id": "pa001", "title": "PennDOT $9.73B Project Pipeline - 1,457 Projects", "url": "https://www.ecms.penndot.pa.gov/ECMS/", "summary": "Includes 361 bridge lettings for 2026.", "date": "2026-01-14", "source": "PennLive", "source_type": "news", "state": "PA", "priority": "high", "category": "funding", "business_line": "highway"},
-    {"id": "pa002", "title": "Pennsylvania Turnpike I-76 Expansion Study", "url": "https://www.paturnpike.com/", "summary": "PTC evaluating capacity improvements through western PA.", "date": "2026-01-12", "source": "PennLive", "source_type": "news", "state": "PA", "priority": "medium", "category": "dot_project", "business_line": "highway"},
-    {"id": "pa003", "title": "Northeast PA Quarry Expands Operations", "url": "https://www.pitandquarry.com/", "summary": "Regional producer adding crushing capacity for infrastructure demand.", "date": "2026-01-09", "source": "Pit & Quarry", "source_type": "news", "state": "PA", "priority": "low", "category": "news", "business_line": "aggregates"},
-    {"id": "ma001", "title": "MassDOT Bid Openings - January 6 & 27", "url": "https://www.mass.gov/massdot-highway-construction-contract-bidding", "summary": "Multiple highway and bridge contracts including Route 2.", "date": "2026-01-13", "source": "MassLive", "source_type": "news", "state": "MA", "priority": "medium", "category": "bid", "business_line": "highway"},
-    {"id": "ma002", "title": "Mass Pike Concrete Repair Program 2026", "url": "https://www.mass.gov/orgs/highway-division", "summary": "Extensive concrete repair work on I-90 through Metro Boston.", "date": "2026-01-10", "source": "MassDOT", "source_type": "dot_projects", "state": "MA", "priority": "medium", "category": "dot_project", "business_line": "concrete"},
-    {"id": "ri001", "title": "RIDOT Route 146 Design-Build - Skanska/Lynch $167M", "url": "https://www.dot.ri.gov/projects/route146/", "summary": "Major corridor reconstruction. 40% over original estimate.", "date": "2026-01-14", "source": "Providence Journal", "source_type": "news", "state": "RI", "priority": "high", "category": "dot_project", "business_line": "highway"},
-    {"id": "ri002", "title": "Rhode Island Trucking Firms Report Strong Demand", "url": "https://www.providencejournal.com/business", "summary": "Haulers booking capacity for spring infrastructure work.", "date": "2026-01-11", "source": "Providence Journal", "source_type": "news", "state": "RI", "priority": "low", "category": "news", "business_line": "trucking"},
-    {"id": "ct001", "title": "CTDOT Gold Star Bridge Rehabilitation - $500M+", "url": "https://portal.ct.gov/dot/projects", "summary": "I-95 Thames River crossing - deck replacement and steel girder work.", "date": "2026-01-14", "source": "CT Mirror", "source_type": "news", "state": "CT", "priority": "high", "category": "bid", "business_line": "highway"},
-    {"id": "ct002", "title": "Connecticut Aggregate Market Update Q1 2026", "url": "https://www.pitandquarry.com/", "summary": "CT producers report steady demand with stable pricing.", "date": "2026-01-09", "source": "Pit & Quarry", "source_type": "news", "state": "CT", "priority": "low", "category": "news", "business_line": "aggregates"}
-  ]
+  "market_health": {
+    "overall_score": 6.4,
+    "overall_status": "stable",
+    "dot_pipeline": {
+      "score": 4.6,
+      "trend": "up",
+      "action": "Selective bidding",
+      "raw_display": "$2.89B"
+    },
+    "housing_permits": {
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends",
+      "raw_display": "15K units/mo"
+    },
+    "construction_spending": {
+      "score": 6.1,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw_display": "$147B SAAR"
+    },
+    "construction_employment": {
+      "score": 5.8,
+      "trend": "stable",
+      "action": "Stable operations",
+      "raw_display": "890K workers"
+    },
+    "migration": {
+      "score": 7.3,
+      "trend": "up",
+      "action": "Maintain footprint",
+      "raw_display": "47.7M people"
+    },
+    "input_cost": {
+      "score": 5.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.18 | Diesel $4.31"
+    },
+    "infrastructure_funding": {
+      "score": 7.8,
+      "trend": "up",
+      "action": "Selective growth",
+      "raw_display": "$6.8B"
+    }
+  }
 }

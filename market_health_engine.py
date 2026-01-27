@@ -81,8 +81,15 @@ BASELINES = {
     'dot_pipeline': 4_000_000_000,      # $4.0B annual
     'housing_permits_monthly': 15_000,   # 15K permits/month across 8 states
     'construction_spending': 143_000,    # $143B SAAR (millions in FRED)
-    'input_cost': 4.00,                  # $4.00/gal diesel (2024 actual avg)
+    'gasoline': 3.20,                    # $3.20/gal regular gasoline (2024 avg)
+    'diesel': 4.00,                      # $4.00/gal diesel (2024 actual avg)
     'infrastructure_funding': 5_500_000_000,  # $5.5B pre-IIJA
+}
+
+# Input cost weights (gas is more important for fleet operations)
+INPUT_COST_WEIGHTS = {
+    'gasoline': 0.60,  # 60% weight - more vehicles use gas
+    'diesel': 0.40,    # 40% weight - heavy equipment
 }
 
 # Cache for historical data (persisted to JSON)
@@ -121,34 +128,66 @@ def fetch_fred_series(series_id: str, limit: int = 24) -> List[Dict]:
         return []
 
 
-def fetch_eia_diesel_prices(weeks: int = 12) -> List[float]:
-    """Fetch PADD 1A diesel prices from EIA API."""
-    if not EIA_API_KEY:
-        print("  ⚠️  EIA_API_KEY not set, using historical fallback")
-        # Return actual 2024 Q4 data as fallback
-        return [3.76, 3.76, 3.76, 3.85, 4.03, 4.10, 4.09, 4.21, 4.31, 4.30, 4.33, 4.31]
+def fetch_eia_fuel_prices(weeks: int = 12) -> Dict[str, List[float]]:
+    """Fetch PADD 1A gasoline and diesel prices from EIA API."""
     
-    url = 'https://api.eia.gov/v2/petroleum/pri/gnd/data/'
-    params = {
-        'api_key': EIA_API_KEY,
-        'frequency': 'weekly',
-        'data[0]': 'value',
-        'facets[duoarea][]': 'R1X',  # PADD 1A (New England)
-        'facets[product][]': 'EPD2D',  # No 2 Diesel
-        'sort[0][column]': 'period',
-        'sort[0][direction]': 'desc',
-        'length': weeks
+    # Product codes for EIA API
+    products = {
+        'gasoline': 'EMM_EPMR_PTE_R1X_DPG',  # Regular gasoline, PADD 1A
+        'diesel': 'EMD_EPD2D_PTE_R1X_DPG',    # No 2 Diesel, PADD 1A
     }
     
-    try:
-        resp = requests.get(url, params=params, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        prices = [float(item['value']) for item in data.get('response', {}).get('data', [])]
-        return prices[::-1]  # Return oldest to newest
-    except Exception as e:
-        print(f"  ⚠️  EIA API error: {e}")
-        return [3.76, 3.76, 3.76, 3.85, 4.03, 4.10, 4.09, 4.21, 4.31, 4.30, 4.33, 4.31]
+    # Fallback data (actual late 2024 / early 2025 prices)
+    fallback = {
+        'gasoline': [3.15, 3.18, 3.20, 3.22, 3.25, 3.28, 3.30, 3.28, 3.25, 3.22, 3.20, 3.18],
+        'diesel': [3.76, 3.76, 3.76, 3.85, 4.03, 4.10, 4.09, 4.21, 4.31, 4.30, 4.33, 4.31]
+    }
+    
+    if not EIA_API_KEY:
+        print("  ⚠️  EIA_API_KEY not set, using historical fallback")
+        return fallback
+    
+    result = {}
+    
+    for fuel_type, product_code in products.items():
+        url = 'https://api.eia.gov/v2/petroleum/pri/gnd/data/'
+        params = {
+            'api_key': EIA_API_KEY,
+            'frequency': 'weekly',
+            'data[0]': 'value',
+            'facets[duoarea][]': 'R1X',  # PADD 1A (New England)
+            'facets[product][]': product_code.split('_')[1] if '_' in product_code else 'EPD2D',
+            'sort[0][column]': 'period',
+            'sort[0][direction]': 'desc',
+            'length': weeks
+        }
+        
+        # Adjust product facet based on fuel type
+        if fuel_type == 'gasoline':
+            params['facets[product][]'] = 'EPMR'  # Regular gasoline
+        else:
+            params['facets[product][]'] = 'EPD2D'  # No 2 Diesel
+        
+        try:
+            resp = requests.get(url, params=params, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            prices = [float(item['value']) for item in data.get('response', {}).get('data', [])]
+            if prices:
+                result[fuel_type] = prices[::-1]  # Oldest to newest
+            else:
+                result[fuel_type] = fallback[fuel_type]
+        except Exception as e:
+            print(f"  ⚠️  EIA API error for {fuel_type}: {e}")
+            result[fuel_type] = fallback[fuel_type]
+    
+    return result
+
+
+def fetch_eia_diesel_prices(weeks: int = 12) -> List[float]:
+    """Legacy function - now calls combined fetch and returns diesel only."""
+    prices = fetch_eia_fuel_prices(weeks)
+    return prices.get('diesel', [3.76, 3.76, 3.76, 3.85, 4.03, 4.10, 4.09, 4.21, 4.31, 4.30, 4.33, 4.31])
 
 
 def fetch_census_population() -> Dict[str, Dict]:
@@ -317,15 +356,83 @@ def score_construction_employment(current_total: float, year_ago_total: float) -
     return round(score, 1), action, round(yoy_change * 100, 1)
 
 
-def score_input_cost(price_history: List[float]) -> Tuple[float, str, float]:
+def score_input_cost_single(price_history: List[float], baseline: float) -> float:
     """
-    Score input cost stability (diesel prices).
-    Formula: Score = (1 / (price_ratio × (1 + volatility))) × 10, clamped to 0-10
+    Score a single fuel type based on price stability.
+    Returns raw score (not clamped).
     """
     if len(price_history) < 2:
-        return 5.5, 'Hedge 6 months', BASELINES['input_cost']
+        return 5.0
     
-    baseline_price = BASELINES['input_cost']
+    current_price = price_history[-1]
+    avg_price = statistics.mean(price_history)
+    std_dev = statistics.stdev(price_history) if len(price_history) > 1 else 0
+    
+    price_ratio = current_price / baseline
+    volatility = std_dev / avg_price if avg_price > 0 else 0
+    
+    stability_factor = 1 / (price_ratio * (1 + volatility))
+    return stability_factor * 10
+
+
+def score_input_cost(fuel_prices: Dict[str, List[float]]) -> Tuple[float, str, Dict]:
+    """
+    Score input cost stability (combined gasoline + diesel).
+    Gasoline weighted 60%, diesel weighted 40%.
+    Formula: Score = weighted average of individual fuel scores
+    """
+    gas_prices = fuel_prices.get('gasoline', [])
+    diesel_prices = fuel_prices.get('diesel', [])
+    
+    # Score each fuel type
+    gas_score = score_input_cost_single(gas_prices, BASELINES['gasoline']) if gas_prices else 5.0
+    diesel_score = score_input_cost_single(diesel_prices, BASELINES['diesel']) if diesel_prices else 5.0
+    
+    # Weighted average (gas 60%, diesel 40%)
+    gas_weight = INPUT_COST_WEIGHTS['gasoline']
+    diesel_weight = INPUT_COST_WEIGHTS['diesel']
+    
+    combined_score = (gas_score * gas_weight) + (diesel_score * diesel_weight)
+    score = max(0, min(10, combined_score))
+    
+    # Get current prices
+    current_gas = gas_prices[-1] if gas_prices else BASELINES['gasoline']
+    current_diesel = diesel_prices[-1] if diesel_prices else BASELINES['diesel']
+    
+    # Determine action
+    if score >= 7:
+        action = 'Lock contracts'
+    elif score >= 4:
+        action = 'Hedge 6 months'
+    else:
+        action = 'Pass-through only'
+    
+    # Return detailed breakdown
+    details = {
+        'gasoline': {
+            'price': round(current_gas, 2),
+            'score': round(min(10, max(0, gas_score)), 1),
+            'weight': f"{int(gas_weight * 100)}%"
+        },
+        'diesel': {
+            'price': round(current_diesel, 2),
+            'score': round(min(10, max(0, diesel_score)), 1),
+            'weight': f"{int(diesel_weight * 100)}%"
+        },
+        'combined_display': f"Gas ${current_gas:.2f} | Diesel ${current_diesel:.2f}"
+    }
+    
+    return round(score, 1), action, details
+
+
+def score_input_cost_legacy(price_history: List[float]) -> Tuple[float, str, float]:
+    """
+    Legacy function for backwards compatibility - diesel only.
+    """
+    if len(price_history) < 2:
+        return 5.5, 'Hedge 6 months', BASELINES['diesel']
+    
+    baseline_price = BASELINES['diesel']
     current_price = price_history[-1]
     avg_price = statistics.mean(price_history)
     std_dev = statistics.stdev(price_history) if len(price_history) > 1 else 0
@@ -551,26 +658,43 @@ def calculate_market_health(dot_pipeline_total: float = None,
     print(f"    Score: {employment_score}/10 (YoY: {employment_yoy:+.1f}%)")
     
     # -------------------------------------------------------------------------
-    # 6. Input Cost Stability (EIA API)
+    # 6. Input Cost Stability (EIA API - Gas + Diesel)
     # -------------------------------------------------------------------------
     print("  [6/7] Input Cost Stability...")
-    diesel_prices = fetch_eia_diesel_prices(12)
+    fuel_prices = fetch_eia_fuel_prices(12)
     
-    if diesel_prices:
-        input_score, input_action, current_price = score_input_cost(diesel_prices)
-        # For input cost, lower is better, so flip the trend logic
-        if len(diesel_prices) >= 5:
-            price_4wk_ago = diesel_prices[-5] if len(diesel_prices) >= 5 else diesel_prices[0]
-            input_trend = 'up' if current_price < price_4wk_ago - 0.10 else 'down' if current_price > price_4wk_ago + 0.10 else 'stable'
+    if fuel_prices.get('gasoline') or fuel_prices.get('diesel'):
+        input_score, input_action, input_details = score_input_cost(fuel_prices)
+        
+        # Calculate trend based on weighted price change
+        gas_prices = fuel_prices.get('gasoline', [])
+        diesel_prices = fuel_prices.get('diesel', [])
+        
+        if len(gas_prices) >= 5 and len(diesel_prices) >= 5:
+            # Weighted current vs 4 weeks ago
+            current_weighted = (gas_prices[-1] * 0.60) + (diesel_prices[-1] * 0.40)
+            past_weighted = (gas_prices[-5] * 0.60) + (diesel_prices[-5] * 0.40)
+            # For input cost, lower is better, so flip the trend logic
+            input_trend = 'up' if current_weighted < past_weighted - 0.08 else 'down' if current_weighted > past_weighted + 0.08 else 'stable'
         else:
             input_trend = 'stable'
-        data_sources['input_cost'] = 'EIA API' if EIA_API_KEY else 'historical data'
+        
+        data_sources['input_cost'] = 'EIA API (Gas + Diesel)' if EIA_API_KEY else 'historical data'
+        current_gas = input_details['gasoline']['price']
+        current_diesel = input_details['diesel']['price']
     else:
-        input_score, input_action, current_price = 5.5, 'Hedge 6 months', 4.00
+        input_score, input_action = 5.5, 'Hedge 6 months'
+        input_details = {
+            'gasoline': {'price': 3.20, 'score': 5.5, 'weight': '60%'},
+            'diesel': {'price': 4.00, 'score': 5.5, 'weight': '40%'},
+            'combined_display': 'Gas $3.20 | Diesel $4.00'
+        }
         input_trend = 'stable'
+        current_gas = 3.20
+        current_diesel = 4.00
         data_sources['input_cost'] = 'fallback'
     
-    print(f"    Score: {input_score}/10 (Price: ${current_price:.2f}/gal)")
+    print(f"    Score: {input_score}/10 (Gas: ${current_gas:.2f}, Diesel: ${current_diesel:.2f})")
     
     # -------------------------------------------------------------------------
     # 7. Infrastructure Funding (Hardcoded IIJA)
@@ -667,9 +791,9 @@ def calculate_market_health(dot_pipeline_total: float = None,
             'score': input_score,
             'trend': input_trend,
             'action': input_action,
-            'raw': current_price,
-            'raw_display': f"${current_price:.2f}/gal",
-            'price_history': diesel_prices[-4:] if diesel_prices else [],
+            'raw_display': input_details.get('combined_display', f"Gas ${current_gas:.2f} | Diesel ${current_diesel:.2f}"),
+            'gasoline': input_details.get('gasoline', {'price': current_gas, 'score': 5.0, 'weight': '60%'}),
+            'diesel': input_details.get('diesel', {'price': current_diesel, 'score': 5.0, 'weight': '40%'}),
             'source': data_sources['input_cost'],
             'updated': now.isoformat()
         },

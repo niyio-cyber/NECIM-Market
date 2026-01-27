@@ -2991,10 +2991,103 @@ def calculate_market_health(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
     return mh
 
 
+# =============================================================================
+# PIPELINE ANALYSIS HELPERS (Phase 8.1)
+# =============================================================================
+
+# Standard project type categories (consolidated from various DOT naming conventions)
+STANDARD_PROJECT_TYPES = ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other']
+
+def standardize_project_type(raw_type: str) -> str:
+    """
+    Consolidate various project type names into 5 standard categories.
+    Bridge: bridges, culverts, spans, structural
+    Pavement: resurfacing, paving, overlay, asphalt, preservation
+    Highway: reconstruction, restoration, interstate, widening
+    Safety: signals, intersections, traffic, guardrail
+    Other: multimodal, interchange, environmental, misc
+    """
+    if not raw_type:
+        return 'Highway'  # Default
+    
+    t = raw_type.lower()
+    
+    # Bridge category
+    if any(k in t for k in ['bridge', 'culvert', 'span', 'structural']):
+        return 'Bridge'
+    
+    # Pavement category
+    if any(k in t for k in ['pav', 'resurf', 'overlay', 'asphalt', 'hma', 'sma', 
+                            'preservation', 'mill', 'crack seal']):
+        return 'Pavement'
+    
+    # Safety category
+    if any(k in t for k in ['signal', 'intersection', 'safety', 'traffic', 
+                            'guardrail', 'rumble', 'lighting']):
+        return 'Safety'
+    
+    # Other category (before Highway catch-all)
+    if any(k in t for k in ['multimodal', 'interchange', 'environmental', 'pedestrian',
+                            'bike', 'trail', 'sidewalk', 'transit', 'drainage', 'storm']):
+        return 'Other'
+    
+    # Highway category (includes reconstruction, restoration, interstate)
+    return 'Highway'
+
+
+def get_federal_fy(date_str: Optional[str]) -> Optional[int]:
+    """
+    Extract Federal Fiscal Year from date string.
+    Federal FY runs Oct 1 - Sep 30.
+    FY2025 = Oct 1, 2024 - Sep 30, 2025
+    """
+    if not date_str:
+        return None
+    
+    try:
+        # Handle various date formats
+        if isinstance(date_str, str):
+            if len(date_str) == 10:  # YYYY-MM-DD
+                date = datetime.strptime(date_str, '%Y-%m-%d')
+            elif '/' in date_str:  # MM/DD/YYYY
+                date = datetime.strptime(date_str, '%m/%d/%Y')
+            else:
+                return None
+        else:
+            return None
+        
+        # Federal FY: if month >= October, it's next year's FY
+        if date.month >= 10:
+            return date.year + 1
+        return date.year
+    except (ValueError, TypeError):
+        return None
+
+
+def get_fy_from_fiscal_year_field(fy_str: Optional[str]) -> List[int]:
+    """
+    Extract fiscal years from 'fiscal_year' field like 'FY2023-2027'.
+    Returns list of all years in range.
+    """
+    if not fy_str:
+        return []
+    
+    import re
+    # Match patterns like FY2023-2027, FY2024-2025, FY2025
+    match = re.search(r'FY(\d{4})(?:-(\d{4}))?', fy_str)
+    if match:
+        start_year = int(match.group(1))
+        end_year = int(match.group(2)) if match.group(2) else start_year
+        return list(range(start_year, end_year + 1))
+    return []
+
+
 def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
+    """Build summary statistics including pipeline analysis by type and fiscal year."""
     total_low = sum(d.get('cost_low') or 0 for d in dot_lettings)
     total_high = sum(d.get('cost_high') or 0 for d in dot_lettings)
     
+    # Basic counts by state
     by_state = {s: 0 for s in STATES}
     for d in dot_lettings:
         if d['state'] in by_state:
@@ -3009,12 +3102,148 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
         'funding': len([n for n in news if n['category'] == 'funding'])
     }
     
+    # ==========================================================================
+    # PIPELINE ANALYSIS BY TYPE AND FISCAL YEAR (Phase 8.1)
+    # ==========================================================================
+    
+    # Initialize aggregation structures
+    by_type = {t: {'count': 0, 'value': 0} for t in STANDARD_PROJECT_TYPES}
+    
+    # Determine FY range: current FY - 1 through current FY + 3
+    current_fy = get_federal_fy(datetime.now().strftime('%Y-%m-%d'))
+    fy_range = list(range(current_fy - 1, current_fy + 4))  # e.g., [2024, 2025, 2026, 2027, 2028]
+    
+    by_type_fy = {fy: {t: 0 for t in STANDARD_PROJECT_TYPES} for fy in fy_range}
+    by_type_fy['Unknown'] = {t: 0 for t in STANDARD_PROJECT_TYPES}
+    
+    # For drill-down: by_state -> by_type -> by_fy
+    by_state_type_fy = {s: {fy: {t: 0 for t in STANDARD_PROJECT_TYPES} for fy in fy_range} 
+                        for s in STATES}
+    for s in STATES:
+        by_state_type_fy[s]['Unknown'] = {t: 0 for t in STANDARD_PROJECT_TYPES}
+    
+    # Value aggregation by state and type
+    by_state_value = {s: {'count': 0, 'value': 0} for s in STATES}
+    by_state_type = {s: {t: {'count': 0, 'value': 0} for t in STANDARD_PROJECT_TYPES} for s in STATES}
+    
+    # Process each DOT letting
+    for d in dot_lettings:
+        cost = d.get('cost_low') or 0
+        state = d.get('state')
+        raw_type = d.get('project_type')
+        std_type = standardize_project_type(raw_type)
+        
+        # Get fiscal year - try let_date first, then ad_date, then fiscal_year field
+        fy = get_federal_fy(d.get('let_date')) or get_federal_fy(d.get('ad_date'))
+        
+        # If no date, check fiscal_year field (for multi-year projects)
+        if not fy and d.get('fiscal_year'):
+            fy_list = get_fy_from_fiscal_year_field(d.get('fiscal_year'))
+            if fy_list:
+                # For multi-year projects, distribute cost across years
+                cost_per_year = cost / len(fy_list) if cost else 0
+                for year in fy_list:
+                    if year in by_type_fy:
+                        by_type_fy[year][std_type] += cost_per_year
+                    if state and state in by_state_type_fy and year in by_state_type_fy[state]:
+                        by_state_type_fy[state][year][std_type] += cost_per_year
+                # Still count in totals
+                by_type[std_type]['count'] += 1
+                by_type[std_type]['value'] += cost
+                if state:
+                    by_state_value[state]['count'] += 1
+                    by_state_value[state]['value'] += cost
+                    by_state_type[state][std_type]['count'] += 1
+                    by_state_type[state][std_type]['value'] += cost
+                continue
+        
+        # Aggregate by type (total)
+        by_type[std_type]['count'] += 1
+        by_type[std_type]['value'] += cost
+        
+        # Aggregate by type and FY
+        fy_key = fy if fy and fy in by_type_fy else 'Unknown'
+        by_type_fy[fy_key][std_type] += cost
+        
+        # Aggregate by state
+        if state:
+            by_state_value[state]['count'] += 1
+            by_state_value[state]['value'] += cost
+            by_state_type[state][std_type]['count'] += 1
+            by_state_type[state][std_type]['value'] += cost
+            
+            # Aggregate by state, type, and FY
+            if state in by_state_type_fy:
+                by_state_type_fy[state][fy_key][std_type] += cost
+    
+    # Calculate YoY changes
+    yoy_changes = {}
+    for i, fy in enumerate(fy_range[1:], 1):  # Skip first year
+        prev_fy = fy_range[i-1]
+        prev_total = sum(by_type_fy.get(prev_fy, {}).values())
+        curr_total = sum(by_type_fy.get(fy, {}).values())
+        if prev_total > 0:
+            yoy_changes[fy] = round((curr_total - prev_total) / prev_total * 100, 1)
+        else:
+            yoy_changes[fy] = None
+    
+    # Format values for JSON output
+    def format_fy_data(data_dict, include_yoy=True):
+        """Convert FY data to list format for charting."""
+        result = []
+        for fy in fy_range:
+            fy_data = data_dict.get(fy, {})
+            # Calculate YoY for this specific data_dict
+            prev_fy = fy - 1
+            prev_data = data_dict.get(prev_fy, {})
+            prev_total = sum(prev_data.values()) if prev_data else 0
+            curr_total = sum(fy_data.values())
+            if include_yoy and prev_total > 0:
+                local_yoy = round((curr_total - prev_total) / prev_total * 100, 1)
+            else:
+                local_yoy = None
+            
+            result.append({
+                'fy': f'FY{fy}',
+                'year': fy,
+                **{t: fy_data.get(t, 0) for t in STANDARD_PROJECT_TYPES},
+                'total': curr_total,
+                'yoy_pct': local_yoy
+            })
+        # Add Unknown if it has data in THIS data_dict
+        unknown_data = data_dict.get('Unknown', {})
+        unknown_total = sum(unknown_data.values())
+        if unknown_total > 0:
+            result.append({
+                'fy': 'Unknown',
+                'year': None,
+                **{t: unknown_data.get(t, 0) for t in STANDARD_PROJECT_TYPES},
+                'total': unknown_total,
+                'yoy_pct': None
+            })
+        return result
+    
     return {
         'total_opportunities': by_cat['dot_letting'] + by_cat['funding'],
         'total_value_low': total_low,
         'total_value_high': total_high,
         'by_state': by_state,
-        'by_category': by_cat
+        'by_category': by_cat,
+        
+        # Pipeline Analysis (Phase 8.1)
+        'pipeline_analysis': {
+            'project_types': STANDARD_PROJECT_TYPES,
+            'fiscal_years': [f'FY{fy}' for fy in fy_range],
+            'by_type': by_type,
+            'by_type_fy': format_fy_data(by_type_fy),
+            'by_state_value': by_state_value,
+            'by_state_type': by_state_type,
+            'by_state_type_fy': {
+                s: format_fy_data(by_state_type_fy[s]) for s in STATES
+            },
+            'yoy_changes': yoy_changes,
+            'current_fy': current_fy
+        }
     }
 
 

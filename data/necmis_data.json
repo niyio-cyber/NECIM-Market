@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-27T17:04:40.391740Z",
+  "generated": "2026-01-27T17:13:21.785675Z",
   "summary": {
     "total_opportunities": 648,
     "total_value_low": 2628061641,
@@ -13348,7 +13348,7 @@
       "raw": 2885271385.314374,
       "raw_display": "$2.89B",
       "source": "scraper_v2",
-      "updated": "2026-01-27T17:04:24.614275",
+      "updated": "2026-01-27T17:12:56.117487",
       "v2_details": {
         "raw_total": "$2.63B",
         "weighted_total": "$1.60B",
@@ -13465,7 +13465,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-27T17:04:24.614275"
+      "updated": "2026-01-27T17:12:56.117487"
     },
     "construction_spending": {
       "score": 4.8,
@@ -13475,7 +13475,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-27T17:04:24.614275"
+      "updated": "2026-01-27T17:12:56.117487"
     },
     "migration": {
       "score": 5.0,
@@ -13485,7 +13485,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-27T17:04:24.614275"
+      "updated": "2026-01-27T17:12:56.117487"
     },
     "construction_employment": {
       "score": 4.7,
@@ -13495,7 +13495,7 @@
       "raw_display": "985K workers",
       "yoy_change": -1.3,
       "source": "FRED API",
-      "updated": "2026-01-27T17:04:24.614275"
+      "updated": "2026-01-27T17:12:56.117487"
     },
     "input_cost": {
       "score": 10,
@@ -13513,7 +13513,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T17:04:24.614275"
+      "updated": "2026-01-27T17:12:56.117487"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -13522,7 +13522,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-27T17:04:24.614275"
+      "updated": "2026-01-27T17:12:56.117487"
     },
     "overall_score": 6.3,
     "overall_status": "stable",
@@ -13535,6 +13535,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-27T17:04:24.614275"
+    "calculated_at": "2026-01-27T17:12:56.117487"
   }
 }

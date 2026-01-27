@@ -1,0 +1,42 @@
+name: NECMIS Daily Scrape
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # 6 AM EST (11 UTC)
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests feedparser beautifulsoup4 pandas xlrd openpyxl pdfplumber PyPDF2
+          
+      - name: Run scraper
+        env:
+          # API keys for real market health data
+          # Add these as repository secrets in GitHub Settings > Secrets > Actions
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: python scraper.py
+        
+      - name: Commit and push data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update NECMIS data $(date +'%Y-%m-%d %H:%M')"
+          git push

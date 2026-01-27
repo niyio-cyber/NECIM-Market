@@ -409,13 +409,14 @@
             document.getElementById('overallGuidance').textContent = guidance[mh.overall_status] || '';
 
             const metricLabels = {
-                'dot_pipeline': 'DOT Project Pipeline (15%)',
-                'housing_permits': 'Housing Permit Momentum (10%)',
-                'construction_spending': 'Construction Spending (10%)',
-                'migration': 'Migration Patterns (10%)',
-                'input_cost_stability': 'Input Cost Stability (8%)',
-                'infrastructure_funding': 'Infrastructure Funding (7%)'
-            };
+    'dot_pipeline': 'DOT Project Pipeline (15%)',
+    'housing_permits': 'Housing Permit Momentum (10%)',
+    'construction_spending': 'Construction Spending (8%)',
+    'construction_employment': 'Construction Employment (8%)',
+    'migration': 'Migration Patterns (7%)',
+    'input_cost': 'Input Cost Stability (7%)',
+    'infrastructure_funding': 'Infrastructure Funding (5%)'
+};
             const metricsHtml = Object.entries(metricLabels).map(([key, label]) => {
                 const m = mh[key] || {};
                 const trendClass = m.trend === 'up' ? 'trend-up' : m.trend === 'down' ? 'trend-down' : 'trend-stable';

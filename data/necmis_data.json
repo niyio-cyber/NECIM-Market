@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-27T03:00:31.918065Z",
+  "generated": "2026-01-27T03:36:49.314256Z",
   "summary": {
     "total_opportunities": 646,
     "total_value_low": 1909813071,
@@ -3737,7 +3737,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "a25f526e1117",
@@ -3757,7 +3758,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c885f4e4a989",
@@ -3776,7 +3778,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "2caec1cd72eb",
@@ -3795,7 +3798,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "592fbd02bc4a",
@@ -3814,7 +3818,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "4137cc0847c7",
@@ -3833,7 +3838,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "bbb6e0baf1e2",
@@ -3852,7 +3858,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ae5404a71f72",
@@ -3871,7 +3878,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "95942e7bf043",
@@ -3891,7 +3899,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "05f09af05b9e",
@@ -3910,7 +3919,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "b7f9d2da60cb",
@@ -3929,7 +3939,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "d5172362c7c2",
@@ -3948,7 +3959,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "aac8ad75e244",
@@ -3967,7 +3979,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "824252ed7bb7",
@@ -3987,7 +4000,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "fcf01efe764b",
@@ -4007,7 +4021,8 @@
       "business_lines": [
         "highway",
         "aggregates"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "fb4af3ad6535",
@@ -4026,7 +4041,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "4d119377475b",
@@ -4045,7 +4061,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "19c3d946becb",
@@ -4064,7 +4081,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c8620d4a0b57",
@@ -4083,7 +4101,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "f53f4e1588e3",
@@ -4102,7 +4121,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c7d4d5bfae2c",
@@ -4121,7 +4141,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c7261d30a0e7",
@@ -4142,7 +4163,8 @@
         "highway",
         "aggregates",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "efe836e7ff3c",
@@ -4161,7 +4183,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "9c5534b41504",
@@ -4180,7 +4203,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "3ec747126108",
@@ -4199,7 +4223,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ab6729f7ddbe",
@@ -4218,7 +4243,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "fd171797ba97",
@@ -4237,7 +4263,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "a3935519fe76",
@@ -4256,7 +4283,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "d83fa2ba67ae",
@@ -4275,7 +4303,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "f87dc7c7877f",
@@ -4294,7 +4323,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ce41662ebb2c",
@@ -4313,7 +4343,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "5eb28d5bb448",
@@ -4332,7 +4363,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "3bcad17b8134",
@@ -4351,7 +4383,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "0a36936a49f5",
@@ -4370,7 +4403,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "e32bea9bd164",
@@ -4389,7 +4423,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "56c5ccb07f0c",
@@ -4408,7 +4443,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "e7b36a92f25f",
@@ -4427,7 +4463,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "511c6d99d586",
@@ -4446,7 +4483,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "dc74c08ae94b",
@@ -4465,7 +4503,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "32d3d8c0f2e1",
@@ -4484,7 +4523,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "e9aec8c08f0b",
@@ -4503,7 +4543,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "22de17f63300",
@@ -4522,7 +4563,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "6914a9fd3ede",
@@ -4541,7 +4583,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "11eba1483681",
@@ -4560,7 +4603,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "4a011b080cac",
@@ -4579,7 +4623,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "78276c213722",
@@ -4598,7 +4643,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "a4c5b8c59587",
@@ -4617,7 +4663,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c61cd604ac96",
@@ -4636,7 +4683,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ff57bf639408",
@@ -4655,7 +4703,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "7536ba3c6f85",
@@ -4674,7 +4723,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "0d2663228004",
@@ -4693,7 +4743,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "3b335aef6c63",
@@ -4712,7 +4763,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "01ce804592ea",
@@ -4731,7 +4783,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ae54717e38a3",
@@ -4750,7 +4803,8 @@
       "source": "Rockingham TIP Projects",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "0900798ec167",
@@ -4770,7 +4824,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "a25f526e1117",
@@ -4790,7 +4845,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c885f4e4a989",
@@ -4809,7 +4865,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "2caec1cd72eb",
@@ -4828,7 +4885,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "592fbd02bc4a",
@@ -4847,7 +4905,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "4137cc0847c7",
@@ -4866,7 +4925,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "bbb6e0baf1e2",
@@ -4885,7 +4945,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ae5404a71f72",
@@ -4904,7 +4965,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "95942e7bf043",
@@ -4924,7 +4986,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "05f09af05b9e",
@@ -4943,7 +5006,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "b7f9d2da60cb",
@@ -4962,7 +5026,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "d5172362c7c2",
@@ -4981,7 +5046,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "aac8ad75e244",
@@ -5000,7 +5066,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "824252ed7bb7",
@@ -5020,7 +5087,8 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "fcf01efe764b",
@@ -5040,7 +5108,8 @@
       "business_lines": [
         "highway",
         "aggregates"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "fb4af3ad6535",
@@ -5059,7 +5128,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "4d119377475b",
@@ -5078,7 +5148,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "19c3d946becb",
@@ -5097,7 +5168,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c8620d4a0b57",
@@ -5116,7 +5188,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "f53f4e1588e3",
@@ -5135,7 +5208,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c7d4d5bfae2c",
@@ -5154,7 +5228,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c7261d30a0e7",
@@ -5175,7 +5250,8 @@
         "highway",
         "aggregates",
         "ready_mix"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "efe836e7ff3c",
@@ -5194,7 +5270,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ad12557fb70a",
@@ -5213,7 +5290,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "9c5534b41504",
@@ -5232,7 +5310,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "3ec747126108",
@@ -5251,7 +5330,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ab6729f7ddbe",
@@ -5270,7 +5350,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "fd171797ba97",
@@ -5289,7 +5370,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "a3935519fe76",
@@ -5308,7 +5390,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "d83fa2ba67ae",
@@ -5327,7 +5410,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "f87dc7c7877f",
@@ -5346,7 +5430,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ce41662ebb2c",
@@ -5365,7 +5450,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "5eb28d5bb448",
@@ -5384,7 +5470,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "3bcad17b8134",
@@ -5403,7 +5490,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "0a36936a49f5",
@@ -5422,7 +5510,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "e32bea9bd164",
@@ -5441,7 +5530,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "56c5ccb07f0c",
@@ -5460,7 +5550,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "e7b36a92f25f",
@@ -5479,7 +5570,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "511c6d99d586",
@@ -5498,7 +5590,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "dc74c08ae94b",
@@ -5517,7 +5610,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "32d3d8c0f2e1",
@@ -5536,7 +5630,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "e9aec8c08f0b",
@@ -5555,7 +5650,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "3b335aef6c63",
@@ -5574,7 +5670,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "22de17f63300",
@@ -5593,7 +5690,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "6914a9fd3ede",
@@ -5612,7 +5710,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "11eba1483681",
@@ -5631,7 +5730,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "4a011b080cac",
@@ -5650,7 +5750,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "78276c213722",
@@ -5669,7 +5770,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "a4c5b8c59587",
@@ -5688,7 +5790,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "c61cd604ac96",
@@ -5707,7 +5810,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ff57bf639408",
@@ -5726,7 +5830,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "7536ba3c6f85",
@@ -5745,7 +5850,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "0d2663228004",
@@ -5764,7 +5870,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "01ce804592ea",
@@ -5783,7 +5890,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "ae54717e38a3",
@@ -5802,7 +5910,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "0de22ae3771d",
@@ -5821,7 +5930,8 @@
       "source": "Rockingham TIP Full",
       "business_lines": [
         "hma"
-      ]
+      ],
+      "fy_info": null
     },
     {
       "id": "eaf60f83f209",
@@ -12399,92 +12509,36 @@
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Expand highway capacity - strong pipeline",
-      "raw": 5092834856.0,
-      "raw_display": "$5.09B",
-      "source": "scraper",
-      "updated": "2026-01-27T02:59:56.288795"
+      "score": 9.0,
+      "trend": "up",
+      "action": "Expand highway capacity - strong pipeline"
     },
     "housing_permits": {
-      "score": 7.0,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 8841.320183533115,
-      "raw_display": "8,841 units/mo",
-      "yoy_change": 9.9,
-      "source": "FRED API",
-      "updated": "2026-01-27T02:59:56.288795"
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends"
     },
     "construction_spending": {
-      "score": 4.8,
-      "trend": "stable",
-      "action": "Cost focus",
-      "raw": 142581.0,
-      "raw_display": "$142.6B SAAR",
-      "yoy_change": -1.1,
-      "source": "FRED API",
-      "updated": "2026-01-27T02:59:56.288795"
+      "score": 6.1,
+      "trend": "down",
+      "action": "Selective investment"
     },
     "migration": {
-      "score": 5.0,
-      "trend": "stable",
-      "action": "Maintain footprint",
-      "raw": 47710000,
-      "raw_display": "47.7M people",
-      "pct_change": -0.16,
-      "source": "Census API",
-      "updated": "2026-01-27T02:59:56.288795"
+      "score": 7.3,
+      "trend": "up",
+      "action": "Geographic expansion"
     },
-    "construction_employment": {
-      "score": 4.7,
-      "trend": "stable",
-      "action": "Stable operations",
-      "raw": 985099.9999999999,
-      "raw_display": "985K workers",
-      "yoy_change": -1.3,
-      "source": "FRED API",
-      "updated": "2026-01-27T02:59:56.288795"
-    },
-    "input_cost": {
-      "score": 10,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $2.79 | Diesel $4.31",
-      "gasoline": {
-        "price": 2.79,
-        "score": 10,
-        "weight": "60%"
-      },
-      "diesel": {
-        "price": 4.31,
-        "score": 8.8,
-        "weight": "40%"
-      },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T02:59:56.288795"
+    "input_cost_stability": {
+      "score": 5.5,
+      "trend": "down",
+      "action": "Hedge 6 months"
     },
     "infrastructure_funding": {
-      "score": 8.9,
-      "trend": "up",
-      "action": "Major expansion",
-      "raw": 7000000000,
-      "raw_display": "$7.0B",
-      "source": "IIJA hardcoded",
-      "updated": "2026-01-27T02:59:56.288795"
+      "score": 7.8,
+      "trend": "stable",
+      "action": "Selective growth"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
-    "data_sources": {
-      "dot_pipeline": "scraper",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
-      "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
-      "infrastructure_funding": "IIJA hardcoded"
-    },
-    "calculated_at": "2026-01-27T02:59:56.288795"
+    "overall_score": 7.2,
+    "overall_status": "stable"
   }
 }

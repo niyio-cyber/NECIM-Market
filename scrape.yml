@@ -1,10 +1,13 @@
 name: NECMIS Daily Scrape
+
 on:
   schedule:
     - cron: '0 11 * * *'  # 6 AM EST (11 UTC)
   workflow_dispatch:  # Manual trigger
+
 permissions:
   contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -23,6 +26,11 @@ jobs:
           pip install requests feedparser beautifulsoup4 pandas xlrd openpyxl pdfplumber PyPDF2
           
       - name: Run scraper
+        env:
+          # API keys for real market health data
+          # Add these as repository secrets in GitHub Settings > Secrets > Actions
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
         run: python scraper.py
         
       - name: Commit and push data

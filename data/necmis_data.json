@@ -1,22 +1,22 @@
 {
-  "generated": "2026-01-27T11:42:52.429746Z",
+  "generated": "2026-01-27T14:52:04.776525Z",
   "summary": {
-    "total_opportunities": 592,
-    "total_value_low": 1373361641,
-    "total_value_high": 1373361641,
+    "total_opportunities": 648,
+    "total_value_low": 2628061641,
+    "total_value_high": 2818061641,
     "by_state": {
-      "VT": 2,
+      "VT": 45,
       "NH": 59,
       "ME": 168,
-      "MA": 27,
+      "MA": 28,
       "NY": 1,
-      "RI": 1,
+      "RI": 7,
       "CT": 338,
-      "PA": 1
+      "PA": 8
     },
     "by_category": {
-      "dot_letting": 592,
-      "news": 5,
+      "dot_letting": 648,
+      "news": 6,
       "funding": 0
     }
   },
@@ -4847,23 +4847,884 @@
       "fy_info": null
     },
     {
-      "id": "eaf60f83f209",
+      "id": "ff6cc90f9923",
       "state": "VT",
-      "project_id": null,
-      "description": "VTrans Bid Schedule - Visit portal for current lettings",
+      "source": "VTrans",
+      "description": "BARRE TOWN STP 6100 (15)",
+      "location": "Barre Town",
+      "project_type": "Highway",
+      "project_id": "C03247",
+      "let_date": "2025-12-05",
+      "ad_date": null,
       "cost_low": null,
       "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": null,
-      "location": null,
-      "district": null,
-      "url": "https://vtrans.vermont.gov/contract-admin/bids-requests/construction-contracting",
-      "source": "VTrans",
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23G012%20Bids%20Results%20Detail%20Report.pdf",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "e9f9e7d147cd",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "BRIDGEWATER ER P23-1 (302) & PLYMOUTH ER P23-1 (332)",
+      "location": "Bridgewater",
+      "project_type": "Bridge",
+      "project_id": "C03245",
+      "let_date": "2025-11-21",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23B754%20Bids%20Results%20Detail%20Report%202-2.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "high",
+      "contractor": null
+    },
+    {
+      "id": "b660cf5c8340",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "COLCHESTER-ESSEX NH PS24 (11)",
+      "location": "Colchester to Essex Nh",
+      "project_type": "Highway",
+      "project_id": "C03242",
+      "let_date": "2025-11-21",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V413%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "dd964090e020",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "NORTON STP CULV (118)",
+      "location": "Norton Stp",
+      "project_type": "Culvert",
+      "project_id": "C03241",
+      "let_date": "2025-11-14",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/22D248%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "599d253e2c8e",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "CAVENDISH GMRC (24) (RE-AD)",
+      "location": "Cavendish",
+      "project_type": "Rail",
+      "project_id": "C03234",
+      "let_date": "2025-10-24",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/15G155%20Bids%20Results%20Detail%20Report_0.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "69de310f903d",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "BARRE-EAST MONTPELIER STP FPAV (73)",
+      "location": "Barre to East Montpelier Stp Fpav",
+      "project_type": "Pavement",
+      "project_id": "C03240",
+      "let_date": "2025-10-24",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V398%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "c86c3af5f24d",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "DANVILLE RELV2405",
+      "location": "Danville",
+      "project_type": "Emergency",
+      "project_id": "C03239",
+      "let_date": "2025-08-08",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24M075%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "31e3ba835154",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "NORTON BF 0321 (21) (RE-AD)",
+      "location": "Norton",
+      "project_type": "Bridge",
+      "project_id": "C03232",
+      "let_date": "2025-07-11",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/22B360%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "e8c7ae90d7fe",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "ST. JOHNSBURY RELV2407",
+      "location": "St. Johnsbury",
+      "project_type": "Emergency",
+      "project_id": "C03238",
+      "let_date": "2025-06-27",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24M222%20Bids%20Results%20Detail%20Report_0.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "56d2b534d483",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "POULTNEY BF 0145 (13)",
+      "location": "Poultney",
+      "project_type": "Bridge",
+      "project_id": "C03233",
+      "let_date": "2025-06-13",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21J164%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "dc737baf8d47",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "HARTFORD PLAT (4)",
+      "location": "Hartford",
+      "project_type": "Highway",
+      "project_id": "C03236",
+      "let_date": "2025-06-06",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/18G345%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "f35953ed87c9",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "BARRE CITY STP 2961 (3) & BARRE CITY STP 6000 (32)",
+      "location": "Barre City",
+      "project_type": "Highway",
+      "project_id": "C03233",
+      "let_date": "2025-05-23",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/16V185%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "86f70565c167",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE STP CRAK (46)",
+      "location": "Statewide Stp",
+      "project_type": "Highway",
+      "project_id": "C03235",
+      "let_date": "2025-05-23",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/25V001%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "123ed3476478",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "COLCHESTER HES NH 5600 (14) C/2 (RE-AD)",
+      "location": "Colchester Hes",
+      "project_type": "Safety",
+      "project_id": "C03197",
+      "let_date": "2025-05-02",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/12D046%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "606980f699f1",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "NORTON BF 0321 (21)",
+      "location": "Norton",
+      "project_type": "Bridge",
+      "project_id": "C03232",
+      "let_date": "2025-05-02",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "2b26c3175653",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE AV-FY26-001",
+      "location": "Statewide",
+      "project_type": "Aviation",
+      "project_id": "C03229",
+      "let_date": "2025-04-25",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/25H002%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "7a5ff83188bc",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "FAIRLEE IM 091-2 (97)",
+      "location": "Fairlee",
+      "project_type": "Interstate",
+      "project_id": "C03230",
+      "let_date": "2025-04-25",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24D016%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "6e81435b98cf",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "MORRISTOWN AV-FY22-003",
+      "location": "Morristown",
+      "project_type": "Aviation",
+      "project_id": "C03231",
+      "let_date": "2025-04-25",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/17H002%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "27f3e2d8652a",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "WASHINGTON ER P23-1 (669)",
+      "location": "Washington",
+      "project_type": "Emergency",
+      "project_id": "C03228",
+      "let_date": "2025-04-18",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23B742%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "123ed3476478",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "COLCHESTER HES NH 5600 (14) C/2 (RE-AD)",
+      "location": "Colchester Hes",
+      "project_type": "Safety",
+      "project_id": "C03197",
+      "let_date": "2025-04-11",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "798526c7d389",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE HES HRRR (24) & STATEWIDE HES HRRR (25)",
+      "location": "Statewide",
+      "project_type": "Safety",
+      "project_id": "C03227",
+      "let_date": "2025-04-11",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/15T036%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "23d0027477dc",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "ESSEX NH SWFR (4) & SOUTH BURLINGTON IM SWFR (3)",
+      "location": "Essex Nh",
+      "project_type": "Interstate",
+      "project_id": "C03222",
+      "let_date": "2025-04-11",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21D056%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "7ea794d89103",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE NE STPG MARK (326)",
+      "location": "Statewide Ne Stpg",
+      "project_type": "Marking",
+      "project_id": "C03223",
+      "let_date": "2025-04-04",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24T001%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "051fb318b7ee",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE NW STPG MARK (327)",
+      "location": "Statewide Nw Stpg",
+      "project_type": "Marking",
+      "project_id": "C03224",
+      "let_date": "2025-04-04",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24T002%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "0645f4c94849",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE SOUTH STPG MARK (328)",
+      "location": "Statewide South Stpg",
+      "project_type": "Marking",
+      "project_id": "C03225",
+      "let_date": "2025-04-04",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24T003%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "3b249ba13a14",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "STATEWIDE IMG MARK (122)",
+      "location": "Statewide Img",
+      "project_type": "Marking",
+      "project_id": "C03226",
+      "let_date": "2025-04-04",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/24T004%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "7d2fa579158e",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "MONTPELIER-WATERBURY IM 089-2 (56)",
+      "location": "Montpelier to Waterbury Im",
+      "project_type": "Interstate",
+      "project_id": "C03221",
+      "let_date": "2025-03-28",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V428%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "1d156f3b1c05",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "HINESBURG-SOUTH BURLINGTON STP PS25 (8)",
+      "location": "Hinesburg to South Burlington Stp",
+      "project_type": "Highway",
+      "project_id": "C03216",
+      "let_date": "2025-03-28",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V415%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "d97bcecaab6f",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "ESSEX-FAIRFAX STP FPAV (85)",
+      "location": "Essex to Fairfax Stp Fpav",
+      "project_type": "Pavement",
+      "project_id": "C03218",
+      "let_date": "2025-03-21",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/22V385%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "f396cc297c3b",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "BRATTLEBORO NH PC25 (5) & BRATTLEBORO STP PC25 (6) & BRATTLEBORO-PUTNEY STP PS25 (11)",
+      "location": "Brattleboro Nh",
+      "project_type": "Highway",
+      "project_id": "C03220",
+      "let_date": "2025-03-14",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V434%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "57f855ddabba",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "THETFORD-FAIRLEE STP FPAV (64)",
+      "location": "Thetford to Fairlee Stp Fpav",
+      "project_type": "Pavement",
+      "project_id": "C03217",
+      "let_date": "2025-03-07",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V389%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "70a94afc1730",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "SHELDON-ENOSBURG STP FPAV(68)",
+      "location": "Sheldon to Enosburg Stp",
+      "project_type": "Pavement",
+      "project_id": "C03215",
+      "let_date": "2025-03-07",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V392%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "3d76caffd034",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "WOLCOTT BO 1446 (38)",
+      "location": "Wolcott",
+      "project_type": "Bridge",
+      "project_id": "C03214",
+      "let_date": "2025-02-28",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/19J222%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "d09be84f0b54",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "BENNINGTON BF 1000 (20) (RE-AD)",
+      "location": "Bennington",
+      "project_type": "Bridge",
+      "project_id": "CO3186",
+      "let_date": "2025-02-28",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/12J606%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "6ff5832c5d09",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "CHESTER GMRC (25) (RE-AD)",
+      "location": "Chester",
+      "project_type": "Rail",
+      "project_id": "C03174",
+      "let_date": "2025-02-21",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/14G197%20Bids%20Results%20Detail%20Report_0.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "42182baa8e7f",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "WOODSTOCK BF 0166 (12)",
+      "location": "Woodstock",
+      "project_type": "Bridge",
+      "project_id": "C03212",
+      "let_date": "2025-02-21",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/12J672%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "ad5c4c835ae4",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "CHELSEA-WASHINGTON STP FPAV (70)",
+      "location": "Chelsea to Washington Stp Fpav",
+      "project_type": "Pavement",
+      "project_id": "C03213",
+      "let_date": "2025-02-07",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/21V394%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "12bf6a1fd4ca",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "SHARON CMG PARK (51)",
+      "location": "Sharon",
+      "project_type": "Multimodal",
+      "project_id": "C03210",
+      "let_date": "2025-01-31",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/22C160%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "d9278a630554",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "PLYMOUTH ER P23-1 (317)",
+      "location": "Plymouth",
+      "project_type": "Emergency",
+      "project_id": "C03211",
+      "let_date": "2025-01-17",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/23B757%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "57372ac26302",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "WATERFORD IM 093-1 (14)",
+      "location": "Waterford",
+      "project_type": "Interstate",
+      "project_id": "C03208",
+      "let_date": "2025-01-17",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/22C371%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "8d44266840a7",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "SPRINGFIELD BF 0134 (49) (RE-AD)",
+      "location": "Springfield",
+      "project_type": "Bridge",
+      "project_id": "C03099",
+      "let_date": "2024-12-20",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/16B068%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "04c2544af603",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "LOWELL STP CULV (65)",
+      "location": "Lowell Stp",
+      "project_type": "Culvert",
+      "project_id": "C03209",
+      "let_date": "2024-12-13",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/18B005%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "af4a5e248c71",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "BARRE TOWN-ORANGE STP PS23 (1) & ORANGE-TOPSHAM STP FPAV (56)",
+      "location": "Barre Town to Orange Stp",
+      "project_type": "Pavement",
+      "project_id": "C03163",
+      "let_date": "2024-12-13",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/19V438%20Bids%20Results%20Detail%20Report.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
+    },
+    {
+      "id": "7c61a57cc79c",
+      "state": "VT",
+      "source": "VTrans",
+      "description": "ST. ALBANS-RICHFORD STP MVRT (1)(RE-AD)",
+      "location": "St. Albans to Richford Stp Mvrt",
+      "project_type": "Highway",
+      "project_id": "C03195",
+      "let_date": "2024-11-15",
+      "ad_date": null,
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Results",
+      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23F173%20Bids%20Results%20Detail%20Report_0.pdf",
+      "business_lines": [
+        "highway"
+      ],
+      "priority": "low",
+      "contractor": null
     },
     {
       "id": "b6fe0913cb20",
@@ -4885,23 +5746,136 @@
       ]
     },
     {
-      "id": "da912bd1e394",
+      "id": "35c61c4a2a66",
       "state": "RI",
-      "project_id": null,
-      "description": "RIDOT Bid Schedule - Visit portal for current lettings",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": null,
-      "location": null,
-      "district": null,
-      "url": "https://www.dot.ri.gov/about/current_projects.php",
-      "source": "RIDOT",
+      "source": "RIDOT RhodeWorks",
+      "description": "I-95 15 Bridges Project - Providence to Warwick corridor bridge replacements",
+      "project_id": "I95-15BR",
+      "location": "Providence-Warwick",
+      "cost_low": 500000000,
+      "cost_high": 600000000,
+      "cost_display": "$500-600M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "fiscal_year": "FY2023-2027",
+      "project_type": "Bridge Replacement"
+    },
+    {
+      "id": "b52397605c0a",
+      "state": "RI",
+      "source": "RIDOT RhodeWorks",
+      "description": "Missing Move Project - Route 4/I-95 interchange improvements",
+      "project_id": "MISSING-MOVE",
+      "location": "North Kingstown/East Greenwich/Warwick",
+      "cost_low": 144000000,
+      "cost_high": 144000000,
+      "cost_display": "$144M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ],
+      "fiscal_year": "FY2025-2027",
+      "project_type": "Interchange"
+    },
+    {
+      "id": "61ffc2bc0308",
+      "state": "RI",
+      "source": "RIDOT RhodeWorks",
+      "description": "Routes 37 & I-295 Interchange - Cranston Canyon improvements",
+      "project_id": "RT37-I295",
+      "location": "Cranston",
+      "cost_low": 75000000,
+      "cost_high": 85000000,
+      "cost_display": "$75-85M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
       "business_lines": [
         "highway"
-      ]
+      ],
+      "fiscal_year": "FY2024-2025",
+      "project_type": "Interchange"
+    },
+    {
+      "id": "5f8483126eee",
+      "state": "RI",
+      "source": "RIDOT RhodeWorks",
+      "description": "Route 146 Sayles Hill Road Flyover - Safety improvements",
+      "project_id": "RT146-SAYLES",
+      "location": "North Smithfield/Lincoln",
+      "cost_low": 90000000,
+      "cost_high": 100000000,
+      "cost_display": "$90-100M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "fiscal_year": "FY2022-2025",
+      "project_type": "Safety/Bridge"
+    },
+    {
+      "id": "b7636e265d79",
+      "state": "RI",
+      "source": "RIDOT RhodeWorks",
+      "description": "Warwick Corridor Project - East Avenue bridges over I-95/I-295",
+      "project_id": "WARWICK-CORR",
+      "location": "Warwick",
+      "cost_low": 45000000,
+      "cost_high": 50000000,
+      "cost_display": "$45-50M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "fiscal_year": "FY2024-2025",
+      "project_type": "Bridge Replacement"
+    },
+    {
+      "id": "0b6698f091db",
+      "state": "RI",
+      "source": "RIDOT",
+      "description": "Route 7/Douglas Pike Corridor - 15.7 mile resurfacing",
+      "project_id": "RT7-PAVING",
+      "location": "Burrillville to Providence",
+      "cost_low": 19900000,
+      "cost_high": 19900000,
+      "cost_display": "$19.9M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ],
+      "fiscal_year": "FY2024-2025",
+      "project_type": "Resurfacing"
+    },
+    {
+      "id": "0b48da3a588b",
+      "state": "RI",
+      "source": "RIDOT",
+      "description": "Tower Hill Road Bridge - Route 1 over Route 138",
+      "project_id": "TOWER-HILL",
+      "location": "North Kingstown",
+      "cost_low": 35800000,
+      "cost_high": 35800000,
+      "cost_display": "$35.8M",
+      "url": "https://www.dot.ri.gov/projects/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "fiscal_year": "FY2024-2025",
+      "project_type": "Bridge Replacement"
     },
     {
       "id": "4e99fbc27702",
@@ -11329,26 +12303,181 @@
       ]
     },
     {
-      "id": "680a138aa782",
+      "id": "25fa5c5e8d1d",
       "state": "PA",
-      "project_id": null,
-      "description": "PennDOT Bid Schedule - Visit portal for current lettings",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Portal",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": null,
-      "location": null,
-      "district": null,
-      "url": "https://www.penndot.pa.gov/business/Letting/Pages/default.aspx",
       "source": "PennDOT",
+      "description": "I-81 NB/SB Preservation - Lackawanna County pavement replacement",
+      "project_id": "92435",
+      "location": "Lackawanna County",
+      "district": "4-0",
+      "cost_low": 125000000,
+      "cost_high": 150000000,
+      "cost_display": "$125-150M",
+      "let_date": "2026-01-08",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
       "business_lines": [
-        "highway"
-      ]
+        "highway",
+        "hma"
+      ],
+      "project_type": "Reconstruction"
+    },
+    {
+      "id": "7dec006d6cf1",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "I-80 EB over I-81 NB/SB Bridge Replacement - Luzerne County",
+      "project_id": "91587",
+      "location": "Luzerne County",
+      "district": "4-0",
+      "cost_low": 25000000,
+      "cost_high": 30000000,
+      "cost_display": "$25-30M",
+      "let_date": "2026-01-15",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "project_type": "Bridge Replacement"
+    },
+    {
+      "id": "12fcad587585",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "I-79 Restoration MP 172-178 - Erie County",
+      "project_id": "76852",
+      "location": "Erie County",
+      "district": "1-0",
+      "cost_low": 60000000,
+      "cost_high": 70000000,
+      "cost_display": "$60-70M",
+      "let_date": "2026-02-26",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ],
+      "project_type": "Restoration"
+    },
+    {
+      "id": "583144c1cff6",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "I-79 Restoration MM 110-136 - Mercer County",
+      "project_id": "109793",
+      "location": "Mercer County",
+      "district": "1-0",
+      "cost_low": 25000000,
+      "cost_high": 30000000,
+      "cost_display": "$25-30M",
+      "let_date": "2026-02-12",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ],
+      "project_type": "Restoration"
+    },
+    {
+      "id": "620893ebaa96",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "US 22 Bridge Replacement - Allegheny County interchange",
+      "project_id": "27445",
+      "location": "Allegheny County",
+      "district": "11-0",
+      "cost_low": 60000000,
+      "cost_high": 70000000,
+      "cost_display": "$60-70M",
+      "let_date": "2026-01-29",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "project_type": "Bridge Replacement"
+    },
+    {
+      "id": "54fd807ff8f5",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "I-99 Sproul/Claysburg to Newry Resurfacing - Blair County",
+      "project_id": "112242",
+      "location": "Blair County",
+      "district": "9-0",
+      "cost_low": 30000000,
+      "cost_high": 35000000,
+      "cost_display": "$30-35M",
+      "let_date": "2026-02-12",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ],
+      "project_type": "Resurfacing"
+    },
+    {
+      "id": "275272bd71b1",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "SR 6 over Wallenpaupack Creek Bridge Deck Rehab - Pike County",
+      "project_id": "68758",
+      "location": "Pike County",
+      "district": "4-0",
+      "cost_low": 12500000,
+      "cost_high": 15000000,
+      "cost_display": "$12.5-15M",
+      "let_date": "2026-02-26",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ],
+      "project_type": "Bridge Rehabilitation"
+    },
+    {
+      "id": "963a462bd3e0",
+      "state": "PA",
+      "source": "PennDOT",
+      "description": "SR 58 Resurface: US 19 to Campbell Drive - Mercer County",
+      "project_id": "51188",
+      "location": "Mercer County",
+      "district": "1-0",
+      "cost_low": 7500000,
+      "cost_high": 10000000,
+      "cost_display": "$7.5-10M",
+      "let_date": "2026-01-15",
+      "url": "https://www.ecms.penndot.pa.gov/ECMS/",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ],
+      "project_type": "Resurfacing"
     }
   ],
   "news": [
+    {
+      "id": "ffdc4428c95f",
+      "title": "Driver rescued after crashing into pond in Mass. town",
+      "summary": "The car slid off the road and went through a guard rail before falling 15 to 20 feet.",
+      "url": "https://www.masslive.com/news/2026/01/driver-rescued-after-crashing-into-pond-in-mass-town.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
     {
       "id": "ac94100f5241",
       "title": "Planning Board to discuss Master Plan recommendation to temporarily limit new development",
@@ -11422,22 +12551,22 @@
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 5.1,
-      "trend": "stable",
-      "action": "Selective bidding - pipeline softening",
-      "raw": 4333633494.3904,
-      "raw_display": "$4.33B",
+      "score": 3.4,
+      "trend": "down",
+      "action": "Defensive mode - weak pipeline",
+      "raw": 2885271385.314374,
+      "raw_display": "$2.89B",
       "source": "scraper_v2",
-      "updated": "2026-01-27T11:42:35.028764",
+      "updated": "2026-01-27T14:51:56.315582",
       "v2_details": {
-        "raw_total": "$1.37B",
-        "weighted_total": "$836.4M",
-        "extrapolated_total": "$7.12B",
+        "raw_total": "$2.63B",
+        "weighted_total": "$1.60B",
+        "extrapolated_total": "$4.73B",
         "by_horizon": {
           "near": {
-            "value": 389397581,
-            "display": "$389.4M",
-            "count": 108,
+            "value": 734397581,
+            "display": "$734.4M",
+            "count": 116,
             "label": "0-6 months"
           },
           "mid": {
@@ -11453,9 +12582,9 @@
             "label": "18+ months"
           },
           "unknown": {
-            "value": 983964060,
-            "display": "$984.0M",
-            "count": 141,
+            "value": 1893664060,
+            "display": "$1.89B",
+            "count": 148,
             "label": "No date"
           }
         },
@@ -11484,53 +12613,53 @@
           "CT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 681187373.9359999,
+            "estimated": 452331399.0370142,
             "is_scraped": false,
             "fhwa_ratio": "9.6%"
           },
           "VT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 244153180.62222221,
+            "estimated": 162125949.47563234,
             "is_scraped": false,
             "fhwa_ratio": "3.4%"
           },
           "NY": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 2232780836.790222,
+            "estimated": 1482641807.9546578,
             "is_scraped": false,
             "fhwa_ratio": "31.4%"
           },
           "RI": {
-            "raw": 0,
-            "weighted": 0,
-            "estimated": 263685435.07199997,
-            "is_scraped": false,
+            "raw": 909700000,
+            "weighted": 454850000.0,
+            "estimated": 909700000,
+            "is_scraped": true,
             "fhwa_ratio": "3.7%"
           },
           "PA": {
-            "raw": 0,
-            "weighted": 0,
-            "estimated": 2320675981.814222,
-            "is_scraped": false,
+            "raw": 345000000,
+            "weighted": 313500000.0,
+            "estimated": 345000000,
+            "is_scraped": true,
             "fhwa_ratio": "32.6%"
           }
         },
         "coverage": {
-          "states_with_data": 3,
+          "states_with_data": 5,
           "states_total": 8,
-          "market_coverage": "19.3%",
-          "projects_with_cost": 249,
-          "projects_with_date": 108,
-          "date_coverage": "43.4%"
+          "market_coverage": "55.6%",
+          "projects_with_cost": 264,
+          "projects_with_date": 116,
+          "date_coverage": "43.9%"
         },
         "scoring_params": {
           "baseline": 6000000000,
           "baseline_display": "$6.00B",
           "score_at_baseline": 7.0,
-          "scoring_value": 4333633494.3904,
-          "scoring_value_display": "$4.33B"
+          "scoring_value": 2885271385.314374,
+          "scoring_value_display": "$2.89B"
         }
       }
     },
@@ -11542,7 +12671,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-27T11:42:35.028764"
+      "updated": "2026-01-27T14:51:56.315582"
     },
     "construction_spending": {
       "score": 4.8,
@@ -11552,7 +12681,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-27T11:42:35.028764"
+      "updated": "2026-01-27T14:51:56.315582"
     },
     "migration": {
       "score": 5.0,
@@ -11562,7 +12691,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-27T11:42:35.028764"
+      "updated": "2026-01-27T14:51:56.315582"
     },
     "construction_employment": {
       "score": 4.7,
@@ -11572,25 +12701,25 @@
       "raw_display": "985K workers",
       "yoy_change": -1.3,
       "source": "FRED API",
-      "updated": "2026-01-27T11:42:35.028764"
+      "updated": "2026-01-27T14:51:56.315582"
     },
     "input_cost": {
       "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $2.79 | Diesel $4.01",
+      "raw_display": "Gas $2.78 | Diesel $4.02",
       "gasoline": {
-        "price": 2.79,
+        "price": 2.78,
         "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.01,
+        "price": 4.02,
         "score": 9.9,
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T11:42:35.028764"
+      "updated": "2026-01-27T14:51:56.315582"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -11599,10 +12728,10 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-27T11:42:35.028764"
+      "updated": "2026-01-27T14:51:56.315582"
     },
-    "overall_score": 6.2,
-    "overall_status": "stable",
+    "overall_score": 5.8,
+    "overall_status": "watchlist",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
       "housing_permits": "FRED API",
@@ -11612,6 +12741,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-27T11:42:35.028764"
+    "calculated_at": "2026-01-27T14:51:56.315582"
   }
 }

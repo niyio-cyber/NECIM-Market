@@ -86,6 +86,7 @@
         .metric-name { font-weight: 600; color: #e0e0e0; font-size: 0.95em; }
         .metric-score { font-size: 1.2em; font-weight: 700; }
         .metric-trend { font-size: 0.9em; }
+        .metric-raw { font-size: 0.8em; color: #666; margin-top: 4px; }
         .trend-up { color: #4ade80; }
         .trend-down { color: #f87171; }
         .trend-stable { color: #fbbf24; }
@@ -241,7 +242,7 @@
         <!-- Market Health -->
         <div class="market-health">
             <div class="section-title">📈 Market Health Framework</div>
-            <div class="section-subtitle">6 Public Metrics | Scores + Trends + Actions</div>
+            <div class="section-subtitle">7 Public Metrics | Real-Time API Data | Scores + Trends + Actions</div>
             <div class="overall-score">
                 <div class="score" id="overallScore">--</div>
                 <div class="status" id="overallStatus">Loading...</div>
@@ -284,7 +285,7 @@
 
         <div class="footer">
             <strong>NECMIS - Northeast Construction Market Intelligence System</strong><br>
-            Data Sources: State DOT Portals (8 states) | Regional News RSS (10 feeds) | Market Health Framework (6 public metrics)<br>
+            Data Sources: State DOT Portals (8 states) | Regional News RSS (10 feeds) | Market Health: FRED, EIA, Census APIs<br>
             Last Updated: <span id="lastUpdated">--</span>
         </div>
     </div>
@@ -404,35 +405,39 @@
             const guidance = {
                 'growth': '7.5+ — Aggressive expansion, invest in capacity',
                 'stable': '6.0 - 7.5 — Maintain position, selective investments',
-                'watchlist': '< 6.0 — Conservative mode, protect margins'
+                'watchlist': '< 6.0 — Conservative mode, protect margins',
+                'defensive': '< 5.0 — Defensive mode, protect margins'
             };
             document.getElementById('overallGuidance').textContent = guidance[mh.overall_status] || '';
 
+            // Updated metric labels with correct keys
             const metricLabels = {
-    'dot_pipeline': 'DOT Project Pipeline (15%)',
-    'housing_permits': 'Housing Permit Momentum (10%)',
-    'construction_spending': 'Construction Spending (8%)',
-    'construction_employment': 'Construction Employment (8%)',
-    'migration': 'Migration Patterns (7%)',
-    'input_cost': 'Input Cost Stability (7%)',
-    'infrastructure_funding': 'Infrastructure Funding (5%)'
-};
+                'dot_pipeline': 'DOT Project Pipeline (15%)',
+                'housing_permits': 'Housing Permit Momentum (10%)',
+                'construction_spending': 'Construction Spending (8%)',
+                'construction_employment': 'Construction Employment (8%)',
+                'migration': 'Migration Patterns (7%)',
+                'input_cost': 'Input Cost Stability (7%)',
+                'infrastructure_funding': 'Infrastructure Funding (5%)'
+            };
+            
             const metricsHtml = Object.entries(metricLabels).map(([key, label]) => {
                 const m = mh[key] || {};
                 const trendClass = m.trend === 'up' ? 'trend-up' : m.trend === 'down' ? 'trend-down' : 'trend-stable';
                 const trendIcon = m.trend === 'up' ? '↑' : m.trend === 'down' ? '↓' : '→';
+                const rawDisplay = m.raw_display || '';
                 return `<div class="metric-card">
                     <div class="metric-header">
                         <span class="metric-name">${label}</span>
                         <span class="metric-score ${trendClass}">${m.score || '--'}/10</span>
                     </div>
-                    <div class="metric-trend ${trendClass}">${trendIcon}</div>
+                    <div class="metric-trend ${trendClass}">${trendIcon} ${rawDisplay}</div>
                     <div class="metric-action">→ ${m.action || '--'}</div>
                 </div>`;
             }).join('');
             document.getElementById('metricsGrid').innerHTML = metricsHtml;
 
-            // State filters (NEW)
+            // State filters
             const stateCounts = {};
             STATES.forEach(s => stateCounts[s] = 0);
             (data.dot_lettings || []).forEach(d => { if (stateCounts[d.state] !== undefined) stateCounts[d.state]++; });

@@ -203,6 +203,128 @@
         .portal-link:hover { background: rgba(77, 166, 255, 0.1); color: #4da6ff; }
         .portal-link strong { color: #e0e0e0; display: block; margin-bottom: 3px; }
         
+        /* Pipeline Analysis (Phase 8.1) */
+        .pipeline-analysis {
+            background: rgba(30, 42, 58, 0.95);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(77, 166, 255, 0.15);
+        }
+        .pipeline-analysis .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .pipeline-analysis .section-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #4da6ff;
+            margin-bottom: 5px;
+        }
+        .pipeline-analysis .section-subtitle {
+            font-size: 0.85em;
+            color: #888;
+        }
+        .chart-controls select {
+            background: rgba(13, 21, 32, 0.9);
+            border: 1px solid rgba(77, 166, 255, 0.3);
+            color: #e0e0e0;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            cursor: pointer;
+            min-width: 140px;
+        }
+        .chart-controls select:hover {
+            border-color: #4da6ff;
+        }
+        .chart-controls select:focus {
+            outline: none;
+            border-color: #4da6ff;
+            box-shadow: 0 0 0 2px rgba(77, 166, 255, 0.2);
+        }
+        .pipeline-content {
+            display: grid;
+            grid-template-columns: 1fr 280px;
+            gap: 25px;
+        }
+        .chart-container {
+            background: rgba(13, 21, 32, 0.5);
+            border-radius: 12px;
+            padding: 20px;
+            min-height: 320px;
+        }
+        .pipeline-summary {
+            background: rgba(13, 21, 32, 0.5);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .summary-title {
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #e0e0e0;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .type-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .type-row:last-child { border-bottom: none; }
+        .type-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        .type-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+        .type-value {
+            font-weight: 600;
+            color: #e0e0e0;
+            font-size: 0.9em;
+        }
+        .type-pct {
+            font-size: 0.8em;
+            color: #888;
+            margin-left: 5px;
+        }
+        .pipeline-total {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(77, 166, 255, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pipeline-total .label {
+            font-size: 0.95em;
+            color: #888;
+        }
+        .pipeline-total .value {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #4da6ff;
+        }
+        @media (max-width: 900px) {
+            .pipeline-content {
+                grid-template-columns: 1fr;
+            }
+            .pipeline-summary {
+                order: -1;
+            }
+        }
+        
         /* Footer */
         .footer { text-align: center; padding: 20px; color: #666; font-size: 0.85em; }
     </style>
@@ -251,6 +373,35 @@
             <div class="metrics-grid" id="metricsGrid"></div>
         </div>
 
+        <!-- Pipeline Analysis (Phase 8.1) -->
+        <div class="pipeline-analysis">
+            <div class="section-header">
+                <div>
+                    <div class="section-title">📊 Pipeline by Project Type</div>
+                    <div class="section-subtitle">Fiscal Year Analysis | Stacked by Type | YoY Growth Trend</div>
+                </div>
+                <div class="chart-controls">
+                    <select id="pipelineStateFilter" onchange="updatePipelineChart()">
+                        <option value="all">All States</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="pipeline-content">
+                <div class="chart-container">
+                    <canvas id="pipelineChart"></canvas>
+                </div>
+                <div class="pipeline-summary">
+                    <div class="summary-title">Pipeline Breakdown</div>
+                    <div id="pipelineTypeSummary"></div>
+                    <div class="pipeline-total" id="pipelineTotalDisplay">
+                        <span class="label">Total Pipeline</span>
+                        <span class="value">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Main Content -->
         <div class="main-grid">
             <div class="feed-section">
@@ -290,6 +441,9 @@
         </div>
     </div>
 
+    <!-- Chart.js for Pipeline Analysis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    
     <script>
         const PASSWORD = 'NECMIS2026!';
         const STATES = ['VT', 'NH', 'ME', 'MA', 'NY', 'RI', 'CT', 'PA'];
@@ -303,10 +457,20 @@
             'CT': { name: 'CTDOT', desc: 'Contractor Information', url: 'https://portal.ct.gov/DOT/Doing-Business/Contractor-Information' },
             'PA': { name: 'PennDOT', desc: 'Letting Information', url: 'https://www.penndot.pa.gov/business/Letting/Pages/default.aspx' }
         };
+        
+        // Project type colors (consistent across chart and legend)
+        const TYPE_COLORS = {
+            'Bridge': '#4da6ff',      // Blue
+            'Pavement': '#50c878',    // Green
+            'Highway': '#ffa500',     // Orange
+            'Safety': '#ff6b6b',      // Red
+            'Other': '#9b59b6'        // Purple
+        };
 
         // Global state
         let currentData = null;
         let selectedState = 'all';
+        let pipelineChart = null;
 
         function checkPassword() {
             const input = document.getElementById('passwordInput').value;
@@ -455,8 +619,207 @@
             document.getElementById('stateBreakdown').innerHTML = Object.entries(states)
                 .map(([s, c]) => `<div class="state-item ${selectedState === s ? 'active' : ''}" data-state="${s}" onclick="setStateFilter('${s}')"><span>${s}</span><span>${c}</span></div>`).join('');
 
+            // Pipeline Analysis Chart (Phase 8.1)
+            renderPipelineAnalysis(data);
+
             // Render feeds
             renderFeeds(data);
+        }
+
+        // Pipeline Analysis Chart Functions (Phase 8.1)
+        function renderPipelineAnalysis(data) {
+            const pa = data.summary?.pipeline_analysis;
+            if (!pa) {
+                console.warn('No pipeline_analysis in data');
+                return;
+            }
+
+            // Populate state filter dropdown
+            const stateSelect = document.getElementById('pipelineStateFilter');
+            stateSelect.innerHTML = '<option value="all">All States</option>' +
+                STATES.map(s => `<option value="${s}">${s}</option>`).join('');
+
+            // Render chart with 'all' states
+            updatePipelineChart();
+        }
+
+        function updatePipelineChart() {
+            const pa = currentData?.summary?.pipeline_analysis;
+            if (!pa) return;
+
+            const selectedPipelineState = document.getElementById('pipelineStateFilter').value;
+            
+            // Get data based on selection
+            let chartData;
+            if (selectedPipelineState === 'all') {
+                chartData = pa.by_type_fy;
+            } else {
+                chartData = pa.by_state_type_fy?.[selectedPipelineState] || [];
+            }
+
+            // Filter out Unknown and empty FYs for cleaner chart
+            const filteredData = chartData.filter(d => d.fy !== 'Unknown' && d.total > 0);
+            
+            // If no data with known FYs, include Unknown
+            if (filteredData.length === 0) {
+                const unknownData = chartData.find(d => d.fy === 'Unknown');
+                if (unknownData && unknownData.total > 0) {
+                    filteredData.push(unknownData);
+                }
+            }
+
+            // Labels (fiscal years)
+            const labels = filteredData.map(d => d.fy);
+            
+            // Stacked bar datasets for each project type
+            const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other'];
+            const barDatasets = projectTypes.map(type => ({
+                label: type,
+                data: filteredData.map(d => d[type] || 0),
+                backgroundColor: TYPE_COLORS[type] || '#888',
+                borderRadius: 4,
+                barPercentage: 0.7,
+                categoryPercentage: 0.8
+            }));
+
+            // Line dataset for YoY %
+            const yoyData = filteredData.map(d => d.yoy_pct);
+            const lineDataset = {
+                label: 'YoY Change %',
+                data: yoyData,
+                type: 'line',
+                borderColor: '#fff',
+                backgroundColor: 'rgba(255,255,255,0.1)',
+                borderWidth: 2,
+                pointRadius: 4,
+                pointBackgroundColor: yoyData.map(v => v === null ? 'transparent' : (v >= 0 ? '#50c878' : '#ff6b6b')),
+                pointBorderColor: '#fff',
+                tension: 0.3,
+                yAxisID: 'yoy',
+                order: 0
+            };
+
+            // Destroy existing chart
+            if (pipelineChart) {
+                pipelineChart.destroy();
+            }
+
+            // Create new chart
+            const ctx = document.getElementById('pipelineChart').getContext('2d');
+            pipelineChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [...barDatasets, lineDataset]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    plugins: {
+                        legend: {
+                            display: false  // We have custom legend
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(30, 42, 58, 0.95)',
+                            titleColor: '#4da6ff',
+                            bodyColor: '#e0e0e0',
+                            borderColor: 'rgba(77, 166, 255, 0.3)',
+                            borderWidth: 1,
+                            padding: 12,
+                            callbacks: {
+                                label: function(context) {
+                                    if (context.dataset.label === 'YoY Change %') {
+                                        const val = context.raw;
+                                        return val !== null ? `YoY: ${val >= 0 ? '+' : ''}${val}%` : '';
+                                    }
+                                    return `${context.dataset.label}: ${formatCurrency(context.raw)}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: { color: '#888' }
+                        },
+                        y: {
+                            stacked: true,
+                            position: 'left',
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: {
+                                color: '#888',
+                                callback: value => formatCurrencyShort(value)
+                            },
+                            title: {
+                                display: true,
+                                text: 'Pipeline Value',
+                                color: '#888'
+                            }
+                        },
+                        yoy: {
+                            position: 'right',
+                            grid: { display: false },
+                            ticks: {
+                                color: '#888',
+                                callback: value => value + '%'
+                            },
+                            title: {
+                                display: true,
+                                text: 'YoY %',
+                                color: '#888'
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Update summary sidebar
+            updatePipelineSummary(pa, selectedPipelineState);
+        }
+
+        function updatePipelineSummary(pa, state) {
+            // Get totals by type
+            let byType;
+            if (state === 'all') {
+                byType = pa.by_type;
+            } else {
+                byType = pa.by_state_type?.[state] || {};
+            }
+
+            const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other'];
+            const total = Object.values(byType).reduce((sum, t) => sum + (t.value || 0), 0);
+
+            // Render type breakdown
+            const summaryHtml = projectTypes.map(type => {
+                const data = byType[type] || { count: 0, value: 0 };
+                const pct = total > 0 ? Math.round(data.value / total * 100) : 0;
+                return `<div class="type-row">
+                    <div class="type-label">
+                        <span class="type-color" style="background: ${TYPE_COLORS[type]}"></span>
+                        ${type}
+                    </div>
+                    <div class="type-value">
+                        ${formatCurrencyShort(data.value)}
+                        <span class="type-pct">(${pct}%)</span>
+                    </div>
+                </div>`;
+            }).join('');
+
+            document.getElementById('pipelineTypeSummary').innerHTML = summaryHtml;
+            document.querySelector('#pipelineTotalDisplay .value').textContent = formatCurrency(total);
+        }
+
+        function formatCurrencyShort(value) {
+            if (!value || value === 0) return '$0';
+            if (value >= 1e9) return '$' + (value / 1e9).toFixed(1) + 'B';
+            if (value >= 1e6) return '$' + (value / 1e6).toFixed(0) + 'M';
+            if (value >= 1e3) return '$' + (value / 1e3).toFixed(0) + 'K';
+            return '$' + value.toFixed(0);
         }
 
         function renderFeeds(data) {

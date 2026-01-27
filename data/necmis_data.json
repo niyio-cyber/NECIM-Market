@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-27T14:52:04.776525Z",
+  "generated": "2026-01-27T15:33:48.478442Z",
   "summary": {
     "total_opportunities": 648,
     "total_value_low": 2628061641,
@@ -7,7 +7,7 @@
     "by_state": {
       "VT": 45,
       "NH": 59,
-      "ME": 168,
+      "ME": 169,
       "MA": 28,
       "NY": 1,
       "RI": 7,
@@ -16,7 +16,7 @@
     },
     "by_category": {
       "dot_letting": 648,
-      "news": 6,
+      "news": 7,
       "funding": 0
     }
   },
@@ -12465,6 +12465,20 @@
   ],
   "news": [
     {
+      "id": "c1b62999a664",
+      "title": "A majority of Washington County municipalities agree to prepay taxes",
+      "summary": "That will help Washington County ease its debt crisis after years of mismanagement.",
+      "url": "https://www.bangordailynews.com/2026/01/27/down-east/downeast-government/maine-washington-county-municipalities-tax-anticipation-note-prepayment/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-01-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "ffdc4428c95f",
       "title": "Driver rescued after crashing into pond in Mass. town",
       "summary": "The car slid off the road and went through a guard rail before falling 15 to 20 feet.",
@@ -12551,13 +12565,13 @@
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 3.4,
-      "trend": "down",
-      "action": "Defensive mode - weak pipeline",
+      "score": 5.5,
+      "trend": "stable",
+      "action": "Maintain position - adequate pipeline",
       "raw": 2885271385.314374,
       "raw_display": "$2.89B",
       "source": "scraper_v2",
-      "updated": "2026-01-27T14:51:56.315582",
+      "updated": "2026-01-27T15:33:22.743304",
       "v2_details": {
         "raw_total": "$2.63B",
         "weighted_total": "$1.60B",
@@ -12655,8 +12669,11 @@
           "date_coverage": "43.9%"
         },
         "scoring_params": {
-          "baseline": 6000000000,
-          "baseline_display": "$6.00B",
+          "baseline_raw": 6000000000,
+          "baseline_raw_display": "$6.00B",
+          "avg_time_weight": 0.61,
+          "baseline_time_weighted": 3663711999.211818,
+          "baseline_time_weighted_display": "$3.66B",
           "score_at_baseline": 7.0,
           "scoring_value": 2885271385.314374,
           "scoring_value_display": "$2.89B"
@@ -12671,7 +12688,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-27T14:51:56.315582"
+      "updated": "2026-01-27T15:33:22.743304"
     },
     "construction_spending": {
       "score": 4.8,
@@ -12681,7 +12698,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-27T14:51:56.315582"
+      "updated": "2026-01-27T15:33:22.743304"
     },
     "migration": {
       "score": 5.0,
@@ -12691,7 +12708,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-27T14:51:56.315582"
+      "updated": "2026-01-27T15:33:22.743304"
     },
     "construction_employment": {
       "score": 4.7,
@@ -12701,7 +12718,7 @@
       "raw_display": "985K workers",
       "yoy_change": -1.3,
       "source": "FRED API",
-      "updated": "2026-01-27T14:51:56.315582"
+      "updated": "2026-01-27T15:33:22.743304"
     },
     "input_cost": {
       "score": 10,
@@ -12719,7 +12736,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T14:51:56.315582"
+      "updated": "2026-01-27T15:33:22.743304"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -12728,10 +12745,10 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-27T14:51:56.315582"
+      "updated": "2026-01-27T15:33:22.743304"
     },
-    "overall_score": 5.8,
-    "overall_status": "watchlist",
+    "overall_score": 6.3,
+    "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
       "housing_permits": "FRED API",
@@ -12741,6 +12758,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-27T14:51:56.315582"
+    "calculated_at": "2026-01-27T15:33:22.743304"
   }
 }

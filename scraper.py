@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-NECMIS Scraper - Phase 6.0 (NH Fiscal Year Extraction)
+NECMIS Scraper - Phase 7.0 (Integrated Market Health Engine)
 ==================================================
 MA: Plain text parser (PRESERVED - NO CHANGES)
 ME: Excel/PDF parser (PRESERVED - NO CHANGES)
 NH: Dynamic multi-approach parser with FISCAL YEAR EXTRACTION (ENHANCED)
 CT: HTML table + Excel parser (PRESERVED - NO CHANGES)
 
-Phase 6.0 Changes:
-- Added fiscal year extraction for NH STIP/TIP projects
-- NH projects now have let_date populated based on Construction FY
-- Enables time-weighted pipeline scoring
+Phase 7.0 Changes:
+- Integrated external market_health_engine.py for real API data
+- Uses FRED API for employment, housing permits, spending
+- Uses EIA API for gas/diesel prices
+- Uses Census API for migration data
+- Falls back to internal scoring if engine not available
 """
 
 import json
@@ -27,6 +29,16 @@ try:
 except ImportError as e:
     print(f"Missing dependency: {e}")
     raise
+
+# Try to import external market health engine
+try:
+    from market_health_engine import calculate_market_health as calculate_real_market_health
+    USE_REAL_MARKET_HEALTH = True
+    print("✅ Using external market_health_engine.py")
+except ImportError:
+    USE_REAL_MARKET_HEALTH = False
+    print("⚠️  market_health_engine.py not found, using basic scoring")
+
 
 
 # =============================================================================
@@ -2141,8 +2153,22 @@ def fetch_rss_feeds() -> List[Dict]:
 # =============================================================================
 
 def calculate_market_health(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
+    """
+    Calculate market health - uses external engine if available, otherwise fallback.
+    """
     total_value = sum(d.get('cost_low') or 0 for d in dot_lettings)
     
+    # Try external market health engine first (v2 with real API data)
+    if USE_REAL_MARKET_HEALTH:
+        try:
+            # Pass project-level data for time-weighted scoring
+            mh = calculate_real_market_health(dot_projects=dot_lettings)
+            print(f"  ✅ Real market health: {mh.get('overall_score', '--')}/10")
+            return mh
+        except Exception as e:
+            print(f"  ⚠️  Market health engine error: {e}, using fallback")
+    
+    # Fallback: basic hardcoded scoring
     if total_value >= 100000000:
         dot_score, dot_trend, dot_action = 9.0, 'up', 'Expand highway capacity - strong pipeline'
     elif total_value >= 50000000:
@@ -2154,17 +2180,26 @@ def calculate_market_health(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
     else:
         dot_score, dot_trend, dot_action = 8.2, 'up', 'Expand highway capacity'
     
+    # Use correct field names matching dashboard expectations
     mh = {
         'dot_pipeline': {'score': dot_score, 'trend': dot_trend, 'action': dot_action},
         'housing_permits': {'score': 6.5, 'trend': 'stable', 'action': 'Monitor trends'},
         'construction_spending': {'score': 6.1, 'trend': 'down', 'action': 'Selective investment'},
         'migration': {'score': 7.3, 'trend': 'up', 'action': 'Geographic expansion'},
-        'input_cost_stability': {'score': 5.5, 'trend': 'down', 'action': 'Hedge 6 months'},
+        'construction_employment': {'score': 5.0, 'trend': 'stable', 'action': 'Stable operations'},  # ADDED
+        'input_cost': {'score': 5.5, 'trend': 'down', 'action': 'Hedge 6 months'},  # RENAMED from input_cost_stability
         'infrastructure_funding': {'score': 7.8, 'trend': 'stable', 'action': 'Selective growth'}
     }
     
-    weights = {'dot_pipeline': 0.15, 'housing_permits': 0.10, 'construction_spending': 0.10,
-               'migration': 0.10, 'input_cost_stability': 0.08, 'infrastructure_funding': 0.07}
+    weights = {
+        'dot_pipeline': 0.15, 
+        'housing_permits': 0.10, 
+        'construction_spending': 0.08,
+        'migration': 0.07, 
+        'construction_employment': 0.08,  # ADDED
+        'input_cost': 0.07,  # RENAMED
+        'infrastructure_funding': 0.05
+    }
     
     total_w = sum(mh[k]['score'] * weights[k] for k in weights)
     sum_w = sum(weights.values())

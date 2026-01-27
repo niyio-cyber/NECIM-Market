@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """
-NECMIS Market Health Engine v1.0
+NECMIS Market Health Engine v2.0
 ================================
 Real-time market health scoring using external APIs (FRED, EIA, Census).
-Replaces hardcoded values with actual economic data.
+
+v2.0 Changes:
+- DOT Pipeline: Time-weighted scoring (near-term projects count more)
+- DOT Pipeline: FHWA-weighted state extrapolation (not naive linear)
+- DOT Pipeline: Accepts project-level data for proper scoring
+- Input Cost: Combined gas/diesel (60/40 weighting)
 
 Usage:
     from market_health_engine import calculate_market_health
     
-    # With DOT pipeline data from scraper
-    mh = calculate_market_health(dot_pipeline_total=150_000_000)
+    # With DOT pipeline project data from scraper
+    mh = calculate_market_health(dot_projects=scraper_output['dot_lettings'])
     
-    # Or standalone
-    mh = calculate_market_health()
+    # Or with just total (legacy mode - less accurate)
+    mh = calculate_market_health(dot_pipeline_total=150_000_000)
 """
 
 import os
@@ -27,6 +32,89 @@ try:
 except ImportError:
     print("Missing requests library. Install with: pip install requests")
     raise
+
+
+# =============================================================================
+# FHWA APPORTIONMENT RATIOS (FY2024) - For state-weighted extrapolation
+# =============================================================================
+
+FHWA_APPORTIONMENTS = {
+    'NY': 1_829_000_000,   # $1.829B - 31.4%
+    'PA': 1_901_000_000,   # $1.901B - 32.6%
+    'MA': 719_000_000,     # $719M - 12.3%
+    'CT': 558_000_000,     # $558M - 9.6%
+    'NH': 193_000_000,     # $193M - 3.3%
+    'ME': 213_000_000,     # $213M - 3.7%
+    'VT': 200_000_000,     # $200M - 3.4%
+    'RI': 216_000_000,     # $216M - 3.7%
+}
+
+# Calculate 8-state total and ratios
+FHWA_8_STATE_TOTAL = sum(FHWA_APPORTIONMENTS.values())  # $5.829B
+
+STATE_RATIOS = {
+    state: amount / FHWA_8_STATE_TOTAL 
+    for state, amount in FHWA_APPORTIONMENTS.items()
+}
+
+
+# =============================================================================
+# TIME WEIGHTING FOR DOT PIPELINE
+# =============================================================================
+
+def get_time_weight(project_date: Optional[str], reference_date: datetime = None) -> float:
+    """
+    Calculate time weight for a project based on its bid/let date.
+    Near-term = full weight, long-term = reduced weight.
+    """
+    if reference_date is None:
+        reference_date = datetime.now()
+    
+    if not project_date:
+        return 0.5  # No date = assume mid-term
+    
+    try:
+        proj_date = datetime.strptime(project_date, '%Y-%m-%d')
+    except (ValueError, TypeError):
+        return 0.5
+    
+    days_out = (proj_date - reference_date).days
+    
+    if days_out < 0:
+        return 0.8  # Past date - still valuable
+    elif days_out <= 180:  # 0-6 months
+        return 1.0
+    elif days_out <= 365:  # 6-12 months
+        return 0.7
+    elif days_out <= 540:  # 12-18 months
+        return 0.5
+    elif days_out <= 730:  # 18-24 months
+        return 0.3
+    else:  # 24+ months
+        return 0.1
+
+
+def categorize_time_horizon(project_date: Optional[str], reference_date: datetime = None) -> str:
+    """Categorize project into near/mid/long term buckets."""
+    if reference_date is None:
+        reference_date = datetime.now()
+    
+    if not project_date:
+        return 'unknown'
+    
+    try:
+        proj_date = datetime.strptime(project_date, '%Y-%m-%d')
+    except (ValueError, TypeError):
+        return 'unknown'
+    
+    days_out = (proj_date - reference_date).days
+    
+    if days_out <= 180:
+        return 'near'
+    elif days_out <= 540:
+        return 'mid'
+    else:
+        return 'long'
 
 
 # =============================================================================
@@ -78,13 +166,16 @@ WEIGHTS = {
 
 # Baselines (from PRD - verified against 2024 data)
 BASELINES = {
-    'dot_pipeline': 4_000_000_000,      # $4.0B annual
+    'dot_pipeline': 6_000_000_000,      # $6.0B visible pipeline (v2 - derived from FHWA)
     'housing_permits_monthly': 15_000,   # 15K permits/month across 8 states
     'construction_spending': 143_000,    # $143B SAAR (millions in FRED)
     'gasoline': 3.20,                    # $3.20/gal regular gasoline (2024 avg)
     'diesel': 4.00,                      # $4.00/gal diesel (2024 actual avg)
     'infrastructure_funding': 5_500_000_000,  # $5.5B pre-IIJA
 }
+
+# DOT Pipeline scoring parameters (v2)
+DOT_SCORE_AT_BASELINE = 7.0  # Score when pipeline equals baseline
 
 # Input cost weights (gas is more important for fleet operations)
 INPUT_COST_WEIGHTS = {
@@ -243,22 +334,177 @@ def fetch_census_population() -> Dict[str, Dict]:
 
 def score_dot_pipeline(total_pipeline_dollars: float) -> Tuple[float, str]:
     """
-    Score DOT project pipeline.
-    Formula: Score = (pipeline / $4.0B) × 7.5, clamped to 0-10
+    Score DOT project pipeline (legacy mode - simple total).
+    Use score_dot_pipeline_v2() for time-weighted scoring with project data.
+    
+    Formula: Score = (pipeline / $6.0B) × 7.0, clamped to 0-10
     """
     baseline = BASELINES['dot_pipeline']
-    raw_score = (total_pipeline_dollars / baseline) * 7.5
+    raw_score = (total_pipeline_dollars / baseline) * DOT_SCORE_AT_BASELINE
     score = max(0, min(10, raw_score))
     
     # Determine action
-    if score >= 7.5:
-        action = 'Expand highway capacity - strong pipeline'
+    if score >= 8.0:
+        action = 'Aggressive expansion - strong pipeline'
+    elif score >= 7.0:
+        action = 'Expand capacity - healthy pipeline'
     elif score >= 5.5:
-        action = 'Maintain position'
+        action = 'Maintain position - adequate pipeline'
+    elif score >= 4.0:
+        action = 'Selective bidding - pipeline softening'
     else:
-        action = 'Defensive mode - monitor opportunities'
+        action = 'Defensive mode - weak pipeline'
     
     return round(score, 1), action
+
+
+def score_dot_pipeline_v2(projects: List[Dict], reference_date: datetime = None) -> Dict:
+    """
+    Score DOT pipeline with time-weighting and FHWA state extrapolation (v2).
+    
+    Args:
+        projects: List of project dicts with keys:
+            - state: str (MA, ME, NH, CT, VT, NY, RI, PA)
+            - cost_low: float (project value in dollars)
+            - ad_date or let_date: str (YYYY-MM-DD format, optional)
+        reference_date: Date to calculate time weights from (default: today)
+    
+    Returns:
+        Dict with detailed scoring breakdown
+    """
+    if reference_date is None:
+        reference_date = datetime.now()
+    
+    # Initialize accumulators
+    state_raw_totals = {}
+    state_weighted_totals = {}
+    horizon_totals = {'near': 0, 'mid': 0, 'long': 0, 'unknown': 0}
+    horizon_counts = {'near': 0, 'mid': 0, 'long': 0, 'unknown': 0}
+    
+    total_raw = 0
+    total_weighted = 0
+    projects_with_cost = 0
+    projects_with_date = 0
+    
+    for proj in projects:
+        state = proj.get('state')
+        cost = proj.get('cost_low') or 0
+        
+        # Get best available date
+        proj_date = proj.get('let_date') or proj.get('ad_date')
+        
+        if cost > 0:
+            projects_with_cost += 1
+            
+            # Track raw totals by state
+            if state not in state_raw_totals:
+                state_raw_totals[state] = 0
+                state_weighted_totals[state] = 0
+            state_raw_totals[state] += cost
+            
+            # Calculate time weight
+            weight = get_time_weight(proj_date, reference_date)
+            weighted_cost = cost * weight
+            state_weighted_totals[state] += weighted_cost
+            
+            total_raw += cost
+            total_weighted += weighted_cost
+            
+            # Categorize by horizon
+            horizon = categorize_time_horizon(proj_date, reference_date)
+            horizon_totals[horizon] += cost
+            horizon_counts[horizon] += 1
+            
+            if proj_date:
+                projects_with_date += 1
+    
+    # FHWA-weighted extrapolation
+    captured_ratio = sum(STATE_RATIOS.get(s, 0) for s in state_raw_totals.keys())
+    
+    if captured_ratio > 0:
+        extrapolated_raw = total_raw / captured_ratio
+        extrapolated_weighted = total_weighted / captured_ratio
+    else:
+        extrapolated_raw = total_raw
+        extrapolated_weighted = total_weighted
+    
+    # Estimate each missing state
+    state_estimates = dict(state_raw_totals)
+    for state in ['MA', 'ME', 'NH', 'CT', 'VT', 'NY', 'RI', 'PA']:
+        if state not in state_estimates:
+            state_estimates[state] = extrapolated_raw * STATE_RATIOS.get(state, 0)
+    
+    # Score based on TIME-WEIGHTED, EXTRAPOLATED total
+    scoring_value = extrapolated_weighted
+    raw_score = (scoring_value / BASELINES['dot_pipeline']) * DOT_SCORE_AT_BASELINE
+    score = max(0, min(10, raw_score))
+    
+    # Determine action
+    if score >= 8.0:
+        action = 'Aggressive expansion - strong near-term pipeline'
+    elif score >= 7.0:
+        action = 'Expand capacity - healthy pipeline'
+    elif score >= 5.5:
+        action = 'Maintain position - adequate pipeline'
+    elif score >= 4.0:
+        action = 'Selective bidding - pipeline softening'
+    else:
+        action = 'Defensive mode - weak pipeline'
+    
+    # Format currency helper
+    def fmt(amt):
+        if amt >= 1_000_000_000:
+            return f"${amt/1_000_000_000:.2f}B"
+        elif amt >= 1_000_000:
+            return f"${amt/1_000_000:.1f}M"
+        return f"${amt:,.0f}"
+    
+    return {
+        'score': round(score, 1),
+        'action': action,
+        'raw_total': total_raw,
+        'weighted_total': total_weighted,
+        'extrapolated_total': extrapolated_raw,
+        'extrapolated_weighted': extrapolated_weighted,
+        'raw_display': fmt(total_raw),
+        'weighted_display': fmt(total_weighted),
+        'extrapolated_display': fmt(extrapolated_raw),
+        'by_horizon': {
+            'near': {'value': horizon_totals['near'], 'display': fmt(horizon_totals['near']), 
+                    'count': horizon_counts['near'], 'label': '0-6 months'},
+            'mid': {'value': horizon_totals['mid'], 'display': fmt(horizon_totals['mid']), 
+                   'count': horizon_counts['mid'], 'label': '6-18 months'},
+            'long': {'value': horizon_totals['long'], 'display': fmt(horizon_totals['long']), 
+                    'count': horizon_counts['long'], 'label': '18+ months'},
+            'unknown': {'value': horizon_totals['unknown'], 'display': fmt(horizon_totals['unknown']), 
+                       'count': horizon_counts['unknown'], 'label': 'No date'},
+        },
+        'by_state': {
+            state: {
+                'raw': state_raw_totals.get(state, 0),
+                'weighted': state_weighted_totals.get(state, 0),
+                'estimated': state_estimates.get(state, 0),
+                'is_scraped': state in state_raw_totals,
+                'fhwa_ratio': f"{STATE_RATIOS.get(state, 0)*100:.1f}%"
+            }
+            for state in ['MA', 'ME', 'NH', 'CT', 'VT', 'NY', 'RI', 'PA']
+        },
+        'coverage': {
+            'states_with_data': len(state_raw_totals),
+            'states_total': 8,
+            'market_coverage': f"{captured_ratio*100:.1f}%",
+            'projects_with_cost': projects_with_cost,
+            'projects_with_date': projects_with_date,
+            'date_coverage': f"{projects_with_date/projects_with_cost*100:.1f}%" if projects_with_cost > 0 else "0%"
+        },
+        'scoring_params': {
+            'baseline': BASELINES['dot_pipeline'],
+            'baseline_display': fmt(BASELINES['dot_pipeline']),
+            'score_at_baseline': DOT_SCORE_AT_BASELINE,
+            'scoring_value': scoring_value,
+            'scoring_value_display': fmt(scoring_value)
+        }
+    }
 
 
 def score_housing_permits(current_total: float, year_ago_total: float) -> Tuple[float, str, float]:
@@ -523,19 +769,21 @@ def save_cache(cache: Dict):
 # MAIN CALCULATION
 # =============================================================================
 
-def calculate_market_health(dot_pipeline_total: float = None, 
+def calculate_market_health(dot_projects: List[Dict] = None,
+                           dot_pipeline_total: float = None, 
                            available_states: int = 4) -> Dict:
     """
     Calculate comprehensive market health scores.
     
     Args:
-        dot_pipeline_total: Total $ value from DOT scrapers (if None, uses cache)
-        available_states: Number of states with working scrapers (for extrapolation)
+        dot_projects: List of project dicts from scraper (preferred - enables v2 scoring)
+        dot_pipeline_total: Total $ value from DOT scrapers (legacy fallback)
+        available_states: Number of states with working scrapers (for legacy extrapolation)
     
     Returns:
         Dict with all market health metrics, scores, trends, and actions
     """
-    print("📊 Calculating Market Health Scores...")
+    print("📊 Calculating Market Health Scores (v2.0)...")
     cache = load_cache()
     now = datetime.now()
     
@@ -543,21 +791,45 @@ def calculate_market_health(dot_pipeline_total: float = None,
     data_sources = {}
     
     # -------------------------------------------------------------------------
-    # 1. DOT Pipeline (from scraper data)
+    # 1. DOT Pipeline (from scraper data) - v2 with time-weighting
     # -------------------------------------------------------------------------
     print("  [1/7] DOT Pipeline...")
-    if dot_pipeline_total is not None and dot_pipeline_total > 0:
-        # Extrapolate if partial coverage
-        if available_states < 8:
-            extrapolated = dot_pipeline_total / (available_states / 8)
-            print(f"    Extrapolating from {available_states} states: ${dot_pipeline_total:,.0f} → ${extrapolated:,.0f}")
+    
+    dot_details = None  # Will hold v2 detailed breakdown
+    
+    if dot_projects is not None and len(dot_projects) > 0:
+        # V2 SCORING: Use project-level data for time-weighting
+        dot_details = score_dot_pipeline_v2(dot_projects, now)
+        dot_score = dot_details['score']
+        dot_action = dot_details['action']
+        dot_pipeline_total = dot_details['extrapolated_weighted']
+        
+        # Calculate trend from cache
+        dot_trend = calculate_trend(dot_pipeline_total, 
+                                    cache.get('last_values', {}).get('dot_pipeline', dot_pipeline_total))
+        cache.setdefault('last_values', {})['dot_pipeline'] = dot_pipeline_total
+        data_sources['dot_pipeline'] = 'scraper_v2'
+        
+        print(f"    Raw: {dot_details['raw_display']} ({dot_details['coverage']['states_with_data']} states)")
+        print(f"    Time-weighted: {dot_details['weighted_display']}")
+        print(f"    Extrapolated: {dot_details['extrapolated_display']} ({dot_details['coverage']['market_coverage']} coverage)")
+        print(f"    Date coverage: {dot_details['coverage']['date_coverage']}")
+        
+    elif dot_pipeline_total is not None and dot_pipeline_total > 0:
+        # LEGACY: Use simple total (no time-weighting)
+        # Apply FHWA-weighted extrapolation instead of naive linear
+        states_present = ['MA', 'ME', 'NH', 'CT'][:available_states]  # Assume these states
+        captured_ratio = sum(STATE_RATIOS.get(s, 0) for s in states_present)
+        if captured_ratio > 0:
+            extrapolated = dot_pipeline_total / captured_ratio
+            print(f"    Extrapolating via FHWA weights: ${dot_pipeline_total:,.0f} / {captured_ratio:.1%} = ${extrapolated:,.0f}")
             dot_pipeline_total = extrapolated
         
         dot_score, dot_action = score_dot_pipeline(dot_pipeline_total)
         dot_trend = calculate_trend(dot_pipeline_total, 
                                     cache.get('last_values', {}).get('dot_pipeline', dot_pipeline_total))
         cache.setdefault('last_values', {})['dot_pipeline'] = dot_pipeline_total
-        data_sources['dot_pipeline'] = 'scraper'
+        data_sources['dot_pipeline'] = 'scraper_legacy'
     else:
         # Use cached or default
         cached_val = cache.get('last_values', {}).get('dot_pipeline', 2_000_000_000)
@@ -737,16 +1009,32 @@ def calculate_market_health(dot_pipeline_total: float = None,
     # -------------------------------------------------------------------------
     # BUILD RESULT
     # -------------------------------------------------------------------------
+    
+    # DOT pipeline result - include v2 details if available
+    dot_result = {
+        'score': dot_score,
+        'trend': dot_trend,
+        'action': dot_action,
+        'raw': dot_pipeline_total,
+        'raw_display': f"${dot_pipeline_total/1e9:.2f}B" if dot_pipeline_total >= 1e9 else f"${dot_pipeline_total/1e6:.1f}M",
+        'source': data_sources['dot_pipeline'],
+        'updated': now.isoformat()
+    }
+    
+    # Add v2 detailed breakdown if available
+    if dot_details:
+        dot_result['v2_details'] = {
+            'raw_total': dot_details['raw_display'],
+            'weighted_total': dot_details['weighted_display'],
+            'extrapolated_total': dot_details['extrapolated_display'],
+            'by_horizon': dot_details['by_horizon'],
+            'by_state': dot_details['by_state'],
+            'coverage': dot_details['coverage'],
+            'scoring_params': dot_details['scoring_params']
+        }
+    
     result = {
-        'dot_pipeline': {
-            'score': dot_score,
-            'trend': dot_trend,
-            'action': dot_action,
-            'raw': dot_pipeline_total,
-            'raw_display': f"${dot_pipeline_total/1e9:.2f}B" if dot_pipeline_total >= 1e9 else f"${dot_pipeline_total/1e6:.1f}M",
-            'source': data_sources['dot_pipeline'],
-            'updated': now.isoformat()
-        },
+        'dot_pipeline': dot_result,
         'housing_permits': {
             'score': permits_score,
             'trend': permits_trend,

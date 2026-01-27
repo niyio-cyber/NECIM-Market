@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-27T17:13:21.785675Z",
+  "generated": "2026-01-27T17:27:27.310877Z",
   "summary": {
     "total_opportunities": 648,
     "total_value_low": 2628061641,
@@ -7,7 +7,7 @@
     "by_state": {
       "VT": 45,
       "NH": 59,
-      "ME": 169,
+      "ME": 170,
       "MA": 26,
       "NY": 1,
       "RI": 7,
@@ -16,7 +16,7 @@
     },
     "by_category": {
       "dot_letting": 648,
-      "news": 5,
+      "news": 6,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -13270,6 +13270,20 @@
   ],
   "news": [
     {
+      "id": "c9e47a2a281c",
+      "title": "Healthy Acadia to host free \u2018Seeds of Change\u2019 documentary screenings in Eastport, Machias, Milbridge",
+      "summary": "Healthy Acadia will host a series of free community screenings of the acclaimed short documentary \u201cSeeds of Change\u201d, featuring farmer and food justice advocate Mark McBrine, on Feb. 6, 7, and 8 at venues across Washington County. Screening dates and locations are: \u201cSeeds of Change\u201d chronicles the in",
+      "url": "https://www.bangordailynews.com/2026/01/27/bdn-maine/healthy-acadia-to-host-free-seeds-of-change-documentary-screenings-in-eastport-machias-milbridge/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-01-27",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "c1b62999a664",
       "title": "A majority of Washington County municipalities agree to prepay taxes",
       "summary": "That will help Washington County ease its debt crisis after years of mismanagement.",
@@ -13348,7 +13362,7 @@
       "raw": 2885271385.314374,
       "raw_display": "$2.89B",
       "source": "scraper_v2",
-      "updated": "2026-01-27T17:12:56.117487",
+      "updated": "2026-01-27T17:27:20.574518",
       "v2_details": {
         "raw_total": "$2.63B",
         "weighted_total": "$1.60B",
@@ -13465,7 +13479,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-27T17:12:56.117487"
+      "updated": "2026-01-27T17:27:20.574518"
     },
     "construction_spending": {
       "score": 4.8,
@@ -13475,7 +13489,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-27T17:12:56.117487"
+      "updated": "2026-01-27T17:27:20.574518"
     },
     "migration": {
       "score": 5.0,
@@ -13485,7 +13499,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-27T17:12:56.117487"
+      "updated": "2026-01-27T17:27:20.574518"
     },
     "construction_employment": {
       "score": 4.7,
@@ -13495,7 +13509,7 @@
       "raw_display": "985K workers",
       "yoy_change": -1.3,
       "source": "FRED API",
-      "updated": "2026-01-27T17:12:56.117487"
+      "updated": "2026-01-27T17:27:20.574518"
     },
     "input_cost": {
       "score": 10,
@@ -13513,7 +13527,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T17:12:56.117487"
+      "updated": "2026-01-27T17:27:20.574518"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -13522,7 +13536,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-27T17:12:56.117487"
+      "updated": "2026-01-27T17:27:20.574518"
     },
     "overall_score": 6.3,
     "overall_status": "stable",
@@ -13535,6 +13549,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-27T17:12:56.117487"
+    "calculated_at": "2026-01-27T17:27:20.574518"
   }
 }

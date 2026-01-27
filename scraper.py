@@ -1205,6 +1205,9 @@ def parse_nhdot() -> List[Dict]:
     # ==========================================================================
     print(f"    🔍 Tier 0: NH STIP PDF (Primary)...")
     
+    # Track seen project IDs to prevent duplicates across multiple STIP PDFs
+    seen_project_ids = set()
+    
     for stip_source in NH_LIVE_SOURCES.get('stip', []):
         try:
             response = requests.get(stip_source['url'], timeout=60, headers=get_full_browser_headers())
@@ -1218,7 +1221,17 @@ def parse_nhdot() -> List[Dict]:
             # Parse STIP PDF
             parsed = parse_nh_stip_pdf(response.content, stip_source['url'])
             if parsed:
-                lettings.extend(parsed)
+                # DEDUPLICATE: Only add projects not already seen from other STIP PDFs
+                new_projects = 0
+                for proj in parsed:
+                    proj_id = proj.get('project_id')
+                    if proj_id and proj_id in seen_project_ids:
+                        continue  # Skip duplicate
+                    if proj_id:
+                        seen_project_ids.add(proj_id)
+                    lettings.append(proj)
+                    new_projects += 1
+                print(f"      {stip_source['name']}: {new_projects} new projects (deduped from {len(parsed)})")
                 
         except Exception as e:
             sources_tried.append(f"{stip_source['name']}: {type(e).__name__}")
@@ -1299,6 +1312,9 @@ def parse_nhdot() -> List[Dict]:
     # ==========================================================================
     print(f"    🔍 Tier 3: RPC TIP PDFs (Direct Links)...")
     
+    # Track seen project IDs to prevent duplicates across multiple RPC PDFs
+    seen_project_ids = set()
+    
     for rpc_pdf in NH_LIVE_SOURCES.get('rpc_pdfs', []):
         try:
             response = session.get(rpc_pdf['url'], timeout=60, allow_redirects=True)
@@ -1310,8 +1326,17 @@ def parse_nhdot() -> List[Dict]:
             # Parse TIP PDF using dedicated parser
             parsed = parse_rpc_tip_pdf_detailed(response.content, rpc_pdf['name'], rpc_pdf['region'], rpc_pdf['url'])
             if parsed:
-                lettings.extend(parsed)
-                sources_tried.append(f"{rpc_pdf['name']}: PDF {len(parsed)} projects")
+                # DEDUPLICATE: Only add projects not already seen from other RPC PDFs
+                new_projects = 0
+                for proj in parsed:
+                    proj_id = proj.get('project_id')
+                    if proj_id and proj_id in seen_project_ids:
+                        continue  # Skip duplicate
+                    if proj_id:
+                        seen_project_ids.add(proj_id)
+                    lettings.append(proj)
+                    new_projects += 1
+                sources_tried.append(f"{rpc_pdf['name']}: PDF {new_projects} new (deduped from {len(parsed)})")
             else:
                 sources_tried.append(f"{rpc_pdf['name']}: PDF parse failed")
                 
@@ -1329,6 +1354,9 @@ def parse_nhdot() -> List[Dict]:
     # ==========================================================================
     print(f"    🔍 Tier 4: RPC HTML Pages...")
     
+    # Track seen project IDs to prevent duplicates across multiple RPC sources
+    seen_project_ids = set()
+    
     for rpc in NH_LIVE_SOURCES.get('rpc', []):
         try:
             # Use session for RPC sites too
@@ -1344,16 +1372,34 @@ def parse_nhdot() -> List[Dict]:
             if 'pdf' in content_type or rpc['url'].endswith('.pdf'):
                 parsed = parse_rpc_tip_pdf(response.content, rpc['name'], rpc['region'])
                 if parsed:
-                    lettings.extend(parsed)
-                    sources_tried.append(f"{rpc['name']}: PDF {len(parsed)} projects")
+                    # DEDUPLICATE
+                    new_projects = 0
+                    for proj in parsed:
+                        proj_id = proj.get('project_id')
+                        if proj_id and proj_id in seen_project_ids:
+                            continue
+                        if proj_id:
+                            seen_project_ids.add(proj_id)
+                        lettings.append(proj)
+                        new_projects += 1
+                    sources_tried.append(f"{rpc['name']}: PDF {new_projects} new (deduped from {len(parsed)})")
                 else:
                     sources_tried.append(f"{rpc['name']}: PDF no projects")
             else:
                 # Parse HTML
                 parsed = parse_rpc_html(response.text, rpc['url'], rpc['name'], rpc['region'])
                 if parsed:
-                    lettings.extend(parsed)
-                    sources_tried.append(f"{rpc['name']}: HTML {len(parsed)} projects")
+                    # DEDUPLICATE
+                    new_projects = 0
+                    for proj in parsed:
+                        proj_id = proj.get('project_id')
+                        if proj_id and proj_id in seen_project_ids:
+                            continue
+                        if proj_id:
+                            seen_project_ids.add(proj_id)
+                        lettings.append(proj)
+                        new_projects += 1
+                    sources_tried.append(f"{rpc['name']}: HTML {new_projects} new (deduped from {len(parsed)})")
                 else:
                     sources_tried.append(f"{rpc['name']}: HTML no projects")
                     

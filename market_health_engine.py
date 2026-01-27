@@ -435,8 +435,23 @@ def score_dot_pipeline_v2(projects: List[Dict], reference_date: datetime = None)
             state_estimates[state] = extrapolated_raw * STATE_RATIOS.get(state, 0)
     
     # Score based on TIME-WEIGHTED, EXTRAPOLATED total
+    # 
+    # CRITICAL FIX: Apply time-weighting to baseline for consistent comparison
+    # The $6.0B baseline assumes full 18-month visibility, but time-weighting
+    # discounts long-term projects. We must discount the baseline the same way.
+    #
+    # Calculate actual average time weight from the data:
+    if total_raw > 0:
+        actual_avg_time_weight = total_weighted / total_raw
+    else:
+        actual_avg_time_weight = 0.5  # Default if no data
+    
+    # Time-weighted baseline = raw baseline × actual average weight
+    # This ensures we compare weighted pipeline to weighted expectation
+    time_weighted_baseline = BASELINES['dot_pipeline'] * actual_avg_time_weight
+    
     scoring_value = extrapolated_weighted
-    raw_score = (scoring_value / BASELINES['dot_pipeline']) * DOT_SCORE_AT_BASELINE
+    raw_score = (scoring_value / time_weighted_baseline) * DOT_SCORE_AT_BASELINE
     score = max(0, min(10, raw_score))
     
     # Determine action
@@ -498,8 +513,11 @@ def score_dot_pipeline_v2(projects: List[Dict], reference_date: datetime = None)
             'date_coverage': f"{projects_with_date/projects_with_cost*100:.1f}%" if projects_with_cost > 0 else "0%"
         },
         'scoring_params': {
-            'baseline': BASELINES['dot_pipeline'],
-            'baseline_display': fmt(BASELINES['dot_pipeline']),
+            'baseline_raw': BASELINES['dot_pipeline'],
+            'baseline_raw_display': fmt(BASELINES['dot_pipeline']),
+            'avg_time_weight': round(actual_avg_time_weight, 2),
+            'baseline_time_weighted': time_weighted_baseline,
+            'baseline_time_weighted_display': fmt(time_weighted_baseline),
             'score_at_baseline': DOT_SCORE_AT_BASELINE,
             'scoring_value': scoring_value,
             'scoring_value_display': fmt(scoring_value)

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-27T03:40:00.635861Z",
+  "generated": "2026-01-27T03:59:34.459659Z",
   "summary": {
     "total_opportunities": 646,
     "total_value_low": 1909813071,
@@ -12509,36 +12509,196 @@
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 9.0,
+      "score": 6.7,
       "trend": "up",
-      "action": "Expand highway capacity - strong pipeline"
+      "action": "Maintain position - adequate pipeline",
+      "raw": 5723400332.377067,
+      "raw_display": "$5.72B",
+      "source": "scraper_v2",
+      "updated": "2026-01-27T03:59:34.313258",
+      "v2_details": {
+        "raw_total": "$1.91B",
+        "weighted_total": "$1.10B",
+        "extrapolated_total": "$9.90B",
+        "by_horizon": {
+          "near": {
+            "value": 389397581,
+            "display": "$389.4M",
+            "count": 108,
+            "label": "0-6 months"
+          },
+          "mid": {
+            "value": 0,
+            "display": "$0",
+            "count": 0,
+            "label": "6-18 months"
+          },
+          "long": {
+            "value": 0,
+            "display": "$0",
+            "count": 0,
+            "label": "18+ months"
+          },
+          "unknown": {
+            "value": 1520415490,
+            "display": "$1.52B",
+            "count": 195,
+            "label": "No date"
+          }
+        },
+        "by_state": {
+          "MA": {
+            "raw": 222617581,
+            "weighted": 178094064.80000004,
+            "estimated": 222617581,
+            "is_scraped": true,
+            "fhwa_ratio": "12.3%"
+          },
+          "ME": {
+            "raw": 610760000,
+            "weighted": 388307400.0,
+            "estimated": 610760000,
+            "is_scraped": true,
+            "fhwa_ratio": "3.7%"
+          },
+          "NH": {
+            "raw": 1076435490,
+            "weighted": 538217745.0,
+            "estimated": 1076435490,
+            "is_scraped": true,
+            "fhwa_ratio": "3.3%"
+          },
+          "CT": {
+            "raw": 0,
+            "weighted": 0,
+            "estimated": 947267283.2159998,
+            "is_scraped": false,
+            "fhwa_ratio": "9.6%"
+          },
+          "VT": {
+            "raw": 0,
+            "weighted": 0,
+            "estimated": 339522323.7333333,
+            "is_scraped": false,
+            "fhwa_ratio": "3.4%"
+          },
+          "NY": {
+            "raw": 0,
+            "weighted": 0,
+            "estimated": 3104931650.5413327,
+            "is_scraped": false,
+            "fhwa_ratio": "31.4%"
+          },
+          "RI": {
+            "raw": 0,
+            "weighted": 0,
+            "estimated": 366684109.63199997,
+            "is_scraped": false,
+            "fhwa_ratio": "3.7%"
+          },
+          "PA": {
+            "raw": 0,
+            "weighted": 0,
+            "estimated": 3227159687.0853324,
+            "is_scraped": false,
+            "fhwa_ratio": "32.6%"
+          }
+        },
+        "coverage": {
+          "states_with_data": 3,
+          "states_total": 8,
+          "market_coverage": "19.3%",
+          "projects_with_cost": 303,
+          "projects_with_date": 108,
+          "date_coverage": "35.6%"
+        },
+        "scoring_params": {
+          "baseline": 6000000000,
+          "baseline_display": "$6.00B",
+          "score_at_baseline": 7.0,
+          "scoring_value": 5723400332.377067,
+          "scoring_value_display": "$5.72B"
+        }
+      }
     },
     "housing_permits": {
       "score": 6.5,
       "trend": "stable",
-      "action": "Monitor trends"
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T03:59:34.313258"
     },
     "construction_spending": {
-      "score": 6.1,
-      "trend": "down",
-      "action": "Selective investment"
+      "score": 5.0,
+      "trend": "stable",
+      "action": "Selective investment",
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T03:59:34.313258"
     },
     "migration": {
-      "score": 7.3,
-      "trend": "up",
-      "action": "Geographic expansion"
+      "score": 5.0,
+      "trend": "stable",
+      "action": "Maintain footprint",
+      "raw": 47710000,
+      "raw_display": "47.7M people",
+      "pct_change": -0.16,
+      "source": "Census API",
+      "updated": "2026-01-27T03:59:34.313258"
     },
-    "input_cost_stability": {
-      "score": 5.5,
-      "trend": "down",
-      "action": "Hedge 6 months"
+    "construction_employment": {
+      "score": 5.0,
+      "trend": "stable",
+      "action": "Stable operations",
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T03:59:34.313258"
+    },
+    "input_cost": {
+      "score": 9.5,
+      "trend": "stable",
+      "action": "Lock contracts",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "gasoline": {
+        "price": 3.18,
+        "score": 9.9,
+        "weight": "60%"
+      },
+      "diesel": {
+        "price": 4.31,
+        "score": 8.8,
+        "weight": "40%"
+      },
+      "source": "historical data",
+      "updated": "2026-01-27T03:59:34.313258"
     },
     "infrastructure_funding": {
-      "score": 7.8,
-      "trend": "stable",
-      "action": "Selective growth"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Major expansion",
+      "raw": 7000000000,
+      "raw_display": "$7.0B",
+      "source": "IIJA hardcoded",
+      "updated": "2026-01-27T03:59:34.313258"
     },
-    "overall_score": 7.2,
-    "overall_status": "stable"
+    "overall_score": 6.5,
+    "overall_status": "stable",
+    "data_sources": {
+      "dot_pipeline": "scraper_v2",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
+      "migration": "Census API",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
+      "infrastructure_funding": "IIJA hardcoded"
+    },
+    "calculated_at": "2026-01-27T03:59:34.313258"
   }
 }

@@ -1,14 +1,14 @@
 {
-  "generated": "2026-01-26T11:39:15.329588Z",
+  "generated": "2026-01-27T02:23:29.774619Z",
   "summary": {
-    "total_opportunities": 649,
+    "total_opportunities": 646,
     "total_value_low": 1909813071,
     "total_value_high": 1909813071,
     "by_state": {
-      "VT": 3,
+      "VT": 2,
       "NH": 113,
-      "ME": 171,
-      "MA": 26,
+      "ME": 168,
+      "MA": 27,
       "NY": 1,
       "RI": 1,
       "CT": 338,
@@ -17,7 +17,7 @@
     "by_category": {
       "dot_letting": 646,
       "news": 5,
-      "funding": 3
+      "funding": 0
     }
   },
   "dot_lettings": [
@@ -12327,28 +12327,13 @@
   ],
   "news": [
     {
-      "id": "b1ff9b4f21ab",
-      "title": "Maine must continue to support public broadcasting | Letter",
-      "summary": "On Friday, Jan. 9, the moderators of PBS NewsHour ended their broadcast with the\u00a0 announcement that \u2014 because of the fiscal crisis created by the Trump administration\u2019s defunding of the Corporation For Public Broadcasting \u2014 PBS News Weekend would have to be discontinued. The regret voiced by Geoff B",
-      "url": "https://www.pressherald.com/2026/01/25/maine-must-continue-to-support-public-broadcasting-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-26",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "7a6ffd6a035a",
-      "title": "Northeast gets last brunt of winter storm that brought ice, snow, cold to much of the US",
-      "summary": "The U.S. work week opened with yet more snow dumping on the Northeast under the tail end of a colossal winter storm that brought ice and power outages, impassable roads, canceled flights and frigid cold to much of the southern and eastern United States. Deep snow \u2014 over a foot (30 centimeters) exten",
-      "url": "https://www.bangordailynews.com/2026/01/26/nation/northeast-gets-last-brunt-of-winter-storm-that-brought-ice-snow-cold-to-much-of-the-us/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-01-26",
+      "id": "ea494e9bf954",
+      "title": "Where to watch Arizona vs. BYU free stream today",
+      "summary": "The No. 1 Arizona Wildcats hit the road on Monday, Jan. 26 to face off with the No. 13 BYU Cougars.",
+      "url": "https://www.masslive.com/tv/2026/01/where-to-watch-arizona-vs-byu-free-stream-today.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-27",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -12356,17 +12341,17 @@
       ]
     },
     {
-      "id": "1d3871ecdb92",
-      "title": "Emergency bill to let towns, counties file for bankruptcy protection garners little support",
-      "summary": "The Maine County Commissioners Association and the Maine Municipal Association testified against the bill Wednesday, citing concerns that interest rates could rise if banks get nervous about lending.",
-      "url": "https://www.pressherald.com/2026/01/25/emergency-bill-to-let-towns-counties-file-for-bankruptcy-protection-garners-little-support/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-25",
+      "id": "c79a456c8fe6",
+      "title": "NHMA: Statewide Zoning Mandates Didn\u2019t Help NH\u2019s Housing Crisis",
+      "summary": "Statewide zoning mandates enacted in 2025 did little to address housing affordability and risked undermining the local decision-making that is central to New Hampshire\u2019s identity, according to a whitepaper by the New Hampshire Municipal Association.",
+      "url": "https://indepthnh.org/2026/01/26/nhma-statewide-zoning-mandates-didnt-help-nhs-housing-crisis/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-01-26",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway"
+        "hma"
       ]
     },
     {
@@ -12379,20 +12364,6 @@
       "date": "2026-01-24",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cdb9dd62a527",
-      "title": "Economic development leader denies embezzling as court records reveal new details of probe",
-      "summary": "Melissa Bounty was charged with stealing more than $70,000 from the Central Vermont Economic Development Corporation to pay for personal expenses, such as buying meals at restaurants and renting luxury vehicles.\nRead the story on VTDigger here:  Economic development leader denies embezzling as cour",
-      "url": "https://vtdigger.org/2026/01/22/economic-development-leader-denies-embezzling-as-court-records-reveal-new-details-of-probe/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-01-22",
-      "category": "funding",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -12424,54 +12395,93 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "157e0ed7d15b",
-      "title": "Supreme Court to hear Bayer's bid to curb Roundup cases",
-      "summary": "The Supreme Court agreed on Friday to hear Bayer\u2019s bid to sharply limit lawsuits claiming that the company\u2019s Roundup weed killer causes cancer and potentially avert billions of dollars in damages.",
-      "url": "https://www.unionleader.com/news/business/supreme-court-to-hear-bayers-bid-to-curb-roundup-cases/article_1556fb90-8ae6-4342-bb1c-1703916f19fc.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-01-16",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
-      "score": 9.0,
-      "trend": "up",
-      "action": "Expand highway capacity - strong pipeline"
+      "score": 9.5,
+      "trend": "stable",
+      "action": "Expand highway capacity - strong pipeline",
+      "raw": 5092834856.0,
+      "raw_display": "$5.09B",
+      "source": "scraper",
+      "updated": "2026-01-27T02:23:29.640505"
     },
     "housing_permits": {
       "score": 6.5,
       "trend": "stable",
-      "action": "Monitor trends"
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T02:23:29.640505"
     },
     "construction_spending": {
-      "score": 6.1,
-      "trend": "down",
-      "action": "Selective investment"
+      "score": 5.0,
+      "trend": "stable",
+      "action": "Selective investment",
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T02:23:29.640505"
     },
     "migration": {
-      "score": 7.3,
-      "trend": "up",
-      "action": "Geographic expansion"
+      "score": 5.0,
+      "trend": "stable",
+      "action": "Maintain footprint",
+      "raw": 47710000,
+      "raw_display": "47.7M people",
+      "pct_change": -0.16,
+      "source": "Census API",
+      "updated": "2026-01-27T02:23:29.640505"
     },
-    "input_cost_stability": {
-      "score": 5.5,
-      "trend": "down",
-      "action": "Hedge 6 months"
+    "construction_employment": {
+      "score": 5.0,
+      "trend": "stable",
+      "action": "Stable operations",
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-01-27T02:23:29.640505"
+    },
+    "input_cost": {
+      "score": 8.8,
+      "trend": "stable",
+      "action": "Lock contracts",
+      "raw": 4.31,
+      "raw_display": "$4.31/gal",
+      "price_history": [
+        4.31,
+        4.3,
+        4.33,
+        4.31
+      ],
+      "source": "historical data",
+      "updated": "2026-01-27T02:23:29.640505"
     },
     "infrastructure_funding": {
-      "score": 7.8,
-      "trend": "stable",
-      "action": "Selective growth"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Major expansion",
+      "raw": 7000000000,
+      "raw_display": "$7.0B",
+      "source": "IIJA hardcoded",
+      "updated": "2026-01-27T02:23:29.640505"
     },
-    "overall_score": 7.2,
-    "overall_status": "stable"
+    "overall_score": 7.1,
+    "overall_status": "stable",
+    "data_sources": {
+      "dot_pipeline": "scraper",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
+      "migration": "Census API",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
+      "infrastructure_funding": "IIJA hardcoded"
+    },
+    "calculated_at": "2026-01-27T02:23:29.640505"
   }
 }

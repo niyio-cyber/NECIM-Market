@@ -1,11 +1,11 @@
 {
-  "generated": "2026-01-28T22:32:23.126858Z",
+  "generated": "2026-01-28T23:00:45.017720Z",
   "summary": {
-    "total_opportunities": 644,
+    "total_opportunities": 641,
     "total_value_low": 2619524158,
     "total_value_high": 2809524158,
     "by_state": {
-      "VT": 45,
+      "VT": 42,
       "NH": 59,
       "ME": 172,
       "MA": 22,
@@ -15,7 +15,7 @@
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 644,
+      "dot_letting": 641,
       "news": 12,
       "funding": 0
     },
@@ -36,7 +36,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 110,
+          "count": 109,
           "value": 1416763982
         },
         "Pavement": {
@@ -44,11 +44,11 @@
           "value": 119074389
         },
         "Highway": {
-          "count": 468,
+          "count": 467,
           "value": 741260232
         },
         "Safety": {
-          "count": 17,
+          "count": 16,
           "value": 45656679
         },
         "Other": {
@@ -60,12 +60,12 @@
         {
           "fy": "FY2025",
           "year": 2025,
-          "Bridge": 350495554.6666666,
+          "Bridge": 558825767.6666666,
           "Pavement": 19900000.0,
-          "Highway": 37383813,
-          "Safety": 0,
-          "Other": 123000000.0,
-          "total": 530779367.6666666,
+          "Highway": 258980018,
+          "Safety": 41260032,
+          "Other": 143902876.0,
+          "total": 1022868693.6666666,
           "yoy_pct": null
         },
         {
@@ -77,7 +77,7 @@
           "Safety": 2334825,
           "Other": 59608000.0,
           "total": 890114063.6666666,
-          "yoy_pct": 67.7
+          "yoy_pct": -13.0
         },
         {
           "fy": "FY2027",
@@ -93,13 +93,13 @@
         {
           "fy": "FY2028",
           "year": 2028,
-          "Bridge": 0,
+          "Bridge": 19427701,
           "Pavement": 0,
-          "Highway": 0,
-          "Safety": 0,
-          "Other": 0,
-          "total": 0,
-          "yoy_pct": -100.0
+          "Highway": 24405211,
+          "Safety": 2061822,
+          "Other": 2000000,
+          "total": 47894734,
+          "yoy_pct": -77.7
         },
         {
           "fy": "FY2029",
@@ -110,23 +110,23 @@
           "Safety": 0,
           "Other": 0,
           "total": 0,
-          "yoy_pct": null
+          "yoy_pct": -100.0
         },
         {
           "fy": "Unknown",
           "year": null,
-          "Bridge": 507772914,
+          "Bridge": 280015000,
           "Pavement": 0,
-          "Highway": 366708416,
-          "Safety": 43321854,
-          "Other": 66160876,
-          "total": 983964060,
+          "Highway": 120707000,
+          "Safety": 0,
+          "Other": 43258000,
+          "total": 443980000,
           "yoy_pct": null
         }
       ],
       "by_state_value": {
         "VT": {
-          "count": 44,
+          "count": 41,
           "value": 0
         },
         "NH": {
@@ -161,7 +161,7 @@
       "by_state_type": {
         "VT": {
           "Bridge": {
-            "count": 10,
+            "count": 9,
             "value": 0
           },
           "Pavement": {
@@ -169,11 +169,11 @@
             "value": 0
           },
           "Highway": {
-            "count": 24,
+            "count": 23,
             "value": 0
           },
           "Safety": {
-            "count": 3,
+            "count": 2,
             "value": 0
           },
           "Other": {
@@ -398,12 +398,12 @@
           {
             "fy": "FY2025",
             "year": 2025,
-            "Bridge": 0,
+            "Bridge": 208330213,
             "Pavement": 0,
-            "Highway": 0,
-            "Safety": 0,
-            "Other": 0,
-            "total": 0,
+            "Highway": 221596205,
+            "Safety": 41260032,
+            "Other": 20902876,
+            "total": 492089326,
             "yoy_pct": null
           },
           {
@@ -415,7 +415,7 @@
             "Safety": 0,
             "Other": 0,
             "total": 0,
-            "yoy_pct": null
+            "yoy_pct": -100.0
           },
           {
             "fy": "FY2027",
@@ -431,12 +431,12 @@
           {
             "fy": "FY2028",
             "year": 2028,
-            "Bridge": 0,
+            "Bridge": 19427701,
             "Pavement": 0,
-            "Highway": 0,
-            "Safety": 0,
-            "Other": 0,
-            "total": 0,
+            "Highway": 24405211,
+            "Safety": 2061822,
+            "Other": 2000000,
+            "total": 47894734,
             "yoy_pct": null
           },
           {
@@ -448,18 +448,7 @@
             "Safety": 0,
             "Other": 0,
             "total": 0,
-            "yoy_pct": null
-          },
-          {
-            "fy": "Unknown",
-            "year": null,
-            "Bridge": 227757914,
-            "Pavement": 0,
-            "Highway": 246001416,
-            "Safety": 43321854,
-            "Other": 22902876,
-            "total": 539984060,
-            "yoy_pct": null
+            "yoy_pct": -100.0
           }
         ],
         "ME": [
@@ -817,10 +806,10 @@
         ]
       },
       "yoy_changes": {
-        "2026": 67.7,
+        "2026": -13.0,
         "2027": -75.9,
-        "2028": -100.0,
-        "2029": null
+        "2028": -77.7,
+        "2029": -100.0
       },
       "current_fy": 2026
     }
@@ -4417,8 +4406,9 @@
       "cost_low": 71735946,
       "cost_high": 71735946,
       "cost_display": "$71.7M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "ME",
       "district": "Seacoast",
@@ -4428,7 +4418,14 @@
         "highway",
         "ready_mix"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 104995462,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "a25f526e1117",
@@ -4438,8 +4435,9 @@
       "cost_low": 66287691,
       "cost_high": 66287691,
       "cost_display": "$66.3M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "NEWFIELDS",
       "district": "Seacoast",
@@ -4449,7 +4447,14 @@
         "highway",
         "ready_mix"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 66287691,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "c885f4e4a989",
@@ -4459,8 +4464,9 @@
       "cost_low": 49770743,
       "cost_high": 49770743,
       "cost_display": "$49.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "SALEM",
       "district": "Seacoast",
@@ -4469,7 +4475,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 49770743,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "2caec1cd72eb",
@@ -4479,8 +4492,9 @@
       "cost_low": 44602033,
       "cost_high": 44602033,
       "cost_display": "$44.6M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -4489,7 +4503,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 44602033,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "592fbd02bc4a",
@@ -4499,8 +4520,9 @@
       "cost_low": 30445300,
       "cost_high": 30445300,
       "cost_display": "$30.4M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "NEWTON",
       "district": "Seacoast",
@@ -4509,7 +4531,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 741468,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "4137cc0847c7",
@@ -4519,8 +4548,9 @@
       "cost_low": 27369249,
       "cost_high": 27369249,
       "cost_display": "$27.4M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "COAST",
       "district": "Seacoast",
@@ -4529,7 +4559,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 27369249,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "bbb6e0baf1e2",
@@ -4539,8 +4576,9 @@
       "cost_low": 27317089,
       "cost_high": 27317089,
       "cost_display": "$27.3M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "NORTH HAMPTON",
       "district": "Seacoast",
@@ -4549,7 +4587,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 27317089,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "ae5404a71f72",
@@ -4559,8 +4604,9 @@
       "cost_low": 23242912,
       "cost_high": 23242912,
       "cost_display": "$23.2M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "NORTH HAMPTON",
       "district": "Seacoast",
@@ -4569,7 +4615,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 14571081,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "95942e7bf043",
@@ -4579,8 +4632,9 @@
       "cost_low": 20392694,
       "cost_high": 20392694,
       "cost_display": "$20.4M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "NORTH HAMPTON",
       "district": "Seacoast",
@@ -4590,7 +4644,14 @@
         "highway",
         "ready_mix"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 7636640,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "05f09af05b9e",
@@ -4600,8 +4661,9 @@
       "cost_low": 18801179,
       "cost_high": 18801179,
       "cost_display": "$18.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Multimodal",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -4610,7 +4672,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 18801179,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "b7f9d2da60cb",
@@ -4620,8 +4689,9 @@
       "cost_low": 14959885,
       "cost_high": 14959885,
       "cost_display": "$15.0M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "SEABROOK",
       "district": "Seacoast",
@@ -4630,7 +4700,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 14959885,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "d5172362c7c2",
@@ -4640,8 +4717,9 @@
       "cost_low": 14571081,
       "cost_high": 14571081,
       "cost_display": "$14.6M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "NORTH HAMPTON",
       "district": "Seacoast",
@@ -4650,7 +4728,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 20392694,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "aac8ad75e244",
@@ -4660,8 +4745,9 @@
       "cost_low": 13283996,
       "cost_high": 13283996,
       "cost_display": "$13.3M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "HAMPSTEAD",
       "district": "Seacoast",
@@ -4670,7 +4756,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 2474922,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "824252ed7bb7",
@@ -4680,8 +4773,9 @@
       "cost_low": 8802970,
       "cost_high": 8802970,
       "cost_display": "$8.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Bridge",
       "location": "EXETER",
       "district": "Seacoast",
@@ -4691,7 +4785,14 @@
         "highway",
         "ready_mix"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 3635058,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "fcf01efe764b",
@@ -4701,8 +4802,9 @@
       "cost_low": 8709140,
       "cost_high": 8709140,
       "cost_display": "$8.7M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "NORTH HAMPTON",
       "district": "Seacoast",
@@ -4712,7 +4814,14 @@
         "highway",
         "aggregates"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 28125300,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "fb4af3ad6535",
@@ -4722,8 +4831,9 @@
       "cost_low": 7840898,
       "cost_high": 7840898,
       "cost_display": "$7.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -4732,7 +4842,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 9730206,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "4d119377475b",
@@ -4742,8 +4859,9 @@
       "cost_low": 7831635,
       "cost_high": 7831635,
       "cost_display": "$7.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "PLAISTOW",
       "district": "Seacoast",
@@ -4752,7 +4870,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 1125494,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "19c3d946becb",
@@ -4762,8 +4887,9 @@
       "cost_low": 7826935,
       "cost_high": 7826935,
       "cost_display": "$7.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Bridge",
       "location": "NEW CASTLE",
       "district": "Seacoast",
@@ -4772,7 +4898,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 11703775,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "c8620d4a0b57",
@@ -4782,8 +4915,9 @@
       "cost_low": 7129797,
       "cost_high": 7129797,
       "cost_display": "$7.1M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -4792,7 +4926,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 6691155,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "f53f4e1588e3",
@@ -4802,8 +4943,9 @@
       "cost_low": 6841303,
       "cost_high": 6841303,
       "cost_display": "$6.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -4812,7 +4954,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 991055,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "c7d4d5bfae2c",
@@ -4822,8 +4971,9 @@
       "cost_low": 6517718,
       "cost_high": 6517718,
       "cost_display": "$6.5M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "SALEM TO MANCHESTER",
       "district": "Seacoast",
@@ -4832,7 +4982,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 43264424,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "c7261d30a0e7",
@@ -4842,8 +4999,9 @@
       "cost_low": 4925000,
       "cost_high": 4925000,
       "cost_display": "$4.9M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "RYE",
       "district": "Seacoast",
@@ -4854,7 +5012,14 @@
         "aggregates",
         "ready_mix"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 4925000,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "efe836e7ff3c",
@@ -4864,8 +5029,9 @@
       "cost_low": 4185058,
       "cost_high": 4185058,
       "cost_display": "$4.2M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "EPPING",
       "district": "Seacoast",
@@ -4874,7 +5040,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 4185058,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "9c5534b41504",
@@ -4884,8 +5057,9 @@
       "cost_low": 3749196,
       "cost_high": 3749196,
       "cost_display": "$3.7M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -4894,7 +5068,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 3749196,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "3ec747126108",
@@ -4904,8 +5085,9 @@
       "cost_low": 2926922,
       "cost_high": 2926922,
       "cost_display": "$2.9M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "B CAUSEWAY",
       "district": "Seacoast",
@@ -4914,7 +5096,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 7081608,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "ab6729f7ddbe",
@@ -4924,8 +5113,9 @@
       "cost_low": 2814363,
       "cost_high": 2814363,
       "cost_display": "$2.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -4934,7 +5124,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 1000000,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "fd171797ba97",
@@ -4944,8 +5141,9 @@
       "cost_low": 2792653,
       "cost_high": 2792653,
       "cost_display": "$2.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -4954,7 +5152,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 52972,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "a3935519fe76",
@@ -4964,8 +5169,9 @@
       "cost_low": 2742020,
       "cost_high": 2742020,
       "cost_display": "$2.7M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "EPPING",
       "district": "Seacoast",
@@ -4974,7 +5180,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 16738570,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "d83fa2ba67ae",
@@ -4984,8 +5197,9 @@
       "cost_low": 2649291,
       "cost_high": 2649291,
       "cost_display": "$2.6M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "GREENLAND",
       "district": "Seacoast",
@@ -4994,7 +5208,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 2649291,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "f87dc7c7877f",
@@ -5004,8 +5225,9 @@
       "cost_low": 2581280,
       "cost_high": 2581280,
       "cost_display": "$2.6M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -5014,7 +5236,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 2581280,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "ce41662ebb2c",
@@ -5024,8 +5253,9 @@
       "cost_low": 2000000,
       "cost_high": 2000000,
       "cost_display": "$2.0M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Multimodal",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -5034,7 +5264,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 4881762,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "5eb28d5bb448",
@@ -5044,8 +5281,9 @@
       "cost_low": 1785427,
       "cost_high": 1785427,
       "cost_display": "$1.8M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "RAYMOND",
       "district": "Seacoast",
@@ -5054,7 +5292,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 561551,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "3bcad17b8134",
@@ -5064,8 +5309,9 @@
       "cost_low": 1482994,
       "cost_high": 1482994,
       "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "PLAISTOW",
       "district": "Seacoast",
@@ -5074,7 +5320,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 1482994,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "0a36936a49f5",
@@ -5084,8 +5337,9 @@
       "cost_low": 1482399,
       "cost_high": 1482399,
       "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "PLAISTOW",
       "district": "Seacoast",
@@ -5094,7 +5348,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 21907289,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "e32bea9bd164",
@@ -5104,8 +5365,9 @@
       "cost_low": 1457349,
       "cost_high": 1457349,
       "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "SEABROOK",
       "district": "Seacoast",
@@ -5114,7 +5376,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 4854492,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "56c5ccb07f0c",
@@ -5124,8 +5393,9 @@
       "cost_low": 1452066,
       "cost_high": 1452066,
       "cost_display": "$1.5M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5134,7 +5404,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 1452066,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "e7b36a92f25f",
@@ -5144,8 +5421,9 @@
       "cost_low": 1449837,
       "cost_high": 1449837,
       "cost_display": "$1.4M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Multimodal",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5154,7 +5432,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 1278285,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "511c6d99d586",
@@ -5164,8 +5449,9 @@
       "cost_low": 1302393,
       "cost_high": 1302393,
       "cost_display": "$1.3M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "SEABROOK",
       "district": "Seacoast",
@@ -5174,7 +5460,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 1310766,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "dc74c08ae94b",
@@ -5184,8 +5477,9 @@
       "cost_low": 1227042,
       "cost_high": 1227042,
       "cost_display": "$1.2M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Bridge",
       "location": "HAMPTON",
       "district": "Seacoast",
@@ -5194,7 +5488,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 5724272,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "32d3d8c0f2e1",
@@ -5204,8 +5505,9 @@
       "cost_low": 1063487,
       "cost_high": 1063487,
       "cost_display": "$1.1M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Bridge",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5214,7 +5516,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 3262660,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "e9aec8c08f0b",
@@ -5224,8 +5533,9 @@
       "cost_low": 927338,
       "cost_high": 927338,
       "cost_display": "$927K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Safety",
       "location": "KENSINGTON",
       "district": "Seacoast",
@@ -5234,7 +5544,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 1986008,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "22de17f63300",
@@ -5244,8 +5561,9 @@
       "cost_low": 751825,
       "cost_high": 751825,
       "cost_display": "$752K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "CANDIA",
       "district": "Seacoast",
@@ -5254,7 +5572,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 22984922,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "6914a9fd3ede",
@@ -5264,8 +5589,9 @@
       "cost_low": 741468,
       "cost_high": 741468,
       "cost_display": "$741K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "NEWINGTON",
       "district": "Seacoast",
@@ -5274,7 +5600,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 741468,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "11eba1483681",
@@ -5284,8 +5617,9 @@
       "cost_low": 735480,
       "cost_high": 735480,
       "cost_display": "$735K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5294,7 +5628,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 11208115,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "4a011b080cac",
@@ -5304,8 +5645,9 @@
       "cost_low": 675623,
       "cost_high": 675623,
       "cost_display": "$676K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Safety",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5314,7 +5656,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 1145070,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "78276c213722",
@@ -5324,8 +5673,9 @@
       "cost_low": 665479,
       "cost_high": 665479,
       "cost_display": "$665K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "NEWINGTON",
       "district": "Seacoast",
@@ -5334,7 +5684,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 64665691,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "a4c5b8c59587",
@@ -5344,8 +5701,9 @@
       "cost_low": 651860,
       "cost_high": 651860,
       "cost_display": "$652K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Multimodal",
       "location": "NEW CASTLE",
       "district": "Seacoast",
@@ -5354,7 +5712,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 2747670,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "c61cd604ac96",
@@ -5364,8 +5729,9 @@
       "cost_low": 526036,
       "cost_high": 526036,
       "cost_display": "$526K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Bridge",
       "location": "SALEM",
       "district": "Seacoast",
@@ -5374,7 +5740,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 4925000,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "ff57bf639408",
@@ -5384,8 +5757,9 @@
       "cost_low": 507267,
       "cost_high": 507267,
       "cost_display": "$507K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Bridge",
       "location": "EXETER",
       "district": "Seacoast",
@@ -5394,7 +5768,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 7386845,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "7536ba3c6f85",
@@ -5404,8 +5785,9 @@
       "cost_low": 405889,
       "cost_high": 405889,
       "cost_display": "$406K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Safety",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5414,7 +5796,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 555527,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "0d2663228004",
@@ -5424,8 +5813,9 @@
       "cost_low": 346926,
       "cost_high": 346926,
       "cost_display": "$347K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "STRATHAM",
       "district": "Seacoast",
@@ -5434,7 +5824,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 1106766,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "3b335aef6c63",
@@ -5444,8 +5841,9 @@
       "cost_low": 346926,
       "cost_high": 346926,
       "cost_display": "$347K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Safety",
       "location": "STRATHAM",
       "district": "Seacoast",
@@ -5454,7 +5852,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 346926,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "01ce804592ea",
@@ -5464,8 +5869,9 @@
       "cost_low": 220000,
       "cost_high": 220000,
       "cost_display": "$220K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Highway",
       "location": "EXETER",
       "district": "Seacoast",
@@ -5474,7 +5880,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 464252,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "ae54717e38a3",
@@ -5484,8 +5897,9 @@
       "cost_low": 52972,
       "cost_high": 52972,
       "cost_display": "$53K",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2028-04-01",
+      "let_date": "2028-04-01",
+      "fiscal_year": "FY2028",
       "project_type": "Safety",
       "location": "PORTSMOUTH",
       "district": "Seacoast",
@@ -5494,7 +5908,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2028,
+        "construction_cost": 312485,
+        "earliest_fy": 2028,
+        "primary_fy": 2028
+      }
     },
     {
       "id": "ad12557fb70a",
@@ -5504,8 +5925,9 @@
       "cost_low": 4080000,
       "cost_high": 4080000,
       "cost_display": "$4.1M",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2025-04-01",
+      "let_date": "2025-04-01",
+      "fiscal_year": "FY2025",
       "project_type": "Highway",
       "location": "UNH",
       "district": "Seacoast",
@@ -5514,7 +5936,14 @@
       "business_lines": [
         "highway"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2025,
+        "construction_cost": 210215152,
+        "earliest_fy": 2025,
+        "primary_fy": 2025
+      }
     },
     {
       "id": "0de22ae3771d",
@@ -5524,8 +5953,9 @@
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See TIP",
-      "ad_date": null,
-      "let_date": null,
+      "ad_date": "2027-04-01",
+      "let_date": "2027-04-01",
+      "fiscal_year": "FY2027",
       "project_type": "Pavement",
       "location": "R PROJECTS",
       "district": "Seacoast",
@@ -5534,7 +5964,14 @@
       "business_lines": [
         "hma"
       ],
-      "fy_info": null
+      "fy_info": {
+        "pe_fy": null,
+        "row_fy": null,
+        "construction_fy": 2027,
+        "construction_cost": null,
+        "earliest_fy": 2025,
+        "primary_fy": 2027
+      }
     },
     {
       "id": "ff6cc90f9923",
@@ -5546,6 +5983,7 @@
       "project_id": "C03247",
       "let_date": "2025-12-05",
       "ad_date": null,
+      "fiscal_year": "FY2026",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5566,6 +6004,7 @@
       "project_id": "C03245",
       "let_date": "2025-11-21",
       "ad_date": null,
+      "fiscal_year": "FY2026",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5586,6 +6025,7 @@
       "project_id": "C03242",
       "let_date": "2025-11-21",
       "ad_date": null,
+      "fiscal_year": "FY2026",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5606,6 +6046,7 @@
       "project_id": "C03241",
       "let_date": "2025-11-14",
       "ad_date": null,
+      "fiscal_year": "FY2026",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5626,6 +6067,7 @@
       "project_id": "C03234",
       "let_date": "2025-10-24",
       "ad_date": null,
+      "fiscal_year": "FY2026",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5646,6 +6088,7 @@
       "project_id": "C03240",
       "let_date": "2025-10-24",
       "ad_date": null,
+      "fiscal_year": "FY2026",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5666,6 +6109,7 @@
       "project_id": "C03239",
       "let_date": "2025-08-08",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5686,6 +6130,7 @@
       "project_id": "C03232",
       "let_date": "2025-07-11",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5706,6 +6151,7 @@
       "project_id": "C03238",
       "let_date": "2025-06-27",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5726,6 +6172,7 @@
       "project_id": "C03233",
       "let_date": "2025-06-13",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5746,30 +6193,11 @@
       "project_id": "C03236",
       "let_date": "2025-06-06",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
       "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/18G345%20Bids%20Results%20Detail%20Report.pdf",
-      "business_lines": [
-        "highway"
-      ],
-      "priority": "low",
-      "contractor": null
-    },
-    {
-      "id": "f35953ed87c9",
-      "state": "VT",
-      "source": "VTrans",
-      "description": "BARRE CITY STP 2961 (3) & BARRE CITY STP 6000 (32)",
-      "location": "Barre City",
-      "project_type": "Highway",
-      "project_id": "C03233",
-      "let_date": "2025-05-23",
-      "ad_date": null,
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Results",
-      "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/16V185%20Bids%20Results%20Detail%20Report.pdf",
       "business_lines": [
         "highway"
       ],
@@ -5786,6 +6214,7 @@
       "project_id": "C03235",
       "let_date": "2025-05-23",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5806,30 +6235,11 @@
       "project_id": "C03197",
       "let_date": "2025-05-02",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
       "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/12D046%20Bids%20Results%20Detail%20Report.pdf",
-      "business_lines": [
-        "highway"
-      ],
-      "priority": "low",
-      "contractor": null
-    },
-    {
-      "id": "606980f699f1",
-      "state": "VT",
-      "source": "VTrans",
-      "description": "NORTON BF 0321 (21)",
-      "location": "Norton",
-      "project_type": "Bridge",
-      "project_id": "C03232",
-      "let_date": "2025-05-02",
-      "ad_date": null,
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Results",
-      "url": "https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025",
       "business_lines": [
         "highway"
       ],
@@ -5846,6 +6256,7 @@
       "project_id": "C03229",
       "let_date": "2025-04-25",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5866,6 +6277,7 @@
       "project_id": "C03230",
       "let_date": "2025-04-25",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5886,6 +6298,7 @@
       "project_id": "C03231",
       "let_date": "2025-04-25",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5906,30 +6319,11 @@
       "project_id": "C03228",
       "let_date": "2025-04-18",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
       "url": "https://vtrans.vermont.gov/sites/aot/files/contractadmin/documents/23B742%20Bids%20Results%20Detail%20Report.pdf",
-      "business_lines": [
-        "highway"
-      ],
-      "priority": "low",
-      "contractor": null
-    },
-    {
-      "id": "123ed3476478",
-      "state": "VT",
-      "source": "VTrans",
-      "description": "COLCHESTER HES NH 5600 (14) C/2 (RE-AD)",
-      "location": "Colchester Hes",
-      "project_type": "Safety",
-      "project_id": "C03197",
-      "let_date": "2025-04-11",
-      "ad_date": null,
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Results",
-      "url": "https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025",
       "business_lines": [
         "highway"
       ],
@@ -5946,6 +6340,7 @@
       "project_id": "C03227",
       "let_date": "2025-04-11",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5966,6 +6361,7 @@
       "project_id": "C03222",
       "let_date": "2025-04-11",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -5986,6 +6382,7 @@
       "project_id": "C03223",
       "let_date": "2025-04-04",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6006,6 +6403,7 @@
       "project_id": "C03224",
       "let_date": "2025-04-04",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6026,6 +6424,7 @@
       "project_id": "C03225",
       "let_date": "2025-04-04",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6046,6 +6445,7 @@
       "project_id": "C03226",
       "let_date": "2025-04-04",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6066,6 +6466,7 @@
       "project_id": "C03221",
       "let_date": "2025-03-28",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6086,6 +6487,7 @@
       "project_id": "C03216",
       "let_date": "2025-03-28",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6106,6 +6508,7 @@
       "project_id": "C03218",
       "let_date": "2025-03-21",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6126,6 +6529,7 @@
       "project_id": "C03220",
       "let_date": "2025-03-14",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6146,6 +6550,7 @@
       "project_id": "C03217",
       "let_date": "2025-03-07",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6166,6 +6571,7 @@
       "project_id": "C03215",
       "let_date": "2025-03-07",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6186,6 +6592,7 @@
       "project_id": "C03214",
       "let_date": "2025-02-28",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6206,6 +6613,7 @@
       "project_id": "CO3186",
       "let_date": "2025-02-28",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6226,6 +6634,7 @@
       "project_id": "C03174",
       "let_date": "2025-02-21",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6246,6 +6655,7 @@
       "project_id": "C03212",
       "let_date": "2025-02-21",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6266,6 +6676,7 @@
       "project_id": "C03213",
       "let_date": "2025-02-07",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6286,6 +6697,7 @@
       "project_id": "C03210",
       "let_date": "2025-01-31",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6306,6 +6718,7 @@
       "project_id": "C03211",
       "let_date": "2025-01-17",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6326,6 +6739,7 @@
       "project_id": "C03208",
       "let_date": "2025-01-17",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6346,6 +6760,7 @@
       "project_id": "C03099",
       "let_date": "2024-12-20",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6366,6 +6781,7 @@
       "project_id": "C03209",
       "let_date": "2024-12-13",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6386,6 +6802,7 @@
       "project_id": "C03163",
       "let_date": "2024-12-13",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -6406,6 +6823,7 @@
       "project_id": "C03195",
       "let_date": "2024-11-15",
       "ad_date": null,
+      "fiscal_year": "FY2025",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Results",
@@ -13696,21 +14114,21 @@
   "market_health": {
     "dot_pipeline": {
       "score": 5.5,
-      "trend": "stable",
+      "trend": "up",
       "action": "Selective bidding - pipeline softening",
-      "raw": 2868433474.8499694,
-      "raw_display": "$2.87B",
+      "raw": 3099415967.9350395,
+      "raw_display": "$3.10B",
       "source": "scraper_v2",
-      "updated": "2026-01-28T22:32:22.827852",
+      "updated": "2026-01-28T23:00:30.200157",
       "v2_details": {
         "raw_total": "$2.62B",
-        "weighted_total": "$1.60B",
+        "weighted_total": "$1.72B",
         "extrapolated_total": "$4.71B",
         "by_horizon": {
           "near": {
-            "value": 725860098,
-            "display": "$725.9M",
-            "count": 110,
+            "value": 1217949424,
+            "display": "$1.22B",
+            "count": 147,
             "label": "0-6 months"
           },
           "mid": {
@@ -13720,15 +14138,15 @@
             "label": "6-18 months"
           },
           "long": {
-            "value": 0,
-            "display": "$0",
-            "count": 0,
+            "value": 47894734,
+            "display": "$47.9M",
+            "count": 18,
             "label": "18+ months"
           },
           "unknown": {
-            "value": 1893664060,
-            "display": "$1.89B",
-            "count": 148,
+            "value": 1353680000,
+            "display": "$1.35B",
+            "count": 93,
             "label": "No date"
           }
         },
@@ -13749,7 +14167,7 @@
           },
           "NH": {
             "raw": 539984060,
-            "weighted": 269992030.0,
+            "weighted": 398460934.19999987,
             "estimated": 539984060,
             "is_scraped": true,
             "fhwa_ratio": "3.3%"
@@ -13795,40 +14213,40 @@
           "states_total": 8,
           "market_coverage": "55.6%",
           "projects_with_cost": 258,
-          "projects_with_date": 110,
-          "date_coverage": "42.6%"
+          "projects_with_date": 165,
+          "date_coverage": "64.0%"
         },
         "scoring_params": {
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
-          "avg_time_weight": 0.61,
-          "baseline_time_weighted": 3654202241.718742,
-          "baseline_time_weighted_display": "$3.65B",
+          "avg_time_weight": 0.66,
+          "baseline_time_weighted": 3948459281.8173966,
+          "baseline_time_weighted_display": "$3.95B",
           "score_at_baseline": 7.0,
-          "scoring_value": 2868433474.8499694,
-          "scoring_value_display": "$2.87B"
+          "scoring_value": 3099415967.9350395,
+          "scoring_value_display": "$3.10B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-01-28T22:32:22.827852"
+      "score": 7.0,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8841.320183533115,
+      "raw_display": "8,841 units/mo",
+      "yoy_change": 9.9,
+      "source": "FRED API",
+      "updated": "2026-01-28T23:00:30.200157"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-01-28T22:32:22.827852"
+      "action": "Cost focus",
+      "raw": 142581.0,
+      "raw_display": "$142.6B SAAR",
+      "yoy_change": -1.1,
+      "source": "FRED API",
+      "updated": "2026-01-28T23:00:30.200157"
     },
     "migration": {
       "score": 5.0,
@@ -13838,35 +14256,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-28T22:32:22.827852"
+      "updated": "2026-01-28T23:00:30.200157"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-01-28T22:32:22.827852"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-01-28T23:00:30.200157"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.78 | Diesel $4.02",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.78,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.02,
+        "score": 9.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-01-28T22:32:22.827852"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-01-28T23:00:30.200157"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -13875,19 +14293,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-28T22:32:22.827852"
+      "updated": "2026-01-28T23:00:30.200157"
     },
-    "overall_score": 6.2,
+    "overall_score": 6.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-28T22:32:22.827852"
+    "calculated_at": "2026-01-28T23:00:30.200157"
   }
 }

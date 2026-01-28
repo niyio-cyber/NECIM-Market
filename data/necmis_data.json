@@ -1,22 +1,22 @@
 {
-  "generated": "2026-01-28T11:41:56.212766Z",
+  "generated": "2026-01-28T21:45:53.795079Z",
   "summary": {
     "total_opportunities": 644,
     "total_value_low": 2619524158,
     "total_value_high": 2809524158,
     "by_state": {
-      "VT": 44,
+      "VT": 45,
       "NH": 59,
-      "ME": 168,
+      "ME": 171,
       "MA": 22,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 644,
-      "news": 6,
+      "news": 11,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -13193,10 +13193,66 @@
   ],
   "news": [
     {
-      "id": "f97c328f2586",
-      "title": "Southwick snow removal costs continue to climb",
-      "summary": "After four snow events this winter, it\u2019s clear when Southwick's Town Meeting convenes in May it will have to dip into free cash to pay off the deficit spending the town is incurring to keep the town\u2019s roads and streets clear.",
-      "url": "https://www.masslive.com/westfieldnews/2026/01/southwick-snow-removal-costs-continue-to-climb.html",
+      "id": "da3abd05d361",
+      "title": "Esther Charlestin, Gov. Scott challenger in 2024, launches lieutenant governor bid",
+      "summary": "Charlestin is the third Democrat to throw their hat in the ring for this year\u2019s race for the state\u2019s second-highest office.\nRead the story on VTDigger here:  Esther Charlestin, Gov. Scott challenger in 2024, launches lieutenant governor bid.",
+      "url": "https://vtdigger.org/2026/01/28/esther-charlestin-gov-scott-challenger-in-2024-launches-lieutenant-governor-bid/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-01-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4915c0df2375",
+      "title": "DOT worker deaths should lead to better roadway safety | Letter",
+      "summary": "My sympathies to the families and colleagues of the Department of Transportation (DOT) workers who were killed in the I-95 ramp accident in Waterville. Road crews should use speed bumps to slow down traffic entering Route 148 in Madison, along with creating better sight lines for traffic coming onto",
+      "url": "https://www.pressherald.com/2026/01/28/dot-worker-deaths-should-lead-to-better-roadway-safety-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f5b7b4da4e58",
+      "title": "Koi Asian Cuisine closes in Biddeford",
+      "summary": "The Elm Street restaurant had been open for nearly 15 years.",
+      "url": "https://www.pressherald.com/2026/01/28/koi-asian-cuisine-closes-in-biddeford/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "47371fe89dbf",
+      "title": "A&C Soda Shop in South Portland rebrands to Rattle Shake Grill",
+      "summary": "The Cottage Road restaurant changed its name after a founding owner left the business.",
+      "url": "https://www.pressherald.com/2026/01/28/south-portlands-ac-soda-shop-rebrands-to-rattle-shake-grill/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-01-28",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a3fe65f88763",
+      "title": "\u2018A bad call\u2019: Several school buses stuck in snow as Mass. students return after storm",
+      "summary": "Schools reopened on Wednesday and road conditions were not up to the challenge.",
+      "url": "https://www.masslive.com/worcester/2026/01/a-bad-call-several-school-buses-stuck-in-snow-as-mass-students-return-after-storm.html",
       "source": "MassLive",
       "state": "MA",
       "date": "2026-01-28",
@@ -13207,12 +13263,26 @@
       ]
     },
     {
-      "id": "86cf258e28c6",
-      "title": "Revolutionary War icon to get his due at Central Mass. events 250 years after heroic act",
-      "summary": "Revolutionary war cannons, militia men and animals will all be present in Sturbridge and Worcester this weekend for the two celebrations.",
-      "url": "https://www.masslive.com/destinations/2026/01/revolutionary-war-icon-to-get-his-due-at-central-mass-events-250-years-after-heroic-act.html",
+      "id": "29d682451bf2",
+      "title": "Eli Manning\u2019s second bid for Pro Football Hall of Fame falls short (report)",
+      "summary": "Like Bill Belichick, Eli Manning won\u2019t be going to the Pro Football Hall of Fame in 2026.",
+      "url": "https://www.masslive.com/patriots/2026/01/eli-mannings-second-bid-for-pro-football-hall-of-fame-falls-short-report.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-01-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "91d0c3bc4e90",
+      "title": "In Bridgeport\u2019s public housing, residents work to rebuild their neighborhoods",
+      "summary": "Residents in Bridgeport's public housing \u2014 tired of waiting for someone else to fix what\u2019s broken \u2014 are stepping up and speaking out.",
+      "url": "https://ctmirror.org/2026/01/28/in-bridgeports-public-housing-residents-work-to-rebuild-their-neighborhoods/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-01-28",
       "category": "news",
       "priority": "high",
@@ -13285,7 +13355,7 @@
       "raw": 2868433474.8499694,
       "raw_display": "$2.87B",
       "source": "scraper_v2",
-      "updated": "2026-01-28T11:41:47.225402",
+      "updated": "2026-01-28T21:45:47.386611",
       "v2_details": {
         "raw_total": "$2.62B",
         "weighted_total": "$1.60B",
@@ -13402,7 +13472,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-28T11:41:47.225402"
+      "updated": "2026-01-28T21:45:47.386611"
     },
     "construction_spending": {
       "score": 4.8,
@@ -13412,7 +13482,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-28T11:41:47.225402"
+      "updated": "2026-01-28T21:45:47.386611"
     },
     "migration": {
       "score": 5.0,
@@ -13422,7 +13492,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-28T11:41:47.225402"
+      "updated": "2026-01-28T21:45:47.386611"
     },
     "construction_employment": {
       "score": 4.7,
@@ -13432,7 +13502,7 @@
       "raw_display": "958K workers",
       "yoy_change": -1.4,
       "source": "FRED API",
-      "updated": "2026-01-28T11:41:47.225402"
+      "updated": "2026-01-28T21:45:47.386611"
     },
     "input_cost": {
       "score": 10,
@@ -13450,7 +13520,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-28T11:41:47.225402"
+      "updated": "2026-01-28T21:45:47.386611"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -13459,7 +13529,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-28T11:41:47.225402"
+      "updated": "2026-01-28T21:45:47.386611"
     },
     "overall_score": 6.3,
     "overall_status": "stable",
@@ -13472,6 +13542,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-28T11:41:47.225402"
+    "calculated_at": "2026-01-28T21:45:47.386611"
   }
 }

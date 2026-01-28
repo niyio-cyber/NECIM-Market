@@ -1,21 +1,21 @@
 {
-  "generated": "2026-01-27T17:54:39.622627Z",
+  "generated": "2026-01-28T11:41:56.212766Z",
   "summary": {
-    "total_opportunities": 648,
-    "total_value_low": 2628061641,
-    "total_value_high": 2818061641,
+    "total_opportunities": 644,
+    "total_value_low": 2619524158,
+    "total_value_high": 2809524158,
     "by_state": {
-      "VT": 45,
+      "VT": 44,
       "NH": 59,
-      "ME": 170,
-      "MA": 26,
+      "ME": 168,
+      "MA": 22,
       "NY": 1,
       "RI": 7,
-      "CT": 338,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 648,
+      "dot_letting": 644,
       "news": 6,
       "funding": 0
     },
@@ -36,24 +36,24 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 113,
-          "value": 1419752099
+          "count": 110,
+          "value": 1416763982
         },
         "Pavement": {
           "count": 17,
-          "value": 120004291
+          "value": 119074389
         },
         "Highway": {
-          "count": 469,
-          "value": 744038379
+          "count": 468,
+          "value": 741260232
         },
         "Safety": {
-          "count": 16,
+          "count": 17,
           "value": 45656679
         },
         "Other": {
-          "count": 33,
-          "value": 298610193
+          "count": 32,
+          "value": 296768876
         }
       },
       "by_type_fy": [
@@ -71,13 +71,13 @@
         {
           "fy": "FY2026",
           "year": 2026,
-          "Bridge": 328150297.0,
-          "Pavement": 100104291,
-          "Highway": 339946150,
+          "Bridge": 325162180.0,
+          "Pavement": 99174389,
+          "Highway": 337168003,
           "Safety": 2334825,
-          "Other": 61449317.0,
-          "total": 831984880.0,
-          "yoy_pct": 169.5
+          "Other": 59608000.0,
+          "total": 823447397.0,
+          "yoy_pct": 166.7
         },
         {
           "fy": "FY2027",
@@ -88,7 +88,7 @@
           "Safety": 0,
           "Other": 48000000.0,
           "total": 148000000.0,
-          "yoy_pct": -82.2
+          "yoy_pct": -82.0
         },
         {
           "fy": "FY2028",
@@ -138,8 +138,8 @@
           "value": 610760000
         },
         "MA": {
-          "count": 26,
-          "value": 222617581
+          "count": 20,
+          "value": 214080098
         },
         "NY": {
           "count": 1,
@@ -150,7 +150,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 338,
+          "count": 340,
           "value": 0
         },
         "PA": {
@@ -227,24 +227,24 @@
         },
         "MA": {
           "Bridge": {
-            "count": 7,
-            "value": 79686185
+            "count": 4,
+            "value": 76698068
           },
           "Pavement": {
-            "count": 6,
-            "value": 62604291
+            "count": 5,
+            "value": 61674389
           },
           "Highway": {
-            "count": 11,
-            "value": 76150963
+            "count": 10,
+            "value": 73372816
           },
           "Safety": {
             "count": 1,
             "value": 2334825
           },
           "Other": {
-            "count": 1,
-            "value": 1841317
+            "count": 0,
+            "value": 0
           }
         },
         "NY": {
@@ -297,7 +297,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 1,
+            "count": 2,
             "value": 0
           },
           "Highway": {
@@ -305,7 +305,7 @@
             "value": 0
           },
           "Safety": {
-            "count": 1,
+            "count": 2,
             "value": 0
           },
           "Other": {
@@ -545,13 +545,13 @@
           {
             "fy": "FY2026",
             "year": 2026,
-            "Bridge": 66657297,
-            "Pavement": 62604291,
-            "Highway": 38767150,
+            "Bridge": 63669180,
+            "Pavement": 61674389,
+            "Highway": 35989003,
             "Safety": 2334825,
-            "Other": 1841317,
-            "total": 172204880,
-            "yoy_pct": 241.6
+            "Other": 0,
+            "total": 163667397,
+            "yoy_pct": 224.7
           },
           {
             "fy": "FY2027",
@@ -817,8 +817,8 @@
         ]
       },
       "yoy_changes": {
-        "2026": 169.5,
-        "2027": -82.2,
+        "2026": 166.7,
+        "2027": -82.0,
         "2028": -100.0,
         "2029": null
       },
@@ -826,121 +826,6 @@
     }
   },
   "dot_lettings": [
-    {
-      "id": "3100593790d2",
-      "state": "MA",
-      "project_id": "609531",
-      "description": "Stratton School Improvements (SRTS)",
-      "cost_low": 1841317,
-      "cost_high": 1841317,
-      "cost_display": "$1.8M",
-      "ad_date": "2025-12-27",
-      "let_date": null,
-      "project_type": "Highway - Construction , Highway - Sidewalk And Curbing",
-      "location": "Arlington",
-      "district": 4,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=609531",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "95829d6503fb",
-      "state": "MA",
-      "project_id": "614139",
-      "description": "Bridge Shielding and Shoring Towers at Various Locations",
-      "cost_low": 345452,
-      "cost_high": 345452,
-      "cost_display": "$345K",
-      "ad_date": "2025-12-27",
-      "let_date": null,
-      "project_type": "Bridge - Construction",
-      "location": "District 2",
-      "district": 2,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614139",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a31c291b51cc",
-      "state": "MA",
-      "project_id": "614113",
-      "description": "Crack Sealing at Various Locations",
-      "cost_low": 929902,
-      "cost_high": 929902,
-      "cost_display": "$930K",
-      "ad_date": "2025-12-20",
-      "let_date": null,
-      "project_type": "Crack Sealing",
-      "location": "District 3",
-      "district": 3,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614113",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "73cafc9fd11c",
-      "state": "MA",
-      "project_id": "614100",
-      "description": "Bridge Drainage Cleaning and Related Work at Various Locations",
-      "cost_low": 879250,
-      "cost_high": 879250,
-      "cost_display": "$879K",
-      "ad_date": "2025-12-27",
-      "let_date": null,
-      "project_type": "Painting - Structural",
-      "location": "District 3",
-      "district": 3,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614100",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "74c8dfecdfa0",
-      "state": "MA",
-      "project_id": "614112",
-      "description": "Scheduled and Emergency Guardrail and Fence Repairs and Improvements at Various Locations",
-      "cost_low": 2778147,
-      "cost_high": 2778147,
-      "cost_display": "$2.8M",
-      "ad_date": "2026-01-03",
-      "let_date": null,
-      "project_type": "Guard Rail & Fencing",
-      "location": "District 3",
-      "district": 3,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614112",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "443cd24b7082",
-      "state": "MA",
-      "project_id": "614088",
-      "description": "Scheduled and Emergency Steel and Concrete Beam Repairs at Various Locations",
-      "cost_low": 1763415,
-      "cost_high": 1763415,
-      "cost_display": "$1.8M",
-      "ad_date": "2025-12-20",
-      "let_date": null,
-      "project_type": "Bridge - Construction",
-      "location": "District 5",
-      "district": 5,
-      "url": "https://hwy.massdot.state.ma.us/webapps/const/statusReport.asp?projnum=614088",
-      "source": "MassDOT",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
     {
       "id": "9de24d51a0c6",
       "state": "MA",
@@ -6761,6 +6646,25 @@
       ]
     },
     {
+      "id": "b6db786a4b77",
+      "state": "CT",
+      "project_id": "0170-3784",
+      "description": "2024 PAVEMENT PRESERVATION PROGRAM THIN FRICTION WEARING COURSE - DISTRICT 1, 3, 4",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-02-18",
+      "project_type": "Pavement",
+      "location": "CT 1",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "025b0c9bb552",
       "state": "CT",
       "project_id": "0172-0547",
@@ -6778,6 +6682,25 @@
       "business_lines": [
         "highway",
         "hma"
+      ]
+    },
+    {
+      "id": "1cd801cb6c53",
+      "state": "CT",
+      "project_id": "0301-0520",
+      "description": "NEW HAVEN LINE POWER PROGRAM PHASE 1 - REPLACEMENT OF SIGNAL SUBSTATIONS in New Haven and Greenwich",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-02-25",
+      "project_type": "Signal/Safety",
+      "location": "New Haven",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "ready_mix"
       ]
     },
     {
@@ -13270,13 +13193,27 @@
   ],
   "news": [
     {
-      "id": "c9e47a2a281c",
-      "title": "Healthy Acadia to host free \u2018Seeds of Change\u2019 documentary screenings in Eastport, Machias, Milbridge",
-      "summary": "Healthy Acadia will host a series of free community screenings of the acclaimed short documentary \u201cSeeds of Change\u201d, featuring farmer and food justice advocate Mark McBrine, on Feb. 6, 7, and 8 at venues across Washington County. Screening dates and locations are: \u201cSeeds of Change\u201d chronicles the in",
-      "url": "https://www.bangordailynews.com/2026/01/27/bdn-maine/healthy-acadia-to-host-free-seeds-of-change-documentary-screenings-in-eastport-machias-milbridge/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-01-27",
+      "id": "f97c328f2586",
+      "title": "Southwick snow removal costs continue to climb",
+      "summary": "After four snow events this winter, it\u2019s clear when Southwick's Town Meeting convenes in May it will have to dip into free cash to pay off the deficit spending the town is incurring to keep the town\u2019s roads and streets clear.",
+      "url": "https://www.masslive.com/westfieldnews/2026/01/southwick-snow-removal-costs-continue-to-climb.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-28",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "86cf258e28c6",
+      "title": "Revolutionary War icon to get his due at Central Mass. events 250 years after heroic act",
+      "summary": "Revolutionary war cannons, militia men and animals will all be present in Sturbridge and Worcester this weekend for the two celebrations.",
+      "url": "https://www.masslive.com/destinations/2026/01/revolutionary-war-icon-to-get-his-due-at-central-mass-events-250-years-after-heroic-act.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-28",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -13284,15 +13221,15 @@
       ]
     },
     {
-      "id": "c1b62999a664",
-      "title": "A majority of Washington County municipalities agree to prepay taxes",
-      "summary": "That will help Washington County ease its debt crisis after years of mismanagement.",
-      "url": "https://www.bangordailynews.com/2026/01/27/down-east/downeast-government/maine-washington-county-municipalities-tax-anticipation-note-prepayment/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "79fbd4611205",
+      "title": "In Bridgeport, fuel cell developers use brownfields to spur growth",
+      "summary": "A former manufacturing site in Bridgeport is now producing enough low-carbon electricity to power more than 3,000 homes.",
+      "url": "https://ctmirror.org/2026/01/27/fuel-cell-brownfields/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-01-27",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -13309,20 +13246,6 @@
       "priority": "medium",
       "business_lines": [
         "hma"
-      ]
-    },
-    {
-      "id": "2beebd6d9f9a",
-      "title": "Dan Petherbridge: Stop treating camps like a cash cow",
-      "summary": "Second homes already pay more, and squeezing them further won\u2019t solve Vermont\u2019s education crisis.\nRead the story on VTDigger here:  Dan Petherbridge: Stop treating camps like a cash cow.",
-      "url": "https://vtdigger.org/2026/01/23/dan-petherbridge-stop-treating-camps-like-a-cash-cow/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-01-24",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -13358,20 +13281,20 @@
     "dot_pipeline": {
       "score": 5.5,
       "trend": "stable",
-      "action": "Maintain position - adequate pipeline",
-      "raw": 2885271385.314374,
-      "raw_display": "$2.89B",
+      "action": "Selective bidding - pipeline softening",
+      "raw": 2868433474.8499694,
+      "raw_display": "$2.87B",
       "source": "scraper_v2",
-      "updated": "2026-01-27T17:54:25.801059",
+      "updated": "2026-01-28T11:41:47.225402",
       "v2_details": {
-        "raw_total": "$2.63B",
+        "raw_total": "$2.62B",
         "weighted_total": "$1.60B",
-        "extrapolated_total": "$4.73B",
+        "extrapolated_total": "$4.71B",
         "by_horizon": {
           "near": {
-            "value": 734397581,
-            "display": "$734.4M",
-            "count": 116,
+            "value": 725860098,
+            "display": "$725.9M",
+            "count": 110,
             "label": "0-6 months"
           },
           "mid": {
@@ -13395,15 +13318,15 @@
         },
         "by_state": {
           "MA": {
-            "raw": 222617581,
-            "weighted": 178094064.80000004,
-            "estimated": 222617581,
+            "raw": 214080098,
+            "weighted": 171264078.40000004,
+            "estimated": 214080098,
             "is_scraped": true,
             "fhwa_ratio": "12.3%"
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 388307400.0,
+            "weighted": 385772400.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -13418,21 +13341,21 @@
           "CT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 452331399.0370142,
+            "estimated": 450861961.80259097,
             "is_scraped": false,
             "fhwa_ratio": "9.6%"
           },
           "VT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 162125949.47563234,
+            "estimated": 161599269.46329427,
             "is_scraped": false,
             "fhwa_ratio": "3.4%"
           },
           "NY": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 1482641807.9546578,
+            "estimated": 1477825319.241826,
             "is_scraped": false,
             "fhwa_ratio": "31.4%"
           },
@@ -13455,19 +13378,19 @@
           "states_with_data": 5,
           "states_total": 8,
           "market_coverage": "55.6%",
-          "projects_with_cost": 264,
-          "projects_with_date": 116,
-          "date_coverage": "43.9%"
+          "projects_with_cost": 258,
+          "projects_with_date": 110,
+          "date_coverage": "42.6%"
         },
         "scoring_params": {
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.61,
-          "baseline_time_weighted": 3663711999.211818,
-          "baseline_time_weighted_display": "$3.66B",
+          "baseline_time_weighted": 3654202241.718742,
+          "baseline_time_weighted_display": "$3.65B",
           "score_at_baseline": 7.0,
-          "scoring_value": 2885271385.314374,
-          "scoring_value_display": "$2.89B"
+          "scoring_value": 2868433474.8499694,
+          "scoring_value_display": "$2.87B"
         }
       }
     },
@@ -13479,7 +13402,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-27T17:54:25.801059"
+      "updated": "2026-01-28T11:41:47.225402"
     },
     "construction_spending": {
       "score": 4.8,
@@ -13489,7 +13412,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-27T17:54:25.801059"
+      "updated": "2026-01-28T11:41:47.225402"
     },
     "migration": {
       "score": 5.0,
@@ -13499,17 +13422,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-27T17:54:25.801059"
+      "updated": "2026-01-28T11:41:47.225402"
     },
     "construction_employment": {
       "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 985099.9999999999,
-      "raw_display": "985K workers",
-      "yoy_change": -1.3,
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
       "source": "FRED API",
-      "updated": "2026-01-27T17:54:25.801059"
+      "updated": "2026-01-28T11:41:47.225402"
     },
     "input_cost": {
       "score": 10,
@@ -13527,7 +13450,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-27T17:54:25.801059"
+      "updated": "2026-01-28T11:41:47.225402"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -13536,7 +13459,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-27T17:54:25.801059"
+      "updated": "2026-01-28T11:41:47.225402"
     },
     "overall_score": 6.3,
     "overall_status": "stable",
@@ -13549,6 +13472,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-27T17:54:25.801059"
+    "calculated_at": "2026-01-28T11:41:47.225402"
   }
 }

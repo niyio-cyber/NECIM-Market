@@ -1,29 +1,17 @@
 #!/usr/bin/env python3
 """
-NECMIS Scraper - Phase 8.2 (FY Assignment Fixes)
+NECMIS Scraper - Phase 8.0 (7/8 States Active)
 ==================================================
 MA: Plain text parser (PRESERVED)
 ME: Excel/PDF parser (PRESERVED)
 NH: Dynamic multi-approach parser with FISCAL YEAR EXTRACTION (PRESERVED)
-CT: HTML table + Excel parser (ENHANCED - FY extraction added)
+CT: HTML table + Excel parser (PRESERVED)
 VT: Bid results + STIP parser (PRESERVED)
-RI: Quarterly report + RhodeWorks baseline (ENHANCED - FY clamping)
-PA: Letting schedule + ECMS baseline (PRESERVED)
+RI: Quarterly report + RhodeWorks baseline (NEW - Phase 8.0)
+PA: Letting schedule + ECMS baseline (NEW - Phase 8.0)
 NY: Portal stub only (robots.txt blocked)
 
-Phase 8.2 Changes:
-- Fixed RI multi-year projects losing costs outside fy_range
-- Added FY extraction to CT STIP Excel parsing
-- Added FY field to CT STIP lettings output
-- Added FY clamping to prevent silent cost loss
-- Added debug logging for FY distribution
-- get_fy_from_fiscal_year_field now accepts fy_range parameter
-
-Phase 8.1 Changes (PRESERVED):
-- Added pipeline analysis by project type and fiscal year
-- Standardized project types: Bridge, Pavement, Highway, Safety, Other
-
-Phase 8.0 Changes (PRESERVED):
+Phase 8.0 Changes:
 - Added Rhode Island parser with baseline projects from quarterly reports
 - Added Pennsylvania parser with baseline projects from 12-month letting schedule
 - Now 7 of 8 states have active parsers (87.5% coverage)
@@ -72,9 +60,11 @@ def extract_nh_fiscal_year(project_text: str) -> Dict:
     """
     Extract fiscal year funding breakdown from NH STIP/TIP project text.
     
-    Handles two formats:
+    Handles multiple formats:
     1. NH STIP: "Construction 2027 $42,000,000"
-    2. RPC TIP columns: "Phase 2025 2026 2027 2028 Total"
+    2. RPC TIP columns: "Phase 2025 2026 2027 2028 Total" with amounts below
+    3. FY references: "FY2026", "FY 2027", "FFY2025"
+    4. Year ranges: "2025-2028"
     
     Returns dict with construction_fy, pe_fy, row_fy, earliest_fy, primary_fy.
     """
@@ -85,7 +75,7 @@ def extract_nh_fiscal_year(project_text: str) -> Dict:
     
     all_years = []
     
-    # Pattern: Phase Year $Amount (handles "Construction 2027 $42,000,000")
+    # Pattern 1: Phase Year $Amount (handles "Construction 2027 $42,000,000")
     phase_patterns = [
         (r'(?:Construction|CONSTR|CON)\s+(\d{4})\s+\$?([\d,]+)', 'construction'),
         (r'(?:PE|Preliminary\s*Engineering)\s+(\d{4})\s+\$?([\d,]+)', 'pe'),
@@ -105,29 +95,58 @@ def extract_nh_fiscal_year(project_text: str) -> Dict:
                 except:
                     pass
     
-    # Fallback: look for year + large dollar amount (6+ digits = $100K+)
+    # Pattern 2: Look for year + dollar amount (allowing whitespace/newlines between)
     if not result['construction_fy']:
-        year_amount = re.findall(r'(202[5-8])\s+\$?([\d,]{6,})', project_text)
+        year_amount = re.findall(r'(202[4-9])[\s\S]{0,30}?\$([\d,]{4,})', project_text)
         if year_amount:
-            # Take the one with the largest amount (likely construction)
             best = max(year_amount, key=lambda x: int(x[1].replace(',', '')))
             result['construction_fy'] = int(best[0])
-            result['construction_cost'] = int(best[1].replace(',', ''))
+            try:
+                result['construction_cost'] = int(best[1].replace(',', ''))
+            except:
+                pass
             all_years.append(result['construction_fy'])
     
-    # Also capture any year mentions with dollar amounts
-    for y in re.findall(r'(?:FY)?(\d{4})\s+\$[\d,]+', project_text):
-        year = int(y)
-        if 2024 <= year <= 2030:
-            all_years.append(year)
+    # Pattern 3: RPC TIP header format "Phase 2025 2026 2027 2028 Total"
+    if not result['construction_fy']:
+        header_match = re.search(r'(?:Phase|FY)\s+(202[4-9])\s+(202[4-9])\s+(202[4-9])\s+(202[4-9])', project_text)
+        if header_match:
+            years_in_header = [int(header_match.group(i)) for i in range(1, 5)]
+            all_years.extend(years_in_header)
+            result['construction_fy'] = years_in_header[2]
     
+    # Pattern 4: FFY or FY references
+    if not result['construction_fy']:
+        fy_matches = re.findall(r'(?:FFY|FY)\s*(\d{4})', project_text, re.IGNORECASE)
+        if fy_matches:
+            years = [int(y) for y in fy_matches if 2024 <= int(y) <= 2030]
+            if years:
+                all_years.extend(years)
+                result['construction_fy'] = max(years)
+    
+    # Pattern 5: Year range like "2025-2028 Funding"
+    if not result['construction_fy']:
+        range_match = re.search(r'(?:FY)?(202[4-9])[-–](202[4-9])', project_text)
+        if range_match:
+            start_year = int(range_match.group(1))
+            end_year = int(range_match.group(2))
+            all_years.extend(range(start_year, end_year + 1))
+            result['construction_fy'] = start_year + (end_year - start_year) // 2 + 1
+    
+    # Pattern 6: Any standalone year mentions (last resort)
+    if not all_years:
+        standalone_years = re.findall(r'\b(202[4-9])\b', project_text)
+        years = [int(y) for y in standalone_years]
+        if years:
+            all_years.extend(years)
+    
+    # Set earliest and primary FY
     if all_years:
-        result['earliest_fy'] = min(all_years)
-        result['primary_fy'] = result['construction_fy'] or min(all_years)
-    
-    # Debug logging for NH FY extraction
-    if result.get('construction_fy') or result.get('primary_fy'):
-        print(f"      [NH FY] Extracted: construction_fy={result.get('construction_fy')}, primary_fy={result.get('primary_fy')}")
+        unique_years = sorted(set(all_years))
+        result['earliest_fy'] = min(unique_years)
+        result['primary_fy'] = result['construction_fy'] or max(unique_years)
+        if not result['construction_fy'] and unique_years:
+            result['construction_fy'] = max(unique_years)
     
     return result
 
@@ -1000,8 +1019,6 @@ def parse_ctdot() -> List[Dict]:
                             col_map['cost'] = col
                     elif 'phase' in col_lower or 'type' in col_lower:
                         col_map['type'] = col
-                    elif 'fiscal' in col_lower or ('fy' in col_lower and 'year' not in col_map) or col_lower == 'year':
-                        col_map['fiscal_year'] = col
                 
                 if 'project_no' not in col_map:
                     for col in df.columns:
@@ -1037,22 +1054,12 @@ def parse_ctdot() -> List[Dict]:
                         
                         proj_type = str(row[col_map['type']]) if 'type' in col_map and pd.notna(row[col_map['type']]) else None
                         
-                        # Extract fiscal year
-                        fiscal_year = None
-                        if 'fiscal_year' in col_map and pd.notna(row[col_map['fiscal_year']]):
-                            fy_val = str(row[col_map['fiscal_year']])
-                            if re.match(r'\d{4}', fy_val):
-                                fiscal_year = f"FY{fy_val}"
-                            elif 'FY' in fy_val.upper():
-                                fiscal_year = fy_val
-                        
                         stip_projects[project_no] = {
                             'project_no': project_no,
                             'description': description,
                             'location': location,
                             'cost': cost,
-                            'type': proj_type,
-                            'fiscal_year': fiscal_year
+                            'type': proj_type
                         }
                     except:
                         continue
@@ -1132,7 +1139,6 @@ def parse_ctdot() -> List[Dict]:
         location = data.get('location')
         cost = data.get('cost')
         proj_type = classify_ct_project_type(data.get('type', '') or description)
-        fiscal_year = data.get('fiscal_year') or 'FY2026'  # Default to FY2026 for active STIP projects
         
         if description and len(description) > 5:
             lettings.append({
@@ -1145,7 +1151,7 @@ def parse_ctdot() -> List[Dict]:
                 'cost_display': format_currency(cost) if cost else 'TBD',
                 'ad_date': None,
                 'let_date': None,
-                'fiscal_year': fiscal_year,
+                'fiscal_year': 'FY2026',  # CT STIP is FFY25-28, default to FY2026
                 'project_type': proj_type,
                 'location': location,
                 'district': None,
@@ -1223,59 +1229,224 @@ def extract_ct_location(description: str) -> Optional[str]:
     return None
 
 
-def extract_vt_fiscal_year(description: str, project_name: str = None) -> Optional[str]:
-    """
-    Extract fiscal year from VT project description.
-    VT STIP projects often contain FFY or FY references.
-    """
-    text = f"{description or ''} {project_name or ''}"
-    
-    # Pattern: FFY25, FFY2025, FY25, FY2025
-    fy_match = re.search(r'(?:FFY|FY)\s*(\d{2,4})', text, re.I)
-    if fy_match:
-        year = fy_match.group(1)
-        if len(year) == 2:
-            year = f"20{year}"
-        return f"FY{year}"
-    
-    # Pattern: 2025-2028 (multi-year)
-    range_match = re.search(r'(20\d{2})[-–](20\d{2})', text)
-    if range_match:
-        return f"FY{range_match.group(1)}-{range_match.group(2)}"
-    
-    # Default to FY2026 for current active projects
-    return "FY2026"
-
-
 # =============================================================================
 # VTRANS PARSER - HTML TABLE SCRAPING
 # =============================================================================
 
+def parse_vt_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
+    """
+    Parse Vermont STIP PDF for project data with costs.
+    
+    VT STIP Format (FFY25-28):
+    - Project Location (Town name)
+    - Project number (e.g., STP BP17(2))
+    - VTrans # (e.g., 17F243)
+    - FY columns with costs by phase (PE, ROW, Const)
+    - Total Cost
+    - Federal Fund Source
+    
+    Returns list of projects with costs and fiscal year data.
+    """
+    lettings = []
+    
+    try:
+        import pdfplumber
+        import io
+        
+        with pdfplumber.open(io.BytesIO(pdf_content)) as pdf:
+            print(f"      VT STIP PDF has {len(pdf.pages)} pages")
+            
+            full_text = ""
+            for page in pdf.pages:
+                text = page.extract_text() or ''
+                full_text += text + "\n"
+            
+            # Look for project blocks - format varies but typically:
+            # TOWN_NAME
+            # PROJECT_CODE
+            # VTrans # XXXXXX
+            # Phase costs by FY
+            
+            # Pattern for town/project headers
+            # Projects often start with ALL CAPS town name followed by project code
+            project_pattern = re.compile(
+                r'^([A-Z][A-Z\s\-]+(?:\s*[-/]\s*[A-Z]+)?)\s*$\s*'  # Town name (all caps)
+                r'([A-Z]{2,4}\s+[A-Z0-9\(\)\-]+)\s*$\s*'           # Project code
+                r'VTrans\s*#\s*(\w+)',                              # VTrans number
+                re.MULTILINE
+            )
+            
+            # Simpler pattern - look for cost totals with town context
+            # Format: "Total: $X,XXX,XXX" preceded by town name
+            cost_pattern = re.compile(
+                r'([A-Z][A-Z\s\-]+)\s+'                    # Town name
+                r'(?:[A-Z]{2,4}\s+)?'                      # Optional project code prefix
+                r'([A-Z0-9\(\)\-]+)\s+'                    # Project identifier
+                r'VTrans\s*#\s*(\w+).*?'                   # VTrans number
+                r'Total:\s*\$([\d,]+)',                    # Total cost
+                re.DOTALL | re.IGNORECASE
+            )
+            
+            # Alternative: Extract from table-like structure
+            # Look for lines with cost amounts
+            lines = full_text.split('\n')
+            current_town = None
+            current_project = None
+            current_vtrans_num = None
+            seen_projects = set()
+            
+            i = 0
+            while i < len(lines):
+                line = lines[i].strip()
+                
+                # Detect town name (ALL CAPS, not a header keyword)
+                if (line.isupper() and 
+                    len(line) > 2 and 
+                    not any(kw in line for kw in ['FEDERAL', 'TOTAL', 'CONST', 'STBG', 'NHPP', 'PAGE', 'VERMONT', 'USAGE', 'PHASE', 'FFY'])):
+                    # Check if it's a Vermont town name pattern
+                    if re.match(r'^[A-Z][A-Z\s\-]+$', line) and len(line) < 40:
+                        current_town = line.title()
+                
+                # Detect VTrans project number
+                vtrans_match = re.search(r'VTrans\s*#\s*(\w+)', line)
+                if vtrans_match:
+                    current_vtrans_num = vtrans_match.group(1)
+                
+                # Detect project code (e.g., STP BP17(2), IM 089-2(56))
+                proj_code_match = re.search(r'\b([A-Z]{2,4})\s+([A-Z0-9\(\)\-]+\(\d+\))', line)
+                if proj_code_match:
+                    current_project = f"{proj_code_match.group(1)} {proj_code_match.group(2)}"
+                
+                # Detect cost totals
+                total_match = re.search(r'Total:\s*\$([\d,]+)', line)
+                if total_match and current_town:
+                    cost_str = total_match.group(1)
+                    cost = parse_currency(cost_str)
+                    
+                    if cost and cost >= 100000:  # Only include projects >= $100K
+                        project_id = current_vtrans_num or current_project or f"{current_town[:3]}-{i}"
+                        
+                        # Skip duplicates
+                        if project_id in seen_projects:
+                            i += 1
+                            continue
+                        seen_projects.add(project_id)
+                        
+                        # Determine project type from context
+                        context = ' '.join(lines[max(0,i-5):i+1])
+                        proj_type = classify_project_type(context)
+                        
+                        # Extract fiscal year info from nearby text
+                        fy_match = re.search(r'FY(\d{2})', context)
+                        fiscal_year = f"FY20{fy_match.group(1)}" if fy_match else "FY2026"
+                        
+                        # Check for multi-year range
+                        fy_range_match = re.search(r'FFY(\d{2})[-–]FFY?(\d{2})', context)
+                        if fy_range_match:
+                            fiscal_year = f"FY20{fy_range_match.group(1)}-20{fy_range_match.group(2)}"
+                        
+                        description = f"{current_town}: {current_project or 'Transportation Project'}"
+                        if current_vtrans_num:
+                            description += f" (VTrans #{current_vtrans_num})"
+                        
+                        lettings.append({
+                            'id': generate_id(f"VT-STIP-{project_id}"),
+                            'state': 'VT',
+                            'project_id': project_id,
+                            'description': description[:200],
+                            'cost_low': int(cost),
+                            'cost_high': int(cost),
+                            'cost_display': format_currency(cost),
+                            'ad_date': None,
+                            'let_date': None,
+                            'fiscal_year': fiscal_year,
+                            'project_type': proj_type,
+                            'location': current_town,
+                            'district': None,
+                            'url': url,
+                            'source': 'VT STIP',
+                            'business_lines': get_business_lines(description),
+                        })
+                        
+                        # Reset for next project
+                        current_project = None
+                        current_vtrans_num = None
+                
+                i += 1
+            
+            if lettings:
+                lettings.sort(key=lambda x: x.get('cost_low') or 0, reverse=True)
+                total = sum(l.get('cost_low') or 0 for l in lettings)
+                with_cost = len([l for l in lettings if l.get('cost_low')])
+                print(f"      Parsed {len(lettings)} VT STIP projects ({with_cost} with $)")
+                print(f"      Total pipeline: {format_currency(total)}")
+                
+    except ImportError:
+        print("      pdfplumber not installed - cannot parse STIP PDF")
+    except Exception as e:
+        print(f"      VT STIP PDF parse error: {e}")
+        import traceback
+        traceback.print_exc()
+    
+    return lettings
+
+
 def parse_vtrans() -> List[Dict]:
     """
-    Parse VTrans (Vermont) DOT bid results from HTML table.
+    Parse VTrans (Vermont) DOT projects using multi-tier approach:
     
-    Primary Source: Bid Results page with HTML table
-    URL: https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025
+    Tier 0: VT STIP PDF (authoritative future projects with costs) - PRIMARY
+    Tier 1: Bid Results page (historical/awarded contracts) - SECONDARY
+    Tier 2: Static baseline (fallback)
     
-    The page contains a clean HTML table with:
-    - Contract Number
-    - Construction Contract (project name with location)
-    - Bid Opening Date  
-    - Detail Bid Results / Award Amount
-    - Award Date / Awarded Contractor
-    - Executed Date
+    The STIP PDF contains FFY25-28 projects with costs.
+    URL: https://vtrans.vermont.gov/sites/aot/files/planning/documents/planning/FFY25-FFY28STIPRevised9092025.pdf
     
     Returns list of DOT lettings in standard format.
     """
     lettings = []
+    sources_tried = []
+    seen_project_ids = set()
     
-    # Primary source: 2025 bid results HTML page
+    print(f"    📋 VTrans Multi-Tier Parser")
+    
+    # ==========================================================================
+    # TIER 0: VT STIP PDF (Primary - Future Projects with Costs)
+    # ==========================================================================
+    print(f"    🔍 Tier 0: VT STIP PDF (Primary)...")
+    
+    stip_url = DOT_SOURCES['VT'].get('stip_pdf_url',
+        'https://vtrans.vermont.gov/sites/aot/files/planning/documents/planning/FFY25-FFY28STIPRevised9092025.pdf')
+    
+    try:
+        headers = get_full_browser_headers()
+        response = requests.get(stip_url, headers=headers, timeout=60)
+        
+        if response.status_code == 200:
+            sources_tried.append(f"STIP PDF: {len(response.content)} bytes")
+            
+            parsed = parse_vt_stip_pdf(response.content, stip_url)
+            if parsed:
+                for proj in parsed:
+                    proj_id = proj.get('project_id')
+                    if proj_id and proj_id not in seen_project_ids:
+                        seen_project_ids.add(proj_id)
+                        lettings.append(proj)
+                print(f"    ✓ Tier 0: {len(lettings)} STIP projects")
+        else:
+            sources_tried.append(f"STIP PDF: {response.status_code}")
+            
+    except Exception as e:
+        sources_tried.append(f"STIP PDF: {type(e).__name__}")
+        print(f"      STIP PDF error: {e}")
+    
+    # ==========================================================================
+    # TIER 1: Bid Results HTML (Secondary - Historical/Awarded)
+    # ==========================================================================
+    print(f"    🔍 Tier 1: Bid Results HTML (Secondary)...")
+    
     bid_results_url = DOT_SOURCES['VT'].get('bid_results_url', 
         'https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025')
-    
-    print(f"    📋 VTrans HTML Table Parser")
-    print(f"    🔍 Fetching bid results...")
     
     try:
         headers = get_full_browser_headers()
@@ -1394,6 +1565,7 @@ def parse_vtrans() -> List[Dict]:
                     'project_id': contract_no,
                     'let_date': let_date,
                     'ad_date': None,
+                    'fiscal_year': f"FY{get_federal_fy(let_date)}" if let_date and get_federal_fy(let_date) else 'FY2025',
                     'cost_low': cost,
                     'cost_high': cost,
                     'cost_display': format_currency(cost) if cost else 'See Bid Results',
@@ -1403,27 +1575,42 @@ def parse_vtrans() -> List[Dict]:
                     'contractor': contractor,
                 }
                 
-                lettings.append(letting)
+                # Deduplicate against STIP projects
+                if contract_no not in seen_project_ids:
+                    seen_project_ids.add(contract_no)
+                    lettings.append(letting)
                 
             except Exception as e:
                 continue
         
-        if lettings:
+        bid_count = len([l for l in lettings if l.get('source') == 'VTrans'])
+        if bid_count > 0:
             total = sum(l.get('cost_low') or 0 for l in lettings)
             with_cost = len([l for l in lettings if l.get('cost_low')])
-            print(f"    ✓ {len(lettings)} VT projects ({with_cost} with $), {format_currency(total)} pipeline")
-        else:
-            print(f"    ⚠ No VT projects parsed - returning portal stub")
-            lettings.append(create_portal_stub('VT'))
+            print(f"    ✓ Total: {len(lettings)} VT projects ({with_cost} with $), {format_currency(total)} pipeline")
+        elif not lettings:
+            print(f"    ⚠ No VT projects parsed - using baseline")
+            lettings.extend(get_vt_static_baseline())
             
     except requests.exceptions.RequestException as e:
-        print(f"    ✗ Request failed: {e}")
-        print(f"    📦 Using static VT baseline (verified projects from 2025)")
-        lettings.extend(get_vt_static_baseline())
+        print(f"    ✗ Bid results request failed: {e}")
+        if not lettings:
+            print(f"    📦 Using static VT baseline (verified projects from 2025)")
+            lettings.extend(get_vt_static_baseline())
     except Exception as e:
-        print(f"    ✗ Parser error: {e}")
-        print(f"    📦 Using static VT baseline (verified projects from 2025)")
-        lettings.extend(get_vt_static_baseline())
+        print(f"    ✗ Bid results parser error: {e}")
+        if not lettings:
+            print(f"    📦 Using static VT baseline (verified projects from 2025)")
+            lettings.extend(get_vt_static_baseline())
+    
+    # Final summary
+    if lettings:
+        total = sum(l.get('cost_low') or 0 for l in lettings)
+        stip_count = len([l for l in lettings if l.get('source') == 'VT STIP'])
+        bid_count = len([l for l in lettings if l.get('source') == 'VTrans'])
+        baseline_count = len([l for l in lettings if l.get('source') == 'VTrans (Baseline)'])
+        print(f"    📊 VT Summary: {len(lettings)} total ({stip_count} STIP, {bid_count} bid results, {baseline_count} baseline)")
+        print(f"       Pipeline: {format_currency(total)}")
     
     return lettings
 
@@ -1468,6 +1655,13 @@ def get_vt_static_baseline() -> List[Dict]:
     portal_url = 'https://vtrans.vermont.gov/contract-admin/results-awards/construction-contracting/historical/2025'
     
     for proj in baseline_projects:
+        # Derive fiscal year from let_date (federal FY starts Oct 1)
+        fiscal_year = None
+        if proj['date']:
+            fy = get_federal_fy(proj['date'])
+            if fy:
+                fiscal_year = f"FY{fy}"
+        
         letting = {
             'id': generate_id(f"VT-{proj['contract']}-{proj['name']}"),
             'state': 'VT',
@@ -1478,6 +1672,7 @@ def get_vt_static_baseline() -> List[Dict]:
             'project_id': proj['contract'],
             'let_date': proj['date'],
             'ad_date': None,
+            'fiscal_year': fiscal_year,
             'cost_low': proj['cost'],
             'cost_high': proj['cost'],
             'cost_display': format_currency(proj['cost']),
@@ -2001,10 +2196,16 @@ def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
                     # Extract fiscal year info (Phase 6.0)
                     fy_info = extract_nh_fiscal_year(search_text)
                     let_date = None
+                    fiscal_year = None
                     if fy_info.get('construction_fy'):
                         let_date = fiscal_year_to_let_date(fy_info['construction_fy'])
+                        fiscal_year = f"FY{fy_info['construction_fy']}"
                     elif fy_info.get('primary_fy'):
                         let_date = fiscal_year_to_let_date(fy_info['primary_fy'])
+                        fiscal_year = f"FY{fy_info['primary_fy']}"
+                    else:
+                        # Default to FY2026 for NH STIP projects
+                        fiscal_year = "FY2026"
                     
                     lettings.append({
                         'id': generate_id(f"NH-STIP-{project_id}"),
@@ -2016,6 +2217,7 @@ def parse_nh_stip_pdf(pdf_content: bytes, url: str) -> List[Dict]:
                         'cost_display': format_currency(cost) if cost else 'See STIP',
                         'ad_date': let_date,
                         'let_date': let_date,
+                        'fiscal_year': fiscal_year,
                         'project_type': proj_type,
                         'location': location.split('-')[0] if '-' in location else location,
                         'district': district,
@@ -2349,10 +2551,16 @@ def parse_rpc_tip_pdf_detailed(pdf_content: bytes, rpc_name: str, region: str, u
                 # Extract fiscal year info (Phase 6.0)
                 fy_info = extract_nh_fiscal_year(project_text)
                 let_date = None
+                fiscal_year = None
                 if fy_info.get('construction_fy'):
                     let_date = fiscal_year_to_let_date(fy_info['construction_fy'])
+                    fiscal_year = f"FY{fy_info['construction_fy']}"
                 elif fy_info.get('primary_fy'):
                     let_date = fiscal_year_to_let_date(fy_info['primary_fy'])
+                    fiscal_year = f"FY{fy_info['primary_fy']}"
+                else:
+                    # Default to FY2026 for NH TIP projects (current STIP is 2025-2028)
+                    fiscal_year = "FY2026"
                 
                 lettings.append({
                     'id': generate_id(f"NH-RPC-{project_id}"),
@@ -2364,6 +2572,7 @@ def parse_rpc_tip_pdf_detailed(pdf_content: bytes, rpc_name: str, region: str, u
                     'cost_display': format_currency(cost) if cost else 'See TIP',
                     'ad_date': let_date,
                     'let_date': let_date,
+                    'fiscal_year': fiscal_year,
                     'project_type': proj_type,
                     'location': location.split('-')[0].strip() if '-' in location else location.strip(),
                     'district': region,
@@ -3123,9 +3332,7 @@ def get_fy_from_fiscal_year_field(fy_str: Optional[str], fy_range: List[int] = N
     Extract fiscal years from 'fiscal_year' field like 'FY2023-2027'.
     Returns list of all years in range.
     
-    If fy_range is provided, years outside the range are clamped to the nearest
-    boundary (e.g., FY2023 -> FY2025 if fy_range starts at 2025).
-    This prevents costs from being silently dropped.
+    If fy_range is provided, years outside the range are clamped to nearest boundary.
     """
     if not fy_str:
         return []
@@ -3145,11 +3352,9 @@ def get_fy_from_fiscal_year_field(fy_str: Optional[str], fy_range: List[int] = N
             clamped = []
             for y in years:
                 if y < min_fy:
-                    # Assign pre-range years to earliest valid FY
                     if min_fy not in clamped:
                         clamped.append(min_fy)
                 elif y > max_fy:
-                    # Assign post-range years to latest valid FY
                     if max_fy not in clamped:
                         clamped.append(max_fy)
                 else:
@@ -3299,14 +3504,6 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
                 'yoy_pct': None
             })
         return result
-    
-    # Debug: Log FY distribution before returning
-    print(f"\n    📊 FY Distribution Summary:")
-    unknown_total = sum(by_type_fy.get('Unknown', {}).values())
-    for fy in fy_range:
-        fy_total = sum(by_type_fy.get(fy, {}).values())
-        print(f"      FY{fy}: ${fy_total/1e6:.1f}M")
-    print(f"      Unknown: ${unknown_total/1e6:.1f}M")
     
     return {
         'total_opportunities': by_cat['dot_letting'] + by_cat['funding'],

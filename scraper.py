@@ -1,17 +1,29 @@
 #!/usr/bin/env python3
 """
-NECMIS Scraper - Phase 8.0 (7/8 States Active)
+NECMIS Scraper - Phase 8.2 (FY Assignment Fixes)
 ==================================================
 MA: Plain text parser (PRESERVED)
 ME: Excel/PDF parser (PRESERVED)
 NH: Dynamic multi-approach parser with FISCAL YEAR EXTRACTION (PRESERVED)
-CT: HTML table + Excel parser (PRESERVED)
+CT: HTML table + Excel parser (ENHANCED - FY extraction added)
 VT: Bid results + STIP parser (PRESERVED)
-RI: Quarterly report + RhodeWorks baseline (NEW - Phase 8.0)
-PA: Letting schedule + ECMS baseline (NEW - Phase 8.0)
+RI: Quarterly report + RhodeWorks baseline (ENHANCED - FY clamping)
+PA: Letting schedule + ECMS baseline (PRESERVED)
 NY: Portal stub only (robots.txt blocked)
 
-Phase 8.0 Changes:
+Phase 8.2 Changes:
+- Fixed RI multi-year projects losing costs outside fy_range
+- Added FY extraction to CT STIP Excel parsing
+- Added FY field to CT STIP lettings output
+- Added FY clamping to prevent silent cost loss
+- Added debug logging for FY distribution
+- get_fy_from_fiscal_year_field now accepts fy_range parameter
+
+Phase 8.1 Changes (PRESERVED):
+- Added pipeline analysis by project type and fiscal year
+- Standardized project types: Bridge, Pavement, Highway, Safety, Other
+
+Phase 8.0 Changes (PRESERVED):
 - Added Rhode Island parser with baseline projects from quarterly reports
 - Added Pennsylvania parser with baseline projects from 12-month letting schedule
 - Now 7 of 8 states have active parsers (87.5% coverage)
@@ -112,6 +124,10 @@ def extract_nh_fiscal_year(project_text: str) -> Dict:
     if all_years:
         result['earliest_fy'] = min(all_years)
         result['primary_fy'] = result['construction_fy'] or min(all_years)
+    
+    # Debug logging for NH FY extraction
+    if result.get('construction_fy') or result.get('primary_fy'):
+        print(f"      [NH FY] Extracted: construction_fy={result.get('construction_fy')}, primary_fy={result.get('primary_fy')}")
     
     return result
 
@@ -984,6 +1000,8 @@ def parse_ctdot() -> List[Dict]:
                             col_map['cost'] = col
                     elif 'phase' in col_lower or 'type' in col_lower:
                         col_map['type'] = col
+                    elif 'fiscal' in col_lower or ('fy' in col_lower and 'year' not in col_map) or col_lower == 'year':
+                        col_map['fiscal_year'] = col
                 
                 if 'project_no' not in col_map:
                     for col in df.columns:
@@ -1019,12 +1037,22 @@ def parse_ctdot() -> List[Dict]:
                         
                         proj_type = str(row[col_map['type']]) if 'type' in col_map and pd.notna(row[col_map['type']]) else None
                         
+                        # Extract fiscal year
+                        fiscal_year = None
+                        if 'fiscal_year' in col_map and pd.notna(row[col_map['fiscal_year']]):
+                            fy_val = str(row[col_map['fiscal_year']])
+                            if re.match(r'\d{4}', fy_val):
+                                fiscal_year = f"FY{fy_val}"
+                            elif 'FY' in fy_val.upper():
+                                fiscal_year = fy_val
+                        
                         stip_projects[project_no] = {
                             'project_no': project_no,
                             'description': description,
                             'location': location,
                             'cost': cost,
-                            'type': proj_type
+                            'type': proj_type,
+                            'fiscal_year': fiscal_year
                         }
                     except:
                         continue
@@ -1104,6 +1132,7 @@ def parse_ctdot() -> List[Dict]:
         location = data.get('location')
         cost = data.get('cost')
         proj_type = classify_ct_project_type(data.get('type', '') or description)
+        fiscal_year = data.get('fiscal_year') or 'FY2026'  # Default to FY2026 for active STIP projects
         
         if description and len(description) > 5:
             lettings.append({
@@ -1116,6 +1145,7 @@ def parse_ctdot() -> List[Dict]:
                 'cost_display': format_currency(cost) if cost else 'TBD',
                 'ad_date': None,
                 'let_date': None,
+                'fiscal_year': fiscal_year,
                 'project_type': proj_type,
                 'location': location,
                 'district': None,
@@ -1191,6 +1221,30 @@ def extract_ct_location(description: str) -> Optional[str]:
             return town
     
     return None
+
+
+def extract_vt_fiscal_year(description: str, project_name: str = None) -> Optional[str]:
+    """
+    Extract fiscal year from VT project description.
+    VT STIP projects often contain FFY or FY references.
+    """
+    text = f"{description or ''} {project_name or ''}"
+    
+    # Pattern: FFY25, FFY2025, FY25, FY2025
+    fy_match = re.search(r'(?:FFY|FY)\s*(\d{2,4})', text, re.I)
+    if fy_match:
+        year = fy_match.group(1)
+        if len(year) == 2:
+            year = f"20{year}"
+        return f"FY{year}"
+    
+    # Pattern: 2025-2028 (multi-year)
+    range_match = re.search(r'(20\d{2})[-–](20\d{2})', text)
+    if range_match:
+        return f"FY{range_match.group(1)}-{range_match.group(2)}"
+    
+    # Default to FY2026 for current active projects
+    return "FY2026"
 
 
 # =============================================================================
@@ -3064,10 +3118,14 @@ def get_federal_fy(date_str: Optional[str]) -> Optional[int]:
         return None
 
 
-def get_fy_from_fiscal_year_field(fy_str: Optional[str]) -> List[int]:
+def get_fy_from_fiscal_year_field(fy_str: Optional[str], fy_range: List[int] = None) -> List[int]:
     """
     Extract fiscal years from 'fiscal_year' field like 'FY2023-2027'.
     Returns list of all years in range.
+    
+    If fy_range is provided, years outside the range are clamped to the nearest
+    boundary (e.g., FY2023 -> FY2025 if fy_range starts at 2025).
+    This prevents costs from being silently dropped.
     """
     if not fy_str:
         return []
@@ -3078,7 +3136,26 @@ def get_fy_from_fiscal_year_field(fy_str: Optional[str]) -> List[int]:
     if match:
         start_year = int(match.group(1))
         end_year = int(match.group(2)) if match.group(2) else start_year
-        return list(range(start_year, end_year + 1))
+        years = list(range(start_year, end_year + 1))
+        
+        # If fy_range provided, clamp years to valid range
+        if fy_range:
+            min_fy = min(fy_range)
+            max_fy = max(fy_range)
+            clamped = []
+            for y in years:
+                if y < min_fy:
+                    # Assign pre-range years to earliest valid FY
+                    if min_fy not in clamped:
+                        clamped.append(min_fy)
+                elif y > max_fy:
+                    # Assign post-range years to latest valid FY
+                    if max_fy not in clamped:
+                        clamped.append(max_fy)
+                else:
+                    clamped.append(y)
+            return sorted(set(clamped))
+        return years
     return []
 
 
@@ -3138,7 +3215,7 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
         
         # If no date, check fiscal_year field (for multi-year projects)
         if not fy and d.get('fiscal_year'):
-            fy_list = get_fy_from_fiscal_year_field(d.get('fiscal_year'))
+            fy_list = get_fy_from_fiscal_year_field(d.get('fiscal_year'), fy_range)
             if fy_list:
                 # For multi-year projects, distribute cost across years
                 cost_per_year = cost / len(fy_list) if cost else 0
@@ -3222,6 +3299,14 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
                 'yoy_pct': None
             })
         return result
+    
+    # Debug: Log FY distribution before returning
+    print(f"\n    📊 FY Distribution Summary:")
+    unknown_total = sum(by_type_fy.get('Unknown', {}).values())
+    for fy in fy_range:
+        fy_total = sum(by_type_fy.get(fy, {}).values())
+        print(f"      FY{fy}: ${fy_total/1e6:.1f}M")
+    print(f"      Unknown: ${unknown_total/1e6:.1f}M")
     
     return {
         'total_opportunities': by_cat['dot_letting'] + by_cat['funding'],

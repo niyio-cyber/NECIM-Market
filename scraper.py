@@ -3552,10 +3552,34 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
             })
         return result
     
+    # Calculate FORWARD-LOOKING pipeline (current FY + future only)
+    # This is what "pipeline" should represent - work in front of us
+    forward_pipeline = sum(
+        sum(by_type_fy.get(fy, {}).values()) 
+        for fy in fy_range if fy >= current_fy
+    )
+    
+    # For comparison: what was last year's forward-looking pipeline?
+    # (current_fy-1 and beyond at this point last year)
+    prior_year_forward_pipeline = sum(
+        sum(by_type_fy.get(fy, {}).values()) 
+        for fy in fy_range if fy >= (current_fy - 1)
+    )
+    
+    # Calculate pipeline YoY change
+    pipeline_yoy_pct = None
+    if prior_year_forward_pipeline > 0 and forward_pipeline != prior_year_forward_pipeline:
+        # Note: This is an approximation since we don't have last year's actual data
+        # True comparison would require historical snapshots
+        pipeline_yoy_pct = round((forward_pipeline - prior_year_forward_pipeline) / prior_year_forward_pipeline * 100, 1)
+    
     return {
         'total_opportunities': by_cat['dot_letting'] + by_cat['funding'],
-        'total_value_low': total_low,
+        'total_value_low': total_low,  # Keep for backward compatibility
         'total_value_high': total_high,
+        'forward_pipeline': forward_pipeline,  # NEW: Current FY + future only
+        'forward_pipeline_display': format_currency(forward_pipeline),
+        'pipeline_yoy_pct': pipeline_yoy_pct,
         'by_state': by_state,
         'by_category': by_cat,
         
@@ -3571,7 +3595,18 @@ def build_summary(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
                 s: format_fy_data(by_state_type_fy[s]) for s in STATES
             },
             'yoy_changes': yoy_changes,
-            'current_fy': current_fy
+            'current_fy': current_fy,
+            'forward_pipeline': forward_pipeline,
+            # Per-year totals for data labels
+            'fy_totals': {
+                f'FY{fy}': sum(by_type_fy.get(fy, {}).values()) for fy in fy_range
+            },
+            # Diagnostic: raw FY totals for verification
+            '_debug_fy_totals': {
+                f'FY{fy}': sum(by_type_fy.get(fy, {}).values()) for fy in fy_range
+            },
+            '_debug_unknown_total': sum(by_type_fy.get('Unknown', {}).values()),
+            '_debug_total_check': sum(sum(by_type_fy.get(fy, {}).values()) for fy in fy_range) + sum(by_type_fy.get('Unknown', {}).values())
         }
     }
 

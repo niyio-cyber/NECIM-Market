@@ -443,6 +443,7 @@
 
     <!-- Chart.js for Pipeline Analysis -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
     
     <script>
         const PASSWORD = 'NECMIS2026!';
@@ -552,8 +553,9 @@
         }
 
         function renderDashboard(data) {
-            // Stats
-            document.getElementById('pipelineValue').textContent = formatCurrency(data.summary?.total_value_low);
+            // Stats - Use forward_pipeline (current FY + future) instead of total
+            const forwardPipeline = data.summary?.forward_pipeline || data.summary?.total_value_low;
+            document.getElementById('pipelineValue').textContent = formatCurrency(forwardPipeline);
             document.getElementById('totalOpportunities').textContent = data.summary?.total_opportunities || '--';
             document.getElementById('dotLettings').textContent = data.summary?.by_category?.dot_letting || '--';
             document.getElementById('fundingCount').textContent = data.summary?.by_category?.funding || '--';
@@ -699,10 +701,16 @@
                 order: 0
             };
 
+            // Calculate totals for each bar (for data labels)
+            const barTotals = filteredData.map(d => d.total || 0);
+
             // Destroy existing chart
             if (pipelineChart) {
                 pipelineChart.destroy();
             }
+
+            // Register datalabels plugin
+            Chart.register(ChartDataLabels);
 
             // Create new chart
             const ctx = document.getElementById('pipelineChart').getContext('2d');
@@ -723,6 +731,36 @@
                         legend: {
                             display: false  // We have custom legend
                         },
+                        datalabels: {
+                            // Show total value on top of stacked bars
+                            display: function(context) {
+                                // Only show on the last (topmost) bar dataset, not on line
+                                const datasetIndex = context.datasetIndex;
+                                const datasetsCount = context.chart.data.datasets.length;
+                                // Last bar dataset is second to last (line is last)
+                                return datasetIndex === datasetsCount - 2;
+                            },
+                            anchor: 'end',
+                            align: 'top',
+                            offset: 4,
+                            color: '#4da6ff',
+                            font: {
+                                weight: 'bold',
+                                size: 11
+                            },
+                            formatter: function(value, context) {
+                                // Sum all bar values for this index
+                                const index = context.dataIndex;
+                                let total = 0;
+                                context.chart.data.datasets.forEach((dataset, i) => {
+                                    // Skip the line dataset (YoY)
+                                    if (dataset.type !== 'line' && dataset.data[index]) {
+                                        total += dataset.data[index];
+                                    }
+                                });
+                                return formatCurrencyShort(total);
+                            }
+                        },
                         tooltip: {
                             backgroundColor: 'rgba(30, 42, 58, 0.95)',
                             titleColor: '#4da6ff',
@@ -737,6 +775,16 @@
                                         return val !== null ? `YoY: ${val >= 0 ? '+' : ''}${val}%` : '';
                                     }
                                     return `${context.dataset.label}: ${formatCurrency(context.raw)}`;
+                                },
+                                afterBody: function(tooltipItems) {
+                                    // Add total to tooltip
+                                    let total = 0;
+                                    tooltipItems.forEach(item => {
+                                        if (item.dataset.type !== 'line') {
+                                            total += item.raw || 0;
+                                        }
+                                    });
+                                    return [`───────────`, `Total: ${formatCurrency(total)}`];
                                 }
                             }
                         }
@@ -793,6 +841,10 @@
 
             const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other'];
             const total = Object.values(byType).reduce((sum, t) => sum + (t.value || 0), 0);
+            
+            // Get forward pipeline (current FY + future)
+            const forwardPipeline = pa.forward_pipeline || total;
+            const currentFY = pa.current_fy || new Date().getFullYear();
 
             // Render type breakdown
             const summaryHtml = projectTypes.map(type => {

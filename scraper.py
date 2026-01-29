@@ -510,6 +510,15 @@ def parse_massdot() -> List[Dict]:
             district = int(p['district']) if p['district'] else None
             project_url = f"{url}?projnum={p['project_num']}" if p['project_num'] else url
             
+            # Derive fiscal year from ad_date
+            fiscal_year = None
+            if ad_date:
+                fy = get_federal_fy(ad_date)
+                if fy:
+                    fiscal_year = f"FY{fy}"
+            if not fiscal_year:
+                fiscal_year = "FY2026"  # Default for current lettings
+            
             lettings.append({
                 'id': generate_id(f"MA-{p['project_num'] or cost}-{desc[:25]}"),
                 'state': 'MA',
@@ -520,6 +529,7 @@ def parse_massdot() -> List[Dict]:
                 'cost_display': format_currency(cost),
                 'ad_date': ad_date,
                 'let_date': None,
+                'fiscal_year': fiscal_year,
                 'project_type': proj_type,
                 'location': location,
                 'district': district,
@@ -636,6 +646,15 @@ def parse_mainedot() -> List[Dict]:
                     if details and location:
                         description = f"{location}: {details}"
                     
+                    # Derive fiscal year from ad_date
+                    fiscal_year = None
+                    if ad_date:
+                        fy = get_federal_fy(ad_date)
+                        if fy:
+                            fiscal_year = f"FY{fy}"
+                    if not fiscal_year:
+                        fiscal_year = "FY2026"  # Default for ME CAP projects
+                    
                     lettings.append({
                         'id': generate_id(f"ME-{project_id}-{description[:20]}"),
                         'state': 'ME',
@@ -646,6 +665,7 @@ def parse_mainedot() -> List[Dict]:
                         'cost_display': format_currency(cost) if cost else 'TBD',
                         'ad_date': ad_date,
                         'let_date': ad_date,
+                        'fiscal_year': fiscal_year,
                         'project_type': proj_type or work_type,
                         'location': location.split(',')[0] if location and ',' in location else location,
                         'district': None,
@@ -1109,6 +1129,15 @@ def parse_ctdot() -> List[Dict]:
         if stip_data and stip_data.get('description') and len(stip_data['description']) > len(description):
             description = stip_data['description']
         
+        # Derive fiscal year from let_date
+        fiscal_year = None
+        if proj['let_date']:
+            fy = get_federal_fy(proj['let_date'])
+            if fy:
+                fiscal_year = f"FY{fy}"
+        if not fiscal_year:
+            fiscal_year = "FY2026"  # Default for CT projects
+        
         lettings.append({
             'id': generate_id(f"CT-{proj['proposal_no']}-{description[:20]}"),
             'state': 'CT',
@@ -1119,6 +1148,7 @@ def parse_ctdot() -> List[Dict]:
             'cost_display': format_currency(cost) if cost else 'See Bid Docs',
             'ad_date': None,
             'let_date': proj['let_date'],
+            'fiscal_year': fiscal_year,
             'project_type': proj_type,
             'location': location,
             'district': None,
@@ -2425,6 +2455,15 @@ def parse_rpc_tip_pdf(pdf_content: bytes, rpc_name: str, region: str) -> List[Di
                         elif fy_info.get('primary_fy'):
                             let_date = fiscal_year_to_let_date(fy_info['primary_fy'])
                         
+                        # Build fiscal_year field
+                        fiscal_year = None
+                        if fy_info.get('construction_fy'):
+                            fiscal_year = f"FY{fy_info['construction_fy']}"
+                        elif fy_info.get('primary_fy'):
+                            fiscal_year = f"FY{fy_info['primary_fy']}"
+                        else:
+                            fiscal_year = "FY2026"  # Default for NH RPC projects
+                        
                         lettings.append({
                             'id': generate_id(f"NH-RPC-{project_id}-{description[:20]}"),
                             'state': 'NH',
@@ -2435,6 +2474,7 @@ def parse_rpc_tip_pdf(pdf_content: bytes, rpc_name: str, region: str) -> List[Di
                             'cost_display': format_currency(cost) if cost else 'TBD',
                             'ad_date': let_date,
                             'let_date': let_date,
+                            'fiscal_year': fiscal_year,
                             'project_type': classify_project_type(description),
                             'location': region,
                             'district': None,
@@ -3080,6 +3120,13 @@ def parse_penndot() -> List[Dict]:
     for proj in pa_projects:
         if proj['id'] not in seen_ids:
             seen_ids.add(proj['id'])
+            # Add fiscal_year field if not present
+            if 'fiscal_year' not in proj and proj.get('let_date'):
+                fy = get_federal_fy(proj['let_date'])
+                if fy:
+                    proj['fiscal_year'] = f"FY{fy}"
+            if 'fiscal_year' not in proj:
+                proj['fiscal_year'] = "FY2026"  # Default for PA baseline
             lettings.append(proj)
     
     total = sum(l.get('cost_low', 0) or 0 for l in lettings)

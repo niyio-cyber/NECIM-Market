@@ -1,7 +1,7 @@
 {
-  "generated": "2026-01-29T01:47:07.743833Z",
+  "generated": "2026-01-29T11:57:02.032912Z",
   "summary": {
-    "total_opportunities": 641,
+    "total_opportunities": 642,
     "total_value_low": 2619524158,
     "total_value_high": 2809524158,
     "forward_pipeline": 1152675464.3333333,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 42,
       "NH": 59,
-      "ME": 171,
-      "MA": 21,
+      "ME": 169,
+      "MA": 20,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 641,
-      "news": 10,
-      "funding": 0
+      "news": 6,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -7067,27 +7067,6 @@
       ]
     },
     {
-      "id": "39bda3f90160",
-      "state": "CT",
-      "project_id": "0138-0253",
-      "description": "Noise Barrier Replacement on I-95",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-01-28",
-      "fiscal_year": "FY2026",
-      "project_type": "Highway",
-      "location": "I-95",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
       "id": "d25075c621b8",
       "state": "CT",
       "project_id": "0170-3756",
@@ -8213,6 +8192,26 @@
       "state": "CT",
       "project_id": "0050-0224",
       "description": "CT Project 0050-0224",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Highway",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8c7f1c991bc3",
+      "state": "CT",
+      "project_id": "0138-0253",
+      "description": "CT Project 0138-0253",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -13999,15 +13998,15 @@
   ],
   "news": [
     {
-      "id": "dc8e61edcd4f",
-      "title": "Community Bank opens Boston Road office in Springfield",
-      "summary": "A 5 p.m. Thursday ribbon-cutting will feature remarks from Community Bank New England Region President Matt Plasse.",
-      "url": "https://www.masslive.com/westernmass/2026/01/community-bank-opens-boston-road-office-in-springfield.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "32dbcab9bc47",
+      "title": "FBI raid in Georgia highlights Trump\u2019s 2020 election obsession and hints at possible future actions",
+      "summary": "DENVER (AP) \u2014 Donald Trump lost his bid for reelection in 2020. But for more than five years, he\u2019s been trying to convince Americans the opposite is true by falsely saying the election was marred by widespread fraud. Now that he\u2019s president again, Trump is pushing the federal government to back up t",
+      "url": "https://www.bangordailynews.com/2026/01/29/nation/fbi-raid-in-georgia-highlights-trumps-2020-election-obsession-and-hints-at-possible-future-actions/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-01-29",
-      "category": "news",
-      "priority": "medium",
+      "category": "funding",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -14019,48 +14018,6 @@
       "url": "https://vtdigger.org/2026/01/28/esther-charlestin-gov-scott-challenger-in-2024-launches-lieutenant-governor-bid/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-01-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4915c0df2375",
-      "title": "DOT worker deaths should lead to better roadway safety | Letter",
-      "summary": "My sympathies to the families and colleagues of the Department of Transportation (DOT) workers who were killed in the I-95 ramp accident in Waterville. Road crews should use speed bumps to slow down traffic entering Route 148 in Madison, along with creating better sight lines for traffic coming onto",
-      "url": "https://www.pressherald.com/2026/01/28/dot-worker-deaths-should-lead-to-better-roadway-safety-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f5b7b4da4e58",
-      "title": "Koi Asian Cuisine closes in Biddeford",
-      "summary": "The Elm Street restaurant had been open for nearly 15 years.",
-      "url": "https://www.pressherald.com/2026/01/28/koi-asian-cuisine-closes-in-biddeford/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "97ec10eadd3a",
-      "title": "Trump administration says San Jose State broke the law by allowing a transgender volleyball player",
-      "summary": "WASHINGTON (AP) \u2014 The Trump administration has concluded that San Jose State University discriminated against women by letting a transgender athlete play on the women\u2019s volleyball team, the U.S. Education Department said Wednesday. The department offered San Jose State a deal that would resolve the",
-      "url": "https://www.bangordailynews.com/2026/01/28/nation/trump-administration-says-san-jose-state-broke-the-law-by-allowing-a-transgender-volleyball-player/",
-      "source": "Bangor Daily News",
-      "state": "ME",
       "date": "2026-01-28",
       "category": "news",
       "priority": "high",
@@ -14147,7 +14104,7 @@
       "raw": 3077840397.2996297,
       "raw_display": "$3.08B",
       "source": "scraper_v2",
-      "updated": "2026-01-29T01:46:57.226369",
+      "updated": "2026-01-29T11:56:56.879655",
       "v2_details": {
         "raw_total": "$2.62B",
         "weighted_total": "$1.71B",
@@ -14264,7 +14221,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-29T01:46:57.226369"
+      "updated": "2026-01-29T11:56:56.879655"
     },
     "construction_spending": {
       "score": 4.8,
@@ -14274,7 +14231,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-29T01:46:57.226369"
+      "updated": "2026-01-29T11:56:56.879655"
     },
     "migration": {
       "score": 5.0,
@@ -14284,7 +14241,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-29T01:46:57.226369"
+      "updated": "2026-01-29T11:56:56.879655"
     },
     "construction_employment": {
       "score": 4.7,
@@ -14294,7 +14251,7 @@
       "raw_display": "958K workers",
       "yoy_change": -1.4,
       "source": "FRED API",
-      "updated": "2026-01-29T01:46:57.226369"
+      "updated": "2026-01-29T11:56:56.879655"
     },
     "input_cost": {
       "score": 10,
@@ -14312,7 +14269,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-29T01:46:57.226369"
+      "updated": "2026-01-29T11:56:56.879655"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -14321,7 +14278,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-29T01:46:57.226369"
+      "updated": "2026-01-29T11:56:56.879655"
     },
     "overall_score": 6.3,
     "overall_status": "stable",
@@ -14334,6 +14291,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-29T01:46:57.226369"
+    "calculated_at": "2026-01-29T11:56:56.879655"
   }
 }

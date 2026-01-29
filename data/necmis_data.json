@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-28T23:00:45.017720Z",
+  "generated": "2026-01-29T01:22:57.261404Z",
   "summary": {
     "total_opportunities": 641,
     "total_value_low": 2619524158,
@@ -7,8 +7,8 @@
     "by_state": {
       "VT": 42,
       "NH": 59,
-      "ME": 172,
-      "MA": 22,
+      "ME": 171,
+      "MA": 21,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -16,7 +16,7 @@
     },
     "by_category": {
       "dot_letting": 641,
-      "news": 12,
+      "news": 10,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -825,6 +825,7 @@
       "cost_display": "$10.8M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway - Construction , Pavement - Surfacing",
       "location": "Deerfield - Hatfield - Northampton - Whately",
       "district": 2,
@@ -845,6 +846,7 @@
       "cost_display": "$723K",
       "ad_date": "2026-01-10",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Impact Attenuators",
       "location": "District 6",
       "district": 6,
@@ -864,6 +866,7 @@
       "cost_display": "$2.3M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway - Construction",
       "location": "Upton",
       "district": 3,
@@ -884,6 +887,7 @@
       "cost_display": "$37.4M",
       "ad_date": "2025-09-13",
       "let_date": null,
+      "fiscal_year": "FY2025",
       "project_type": "Highway - Construction",
       "location": "Wilmington",
       "district": 4,
@@ -903,6 +907,7 @@
       "cost_display": "$855K",
       "ad_date": "2026-01-17",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Tree Trimming, Maintenance and Removal",
       "location": "District 1",
       "district": 1,
@@ -922,6 +927,7 @@
       "cost_display": "$1.8M",
       "ad_date": "2026-01-17",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Guard Rail & Fencing",
       "location": "District 2",
       "district": 2,
@@ -941,6 +947,7 @@
       "cost_display": "$978K",
       "ad_date": "2026-01-17",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Bridge - Construction",
       "location": "District 2",
       "district": 2,
@@ -960,6 +967,7 @@
       "cost_display": "$5.9M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Pavement - Surfacing",
       "location": "District 5",
       "district": 5,
@@ -979,6 +987,7 @@
       "cost_display": "$2.0M",
       "ad_date": "2026-01-17",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway - Construction",
       "location": "Boston",
       "district": 6,
@@ -998,6 +1007,7 @@
       "cost_display": "$10.8M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway - Construction",
       "location": "Braintree - Weymouth",
       "district": 6,
@@ -1018,6 +1028,7 @@
       "cost_display": "$2.3M",
       "ad_date": "2026-01-24",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Traffic Signals",
       "location": "District 5",
       "district": 5,
@@ -1037,6 +1048,7 @@
       "cost_display": "$10.5M",
       "ad_date": "2026-01-24",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway Construction",
       "location": "Milton",
       "district": 6,
@@ -1056,6 +1068,7 @@
       "cost_display": "$51.3M",
       "ad_date": "2025-12-20",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Bridge - Construction",
       "location": "Springfield",
       "district": 2,
@@ -1076,6 +1089,7 @@
       "cost_display": "$17.8M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Pavement - Surfacing",
       "location": "Attleboro",
       "district": 5,
@@ -1096,6 +1110,7 @@
       "cost_display": "$11.4M",
       "ad_date": "2026-01-03",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Bridge - Construction",
       "location": "Burlington - Lynnfield - Wakefield - Woburn",
       "district": 4,
@@ -1115,6 +1130,7 @@
       "cost_display": "$7.5M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Pavement - Surfacing",
       "location": "Dartmouth - Westport",
       "district": 5,
@@ -1135,6 +1151,7 @@
       "cost_display": "$19.6M",
       "ad_date": "2026-01-10",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Pavement - Surfacing",
       "location": "District 1",
       "district": 1,
@@ -1155,6 +1172,7 @@
       "cost_display": "$2.0M",
       "ad_date": "2026-01-24",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway - Construction",
       "location": "District 6",
       "district": 6,
@@ -1174,6 +1192,7 @@
       "cost_display": "$13.0M",
       "ad_date": "2025-09-13",
       "let_date": null,
+      "fiscal_year": "FY2025",
       "project_type": "Bridge - Construction",
       "location": "Lincoln",
       "district": 4,
@@ -1194,6 +1213,7 @@
       "cost_display": "$5.1M",
       "ad_date": "2025-12-27",
       "let_date": null,
+      "fiscal_year": "FY2026",
       "project_type": "Highway - Construction",
       "location": "Randolph",
       "district": 6,
@@ -6995,6 +7015,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-04",
+      "fiscal_year": "FY2026",
       "project_type": "Signal/Safety",
       "location": "Route 10",
       "district": null,
@@ -7014,6 +7035,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-04",
+      "fiscal_year": "FY2026",
       "project_type": "Structural",
       "location": "ROUTE 44",
       "district": null,
@@ -7034,6 +7056,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-01-28",
+      "fiscal_year": "FY2026",
       "project_type": "Highway",
       "location": "I-95",
       "district": null,
@@ -7054,6 +7077,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-04",
+      "fiscal_year": "FY2026",
       "project_type": "Highway",
       "location": null,
       "district": null,
@@ -7073,6 +7097,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-18",
+      "fiscal_year": "FY2026",
       "project_type": "Pavement",
       "location": "CT 1",
       "district": null,
@@ -7092,6 +7117,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-11",
+      "fiscal_year": "FY2026",
       "project_type": "Pavement",
       "location": null,
       "district": null,
@@ -7112,6 +7138,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-25",
+      "fiscal_year": "FY2026",
       "project_type": "Signal/Safety",
       "location": "New Haven",
       "district": null,
@@ -7131,6 +7158,7 @@
       "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": "2026-02-18",
+      "fiscal_year": "FY2026",
       "project_type": "Bridge",
       "location": "New Haven",
       "district": null,
@@ -13798,7 +13826,8 @@
         "highway",
         "hma"
       ],
-      "project_type": "Reconstruction"
+      "project_type": "Reconstruction",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "7dec006d6cf1",
@@ -13818,7 +13847,8 @@
         "highway",
         "ready_mix"
       ],
-      "project_type": "Bridge Replacement"
+      "project_type": "Bridge Replacement",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "12fcad587585",
@@ -13838,7 +13868,8 @@
         "highway",
         "hma"
       ],
-      "project_type": "Restoration"
+      "project_type": "Restoration",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "583144c1cff6",
@@ -13858,7 +13889,8 @@
         "highway",
         "hma"
       ],
-      "project_type": "Restoration"
+      "project_type": "Restoration",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "620893ebaa96",
@@ -13878,7 +13910,8 @@
         "highway",
         "ready_mix"
       ],
-      "project_type": "Bridge Replacement"
+      "project_type": "Bridge Replacement",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "54fd807ff8f5",
@@ -13898,7 +13931,8 @@
         "highway",
         "hma"
       ],
-      "project_type": "Resurfacing"
+      "project_type": "Resurfacing",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "275272bd71b1",
@@ -13918,7 +13952,8 @@
         "highway",
         "ready_mix"
       ],
-      "project_type": "Bridge Rehabilitation"
+      "project_type": "Bridge Rehabilitation",
+      "fiscal_year": "FY2026"
     },
     {
       "id": "963a462bd3e0",
@@ -13938,10 +13973,25 @@
         "highway",
         "hma"
       ],
-      "project_type": "Resurfacing"
+      "project_type": "Resurfacing",
+      "fiscal_year": "FY2026"
     }
   ],
   "news": [
+    {
+      "id": "dc8e61edcd4f",
+      "title": "Community Bank opens Boston Road office in Springfield",
+      "summary": "A 5 p.m. Thursday ribbon-cutting will feature remarks from Community Bank New England Region President Matt Plasse.",
+      "url": "https://www.masslive.com/westernmass/2026/01/community-bank-opens-boston-road-office-in-springfield.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-01-29",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
     {
       "id": "da3abd05d361",
       "title": "Esther Charlestin, Gov. Scott challenger in 2024, launches lieutenant governor bid",
@@ -13985,54 +14035,12 @@
       ]
     },
     {
-      "id": "47371fe89dbf",
-      "title": "A&C Soda Shop in South Portland rebrands to Rattle Shake Grill",
-      "summary": "The Cottage Road restaurant changed its name after a founding owner left the business.",
-      "url": "https://www.pressherald.com/2026/01/28/south-portlands-ac-soda-shop-rebrands-to-rattle-shake-grill/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-01-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "97ec10eadd3a",
       "title": "Trump administration says San Jose State broke the law by allowing a transgender volleyball player",
       "summary": "WASHINGTON (AP) \u2014 The Trump administration has concluded that San Jose State University discriminated against women by letting a transgender athlete play on the women\u2019s volleyball team, the U.S. Education Department said Wednesday. The department offered San Jose State a deal that would resolve the",
       "url": "https://www.bangordailynews.com/2026/01/28/nation/trump-administration-says-san-jose-state-broke-the-law-by-allowing-a-transgender-volleyball-player/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-01-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a3fe65f88763",
-      "title": "\u2018A bad call\u2019: Several school buses stuck in snow as Mass. students return after storm",
-      "summary": "Schools reopened on Wednesday and road conditions were not up to the challenge.",
-      "url": "https://www.masslive.com/worcester/2026/01/a-bad-call-several-school-buses-stuck-in-snow-as-mass-students-return-after-storm.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-01-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "29d682451bf2",
-      "title": "Eli Manning\u2019s second bid for Pro Football Hall of Fame falls short (report)",
-      "summary": "Like Bill Belichick, Eli Manning won\u2019t be going to the Pro Football Hall of Fame in 2026.",
-      "url": "https://www.masslive.com/patriots/2026/01/eli-mannings-second-bid-for-pro-football-hall-of-fame-falls-short-report.html",
-      "source": "MassLive",
-      "state": "MA",
       "date": "2026-01-28",
       "category": "news",
       "priority": "high",
@@ -14114,15 +14122,15 @@
   "market_health": {
     "dot_pipeline": {
       "score": 5.5,
-      "trend": "up",
+      "trend": "stable",
       "action": "Selective bidding - pipeline softening",
-      "raw": 3099415967.9350395,
-      "raw_display": "$3.10B",
+      "raw": 3077840397.2996297,
+      "raw_display": "$3.08B",
       "source": "scraper_v2",
-      "updated": "2026-01-28T23:00:30.200157",
+      "updated": "2026-01-29T01:22:51.199613",
       "v2_details": {
         "raw_total": "$2.62B",
-        "weighted_total": "$1.72B",
+        "weighted_total": "$1.71B",
         "extrapolated_total": "$4.71B",
         "by_horizon": {
           "near": {
@@ -14202,7 +14210,7 @@
           },
           "PA": {
             "raw": 345000000,
-            "weighted": 313500000.0,
+            "weighted": 301500000.0,
             "estimated": 345000000,
             "is_scraped": true,
             "fhwa_ratio": "32.6%"
@@ -14219,12 +14227,12 @@
         "scoring_params": {
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
-          "avg_time_weight": 0.66,
-          "baseline_time_weighted": 3948459281.8173966,
-          "baseline_time_weighted_display": "$3.95B",
+          "avg_time_weight": 0.65,
+          "baseline_time_weighted": 3920973373.8214297,
+          "baseline_time_weighted_display": "$3.92B",
           "score_at_baseline": 7.0,
-          "scoring_value": 3099415967.9350395,
-          "scoring_value_display": "$3.10B"
+          "scoring_value": 3077840397.2996297,
+          "scoring_value_display": "$3.08B"
         }
       }
     },
@@ -14236,7 +14244,7 @@
       "raw_display": "8,841 units/mo",
       "yoy_change": 9.9,
       "source": "FRED API",
-      "updated": "2026-01-28T23:00:30.200157"
+      "updated": "2026-01-29T01:22:51.199613"
     },
     "construction_spending": {
       "score": 4.8,
@@ -14246,7 +14254,7 @@
       "raw_display": "$142.6B SAAR",
       "yoy_change": -1.1,
       "source": "FRED API",
-      "updated": "2026-01-28T23:00:30.200157"
+      "updated": "2026-01-29T01:22:51.199613"
     },
     "migration": {
       "score": 5.0,
@@ -14256,7 +14264,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-01-28T23:00:30.200157"
+      "updated": "2026-01-29T01:22:51.199613"
     },
     "construction_employment": {
       "score": 4.7,
@@ -14266,7 +14274,7 @@
       "raw_display": "958K workers",
       "yoy_change": -1.4,
       "source": "FRED API",
-      "updated": "2026-01-28T23:00:30.200157"
+      "updated": "2026-01-29T01:22:51.199613"
     },
     "input_cost": {
       "score": 10,
@@ -14284,7 +14292,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-01-28T23:00:30.200157"
+      "updated": "2026-01-29T01:22:51.199613"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -14293,7 +14301,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-01-28T23:00:30.200157"
+      "updated": "2026-01-29T01:22:51.199613"
     },
     "overall_score": 6.3,
     "overall_status": "stable",
@@ -14306,6 +14314,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-01-28T23:00:30.200157"
+    "calculated_at": "2026-01-29T01:22:51.199613"
   }
 }

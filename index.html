@@ -160,11 +160,10 @@
             font-size: 0.8em; font-weight: 600; margin-right: 8px;
             background: rgba(77, 166, 255, 0.15); color: #4da6ff;
         }
-        .project-type.bridge { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
-        .project-type.highway { background: rgba(45, 212, 191, 0.15); color: #2dd4bf; }
-        .project-type.pavement { background: rgba(167, 139, 250, 0.15); color: #a78bfa; }
-        .project-type.drainage { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
-        .project-type.signals { background: rgba(251, 146, 60, 0.15); color: #fb923c; }
+        .project-type.bridge { background: rgba(77, 166, 255, 0.15); color: #4da6ff; }
+        .project-type.pavement { background: rgba(80, 200, 120, 0.15); color: #50c878; }
+        .project-type.safety { background: rgba(255, 107, 107, 0.15); color: #ff6b6b; }
+        .project-type.other { background: rgba(155, 89, 182, 0.15); color: #9b59b6; }
         .project-link {
             display: inline-block; padding: 6px 14px; border-radius: 6px;
             font-size: 0.85em; text-decoration: none;
@@ -459,11 +458,10 @@
             'PA': { name: 'PennDOT', desc: 'Letting Information', url: 'https://www.penndot.pa.gov/business/Letting/Pages/default.aspx' }
         };
         
-        // Project type colors (consistent across chart and legend)
+        // Project type colors (4 categories: Bridge, Pavement, Safety, Other)
         const TYPE_COLORS = {
             'Bridge': '#4da6ff',      // Blue
             'Pavement': '#50c878',    // Green
-            'Highway': '#ffa500',     // Orange
             'Safety': '#ff6b6b',      // Red
             'Other': '#9b59b6'        // Purple
         };
@@ -519,12 +517,11 @@
         function getProjectTypeClass(type) {
             if (!type) return '';
             const t = type.toLowerCase();
-            if (t.includes('bridge')) return 'bridge';
-            if (t.includes('highway') || t.includes('reconstruction')) return 'highway';
-            if (t.includes('pavement') || t.includes('surfacing') || t.includes('resurfacing')) return 'pavement';
-            if (t.includes('drainage') || t.includes('sewer')) return 'drainage';
-            if (t.includes('signal') || t.includes('traffic')) return 'signals';
-            return '';
+            if (t.includes('bridge') || t.includes('culvert')) return 'bridge';
+            if (t.includes('safety') || t.includes('signal') || t.includes('guardrail') || t.includes('marking') || t.includes('intersection')) return 'safety';
+            if (t.includes('transit') || t.includes('rail') || t.includes('bike') || t.includes('pedestrian') || t.includes('drainage') || t.includes('sidewalk')) return 'other';
+            if (t.includes('pavement') || t.includes('surfacing') || t.includes('highway') || t.includes('reconstruction') || t.includes('hma') || t.includes('overlay')) return 'pavement';
+            return 'pavement'; // Default: road work → pavement
         }
 
         async function loadData() {
@@ -673,8 +670,8 @@
             // Labels (fiscal years)
             const labels = filteredData.map(d => d.fy);
             
-            // Stacked bar datasets for each project type
-            const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other'];
+            // Stacked bar datasets for each project type (4 categories)
+            const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Safety', 'Other'];
             const barDatasets = projectTypes.map(type => ({
                 label: type,
                 data: filteredData.map(d => d[type] || 0),
@@ -839,7 +836,7 @@
                 byType = pa.by_state_type?.[state] || {};
             }
 
-            const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other'];
+            const projectTypes = pa.project_types || ['Bridge', 'Pavement', 'Safety', 'Other'];
             const total = Object.values(byType).reduce((sum, t) => sum + (t.value || 0), 0);
             
             // Get forward pipeline (current FY + future)

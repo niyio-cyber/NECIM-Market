@@ -31,6 +31,7 @@ import json
 import hashlib
 import re
 import os
+import subprocess
 from datetime import datetime, timezone
 from typing import Dict, List, Optional
 
@@ -195,7 +196,8 @@ DOT_SOURCES = {
            'projects_url': 'https://www.dot.ri.gov/projects/'},
     'CT': {'name': 'CTDOT', 'portal_url': 'https://portal.ct.gov/dot/business/contracting-project-awards', 'parser': 'active',
            'qanda_url': 'https://contractsqanda.dot.ct.gov/Proposals.aspx',
-           'stip_excel_url': 'https://portal.ct.gov/dot/-/media/dot/policy/stip/fy25_urban_rural_12092025.xlsx'},
+           'stip_excel_url': 'https://portal.ct.gov/dot/-/media/dot/policy/stip/fy25_urban_rural_12092025.xlsx',
+           'stip_pdf_url': 'https://portal.ct.gov/-/media/DOT/Policy/STIP/2025-2028_STIP_PROJECTS_BY_FA_CODE_AS_OF_1-8-2026_Internet_only.pdf'},
     'PA': {'name': 'PennDOT', 'portal_url': 'https://www.ecms.penndot.pa.gov/ECMS/', 'parser': 'active',
            'letting_pdf': 'https://docs.penndot.pa.gov/Public/Bureaus/BOCM/Let%20Schedules/letschdl.pdf',
            'projects_url': 'https://www.projects.penndot.gov/'}
@@ -636,11 +638,11 @@ def parse_mainedot() -> List[Dict]:
                         elif 'paving' in work_lower or 'preservation' in work_lower:
                             proj_type = 'Pavement'
                         elif 'highway' in work_lower:
-                            proj_type = 'Highway'
+                            proj_type = 'Pavement'  # Highway work → Pavement
                         elif 'safety' in work_lower:
                             proj_type = 'Safety'
                         else:
-                            proj_type = work_type[:30]
+                            proj_type = 'Pavement'  # Default to Pavement
                     
                     description = location or details or f"MaineDOT Project {project_id}"
                     if details and location:
@@ -764,9 +766,11 @@ def parse_mainedot() -> List[Dict]:
                             elif 'paving' in current_work_type.lower():
                                 proj_type = 'Pavement'
                             elif 'highway' in current_work_type.lower():
-                                proj_type = 'Highway'
+                                proj_type = 'Pavement'  # Highway work → Pavement
                             elif 'safety' in current_work_type.lower():
                                 proj_type = 'Safety'
+                            else:
+                                proj_type = 'Pavement'  # Default to Pavement
                             
                             if location and len(location) > 3:
                                 lettings.append({
@@ -860,7 +864,11 @@ def parse_mainedot() -> List[Dict]:
                             elif 'paving' in current_work_type.lower():
                                 proj_type = 'Pavement'
                             elif 'highway' in current_work_type.lower():
-                                proj_type = 'Highway'
+                                proj_type = 'Pavement'  # Highway work → Pavement
+                            elif 'safety' in current_work_type.lower():
+                                proj_type = 'Safety'
+                            else:
+                                proj_type = 'Pavement'  # Default to Pavement
                             
                             if location and len(location) > 3:
                                 lettings.append({
@@ -907,25 +915,254 @@ def parse_mainedot() -> List[Dict]:
 
 
 # =============================================================================
-# CTDOT PARSER (HTML Table + Excel) - NEW IMPLEMENTATION
+# CT STIP PDF PARSER - EXTRACTS PROJECTS WITH COSTS FROM OFFICIAL STIP PDF
+# =============================================================================
+
+def parse_ct_stip_pdf(pdf_content: bytes, source_url: str = None) -> List[Dict]:
+    """
+    Parse CT STIP PDF content and extract projects with costs.
+    
+    The PDF has columns:
+    Region  FA Code  Proj#  AQCd  Rte/Sys  Town  Description  Phase  Year  Tot(000)$  Fed(000)$  Sta(000)$  Loc(000)$
+    
+    Args:
+        pdf_content: Raw PDF bytes
+        source_url: URL of the PDF source
+        
+    Returns:
+        List of project dicts in standard NECMIS format
+    """
+    import tempfile
+    
+    projects = []
+    seen_projects = {}  # Track by proj_no to dedupe and sum phases
+    
+    # Write PDF to temp file for pdftotext
+    with tempfile.NamedTemporaryFile(suffix='.pdf', delete=False) as f:
+        f.write(pdf_content)
+        temp_path = f.name
+    
+    try:
+        # Extract text with layout preservation
+        result = subprocess.run(
+            ['pdftotext', '-layout', temp_path, '-'],
+            capture_output=True, text=True, timeout=120
+        )
+        
+        if result.returncode != 0:
+            print(f"      pdftotext error: {result.stderr}")
+            return projects
+            
+        text = result.stdout
+        lines = text.split('\n')
+        
+        for line in lines:
+            # Skip header lines and empty lines
+            if not line.strip() or ('Region' in line and 'FA Code' in line):
+                continue
+            
+            # Look for project number pattern (XXXX-XXXX)
+            proj_match = re.search(r'(\d{4}-\d{4})', line)
+            if not proj_match:
+                continue
+                
+            proj_no = proj_match.group(1)
+            
+            # Look for cost columns at end: Phase Year Tot(000)$ Fed(000)$ Sta(000)$ Loc(000)$
+            cost_match = re.search(
+                r'(PE|CON|ROW|FD)\s+(\d{4})\s+(\d{1,3}(?:,\d{3})*)\s+(\d{1,3}(?:,\d{3})*)\s+(\d{1,3}(?:,\d{3})*)\s+(\d{1,3}(?:,\d{3})*)\s*$',
+                line
+            )
+            
+            if not cost_match:
+                continue
+            
+            phase = cost_match.group(1)
+            year = cost_match.group(2)
+            total_k = int(cost_match.group(3).replace(',', ''))
+            total_dollars = total_k * 1000
+            
+            if total_dollars == 0:
+                continue  # Skip zero-cost entries
+            
+            # Extract route/location - look for pattern after proj#
+            route_match = re.search(r'\d{4}-\d{4}\s+\w+\s+([\w\-/\s]+?)\s{2,}([\w\s,]+?)\s{2,}', line)
+            route = route_match.group(1).strip() if route_match else ''
+            town = route_match.group(2).strip() if route_match else ''
+            
+            # Extract description - between town and phase
+            desc_match = re.search(r'([\w\s,]+)\s{2,}(.+?)\s{2,}(PE|CON|ROW|FD)', line)
+            description = desc_match.group(2).strip() if desc_match else ''
+            
+            # Dedupe: sum costs for same project across phases
+            if proj_no in seen_projects:
+                seen_projects[proj_no]['cost_low'] += total_dollars
+                seen_projects[proj_no]['cost_high'] += total_dollars
+            else:
+                # Classify project type
+                proj_type = classify_ct_project_type(f"{description} {route}")
+                
+                seen_projects[proj_no] = {
+                    'state': 'CT',
+                    'project_id': proj_no,
+                    'description': description[:200] if description else f"{route} - {town}",
+                    'location': town,
+                    'cost_low': total_dollars,
+                    'cost_high': total_dollars,
+                    'cost_display': format_currency(total_dollars),
+                    'ad_date': None,
+                    'let_date': None,
+                    'fiscal_year': f"FY{year}",
+                    'project_type': proj_type,
+                    'url': source_url or 'https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program',
+                    'source': 'CTDOT STIP PDF',
+                    'business_lines': get_business_lines(f"{description} {route} {proj_type}")
+                }
+        
+        projects = list(seen_projects.values())
+        
+        # Update cost_display after summing and add IDs
+        for p in projects:
+            p['cost_display'] = format_currency(p['cost_low'])
+            p['id'] = generate_id(f"CT-{p['project_id']}-{p['description'][:20]}")
+        
+    except Exception as e:
+        print(f"      CT STIP PDF parse error: {e}")
+    finally:
+        try:
+            os.unlink(temp_path)
+        except:
+            pass
+    
+    return projects
+
+
+def classify_ct_project_type(text: str) -> str:
+    """Classify CT project type into 4 standard categories: Bridge, Pavement, Safety, Other."""
+    if not text:
+        return 'Pavement'  # Default
+    text = text.upper()
+    
+    # Bridge (specific asset type)
+    if any(x in text for x in ['BRIDGE', 'VIADUCT', 'BR ', 'BRS', 'BRP', 'CULVERT', 'OVERPASS', 
+                                'DECK', 'ABUTMENT', 'PIER']):
+        return 'Bridge'
+    
+    # Safety (signals, guardrails, etc.)
+    if any(x in text for x in ['SIGNAL', 'SAFETY', 'GUARDRAIL', 'SIGN ', 'SIGNING', 
+                                'LIGHTING', 'BARRIER', 'HSIP', 'RUMBLE']):
+        return 'Safety'
+    
+    # Other (multimodal, environmental - minimal)
+    if any(x in text for x in ['RAIL', 'TRANSIT', 'BUS ', 'BICYCLE', 'PEDESTRIAN', 'SIDEWALK',
+                                'ENVIRON', 'WETLAND', 'STORM', 'DRAINAGE', 'TRAIL']):
+        return 'Other'
+    
+    # Pavement (everything else including highway/interstate work)
+    if any(x in text for x in ['PAVEMENT', 'RESURFACE', 'OVERLAY', 'PAVING', 'HMA', 'ASPHALT', 
+                                'BITUMINOUS', 'MILLING', 'SURFACE TREATMENT', 'CRACK SEAL',
+                                'I-84', 'I-91', 'I-95', 'I-384', 'I-395', 'INTERSTATE', 'NHS',
+                                'RECONSTRUCT', 'RESTORATION', 'WIDENING', 'ROUTE ']):
+        return 'Pavement'
+    
+    # Rehab - check context
+    if 'REHAB' in text:
+        if any(x in text for x in ['BR ', 'BRIDGE', 'DECK']):
+            return 'Bridge'
+        return 'Pavement'
+    
+    # Default to Pavement
+    return 'Pavement'
+
+
+# =============================================================================
+# CTDOT PARSER (PDF + HTML Table + Excel) - ENHANCED IMPLEMENTATION
 # =============================================================================
 
 def parse_ctdot() -> List[Dict]:
     """
     Parse CTDOT projects from multiple sources:
-    1. Q&A Advertised Projects (HTML) - Current bids with dates
-    2. STIP Obligated Projects (Excel) - Projects with costs
+    1. STIP PDF (Primary) - Projects with costs from official STIP document
+    2. Q&A Advertised Projects (HTML) - Current bids with dates
+    3. STIP Obligated Projects (Excel) - Projects with costs (fallback)
     
     Sources:
+    - PDF: https://portal.ct.gov/-/media/DOT/Policy/STIP/2025-2028_STIP_PROJECTS_BY_FA_CODE.pdf
     - HTML: https://contractsqanda.dot.ct.gov/Proposals.aspx
     - Excel: https://portal.ct.gov/dot/-/media/dot/policy/stip/fy25_urban_rural_12092025.xlsx
     """
     lettings = []
+    seen_project_ids = set()
     qanda_url = DOT_SOURCES['CT'].get('qanda_url', 'https://contractsqanda.dot.ct.gov/Proposals.aspx')
     stip_excel_url = DOT_SOURCES['CT'].get('stip_excel_url', 'https://portal.ct.gov/dot/-/media/dot/policy/stip/fy25_urban_rural_12092025.xlsx')
+    stip_pdf_url = DOT_SOURCES['CT'].get('stip_pdf_url', 'https://portal.ct.gov/-/media/DOT/Policy/STIP/2025-2028_STIP_PROJECTS_BY_FA_CODE_AS_OF_1-8-2026_Internet_only.pdf')
     
     # =========================================================================
-    # SOURCE 1: Q&A Advertised Projects (HTML Table)
+    # TIER -1: Check for manually committed CT STIP PDF
+    # =========================================================================
+    manual_pdf_paths = [
+        'data/manual/ct_stip.pdf',
+        'data/ct_stip.pdf',
+        '2025-2028_STIP_PROJECTS_BY_FA_CODE_AS_OF_1-8-2026_Internet_only.pdf'
+    ]
+    
+    for pdf_path in manual_pdf_paths:
+        if os.path.exists(pdf_path):
+            print(f"    📁 Found manual CT STIP PDF: {pdf_path}")
+            try:
+                with open(pdf_path, 'rb') as f:
+                    pdf_content = f.read()
+                pdf_projects = parse_ct_stip_pdf(pdf_content, pdf_path)
+                
+                if pdf_projects:
+                    for proj in pdf_projects:
+                        proj_id = proj.get('project_id')
+                        if proj_id and proj_id not in seen_project_ids:
+                            seen_project_ids.add(proj_id)
+                            lettings.append(proj)
+                    
+                    total = sum(p['cost_low'] for p in lettings)
+                    print(f"    ✓ Manual PDF: {len(lettings)} projects, {format_currency(total)} pipeline")
+                    return lettings  # Manual PDF is authoritative, skip web fetch
+            except Exception as e:
+                print(f"    ⚠ Manual PDF error: {e}")
+    
+    # =========================================================================
+    # TIER 0: STIP PDF (Primary - Projects with Costs)
+    # =========================================================================
+    print(f"    🔍 Tier 0: CTDOT STIP PDF (Primary)...")
+    
+    try:
+        headers = get_full_browser_headers()
+        response = requests.get(stip_pdf_url, headers=headers, timeout=60)
+        
+        if response.status_code == 200 and len(response.content) > 10000:
+            print(f"    📄 Got STIP PDF: {len(response.content)} bytes")
+            pdf_projects = parse_ct_stip_pdf(response.content, stip_pdf_url)
+            
+            if pdf_projects:
+                for proj in pdf_projects:
+                    proj_id = proj.get('project_id')
+                    if proj_id and proj_id not in seen_project_ids:
+                        seen_project_ids.add(proj_id)
+                        lettings.append(proj)
+                
+                total = sum(p['cost_low'] for p in lettings)
+                print(f"    ✓ Tier 0: {len(lettings)} projects, {format_currency(total)} pipeline")
+        else:
+            print(f"    ⚠ STIP PDF: {response.status_code}")
+            
+    except Exception as e:
+        print(f"    ⚠ STIP PDF error: {e}")
+    
+    # If PDF worked well, skip other sources
+    if len(lettings) >= 100:
+        total = sum(p['cost_low'] for p in lettings)
+        print(f"    ✓ CT Total: {len(lettings)} projects, {format_currency(total)}")
+        return lettings
+    
+    # =========================================================================
+    # TIER 1: Q&A Advertised Projects (HTML Table)
     # =========================================================================
     print(f"    🔍 Fetching CTDOT Q&A Advertised Projects...")
     
@@ -1211,28 +1448,7 @@ def parse_ctdot() -> List[Dict]:
     return lettings
 
 
-def classify_ct_project_type(text: str) -> str:
-    """Classify CT project type from description."""
-    if not text:
-        return 'Highway'
-    text_lower = text.lower()
-    
-    if any(k in text_lower for k in ['bridge', 'culvert', 'span', 'rehabilitation of bridge']):
-        return 'Bridge'
-    elif any(k in text_lower for k in ['paving', 'resurfacing', 'overlay', 'pavement', 'asphalt', 'sma']):
-        return 'Pavement'
-    elif any(k in text_lower for k in ['i-95', 'i-91', 'i-84', 'i-691', 'interstate', 'route 15', 'turnpike', 'merritt']):
-        return 'Highway'
-    elif any(k in text_lower for k in ['signal', 'ctss', 'intersection', 'traffic']):
-        return 'Signal/Safety'
-    elif any(k in text_lower for k in ['sidewalk', 'pedestrian', 'bike', 'trail', 'ped']):
-        return 'Multimodal'
-    elif any(k in text_lower for k in ['noise barrier', 'sound wall', 'noise wall']):
-        return 'Environmental'
-    elif any(k in text_lower for k in ['retaining wall', 'wall replacement']):
-        return 'Structural'
-    else:
-        return 'Highway'
+# Note: classify_ct_project_type is defined earlier in the file (around line 1034)
 
 
 def extract_ct_location(description: str) -> Optional[str]:
@@ -1654,31 +1870,31 @@ def get_vt_static_baseline() -> List[Dict]:
     Last verified: January 2025
     """
     baseline_projects = [
-        {'contract': 'C03247', 'name': 'BARRE TOWN STP 6100 (15)', 'cost': 2500000, 'date': '2025-12-05', 'type': 'Highway', 'location': 'Barre Town', 'contractor': 'Engineers Construction, Inc.'},
-        {'contract': 'C03245', 'name': 'BRIDGEWATER ER P23-1 (302) & PLYMOUTH ER P23-1 (332)', 'cost': 8500000, 'date': '2025-11-21', 'type': 'Emergency', 'location': 'Bridgewater to Plymouth', 'contractor': 'Kubricky-Jointa Lime LLC'},
-        {'contract': 'C03242', 'name': 'COLCHESTER-ESSEX NH PS24 (11)', 'cost': 12000000, 'date': '2025-11-21', 'type': 'Highway', 'location': 'Colchester to Essex', 'contractor': 'Frank W. Whitcomb Construction, Inc.'},
-        {'contract': 'C03241', 'name': 'NORTON STP CULV (118)', 'cost': 1800000, 'date': '2025-11-14', 'type': 'Culvert', 'location': 'Norton', 'contractor': 'Dirt Tech Company, LLC'},
-        {'contract': 'C03234', 'name': 'CAVENDISH GMRC (24)', 'cost': 6883000, 'date': '2025-10-24', 'type': 'Rail', 'location': 'Cavendish', 'contractor': 'Engineers Construction, Inc.'},
+        {'contract': 'C03247', 'name': 'BARRE TOWN STP 6100 (15)', 'cost': 2500000, 'date': '2025-12-05', 'type': 'Pavement', 'location': 'Barre Town', 'contractor': 'Engineers Construction, Inc.'},
+        {'contract': 'C03245', 'name': 'BRIDGEWATER ER P23-1 (302) & PLYMOUTH ER P23-1 (332)', 'cost': 8500000, 'date': '2025-11-21', 'type': 'Pavement', 'location': 'Bridgewater to Plymouth', 'contractor': 'Kubricky-Jointa Lime LLC'},
+        {'contract': 'C03242', 'name': 'COLCHESTER-ESSEX NH PS24 (11)', 'cost': 12000000, 'date': '2025-11-21', 'type': 'Pavement', 'location': 'Colchester to Essex', 'contractor': 'Frank W. Whitcomb Construction, Inc.'},
+        {'contract': 'C03241', 'name': 'NORTON STP CULV (118)', 'cost': 1800000, 'date': '2025-11-14', 'type': 'Bridge', 'location': 'Norton', 'contractor': 'Dirt Tech Company, LLC'},
+        {'contract': 'C03234', 'name': 'CAVENDISH GMRC (24)', 'cost': 6883000, 'date': '2025-10-24', 'type': 'Other', 'location': 'Cavendish', 'contractor': 'Engineers Construction, Inc.'},
         {'contract': 'C03240', 'name': 'BARRE-EAST MONTPELIER STP FPAV (73)', 'cost': 4200000, 'date': '2025-10-24', 'type': 'Pavement', 'location': 'Barre to East Montpelier', 'contractor': 'Frank W. Whitcomb Construction'},
-        {'contract': 'C03239', 'name': 'DANVILLE RELV2405', 'cost': 950000, 'date': '2025-08-08', 'type': 'Emergency', 'location': 'Danville', 'contractor': 'J. P. Sicard, Inc.'},
+        {'contract': 'C03239', 'name': 'DANVILLE RELV2405', 'cost': 950000, 'date': '2025-08-08', 'type': 'Pavement', 'location': 'Danville', 'contractor': 'J. P. Sicard, Inc.'},
         {'contract': 'C03232', 'name': 'NORTON BF 0321 (21)', 'cost': 3200000, 'date': '2025-07-11', 'type': 'Bridge', 'location': 'Norton', 'contractor': 'S. D. Ireland Brothers Corporation'},
-        {'contract': 'C03238', 'name': 'ST. JOHNSBURY RELV2407', 'cost': 1100000, 'date': '2025-06-27', 'type': 'Emergency', 'location': 'St. Johnsbury', 'contractor': 'Kirk Fenoff & Son Excavating, LLC'},
+        {'contract': 'C03238', 'name': 'ST. JOHNSBURY RELV2407', 'cost': 1100000, 'date': '2025-06-27', 'type': 'Pavement', 'location': 'St. Johnsbury', 'contractor': 'Kirk Fenoff & Son Excavating, LLC'},
         {'contract': 'C03233', 'name': 'POULTNEY BF 0145 (13)', 'cost': 2800000, 'date': '2025-06-13', 'type': 'Bridge', 'location': 'Poultney', 'contractor': 'Winn Construction Services, Inc.'},
-        {'contract': 'C03236', 'name': 'HARTFORD PLAT (4)', 'cost': 5500000, 'date': '2025-06-06', 'type': 'Highway', 'location': 'Hartford', 'contractor': 'Engineers Construction, Inc.'},
-        {'contract': 'C03221', 'name': 'MONTPELIER-WATERBURY IM 089-2 (56)', 'cost': 15000000, 'date': '2025-03-28', 'type': 'Interstate', 'location': 'Montpelier to Waterbury', 'contractor': 'J. Hutchins, Inc.'},
-        {'contract': 'C03216', 'name': 'HINESBURG-SOUTH BURLINGTON STP PS25 (8)', 'cost': 8200000, 'date': '2025-03-28', 'type': 'Highway', 'location': 'Hinesburg to South Burlington', 'contractor': 'Pike Industries, Inc.'},
+        {'contract': 'C03236', 'name': 'HARTFORD PLAT (4)', 'cost': 5500000, 'date': '2025-06-06', 'type': 'Pavement', 'location': 'Hartford', 'contractor': 'Engineers Construction, Inc.'},
+        {'contract': 'C03221', 'name': 'MONTPELIER-WATERBURY IM 089-2 (56)', 'cost': 15000000, 'date': '2025-03-28', 'type': 'Pavement', 'location': 'Montpelier to Waterbury', 'contractor': 'J. Hutchins, Inc.'},
+        {'contract': 'C03216', 'name': 'HINESBURG-SOUTH BURLINGTON STP PS25 (8)', 'cost': 8200000, 'date': '2025-03-28', 'type': 'Pavement', 'location': 'Hinesburg to South Burlington', 'contractor': 'Pike Industries, Inc.'},
         {'contract': 'C03218', 'name': 'ESSEX-FAIRFAX STP FPAV (85)', 'cost': 3800000, 'date': '2025-03-21', 'type': 'Pavement', 'location': 'Essex to Fairfax', 'contractor': 'J. Hutchins, Inc.'},
-        {'contract': 'C03220', 'name': 'BRATTLEBORO NH PC25 (5)', 'cost': 9500000, 'date': '2025-03-14', 'type': 'Highway', 'location': 'Brattleboro', 'contractor': 'Eurovia Atlantic Coast LLC'},
+        {'contract': 'C03220', 'name': 'BRATTLEBORO NH PC25 (5)', 'cost': 9500000, 'date': '2025-03-14', 'type': 'Pavement', 'location': 'Brattleboro', 'contractor': 'Eurovia Atlantic Coast LLC'},
         {'contract': 'C03217', 'name': 'THETFORD-FAIRLEE STP FPAV (64)', 'cost': 3200000, 'date': '2025-03-07', 'type': 'Pavement', 'location': 'Thetford to Fairlee', 'contractor': 'Pike Industries, Inc.'},
         {'contract': 'C03215', 'name': 'SHELDON-ENOSBURG STP FPAV (68)', 'cost': 3500000, 'date': '2025-03-07', 'type': 'Pavement', 'location': 'Sheldon to Enosburg', 'contractor': 'Pike Industries, Inc.'},
         {'contract': 'C03214', 'name': 'WOLCOTT BO 1446 (38)', 'cost': 4100000, 'date': '2025-02-28', 'type': 'Bridge', 'location': 'Wolcott', 'contractor': 'CCS Constructors, Inc.'},
         {'contract': 'C03186', 'name': 'BENNINGTON BF 1000 (20)', 'cost': 7200000, 'date': '2025-02-28', 'type': 'Bridge', 'location': 'Bennington', 'contractor': 'Kubricky-Jointa Lime LLC'},
-        {'contract': 'C03174', 'name': 'CHESTER GMRC (25)', 'cost': 5800000, 'date': '2025-02-21', 'type': 'Rail', 'location': 'Chester', 'contractor': 'Engineers Construction, Inc.'},
+        {'contract': 'C03174', 'name': 'CHESTER GMRC (25)', 'cost': 5800000, 'date': '2025-02-21', 'type': 'Other', 'location': 'Chester', 'contractor': 'Engineers Construction, Inc.'},
         {'contract': 'C03212', 'name': 'WOODSTOCK BF 0166 (12)', 'cost': 3900000, 'date': '2025-02-21', 'type': 'Bridge', 'location': 'Woodstock', 'contractor': 'Winterset, Inc.'},
         {'contract': 'C03213', 'name': 'CHELSEA-WASHINGTON STP FPAV (70)', 'cost': 2900000, 'date': '2025-02-07', 'type': 'Pavement', 'location': 'Chelsea to Washington', 'contractor': 'Pike Industries, Inc.'},
-        {'contract': 'C03210', 'name': 'SHARON CMG PARK (51)', 'cost': 1800000, 'date': '2025-01-31', 'type': 'Multimodal', 'location': 'Sharon', 'contractor': 'Bazin Brothers Trucking, Inc.'},
-        {'contract': 'C03211', 'name': 'PLYMOUTH ER P23-1 (317)', 'cost': 2200000, 'date': '2025-01-17', 'type': 'Emergency', 'location': 'Plymouth', 'contractor': 'Cold River Bridges, LLC'},
-        {'contract': 'C03208', 'name': 'WATERFORD IM 093-1 (14)', 'cost': 6500000, 'date': '2025-01-17', 'type': 'Interstate', 'location': 'Waterford', 'contractor': 'Five Starr Construction, LLC'},
+        {'contract': 'C03210', 'name': 'SHARON CMG PARK (51)', 'cost': 1800000, 'date': '2025-01-31', 'type': 'Other', 'location': 'Sharon', 'contractor': 'Bazin Brothers Trucking, Inc.'},
+        {'contract': 'C03211', 'name': 'PLYMOUTH ER P23-1 (317)', 'cost': 2200000, 'date': '2025-01-17', 'type': 'Pavement', 'location': 'Plymouth', 'contractor': 'Cold River Bridges, LLC'},
+        {'contract': 'C03208', 'name': 'WATERFORD IM 093-1 (14)', 'cost': 6500000, 'date': '2025-01-17', 'type': 'Pavement', 'location': 'Waterford', 'contractor': 'Five Starr Construction, LLC'},
     ]
     
     lettings = []
@@ -1794,49 +2010,44 @@ def extract_vt_location(project_name: str) -> Optional[str]:
 
 
 def classify_vt_project_type(project_name: str) -> str:
-    """Classify VT project type from name.
+    """Classify VT project type into 4 standard categories: Bridge, Pavement, Safety, Other.
     
     VT project codes:
-    - STP: Surface Transportation Program
-    - IM: Interstate Maintenance
-    - BF: Bridge Federal
-    - BO: Bridge Other
-    - NH: National Highway
-    - ER: Emergency Relief
-    - HES: Highway Safety
-    - GMRC: Green Mountain Railroad
-    - CMG: Congestion Mitigation
-    - FPAV: Federal Paving
-    - CULV: Culvert
-    - MARK: Pavement Marking
+    - STP: Surface Transportation Program → Pavement
+    - IM: Interstate Maintenance → Pavement
+    - BF: Bridge Federal → Bridge
+    - BO: Bridge Other → Bridge
+    - NH: National Highway → Pavement
+    - ER: Emergency Relief → Pavement
+    - HES: Highway Safety → Safety
+    - GMRC: Green Mountain Railroad → Other
+    - CMG: Congestion Mitigation → Other
+    - FPAV: Federal Paving → Pavement
+    - CULV: Culvert → Bridge
+    - MARK: Pavement Marking → Safety
     """
     if not project_name:
-        return 'Highway'
+        return 'Pavement'  # Default
     
     name_upper = project_name.upper()
     
-    if any(k in name_upper for k in ['BF ', 'BO ', 'BRIDGE', 'BR ']):
+    # Bridge (includes culverts)
+    if any(k in name_upper for k in ['BF ', 'BO ', 'BRIDGE', 'BR ', 'CULV', 'CULVERT']):
         return 'Bridge'
-    elif any(k in name_upper for k in ['CULV', 'CULVERT']):
-        return 'Culvert'
-    elif any(k in name_upper for k in ['FPAV', 'PAV', 'PAVING', 'RESURFACING', 'OVERLAY']):
-        return 'Pavement'
-    elif any(k in name_upper for k in ['IM ', 'INTERSTATE', 'I-89', 'I-91', 'I-93']):
-        return 'Interstate'
-    elif any(k in name_upper for k in ['GMRC', 'RAIL']):
-        return 'Rail'
-    elif any(k in name_upper for k in ['HES ', 'SAFETY', 'SIGNAL', 'HRRR']):
+    
+    # Safety
+    if any(k in name_upper for k in ['HES ', 'SAFETY', 'SIGNAL', 'HRRR', 'GUARDRAIL',
+                                      'MARK', 'MARKING', 'STRIPING']):
         return 'Safety'
-    elif any(k in name_upper for k in ['MARK', 'MARKING', 'STRIPING']):
-        return 'Marking'
-    elif any(k in name_upper for k in ['ER ', 'EMERGENCY', 'RELV']):
-        return 'Emergency'
-    elif any(k in name_upper for k in ['CMG', 'CONGESTION', 'PARK']):
-        return 'Multimodal'
-    elif any(k in name_upper for k in ['AV-', 'AIRPORT', 'AVIATION']):
-        return 'Aviation'
-    else:
-        return 'Highway'
+    
+    # Other (minimal - rail, transit, multimodal, aviation)
+    if any(k in name_upper for k in ['GMRC', 'RAIL', 'CMG', 'CONGESTION', 'PARK AND RIDE',
+                                      'AV-', 'AIRPORT', 'AVIATION', 'TRANSIT', 'BIKE', 'PATH']):
+        return 'Other'
+    
+    # Pavement (everything else including highway, interstate, emergency)
+    # FPAV, PAV, STP, IM, ER, NH all → Pavement
+    return 'Pavement'
 
 
 def extract_vt_cost(award_info: str) -> Optional[int]:
@@ -2795,21 +3006,83 @@ def parse_municipal_bids(html: str, url: str, muni_name: str) -> List[Dict]:
 
 
 def classify_project_type(text: str) -> str:
-    """Classify project type from description."""
+    """Classify project type from description into 4 standard categories.
+    
+    Categories (in priority order):
+    1. Bridge - Bridges, culverts, structures, deck work
+    2. Pavement - HMA, resurfacing, overlays, reconstruction, highway work
+    3. Safety - Signals, guardrails, lighting, intersection improvements
+    4. Other - Multimodal, transit, environmental, drainage (minimal)
+    
+    Note: "Highway" work is classified as Pavement since most highway projects
+    involve pavement work and this aligns with CRH business lines.
+    
+    Handles state DOT abbreviations: RESURF, GRDRAIL, BF, BO, FPAV, etc.
+    """
+    if not text:
+        return 'Pavement'  # Default
+        
     text_lower = text.lower()
     
-    if any(k in text_lower for k in ['bridge', 'culvert', 'span']):
+    # ==========================================================================
+    # BRIDGE (check first - specific asset type)
+    # ==========================================================================
+    # Standard terms
+    if any(k in text_lower for k in ['bridge', 'culvert', 'span', 'viaduct', 'overpass', 
+                                      'underpass', 'deck', 'abutment', 'pier']):
         return 'Bridge'
-    elif any(k in text_lower for k in ['paving', 'resurfacing', 'overlay', 'pavement', 'asphalt']):
-        return 'Pavement'
-    elif any(k in text_lower for k in ['i-93', 'i-89', 'i-95', 'interstate', 'turnpike']):
-        return 'Highway'
-    elif any(k in text_lower for k in ['signal', 'intersection', 'safety']):
+    
+    # State DOT abbreviations: BR (bridge number), BF (VT federal), BO (VT other)
+    if any(k in text_lower for k in ['br 0', 'br-', ' bf ', ' bo ', 'brs ', 'brp ']):
+        return 'Bridge'
+    
+    # VT-style codes at word boundaries (BF 0321, BO 1446)
+    import re
+    if re.search(r'\b(bf|bo|br)\s*\d{3,}', text_lower):
+        return 'Bridge'
+    
+    # ==========================================================================
+    # SAFETY (check second - specific work type with lower HMA usage)
+    # ==========================================================================
+    if any(k in text_lower for k in [
+        'signal', 'intersection', 'safety', 'guardrail', 'grdrail', 'guiderail',
+        'barrier', 'lighting', 'illumination', 'sign ', 'signing', 'signage',
+        'rumble strip', 'hsip', 'hazard elimination', 'hazard elim',
+        'rrfb', 'hawk', 'crosswalk', 'ped signal', 'flashing beacon',
+        'traffic control', 'crash', 'high friction', 'marking', 'striping'
+    ]):
         return 'Safety'
-    elif any(k in text_lower for k in ['sidewalk', 'pedestrian', 'bike', 'trail']):
-        return 'Multimodal'
-    else:
-        return 'Highway'
+    
+    # ==========================================================================
+    # OTHER (check third - minimal category for non-road work)
+    # ==========================================================================
+    if any(k in text_lower for k in [
+        'sidewalk', 'pedestrian', 'bike', 'bicycle', 'trail', 'path', 'greenway',
+        'transit', 'rail ', 'railroad', 'bus ', 'multimodal', 'multi-modal',
+        'drainage', 'storm', 'stormwater', 'environmental', 'wetland',
+        'park and ride', 'parking', 'rest area', 'welcome center'
+    ]):
+        return 'Other'
+    
+    # ==========================================================================
+    # PAVEMENT (default for all road work - highest CRH business relevance)
+    # ==========================================================================
+    # Explicit pavement terms
+    if any(k in text_lower for k in [
+        'paving', 'resurfacing', 'resurf', 'overlay', 'pavement', 'pav ', 'fpav',
+        'asphalt', 'hma', 'bituminous', 'milling', 'reclamation', 'hot mix', 'cold mix',
+        'surface treatment', 'chip seal', 'micro surfacing', 'crack seal', 'sealcoat',
+        'pavement preservation', 'pavement rehab', 'road surface', 'wearing course',
+        'base repair', 'full depth', 'shim', 'level', 'fog seal', 'slurry seal',
+        'reconstruct', 'rehabilitation', 'rehab', 'restoration', 'widening',
+        'i-93', 'i-89', 'i-95', 'i-91', 'i-84', 'i-78', 'i-76', 'i-80', 'i-90',
+        'interstate', 'turnpike', 'expressway', 'freeway', 'highway',
+        'route ', 'sr ', 'us ', 'state road', 'corridor'
+    ]):
+        return 'Pavement'
+    
+    # Default to Pavement for any unclassified road work
+    return 'Pavement'
 
 
 # =============================================================================
@@ -2847,7 +3120,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
             'fiscal_year': 'FY2023-2027',
-            'project_type': 'Bridge Replacement'
+            'project_type': 'Bridge'
         },
         {
             'id': generate_id('RI-Missing-Move'),
@@ -2863,7 +3136,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
             'fiscal_year': 'FY2025-2027',
-            'project_type': 'Interchange'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('RI-Route37-295'),
@@ -2879,7 +3152,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway'],
             'fiscal_year': 'FY2024-2025',
-            'project_type': 'Interchange'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('RI-Route146-Sayles'),
@@ -2895,7 +3168,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
             'fiscal_year': 'FY2022-2025',
-            'project_type': 'Safety/Bridge'
+            'project_type': 'Bridge'
         },
         {
             'id': generate_id('RI-Warwick-Corridor'),
@@ -2911,7 +3184,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
             'fiscal_year': 'FY2024-2025',
-            'project_type': 'Bridge Replacement'
+            'project_type': 'Bridge'
         },
         {
             'id': generate_id('RI-Douglas-Pike'),
@@ -2927,7 +3200,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
             'fiscal_year': 'FY2024-2025',
-            'project_type': 'Resurfacing'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('RI-Tower-Hill'),
@@ -2943,7 +3216,7 @@ def parse_ridot() -> List[Dict]:
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
             'fiscal_year': 'FY2024-2025',
-            'project_type': 'Bridge Replacement'
+            'project_type': 'Bridge'
         },
     ]
     
@@ -2994,7 +3267,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
-            'project_type': 'Reconstruction'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('PA-I80-Luzerne-Bridge'),
@@ -3011,7 +3284,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
-            'project_type': 'Bridge Replacement'
+            'project_type': 'Bridge'
         },
         {
             'id': generate_id('PA-I79-Erie'),
@@ -3028,7 +3301,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
-            'project_type': 'Restoration'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('PA-I79-Mercer'),
@@ -3045,7 +3318,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
-            'project_type': 'Restoration'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('PA-US22-Allegheny'),
@@ -3062,7 +3335,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
-            'project_type': 'Bridge Replacement'
+            'project_type': 'Bridge'
         },
         {
             'id': generate_id('PA-I99-Blair'),
@@ -3079,7 +3352,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
-            'project_type': 'Resurfacing'
+            'project_type': 'Pavement'
         },
         {
             'id': generate_id('PA-SR6-Pike-Bridge'),
@@ -3096,7 +3369,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'ready_mix'],
-            'project_type': 'Bridge Rehabilitation'
+            'project_type': 'Bridge'
         },
         {
             'id': generate_id('PA-SR58-Mercer'),
@@ -3113,7 +3386,7 @@ def parse_penndot() -> List[Dict]:
             'url': 'https://www.ecms.penndot.pa.gov/ECMS/',
             'priority': 'high',
             'business_lines': ['highway', 'hma'],
-            'project_type': 'Resurfacing'
+            'project_type': 'Pavement'
         },
     ]
     
@@ -3306,43 +3579,52 @@ def calculate_market_health(dot_lettings: List[Dict], news: List[Dict]) -> Dict:
 # =============================================================================
 
 # Standard project type categories (consolidated from various DOT naming conventions)
-STANDARD_PROJECT_TYPES = ['Bridge', 'Pavement', 'Highway', 'Safety', 'Other']
+STANDARD_PROJECT_TYPES = ['Bridge', 'Pavement', 'Safety', 'Other']
 
 def standardize_project_type(raw_type: str) -> str:
     """
-    Consolidate various project type names into 5 standard categories.
-    Bridge: bridges, culverts, spans, structural
-    Pavement: resurfacing, paving, overlay, asphalt, preservation
-    Highway: reconstruction, restoration, interstate, widening
-    Safety: signals, intersections, traffic, guardrail
-    Other: multimodal, interchange, environmental, misc
+    Consolidate various project type names into 4 standard categories:
+    
+    Bridge: bridges, culverts, spans, structural, deck
+    Pavement: resurfacing, paving, overlay, asphalt, highway, interstate, reconstruction
+    Safety: signals, intersections, guardrail, lighting, marking
+    Other: multimodal, transit, rail, environmental, drainage (minimal)
+    
+    Note: Highway/Interstate work maps to Pavement (most highway work = pavement work)
     """
     if not raw_type:
-        return 'Highway'  # Default
+        return 'Pavement'  # Default
     
     t = raw_type.lower()
     
     # Bridge category
-    if any(k in t for k in ['bridge', 'culvert', 'span', 'structural']):
+    if any(k in t for k in ['bridge', 'culvert', 'span', 'structural', 'deck', 'viaduct',
+                            'abutment', 'pier']):
         return 'Bridge'
-    
-    # Pavement category
-    if any(k in t for k in ['pav', 'resurf', 'overlay', 'asphalt', 'hma', 'sma', 
-                            'preservation', 'mill', 'crack seal']):
-        return 'Pavement'
     
     # Safety category
     if any(k in t for k in ['signal', 'intersection', 'safety', 'traffic', 
-                            'guardrail', 'rumble', 'lighting']):
+                            'guardrail', 'grdrail', 'guiderail', 'rumble', 'lighting', 
+                            'sign', 'signing', 'marking', 'striping',
+                            'hsip', 'hazard', 'barrier', 'crash']):
         return 'Safety'
     
-    # Other category (before Highway catch-all)
-    if any(k in t for k in ['multimodal', 'interchange', 'environmental', 'pedestrian',
-                            'bike', 'trail', 'sidewalk', 'transit', 'drainage', 'storm']):
+    # Other category (minimal - multimodal, transit, environmental)
+    # Also catch raw 'other' type to preserve classification
+    if any(k in t for k in ['multimodal', 'multi-modal', 'pedestrian', 'bike', 'bicycle',
+                            'trail', 'sidewalk', 'transit', 'drainage', 'storm', 'stormwater',
+                            'rail', 'railroad', 'bus', 'path', 'greenway', 'environ',
+                            'aviation', 'airport', 'park and ride', 'gmrc']):
         return 'Other'
     
-    # Highway category (includes reconstruction, restoration, interstate)
-    return 'Highway'
+    # If raw_type is exactly 'Other', preserve it
+    if t == 'other':
+        return 'Other'
+    
+    # Pavement category (everything else including highway, interstate, reconstruction)
+    # This includes: paving, resurfacing, overlay, asphalt, highway, interstate,
+    # reconstruction, restoration, widening, interchange, emergency
+    return 'Pavement'
 
 
 def get_federal_fy(date_str: Optional[str]) -> Optional[int]:

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-01T05:24:36.736666Z",
+  "generated": "2026-02-01T11:40:44.134959Z",
   "summary": {
-    "total_opportunities": 644,
+    "total_opportunities": 645,
     "total_value_low": 2622376919,
     "total_value_high": 2812376919,
     "forward_pipeline": 1155519904.3333333,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 42,
       "NH": 59,
-      "ME": 168,
+      "ME": 169,
       "MA": 24,
       "NY": 1,
       "RI": 7,
@@ -20,7 +20,7 @@
     "by_category": {
       "dot_letting": 644,
       "news": 7,
-      "funding": 0
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -13976,6 +13976,20 @@
   ],
   "news": [
     {
+      "id": "5135dc974227",
+      "title": "As Maine student enrollment declines, districts face consequences, and seek opportunities",
+      "summary": "The 2025-26 data shows a drop of more than 2,000 students statewide since last year. The decline has ripple effects for Maine's school funding formula and construction backlog.",
+      "url": "https://www.pressherald.com/2026/02/01/as-maine-student-enrollment-declines-districts-face-consequences-and-seek-opportunities/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-01",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "dcfebdd9a5ca",
       "title": "Springfield Thunderbirds cruise past Hartford in front of a sold-out MassMutual Center crowd",
       "summary": "The Thunderbirds won their second in a row before heading on a six-game road trip.",
@@ -14082,7 +14096,7 @@
       "raw": 3081943727.0637255,
       "raw_display": "$3.08B",
       "source": "scraper_v2",
-      "updated": "2026-02-01T05:24:25.178394",
+      "updated": "2026-02-01T11:40:43.868868",
       "v2_details": {
         "raw_total": "$2.62B",
         "weighted_total": "$1.71B",
@@ -14192,24 +14206,24 @@
       }
     },
     "housing_permits": {
-      "score": 7.0,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 8841.320183533115,
-      "raw_display": "8,841 units/mo",
-      "yoy_change": 9.9,
-      "source": "FRED API",
-      "updated": "2026-02-01T05:24:25.178394"
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-02-01T11:40:43.868868"
     },
     "construction_spending": {
-      "score": 4.8,
+      "score": 5.0,
       "trend": "stable",
-      "action": "Cost focus",
-      "raw": 142581.0,
-      "raw_display": "$142.6B SAAR",
-      "yoy_change": -1.1,
-      "source": "FRED API",
-      "updated": "2026-02-01T05:24:25.178394"
+      "action": "Selective investment",
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-02-01T11:40:43.868868"
     },
     "migration": {
       "score": 5.0,
@@ -14219,35 +14233,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-01T05:24:25.178394"
+      "updated": "2026-02-01T11:40:43.868868"
     },
     "construction_employment": {
-      "score": 4.7,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 957599.9999999999,
-      "raw_display": "958K workers",
-      "yoy_change": -1.4,
-      "source": "FRED API",
-      "updated": "2026-02-01T05:24:25.178394"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-02-01T11:40:43.868868"
     },
     "input_cost": {
-      "score": 10,
+      "score": 9.5,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $2.78 | Diesel $4.02",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 2.78,
-        "score": 10,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.02,
-        "score": 9.9,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-02-01T05:24:25.178394"
+      "source": "historical data",
+      "updated": "2026-02-01T11:40:43.868868"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -14256,19 +14270,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-01T05:24:25.178394"
+      "updated": "2026-02-01T11:40:43.868868"
     },
-    "overall_score": 6.3,
+    "overall_score": 6.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-01T05:24:25.178394"
+    "calculated_at": "2026-02-01T11:40:43.868868"
   }
 }

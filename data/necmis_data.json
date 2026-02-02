@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-01T11:40:44.134959Z",
+  "generated": "2026-02-02T12:00:40.260922Z",
   "summary": {
-    "total_opportunities": 645,
+    "total_opportunities": 644,
     "total_value_low": 2622376919,
     "total_value_high": 2812376919,
     "forward_pipeline": 1155519904.3333333,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -47.0,
     "by_state": {
       "VT": 42,
-      "NH": 59,
-      "ME": 169,
-      "MA": 24,
+      "NH": 58,
+      "ME": 170,
+      "MA": 26,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 644,
-      "news": 7,
-      "funding": 1
+      "news": 10,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -13976,26 +13976,96 @@
   ],
   "news": [
     {
-      "id": "5135dc974227",
-      "title": "As Maine student enrollment declines, districts face consequences, and seek opportunities",
-      "summary": "The 2025-26 data shows a drop of more than 2,000 students statewide since last year. The decline has ripple effects for Maine's school funding formula and construction backlog.",
-      "url": "https://www.pressherald.com/2026/02/01/as-maine-student-enrollment-declines-districts-face-consequences-and-seek-opportunities/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-01",
-      "category": "funding",
+      "id": "a07fb218a310",
+      "title": "Public invited to hearing to learn about Westfield intersection project",
+      "summary": "With the project to improve the Servistar Industrial Way and Barnes Airport Drive intersection on Southampton Road starting construction in about a year, the state Department of Transportation is inviting residents to learn more about it at a public hearing set for Feb. 25.",
+      "url": "https://www.masslive.com/westfieldnews/2026/01/public-invited-to-hearing-to-learn-about-westfield-intersection-project.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-02",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "dcfebdd9a5ca",
-      "title": "Springfield Thunderbirds cruise past Hartford in front of a sold-out MassMutual Center crowd",
-      "summary": "The Thunderbirds won their second in a row before heading on a six-game road trip.",
-      "url": "https://www.masslive.com/thunderbirds/2026/02/springfield-thunderbirds-cruise-past-hartford-in-front-of-a-sold-out-massmutual-center-crowd.html",
+      "id": "d6e775dd8ac7",
+      "title": "Chester highway superintendent provides report on major winter storm",
+      "summary": "Chester Highway Superintendent Charles Dazelle, speaking Monday at 4 p.m. after being at it for 33 hours straight, said the Jan. 25 storm cleanup overall went well.",
+      "url": "https://www.masslive.com/westfieldnews/2026/01/chester-highway-superintendent-provides-report-on-major-winter-storm.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-02-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1c577b677d3d",
+      "title": "The 1 big reason Josh Shapiro\u2019s book tour stop in Mass. matters in 2026| Bay State Briefing",
+      "summary": "The Pennsylvania governor is on the road to promote a new memoir, and continuing to build a national profile.",
+      "url": "https://www.masslive.com/politics/2026/02/the-1-big-reason-josh-shapiros-book-tour-stop-in-mass-matters-in-2026-bay-state-briefing.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ebfe55739520",
+      "title": "Why CT should model protecting trans kids",
+      "summary": "Even in Connecticut, gender-affirming care \u2014and the broader principle of bodily autonomy \u2014is in real peril.",
+      "url": "https://ctmirror.org/2026/02/02/why-ct-should-model-protecting-trans-kids-matthew/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-02-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ebe2d16b3825",
+      "title": "SPERRY is leasing space at Village Center Place in Windham",
+      "summary": "Leasing activity is officially underway at Village Center Place, a new mixed-use development coming to the heart of Windham. SPERRY - Commercial Realty Associates of Bedford has been chosen to exclusively represent the developer and oversee leasing efforts for the\u2026",
+      "url": "https://www.unionleader.com/news/business/sperry-is-leasing-space-at-village-center-place-in-windham/article_42e608a5-3b30-4a86-aab3-81da257e7b7e.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-02-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "948263c23a68",
+      "title": "Maine\u2019s first turtle tunnel is working",
+      "summary": "An underpass installed beneath a busy stretch of road in Eliot a few years ago has led to \u201ca substantial reduction in turtle mortalities,\u201d according to a state biologist.",
+      "url": "https://www.pressherald.com/2026/02/01/maines-first-turtle-tunnel-is-working/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1cf56c57b706",
+      "title": "Three Rivers Kiwanis 8-Ball Pool League donates to American Legion, BearCats",
+      "summary": "MILO \u2014 The Three Rivers Kiwanis 8-Ball Pool League has been playing for nine years. The league started at Pat\u2019s Pizza in Milo then moved into the Kiwanis Building at 15 Harris Pond Road. The league quickly outgrew that space and through the generous donation of Tom and Nancy Harrigan the current poo",
+      "url": "https://www.bangordailynews.com/2026/02/01/bdn-maine/three-rivers-kiwanis-8-ball-pool-league-donates-to-american-legion-bearcats/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-02-01",
       "category": "news",
       "priority": "medium",
@@ -14044,48 +14114,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "608cd1d73c05",
-      "title": "Sen. Susan Collins says ICE to end Maine operation after more than 200 arrests",
-      "summary": "Collins, a Republican, announced the development after saying she had spoken directly with Secretary of Homeland Security Kristi Noem.",
-      "url": "https://ctmirror.org/2026/01/29/sen-susan-collins-says-ice-to-end-maine-operation-after-more-than-200-arrests/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-01-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "047c06c9fa0b",
-      "title": "US Postal Service opens bidding for last\u2011mile delivery access to raise revenue",
-      "summary": "WASHINGTON - The U.S. Postal \u200dService said on Tuesday it is launching an online bidding platform \u200cto take proposals for access to its last-mile delivery network, opening more than 18,000 destination delivery units and local processing centers \u200dnationwide to a\u2026",
-      "url": "https://www.unionleader.com/news/business/us-postal-service-opens-bidding-for-last-mile-delivery-access-to-raise-revenue/article_69030e1a-902f-5286-a732-8b029d553da2.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-01-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "fb3626efed98",
-      "title": "Teamsters President Sean O\u2019Brien kicks off reelection campaign",
-      "summary": "Teamsters President Sean O\u2019Brien kicked off a 2026 reelection bid in Charlestown, Mass., on Sunday \u2014 defending his record, speaking to the future and warning his opponent that Teamsters politics are a \u201cfull contact sport.\u201d",
-      "url": "https://www.unionleader.com/news/business/teamsters-president-sean-o-brien-kicks-off-reelection-campaign/article_12cf91f8-4495-4193-826d-4b622ae513c4.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-01-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -14096,7 +14124,7 @@
       "raw": 3081943727.0637255,
       "raw_display": "$3.08B",
       "source": "scraper_v2",
-      "updated": "2026-02-01T11:40:43.868868",
+      "updated": "2026-02-02T12:00:39.562631",
       "v2_details": {
         "raw_total": "$2.62B",
         "weighted_total": "$1.71B",
@@ -14213,7 +14241,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-01T11:40:43.868868"
+      "updated": "2026-02-02T12:00:39.562631"
     },
     "construction_spending": {
       "score": 5.0,
@@ -14223,7 +14251,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-01T11:40:43.868868"
+      "updated": "2026-02-02T12:00:39.562631"
     },
     "migration": {
       "score": 5.0,
@@ -14233,7 +14261,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-01T11:40:43.868868"
+      "updated": "2026-02-02T12:00:39.562631"
     },
     "construction_employment": {
       "score": 5.0,
@@ -14243,7 +14271,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-01T11:40:43.868868"
+      "updated": "2026-02-02T12:00:39.562631"
     },
     "input_cost": {
       "score": 9.5,
@@ -14261,7 +14289,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-01T11:40:43.868868"
+      "updated": "2026-02-02T12:00:39.562631"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -14270,7 +14298,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-01T11:40:43.868868"
+      "updated": "2026-02-02T12:00:39.562631"
     },
     "overall_score": 6.2,
     "overall_status": "stable",
@@ -14283,6 +14311,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-01T11:40:43.868868"
+    "calculated_at": "2026-02-02T12:00:39.562631"
   }
 }

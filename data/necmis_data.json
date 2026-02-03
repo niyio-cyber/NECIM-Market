@@ -1,17 +1,17 @@
 {
-  "generated": "2026-02-02T12:00:40.260922Z",
+  "generated": "2026-02-03T12:00:43.949298Z",
   "summary": {
     "total_opportunities": 644,
-    "total_value_low": 2622376919,
-    "total_value_high": 2812376919,
+    "total_value_low": 2622229048,
+    "total_value_high": 2812229048,
     "forward_pipeline": 1155519904.3333333,
     "forward_pipeline_display": "$1.2B",
     "pipeline_yoy_pct": -47.0,
     "by_state": {
-      "VT": 42,
+      "VT": 41,
       "NH": 58,
       "ME": 170,
-      "MA": 26,
+      "MA": 23,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 644,
-      "news": 10,
+      "news": 6,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -39,7 +39,7 @@
       "by_type": {
         "Bridge": {
           "count": 108,
-          "value": 1416772303
+          "value": 1416624432
         },
         "Pavement": {
           "count": 502,
@@ -58,11 +58,11 @@
         {
           "fy": "FY2025",
           "year": 2025,
-          "Bridge": 558834088.6666666,
+          "Bridge": 558686217.6666666,
           "Pavement": 397846672.0,
           "Safety": 41260032,
           "Other": 24936222,
-          "total": 1022877014.6666666,
+          "total": 1022729143.6666666,
           "yoy_pct": null
         },
         {
@@ -131,7 +131,7 @@
         },
         "MA": {
           "count": 23,
-          "value": 216932859
+          "value": 216784988
         },
         "NY": {
           "count": 1,
@@ -208,7 +208,7 @@
         "MA": {
           "Bridge": {
             "count": 4,
-            "value": 76706389
+            "value": 76558518
           },
           "Pavement": {
             "count": 16,
@@ -467,11 +467,11 @@
           {
             "fy": "FY2025",
             "year": 2025,
-            "Bridge": 13037209,
+            "Bridge": 12889338,
             "Pavement": 37383813,
             "Safety": 0,
             "Other": 0,
-            "total": 50421022,
+            "total": 50273151,
             "yoy_pct": null
           },
           {
@@ -482,7 +482,7 @@
             "Safety": 2334825,
             "Other": 2301691,
             "total": 166511837,
-            "yoy_pct": 230.2
+            "yoy_pct": 231.2
           },
           {
             "fy": "FY2027",
@@ -733,21 +733,21 @@
       "current_fy": 2026,
       "forward_pipeline": 1155519904.3333333,
       "fy_totals": {
-        "FY2025": 1022877014.6666666,
+        "FY2025": 1022729143.6666666,
         "FY2026": 892958503.6666666,
         "FY2027": 214666666.66666666,
         "FY2028": 47894734,
         "FY2029": 0
       },
       "_debug_fy_totals": {
-        "FY2025": 1022877014.6666666,
+        "FY2025": 1022729143.6666666,
         "FY2026": 892958503.6666666,
         "FY2027": 214666666.66666666,
         "FY2028": 47894734,
         "FY2029": 0
       },
       "_debug_unknown_total": 443980000,
-      "_debug_total_check": 2622376919.0
+      "_debug_total_check": 2622229048.0
     }
   },
   "dot_lettings": [
@@ -1143,9 +1143,9 @@
       "state": "MA",
       "project_id": "86461",
       "description": "Superstructure Replacement, L-12-002, Concord Road (Route 126) over MBTA/CSX Railroad",
-      "cost_low": 13037209,
-      "cost_high": 13037209,
-      "cost_display": "$13.0M",
+      "cost_low": 12889338,
+      "cost_high": 12889338,
+      "cost_display": "$12.9M",
       "ad_date": "2025-09-13",
       "let_date": null,
       "fiscal_year": "FY2025",
@@ -13976,27 +13976,13 @@
   ],
   "news": [
     {
-      "id": "a07fb218a310",
-      "title": "Public invited to hearing to learn about Westfield intersection project",
-      "summary": "With the project to improve the Servistar Industrial Way and Barnes Airport Drive intersection on Southampton Road starting construction in about a year, the state Department of Transportation is inviting residents to learn more about it at a public hearing set for Feb. 25.",
-      "url": "https://www.masslive.com/westfieldnews/2026/01/public-invited-to-hearing-to-learn-about-westfield-intersection-project.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d6e775dd8ac7",
-      "title": "Chester highway superintendent provides report on major winter storm",
-      "summary": "Chester Highway Superintendent Charles Dazelle, speaking Monday at 4 p.m. after being at it for 33 hours straight, said the Jan. 25 storm cleanup overall went well.",
-      "url": "https://www.masslive.com/westfieldnews/2026/01/chester-highway-superintendent-provides-report-on-major-winter-storm.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-02",
+      "id": "06fb7cc7af56",
+      "title": "Obituary: Donald J. Chaisson",
+      "summary": "YARMOUTH - With grace in our hearts, we bid farewell to Donald J. Chaisson, known affectionately as Don. Born on Dec. ...",
+      "url": "https://www.pressherald.com/2026/02/03/obituarydonald-j-chaisson-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-03",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -14004,15 +13990,29 @@
       ]
     },
     {
-      "id": "1c577b677d3d",
-      "title": "The 1 big reason Josh Shapiro\u2019s book tour stop in Mass. matters in 2026| Bay State Briefing",
-      "summary": "The Pennsylvania governor is on the road to promote a new memoir, and continuing to build a national profile.",
-      "url": "https://www.masslive.com/politics/2026/02/the-1-big-reason-josh-shapiros-book-tour-stop-in-mass-matters-in-2026-bay-state-briefing.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-02",
+      "id": "f9aeee0b1f63",
+      "title": "Bangor hospital failed to test pregnant woman for infection that sickened\u00a0her twins, lawsuit says",
+      "summary": "Three and a half years later the babies continue to live with developmental delays, Alanna Love\u2019s attorney said.",
+      "url": "https://www.bangordailynews.com/2026/02/03/bangor/bangor-police-courts/bangor-hospital-failed-to-test-syphilis-sickened-twins-lawsuit-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-03",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "846973089858",
+      "title": "White Mountain National Forest To Temporarily Close Part of Lincoln Woods Trail for Construction",
+      "summary": "Beginning February 9, the Lincoln Woods Trail from Route 112-Kancamagus Highway to the junction of the Osseo trail will be closed.",
+      "url": "https://indepthnh.org/2026/02/02/white-mountain-national-forest-to-temporarily-part-of-lincoln-woods-trail-for-construction/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-02-02",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -14046,34 +14046,6 @@
       ]
     },
     {
-      "id": "948263c23a68",
-      "title": "Maine\u2019s first turtle tunnel is working",
-      "summary": "An underpass installed beneath a busy stretch of road in Eliot a few years ago has led to \u201ca substantial reduction in turtle mortalities,\u201d according to a state biologist.",
-      "url": "https://www.pressherald.com/2026/02/01/maines-first-turtle-tunnel-is-working/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1cf56c57b706",
-      "title": "Three Rivers Kiwanis 8-Ball Pool League donates to American Legion, BearCats",
-      "summary": "MILO \u2014 The Three Rivers Kiwanis 8-Ball Pool League has been playing for nine years. The league started at Pat\u2019s Pizza in Milo then moved into the Kiwanis Building at 15 Harris Pond Road. The league quickly outgrew that space and through the generous donation of Tom and Nancy Harrigan the current poo",
-      "url": "https://www.bangordailynews.com/2026/02/01/bdn-maine/three-rivers-kiwanis-8-ball-pool-league-donates-to-american-legion-bearcats/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "9b4876dc1489",
       "title": "Scanlon\u2019s campaign, Bronin endorsement: CT Politics news",
       "summary": "Plus: Updates on the Connecticut Education Issues Summit, the Council of Small Towns, and the Planning and Development Committee.",
@@ -14086,34 +14058,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "a6f2b5612f0e",
-      "title": "A \u2018top priority in this building\u2019: Senate health committee seeks to broaden access to primary care",
-      "summary": "An expansive bill seeks to change the way patients access primary care by changing the ways the state pays for it.\nRead the story on VTDigger here:  A \u2018top priority in this building\u2019: Senate health committee seeks to broaden access to primary care.",
-      "url": "https://vtdigger.org/2026/01/29/a-top-priority-in-this-building-senate-health-committee-seeks-to-broaden-access-to-primary-care/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-01-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0d77125e8f1a",
-      "title": "Senate Approves Open School Enrollment; Kills Or Modifies Bills Related To Municipalities",
-      "summary": "Republicans dispatched efforts by Senate Democrats to create enabling legislation for municipal governments to have tourists pay more for their local impacts with fees, nixed a measure to provide tariff relief to local businesses, and heavily amended a bill related to zoning for development of futur",
-      "url": "https://indepthnh.org/2026/01/29/senate-approves-open-school-enrollment-kills-or-modifies-bills-related-to-municipalities/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-01-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -14121,17 +14065,17 @@
       "score": 5.5,
       "trend": "stable",
       "action": "Maintain position - adequate pipeline",
-      "raw": 3081943727.0637255,
+      "raw": 3081731033.6500306,
       "raw_display": "$3.08B",
       "source": "scraper_v2",
-      "updated": "2026-02-02T12:00:39.562631",
+      "updated": "2026-02-03T12:00:43.287400",
       "v2_details": {
         "raw_total": "$2.62B",
         "weighted_total": "$1.71B",
         "extrapolated_total": "$4.71B",
         "by_horizon": {
           "near": {
-            "value": 1220802185,
+            "value": 1220654314,
             "display": "$1.22B",
             "count": 150,
             "label": "0-6 months"
@@ -14157,9 +14101,9 @@
         },
         "by_state": {
           "MA": {
-            "raw": 216932859,
-            "weighted": 173546287.20000002,
-            "estimated": 216932859,
+            "raw": 216784988,
+            "weighted": 173427990.40000004,
+            "estimated": 216784988,
             "is_scraped": true,
             "fhwa_ratio": "12.3%"
           },
@@ -14180,21 +14124,21 @@
           "CT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 451352967.5515114,
+            "estimated": 451327516.58975935,
             "is_scraped": false,
             "fhwa_ratio": "9.6%"
           },
           "VT": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 161775257.18692166,
+            "estimated": 161766134.9784084,
             "is_scraped": false,
             "fhwa_ratio": "3.4%"
           },
           "NY": {
             "raw": 0,
             "weighted": 0,
-            "estimated": 1479434726.9743986,
+            "estimated": 1479351304.3775446,
             "is_scraped": false,
             "fhwa_ratio": "31.4%"
           },
@@ -14225,10 +14169,10 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.65,
-          "baseline_time_weighted": 3921929625.708393,
+          "baseline_time_weighted": 3921880110.1466556,
           "baseline_time_weighted_display": "$3.92B",
           "score_at_baseline": 7.0,
-          "scoring_value": 3081943727.0637255,
+          "scoring_value": 3081731033.6500306,
           "scoring_value_display": "$3.08B"
         }
       }
@@ -14241,7 +14185,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-02T12:00:39.562631"
+      "updated": "2026-02-03T12:00:43.287400"
     },
     "construction_spending": {
       "score": 5.0,
@@ -14251,7 +14195,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-02T12:00:39.562631"
+      "updated": "2026-02-03T12:00:43.287400"
     },
     "migration": {
       "score": 5.0,
@@ -14261,7 +14205,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-02T12:00:39.562631"
+      "updated": "2026-02-03T12:00:43.287400"
     },
     "construction_employment": {
       "score": 5.0,
@@ -14271,7 +14215,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-02T12:00:39.562631"
+      "updated": "2026-02-03T12:00:43.287400"
     },
     "input_cost": {
       "score": 9.5,
@@ -14289,7 +14233,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-02T12:00:39.562631"
+      "updated": "2026-02-03T12:00:43.287400"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -14298,7 +14242,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-02T12:00:39.562631"
+      "updated": "2026-02-03T12:00:43.287400"
     },
     "overall_score": 6.2,
     "overall_status": "stable",
@@ -14311,6 +14255,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-02T12:00:39.562631"
+    "calculated_at": "2026-02-03T12:00:43.287400"
   }
 }

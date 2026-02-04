@@ -402,8 +402,162 @@ def fetch_with_playwright(url: str, wait_for: str = None) -> Optional[str]:
 # MASSDOT PARSER (Plain Text) - PRESERVED WORKING CODE - NO CHANGES
 # =============================================================================
 
+def classify_ma_project(description: str, funding_source: str = '') -> str:
+    """Classify MA project into 4 standard categories (offline parser)."""
+    text = f"{description} {funding_source}".lower()
+    if any(k in text for k in ['bridge', 'culvert', 'span', 'viaduct', 'overpass',
+                                 'underpass', 'deck', 'abutment', 'pier',
+                                 'br ', 'br-', ' over ']):
+        return 'Bridge'
+    if any(k in text for k in ['signal', 'intersection', 'safety', 'guardrail',
+                                 'guiderail', 'barrier', 'lighting', 'illumination',
+                                 'sign ', 'signing', 'rumble strip', 'hsip',
+                                 'hazard', 'rrfb', 'hawk', 'crosswalk',
+                                 'crash', 'high friction', 'striping', 'marking']):
+        return 'Safety'
+    if any(k in text for k in ['sidewalk', 'pedestrian', 'bike', 'bicycle', 'trail',
+                                 'path', 'greenway', 'transit', 'rail ', 'railroad',
+                                 'bus ', 'multimodal', 'drainage', 'storm',
+                                 'stormwater', 'environmental', 'wetland',
+                                 'park and ride']):
+        return 'Other'
+    return 'Pavement'
+
+
+def parse_ma_stip_xlsx(filepath: str) -> List[Dict]:
+    """Parse MA STIP Excel file into standard project dicts."""
+    import openpyxl
+    wb = openpyxl.load_workbook(filepath, read_only=True, data_only=True)
+    line_items = []
+    for sheet_name in wb.sheetnames:
+        ws = wb[sheet_name]
+        for row in ws.iter_rows(values_only=True):
+            vals = list(row)
+            if len(vals) < 12:
+                continue
+            year_val = str(vals[0]).strip() if vals[0] else ''
+            if year_val not in ['2026', '2027', '2028', '2029', '2030']:
+                continue
+            proj_id = str(vals[1]).strip() if vals[1] else None
+            if not proj_id or proj_id == 'None':
+                continue
+            mpo = str(vals[2]).strip() if vals[2] else ''
+            municipality = str(vals[4]).strip() if vals[4] else ''
+            description = str(vals[6]).strip() if vals[6] else ''
+            district = str(vals[7]).strip() if vals[7] else ''
+            funding_source = str(vals[8]).strip() if vals[8] else ''
+            adjusted_tfpc = 0
+            total_programmed = 0
+            federal_funds = 0
+            try:
+                adjusted_tfpc = float(vals[9]) if vals[9] else 0
+            except (ValueError, TypeError):
+                pass
+            try:
+                total_programmed = float(vals[10]) if vals[10] else 0
+            except (ValueError, TypeError):
+                pass
+            try:
+                federal_funds = float(vals[11]) if vals[11] else 0
+            except (ValueError, TypeError):
+                pass
+            line_items.append({
+                'year': int(year_val), 'proj_id': proj_id, 'mpo': mpo,
+                'municipality': municipality, 'description': description,
+                'district': district, 'funding_source': funding_source,
+                'adjusted_tfpc': adjusted_tfpc, 'total_programmed': total_programmed,
+                'federal_funds': federal_funds,
+            })
+    wb.close()
+    # Aggregate by project ID
+    project_map = {}
+    for item in line_items:
+        pid = item['proj_id']
+        if pid not in project_map:
+            project_map[pid] = {
+                'proj_id': pid, 'description': item['description'],
+                'municipality': item['municipality'], 'mpo': item['mpo'],
+                'district': item['district'], 'adjusted_tfpc': item['adjusted_tfpc'],
+                'total_programmed': 0, 'federal_funds': 0,
+                'funding_sources': set(), 'years': set(),
+            }
+        project_map[pid]['total_programmed'] += item['total_programmed']
+        project_map[pid]['federal_funds'] += item['federal_funds']
+        project_map[pid]['funding_sources'].add(item['funding_source'])
+        project_map[pid]['years'].add(item['year'])
+        if item['adjusted_tfpc'] > project_map[pid]['adjusted_tfpc']:
+            project_map[pid]['adjusted_tfpc'] = item['adjusted_tfpc']
+    # Build standard project dicts
+    projects = []
+    for pid, data in project_map.items():
+        cost_low = int(data['total_programmed'])
+        cost_high = int(data['adjusted_tfpc']) if data['adjusted_tfpc'] > 0 else cost_low
+        if cost_low <= 0 and cost_high <= 0:
+            continue
+        if cost_low <= 0:
+            cost_low = cost_high
+        years = sorted(data['years'])
+        fy = years[0] if years else None
+        proj_type = classify_ma_project(data['description'],
+                                         ' '.join(data['funding_sources']))
+        location = data['municipality']
+        if not location or location in ('None', 'Multiple', ''):
+            location = data['mpo'] if data['mpo'] else 'Statewide'
+        if cost_low == cost_high or cost_high <= cost_low:
+            cost_display = format_currency(cost_low)
+        else:
+            cost_display = f'${cost_low/1e6:.0f}-{cost_high/1e6:.0f}M'
+        combined_text = f"{data['description']} {location}"
+        projects.append({
+            'id': generate_id(f'MA-STIP-{pid}'),
+            'state': 'MA',
+            'source': 'MassDOT STIP',
+            'description': data['description'][:200],
+            'project_id': pid,
+            'project_num': pid,
+            'location': location,
+            'cost_low': cost_low,
+            'cost_high': cost_high,
+            'cost_display': cost_display,
+            'url': 'https://hwy.massdot.state.ma.us/',
+            'priority': 'high' if cost_low >= 10_000_000 else 'medium' if cost_low >= 1_000_000 else 'low',
+            'business_lines': get_business_lines(combined_text),
+            'fiscal_year': f'FY{fy}' if fy else 'Unknown',
+            'project_type': proj_type,
+            'district': data['district'],
+        })
+    return projects
+
+
 def parse_massdot() -> List[Dict]:
-    """Parse MassDOT by converting HTML to plain text first."""
+    """Parse MassDOT: offline STIP Excel first, then live HTML fallback."""
+    
+    # ==========================================================================
+    # TIER -1: Offline STIP Excel (Authoritative - committed to data/)
+    # ==========================================================================
+    ma_offline_paths = [
+        'data/ma_stip_2026_2030.xlsx',
+        'data/manual/ma_stip.xlsx',
+        'data/ma_stip.xlsx',
+    ]
+    
+    for fpath in ma_offline_paths:
+        if os.path.exists(fpath):
+            print(f"    📁 Found offline MA STIP: {fpath}")
+            try:
+                parsed = parse_ma_stip_xlsx(fpath)
+                if parsed:
+                    total = sum(p.get('cost_low') or 0 for p in parsed)
+                    print(f"    ✓ Offline MA STIP: {len(parsed)} projects, {format_currency(total)}")
+                    return parsed
+            except Exception as e:
+                print(f"    ⚠ Offline MA STIP error: {e}")
+                import traceback
+                traceback.print_exc()
+    
+    # ==========================================================================
+    # TIER 0: Live HTML (Original MassDOT parser)
+    # ==========================================================================
     url = DOT_SOURCES['MA']['portal_url']
     lettings = []
     
@@ -1101,6 +1255,7 @@ def parse_ctdot() -> List[Dict]:
     # TIER -1: Check for manually committed CT STIP PDF
     # =========================================================================
     manual_pdf_paths = [
+        'data/ct_stip_2025_2028.pdf',
         'data/manual/ct_stip.pdf',
         'data/ct_stip.pdf',
         '2025-2028_STIP_PROJECTS_BY_FA_CODE_AS_OF_1-8-2026_Internet_only.pdf'
@@ -2077,11 +2232,197 @@ def extract_vt_cost(award_info: str) -> Optional[int]:
 # NHDOT PARSER - DYNAMIC MULTI-APPROACH (NEW IMPLEMENTATION)
 # =============================================================================
 
+def classify_nh_project(scope: str, route: str, proj_id: str) -> str:
+    """Classify NH project into 4 standard categories (offline parser)."""
+    text = f"{scope} {route} {proj_id}".lower()
+    if any(k in text for k in ['bridge', 'culvert', 'brg#', 'brg #', 'br.', 'br #',
+                                 'brdg', 'brgbil', 'red list bridge', 'deck',
+                                 'abutment', 'pier', 'span', 'viaduct', 'overpass',
+                                 'underpass', ' over ']):
+        return 'Bridge'
+    if any(k in proj_id.lower() for k in ['brdg', 'brp', 'brs']):
+        return 'Bridge'
+    if any(k in text for k in ['signal', 'intersection', 'safety', 'guardrail', 'grdrail',
+                                 'guiderail', 'lighting', 'sign ', 'signing', 'rumble',
+                                 'hsip', 'hazard', 'rrfb', 'hawk', 'crosswalk',
+                                 'crash', 'pvmrk', 'pavement mark', 'grr ']):
+        return 'Safety'
+    if any(k in proj_id.lower() for k in ['hsip', 'pvmrk', 'grr']):
+        return 'Safety'
+    if any(k in text for k in ['transit', 'bus ', 'fta', 'rail ', 'railroad',
+                                 'bike', 'bicycle', 'trail', 'path', 'sidewalk',
+                                 'pedestrian', 'multimodal', 'greenway',
+                                 'drainage', 'storm', 'environmental', 'wetland',
+                                 'rest area', 'park and ride', 'ada ',
+                                 'ev_', 'dcfc', 'charging']):
+        return 'Other'
+    if any(k in proj_id.lower() for k in ['fta', 'mta', 'coast', 'nts', 'ada',
+                                            'crdr', 'ev_', 'rec', 'flap']):
+        return 'Other'
+    return 'Pavement'
+
+
+def _extract_nh_scope(between_text: str) -> str:
+    """Extract scope from text between two NH STIP project headers."""
+    m = re.search(r'Scope:\s*(\S.+?)(?:\r?\n)', between_text)
+    if m:
+        return m.group(1).strip()
+    m = re.search(r'CAA Code:\s*\S+\s*\r?\n(.*?)Scope:\s*\r?\n', between_text, re.DOTALL)
+    if m:
+        scope = m.group(1).strip().replace('\r', '').replace('\n', ' ')
+        scope = re.sub(r'Includes indirects.*?Page \d+ of \d+', '', scope)
+        scope = re.sub(r'Report Project List.*?STIP Approved', '', scope)
+        scope = re.sub(r'\s+', ' ', scope).strip()
+        if scope:
+            return scope
+    m = re.search(r'STIP Approved\s*\r?\n(.*?)Scope:\s*\r?\n', between_text, re.DOTALL)
+    if m:
+        scope = m.group(1).strip().replace('\r', '').replace('\n', ' ')
+        scope = re.sub(r'\s+', ' ', scope).strip()
+        if scope:
+            return scope
+    return ''
+
+
+def parse_nh_stip_offline(text: str, source_label: str = 'NHDOT STIP') -> List[Dict]:
+    """Parse NH STIP text (from PDF or text file) into standard project dicts."""
+    header_pattern = re.compile(
+        r'([^\n]+?)\s*\(([^)]+)\)\s+All Project Cost:\s*\$([\d,]+)',
+        re.MULTILINE
+    )
+    matches = list(header_pattern.finditer(text))
+    projects = []
+    for i, match in enumerate(matches):
+        start = match.start()
+        end = matches[i+1].start() if i+1 < len(matches) else len(text)
+        block = text[start:end]
+        raw_name = match.group(1).strip()
+        proj_id = match.group(2).strip()
+        total_cost = int(match.group(3).replace(',', ''))
+        name = raw_name
+        for sep in ['\r', '\n']:
+            if sep in name:
+                name = name.split(sep)[-1].strip()
+        is_program = 'PROGRAM' in name
+        name = name.replace('PROGRAM', '').strip()
+        prev_end = matches[i-1].end() if i > 0 else 0
+        between = text[prev_end:start]
+        scope = _extract_nh_scope(between)
+        route_match = re.search(r'Route/Road/Entity:\s*(.+?)(?:\r?\n)', block)
+        route = route_match.group(1).strip() if route_match else ''
+        rpc_match = re.search(r'RPC:\s*(\S+)', block)
+        rpc = rpc_match.group(1).strip() if rpc_match else ''
+        phase_pattern = re.compile(
+            r'(PE|ROW|Construction)\s+(\d{4})\s+\$([\d,]+)\s+\$([\d,]+)\s+\$([\d,]+)\s+\$([\d,]+)'
+        )
+        phases = []
+        for pm in phase_pattern.finditer(block):
+            phases.append({'phase': pm.group(1), 'year': int(pm.group(2)),
+                           'total': int(pm.group(6).replace(',', ''))})
+        con_phases = [p for p in phases if p['phase'] == 'Construction']
+        if con_phases:
+            fy = con_phases[0]['year']
+        elif phases:
+            fy = max(p['year'] for p in phases)
+        else:
+            fy = None
+        proj_type = classify_nh_project(scope, route, proj_id)
+        location = name if name and not is_program else 'Statewide'
+        description = scope if scope else f"{name} - {route}" if route else name
+        combined_text = f"{description} {route} {location}"
+        projects.append({
+            'id': generate_id(f'NH-STIP-{proj_id}'),
+            'state': 'NH',
+            'source': source_label,
+            'description': description[:200],
+            'project_id': proj_id,
+            'project_num': proj_id,
+            'location': location,
+            'cost_low': total_cost,
+            'cost_high': total_cost,
+            'cost_display': format_currency(total_cost),
+            'url': 'https://www.nh.gov/dot/projects/',
+            'priority': 'high' if total_cost >= 10_000_000 else 'medium' if total_cost >= 1_000_000 else 'low',
+            'business_lines': get_business_lines(combined_text),
+            'fiscal_year': f'FY{fy}' if fy else 'Unknown',
+            'project_type': proj_type,
+            'route': route,
+            'rpc': rpc,
+            'district': rpc,
+        })
+    return projects
+
+
+def parse_nh_stip_file(filepath: str) -> List[Dict]:
+    """Parse NH STIP from PDF file or pre-extracted text file.
+    
+    Handles two input formats:
+    - Actual PDF binary (production/GitHub): uses pdfplumber to extract text
+    - Pre-extracted text (Claude sandbox): reads directly as UTF-8
+    """
+    # Try text first (Claude-converted files read as UTF-8)
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            first = f.read(20)
+        if not first.startswith('%PDF'):
+            with open(filepath, 'r', encoding='utf-8') as f:
+                text = f.read()
+            print(f"      NH: Reading as text ({len(text)} chars)")
+            projects = parse_nh_stip_offline(text)
+            # Validation: expect 300+ projects from full NH STIP
+            if len(projects) < 100:
+                print(f"      ⚠ NH: Only {len(projects)} projects parsed (expected 300+) - text format may have changed")
+            return projects
+    except UnicodeDecodeError:
+        pass
+    # PDF extraction via pdfplumber
+    try:
+        import pdfplumber
+        text_parts = []
+        with pdfplumber.open(filepath) as pdf:
+            print(f"      NH: PDF has {len(pdf.pages)} pages")
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text_parts.append(page_text)
+        full_text = '\n'.join(text_parts)
+        print(f"      NH: Extracted {len(full_text)} chars from PDF")
+        # Quick sanity check on extracted text
+        header_count = full_text.count('All Project Cost:')
+        print(f"      NH: Found {header_count} 'All Project Cost:' markers in extracted text")
+        if header_count < 100:
+            print(f"      ⚠ NH: Low header count - pdfplumber extraction may need adjustment")
+        projects = parse_nh_stip_offline(full_text, 'NHDOT STIP (PDF)')
+        if len(projects) < 100 and header_count >= 100:
+            print(f"      ⚠ NH: {header_count} headers found but only {len(projects)} parsed - regex may not match pdfplumber output")
+            # Log first header for debugging
+            import re
+            first_header = re.search(r'.{{0,60}}All Project Cost:.{{0,30}}', full_text)
+            if first_header:
+                print(f"      NH: First header sample: {repr(first_header.group()[:80])}")
+        return projects
+    except ImportError:
+        pass
+    # PDF extraction via pymupdf
+    try:
+        import fitz
+        doc = fitz.open(filepath)
+        text_parts = [page.get_text() for page in doc]
+        doc.close()
+        full_text = '\n'.join(text_parts)
+        print(f"      NH: Extracted {len(full_text)} chars via pymupdf")
+        return parse_nh_stip_offline(full_text, 'NHDOT STIP (pymupdf)')
+    except ImportError:
+        print("      NH: No PDF library available (need pdfplumber or pymupdf)")
+    return []
+
+
 def parse_nhdot() -> List[Dict]:
     """
     Parse NHDOT using dynamic multi-approach strategy:
     
-    Tier 0: NH STIP PDF (authoritative statewide project list with costs) - PRIMARY
+    Tier -1: Offline STIP file (data/nh_stip_*.pdf) - AUTHORITATIVE
+    Tier 0: NH STIP PDF from URL (live fetch) - PRIMARY
     Tier 1: Official NHDOT with session + full browser headers + cookies
     Tier 2: Playwright headless browser for JS-rendered content  
     Tier 3: Regional Planning Commission TIPs (live alternatives)
@@ -2094,6 +2435,27 @@ def parse_nhdot() -> List[Dict]:
     itb_url = DOT_SOURCES['NH']['portal_url']
     
     print(f"    📋 NHDOT Dynamic Multi-Approach Parser")
+    
+    # ==========================================================================
+    # TIER -1: Offline STIP File (Authoritative - committed to data/)
+    # ==========================================================================
+    nh_offline_paths = [
+        'data/nh_stip_2025_2028.pdf',
+        'data/manual/nh_stip.pdf',
+        'data/nh_stip.pdf',
+    ]
+    
+    for fpath in nh_offline_paths:
+        if os.path.exists(fpath):
+            print(f"    📁 Found offline NH STIP: {fpath}")
+            try:
+                parsed = parse_nh_stip_file(fpath)
+                if parsed:
+                    total = sum(p.get('cost_low') or 0 for p in parsed)
+                    print(f"    ✓ Offline NH STIP: {len(parsed)} projects, {format_currency(total)}")
+                    return parsed
+            except Exception as e:
+                print(f"    ⚠ Offline NH STIP error: {e}")
     
     # ==========================================================================
     # TIER 0: NH STIP PDF (Primary Source - Authoritative Project List)

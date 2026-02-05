@@ -1,16 +1,16 @@
 {
-  "generated": "2026-02-04T18:38:46.898125Z",
+  "generated": "2026-02-05T12:01:19.707946Z",
   "summary": {
-    "total_opportunities": 1221,
+    "total_opportunities": 1222,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
+      "VT": 43,
       "NH": 58,
-      "ME": 172,
+      "ME": 173,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 7,
-      "funding": 0
+      "news": 8,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,11 +42,11 @@
           "value": 5895804498
         },
         "Pavement": {
-          "count": 718,
+          "count": 719,
           "value": 3310707894
         },
         "Safety": {
-          "count": 151,
+          "count": 150,
           "value": 1003218381
         },
         "Other": {
@@ -265,11 +265,11 @@
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 338,
             "value": 0
           },
           "Safety": {
-            "count": 2,
+            "count": 1,
             "value": 0
           },
           "Other": {
@@ -18686,26 +18686,6 @@
       "project_type": "Bridge"
     },
     {
-      "id": "4e99fbc27702",
-      "state": "CT",
-      "project_id": "0025-0150",
-      "description": "Route 10 Computerized Traffic Signal System (CTSS) Upgrades in Cheshire",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "fiscal_year": "FY2026",
-      "project_type": "Safety",
-      "location": "Route 10",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "12d5c3025fe2",
       "state": "CT",
       "project_id": "0102-0380",
@@ -18724,49 +18704,6 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
-    },
-    {
-      "id": "59c5e05a01b3",
-      "state": "CT",
-      "project_id": "0115-0122",
-      "description": "REPLACEMENT OF RETAINING WALL ALONG ROUTE 44",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": "ROUTE 44",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "hma",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "d25075c621b8",
-      "state": "CT",
-      "project_id": "0170-3756",
-      "description": "Speed Limit Signs on Local Rural Roads in Districts 1 & 2",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-04",
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "hma"
       ]
     },
     {
@@ -19475,6 +19412,26 @@
       "state": "CT",
       "project_id": "0017-0197",
       "description": "CT Project 0017-0197",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "872754531fd1",
+      "state": "CT",
+      "project_id": "0025-0150",
+      "description": "CT Project 0025-0150",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -23511,6 +23468,26 @@
       ]
     },
     {
+      "id": "de5869c36de6",
+      "state": "CT",
+      "project_id": "0170-3756",
+      "description": "CT Project 0170-3756",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "988899b992fc",
       "state": "CT",
       "project_id": "0170-3757",
@@ -25271,6 +25248,26 @@
       ]
     },
     {
+      "id": "1f96d382c080",
+      "state": "CT",
+      "project_id": "0115-0122",
+      "description": "CT Project 0115-0122",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "85e059372e02",
       "state": "CT",
       "project_id": "0123-0067",
@@ -25681,13 +25678,13 @@
   ],
   "news": [
     {
-      "id": "64ab9a3f9a1c",
-      "title": "Gorham\u2019s Robie Street development poised to grow to 565 units",
-      "summary": "The impact on schools is unclear. The first of the previously approved 44 single-family homes for Phase 1 are under construction.",
-      "url": "https://www.pressherald.com/2026/02/04/gorhams-robie-street-development-poised-to-rise-to-565-units/",
+      "id": "d948b0c13b8c",
+      "title": "Celtics trounce Rockets with makeshift lineup",
+      "summary": "Playing without Jaylen Brown, Boston easily wins on the road against one of the top teams in the Western Conference.",
+      "url": "https://www.pressherald.com/2026/02/04/celtics-trounce-rockets-with-makeshift-lineup/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-02-04",
+      "date": "2026-02-05",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25695,27 +25692,13 @@
       ]
     },
     {
-      "id": "406d63164f8f",
-      "title": "How Super Bowl halftime moments became flashpoints from the \u2018wardrobe malfunction\u2019 to caged kids",
-      "summary": "LOS ANGELES (AP) \u2014 For a show that lasts roughly 13 minutes, the Super Bowl halftime performance has fueled decades of conversation. Sometimes the spark comes from a single moment \u2014 as it did when Janet Jackson and Justin Timberlake\u2019s infamous \u201cwardrobe malfunction\u201d triggered a broadcast reckoning.",
-      "url": "https://www.bangordailynews.com/2026/02/04/nation/how-super-bowl-halftime-moments-became-flashpoints-from-the-wardrobe-malfunction-to-caged-kids/",
+      "id": "3c12c623d4d8",
+      "title": "Aroostook town unveils 4-season blueprint to boost tourism",
+      "summary": "The longterm project includes a downtown riverfront park with a pedestrian bridge and amphitheater, and nearly 70 miles of trails.",
+      "url": "https://www.bangordailynews.com/2026/02/05/aroostook/aroostook-business/island-falls-maine-tourism-plan-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-02-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e6c45bc9375a",
-      "title": "Man once married to Jill Biden held without bail after being charged in wife\u2019s killing",
-      "summary": "WILMINGTON, Del. (AP) \u2014 A Delaware man who was briefly married to former first lady Jill Biden decades ago remains in jail on first-degree murder charges as authorities investigate the death of his wife, who was found unresponsive in their home late last year. William Stevenson, 77, of Wilmington wa",
-      "url": "https://www.bangordailynews.com/2026/02/04/nation/man-once-married-to-jill-biden-held-without-bail-after-being-charged-in-wifes-killing/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-04",
+      "date": "2026-02-05",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25723,12 +25706,68 @@
       ]
     },
     {
-      "id": "60fec6a42d38",
-      "title": "Police return to Hampden property to search for missing man",
-      "summary": "Police have asked the public to steer clear of the Kennebec Road property to avoid hampering the search for Doug Dunphy.",
-      "url": "https://www.bangordailynews.com/2026/02/04/bangor/bangor-police-courts/hampden-maine-kennebec-road-search-day-2-missing-persons-doug-dunphy/",
+      "id": "0fe89267faee",
+      "title": "We must learn from difficult histories",
+      "summary": "\"We now must ask ourselves how Americans today compare to citizens here and abroad in the 1930s.\"",
+      "url": "https://www.bangordailynews.com/2026/02/05/opinion/opinion-contributor/we-must-learn-from-difficult-histories-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
+      "date": "2026-02-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8c62fe643257",
+      "title": "Jesse Jackson Jr. pitches redemption in bid for old House seat years after campaign fraud conviction",
+      "summary": "COUNTRY CLUB HILLS, Ill. (AP) \u2014 As Jesse Jackson Jr. campaigns for his old U.S. House seat at Chicago-area churches, banquet halls and on Black radio shows, he often takes a moment to address the obvious matter hanging over his political comeback. The son of the civil rights icon tries to bring it u",
+      "url": "https://www.bangordailynews.com/2026/02/05/nation/jesse-jackson-jr-pitches-redemption-in-bid-for-old-house-seat-years-after-campaign-fraud-conviction/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4b160dc2988d",
+      "title": "His mom died in a Maine jail nearly 2 years ago. Now, he\u2019s suing.",
+      "summary": "A medical examiner found that Bridgett Toulan died of \u201cacute intoxication,\u201d according to the lawsuit.",
+      "url": "https://www.bangordailynews.com/2026/02/04/portland/portland-police-courts/mom-died-maine-jail-lawsuit/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4427bb264f2c",
+      "title": "State Faces More Confusion and $55,000 a Day Fines Due To Flawed Law To End Inspections",
+      "summary": "In addition to leaving the public and inspection stations now scrambling to understand what this all means, Commissioner Scott said the potential exists not only to pay the federal government $1.6 million a month for violation of the act, but the state could lose highway funds after 18 months of non",
+      "url": "https://indepthnh.org/2026/02/04/state-faces-more-confusion-and-fined-55000-a-day-due-to-flawed-law-to-end-inspections/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-02-05",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "dfbab0eeb956",
+      "title": "Ugandan minister Steven Tendo, who faced brutal torture abroad, detained by ICE",
+      "summary": "Tendo, who fled his native country to seek asylum and has lived in Vermont since 2021, was detained outside a health care facility in Shelburne where he works, advocates said.\nRead the story on VTDigger here:  Ugandan minister Steven Tendo, who faced brutal torture abroad, detained by ICE.",
+      "url": "https://vtdigger.org/2026/02/04/ugandan-asylum-seeker-steven-tendo-detained-by-ice/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-02-04",
       "category": "news",
       "priority": "medium",
@@ -25744,20 +25783,6 @@
       "source": "VTDigger",
       "state": "VT",
       "date": "2026-02-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "846973089858",
-      "title": "White Mountain National Forest To Temporarily Close Part of Lincoln Woods Trail for Construction",
-      "summary": "Beginning February 9, the Lincoln Woods Trail from Route 112-Kancamagus Highway to the junction of the Osseo trail will be closed.",
-      "url": "https://indepthnh.org/2026/02/02/white-mountain-national-forest-to-temporarily-part-of-lincoln-woods-trail-for-construction/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-02-02",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25782,12 +25807,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 10184784895.26412,
       "raw_display": "$10.18B",
       "source": "scraper_v2",
-      "updated": "2026-02-04T18:38:31.116142",
+      "updated": "2026-02-05T12:01:19.522809",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.66B",
@@ -25897,24 +25922,24 @@
       }
     },
     "housing_permits": {
-      "score": 7.0,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 8841.320183533115,
-      "raw_display": "8,841 units/mo",
-      "yoy_change": 9.9,
-      "source": "FRED API",
-      "updated": "2026-02-04T18:38:31.116142"
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-02-05T12:01:19.522809"
     },
     "construction_spending": {
-      "score": 4.8,
+      "score": 5.0,
       "trend": "stable",
-      "action": "Cost focus",
-      "raw": 142581.0,
-      "raw_display": "$142.6B SAAR",
-      "yoy_change": -1.1,
-      "source": "FRED API",
-      "updated": "2026-02-04T18:38:31.116142"
+      "action": "Selective investment",
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-02-05T12:01:19.522809"
     },
     "migration": {
       "score": 5.0,
@@ -25924,35 +25949,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-04T18:38:31.116142"
+      "updated": "2026-02-05T12:01:19.522809"
     },
     "construction_employment": {
-      "score": 4.7,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 957599.9999999999,
-      "raw_display": "958K workers",
-      "yoy_change": -1.4,
-      "source": "FRED API",
-      "updated": "2026-02-04T18:38:31.116142"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-02-05T12:01:19.522809"
     },
     "input_cost": {
-      "score": 10,
+      "score": 9.5,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $2.82 | Diesel $4.24",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 2.82,
-        "score": 10,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.24,
-        "score": 9.3,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-02-04T18:38:31.116142"
+      "source": "historical data",
+      "updated": "2026-02-05T12:01:19.522809"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25961,19 +25986,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-04T18:38:31.116142"
+      "updated": "2026-02-05T12:01:19.522809"
     },
-    "overall_score": 7.4,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-04T18:38:31.116142"
+    "calculated_at": "2026-02-05T12:01:19.522809"
   }
 }

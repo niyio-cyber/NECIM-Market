@@ -1,17 +1,17 @@
 {
-  "generated": "2026-02-06T11:59:00.482103Z",
+  "generated": "2026-02-07T11:41:52.731175Z",
   "summary": {
-    "total_opportunities": 1222,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
+      "VT": 47,
       "NH": 59,
-      "ME": 169,
-      "MA": 599,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 341,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 7,
-      "funding": 1
+      "news": 8,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25678,12 +25678,82 @@
   ],
   "news": [
     {
-      "id": "ab255a8e061a",
-      "title": "Hannaford attack ads driven by animal rights activism, store officials say",
-      "summary": "When a Pennsylvania nonprofit\u2019s attacks on Hannaford supermarket\u2019s cage-free egg roadmap received little traction they shifted to targeting the Maine-founded grocer with online posts and a political-action-committee-like ad campaign about prices and quality with little mention of animal welfare.",
-      "url": "https://www.unionleader.com/news/business/hannaford-attack-ads-driven-by-animal-rights-activism-store-officials-say/article_bb5f4eda-06a6-4cb6-b980-a05b3c7883a6.html",
-      "source": "Union Leader",
-      "state": "NH",
+      "id": "be79413ee891",
+      "title": "Vermont\u2019s US senators celebrate more than $58 million in earmarks for local projects",
+      "summary": "The federal funds will be spread across the state for priorities like housing and infrastructure development, access to dental care and more. \nRead the story on VTDigger here:  Vermont\u2019s US senators celebrate more than $58 million in earmarks for local projects\u00a0.",
+      "url": "https://vtdigger.org/2026/02/06/vermonts-u-s-senators-celebrate-more-than-58-million-in-earmarks-for-local-projects/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-02-07",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6a6ad70a10ff",
+      "title": "Cold snap expected to hit Vermont, exacerbating risks of heating fuel shortages",
+      "summary": "The season's cold temperatures have strained heating infrastructure, creating dire situations as some Vermonters run low on fuel. \nRead the story on VTDigger here:  Cold snap expected to hit Vermont, exacerbating risks of heating fuel shortages\u00a0.",
+      "url": "https://vtdigger.org/2026/02/06/cold-snap-expected-to-hit-vermont-exacerbating-risks-of-heating-fuel-shortages/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-02-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "981c252aeb47",
+      "title": "Riverton area offers great deals on beers and burgers | Letter",
+      "summary": "Leslie Bridgers\u2019 Jan. 26 column, \u201cCould a $20 burger and beer lure you to a Portland restaurant?,\u201d is another example of Portland\u2019s Riverton area being ignored.\u00a0Riverton Station Pizza, Bar & Grill typically has specials, where a beer and burger are under $15.\u00a0And, on top of that, the burgers and the",
+      "url": "https://www.pressherald.com/2026/02/07/riverton-area-offers-great-deals-on-beers-and-burgers-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-07",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f270c8883512",
+      "title": "Judge orders Trump administration to restore funding for rail tunnel between New York and New Jersey",
+      "summary": "NEW YORK (AP) \u2014 A federal judge ordered the Trump administration to restore funding to a new rail tunnel between New York and New Jersey on Friday, ruling just as construction was set to shut down on the massive infrastructure project. The decision came months after the Trump administration announce",
+      "url": "https://www.bangordailynews.com/2026/02/06/nation/judge-orders-trump-administration-to-restore-funding-for-rail-tunnel-between-new-york-and-new-jersey/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-07",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "85c5ab68b6d6",
+      "title": "Sherman\u2019s Mill Bridge on Route 187 is under repair",
+      "summary": "The Sherman\u2019s Mill bridge on Feeding Hills Road over Great Brook, which has been approved to be replaced by the state Department of Transportation, is currently undergoing repairs, according to a spokesperson with MassDOT.",
+      "url": "https://www.masslive.com/westfieldnews/2026/02/shermans-mill-bridge-on-route-187-is-under-repair.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a6596162c6da",
+      "title": "Investing close to home: how Vermonters are putting their money to work locally",
+      "summary": "What if your investment portfolio included the childcare center down the street, the new affordable housing development in your county, or the local restaurant opening downtown? For a growing number of Vermonters, that's exactly what investing looks like.\nRead the story on VTDigger here:  Investing",
+      "url": "https://vtdigger.org/2026/02/06/investing-close-to-home-how-vermonters-are-putting-their-money-to-work-locally/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-02-06",
       "category": "news",
       "priority": "medium",
@@ -25692,12 +25762,12 @@
       ]
     },
     {
-      "id": "c9b7e8545629",
-      "title": "Maine State Police called immigration authorities about 60 times last year",
-      "summary": "Troopers were told they were allowed to hold people on the side of the road for immigration officials, even if there was no suspected criminal conduct.",
-      "url": "https://www.pressherald.com/2026/02/06/maine-state-police-called-immigration-authorities-about-60-times-last-year/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "ca5b2139b673",
+      "title": "Hannaford attack ads driven by animal rights activism",
+      "summary": "When a Pennsylvania nonprofit\u2019s attacks on Hannaford supermarket\u2019s cage-free egg roadmap received little traction they shifted to targeting the Maine-founded grocer with online posts and a political-action-committee-like ad campaign about prices and quality with little mention of animal welfare.",
+      "url": "https://www.unionleader.com/news/business/hannaford-attack-ads-driven-by-animal-rights-activism/article_bb5f4eda-06a6-4cb6-b980-a05b3c7883a6.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-02-06",
       "category": "news",
       "priority": "medium",
@@ -25762,20 +25832,6 @@
       ]
     },
     {
-      "id": "95c88b1d4cfe",
-      "title": "Vermont Senate president wants state dollars to cover policing costs if anti-ICE protests break out",
-      "summary": "Also in Final Reading: Lt. Gov. Rodgers announces reelection bid, House advances bill to protect voters, a nurse\u2019s family affair.\nRead the story on VTDigger here:  Vermont Senate president wants state dollars to cover policing costs if anti-ICE protests break out.",
-      "url": "https://vtdigger.org/2026/02/03/vermont-senate-president-wants-state-dollars-to-cover-policing-costs-if-anti-ice-protests-break-out/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "ebe2d16b3825",
       "title": "SPERRY is leasing space at Village Center Place in Windham",
       "summary": "Leasing activity is officially underway at Village Center Place, a new mixed-use development coming to the heart of Windham. SPERRY - Commercial Realty Associates of Bedford has been chosen to exclusively represent the developer and oversee leasing efforts for the\u2026",
@@ -25798,7 +25854,7 @@
       "raw": 10184784895.26412,
       "raw_display": "$10.18B",
       "source": "scraper_v2",
-      "updated": "2026-02-06T11:59:00.130732",
+      "updated": "2026-02-07T11:41:52.047488",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.66B",
@@ -25915,7 +25971,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-06T11:59:00.130732"
+      "updated": "2026-02-07T11:41:52.047488"
     },
     "construction_spending": {
       "score": 5.0,
@@ -25925,7 +25981,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-06T11:59:00.130732"
+      "updated": "2026-02-07T11:41:52.047488"
     },
     "migration": {
       "score": 5.0,
@@ -25935,7 +25991,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-06T11:59:00.130732"
+      "updated": "2026-02-07T11:41:52.047488"
     },
     "construction_employment": {
       "score": 5.0,
@@ -25945,7 +26001,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-06T11:59:00.130732"
+      "updated": "2026-02-07T11:41:52.047488"
     },
     "input_cost": {
       "score": 9.5,
@@ -25963,7 +26019,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-06T11:59:00.130732"
+      "updated": "2026-02-07T11:41:52.047488"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25972,7 +26028,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-06T11:59:00.130732"
+      "updated": "2026-02-07T11:41:52.047488"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -25985,6 +26041,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-06T11:59:00.130732"
+    "calculated_at": "2026-02-07T11:41:52.047488"
   }
 }

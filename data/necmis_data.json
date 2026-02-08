@@ -1,17 +1,17 @@
 {
-  "generated": "2026-02-07T11:41:52.731175Z",
+  "generated": "2026-02-08T11:42:41.159304Z",
   "summary": {
-    "total_opportunities": 1225,
+    "total_opportunities": 1223,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 47,
-      "NH": 59,
-      "ME": 170,
-      "MA": 600,
+      "VT": 46,
+      "NH": 58,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 341,
@@ -20,7 +20,7 @@
     "by_category": {
       "dot_letting": 1221,
       "news": 8,
-      "funding": 4
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25678,6 +25678,34 @@
   ],
   "news": [
     {
+      "id": "4bc2dc70f3ee",
+      "title": "Maine needs an independent governor to bridge the political divide | Letter",
+      "summary": "We are living in a time of two separate Maines and two separate Americas. Our nation and our people are perhaps the most divided since the Civil War. As an independent candidate for governor, I also see it in the two gubernatorial campaigns. That\u2019s right, there are two very separate gubernatorial ca",
+      "url": "https://www.pressherald.com/2026/02/08/maine-needs-an-independent-governor-to-bridge-the-political-divide-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-08",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e6a93d88d829",
+      "title": "Discover Maine\u2019s newest trails: Mount Tuck and 2 others",
+      "summary": "\"Mount Tuck is located just west of the Penobscot River, perhaps a mile or so south of the magnificent Penobscot Narrows Bridge.\"",
+      "url": "https://www.bangordailynews.com/2026/02/08/outdoors/outdoors-contributors/mount-tuck-and-2-others-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-08",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "be79413ee891",
       "title": "Vermont\u2019s US senators celebrate more than $58 million in earmarks for local projects",
       "summary": "The federal funds will be spread across the state for priorities like housing and infrastructure development, access to dental care and more. \nRead the story on VTDigger here:  Vermont\u2019s US senators celebrate more than $58 million in earmarks for local projects\u00a0.",
@@ -25706,43 +25734,15 @@
       ]
     },
     {
-      "id": "981c252aeb47",
-      "title": "Riverton area offers great deals on beers and burgers | Letter",
-      "summary": "Leslie Bridgers\u2019 Jan. 26 column, \u201cCould a $20 burger and beer lure you to a Portland restaurant?,\u201d is another example of Portland\u2019s Riverton area being ignored.\u00a0Riverton Station Pizza, Bar & Grill typically has specials, where a beer and burger are under $15.\u00a0And, on top of that, the burgers and the",
-      "url": "https://www.pressherald.com/2026/02/07/riverton-area-offers-great-deals-on-beers-and-burgers-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-07",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f270c8883512",
-      "title": "Judge orders Trump administration to restore funding for rail tunnel between New York and New Jersey",
-      "summary": "NEW YORK (AP) \u2014 A federal judge ordered the Trump administration to restore funding to a new rail tunnel between New York and New Jersey on Friday, ruling just as construction was set to shut down on the massive infrastructure project. The decision came months after the Trump administration announce",
-      "url": "https://www.bangordailynews.com/2026/02/06/nation/judge-orders-trump-administration-to-restore-funding-for-rail-tunnel-between-new-york-and-new-jersey/",
+      "id": "a7a87d9a664d",
+      "title": "Brooksville man killed in 3-vehicle crash",
+      "summary": "The crash on Blue Hill Road in Surry occurred at around 2:45 p.m. Friday, when a vehicle crossed the center line.",
+      "url": "https://www.bangordailynews.com/2026/02/07/hancock/hancock-police-courts/brooksville-man-killed-in-3-vehicle-crash/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-02-07",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "85c5ab68b6d6",
-      "title": "Sherman\u2019s Mill Bridge on Route 187 is under repair",
-      "summary": "The Sherman\u2019s Mill bridge on Feeding Hills Road over Great Brook, which has been approved to be replaced by the state Department of Transportation, is currently undergoing repairs, according to a spokesperson with MassDOT.",
-      "url": "https://www.masslive.com/westfieldnews/2026/02/shermans-mill-bridge-on-route-187-is-under-repair.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-07",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25816,34 +25816,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "dfbab0eeb956",
-      "title": "Ugandan minister Steven Tendo, who faced brutal torture abroad, detained by ICE",
-      "summary": "Tendo, who fled his native country to seek asylum and has lived in Vermont since 2021, was detained outside a health care facility in Shelburne where he works, advocates said.\nRead the story on VTDigger here:  Ugandan minister Steven Tendo, who faced brutal torture abroad, detained by ICE.",
-      "url": "https://vtdigger.org/2026/02/04/ugandan-asylum-seeker-steven-tendo-detained-by-ice/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ebe2d16b3825",
-      "title": "SPERRY is leasing space at Village Center Place in Windham",
-      "summary": "Leasing activity is officially underway at Village Center Place, a new mixed-use development coming to the heart of Windham. SPERRY - Commercial Realty Associates of Bedford has been chosen to exclusively represent the developer and oversee leasing efforts for the\u2026",
-      "url": "https://www.unionleader.com/news/business/sperry-is-leasing-space-at-village-center-place-in-windham/article_42e608a5-3b30-4a86-aab3-81da257e7b7e.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-02-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25854,7 +25826,7 @@
       "raw": 10184784895.26412,
       "raw_display": "$10.18B",
       "source": "scraper_v2",
-      "updated": "2026-02-07T11:41:52.047488",
+      "updated": "2026-02-08T11:42:31.364824",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.66B",
@@ -25964,24 +25936,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-07T11:41:52.047488"
+      "score": 7.0,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8841.320183533115,
+      "raw_display": "8,841 units/mo",
+      "yoy_change": 9.9,
+      "source": "FRED API",
+      "updated": "2026-02-08T11:42:31.364824"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-07T11:41:52.047488"
+      "action": "Cost focus",
+      "raw": 142581.0,
+      "raw_display": "$142.6B SAAR",
+      "yoy_change": -1.1,
+      "source": "FRED API",
+      "updated": "2026-02-08T11:42:31.364824"
     },
     "migration": {
       "score": 5.0,
@@ -25991,35 +25963,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-07T11:41:52.047488"
+      "updated": "2026-02-08T11:42:31.364824"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-07T11:41:52.047488"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-02-08T11:42:31.364824"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.82 | Diesel $4.24",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.82,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.24,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-02-07T11:41:52.047488"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-02-08T11:42:31.364824"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26028,19 +26000,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-07T11:41:52.047488"
+      "updated": "2026-02-08T11:42:31.364824"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.4,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-07T11:41:52.047488"
+    "calculated_at": "2026-02-08T11:42:31.364824"
   }
 }

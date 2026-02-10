@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-09T14:37:56.883866Z",
+  "generated": "2026-02-10T14:45:24.975105Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 47,
+      "VT": 45,
       "NH": 57,
-      "ME": 172,
-      "MA": 599,
+      "ME": 171,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 341,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 10,
+      "news": 8,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25678,6 +25678,63 @@
   ],
   "news": [
     {
+      "id": "c941baf01a85",
+      "title": "Small plane makes emergency landing on a busy Georgia road and strikes 3 vehicles",
+      "summary": "GAINESVILLE, Ga. (AP) \u2014 A single-engine plane made an emergency landing on a busy road in a Georgia, striking three vehicles and leaving two people with minor injuries, authorities said. The Hawker Beechcraft BE-36 landed Monday on Browns Bridge Road in Gainesville, about 50 miles (80 kilometers) no",
+      "url": "https://www.bangordailynews.com/2026/02/10/nation/small-plane-makes-emergency-landing-on-a-busy-georgia-road-and-strikes-3-vehicles/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3164a6e308ab",
+      "title": "A new Penobscot County Jail is a moral and practical necessity",
+      "summary": "\"This is not a choice between compassion and construction. It is a call to meet our obligations with humanity, responsibility and leadership.\"",
+      "url": "https://www.bangordailynews.com/2026/02/10/opinion/opinion-contributor/a-new-penobscot-county-jail-is-a-moral-and-practical-necessity/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d7ed678d0d0e",
+      "title": "Letter: Unplowed Bangor sidewalks are unsafe",
+      "summary": "\"Even when plowed, the sidewalks are not cleared to the pavement, nor are they sanded or salted, so a layer of snow is left on the surface.\"",
+      "url": "https://www.bangordailynews.com/2026/02/10/opinion/letters/letter-unplowed-bangor-sidewalks-are-unsafe/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "hma",
+        "aggregates"
+      ]
+    },
+    {
+      "id": "aab7602ea777",
+      "title": "Mass. weather: 5 maps show what to expect from snow, ice Tuesday",
+      "summary": "Snow and ice could make Massachusetts roads hazardous Tuesday and Wednesday.",
+      "url": "https://www.masslive.com/weather/2026/02/mass-weather-5-maps-show-what-to-expect-from-snow-ice-tuesday.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "c0939f121040",
       "title": "Home is best: creating affordable and accessible housing for Vermonters with disabilities",
       "summary": "Facing Vermont\u2019s housing shortage, partners across the state are advancing community-integrated homes for people with intellectual and developmental disabilities. Upper Valley Services\u2019 projects highlight solutions that pair affordable housing with supports.\nRead the story on VTDigger here:  Home i",
@@ -25692,68 +25749,12 @@
       ]
     },
     {
-      "id": "12d68bea18ad",
-      "title": "Rare copy of Declaration of Independence will tour around Maine this year",
-      "summary": "It's one of 26 copies of the Dunlap Broadside that have survived since 1776.",
-      "url": "https://www.bangordailynews.com/2026/02/09/state/state-culture/maine-declaration-of-independence-dunlap-broadside-tour/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f7d9c89d3789",
-      "title": "Here\u2019s where the most new housing is being built in Maine",
-      "summary": "Two southern Maine counties have built more than 5,400 homes between them since 2020 \u2014 but other parts of the state are lagging behind in new construction.",
-      "url": "https://www.bangordailynews.com/2026/02/09/business/business-housing/where-most-housing-built-in-maine-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e67f05e24175",
-      "title": "See how much new housing has been built in your Maine\u00a0town",
-      "summary": "U.S. census estimates show which parts of Maine have welcomed the most new housing from 2020 to 2024 and where new developments stalled.",
-      "url": "https://www.bangordailynews.com/2026/02/09/business/business-housing/see-how-much-housing-built-in-your-maine-town-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "51abdd51ff0d",
       "title": "Young Writers Project: \u2018Longhand\u2019",
       "summary": "This week\u2019s Young Writers Project entry is \u201cLonghand\u201d by Olivia Guevin, 14, of Brandon. Art is \u201cBridges,\u201d by Ursa Goldenrose, 16, of Hardwick.\nRead the story on VTDigger here:  Young Writers Project: \u2018Longhand\u2019.",
       "url": "https://vtdigger.org/2026/02/08/young-writers-project-longhand/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-02-08",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b0f7dcd4972c",
-      "title": "Lindsey Vonn breaks left leg in Olympic downhill, airlifted off course",
-      "summary": "Vonn comeback bid ends just seconds into the race with a scary crash. American Breezy Johnson wins the gold.",
-      "url": "https://www.pressherald.com/2026/02/08/lindsey-vonn-crashes-in-olympic-downhill-airlifted-off-course/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-02-08",
       "category": "news",
       "priority": "high",
@@ -25790,20 +25791,6 @@
       ]
     },
     {
-      "id": "a6596162c6da",
-      "title": "Investing close to home: how Vermonters are putting their money to work locally",
-      "summary": "What if your investment portfolio included the childcare center down the street, the new affordable housing development in your county, or the local restaurant opening downtown? For a growing number of Vermonters, that's exactly what investing looks like.\nRead the story on VTDigger here:  Investing",
-      "url": "https://vtdigger.org/2026/02/06/investing-close-to-home-how-vermonters-are-putting-their-money-to-work-locally/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "ca5b2139b673",
       "title": "Hannaford attack ads driven by animal rights activism",
       "summary": "When a Pennsylvania nonprofit\u2019s attacks on Hannaford supermarket\u2019s cage-free egg roadmap received little traction they shifted to targeting the Maine-founded grocer with online posts and a political-action-committee-like ad campaign about prices and quality with little mention of animal welfare.",
@@ -25811,20 +25798,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-02-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6916a4b4ebaa",
-      "title": "Vermont\u2019s school enrollment is declining. Students needing special education are on the rise.",
-      "summary": "Also in Final Reading: Road salt, prison labor and a stronger ban on voyeurism.\nRead the story on VTDigger here:  Vermont\u2019s school enrollment is declining. Students needing special education are on the rise.\u00a0.",
-      "url": "https://vtdigger.org/2026/02/05/vermonts-school-enrollment-is-declining-students-needing-special-education-are-on-the-rise/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-05",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25840,7 +25813,7 @@
       "raw": 10184784895.26412,
       "raw_display": "$10.18B",
       "source": "scraper_v2",
-      "updated": "2026-02-09T14:37:56.544700",
+      "updated": "2026-02-10T14:45:24.459082",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.66B",
@@ -25957,7 +25930,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-09T14:37:56.544700"
+      "updated": "2026-02-10T14:45:24.459082"
     },
     "construction_spending": {
       "score": 5.0,
@@ -25967,7 +25940,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-09T14:37:56.544700"
+      "updated": "2026-02-10T14:45:24.459082"
     },
     "migration": {
       "score": 5.0,
@@ -25977,7 +25950,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-09T14:37:56.544700"
+      "updated": "2026-02-10T14:45:24.459082"
     },
     "construction_employment": {
       "score": 5.0,
@@ -25987,7 +25960,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-09T14:37:56.544700"
+      "updated": "2026-02-10T14:45:24.459082"
     },
     "input_cost": {
       "score": 9.5,
@@ -26005,7 +25978,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-09T14:37:56.544700"
+      "updated": "2026-02-10T14:45:24.459082"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26014,7 +25987,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-09T14:37:56.544700"
+      "updated": "2026-02-10T14:45:24.459082"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -26027,6 +26000,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-09T14:37:56.544700"
+    "calculated_at": "2026-02-10T14:45:24.459082"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-10T14:45:24.975105Z",
+  "generated": "2026-02-11T14:39:54.014262Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -8,19 +8,19 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
-      "NH": 57,
-      "ME": 171,
-      "MA": 600,
+      "VT": 42,
+      "NH": 58,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1221,
-      "news": 8,
-      "funding": 1
+      "dot_letting": 1222,
+      "news": 5,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 267,
+          "count": 268,
           "value": 5895804498
         },
         "Pavement": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 341,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 2,
+            "count": 3,
             "value": 0
           },
           "Pavement": {
@@ -18727,6 +18727,27 @@
       ]
     },
     {
+      "id": "c244125c263f",
+      "state": "CT",
+      "project_id": "0171-0519",
+      "description": "SPMO of Bridge Decks - District 1 (Combined Project)",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-04",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "ct 1",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
       "id": "025b0c9bb552",
       "state": "CT",
       "project_id": "0172-0547",
@@ -25678,27 +25699,27 @@
   ],
   "news": [
     {
-      "id": "c941baf01a85",
-      "title": "Small plane makes emergency landing on a busy Georgia road and strikes 3 vehicles",
-      "summary": "GAINESVILLE, Ga. (AP) \u2014 A single-engine plane made an emergency landing on a busy road in a Georgia, striking three vehicles and leaving two people with minor injuries, authorities said. The Hawker Beechcraft BE-36 landed Monday on Browns Bridge Road in Gainesville, about 50 miles (80 kilometers) no",
-      "url": "https://www.bangordailynews.com/2026/02/10/nation/small-plane-makes-emergency-landing-on-a-busy-georgia-road-and-strikes-3-vehicles/",
-      "source": "Bangor Daily News",
+      "id": "5f8d5037e2d2",
+      "title": "Angolans targeted most by immigration enforcement in Maine. Community leaders tried to prevent this.",
+      "summary": "The Biden administration declined to provide legal protection for people from the Democratic Republic of Congo and Angola. Now their citizens are top targets of the deportation operation in Maine.",
+      "url": "https://www.pressherald.com/2026/02/11/angolans-targeted-most-by-immigration-enforcement-in-maine-community-leaders-tried-to-prevent-this/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "category": "news",
       "priority": "high",
       "business_lines": [
-        "highway"
+        "ready_mix"
       ]
     },
     {
-      "id": "3164a6e308ab",
-      "title": "A new Penobscot County Jail is a moral and practical necessity",
-      "summary": "\"This is not a choice between compassion and construction. It is a call to meet our obligations with humanity, responsibility and leadership.\"",
-      "url": "https://www.bangordailynews.com/2026/02/10/opinion/opinion-contributor/a-new-penobscot-county-jail-is-a-moral-and-practical-necessity/",
+      "id": "582ac9e2f878",
+      "title": "MDF\u2019s Maine Downtown Center announces new Advisory Council members",
+      "summary": "New members join continuing Advisory Council members in providing critical guidance to MDC\u2019s work in communities across Maine\u00a0 AUGUSTA \u2014 The Maine Downtown Center, a program of Maine Development Foundation, is pleased to announce five new members will be joining our Advisory Council. MDC\u2019s Advisory",
+      "url": "https://www.bangordailynews.com/2026/02/11/bdn-maine/mdfs-maine-downtown-center-announces-new-advisory-council-members/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25706,28 +25727,13 @@
       ]
     },
     {
-      "id": "d7ed678d0d0e",
-      "title": "Letter: Unplowed Bangor sidewalks are unsafe",
-      "summary": "\"Even when plowed, the sidewalks are not cleared to the pavement, nor are they sanded or salted, so a layer of snow is left on the surface.\"",
-      "url": "https://www.bangordailynews.com/2026/02/10/opinion/letters/letter-unplowed-bangor-sidewalks-are-unsafe/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "hma",
-        "aggregates"
-      ]
-    },
-    {
-      "id": "aab7602ea777",
-      "title": "Mass. weather: 5 maps show what to expect from snow, ice Tuesday",
-      "summary": "Snow and ice could make Massachusetts roads hazardous Tuesday and Wednesday.",
-      "url": "https://www.masslive.com/weather/2026/02/mass-weather-5-maps-show-what-to-expect-from-snow-ice-tuesday.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-10",
+      "id": "8aefeebad253",
+      "title": "Advocates for Derry Rail Trail Win Tunnel Case",
+      "summary": "Advocates for the Derry Rail Trail will get a bicycling and pedestrian tunnel, as originally planned, under a six-lane access road being built to serve the new Exit 4A off Interstate 93 in North Derry, according to a settlement announced Tuesday.",
+      "url": "https://indepthnh.org/2026/02/10/advocates-for-derry-rail-trail-win-tunnel-case/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-02-11",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25744,48 +25750,6 @@
       "date": "2026-02-09",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "51abdd51ff0d",
-      "title": "Young Writers Project: \u2018Longhand\u2019",
-      "summary": "This week\u2019s Young Writers Project entry is \u201cLonghand\u201d by Olivia Guevin, 14, of Brandon. Art is \u201cBridges,\u201d by Ursa Goldenrose, 16, of Hardwick.\nRead the story on VTDigger here:  Young Writers Project: \u2018Longhand\u2019.",
-      "url": "https://vtdigger.org/2026/02/08/young-writers-project-longhand/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-08",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "be79413ee891",
-      "title": "Vermont\u2019s US senators celebrate more than $58 million in earmarks for local projects",
-      "summary": "The federal funds will be spread across the state for priorities like housing and infrastructure development, access to dental care and more. \nRead the story on VTDigger here:  Vermont\u2019s US senators celebrate more than $58 million in earmarks for local projects\u00a0.",
-      "url": "https://vtdigger.org/2026/02/06/vermonts-u-s-senators-celebrate-more-than-58-million-in-earmarks-for-local-projects/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-07",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6a6ad70a10ff",
-      "title": "Cold snap expected to hit Vermont, exacerbating risks of heating fuel shortages",
-      "summary": "The season's cold temperatures have strained heating infrastructure, creating dire situations as some Vermonters run low on fuel. \nRead the story on VTDigger here:  Cold snap expected to hit Vermont, exacerbating risks of heating fuel shortages\u00a0.",
-      "url": "https://vtdigger.org/2026/02/06/cold-snap-expected-to-hit-vermont-exacerbating-risks-of-heating-fuel-shortages/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-07",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25813,7 +25777,7 @@
       "raw": 10184784895.26412,
       "raw_display": "$10.18B",
       "source": "scraper_v2",
-      "updated": "2026-02-10T14:45:24.459082",
+      "updated": "2026-02-11T14:39:53.659072",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.66B",
@@ -25930,7 +25894,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-10T14:45:24.459082"
+      "updated": "2026-02-11T14:39:53.659072"
     },
     "construction_spending": {
       "score": 5.0,
@@ -25940,7 +25904,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-10T14:45:24.459082"
+      "updated": "2026-02-11T14:39:53.659072"
     },
     "migration": {
       "score": 5.0,
@@ -25950,7 +25914,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-10T14:45:24.459082"
+      "updated": "2026-02-11T14:39:53.659072"
     },
     "construction_employment": {
       "score": 5.0,
@@ -25960,7 +25924,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-10T14:45:24.459082"
+      "updated": "2026-02-11T14:39:53.659072"
     },
     "input_cost": {
       "score": 9.5,
@@ -25978,7 +25942,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-10T14:45:24.459082"
+      "updated": "2026-02-11T14:39:53.659072"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25987,7 +25951,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-10T14:45:24.459082"
+      "updated": "2026-02-11T14:39:53.659072"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -26000,6 +25964,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-10T14:45:24.459082"
+    "calculated_at": "2026-02-11T14:39:53.659072"
   }
 }

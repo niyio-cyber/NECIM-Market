@@ -1,26 +1,26 @@
 {
-  "generated": "2026-02-11T14:39:54.014262Z",
+  "generated": "2026-02-12T12:06:32.169888Z",
   "summary": {
-    "total_opportunities": 1222,
+    "total_opportunities": 1223,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
-      "NH": 58,
+      "VT": 43,
+      "NH": 59,
       "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 5,
-      "funding": 0
+      "news": 7,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -18748,27 +18748,6 @@
       ]
     },
     {
-      "id": "025b0c9bb552",
-      "state": "CT",
-      "project_id": "0172-0547",
-      "description": "Installation of 6-inch wide edge line pavement markings on horizontal curves on rural, State-owned roadways",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-02-11",
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
       "id": "1cd801cb6c53",
       "state": "CT",
       "project_id": "0301-0520",
@@ -24269,6 +24248,26 @@
       ]
     },
     {
+      "id": "d19c06f4231b",
+      "state": "CT",
+      "project_id": "0172-0547",
+      "description": "CT Project 0172-0547",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "0d6fa22e949e",
       "state": "CT",
       "project_id": "0172-0551",
@@ -25699,26 +25698,68 @@
   ],
   "news": [
     {
-      "id": "5f8d5037e2d2",
-      "title": "Angolans targeted most by immigration enforcement in Maine. Community leaders tried to prevent this.",
-      "summary": "The Biden administration declined to provide legal protection for people from the Democratic Republic of Congo and Angola. Now their citizens are top targets of the deportation operation in Maine.",
-      "url": "https://www.pressherald.com/2026/02/11/angolans-targeted-most-by-immigration-enforcement-in-maine-community-leaders-tried-to-prevent-this/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-11",
-      "category": "news",
-      "priority": "high",
+      "id": "95bd74d29fe0",
+      "title": "Vermont receives $93 million in federal funds to expand broadband access",
+      "summary": "The new resources will allow high-speed internet connections to reach over 99% of Vermonters, according to Vermont Community Broadband Board Executive Director Christine Hallquist.\nRead the story on VTDigger here:  Vermont receives $93 million in federal funds to expand broadband access.",
+      "url": "https://vtdigger.org/2026/02/12/vermont-receives-93-million-in-federal-funds-to-expand-broadband-access/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-02-12",
+      "category": "funding",
+      "priority": "medium",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
-      "id": "582ac9e2f878",
-      "title": "MDF\u2019s Maine Downtown Center announces new Advisory Council members",
-      "summary": "New members join continuing Advisory Council members in providing critical guidance to MDC\u2019s work in communities across Maine\u00a0 AUGUSTA \u2014 The Maine Downtown Center, a program of Maine Development Foundation, is pleased to announce five new members will be joining our Advisory Council. MDC\u2019s Advisory",
-      "url": "https://www.bangordailynews.com/2026/02/11/bdn-maine/mdfs-maine-downtown-center-announces-new-advisory-council-members/",
+      "id": "fee65e723b33",
+      "title": "Cheverus girls hockey returns to fourth straight state final",
+      "summary": "The Stags take down Biddeford/Kennebunk/Thornton/Wells behind a stellar performance from Ellie Skolnekovich in the South final.",
+      "url": "https://www.pressherald.com/2026/02/11/cheverus-girls-hockey-returns-to-fourth-straight-state-final/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-12",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e4d7c4c654ff",
+      "title": "Vermont Conversation: Rep. Becca Balint warns state may be \u2018in the crosshairs\u2019 of Trump",
+      "summary": "\u201cThis is about the president punishing states and municipalities that he does not feel like give him enough fealty,\u201d Balint said. \nRead the story on VTDigger here:  Vermont Conversation: Rep. Becca Balint warns state may be \u2018in the crosshairs\u2019 of Trump.",
+      "url": "https://vtdigger.org/2026/02/11/vermont-conversation-rep-becca-balint-on-ice-epstein-and-presidential-fealty/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-02-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "63dfd28b5b9e",
+      "title": "Business group argues that Bar Harbor\u2019s new limits unfairly target cruise ships",
+      "summary": "Wednesday\u2019s hearing was the latest development in a yearslong debate over limiting cruise ship visits to Bar Harbor.",
+      "url": "https://www.bangordailynews.com/2026/02/11/hancock/hancock-police-courts/bar-harbor-cruise-ship-limits-federal-court/",
       "source": "Bangor Daily News",
       "state": "ME",
+      "date": "2026-02-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "54af625ffdfb",
+      "title": "Lawmakers Want to Ban Data Center Construction for a Year",
+      "summary": "Banning the construction of new mega data centers for a year would give lawmakers time to study their effects on a small state like New Hampshire, a House committee was told Wednesday.",
+      "url": "https://indepthnh.org/2026/02/11/lawmakers-want-to-ban-data-center-construction-for-a-year/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-02-11",
       "category": "news",
       "priority": "medium",
@@ -25741,15 +25782,15 @@
       ]
     },
     {
-      "id": "c0939f121040",
-      "title": "Home is best: creating affordable and accessible housing for Vermonters with disabilities",
-      "summary": "Facing Vermont\u2019s housing shortage, partners across the state are advancing community-integrated homes for people with intellectual and developmental disabilities. Upper Valley Services\u2019 projects highlight solutions that pair affordable housing with supports.\nRead the story on VTDigger here:  Home i",
-      "url": "https://vtdigger.org/2026/02/09/home-is-best-creating-affordable-and-accessible-housing-for-vermonters-with-disabilities/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-09",
+      "id": "3f682b5c90a2",
+      "title": "Bridgeport: Community Listening Session",
+      "summary": "Community Engagement Reporter Reginald David is hosting a Listening Session on February 25, 2026, at the Burroughs Community Center.",
+      "url": "https://ctmirror.org/2026/02/11/bridgeport-community-listening-session-2/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-02-11",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25774,13 +25815,13 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10184784895.26412,
-      "raw_display": "$10.18B",
+      "raw": 10165007288.848328,
+      "raw_display": "$10.17B",
       "source": "scraper_v2",
-      "updated": "2026-02-11T14:39:53.659072",
+      "updated": "2026-02-12T12:06:31.486180",
       "v2_details": {
         "raw_total": "$10.66B",
-        "weighted_total": "$5.66B",
+        "weighted_total": "$5.65B",
         "extrapolated_total": "$19.17B",
         "by_horizon": {
           "near": {
@@ -25860,7 +25901,7 @@
           },
           "PA": {
             "raw": 345000000,
-            "weighted": 301500000.0,
+            "weighted": 290500000.0,
             "estimated": 345000000,
             "is_scraped": true,
             "fhwa_ratio": "32.6%"
@@ -25878,11 +25919,11 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3188477902.3452573,
-          "baseline_time_weighted_display": "$3.19B",
+          "baseline_time_weighted": 3182286268.2885222,
+          "baseline_time_weighted_display": "$3.18B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10184784895.26412,
-          "scoring_value_display": "$10.18B"
+          "scoring_value": 10165007288.848328,
+          "scoring_value_display": "$10.17B"
         }
       }
     },
@@ -25894,7 +25935,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-11T14:39:53.659072"
+      "updated": "2026-02-12T12:06:31.486180"
     },
     "construction_spending": {
       "score": 5.0,
@@ -25904,7 +25945,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-11T14:39:53.659072"
+      "updated": "2026-02-12T12:06:31.486180"
     },
     "migration": {
       "score": 5.0,
@@ -25914,7 +25955,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-11T14:39:53.659072"
+      "updated": "2026-02-12T12:06:31.486180"
     },
     "construction_employment": {
       "score": 5.0,
@@ -25924,7 +25965,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-11T14:39:53.659072"
+      "updated": "2026-02-12T12:06:31.486180"
     },
     "input_cost": {
       "score": 9.5,
@@ -25942,7 +25983,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-11T14:39:53.659072"
+      "updated": "2026-02-12T12:06:31.486180"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25951,7 +25992,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-11T14:39:53.659072"
+      "updated": "2026-02-12T12:06:31.486180"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -25964,6 +26005,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-11T14:39:53.659072"
+    "calculated_at": "2026-02-12T12:06:31.486180"
   }
 }

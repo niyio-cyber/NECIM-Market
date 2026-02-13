@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-12T12:06:32.169888Z",
+  "generated": "2026-02-13T11:58:07.793867Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 43,
       "NH": 59,
-      "ME": 170,
-      "MA": 599,
+      "ME": 169,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -25698,6 +25698,34 @@
   ],
   "news": [
     {
+      "id": "7ea9fe5864e8",
+      "title": "Death Notice: Kevin L. Foran",
+      "summary": "Foran, Kevin L. 52, of Saco, Feb. 9, 2026, at home. Mass, Feb. 13, 11 a.m., St. Joseph Church, Biddeford. ...",
+      "url": "https://www.pressherald.com/2026/02/13/obituarykevin-l-foran/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-13",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "674fa7e94954",
+      "title": "State of the Sox: The roster construction is (mostly) done. Did the Red Sox do enough?",
+      "summary": "After initially saying that wanted to add power, the Red Sox changed their philosophical approach midway through the winter. Will it be enough?",
+      "url": "https://www.masslive.com/redsox/2026/02/state-of-the-sox-the-roster-construction-is-mostly-done-did-the-red-sox-do-enough.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-13",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "95bd74d29fe0",
       "title": "Vermont receives $93 million in federal funds to expand broadband access",
       "summary": "The new resources will allow high-speed internet connections to reach over 99% of Vermonters, according to Vermont Community Broadband Board Executive Director Christine Hallquist.\nRead the story on VTDigger here:  Vermont receives $93 million in federal funds to expand broadband access.",
@@ -25712,15 +25740,15 @@
       ]
     },
     {
-      "id": "fee65e723b33",
-      "title": "Cheverus girls hockey returns to fourth straight state final",
-      "summary": "The Stags take down Biddeford/Kennebunk/Thornton/Wells behind a stellar performance from Ellie Skolnekovich in the South final.",
-      "url": "https://www.pressherald.com/2026/02/11/cheverus-girls-hockey-returns-to-fourth-straight-state-final/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "56e48d7ddbd1",
+      "title": "YDC Victims, Lawyers Back Returning Selection of YDC Administrator To Supreme Court",
+      "summary": "Restoring the structure of the selection of the Youth Development Center child abuse claims administrator to the state's Supreme Court was supported by all who testified Thursday, including several victims and their lawyers.",
+      "url": "https://indepthnh.org/2026/02/12/ydc-victims-lawyers-back-returning-selection-of-ydc-administrator-to-supreme-court/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-02-12",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25732,20 +25760,6 @@
       "url": "https://vtdigger.org/2026/02/11/vermont-conversation-rep-becca-balint-on-ice-epstein-and-presidential-fealty/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-02-11",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "63dfd28b5b9e",
-      "title": "Business group argues that Bar Harbor\u2019s new limits unfairly target cruise ships",
-      "summary": "Wednesday\u2019s hearing was the latest development in a yearslong debate over limiting cruise ship visits to Bar Harbor.",
-      "url": "https://www.bangordailynews.com/2026/02/11/hancock/hancock-police-courts/bar-harbor-cruise-ship-limits-federal-court/",
-      "source": "Bangor Daily News",
-      "state": "ME",
       "date": "2026-02-11",
       "category": "news",
       "priority": "medium",
@@ -25794,20 +25808,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "ca5b2139b673",
-      "title": "Hannaford attack ads driven by animal rights activism",
-      "summary": "When a Pennsylvania nonprofit\u2019s attacks on Hannaford supermarket\u2019s cage-free egg roadmap received little traction they shifted to targeting the Maine-founded grocer with online posts and a political-action-committee-like ad campaign about prices and quality with little mention of animal welfare.",
-      "url": "https://www.unionleader.com/news/business/hannaford-attack-ads-driven-by-animal-rights-activism/article_bb5f4eda-06a6-4cb6-b980-a05b3c7883a6.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-02-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25818,7 +25818,7 @@
       "raw": 10165007288.848328,
       "raw_display": "$10.17B",
       "source": "scraper_v2",
-      "updated": "2026-02-12T12:06:31.486180",
+      "updated": "2026-02-13T11:58:07.533017",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.65B",
@@ -25935,7 +25935,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-12T12:06:31.486180"
+      "updated": "2026-02-13T11:58:07.533017"
     },
     "construction_spending": {
       "score": 5.0,
@@ -25945,7 +25945,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-12T12:06:31.486180"
+      "updated": "2026-02-13T11:58:07.533017"
     },
     "migration": {
       "score": 5.0,
@@ -25955,7 +25955,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-12T12:06:31.486180"
+      "updated": "2026-02-13T11:58:07.533017"
     },
     "construction_employment": {
       "score": 5.0,
@@ -25965,7 +25965,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-12T12:06:31.486180"
+      "updated": "2026-02-13T11:58:07.533017"
     },
     "input_cost": {
       "score": 9.5,
@@ -25983,7 +25983,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-12T12:06:31.486180"
+      "updated": "2026-02-13T11:58:07.533017"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25992,7 +25992,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-12T12:06:31.486180"
+      "updated": "2026-02-13T11:58:07.533017"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -26005,6 +26005,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-12T12:06:31.486180"
+    "calculated_at": "2026-02-13T11:58:07.533017"
   }
 }

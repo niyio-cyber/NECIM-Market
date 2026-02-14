@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-13T11:58:07.793867Z",
+  "generated": "2026-02-14T11:42:45.174218Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 44,
       "NH": 59,
       "ME": 169,
-      "MA": 600,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 7,
+      "news": 9,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -18776,7 +18776,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-02-18",
+      "let_date": "2026-03-04",
       "fiscal_year": "FY2026",
       "project_type": "Bridge",
       "location": "New Haven",
@@ -25698,13 +25698,42 @@
   ],
   "news": [
     {
-      "id": "7ea9fe5864e8",
-      "title": "Death Notice: Kevin L. Foran",
-      "summary": "Foran, Kevin L. 52, of Saco, Feb. 9, 2026, at home. Mass, Feb. 13, 11 a.m., St. Joseph Church, Biddeford. ...",
-      "url": "https://www.pressherald.com/2026/02/13/obituarykevin-l-foran/",
-      "source": "Portland Press Herald",
+      "id": "db17fd19dd4d",
+      "title": "Law enforcement block road near Nancy Guthrie\u2019s home during investigation into her disappearance",
+      "summary": "TUCSON, Ariz. (AP) \u2014 Law enforcement investigating the disappearance of \u201cToday\u201d show host Savannah Guthrie \u2018s mother sealed off a road near Nancy Guthrie\u2019s home in Arizona late Friday night. A parade of sheriff\u2019s and FBI vehicles, including forensics vehicles, passed through the roadblock that was s",
+      "url": "https://www.bangordailynews.com/2026/02/14/nation/law-enforcement-block-road-near-nancy-guthries-home-during-investigation-into-her-disappearance/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-02-13",
+      "date": "2026-02-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "414d3a8cdb94",
+      "title": "Road success as Springfield Thunderbirds double up Iowa",
+      "summary": "The Thunderbirds will complete their weekend set in Iowa on Saturday night.",
+      "url": "https://www.masslive.com/thunderbirds/2026/02/road-success-as-springfield-thunderbirds-double-up-iowa.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d8d98192cca3",
+      "title": "Braintree boys basketball\u2019s comeback bid falls short against Norwell despite Ellie\u2019s big night",
+      "summary": "Ethan Elie led all scorers with 28 points in the Wamps' loss.",
+      "url": "https://www.masslive.com/highschoolsports/2026/02/braintree-boys-basketballs-comeback-bid-falls-short-against-norwell-despite-ellies-big-night.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-14",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25712,12 +25741,12 @@
       ]
     },
     {
-      "id": "674fa7e94954",
-      "title": "State of the Sox: The roster construction is (mostly) done. Did the Red Sox do enough?",
-      "summary": "After initially saying that wanted to add power, the Red Sox changed their philosophical approach midway through the winter. Will it be enough?",
-      "url": "https://www.masslive.com/redsox/2026/02/state-of-the-sox-the-roster-construction-is-mostly-done-did-the-red-sox-do-enough.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "902827d9e6ab",
+      "title": "Vermont legislators hear the benefits \u2014 and costs \u2014 of road crossings for wildlife",
+      "summary": "Also in Final Reading: Budget tuneup, airborne scares and paranormal musings.\nRead the story on VTDigger here:  Vermont legislators hear the benefits \u2014 and costs \u2014 of road crossings for wildlife.",
+      "url": "https://vtdigger.org/2026/02/13/vermont-legislators-hear-the-benefits-and-costs-of-road-crossings-for-wildlife/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-02-13",
       "category": "news",
       "priority": "medium",
@@ -25818,7 +25847,7 @@
       "raw": 10165007288.848328,
       "raw_display": "$10.17B",
       "source": "scraper_v2",
-      "updated": "2026-02-13T11:58:07.533017",
+      "updated": "2026-02-14T11:42:45.018717",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.65B",
@@ -25935,7 +25964,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-13T11:58:07.533017"
+      "updated": "2026-02-14T11:42:45.018717"
     },
     "construction_spending": {
       "score": 5.0,
@@ -25945,7 +25974,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-13T11:58:07.533017"
+      "updated": "2026-02-14T11:42:45.018717"
     },
     "migration": {
       "score": 5.0,
@@ -25955,7 +25984,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-13T11:58:07.533017"
+      "updated": "2026-02-14T11:42:45.018717"
     },
     "construction_employment": {
       "score": 5.0,
@@ -25965,7 +25994,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-02-13T11:58:07.533017"
+      "updated": "2026-02-14T11:42:45.018717"
     },
     "input_cost": {
       "score": 9.5,
@@ -25983,7 +26012,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-02-13T11:58:07.533017"
+      "updated": "2026-02-14T11:42:45.018717"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25992,7 +26021,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-13T11:58:07.533017"
+      "updated": "2026-02-14T11:42:45.018717"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -26005,6 +26034,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-13T11:58:07.533017"
+    "calculated_at": "2026-02-14T11:42:45.018717"
   }
 }

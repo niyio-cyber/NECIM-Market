@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-14T11:42:45.174218Z",
+  "generated": "2026-02-15T11:42:44.763083Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 44,
-      "NH": 59,
+      "NH": 58,
       "ME": 169,
-      "MA": 601,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 9,
+      "news": 6,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25698,28 +25698,13 @@
   ],
   "news": [
     {
-      "id": "db17fd19dd4d",
-      "title": "Law enforcement block road near Nancy Guthrie\u2019s home during investigation into her disappearance",
-      "summary": "TUCSON, Ariz. (AP) \u2014 Law enforcement investigating the disappearance of \u201cToday\u201d show host Savannah Guthrie \u2018s mother sealed off a road near Nancy Guthrie\u2019s home in Arizona late Friday night. A parade of sheriff\u2019s and FBI vehicles, including forensics vehicles, passed through the roadblock that was s",
-      "url": "https://www.bangordailynews.com/2026/02/14/nation/law-enforcement-block-road-near-nancy-guthries-home-during-investigation-into-her-disappearance/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "414d3a8cdb94",
-      "title": "Road success as Springfield Thunderbirds double up Iowa",
-      "summary": "The Thunderbirds will complete their weekend set in Iowa on Saturday night.",
-      "url": "https://www.masslive.com/thunderbirds/2026/02/road-success-as-springfield-thunderbirds-double-up-iowa.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-14",
+      "id": "1e93f3b81113",
+      "title": "By night boat from Hartford to New York",
+      "summary": "Long before the railroad stitched Hartford to New York City, the Connecticut River served as the city\u2019s lifeline to the outside world.",
+      "url": "https://ctmirror.org/2026/02/15/by-nightboat-from-hartford-to-new-york-jim/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-02-15",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25727,12 +25712,12 @@
       ]
     },
     {
-      "id": "d8d98192cca3",
-      "title": "Braintree boys basketball\u2019s comeback bid falls short against Norwell despite Ellie\u2019s big night",
-      "summary": "Ethan Elie led all scorers with 28 points in the Wamps' loss.",
-      "url": "https://www.masslive.com/highschoolsports/2026/02/braintree-boys-basketballs-comeback-bid-falls-short-against-norwell-despite-ellies-big-night.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "5e0c84222142",
+      "title": "Hermon woman charged with manslaughter 4 months after fatal bridge crash",
+      "summary": "Lacey Wiles, 26, faces felony charges after an October crash in Topsham that killed her passenger.",
+      "url": "https://www.bangordailynews.com/2026/02/14/midcoast/midcoast-police-courts/lacey-wiles-hermon-topsham-crash-marcus-steinman/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-02-14",
       "category": "news",
       "priority": "high",
@@ -25809,34 +25794,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "8aefeebad253",
-      "title": "Advocates for Derry Rail Trail Win Tunnel Case",
-      "summary": "Advocates for the Derry Rail Trail will get a bicycling and pedestrian tunnel, as originally planned, under a six-lane access road being built to serve the new Exit 4A off Interstate 93 in North Derry, according to a settlement announced Tuesday.",
-      "url": "https://indepthnh.org/2026/02/10/advocates-for-derry-rail-trail-win-tunnel-case/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-02-11",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3f682b5c90a2",
-      "title": "Bridgeport: Community Listening Session",
-      "summary": "Community Engagement Reporter Reginald David is hosting a Listening Session on February 25, 2026, at the Burroughs Community Center.",
-      "url": "https://ctmirror.org/2026/02/11/bridgeport-community-listening-session-2/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-02-11",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25847,7 +25804,7 @@
       "raw": 10165007288.848328,
       "raw_display": "$10.17B",
       "source": "scraper_v2",
-      "updated": "2026-02-14T11:42:45.018717",
+      "updated": "2026-02-15T11:42:39.987086",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.65B",
@@ -25957,24 +25914,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-14T11:42:45.018717"
+      "score": 7.0,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8841.320183533115,
+      "raw_display": "8,841 units/mo",
+      "yoy_change": 9.9,
+      "source": "FRED API",
+      "updated": "2026-02-15T11:42:39.987086"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-14T11:42:45.018717"
+      "action": "Cost focus",
+      "raw": 142581.0,
+      "raw_display": "$142.6B SAAR",
+      "yoy_change": -1.1,
+      "source": "FRED API",
+      "updated": "2026-02-15T11:42:39.987086"
     },
     "migration": {
       "score": 5.0,
@@ -25984,35 +25941,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-14T11:42:45.018717"
+      "updated": "2026-02-15T11:42:39.987086"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-14T11:42:45.018717"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-02-15T11:42:39.987086"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 10,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.84 | Diesel $4.24",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.84,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.24,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-02-14T11:42:45.018717"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-02-15T11:42:39.987086"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26021,19 +25978,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-14T11:42:45.018717"
+      "updated": "2026-02-15T11:42:39.987086"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.4,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-14T11:42:45.018717"
+    "calculated_at": "2026-02-15T11:42:39.987086"
   }
 }

@@ -1,25 +1,25 @@
 {
-  "generated": "2026-02-17T11:34:21.847744Z",
+  "generated": "2026-02-18T11:30:05.396756Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 46,
-      "NH": 57,
-      "ME": 170,
-      "MA": 600,
+      "VT": 43,
+      "NH": 58,
+      "ME": 169,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 347,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1222,
-      "news": 10,
+      "dot_letting": 1224,
+      "news": 7,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 268,
+          "count": 269,
           "value": 5895804498
         },
         "Pavement": {
@@ -50,7 +50,7 @@
           "value": 1003218381
         },
         "Other": {
-          "count": 85,
+          "count": 86,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 342,
+          "count": 344,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 3,
+            "count": 4,
             "value": 0
           },
           "Pavement": {
@@ -273,7 +273,7 @@
             "value": 0
           },
           "Other": {
-            "count": 0,
+            "count": 1,
             "value": 0
           }
         },
@@ -18748,6 +18748,89 @@
       ]
     },
     {
+      "id": "da462ed84ca7",
+      "state": "CT",
+      "project_id": "0172-0548",
+      "description": "SPMO OF BRIDGE DECKS DISTRICT 2",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-11",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "CT 2",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "86758ce66af2",
+      "state": "CT",
+      "project_id": "0173-0553",
+      "description": "High Friction Surface Treatment (HFST) in District 3",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-11",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "ct 3",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "fef3a23cfc94",
+      "state": "CT",
+      "project_id": "0174-0475",
+      "description": "Replace Pedestrian and School Crosswalk Signs & Pavement Markings on State Roadways in District 4",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-18",
+      "fiscal_year": "FY2026",
+      "project_type": "Other",
+      "location": "ct 4",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
+      "id": "656459d10cf4",
+      "state": "CT",
+      "project_id": "0174-0480",
+      "description": "Installation of 6-inch wide edge line pavement markings on horizontal curves on rural, State-owned roads.",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-18",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
       "id": "1cd801cb6c53",
       "state": "CT",
       "project_id": "0301-0520",
@@ -24428,26 +24511,6 @@
       ]
     },
     {
-      "id": "3d092bf3c408",
-      "state": "CT",
-      "project_id": "0173-0553",
-      "description": "CT Project 0173-0553",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "4379fe92feed",
       "state": "CT",
       "project_id": "0174-0447",
@@ -24492,26 +24555,6 @@
       "state": "CT",
       "project_id": "0174-0477",
       "description": "CT Project 0174-0477",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "b06925fc7c32",
-      "state": "CT",
-      "project_id": "0174-0480",
-      "description": "CT Project 0174-0480",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -25698,43 +25741,71 @@
   ],
   "news": [
     {
-      "id": "12a8083afbe1",
-      "title": "Hancock County towns grapple with keeping coastal roads above\u00a0rising seas",
-      "summary": "Moving \u201ccoastal resiliency\u201d projects from planning to construction has been difficult\u00a0for small communities that suffered damage from a pair of historic 2024 storms.",
-      "url": "https://www.bangordailynews.com/2026/02/17/hancock/hancock-government/maine-coastal-roads-rising-seas-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "d8416cd32bbe",
+      "title": "Tuesday\u2019s Class A South girls basketball: Biddeford survives Windham\u2019s upset bid",
+      "summary": "The 2025 regional champion is pushed to the limit but escapes and advances to the semifinals.",
+      "url": "https://www.pressherald.com/2026/02/17/tuesdays-class-a-south-girls-basketball-south-portland-rallies-past-westbrook/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-02-17",
+      "date": "2026-02-18",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "2f69e39e7589",
-      "title": "Anderson Cooper says he\u2019s exiting from \u201960 Minutes,\u2019 but staying with CNN",
-      "summary": "Anderson Cooper, who has reported for CBS\u2019 \u201c60 Minutes\u201d for the past two decades in addition to hosting a weeknight news program on CNN, said Monday that he\u2019s leaving the CBS broadcast to spend more time with his family. His decision comes at a time of turmoil at \u201c60 Minutes.\u201d Cooper appeared on the",
-      "url": "https://www.bangordailynews.com/2026/02/16/nation/anderson-cooper-says-hes-exiting-from-60-minutes-but-staying-with-cnn/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-17",
+      "id": "08c166681376",
+      "title": "Don\u2019t widen CT\u2019s lanes. Use tolls and trains",
+      "summary": "There are only two proven methods to ease highway congestion: you either disincentivize automobile transportation or you incentivize its alternatives, and ideally you do both.",
+      "url": "https://ctmirror.org/2026/02/18/to-improve-traffic-dont-widen-lanes-use-tolls-and-trains/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-02-18",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "aabe3b95315c",
-      "title": "Rome at home: At Mass. Sistine Chapel exhibition see Michelangelo\u2019s famed frescoes up close",
-      "summary": "A new exhibition in Cambridge offers an up-close view and new perspectives on Renaissance artist Michelangelo\u2019s famed Sistine Chapel frescoes.",
-      "url": "https://www.masslive.com/destinations/2026/02/see-sistine-chapel-frescoes-without-going-to-rome-at-mass-art-exhibition.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "4bd40588e20c",
+      "title": "AI Oversight Draws Rebuke from Industry",
+      "summary": "An attempt to regulate AI in the state is a bridge too far for the businesses that provide telecom, internet and similar services.",
+      "url": "https://indepthnh.org/2026/02/17/ai-oversight-draws-rebuke-from-industry/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-02-17",
       "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ac337d62e2e0",
+      "title": "Bill Targets State Surplus Property for Affordable Housing Projects",
+      "summary": "The House Committee on Housing held a public hearing Tuesday for House Bill 1726, which would direct state agencies to identify and dispose of surplus property for the development of affordable housing units.",
+      "url": "https://indepthnh.org/2026/02/17/bill-targets-state-surplus-property-for-affordable-housing-projects/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-02-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bc8817687718",
+      "title": "CT restaurant association rebrands as voice of hospitality industry",
+      "summary": "The Connecticut Restaurant Association is rebranding itself as an advocate for the broader $21 billion hospitality industry.",
+      "url": "https://ctmirror.org/2026/02/17/ct-restaurant-association-rebrands-as-voice-of-hospitality-industry/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-02-17",
+      "category": "funding",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25768,34 +25839,6 @@
       ]
     },
     {
-      "id": "e3a3f0c8f6d1",
-      "title": "Young Writers Project: \u2018How many roads\u2019",
-      "summary": "This week\u2019s Young Writers Project entry is \u201cHow many roads,\u201d by Maelyn Slavik, 15, of Burlington. Artwork is \u201cSnow Day\u201d by Amelia Van Driesche, 19, of Burlington. \nRead the story on VTDigger here:  Young Writers Project: \u2018How many roads\u2019.",
-      "url": "https://vtdigger.org/2026/02/15/young-writers-project-how-many-roads/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-15",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9a203f58f792",
-      "title": "March bond requests down 84% in Vermont\u2019s biggest cities and towns",
-      "summary": "Amid concerns about affordability, the state\u2019s 29 municipalities with at least 5,000 people will ask Town Meeting voters for a collective $44 million in capital projects \u2014 a steep drop from last year\u2019s $275 million in proposals.\nRead the story on VTDigger here:  March bond requests down 84% in Verm",
-      "url": "https://vtdigger.org/2026/02/15/march-bond-requests-down-84-in-vermonts-biggest-cities-and-towns/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-15",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "1e93f3b81113",
       "title": "By night boat from Hartford to New York",
       "summary": "Long before the railroad stitched Hartford to New York City, the Connecticut River served as the city\u2019s lifeline to the outside world.",
@@ -25808,59 +25851,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "902827d9e6ab",
-      "title": "Vermont legislators hear the benefits \u2014 and costs \u2014 of road crossings for wildlife",
-      "summary": "Also in Final Reading: Budget tuneup, airborne scares and paranormal musings.\nRead the story on VTDigger here:  Vermont legislators hear the benefits \u2014 and costs \u2014 of road crossings for wildlife.",
-      "url": "https://vtdigger.org/2026/02/13/vermont-legislators-hear-the-benefits-and-costs-of-road-crossings-for-wildlife/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3fe151abde80",
-      "title": "CT State Police agree to allow highway overpass demonstrations",
-      "summary": "The agreement ends a legal battle brought by ACLU last year\u00a0after state police cited people protesting President Trump on highway bridges.",
-      "url": "https://ctmirror.org/2026/02/13/ct-state-police-agree-to-allow-highway-overpass-demonstrations/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-02-13",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "56e48d7ddbd1",
-      "title": "YDC Victims, Lawyers Back Returning Selection of YDC Administrator To Supreme Court",
-      "summary": "Restoring the structure of the selection of the Youth Development Center child abuse claims administrator to the state's Supreme Court was supported by all who testified Thursday, including several victims and their lawyers.",
-      "url": "https://indepthnh.org/2026/02/12/ydc-victims-lawyers-back-returning-selection-of-ydc-administrator-to-supreme-court/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-02-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10165007288.848328,
-      "raw_display": "$10.17B",
+      "raw": 10162739336.781702,
+      "raw_display": "$10.16B",
       "source": "scraper_v2",
-      "updated": "2026-02-17T11:34:21.136248",
+      "updated": "2026-02-18T11:30:00.626853",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.65B",
@@ -25901,7 +25902,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 382759200.0,
+            "weighted": 381497800.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25961,33 +25962,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3182286268.2885222,
+          "baseline_time_weighted": 3181576256.7249618,
           "baseline_time_weighted_display": "$3.18B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10165007288.848328,
-          "scoring_value_display": "$10.17B"
+          "scoring_value": 10162739336.781702,
+          "scoring_value_display": "$10.16B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-17T11:34:21.136248"
+      "score": 7.0,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8841.320183533115,
+      "raw_display": "8,841 units/mo",
+      "yoy_change": 9.9,
+      "source": "FRED API",
+      "updated": "2026-02-18T11:30:00.626853"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-17T11:34:21.136248"
+      "action": "Cost focus",
+      "raw": 142581.0,
+      "raw_display": "$142.6B SAAR",
+      "yoy_change": -1.1,
+      "source": "FRED API",
+      "updated": "2026-02-18T11:30:00.626853"
     },
     "migration": {
       "score": 5.0,
@@ -25997,35 +25998,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-17T11:34:21.136248"
+      "updated": "2026-02-18T11:30:00.626853"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-17T11:34:21.136248"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-02-18T11:30:00.626853"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 10,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.84 | Diesel $4.24",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.84,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.24,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-02-17T11:34:21.136248"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-02-18T11:30:00.626853"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26034,19 +26035,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-17T11:34:21.136248"
+      "updated": "2026-02-18T11:30:00.626853"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.4,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-17T11:34:21.136248"
+    "calculated_at": "2026-02-18T11:30:00.626853"
   }
 }

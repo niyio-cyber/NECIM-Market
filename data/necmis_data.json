@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-24T11:35:00.082849Z",
+  "generated": "2026-02-25T11:32:08.153318Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,17 +9,17 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 42,
-      "NH": 59,
-      "ME": 170,
+      "NH": 57,
+      "ME": 171,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 348,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1223,
-      "news": 8,
+      "dot_letting": 1226,
+      "news": 7,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -38,11 +38,11 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 269,
+          "count": 271,
           "value": 5895804498
         },
         "Pavement": {
-          "count": 718,
+          "count": 719,
           "value": 3310707894
         },
         "Safety": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 343,
+          "count": 346,
           "value": 0
         },
         "PA": {
@@ -261,11 +261,11 @@
         },
         "CT": {
           "Bridge": {
-            "count": 4,
+            "count": 6,
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 338,
             "value": 0
           },
           "Safety": {
@@ -18707,6 +18707,67 @@
       ]
     },
     {
+      "id": "e29aee0e8a58",
+      "state": "CT",
+      "project_id": "0164-0245",
+      "description": "Rehabilitation of Bridge No. 01431  Carrying I-291 Over  the Connecticut River",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-25",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "I-291",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c8d6a635f813",
+      "state": "CT",
+      "project_id": "0166-0104",
+      "description": "Construction of a New Wolcott Maintenance Facility",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-25",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "ddb66136db5e",
+      "state": "CT",
+      "project_id": "0170-3760",
+      "description": "SPMO OF BRIDGE DECKS DISTRICTS 3 AND 4",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-03-25",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
       "id": "c244125c263f",
       "state": "CT",
       "project_id": "0171-0519",
@@ -25721,13 +25782,13 @@
   ],
   "news": [
     {
-      "id": "7f958d840862",
-      "title": "Support independent Rick Bennett for governor | Letter",
-      "summary": "I\u2019m a former commercial fisherman, executive director of the Biddeford+Saco Chamber of Commerce+Industry and director of transportation for Biddeford Saco Old Orchard Beach Transit. In 2024, I ran for state Senate as an independent and committed to running a positive issue-based campaign. Unfortunat",
-      "url": "https://www.pressherald.com/2026/02/24/support-independent-rick-bennett-for-governor-letter/",
-      "source": "Portland Press Herald",
+      "id": "6dc4bb726b94",
+      "title": "An Aroostook bridge needs repairs that could disrupt 2 communities for months",
+      "summary": "The average lifespan of a bridge surface is around 50 years. The one spanning the Aroostook River in Caribou has held up for nearly 75.",
+      "url": "https://www.bangordailynews.com/2026/02/25/aroostook/aroostook-government/caribou-aroostook-river-bridge-repairs-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-02-24",
+      "date": "2026-02-25",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25735,10 +25796,24 @@
       ]
     },
     {
-      "id": "533385d3171a",
-      "title": "She put a roadkill deer in her new car. It attracted 2 rare golden eagles.",
-      "summary": "\"I kept telling myself to be cautious. After all, Occam\u2019s razor, right? When you hear hoofbeats, think horse, not unicorn.\u201d",
-      "url": "https://www.bangordailynews.com/2026/02/24/outdoors/wildlife/roadkill-deer-attracted-rare-golden-eagles-joam40zk0w/",
+      "id": "cc27fc28c957",
+      "title": "Searsport plans repairs to\u00a0reopen part of municipal pier",
+      "summary": "The section, often referred to as \u201cthe finger,\u201d dates back to the 1960s and has been closed for safety reasons since 2023.",
+      "url": "https://www.bangordailynews.com/2026/02/25/midcoast/midcoast-government/searsport-plans-repairs-to-municipal-pier-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-02-25",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b810db020e05",
+      "title": "Watch: Donald Trump issues State of the Union address",
+      "summary": "The address will start around 9 p.m. Tuesday, and will be broadcast on CSpan.",
+      "url": "https://www.bangordailynews.com/2026/02/24/politics/washington/watch-donald-trump-issues-state-of-the-union-address/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-02-24",
@@ -25803,34 +25878,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "136433cea5ce",
-      "title": "House Bills Targeting the Transgender Community Face Protesters",
-      "summary": "About a dozen people protested House Bills that would permit classification of people based on biological sex under certain circumstances, and restrict the use of certain public and private facilities on the basis of sex Friday at a House Judiciary Committee hearing at Granite Place.",
-      "url": "https://indepthnh.org/2026/02/20/house-bills-targeting-the-transgender-community-face-protesters/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-02-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9fcf246d4b9e",
-      "title": "Senate Republicans Kill Efforts to Fund Housing Champions, Increase Oversight of EFAs",
-      "summary": "As hard as they tried, Democrats could not get a single Republican vote in the Senate to pass a number of initiatives offered, including bills to help support infrastructure development for new housing, allow for redistricting maps to be developed before public hearings, and a number of bills that w",
-      "url": "https://indepthnh.org/2026/02/19/senate-republicans-kill-efforts-to-fund-housing-champions-increase-oversight-of-efas/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-02-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25838,10 +25885,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10162739336.781702,
+      "raw": 10156437472.191944,
       "raw_display": "$10.16B",
       "source": "scraper_v2",
-      "updated": "2026-02-24T11:34:59.897213",
+      "updated": "2026-02-25T11:31:59.757200",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.65B",
@@ -25882,7 +25929,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 381497800.0,
+            "weighted": 377992800.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25942,33 +25989,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3181576256.7249618,
+          "baseline_time_weighted": 3179603376.9641566,
           "baseline_time_weighted_display": "$3.18B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10162739336.781702,
+          "scoring_value": 10156437472.191944,
           "scoring_value_display": "$10.16B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-24T11:34:59.897213"
+      "score": 7.0,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8841.320183533115,
+      "raw_display": "8,841 units/mo",
+      "yoy_change": 9.9,
+      "source": "FRED API",
+      "updated": "2026-02-25T11:31:59.757200"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-24T11:34:59.897213"
+      "action": "Cost focus",
+      "raw": 142581.0,
+      "raw_display": "$142.6B SAAR",
+      "yoy_change": -1.1,
+      "source": "FRED API",
+      "updated": "2026-02-25T11:31:59.757200"
     },
     "migration": {
       "score": 5.0,
@@ -25978,35 +26025,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-24T11:34:59.897213"
+      "updated": "2026-02-25T11:31:59.757200"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-24T11:34:59.897213"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-02-25T11:31:59.757200"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 10,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.85 | Diesel $4.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.85,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.2,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-02-24T11:34:59.897213"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-02-25T11:31:59.757200"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26015,19 +26062,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-24T11:34:59.897213"
+      "updated": "2026-02-25T11:31:59.757200"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.4,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-24T11:34:59.897213"
+    "calculated_at": "2026-02-25T11:31:59.757200"
   }
 }

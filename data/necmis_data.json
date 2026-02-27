@@ -1,17 +1,17 @@
 {
-  "generated": "2026-02-26T11:34:43.172592Z",
+  "generated": "2026-02-27T11:23:38.782518Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
-      "NH": 57,
-      "ME": 175,
-      "MA": 602,
+      "VT": 44,
+      "NH": 58,
+      "ME": 169,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 345,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 12,
-      "funding": 1
+      "news": 8,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25761,6 +25761,62 @@
   ],
   "news": [
     {
+      "id": "60f5f4e879ce",
+      "title": "Emily Anderson: Fragile wetlands could lose protection",
+      "summary": "New proposal would ease permitting in some unmapped wetlands, raising concerns about impacts on vernal pools.\nRead the story on VTDigger here:  Emily Anderson: Fragile wetlands could lose protection.",
+      "url": "https://vtdigger.org/2026/02/26/emily-anderson-fragile-wetlands-could-lose-protection/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-02-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cc5a4a9fa631",
+      "title": "New program helps dozens of York County families find stable housing",
+      "summary": "The Biddeford school district and York County Community Action Corporation have doled out assistance to 84 families as part of the Maine Housing Student Homelessness Prevention Pilot.",
+      "url": "https://www.pressherald.com/2026/02/27/new-program-helps-dozens-of-york-county-families-find-stable-housing/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-27",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "56277cea3696",
+      "title": "Gem Marina asks Planning Board to convert boat slips from transient to long-term",
+      "summary": "The Southwick Planning Board closed a public hearing on a request by the owner of Gem Marina at 141 Congamond Road asking it to modify its special permit to allow it to convert four of its transient-use boat slips, which now total 16, to increase the number of long-term slip rentals to 28.",
+      "url": "https://www.masslive.com/westfieldnews/2026/02/gem-marina-asks-planning-board-to-convert-boat-slips-from-transient-to-long-term.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5413ae9d8299",
+      "title": "Westfield Police Department construction project to go before Planning Board",
+      "summary": "The appearance and details of the long-awaited project to build a new Westfield police station will be informally announced during the initial site plan review in front of the Planning Board meeting on Tuesday, March 3 in the City Council Chambers with the initial site plan review.",
+      "url": "https://www.masslive.com/westfieldnews/2026/02/westfield-police-department-construction-project-to-go-before-planning-board.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-02-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "f0b4c156f8a1",
       "title": "Francine Miller: Why I\u2019m voting for the Apartheid-Free Communities pledge",
       "summary": "Bridge-building matters, but it does not address a deep imbalance of power between Israel and the Palestinians.\nRead the story on VTDigger here:  Francine Miller: Why I\u2019m voting for the Apartheid-Free Communities pledge.",
@@ -25775,127 +25831,15 @@
       ]
     },
     {
-      "id": "8397eac083ed",
-      "title": "Pausing work permits for asylum seekers would hurt Maine\u2019s economy, officials say",
-      "summary": "The Trump administration has proposed halting work permits from being issued until a backlog of over 1.4 million asylum applications is eliminated.",
-      "url": "https://www.pressherald.com/2026/02/26/pausing-work-permits-for-asylum-seekers-would-hurt-maines-economy-officials-say/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-26",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8aba388af301",
-      "title": "Obituary: Daniel Hatt",
-      "summary": "BIDDEFORD - Daniel was born in Pictou, Nova Scotia on June 5, 1973, the son of Delbert Hatt and Jacqueline Hayes ...",
-      "url": "https://www.pressherald.com/2026/02/26/obituarydaniel-hatt-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "1a9d8206acad",
+      "title": "Paramount Skydance apparent winner of Warner Bros; Netflix walks away and its shares jump",
+      "summary": "Paramount Skydance emerged as the likely winner in a months-long battle to acquire Warner Bros. Discovery, after streaming giant Netflix on Thursday refused to raise its bid for the storied Hollywood studio.",
+      "url": "https://www.unionleader.com/news/business/paramount-skydance-apparent-winner-of-warner-bros-netflix-walks-away-and-its-shares-jump/article_4969a8a6-4606-55b2-a23e-6b8b62eb7392.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-02-26",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "41bf308eda0d",
-      "title": "Death Notice: Daniel Hatt",
-      "summary": "Hatt, Daniel 52, of Biddeford, Feb. 23. Visit 2-5 p.m. and Service 5 p.m., Feb. 28, Hope Memorial Chapel, Biddeford. Spring ...",
-      "url": "https://www.pressherald.com/2026/02/26/obituarydaniel-hatt/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2f8e873281ec",
-      "title": "Letter: Too early to applaud Susan Collins on health care",
-      "summary": "\"While the challenges of rural healthcare are complex, the goals of the Rural Health Transformation Program are broad and vague.\"",
-      "url": "https://www.bangordailynews.com/2026/02/26/opinion/letters/letter-too-early-to-applaud-susan-collins-on-health-care-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ba6eca8d98c9",
-      "title": "Letter: Trump\u2019s immigration Catch 22",
-      "summary": "\"A new memo\u00a0from the Department of Homeland Security will permit the arrest and detention of fully vetted refugees well on the road to their promised \u201cpath to citizenship\u201d who have yet to obtain a green card.\"",
-      "url": "https://www.bangordailynews.com/2026/02/26/opinion/letters/letter-trumps-immigration-catch-22-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "da1e1f62fe93",
-      "title": "Houlton club pitches snowmobile and ATV trailhead to boost tourism",
-      "summary": "The initiative is part of a broader regional focus to boost the outdoor recreation infrastructure across southern Aroostook and neighboring Penobscot and Washington counties.",
-      "url": "https://www.bangordailynews.com/2026/02/26/aroostook/aroostook-culture/houlton-club-snowmobile-and-atv-trailhead-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "68f3c6c898fd",
-      "title": "Red Sox roster projection: Who will be No. 5 starter, Romy Gonzalez\u2019s replacement in Cincinnati?",
-      "summary": "Spring training is in full swing and it has \u2014 in a positive development for the Red Sox \u2014 been a relatively mellow one in Fort Myers. With four weeks to go, here's how we project the 26-man roster will look in Cincinnati.",
-      "url": "https://www.masslive.com/redsox/2026/02/red-sox-roster-projection-who-will-be-no-5-starter-romy-gonzalezs-replacement-in-cincinnati.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "4b5180143220",
-      "title": "Derrick White is the Celtics \u2018Name to Know\u2019 Player of the Game in Wednesday\u2019s loss to Nuggets",
-      "summary": "Derrick White scored 18 points in the first half for the Celtics, who lost to the Nuggets to close out their four-game road trip.",
-      "url": "https://www.masslive.com/celtics/2026/02/derrick-white-is-the-celtics-name-to-know-player-of-the-game-in-wednesdays-loss-to-nuggets.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "59be6efa3f3d",
-      "title": "4 takeaways as Celtics lose to Nuggets after dismal second half",
-      "summary": "The Celtics closed out their road trip on a sour note in Denver Wednesday night.",
-      "url": "https://www.masslive.com/celtics/2026/02/4-takeaways-as-celtics-lose-to-nuggets-after-dismal-second-half.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25910,20 +25854,6 @@
       "date": "2026-02-25",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bfbbc6ed3715",
-      "title": "Beach to Beacon 10K announces 2026 registration dates",
-      "summary": "Online registration for the 28th edition of the road race begins April 14 (for Cape Elizabeth residents only) and April 15.",
-      "url": "https://www.pressherald.com/2026/02/25/beach-to-beacon-10k-announces-2026-registration-dates/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-02-25",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25951,7 +25881,7 @@
       "raw": 10130366991.00749,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-02-26T11:34:42.452455",
+      "updated": "2026-02-27T11:23:33.081563",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26061,24 +25991,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-26T11:34:42.452455"
+      "score": 7.0,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8841.320183533115,
+      "raw_display": "8,841 units/mo",
+      "yoy_change": 9.9,
+      "source": "FRED API",
+      "updated": "2026-02-27T11:23:33.081563"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-26T11:34:42.452455"
+      "action": "Cost focus",
+      "raw": 142581.0,
+      "raw_display": "$142.6B SAAR",
+      "yoy_change": -1.1,
+      "source": "FRED API",
+      "updated": "2026-02-27T11:23:33.081563"
     },
     "migration": {
       "score": 5.0,
@@ -26088,35 +26018,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-26T11:34:42.452455"
+      "updated": "2026-02-27T11:23:33.081563"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-26T11:34:42.452455"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-02-27T11:23:33.081563"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 10,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.85 | Diesel $4.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.85,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.2,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-02-26T11:34:42.452455"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-02-27T11:23:33.081563"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26125,19 +26055,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-26T11:34:42.452455"
+      "updated": "2026-02-27T11:23:33.081563"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.4,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-26T11:34:42.452455"
+    "calculated_at": "2026-02-27T11:23:33.081563"
   }
 }

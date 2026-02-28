@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-27T11:26:48.175967Z",
+  "generated": "2026-02-28T11:02:27.361166Z",
   "summary": {
     "total_opportunities": 1225,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
+      "VT": 43,
       "NH": 58,
-      "ME": 169,
-      "MA": 601,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 345,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 8,
+      "news": 6,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -25761,27 +25761,13 @@
   ],
   "news": [
     {
-      "id": "60f5f4e879ce",
-      "title": "Emily Anderson: Fragile wetlands could lose protection",
-      "summary": "New proposal would ease permitting in some unmapped wetlands, raising concerns about impacts on vernal pools.\nRead the story on VTDigger here:  Emily Anderson: Fragile wetlands could lose protection.",
-      "url": "https://vtdigger.org/2026/02/26/emily-anderson-fragile-wetlands-could-lose-protection/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-27",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cc5a4a9fa631",
-      "title": "New program helps dozens of York County families find stable housing",
-      "summary": "The Biddeford school district and York County Community Action Corporation have doled out assistance to 84 families as part of the Maine Housing Student Homelessness Prevention Pilot.",
-      "url": "https://www.pressherald.com/2026/02/27/new-program-helps-dozens-of-york-county-families-find-stable-housing/",
+      "id": "944b951796b3",
+      "title": "Gardiner boys basketball beats Yarmouth to win 1st state title",
+      "summary": "The Tigers hold off a comeback bid by the Clippers in the Class B final.",
+      "url": "https://www.pressherald.com/2026/02/27/gardiner-boys-basketball-beats-yarmouth-to-win-1st-state-title/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-02-27",
+      "date": "2026-02-28",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25789,13 +25775,13 @@
       ]
     },
     {
-      "id": "56277cea3696",
-      "title": "Gem Marina asks Planning Board to convert boat slips from transient to long-term",
-      "summary": "The Southwick Planning Board closed a public hearing on a request by the owner of Gem Marina at 141 Congamond Road asking it to modify its special permit to allow it to convert four of its transient-use boat slips, which now total 16, to increase the number of long-term slip rentals to 28.",
-      "url": "https://www.masslive.com/westfieldnews/2026/02/gem-marina-asks-planning-board-to-convert-boat-slips-from-transient-to-long-term.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-02-27",
+      "id": "b4623beb0d05",
+      "title": "Maine Mariners extend streak to six",
+      "summary": "Robert Cronin, Brooklyn Kalmikov and Nick Anderson all notch a goal and three assists in another road victory, this time at Adirondack.",
+      "url": "https://www.pressherald.com/2026/02/27/maine-mariners-extend-streak-to-six/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-02-28",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25803,12 +25789,12 @@
       ]
     },
     {
-      "id": "5413ae9d8299",
-      "title": "Westfield Police Department construction project to go before Planning Board",
-      "summary": "The appearance and details of the long-awaited project to build a new Westfield police station will be informally announced during the initial site plan review in front of the Planning Board meeting on Tuesday, March 3 in the City Council Chambers with the initial site plan review.",
-      "url": "https://www.masslive.com/westfieldnews/2026/02/westfield-police-department-construction-project-to-go-before-planning-board.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "60f5f4e879ce",
+      "title": "Emily Anderson: Fragile wetlands could lose protection",
+      "summary": "New proposal would ease permitting in some unmapped wetlands, raising concerns about impacts on vernal pools.\nRead the story on VTDigger here:  Emily Anderson: Fragile wetlands could lose protection.",
+      "url": "https://vtdigger.org/2026/02/26/emily-anderson-fragile-wetlands-could-lose-protection/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-02-27",
       "category": "news",
       "priority": "medium",
@@ -25845,20 +25831,6 @@
       ]
     },
     {
-      "id": "8cb7d926c36a",
-      "title": "Vermont Supreme Court sides with Tunbridge in longstanding trails case",
-      "summary": "The closely watched case called into question municipalities\u2019 authority to maintain trails that pass through private property and the public\u2019s access to those trails. \nRead the story on VTDigger here:  Vermont Supreme Court sides with Tunbridge in longstanding trails case.",
-      "url": "https://vtdigger.org/2026/02/25/vermont-supreme-court-sides-with-tunbridge-in-longstanding-trails-case/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-25",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "5fd1c791a0d1",
       "title": "Gas station approved for S. River Road in Bedford",
       "summary": "A parcel on South River Road in Bedford approved to become a Tesla dealership got approval last week to use a portion of the land as a gas station, convenience store and drive-thru restaurant.",
@@ -25881,7 +25853,7 @@
       "raw": 10130366991.00749,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-02-27T11:26:47.792716",
+      "updated": "2026-02-28T11:01:56.972258",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25991,24 +25963,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-27T11:26:47.792716"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-02-28T11:01:56.972258"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-27T11:26:47.792716"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-02-28T11:01:56.972258"
     },
     "migration": {
       "score": 5.0,
@@ -26018,35 +25990,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-02-27T11:26:47.792716"
+      "updated": "2026-02-28T11:01:56.972258"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-02-27T11:26:47.792716"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-02-28T11:01:56.972258"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 9.7,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.18 | Diesel $4.20",
       "gasoline": {
         "price": 3.18,
         "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.2,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-02-27T11:26:47.792716"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-02-28T11:01:56.972258"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26055,19 +26027,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-02-27T11:26:47.792716"
+      "updated": "2026-02-28T11:01:56.972258"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-02-27T11:26:47.792716"
+    "calculated_at": "2026-02-28T11:01:56.972258"
   }
 }

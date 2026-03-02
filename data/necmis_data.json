@@ -1,26 +1,26 @@
 {
-  "generated": "2026-03-01T11:14:10.302860Z",
+  "generated": "2026-03-02T11:25:29.953395Z",
   "summary": {
-    "total_opportunities": 1225,
+    "total_opportunities": 1227,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
-      "NH": 58,
-      "ME": 168,
-      "MA": 600,
+      "VT": 44,
+      "NH": 59,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 347,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 6,
-      "funding": 0
+      "news": 9,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25761,15 +25761,85 @@
   ],
   "news": [
     {
-      "id": "76baa57da756",
-      "title": "Why more Massachusetts drivers failed the road test in 2025",
-      "summary": "The pass rate in Massachusetts has dropped to its lowest in about a decade, with experts blaming phone distractions and skipping driver\u2019s ed.",
-      "url": "https://www.masslive.com/news/2026/02/why-more-massachusetts-drivers-failed-the-road-test-in-2025.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-01",
+      "id": "f922f982e1ea",
+      "title": "In Vermont prisons, religious volunteers provide support and hope",
+      "summary": "Faith-based volunteers are an anchor for people inside the prisons and a bridge for those getting out. \nRead the story on VTDigger here:  In Vermont prisons, religious volunteers provide support and hope.",
+      "url": "https://vtdigger.org/2026/03/02/in-vermont-prisons-religious-volunteers-provide-support-and-hope/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "49a18f8d38f0",
+      "title": "Portland restaurateurs open second Bethel-area eatery",
+      "summary": "Harding and Sarah Smith's Mayville Union House replaces Grace Note Inn at 174 Mayville Road.",
+      "url": "https://www.pressherald.com/2026/03/02/portland-restaurateurs-open-second-bethel-area-eatery/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-02",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3aad2d3c4b64",
+      "title": "Restore Shore Line East for economy, equity, and climate",
+      "summary": "Investing in Shore Line East is not a luxury, it\u2019s a practical strategy to reduce emissions in a corridor where widening the highway is neither feasible nor sustainable.",
+      "url": "https://ctmirror.org/2026/03/02/restore-cts-shore-line-east-for-economy-equity-and-climate/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-03-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "985ccc635d2a",
+      "title": "VTDigger\u2019s 2026 guide to Vermont Town Meeting voting",
+      "summary": "The state\u2019s 247 municipalities are set to decide annual local government and school spending, leaders, advisory articles and a few unusual extras \u2014 such as Underhill\u2019s request for a $60,000 preowned rubber-tired backhoe.\nRead the story on VTDigger here:  VTDigger\u2019s 2026 guide to Vermont Town Meetin",
+      "url": "https://vtdigger.org/2026/03/01/vtdiggers-2026-guide-to-vermont-town-meeting-voting/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-01",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "de4f0de9eb32",
+      "title": "Southern Maine women\u2019s basketball earns NCAA D-III tourney bid",
+      "summary": "The Huskies pull away in the 2nd half to beat Rhode Island College for their 1st Little East Conference title since 2013.",
+      "url": "https://www.pressherald.com/2026/03/01/southern-maine-womens-basketball-earns-ncaa-d-iii-tourney-bid/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-01",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "95a7cf26664b",
+      "title": "Memorial honors MaineDOT workers killed in Waterville overpass crash",
+      "summary": "A procession honored two men who were working on an overpass bridge  on Jan. 13 when a minivan hit them and another worker.",
+      "url": "https://www.bangordailynews.com/2026/03/01/central-maine/james-brown-dwayne-campbell-mdot-workers-killed-waterville-overpass-crash-memorial/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-01",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25803,20 +25873,6 @@
       ]
     },
     {
-      "id": "f0b4c156f8a1",
-      "title": "Francine Miller: Why I\u2019m voting for the Apartheid-Free Communities pledge",
-      "summary": "Bridge-building matters, but it does not address a deep imbalance of power between Israel and the Palestinians.\nRead the story on VTDigger here:  Francine Miller: Why I\u2019m voting for the Apartheid-Free Communities pledge.",
-      "url": "https://vtdigger.org/2026/02/25/francine-miller-why-im-voting-for-the-apartheid-free-communities-pledge/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "1a9d8206acad",
       "title": "Paramount Skydance apparent winner of Warner Bros; Netflix walks away and its shares jump",
       "summary": "Paramount Skydance emerged as the likely winner in a months-long battle to acquire Warner Bros. Discovery, after streaming giant Netflix on Thursday refused to raise its bid for the storied Hollywood studio.",
@@ -25825,6 +25881,20 @@
       "state": "NH",
       "date": "2026-02-26",
       "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3a377bb1a5e3",
+      "title": "Can AI tell us how much to pay for art?",
+      "summary": "Stephen Smith, 56, a UK-based art collector, has bought prints through MyArtBroker, a sales and management platform for secondary-market prints and editions, since 2024, when he purchased Echo by British abstract artist Bridget Riley for \u00a37,500 ($10,300). He uses the\u2026",
+      "url": "https://www.unionleader.com/news/business/can-ai-tell-us-how-much-to-pay-for-art/article_52128d55-8146-4075-9cd9-3cec8f8002f2.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-02-24",
+      "category": "funding",
       "priority": "high",
       "business_lines": [
         "highway"
@@ -25853,7 +25923,7 @@
       "raw": 10130366991.00749,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-01T11:14:10.129878",
+      "updated": "2026-03-02T11:25:06.264704",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25963,24 +26033,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-01T11:14:10.129878"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-02T11:25:06.264704"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-01T11:14:10.129878"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-02T11:25:06.264704"
     },
     "migration": {
       "score": 5.0,
@@ -25990,35 +26060,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-01T11:14:10.129878"
+      "updated": "2026-03-02T11:25:06.264704"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-01T11:14:10.129878"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-02T11:25:06.264704"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 10,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.85 | Diesel $4.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.85,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.2,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-01T11:14:10.129878"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-02T11:25:06.264704"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26027,19 +26097,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-01T11:14:10.129878"
+      "updated": "2026-03-02T11:25:06.264704"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-01T11:14:10.129878"
+    "calculated_at": "2026-03-02T11:25:06.264704"
   }
 }

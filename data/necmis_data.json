@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-02T11:27:25.006759Z",
+  "generated": "2026-03-03T11:22:56.700154Z",
   "summary": {
-    "total_opportunities": 1227,
+    "total_opportunities": 1228,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 44,
       "NH": 59,
-      "ME": 171,
-      "MA": 599,
+      "ME": 172,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 347,
+      "CT": 348,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 9,
-      "funding": 2
+      "news": 13,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25761,6 +25761,76 @@
   ],
   "news": [
     {
+      "id": "7ae8ed9f9556",
+      "title": "Biddeford residents discuss UNE projects at public hearing",
+      "summary": "Those attending the newly revived Institutional Zone Review Committee's first public hearing said they are looking for transparency and communication from the university.",
+      "url": "https://www.pressherald.com/2026/03/02/biddeford-residents-discuss-une-projects-at-public-hearing/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-03",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e357a1d944f2",
+      "title": "Informational meeting to be held for residents to learn more about reentry facility opening on Southampton Road",
+      "summary": "With the imminent opening of a reentry facility on Southampton Road for former inmates to assist with their transition back into the community, two city councilors have organized an information meeting with representatives of the nonprofit that will run the facility for Wednesday, March 4 at the Wes",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/informational-meeting-to-be-held-for-residents-to-learn-more-about-reentry-facility-opening-on-southampton-road.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-03",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "29d327e8449d",
+      "title": "A few newcomers pull papers for Southwick\u2019s May municipal election",
+      "summary": "It\u2019s still early in the election season, but in the last couple of weeks, three residents with no formal political experience have pulled papers for seats opening on the Southwick's Planning Board, Board of Assessors and for a board seat on the Dickinson School Trust.",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/a-few-newcomers-pull-papers-for-southwicks-may-municipal-election.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-03",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6aa192c279ad",
+      "title": "Police: Adult couple charged with throwing rocks at passing vehicles in Southwick",
+      "summary": "When the first reports from motorists about their vehicles being damaged by rocks thrown from a passing truck on College Highway trickled into the police station last week, officers initially thought it was simply a stupid, but dangerous, prank by wayward teenagers.",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/police-adult-couple-charged-with-throwing-rocks-at-passing-vehicles-in-southwick.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-03",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ede57c904301",
+      "title": "Bradford voters reject proposal to double police force",
+      "summary": "All other articles before voters at the Bradford Town Meeting on Saturday passed, including the proposed annual general and highway budgets of $1.69 million and $1.4 million, respectively.\nRead the story on VTDigger here:  Bradford voters reject proposal to double police force.",
+      "url": "https://vtdigger.org/2026/03/02/bradford-voters-reject-proposal-to-double-police-force/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-02",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "f922f982e1ea",
       "title": "In Vermont prisons, religious volunteers provide support and hope",
       "summary": "Faith-based volunteers are an anchor for people inside the prisons and a bridge for those getting out. \nRead the story on VTDigger here:  In Vermont prisons, religious volunteers provide support and hope.",
@@ -25775,12 +25845,68 @@
       ]
     },
     {
-      "id": "49a18f8d38f0",
-      "title": "Portland restaurateurs open second Bethel-area eatery",
-      "summary": "Harding and Sarah Smith's Mayville Union House replaces Grace Note Inn at 174 Mayville Road.",
-      "url": "https://www.pressherald.com/2026/03/02/portland-restaurateurs-open-second-bethel-area-eatery/",
+      "id": "e46e86826c08",
+      "title": "Not a fear, a reality: Researchers leaving for abroad, red states",
+      "summary": "At his home in New Hampshire on a warm May day last year, Charles Crabtree thought it was time to start looking abroad for jobs.",
+      "url": "https://www.unionleader.com/news/scitech/not-a-fear-a-reality-researchers-leaving-for-abroad-red-states/article_96edd2d4-f80a-4213-8ae9-90399c20da9e.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-03-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "65e65f41b392",
+      "title": "Maine basketball teams learn their NCAA DIII tournament draws",
+      "summary": "Bowdoin, Bates women will host during first and second rounds, while the Bates, Saint Joseph's and UMF men, and UMF women, will hit the road.",
+      "url": "https://www.pressherald.com/2026/03/02/maine-basketball-teams-learn-of-ncaa-d-iii-tournament-draws/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-03-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a913695993f9",
+      "title": "DOT reverses plan to close Aroostook bridge during construction",
+      "summary": "Locals had slammed the bridge closure as \u201ccrazy,\u201d \u201cunacceptable\u201d and \u201cdevastating.\u201d",
+      "url": "https://www.bangordailynews.com/2026/03/02/aroostook/aroostook-government/aroostook-bridge-construction-change/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "94f13a1b3fda",
+      "title": "Dogs thought to have started Maine house fire that killed them",
+      "summary": "A house fire in Belgrade on Saturday that claimed the lives of two dogs is believed to have been started when the dogs accidentally turned on a stove burner. The fire was reported at about 11 a.m. at 138 Augusta Road. The homeowners were not there at the time, according to the state fire marshal\u2019s [",
+      "url": "https://www.bangordailynews.com/2026/03/02/central-maine/central-maine-police-courts/dogs-thought-to-have-started-maine-house-fire-that-killed-them/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1f63d0e012c7",
+      "title": "Broad support shown for CT microtransit at public hearing",
+      "summary": "The subsidized ride-sharing service operates in nine transit districts in CT. Hundreds supported extending the pilot program for another year.",
+      "url": "https://ctmirror.org/2026/03/02/broad-support-shown-for-ct-microtransit-at-public-hearing/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-03-02",
       "category": "news",
       "priority": "medium",
@@ -25817,34 +25943,6 @@
       ]
     },
     {
-      "id": "de4f0de9eb32",
-      "title": "Southern Maine women\u2019s basketball earns NCAA D-III tourney bid",
-      "summary": "The Huskies pull away in the 2nd half to beat Rhode Island College for their 1st Little East Conference title since 2013.",
-      "url": "https://www.pressherald.com/2026/03/01/southern-maine-womens-basketball-earns-ncaa-d-iii-tourney-bid/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-01",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "95a7cf26664b",
-      "title": "Memorial honors MaineDOT workers killed in Waterville overpass crash",
-      "summary": "A procession honored two men who were working on an overpass bridge  on Jan. 13 when a minivan hit them and another worker.",
-      "url": "https://www.bangordailynews.com/2026/03/01/central-maine/james-brown-dwayne-campbell-mdot-workers-killed-waterville-overpass-crash-memorial/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-01",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "6910f8d60664",
       "title": "The real winter warriors: CDOT vs. Mother Nature",
       "summary": "Thanks to the teams of plow operators and salters who worked night and day reopening CT's interstates as quickly as possible.",
@@ -25854,20 +25952,6 @@
       "date": "2026-03-01",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "60f5f4e879ce",
-      "title": "Emily Anderson: Fragile wetlands could lose protection",
-      "summary": "New proposal would ease permitting in some unmapped wetlands, raising concerns about impacts on vernal pools.\nRead the story on VTDigger here:  Emily Anderson: Fragile wetlands could lose protection.",
-      "url": "https://vtdigger.org/2026/02/26/emily-anderson-fragile-wetlands-could-lose-protection/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-02-27",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25899,20 +25983,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "5fd1c791a0d1",
-      "title": "Gas station approved for S. River Road in Bedford",
-      "summary": "A parcel on South River Road in Bedford approved to become a Tesla dealership got approval last week to use a portion of the land as a gas station, convenience store and drive-thru restaurant.",
-      "url": "https://www.unionleader.com/news/business/gas-station-approved-for-s-river-road-in-bedford/article_286fc1ed-e811-44a6-b311-523291a4f70f.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-02-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25923,7 +25993,7 @@
       "raw": 10130366991.00749,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-02T11:27:24.586654",
+      "updated": "2026-03-03T11:22:48.314474",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26033,24 +26103,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-02T11:27:24.586654"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-03T11:22:48.314474"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-02T11:27:24.586654"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-03T11:22:48.314474"
     },
     "migration": {
       "score": 5.0,
@@ -26060,35 +26130,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-02T11:27:24.586654"
+      "updated": "2026-03-03T11:22:48.314474"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-02T11:27:24.586654"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-03T11:22:48.314474"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 10,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.85 | Diesel $4.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.85,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.2,
+        "score": 9.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-02T11:27:24.586654"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-03T11:22:48.314474"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26097,19 +26167,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-02T11:27:24.586654"
+      "updated": "2026-03-03T11:22:48.314474"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-02T11:27:24.586654"
+    "calculated_at": "2026-03-03T11:22:48.314474"
   }
 }

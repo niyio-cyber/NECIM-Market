@@ -1,17 +1,17 @@
 {
-  "generated": "2026-03-05T11:28:15.673653Z",
+  "generated": "2026-03-06T11:19:18.726251Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1227,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
+      "VT": 45,
       "NH": 58,
       "ME": 171,
-      "MA": 600,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 9,
-      "funding": 1
+      "news": 8,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25761,43 +25761,85 @@
   ],
   "news": [
     {
-      "id": "fdfe5e9d2a32",
-      "title": "Maine is wrongly penalizing law-abiding cannabis growers | Letter",
-      "summary": "Every few years, Maine tackles \u201cillicit grows,\u201d usually by applying more restrictions on the legal cannabis market. Are we fighting illegal activity or simply layering Prohibition-era suspicion onto a legal industry? While compliant caregivers and small businesses follow strict regulations, pay taxe",
-      "url": "https://www.pressherald.com/2026/03/05/maine-is-wrongly-penalizing-law-abiding-cannabis-growers-letter/",
+      "id": "66809db6d161",
+      "title": "A wall collapsed in an Augusta Civic Center locker room. Monmouth Academy players were inside.",
+      "summary": "The non-load-bearing concrete wall was not built to modern standards, Augusta Director of Code Enforcement Robert Overton said.",
+      "url": "https://www.pressherald.com/2026/03/06/a-wall-collapsed-in-an-augusta-civic-center-locker-room-monmouth-academy-players-were-inside/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-03-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c73ed30ac5c4",
-      "title": "The York/ Biddeford/ OOB co-op hockey team finds glory in year one",
-      "summary": "After Wednesday's regional final win, the team will play in Saturday's Class B state championship.",
-      "url": "https://www.pressherald.com/2026/03/04/the-york-biddeford-oob-co-op-hockey-team-finds-glory-in-year-one/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8a19680d988f",
-      "title": "Western Mass. construction worker who killed 18-month-old child given parole",
-      "summary": "The Massachusetts man avoided parole hearings for years before finally facing the board and taking accountability for killing his girlfriend's toddler.",
-      "url": "https://www.masslive.com/westernmass/2026/03/western-mass-construction-worker-who-killed-18-month-old-child-given-parole.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-05",
+      "date": "2026-03-06",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "3a62781998e5",
+      "title": "Presque Isle Bypass work will start Monday",
+      "summary": "Workers will start by clearing trees where the road will connect with Route 1 in Westfield, about a half-mile south of Presque Isle.",
+      "url": "https://www.bangordailynews.com/2026/03/06/aroostook/aroostook-government/presque-isle-bypass-work-starts-monday-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-06",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cfe9b7facba0",
+      "title": "Residents question Colchester board\u2019s approval of a $8M waterfront hotel project",
+      "summary": "Residents are concerned that if regulations designed to protect Lake Champlain are not enforced, the project could set a dangerous precedent for development in Malletts Bay.\nRead the story on VTDigger here:  Residents question Colchester board\u2019s approval of a $8M waterfront hotel project.",
+      "url": "https://vtdigger.org/2026/03/05/residents-question-colchester-boards-approval-of-a-8m-waterfront-hotel-project/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-05",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a3e8bf3b9e8f",
+      "title": "Sen. Alison Clarkson to retire after more than two decades in Vermont\u2019s Legislature",
+      "summary": "Clarkson helped negotiate a major deal last spring to create a new financing program for infrastructure. In retirement, she wants to help reestablish a culinary institute in Vermont.\nRead the story on VTDigger here:  Sen. Alison Clarkson to retire after more than two decades in Vermont\u2019s Legislatur",
+      "url": "https://vtdigger.org/2026/03/05/sen-alison-clarkson-to-retire-after-more-than-two-decades-in-vermonts-legislature/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "416c423fea43",
+      "title": "Maine supreme court weighs MDI dispute over $230K code violation",
+      "summary": "The owners have maintained that their property was an \u201caborted construction site\" not an unpermitted junkyard.",
+      "url": "https://www.bangordailynews.com/2026/03/05/hancock/hancock-police-courts/maine-supreme-court-mdi-junkyard-fines/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-05",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "715c6219aec9",
+      "title": "NH Senate Votes To Hike Turnpike Tolls for Out-of-State Vehicles",
+      "summary": "While Republican Gov. Kelly Ayotte has said she opposes increasing highway toll rates across the state, the Senate voted Thursday to increase rates for out-of-state license plate holders.",
+      "url": "https://indepthnh.org/2026/03/05/nh-senate-votes-to-hike-turnpike-tolls-for-out-of-state-vehicles/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-03-05",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25809,20 +25851,6 @@
       "url": "https://vtdigger.org/2026/03/04/local-option-tax-proposals-see-mixed-reception-in-nearly-20-vermont-communities/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-03-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7c2a5d6fc1bc",
-      "title": "What to expect from Sanford\u2019s municipal, school budget proposals",
-      "summary": "City leaders say they are trying to limit next year's tax increase to around 5% when all is said and done.",
-      "url": "https://www.pressherald.com/2026/03/04/what-to-expect-from-sanfords-municipal-school-budget-proposals/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-03-04",
       "category": "news",
       "priority": "medium",
@@ -25859,20 +25887,6 @@
       ]
     },
     {
-      "id": "ede57c904301",
-      "title": "Bradford voters reject proposal to double police force",
-      "summary": "All other articles before voters at the Bradford Town Meeting on Saturday passed, including the proposed annual general and highway budgets of $1.69 million and $1.4 million, respectively.\nRead the story on VTDigger here:  Bradford voters reject proposal to double police force.",
-      "url": "https://vtdigger.org/2026/03/02/bradford-voters-reject-proposal-to-double-police-force/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-02",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e46e86826c08",
       "title": "Not a fear, a reality: Researchers leaving for abroad, red states",
       "summary": "At his home in New Hampshire on a warm May day last year, Charles Crabtree thought it was time to start looking abroad for jobs.",
@@ -25882,20 +25896,6 @@
       "date": "2026-03-02",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1a9d8206acad",
-      "title": "Paramount Skydance apparent winner of Warner Bros; Netflix walks away and its shares jump",
-      "summary": "Paramount Skydance emerged as the likely winner in a months-long battle to acquire Warner Bros. Discovery, after streaming giant Netflix on Thursday refused to raise its bid for the storied Hollywood studio.",
-      "url": "https://www.unionleader.com/news/business/paramount-skydance-apparent-winner-of-warner-bros-netflix-walks-away-and-its-shares-jump/article_4969a8a6-4606-55b2-a23e-6b8b62eb7392.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-02-26",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25909,7 +25909,7 @@
       "raw": 10125058681.44549,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-05T11:28:14.951534",
+      "updated": "2026-03-06T11:19:10.523331",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26019,24 +26019,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-05T11:28:14.951534"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-06T11:19:10.523331"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-05T11:28:14.951534"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-06T11:19:10.523331"
     },
     "migration": {
       "score": 5.0,
@@ -26046,35 +26046,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-05T11:28:14.951534"
+      "updated": "2026-03-06T11:19:10.523331"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-05T11:28:14.951534"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-06T11:19:10.523331"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.88 | Diesel $4.31",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.88,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
         "price": 4.31,
-        "score": 8.8,
+        "score": 9.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-05T11:28:14.951534"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-06T11:19:10.523331"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26083,19 +26083,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-05T11:28:14.951534"
+      "updated": "2026-03-06T11:19:10.523331"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-05T11:28:14.951534"
+    "calculated_at": "2026-03-06T11:19:10.523331"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-06T11:22:47.856364Z",
+  "generated": "2026-03-07T11:10:48.122779Z",
   "summary": {
     "total_opportunities": 1227,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
+      "VT": 44,
       "NH": 58,
-      "ME": 171,
-      "MA": 599,
+      "ME": 172,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 8,
+      "news": 9,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -25761,31 +25761,87 @@
   ],
   "news": [
     {
-      "id": "66809db6d161",
-      "title": "A wall collapsed in an Augusta Civic Center locker room. Monmouth Academy players were inside.",
-      "summary": "The non-load-bearing concrete wall was not built to modern standards, Augusta Director of Code Enforcement Robert Overton said.",
-      "url": "https://www.pressherald.com/2026/03/06/a-wall-collapsed-in-an-augusta-civic-center-locker-room-monmouth-academy-players-were-inside/",
+      "id": "013d1f39aa20",
+      "title": "Portland Foreside Development price tag rises above $1B",
+      "summary": "The developers say they've upgraded planned construction to meet the expectations of potential tenants, and the mixed-use project has faced significant financial challenges.",
+      "url": "https://www.pressherald.com/2026/03/07/portland-foreside-development-price-tag-rises-above-1b/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-07",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b415eabeb11d",
+      "title": "Portland\u2019s Bayside parcels could transform city | Letter",
+      "summary": "The city and development partners should approach this part of town as a cohesive neighborhood.",
+      "url": "https://www.pressherald.com/2026/03/07/portlands-bayside-parcels-could-transform-city-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "34874205a785",
+      "title": "Planning Board backs new police headquarters project",
+      "summary": "A new police station is well on its way in Westfield after the city\u2019s Planning Board unanimously approved the site plan, stormwater permit and special permit for the project.",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/planning-board-backs-new-police-headquarters-project.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "26edecdce88d",
+      "title": "Gray prepares to reshape its town center",
+      "summary": "The Village Transformation Project would rework the town's roads and sewer systems to become more business and pedestrian friendly.",
+      "url": "https://www.pressherald.com/2026/03/06/gray-prepares-to-reshape-its-town-center/",
       "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-03-06",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
-      "id": "3a62781998e5",
-      "title": "Presque Isle Bypass work will start Monday",
-      "summary": "Workers will start by clearing trees where the road will connect with Route 1 in Westfield, about a half-mile south of Presque Isle.",
-      "url": "https://www.bangordailynews.com/2026/03/06/aroostook/aroostook-government/presque-isle-bypass-work-starts-monday-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "512d6268ca03",
+      "title": "Mariners beat Trois-Rivi\u00e8res for ninth straight win",
+      "summary": "Maine continues its climb up the ECHL standings with another victory on the road.",
+      "url": "https://www.pressherald.com/2026/03/06/mariners-kalmikov-promoted-to-providence/",
+      "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-03-06",
       "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
+      ]
+    },
+    {
+      "id": "393a4d762c94",
+      "title": "CT Siting Council approves solar expansion in East Windsor",
+      "summary": "The project would add 150 acres to the existing Gravel Pit Solar facility, increasing output by 30 megawatts. Some residents were dismayed.",
+      "url": "https://ctmirror.org/2026/03/06/ct-siting-council-gravel-pit-solar-expansion-east-windsor/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-03-06",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
       ]
     },
     {
@@ -25812,20 +25868,6 @@
       "date": "2026-03-05",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "416c423fea43",
-      "title": "Maine supreme court weighs MDI dispute over $230K code violation",
-      "summary": "The owners have maintained that their property was an \u201caborted construction site\" not an unpermitted junkyard.",
-      "url": "https://www.bangordailynews.com/2026/03/05/hancock/hancock-police-courts/maine-supreme-court-mdi-junkyard-fines/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-05",
-      "category": "funding",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25859,34 +25901,6 @@
       ]
     },
     {
-      "id": "7ef40606e387",
-      "title": "CT\u2019s chance to align juvenile sentencing with science",
-      "summary": "The United States remains the only country in the world that still permits children to be sentenced to life in prison.",
-      "url": "https://ctmirror.org/2026/03/04/cts-chance-to-align-juvenile-sentencing-with-science/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-03-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c18d7521025f",
-      "title": "Latest results: 2026 Vermont Town Meeting voting",
-      "summary": "As the state\u2019s 247 municipalities decided local and school leaders and spending, Kirby moderator John McClaughry won for his 60th time, and at least a half-dozen communities debated President Donald Trump and his actions.\nRead the story on VTDigger here:  Latest results: 2026 Vermont Town Meeting v",
-      "url": "https://vtdigger.org/2026/03/03/latest-results-2026-vermont-town-meeting-voting/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-03",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e46e86826c08",
       "title": "Not a fear, a reality: Researchers leaving for abroad, red states",
       "summary": "At his home in New Hampshire on a warm May day last year, Charles Crabtree thought it was time to start looking abroad for jobs.",
@@ -25909,7 +25923,7 @@
       "raw": 10125058681.44549,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-06T11:22:47.054446",
+      "updated": "2026-03-07T11:10:12.729874",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26019,24 +26033,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-06T11:22:47.054446"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-07T11:10:12.729874"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-06T11:22:47.054446"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-07T11:10:12.729874"
     },
     "migration": {
       "score": 5.0,
@@ -26046,17 +26060,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-06T11:22:47.054446"
+      "updated": "2026-03-07T11:10:12.729874"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-06T11:22:47.054446"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-07T11:10:12.729874"
     },
     "input_cost": {
       "score": 9.5,
@@ -26073,8 +26087,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-06T11:22:47.054446"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-07T11:10:12.729874"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26083,19 +26097,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-06T11:22:47.054446"
+      "updated": "2026-03-07T11:10:12.729874"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-06T11:22:47.054446"
+    "calculated_at": "2026-03-07T11:10:12.729874"
   }
 }

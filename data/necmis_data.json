@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-07T11:13:57.203669Z",
+  "generated": "2026-03-08T11:11:24.584756Z",
   "summary": {
-    "total_opportunities": 1227,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 44,
       "NH": 58,
-      "ME": 172,
-      "MA": 600,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 9,
-      "funding": 2
+      "news": 7,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25761,71 +25761,29 @@
   ],
   "news": [
     {
-      "id": "013d1f39aa20",
-      "title": "Portland Foreside Development price tag rises above $1B",
-      "summary": "The developers say they've upgraded planned construction to meet the expectations of potential tenants, and the mixed-use project has faced significant financial challenges.",
-      "url": "https://www.pressherald.com/2026/03/07/portland-foreside-development-price-tag-rises-above-1b/",
-      "source": "Portland Press Herald",
+      "id": "90647f9e7aee",
+      "title": "I discovered this epic 12-mile ski loop in Acadia National Park",
+      "summary": "Around-the-Mountain is one of several circuits in Acadia's winter carriage road system, which totals about 30 miles of cross-country skiing.",
+      "url": "https://www.bangordailynews.com/2026/03/08/outdoors/outdoors-contributors/epic-12-mile-ski-loop-acadia-national-park-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "11fde7a83220",
+      "title": "York holds off Hampden Academy co-op team for first Class B hockey title in 15 years",
+      "summary": "The York-Biddeford-Old Orchard Beach cooperative hockey team received second-period goals from seniors Henry Ober, Bronson Eldredge and Brett Aceto to build a 3-0 lead and held off a rally by the youthful Hampden Academy-Ellsworth-Mount Desert Island-Nokomis of Newport coop team to edge the Broncos",
+      "url": "https://www.bangordailynews.com/2026/03/07/sports/york-hampden-hockey-final/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-03-07",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b415eabeb11d",
-      "title": "Portland\u2019s Bayside parcels could transform city | Letter",
-      "summary": "The city and development partners should approach this part of town as a cohesive neighborhood.",
-      "url": "https://www.pressherald.com/2026/03/07/portlands-bayside-parcels-could-transform-city-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-07",
       "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "34874205a785",
-      "title": "Planning Board backs new police headquarters project",
-      "summary": "A new police station is well on its way in Westfield after the city\u2019s Planning Board unanimously approved the site plan, stormwater permit and special permit for the project.",
-      "url": "https://www.masslive.com/westfieldnews/2026/03/planning-board-backs-new-police-headquarters-project.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "26edecdce88d",
-      "title": "Gray prepares to reshape its town center",
-      "summary": "The Village Transformation Project would rework the town's roads and sewer systems to become more business and pedestrian friendly.",
-      "url": "https://www.pressherald.com/2026/03/06/gray-prepares-to-reshape-its-town-center/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "512d6268ca03",
-      "title": "Mariners beat Trois-Rivi\u00e8res for ninth straight win",
-      "summary": "Maine continues its climb up the ECHL standings with another victory on the road.",
-      "url": "https://www.pressherald.com/2026/03/06/mariners-kalmikov-promoted-to-providence/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-06",
-      "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25923,7 +25881,7 @@
       "raw": 10125058681.44549,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-07T11:13:57.002450",
+      "updated": "2026-03-08T11:11:17.845423",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26033,24 +25991,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-07T11:13:57.002450"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-08T11:11:17.845423"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-07T11:13:57.002450"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-08T11:11:17.845423"
     },
     "migration": {
       "score": 5.0,
@@ -26060,35 +26018,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-07T11:13:57.002450"
+      "updated": "2026-03-08T11:11:17.845423"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-07T11:13:57.002450"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-08T11:11:17.845423"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.88 | Diesel $4.31",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.88,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
         "price": 4.31,
-        "score": 8.8,
+        "score": 9.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-07T11:13:57.002450"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-08T11:11:17.845423"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26097,19 +26055,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-07T11:13:57.002450"
+      "updated": "2026-03-08T11:11:17.845423"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-07T11:13:57.002450"
+    "calculated_at": "2026-03-08T11:11:17.845423"
   }
 }

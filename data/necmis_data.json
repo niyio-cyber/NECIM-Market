@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-08T11:14:49.858834Z",
+  "generated": "2026-03-09T11:26:48.428468Z",
   "summary": {
     "total_opportunities": 1226,
     "total_value_low": 10659544701,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 44,
-      "NH": 58,
+      "NH": 59,
       "ME": 170,
-      "MA": 599,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 7,
+      "news": 10,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25761,6 +25761,62 @@
   ],
   "news": [
     {
+      "id": "05d1dc766afe",
+      "title": "Smart stream crossings benefit wildlife, public safety",
+      "summary": "\"We can either pay for Stream Smart crossings or pay to repair roads washed out by the bigger and more frequent storms we\u2019re seeing today.\"",
+      "url": "https://www.bangordailynews.com/2026/03/09/opinion/opinion-contributor/smart-stream-crossings-benefit-wildlife-public-safety/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "69c8781170b5",
+      "title": "Print Lab celebrates one year at Southampton Road location",
+      "summary": "The Print Lab celebrated its one-year anniversary at its current location on 383 Southampton Road with a ribbon-cutting ceremony on March 5.",
+      "url": "https://www.masslive.com/news/2026/03/print-lab-celebrates-one-year-at-southampton-road-location.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "777458704c18",
+      "title": "Road woes continue for Bruins, but OT loss to Penguins was \u2018step in the right direction\u2019",
+      "summary": "The Bruins' road woes continued Sunday with an overtime loss to the Penguins, but it was \"a step in the right direction\" for the team as a whole.",
+      "url": "https://www.masslive.com/bruins/2026/03/road-woes-continued-for-bruins-but-ot-loss-to-penguins-was-step-in-the-right-direction.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "96885a56d32f",
+      "title": "The Moore Center welcomes new members to its board of directors",
+      "summary": "The Moore Center, a Manchester-based nonprofit providing services to individuals with developmental and intellectual disabilities and acquired brain disorders as well as services to children and senior citizens, recently named five area leaders to their board of directors, strengthening the\u2026",
+      "url": "https://www.unionleader.com/news/business/the-moore-center-welcomes-new-members-to-its-board-of-directors/article_06775f7f-3c9e-448b-b7ea-cdd59933280c.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-03-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "90647f9e7aee",
       "title": "I discovered this epic 12-mile ski loop in Acadia National Park",
       "summary": "Around-the-Mountain is one of several circuits in Acadia's winter carriage road system, which totals about 30 miles of cross-country skiing.",
@@ -25770,20 +25826,6 @@
       "date": "2026-03-08",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "11fde7a83220",
-      "title": "York holds off Hampden Academy co-op team for first Class B hockey title in 15 years",
-      "summary": "The York-Biddeford-Old Orchard Beach cooperative hockey team received second-period goals from seniors Henry Ober, Bronson Eldredge and Brett Aceto to build a 3-0 lead and held off a rally by the youthful Hampden Academy-Ellsworth-Mount Desert Island-Nokomis of Newport coop team to edge the Broncos",
-      "url": "https://www.bangordailynews.com/2026/03/07/sports/york-hampden-hockey-final/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-07",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25881,7 +25923,7 @@
       "raw": 10125058681.44549,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-08T11:14:49.584872",
+      "updated": "2026-03-09T11:26:36.622128",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25991,24 +26033,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-08T11:14:49.584872"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-09T11:26:36.622128"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-08T11:14:49.584872"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-09T11:26:36.622128"
     },
     "migration": {
       "score": 5.0,
@@ -26018,35 +26060,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-08T11:14:49.584872"
+      "updated": "2026-03-09T11:26:36.622128"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-08T11:14:49.584872"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-09T11:26:36.622128"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.88 | Diesel $4.31",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.88,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
         "price": 4.31,
-        "score": 8.8,
+        "score": 9.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-08T11:14:49.584872"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-09T11:26:36.622128"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26055,19 +26097,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-08T11:14:49.584872"
+      "updated": "2026-03-09T11:26:36.622128"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-08T11:14:49.584872"
+    "calculated_at": "2026-03-09T11:26:36.622128"
   }
 }

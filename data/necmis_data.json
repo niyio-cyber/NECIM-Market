@@ -1,26 +1,26 @@
 {
-  "generated": "2026-03-09T11:29:50.400726Z",
+  "generated": "2026-03-10T11:23:46.303148Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
-      "NH": 59,
-      "ME": 170,
-      "MA": 601,
+      "VT": 42,
+      "NH": 57,
+      "ME": 169,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 347,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1225,
-      "news": 10,
-      "funding": 1
+      "news": 5,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25761,13 +25761,13 @@
   ],
   "news": [
     {
-      "id": "05d1dc766afe",
-      "title": "Smart stream crossings benefit wildlife, public safety",
-      "summary": "\"We can either pay for Stream Smart crossings or pay to repair roads washed out by the bigger and more frequent storms we\u2019re seeing today.\"",
-      "url": "https://www.bangordailynews.com/2026/03/09/opinion/opinion-contributor/smart-stream-crossings-benefit-wildlife-public-safety/",
-      "source": "Bangor Daily News",
+      "id": "4b9b36cd1c6d",
+      "title": "Spring is coming. But first, mud.",
+      "summary": "As winter gives way to spring in Maine, mud season brings thawing ground, soft roads, frost heaves and temporary weight limits that affect daily travel and outdoor activity.",
+      "url": "https://www.pressherald.com/2026/03/10/spring-is-coming-but-first-mud/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-03-09",
+      "date": "2026-03-10",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25775,26 +25775,26 @@
       ]
     },
     {
-      "id": "69c8781170b5",
-      "title": "Print Lab celebrates one year at Southampton Road location",
-      "summary": "The Print Lab celebrated its one-year anniversary at its current location on 383 Southampton Road with a ribbon-cutting ceremony on March 5.",
-      "url": "https://www.masslive.com/news/2026/03/print-lab-celebrates-one-year-at-southampton-road-location.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "cd82d1089bec",
+      "title": "New shelter addresses \u2018real gap in our system\u2019 for unhoused people in recovery from addiction",
+      "summary": "The Bridges Recovery Shelter in Burlington will have clinicians on site, as well as recovery group meetings and peer-to-peer support.\nRead the story on VTDigger here:  New shelter addresses \u2018real gap in our system\u2019 for unhoused people in recovery from addiction.",
+      "url": "https://vtdigger.org/2026/03/09/new-shelter-addresses-real-gap-in-our-system-for-unhoused-people-in-recovery-from-addiction/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-03-09",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "777458704c18",
-      "title": "Road woes continue for Bruins, but OT loss to Penguins was \u2018step in the right direction\u2019",
-      "summary": "The Bruins' road woes continued Sunday with an overtime loss to the Penguins, but it was \"a step in the right direction\" for the team as a whole.",
-      "url": "https://www.masslive.com/bruins/2026/03/road-woes-continued-for-bruins-but-ot-loss-to-penguins-was-step-in-the-right-direction.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "30706a03d5cd",
+      "title": "CT overhauls environmental cleanup rules to spur redevelopment",
+      "summary": "CT is home to more than 1,000 brownfields. Experts say the longstanding state law is one reason why so many remain.",
+      "url": "https://ctmirror.org/2026/03/09/ct-overhauls-environmental-cleanup-rules/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-03-09",
       "category": "news",
       "priority": "medium",
@@ -25817,20 +25817,6 @@
       ]
     },
     {
-      "id": "90647f9e7aee",
-      "title": "I discovered this epic 12-mile ski loop in Acadia National Park",
-      "summary": "Around-the-Mountain is one of several circuits in Acadia's winter carriage road system, which totals about 30 miles of cross-country skiing.",
-      "url": "https://www.bangordailynews.com/2026/03/08/outdoors/outdoors-contributors/epic-12-mile-ski-loop-acadia-national-park-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-08",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "393a4d762c94",
       "title": "CT Siting Council approves solar expansion in East Windsor",
       "summary": "The project would add 150 acres to the existing Gravel Pit Solar facility, increasing output by 30 megawatts. Some residents were dismayed.",
@@ -25843,76 +25829,6 @@
       "business_lines": [
         "aggregates"
       ]
-    },
-    {
-      "id": "cfe9b7facba0",
-      "title": "Residents question Colchester board\u2019s approval of a $8M waterfront hotel project",
-      "summary": "Residents are concerned that if regulations designed to protect Lake Champlain are not enforced, the project could set a dangerous precedent for development in Malletts Bay.\nRead the story on VTDigger here:  Residents question Colchester board\u2019s approval of a $8M waterfront hotel project.",
-      "url": "https://vtdigger.org/2026/03/05/residents-question-colchester-boards-approval-of-a-8m-waterfront-hotel-project/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-05",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a3e8bf3b9e8f",
-      "title": "Sen. Alison Clarkson to retire after more than two decades in Vermont\u2019s Legislature",
-      "summary": "Clarkson helped negotiate a major deal last spring to create a new financing program for infrastructure. In retirement, she wants to help reestablish a culinary institute in Vermont.\nRead the story on VTDigger here:  Sen. Alison Clarkson to retire after more than two decades in Vermont\u2019s Legislatur",
-      "url": "https://vtdigger.org/2026/03/05/sen-alison-clarkson-to-retire-after-more-than-two-decades-in-vermonts-legislature/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "715c6219aec9",
-      "title": "NH Senate Votes To Hike Turnpike Tolls for Out-of-State Vehicles",
-      "summary": "While Republican Gov. Kelly Ayotte has said she opposes increasing highway toll rates across the state, the Senate voted Thursday to increase rates for out-of-state license plate holders.",
-      "url": "https://indepthnh.org/2026/03/05/nh-senate-votes-to-hike-turnpike-tolls-for-out-of-state-vehicles/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-03-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "dde08618c75a",
-      "title": "Local option tax proposals see mixed reception in nearly 20 Vermont communities",
-      "summary": "After Town Meeting Day decisions, a dozen municipalities will see new revenue streams to shore up local projects.\nRead the story on VTDigger here:  Local option tax proposals see mixed reception in nearly 20 Vermont communities.",
-      "url": "https://vtdigger.org/2026/03/04/local-option-tax-proposals-see-mixed-reception-in-nearly-20-vermont-communities/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e46e86826c08",
-      "title": "Not a fear, a reality: Researchers leaving for abroad, red states",
-      "summary": "At his home in New Hampshire on a warm May day last year, Charles Crabtree thought it was time to start looking abroad for jobs.",
-      "url": "https://www.unionleader.com/news/scitech/not-a-fear-a-reality-researchers-leaving-for-abroad-red-states/article_96edd2d4-f80a-4213-8ae9-90399c20da9e.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-03-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25923,7 +25839,7 @@
       "raw": 10125058681.44549,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-03-09T11:29:50.258718",
+      "updated": "2026-03-10T11:23:36.796809",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26033,24 +25949,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-09T11:29:50.258718"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-10T11:23:36.796809"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-09T11:29:50.258718"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-10T11:23:36.796809"
     },
     "migration": {
       "score": 5.0,
@@ -26060,35 +25976,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-09T11:29:50.258718"
+      "updated": "2026-03-10T11:23:36.796809"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-09T11:29:50.258718"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-10T11:23:36.796809"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 10,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $2.88 | Diesel $4.31",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 2.88,
+        "score": 10,
         "weight": "60%"
       },
       "diesel": {
         "price": 4.31,
-        "score": 8.8,
+        "score": 9.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-09T11:29:50.258718"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-10T11:23:36.796809"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26097,19 +26013,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-09T11:29:50.258718"
+      "updated": "2026-03-10T11:23:36.796809"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-09T11:29:50.258718"
+    "calculated_at": "2026-03-10T11:23:36.796809"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-12T11:27:20.796730Z",
+  "generated": "2026-03-13T11:22:09.167142Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1228,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 42,
-      "NH": 58,
-      "ME": 174,
-      "MA": 599,
+      "NH": 60,
+      "ME": 169,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 348,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1224,
-      "news": 11,
-      "funding": 2
+      "news": 4,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25740,42 +25740,42 @@
   ],
   "news": [
     {
-      "id": "0d706fb13410",
-      "title": "He\u2019s been to every town in Maine, mostly for something to say. | Column",
-      "summary": "Wanting fodder for a future obituary, Jeff Hewett gave himself a challenge: Visit every municipal office in the state and take a picture to prove he'd been there.",
-      "url": "https://www.pressherald.com/2026/03/12/hes-been-to-every-town-in-maine-mostly-for-something-to-say-column/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "583f0276cacd",
-      "title": "Maine\u2019s manufactured-home communities are being exploited | Letter",
-      "summary": "Maine\u2019s manufactured-home communities are facing a crisis that municipalities can no longer afford to ignore. These parks represent our state\u2019s last remaining \u201cnaturally affordable\u201d housing, yet residents are being squeezed by steep, unregulated rent hikes and predatory utility fees. When towns fail",
-      "url": "https://www.pressherald.com/2026/03/12/maines-manufactured-home-communities-are-being-exploited-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "19477e21cca4",
-      "title": "Road race across Penobscot Narrows Bridge returns next month after year hiatus",
-      "summary": "On April 18, runners will once again run across the bridge connecting Waldo and Hancock counties over the Penobscot River.",
-      "url": "https://www.bangordailynews.com/2026/03/12/hancock/hancock-culture/road-race-penobscot-narrows-bucksport-joam40zk0w/",
+      "id": "556f507e6b02",
+      "title": "No one has used the free housing plans Bangor\u00a0spent $182K designing",
+      "summary": "The city commissioned the plans for four homes of various sizes\u00a0to encourage new housing construction.",
+      "url": "https://www.bangordailynews.com/2026/03/13/business/business-housing/bangor-housing-plans-unused/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-03-12",
+      "date": "2026-03-13",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "18c64484c688",
+      "title": "Final decision on Crepes Tea House seating arrangements delayed once again",
+      "summary": "Crepes Tea House\u2019s request to modify its special permit to allow it to use one of three outbuildings on the property as outdoor dining was the primary topic at the meetings of the Southwick Board of Health and Planning Board Tuesday and, as it\u2019s been since last July, there is still no resolution.",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/final-decision-on-crepes-tea-house-seating-arrangements-delayed-once-again.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-13",
       "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8591a8f6037c",
+      "title": "NH House Approves $4.7 Billion 10-Year Highway Plan",
+      "summary": "The House Thursday approved a $4.7 billion 10-year highway improvement plan constrained by a lack of state and federal funds.",
+      "url": "https://indepthnh.org/2026/03/12/nh-house-approves-4-7-billion-10-year-highway-plan/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-03-12",
+      "category": "funding",
       "priority": "high",
       "business_lines": [
         "highway"
@@ -25796,43 +25796,15 @@
       ]
     },
     {
-      "id": "82ba5f4816b5",
-      "title": "Bath discontinues road to clear way for shipyard parking",
-      "summary": "The discontinuation of a section of Fisher Court will lead to expanded parking for Bath Iron Works employees as the shipyard prepares to build a parking garage.",
-      "url": "https://www.pressherald.com/2026/03/11/bath-discontinues-road-to-clear-way-for-shipyard-parking/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-11",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "23f371cd0df5",
-      "title": "Riley honored for lifetime of public service with UMaine Alumni Career Award",
-      "summary": "ORONO \u2014 On Sunday afternoons, Trish Riley would sit at the kitchen table of a University of Maine professor\u2019s home on Chapel Road, drafting recommendations for the campus Commission on the Status of Women. The professor, Connie Carlson, had become more than a teacher. \u201cShe was very important to me a",
-      "url": "https://www.bangordailynews.com/2026/03/11/bdn-maine/riley-honored-for-lifetime-of-public-service-with-umaine-alumni-career-award/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "26e0a75db59d",
+      "title": "How fossil fuel disruptions lead to booms in solar and batteries",
+      "summary": "The war in the Middle East has roiled oil and gas markets. Under a severe scenario, with more strikes on energy infrastructure, Bloomberg Economics estimates that crude could reach $108 a barrel, adding a significant boost to inflation and even\u2026",
+      "url": "https://www.unionleader.com/news/business/how-fossil-fuel-disruptions-lead-to-booms-in-solar-and-batteries/article_1d1d30ac-2cf9-405f-8641-0d3c1e8d367c.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-03-11",
       "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "238f9cdb2e18",
-      "title": "Jared Golden: My thoughts on the conflict in Iran",
-      "summary": "\u201cI have seen nation-building fail firsthand in Afghanistan and Iraq. I spent years in the region and never found broad buy-in for America\u2019s mission to stand up democracy.\u201d",
-      "url": "https://www.bangordailynews.com/2026/03/11/opinion/opinion-contributor/jared-golden-thoughts-on-iran-conflict/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-11",
-      "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25847,20 +25819,6 @@
       "date": "2026-03-11",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "00ecdf9b6d70",
-      "title": "New Canaan to consider affordable housing project despite construction pause",
-      "summary": "The town currently has a moratorium on affordable housing construction, but it may be required to accept an application for a 14-unit building.",
-      "url": "https://ctmirror.org/2026/03/11/new-canaan-to-consider-affordable-housing-project-despite-construction-pause/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-03-11",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25881,34 +25839,6 @@
       ]
     },
     {
-      "id": "12d1303482a9",
-      "title": "Report: Bridgeport cop took ambulance called for shooting victim",
-      "summary": "A report said Bridgeport police were justified in shooting Dyshan Best, but another cop with a 'mild panic attack' took the first ambulance.",
-      "url": "https://ctmirror.org/2026/03/10/bridgeport-police-shooting-justified-dyshan-best/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-03-10",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d4cb85cb94b7",
-      "title": "Bill constraining use of license plate data gets broad support",
-      "summary": "Advocates supported a CT bill that would restrict the use of data from automatic license plate readers, but police say it helps solve crimes.",
-      "url": "https://ctmirror.org/2026/03/10/bill-constraining-use-of-license-plate-data-gets-broad-support/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-03-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "96885a56d32f",
       "title": "The Moore Center welcomes new members to its board of directors",
       "summary": "The Moore Center, a Manchester-based nonprofit providing services to individuals with developmental and intellectual disabilities and acquired brain disorders as well as services to children and senior citizens, recently named five area leaders to their board of directors, strengthening the\u2026",
@@ -25926,12 +25856,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 10123002529.563936,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-12T11:27:20.615279",
+      "updated": "2026-03-13T11:21:57.672159",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26041,24 +25971,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-12T11:27:20.615279"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-13T11:21:57.672159"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-12T11:27:20.615279"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-13T11:21:57.672159"
     },
     "migration": {
       "score": 5.0,
@@ -26068,35 +25998,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-12T11:27:20.615279"
+      "updated": "2026-03-13T11:21:57.672159"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-12T11:27:20.615279"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-13T11:21:57.672159"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 8.5,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.35 | Diesel $4.97",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.35,
+        "score": 9.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.97,
+        "score": 7.6,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-12T11:27:20.615279"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-13T11:21:57.672159"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26105,19 +26035,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-12T11:27:20.615279"
+      "updated": "2026-03-13T11:21:57.672159"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-12T11:27:20.615279"
+    "calculated_at": "2026-03-13T11:21:57.672159"
   }
 }

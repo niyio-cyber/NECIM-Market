@@ -1,17 +1,17 @@
 {
-  "generated": "2026-03-14T11:17:57.593779Z",
+  "generated": "2026-03-15T11:15:26.552501Z",
   "summary": {
-    "total_opportunities": 1228,
+    "total_opportunities": 1227,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
+      "VT": 41,
       "NH": 60,
-      "ME": 171,
-      "MA": 603,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 344,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1224,
-      "news": 8,
-      "funding": 4
+      "news": 4,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25740,13 +25740,13 @@
   ],
   "news": [
     {
-      "id": "7385b55d7440",
-      "title": "Maine\u2019s municipal governments need to ask themselves some basic questions | Letter",
-      "summary": "Across Maine, I keep hearing the same line: \u201cWe just need to grow our way out of it.\u201d More housing. More valuation. More development. More revenue. That thinking is exactly what got many towns into the position they\u2019re in now. Lisbon is feeling it, but it won\u2019t be the last community. Service costs a",
-      "url": "https://www.pressherald.com/2026/03/14/maines-municipal-governments-need-to-ask-themselves-some-basic-questions-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-14",
+      "id": "0b65724ea9ee",
+      "title": "Third period guides Worcester Railers past Royals on road",
+      "summary": "The Railers scored three goals in the third period on Saturday night.",
+      "url": "https://www.masslive.com/worcesterrailers/2026/03/third-period-guides-worcester-railers-past-royals-on-road.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-15",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25754,15 +25754,15 @@
       ]
     },
     {
-      "id": "19753d25c97d",
-      "title": "With friends like these, Riverton doesn\u2019t need enemies | Opinion",
-      "summary": "The group of locals opposing the construction of Belfort Landing, a 50-unit housing project, have taken a narrow view of community in a neighborhood where it used to flourish.",
-      "url": "https://www.pressherald.com/2026/03/14/with-friends-like-these-riverton-doesnt-need-enemies-opinion/",
-      "source": "Portland Press Herald",
+      "id": "6145af4b023b",
+      "title": "Iran signals defiance as Trump threatens to hit Kharg Island oil network",
+      "summary": "Donald Trump threatened to strike the oil infrastructure of Iran's Kharg Island hub unless Tehran stopped attacking vessels in the Strait of Hormuz.",
+      "url": "https://www.bangordailynews.com/2026/03/14/nation/iran-signals-defiance-as-trump-threatens-to-hit-kharg-island-oil-network/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-03-14",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25782,62 +25782,6 @@
       ]
     },
     {
-      "id": "a81963f83c00",
-      "title": "Westfield Health Bulletin: Reducing access to education will exacerbate country\u2019s health care crisis",
-      "summary": "Excluding nursing from the federal list of professional advanced degree programs is part of the One Big Beautiful Bill Act. Of all government departments, one would think the Department of Education would recognize and abide by the definition of a professional.",
-      "url": "https://www.masslive.com/westfieldnews/2026/03/westfield-health-bulletin-reducing-access-to-education-will-exacerbate-countrys-health-care-crisis.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-14",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "df8e49aed083",
-      "title": "Mass. city passes state\u2019s first data center moratorium",
-      "summary": "Lowell residents spoke out this week in support of a moratorium on data center construction and development. It will impact the state's largest data center currently in operation.",
-      "url": "https://www.masslive.com/news/2026/03/lowell-enacts-first-data-center-moratorium-in-massachusetts.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "25c23e16edde",
-      "title": "Mass. looks for new off-ramp to revamped service plazas. Here\u2019s what we know",
-      "summary": "MassDOT said it's looking \u201cto modernize all 18 service plazas to better serve residents and visitors while optimizing rent revenues.\"",
-      "url": "https://www.masslive.com/politics/2026/03/mass-looks-for-new-off-ramp-to-revamped-service-plazas-heres-what-we-know.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-14",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "90542b7cc9d3",
-      "title": "To reach playoffs, Bruins need to be better on the road, starting with 3-game trip",
-      "summary": "The Bruins will need to be better on the road if they want to make the playoffs.",
-      "url": "https://www.masslive.com/bruins/2026/03/to-reach-playoffs-bruins-need-to-be-better-on-the-road-starting-with-3-game-trip.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "8591a8f6037c",
       "title": "NH House Approves $4.7 Billion 10-Year Highway Plan",
       "summary": "The House Thursday approved a $4.7 billion 10-year highway improvement plan constrained by a lack of state and federal funds.",
@@ -25847,20 +25791,6 @@
       "date": "2026-03-12",
       "category": "funding",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "455566354902",
-      "title": "School consolidation efforts reach an inflection point as lawmakers hit familiar roadblocks",
-      "summary": "Halfway through the legislative session, lawmakers are at loggerheads over how to consolidate Vermont's school districts, with two very different proposals in the House and Senate.\nRead the story on VTDigger here:  School consolidation efforts reach an inflection point as lawmakers hit familiar roa",
-      "url": "https://vtdigger.org/2026/03/11/school-consolidation-efforts-reach-an-inflection-point-as-lawmakers-hit-familiar-roadblocks/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-11",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25917,7 +25847,7 @@
       "raw": 10123002529.563936,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-14T11:17:57.296078",
+      "updated": "2026-03-15T11:15:19.494173",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -26027,24 +25957,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-14T11:17:57.296078"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-15T11:15:19.494173"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-14T11:17:57.296078"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-15T11:15:19.494173"
     },
     "migration": {
       "score": 5.0,
@@ -26054,35 +25984,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-14T11:17:57.296078"
+      "updated": "2026-03-15T11:15:19.494173"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-14T11:17:57.296078"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-15T11:15:19.494173"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 8.5,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.35 | Diesel $4.97",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.35,
+        "score": 9.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.97,
+        "score": 7.6,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-14T11:17:57.296078"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-15T11:15:19.494173"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26091,19 +26021,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-14T11:17:57.296078"
+      "updated": "2026-03-15T11:15:19.494173"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-14T11:17:57.296078"
+    "calculated_at": "2026-03-15T11:15:19.494173"
   }
 }

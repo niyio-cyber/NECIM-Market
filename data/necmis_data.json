@@ -1,15 +1,15 @@
 {
-  "generated": "2026-03-16T11:41:06.470737Z",
+  "generated": "2026-03-17T11:34:37.135125Z",
   "summary": {
-    "total_opportunities": 1227,
+    "total_opportunities": 1228,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 41,
-      "NH": 59,
+      "VT": 44,
+      "NH": 60,
       "ME": 169,
       "MA": 599,
       "NY": 1,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1224,
-      "news": 2,
-      "funding": 3
+      "news": 5,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25740,12 +25740,54 @@
   ],
   "news": [
     {
-      "id": "6f0cf5830ce3",
-      "title": "How much does electricity cost at CT\u2019s municipal utilities?",
-      "summary": "Eversource and UI provide electricity to most of CT \u2014 except the 77,000 or so customers of municipal-owned utilities. But who pays the most?",
-      "url": "https://ctmirror.org/2026/03/16/ct-municipal-electric-utilities-cost/",
-      "source": "CT Mirror",
-      "state": "CT",
+      "id": "a8c77e128290",
+      "title": "Bennington agency settles with the state over service failures for adults with developmental disabilities",
+      "summary": "United Counseling Service is paying the state $483,460 for failures in care for those with developmental disabilities who may pose a risk to themselves and the community. \nRead the story on VTDigger here:  Bennington agency settles with the state over service failures for adults with developmental",
+      "url": "https://vtdigger.org/2026/03/17/bennington-agency-settles-with-the-state-over-service-failures-for-adults-with-developmental-disabilities/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-17",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "88122fcf3b6b",
+      "title": "Bruins fall to Devils in overtime",
+      "summary": "Boston's road struggles continue, as New Jersey's Connor Brown scores on a breakaway late in overtime.",
+      "url": "https://www.pressherald.com/2026/03/16/bruins-2-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2a0f9eb9fde1",
+      "title": "Addison County State\u2019s Attorney Eva Vekos fires back against bid to suspend her law license",
+      "summary": "Vekos\u2019 lawyer contends penalty is premature, citing Alice in Wonderland\u2019s \u201csentence first \u2013 verdict afterwards,\" system of justice.\nRead the story on VTDigger here:  Addison County State\u2019s Attorney Eva Vekos fires back against bid to suspend her law license.",
+      "url": "https://vtdigger.org/2026/03/16/addison-county-states-attorney-eva-vekos-fires-back-against-bid-to-suspend-her-law-license/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-16",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "60ebe31ec680",
+      "title": "Charles (Chuck) Vile",
+      "summary": "Chuck found joy in the simple pleasures of Vermont life: visiting the animals at the Champlain Valley Fair, apple season at Chapin Orchard, savoring maple creemees and taking long walks on Chapin Road with wife Helen by his side.\nRead the story on VTDigger here:  Charles (Chuck) Vile.",
+      "url": "https://vtdigger.org/2026/03/16/charles-chuck-vile/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-03-16",
       "category": "news",
       "priority": "medium",
@@ -25754,13 +25796,27 @@
       ]
     },
     {
-      "id": "ad8f0805d49e",
-      "title": "US, China economic chiefs meet in Paris to clear path to Trump-Xi summit",
-      "summary": "The talks, at the Paris headquarters of the Organization for Economic Co-operation and Development, were expected to continue on Monday.",
-      "url": "https://www.bangordailynews.com/2026/03/15/politics/washington/us-china-economic-chiefs-meet-paris-path-to-trump-xi-summit/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-15",
+      "id": "271e403078c1",
+      "title": "Two local developers in mix for I-95 service area redevelopment",
+      "summary": "Two local developers have submitted proposals to transform the two liquor stores off Interstate 95 in Hampton into service areas after the process was put in place by Gov. Kelly Ayotte last fall when it appeared the liquor commission favored\u2026",
+      "url": "https://www.unionleader.com/news/business/two-local-developers-in-mix-for-i-95-service-area-redevelopment/article_9886c3da-ffb6-49b1-895e-da550415903b.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-03-16",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6f0cf5830ce3",
+      "title": "How much does electricity cost at CT\u2019s municipal utilities?",
+      "summary": "Eversource and UI provide electricity to most of CT \u2014 except the 77,000 or so customers of municipal-owned utilities. But who pays the most?",
+      "url": "https://ctmirror.org/2026/03/16/ct-municipal-electric-utilities-cost/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-03-16",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25819,7 +25875,7 @@
       "raw": 10123002529.563936,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-16T11:41:06.298384",
+      "updated": "2026-03-17T11:34:29.984435",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25929,24 +25985,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-16T11:41:06.298384"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-17T11:34:29.984435"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-16T11:41:06.298384"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-17T11:34:29.984435"
     },
     "migration": {
       "score": 5.0,
@@ -25956,35 +26012,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-16T11:41:06.298384"
+      "updated": "2026-03-17T11:34:29.984435"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-16T11:41:06.298384"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-17T11:34:29.984435"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 8.5,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.35 | Diesel $4.97",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.35,
+        "score": 9.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 4.97,
+        "score": 7.6,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-16T11:41:06.298384"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-17T11:34:29.984435"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25993,19 +26049,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-16T11:41:06.298384"
+      "updated": "2026-03-17T11:34:29.984435"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-16T11:41:06.298384"
+    "calculated_at": "2026-03-17T11:34:29.984435"
   }
 }

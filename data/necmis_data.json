@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-17T11:38:39.629556Z",
+  "generated": "2026-03-18T11:36:01.312232Z",
   "summary": {
-    "total_opportunities": 1228,
+    "total_opportunities": 1227,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,7 +9,7 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 44,
-      "NH": 60,
+      "NH": 59,
       "ME": 169,
       "MA": 599,
       "NY": 1,
@@ -20,7 +20,7 @@
     "by_category": {
       "dot_letting": 1224,
       "news": 5,
-      "funding": 4
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25740,6 +25740,20 @@
   ],
   "news": [
     {
+      "id": "ace2d6d345e0",
+      "title": "Obituary: James P. Cole",
+      "summary": "DAYTON - James P. Cole, 65, of Cole Farm Road, passed away Tuesday, March 10, 2026, at Maine Medical Center following ...",
+      "url": "https://www.pressherald.com/2026/03/18/obituaryjames-p-cole-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "a8c77e128290",
       "title": "Bennington agency settles with the state over service failures for adults with developmental disabilities",
       "summary": "United Counseling Service is paying the state $483,460 for failures in care for those with developmental disabilities who may pose a risk to themselves and the community. \nRead the story on VTDigger here:  Bennington agency settles with the state over service failures for adults with developmental",
@@ -25748,20 +25762,6 @@
       "state": "VT",
       "date": "2026-03-17",
       "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "88122fcf3b6b",
-      "title": "Bruins fall to Devils in overtime",
-      "summary": "Boston's road struggles continue, as New Jersey's Connor Brown scores on a breakaway late in overtime.",
-      "url": "https://www.pressherald.com/2026/03/16/bruins-2-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-17",
-      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25824,20 +25824,6 @@
       ]
     },
     {
-      "id": "8591a8f6037c",
-      "title": "NH House Approves $4.7 Billion 10-Year Highway Plan",
-      "summary": "The House Thursday approved a $4.7 billion 10-year highway improvement plan constrained by a lack of state and federal funds.",
-      "url": "https://indepthnh.org/2026/03/12/nh-house-approves-4-7-billion-10-year-highway-plan/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-03-12",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "26e0a75db59d",
       "title": "How fossil fuel disruptions lead to booms in solar and batteries",
       "summary": "The war in the Middle East has roiled oil and gas markets. Under a severe scenario, with more strikes on energy infrastructure, Bloomberg Economics estimates that crude could reach $108 a barrel, adding a significant boost to inflation and even\u2026",
@@ -25872,10 +25858,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10123002529.563936,
+      "raw": 10117077518.274609,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-17T11:38:39.268779",
+      "updated": "2026-03-18T11:35:48.894070",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25916,7 +25902,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 373896800.0,
+            "weighted": 370601400.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25976,33 +25962,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3169136138.1533346,
+          "baseline_time_weighted": 3167281237.165102,
           "baseline_time_weighted_display": "$3.17B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10123002529.563936,
+          "scoring_value": 10117077518.274609,
           "scoring_value_display": "$10.12B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-17T11:38:39.268779"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-18T11:35:48.894070"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-17T11:38:39.268779"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-18T11:35:48.894070"
     },
     "migration": {
       "score": 5.0,
@@ -26012,35 +25998,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-17T11:38:39.268779"
+      "updated": "2026-03-18T11:35:48.894070"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-17T11:38:39.268779"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-18T11:35:48.894070"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.8,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.54 | Diesel $5.24",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.54,
+        "score": 8.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.24,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-17T11:38:39.268779"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-18T11:35:48.894070"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26049,19 +26035,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-17T11:38:39.268779"
+      "updated": "2026-03-18T11:35:48.894070"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-17T11:38:39.268779"
+    "calculated_at": "2026-03-18T11:35:48.894070"
   }
 }

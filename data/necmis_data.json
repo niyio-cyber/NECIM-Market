@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-18T11:39:43.729063Z",
+  "generated": "2026-03-19T11:26:32.931979Z",
   "summary": {
-    "total_opportunities": 1227,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 44,
       "NH": 59,
-      "ME": 169,
-      "MA": 599,
+      "ME": 170,
+      "MA": 604,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1224,
-      "news": 5,
-      "funding": 3
+      "dot_letting": 1222,
+      "news": 9,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 269,
+          "count": 268,
           "value": 5895804498
         },
         "Pavement": {
@@ -50,7 +50,7 @@
           "value": 1003218381
         },
         "Other": {
-          "count": 86,
+          "count": 85,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 344,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 4,
+            "count": 3,
             "value": 0
           },
           "Pavement": {
@@ -273,7 +273,7 @@
             "value": 0
           },
           "Other": {
-            "count": 1,
+            "count": 0,
             "value": 0
           }
         },
@@ -18714,7 +18714,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-03-25",
+      "let_date": "2026-04-22",
       "fiscal_year": "FY2026",
       "project_type": "Pavement",
       "location": null,
@@ -18768,48 +18768,6 @@
       ]
     },
     {
-      "id": "fef3a23cfc94",
-      "state": "CT",
-      "project_id": "0174-0475",
-      "description": "Replace Pedestrian and School Crosswalk Signs & Pavement Markings on State Roadways in District 4",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-03-18",
-      "fiscal_year": "FY2026",
-      "project_type": "Other",
-      "location": "ct 4",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
-      "id": "656459d10cf4",
-      "state": "CT",
-      "project_id": "0174-0480",
-      "description": "Installation of 6-inch wide edge line pavement markings on horizontal curves on rural, State-owned roads.",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-03-18",
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
       "id": "1cd801cb6c53",
       "state": "CT",
       "project_id": "0301-0520",
@@ -18827,26 +18785,6 @@
       "source": "CTDOT Q&A",
       "business_lines": [
         "ready_mix"
-      ]
-    },
-    {
-      "id": "baa24cfcb2b9",
-      "state": "CT",
-      "project_id": "0301-0564",
-      "description": "Bridge No. 08008R Cos Cob New Haven Main Line M.P. 29.90 Over Mianus River\n&\nBridge No. 08032R Saga Bridge New Haven Main Line M.P. 44.32 Over Saugatuck River",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-03-18",
-      "fiscal_year": "FY2026",
-      "project_type": "Bridge",
-      "location": "New Haven",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -24570,6 +24508,26 @@
       ]
     },
     {
+      "id": "b06925fc7c32",
+      "state": "CT",
+      "project_id": "0174-0480",
+      "description": "CT Project 0174-0480",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "75ef63fd2f7e",
       "state": "CT",
       "project_id": "0174-0483",
@@ -25740,11 +25698,95 @@
   ],
   "news": [
     {
-      "id": "ace2d6d345e0",
-      "title": "Obituary: James P. Cole",
-      "summary": "DAYTON - James P. Cole, 65, of Cole Farm Road, passed away Tuesday, March 10, 2026, at Maine Medical Center following ...",
-      "url": "https://www.pressherald.com/2026/03/18/obituaryjames-p-cole-2/",
-      "source": "Portland Press Herald",
+      "id": "66fcb848aae9",
+      "title": "Request to modify pier hints at plans for long-dormant Bucksport riverfront site",
+      "summary": "The former oil terminal north of the town center off River Road, known as Sprague North and called the \u201ccoal pocket\u201d locally, has been vacant for decades.",
+      "url": "https://www.bangordailynews.com/2026/03/19/hancock/hancock-government/bucksport-industrial-property-revival-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "753c87e62c0a",
+      "title": "2026 St. Patrick\u2019s Parade: \u2019It\u2019s like a giant party\u2019 as annual Road Race returns to Holyoke",
+      "summary": "The Saturday event also boasts a 2-mile walking option and a free Kid's Fun Run.",
+      "url": "https://www.masslive.com/living/2026/03/2026-st-patricks-parade-its-like-a-giant-party-as-annual-road-race-returns-to-holyoke.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e627df138e50",
+      "title": "Celtics star shares unusual development about team after Warriors rout",
+      "summary": "Jaylen Brown reflected on this Celtics team Wednesday night after hitting a franchise milestone.",
+      "url": "https://www.masslive.com/celtics/2026/03/celtics-star-shares-unusual-development-about-team-after-warriors-rout.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "36176a233eca",
+      "title": "Climate Matters: Land conservation a critical weapon in climate change fight",
+      "summary": "Every year, globally millions of acres of forests are cleared for development, grazing or crops. When this happens, most of the organic carbon stored in the original forest is released into the atmosphere.",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/climate-matters-land-conservation-a-critical-weapon-in-climate-change-fight.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-19",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b73ab6d8b9b5",
+      "title": "With double duty at MassDOT and the T, Phil Eng is living out a leadership experiment",
+      "summary": "In the span of a few hours last week, Phil Eng switched roles in front of lawmakers without ever leaving the witness table.",
+      "url": "https://www.masslive.com/politics/2026/03/with-double-duty-at-massdot-and-the-t-phil-eng-is-living-out-a-leadership-experiment.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-19",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1690085c15d1",
+      "title": "Restaurant co-owned by former Patriots player named best vegan spot in America",
+      "summary": "A Cambridge restaurant co-owned by a former Patriots player just got some huge national praise.",
+      "url": "https://www.masslive.com/destinations/2026/03/restaurant-co-owned-by-former-patriots-player-named-best-vegan-spot-in-america.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-19",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "92be976d4560",
+      "title": "Acadia building new path to protect pedestrians at Cadillac Mountain summit",
+      "summary": "The project is part of a broader push to invest more in pedestrian accessibility at Acadia, which draws in visitors from across the nation.",
+      "url": "https://www.bangordailynews.com/2026/03/18/hancock/hancock-environment/acadia-cadillac-mountain-trail-accessibility-n6hjn1me0n/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-03-18",
       "category": "news",
@@ -25810,20 +25852,6 @@
       ]
     },
     {
-      "id": "6f0cf5830ce3",
-      "title": "How much does electricity cost at CT\u2019s municipal utilities?",
-      "summary": "Eversource and UI provide electricity to most of CT \u2014 except the 77,000 or so customers of municipal-owned utilities. But who pays the most?",
-      "url": "https://ctmirror.org/2026/03/16/ct-municipal-electric-utilities-cost/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-03-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "26e0a75db59d",
       "title": "How fossil fuel disruptions lead to booms in solar and batteries",
       "summary": "The war in the Middle East has roiled oil and gas markets. Under a severe scenario, with more strikes on energy infrastructure, Bloomberg Economics estimates that crude could reach $108 a barrel, adding a significant boost to inflation and even\u2026",
@@ -25861,7 +25889,7 @@
       "raw": 10117077518.274609,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-18T11:39:43.308787",
+      "updated": "2026-03-19T11:25:57.702642",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25971,24 +25999,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-18T11:39:43.308787"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-19T11:25:57.702642"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-18T11:39:43.308787"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-19T11:25:57.702642"
     },
     "migration": {
       "score": 5.0,
@@ -25998,17 +26026,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-18T11:39:43.308787"
+      "updated": "2026-03-19T11:25:57.702642"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-18T11:39:43.308787"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-19T11:25:57.702642"
     },
     "input_cost": {
       "score": 9.5,
@@ -26025,8 +26053,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-18T11:39:43.308787"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-19T11:25:57.702642"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26035,19 +26063,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-18T11:39:43.308787"
+      "updated": "2026-03-19T11:25:57.702642"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-18T11:39:43.308787"
+    "calculated_at": "2026-03-19T11:25:57.702642"
   }
 }

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-03-20T11:25:29.086870Z",
+  "generated": "2026-03-21T11:13:20.204424Z",
   "summary": {
-    "total_opportunities": 1224,
+    "total_opportunities": 1222,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 41,
+      "VT": 42,
       "NH": 58,
       "ME": 169,
-      "MA": 599,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 1,
-      "funding": 2
+      "news": 5,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25698,15 +25698,57 @@
   ],
   "news": [
     {
-      "id": "6f4239dfd458",
-      "title": "South Portland sewer rates expected to increase by 22% in each of the next 3 years",
-      "summary": "The average customer's current annual bill will go from about $670 a year to roughly $1,100 in 2029 as the city takes on overdue wastewater infrastructure improvements.",
-      "url": "https://www.pressherald.com/2026/03/19/south-portland-sewage-rates-expected-to-increase-by-22-in-each-of-the-next-3-years/",
-      "source": "Portland Press Herald",
+      "id": "69aebbe750a9",
+      "title": "Everything BC coach Greg Brown said about Bruins prospect James Hagens\u2019 future",
+      "summary": "BC coach Greg Brown was asked about James Hagens development and whether he was likely to turn pro.",
+      "url": "https://www.masslive.com/bruins/2026/03/everything-bc-coach-greg-brown-said-about-bruins-prospect-james-hagens-future.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-21",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6f25ef541bb4",
+      "title": "Emily Bridges: No one should have to choose between family and a paycheck",
+      "summary": "Without paid leave, Vermont workers facing health crises must choose between caring for loved ones and keeping their jobs.\nRead the story on VTDigger here:  Emily Bridges: No one should have to choose between family and a paycheck.",
+      "url": "https://vtdigger.org/2026/03/20/opinion-emily-bridges-no-one-should-have-to-choose-between-family-and-a-paycheck/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-03-20",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a16d6d56c3a5",
+      "title": "Road project will create long detour in Hancock County town",
+      "summary": "The roadwork aims to let the tide move freely under Route 175, improve fish and wildlife passage and help the road withstand storms.",
+      "url": "https://www.bangordailynews.com/2026/03/20/hancock/hancock-government/penobscot-route-175-closure/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-03-20",
-      "category": "funding",
-      "priority": "high",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "439759117f65",
+      "title": "NH\u2019s First Turtle Tunnels Aim To Save Their Lives on the Road",
+      "summary": "Turtles and salamanders just got some help crossing the roads of New Hampshire.",
+      "url": "https://indepthnh.org/2026/03/20/states-first-turtle-tunnels-aimed-at-saving-lives-on-the-road/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-03-20",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25724,20 +25766,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "26e0a75db59d",
-      "title": "How fossil fuel disruptions lead to booms in solar and batteries",
-      "summary": "The war in the Middle East has roiled oil and gas markets. Under a severe scenario, with more strikes on energy infrastructure, Bloomberg Economics estimates that crude could reach $108 a barrel, adding a significant boost to inflation and even\u2026",
-      "url": "https://www.unionleader.com/news/business/how-fossil-fuel-disruptions-lead-to-booms-in-solar-and-batteries/article_1d1d30ac-2cf9-405f-8641-0d3c1e8d367c.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-03-11",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25748,7 +25776,7 @@
       "raw": 10117077518.274609,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-20T11:25:28.376103",
+      "updated": "2026-03-21T11:13:13.554841",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25858,24 +25886,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-20T11:25:28.376103"
+      "score": 8.5,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 11144.10354945362,
+      "raw_display": "11,144 units/mo",
+      "yoy_change": 17.5,
+      "source": "FRED API",
+      "updated": "2026-03-21T11:13:13.554841"
     },
     "construction_spending": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-20T11:25:28.376103"
+      "raw": 142194.0,
+      "raw_display": "$142.2B SAAR",
+      "yoy_change": 0.6,
+      "source": "FRED API",
+      "updated": "2026-03-21T11:13:13.554841"
     },
     "migration": {
       "score": 5.0,
@@ -25885,35 +25913,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-20T11:25:28.376103"
+      "updated": "2026-03-21T11:13:13.554841"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-20T11:25:28.376103"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-21T11:13:13.554841"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.8,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.54 | Diesel $5.24",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.54,
+        "score": 8.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.24,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-20T11:25:28.376103"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-21T11:13:13.554841"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25922,19 +25950,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-20T11:25:28.376103"
+      "updated": "2026-03-21T11:13:13.554841"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-20T11:25:28.376103"
+    "calculated_at": "2026-03-21T11:13:13.554841"
   }
 }

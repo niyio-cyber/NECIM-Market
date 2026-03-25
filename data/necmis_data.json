@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-24T11:39:48.542241Z",
+  "generated": "2026-03-25T11:32:42.566998Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -11,7 +11,7 @@
       "VT": 45,
       "NH": 57,
       "ME": 170,
-      "MA": 600,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 8,
+      "news": 7,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -25698,26 +25698,26 @@
   ],
   "news": [
     {
-      "id": "78b4d35a27ce",
-      "title": "Letter: Vote for people who will stop Donald Trump",
-      "summary": "\u201cI feel ashamed that now my country is the one attacking without provocation and is the enemy of the law-abiding nations that once were our allies.\u201d",
-      "url": "https://www.bangordailynews.com/2026/03/24/opinion/letters/letter-vote-for-people-who-will-stop-donald-trump/",
+      "id": "9dc6323d6e85",
+      "title": "New outpatient clinic could close methadone gap in Ellsworth",
+      "summary": "Everest Recovery, which owns four opioid use treatment centers in Maine and Massachusetts, is set to open a site at 190 Bangor Road.",
+      "url": "https://www.bangordailynews.com/2026/03/25/hancock/hancock-health/new-methadone-clinic-ellsworth-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-03-24",
+      "date": "2026-03-25",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "a3cf932c0e9b",
-      "title": "Northport to vote on banning RV parks in response to controversial blueberry barren development",
-      "summary": "The 180-day moratorium would apply to new commercial campgrounds and RV resorts.",
-      "url": "https://www.bangordailynews.com/2026/03/23/midcoast/midcoast-government/northport-moratorium-blueberry-barren-rv-park/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "f39cf0b19580",
+      "title": "Alana Stevenson: In Vermont, it\u2019s easier to kill wildlife than to help it",
+      "summary": "State law allows wildlife to be trapped and killed under regulated methods, but restricts the public from caring for injured animals without permits.\nRead the story on VTDigger here:  Alana Stevenson: In Vermont, it\u2019s easier to kill wildlife than to help it.",
+      "url": "https://vtdigger.org/2026/03/24/opinion-alana-stevenson-in-vermont-its-easier-to-kill-wildlife-than-to-help-it/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-03-24",
       "category": "news",
       "priority": "medium",
@@ -25726,12 +25726,12 @@
       ]
     },
     {
-      "id": "d2e06a289349",
-      "title": "Asking Eric: My son and I found peace after years of distance. Here\u2019s what I learned",
-      "summary": "A father reflects on how he bridged the gap with his once-distant son and shares insights into overcoming control and ego to rekindle their relationship.",
-      "url": "https://www.masslive.com/advice/2026/03/asking-eric-my-son-and-i-found-peace-after-years-of-distance-heres-what-i-learned.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "eacde0a43d5e",
+      "title": "2 hit by car during emergency stop on snowy I-95 in Veazie",
+      "summary": "The crash involving three drivers started when an 18-year-old Bangor woman driving north went off the highway into the median.",
+      "url": "https://www.bangordailynews.com/2026/03/24/bangor/car-crash-i95-veazie-maine/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-03-24",
       "category": "news",
       "priority": "high",
@@ -25782,20 +25782,6 @@
       ]
     },
     {
-      "id": "6f25ef541bb4",
-      "title": "Emily Bridges: No one should have to choose between family and a paycheck",
-      "summary": "Without paid leave, Vermont workers facing health crises must choose between caring for loved ones and keeping their jobs.\nRead the story on VTDigger here:  Emily Bridges: No one should have to choose between family and a paycheck.",
-      "url": "https://vtdigger.org/2026/03/20/opinion-emily-bridges-no-one-should-have-to-choose-between-family-and-a-paycheck/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "271e403078c1",
       "title": "Two local developers in mix for I-95 service area redevelopment",
       "summary": "Two local developers have submitted proposals to transform the two liquor stores off Interstate 95 in Hampton into service areas after the process was put in place by Gov. Kelly Ayotte last fall when it appeared the liquor commission favored\u2026",
@@ -25815,10 +25801,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10117077518.274609,
+      "raw": 10115714661.39614,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-24T11:39:48.009075",
+      "updated": "2026-03-25T11:32:34.465536",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25859,7 +25845,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 370601400.0,
+            "weighted": 369843400.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25919,33 +25905,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3167281237.165102,
+          "baseline_time_weighted": 3166854577.2910104,
           "baseline_time_weighted_display": "$3.17B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10117077518.274609,
+          "scoring_value": 10115714661.39614,
           "scoring_value_display": "$10.12B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-24T11:39:48.009075"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-03-25T11:32:34.465536"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-24T11:39:48.009075"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-03-25T11:32:34.465536"
     },
     "migration": {
       "score": 5.0,
@@ -25955,35 +25941,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-24T11:39:48.009075"
+      "updated": "2026-03-25T11:32:34.465536"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-24T11:39:48.009075"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-25T11:32:34.465536"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.1,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.73 | Diesel $5.76",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.73,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.76,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-24T11:39:48.009075"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-25T11:32:34.465536"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25992,19 +25978,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-24T11:39:48.009075"
+      "updated": "2026-03-25T11:32:34.465536"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-24T11:39:48.009075"
+    "calculated_at": "2026-03-25T11:32:34.465536"
   }
 }

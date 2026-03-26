@@ -1,26 +1,26 @@
 {
-  "generated": "2026-03-25T11:36:27.246104Z",
+  "generated": "2026-03-26T11:40:24.689366Z",
   "summary": {
-    "total_opportunities": 1222,
+    "total_opportunities": 1220,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
-      "NH": 57,
-      "ME": 171,
+      "VT": 42,
+      "NH": 58,
+      "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 340,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1222,
-      "news": 8,
-      "funding": 0
+      "dot_letting": 1219,
+      "news": 5,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 268,
+          "count": 266,
           "value": 5895804498
         },
         "Pavement": {
@@ -46,7 +46,7 @@
           "value": 3310707894
         },
         "Safety": {
-          "count": 150,
+          "count": 149,
           "value": 1003218381
         },
         "Other": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 342,
+          "count": 339,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 3,
+            "count": 1,
             "value": 0
           },
           "Pavement": {
@@ -269,7 +269,7 @@
             "value": 0
           },
           "Safety": {
-            "count": 1,
+            "count": 0,
             "value": 0
           },
           "Other": {
@@ -18726,68 +18726,6 @@
       ]
     },
     {
-      "id": "ddb66136db5e",
-      "state": "CT",
-      "project_id": "0170-3760",
-      "description": "SPMO OF BRIDGE DECKS DISTRICTS 3 AND 4",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-03-25",
-      "fiscal_year": "FY2026",
-      "project_type": "Bridge",
-      "location": null,
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "c244125c263f",
-      "state": "CT",
-      "project_id": "0171-0519",
-      "description": "SPMO of Bridge Decks - District 1 (Combined Project)",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-03-25",
-      "fiscal_year": "FY2026",
-      "project_type": "Bridge",
-      "location": "ct 1",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "1cd801cb6c53",
-      "state": "CT",
-      "project_id": "0301-0520",
-      "description": "NEW HAVEN LINE POWER PROGRAM PHASE 1 - REPLACEMENT OF SIGNAL SUBSTATIONS in New Haven and Greenwich",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-03-25",
-      "fiscal_year": "FY2026",
-      "project_type": "Safety",
-      "location": "New Haven",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
       "id": "1e2881998d9a",
       "state": "CT",
       "project_id": "PROJECT",
@@ -25698,13 +25636,27 @@
   ],
   "news": [
     {
-      "id": "9e52eb7830d0",
-      "title": "Nirav Shah residency / Municipal deorganization / Bangor tiny home village",
-      "summary": "What we're talking about in Maine today.",
-      "url": "https://www.bangordailynews.com/2026/03/25/morning-update/maine-news-morning-update-march-25-2026/",
+      "id": "1a63869e91b3",
+      "title": "Best of Biddeford+Saco 2026",
+      "summary": "Nominate your favorite businesses starting Friday, March 27.",
+      "url": "https://www.pressherald.com/2026/03/25/best-of-biddefordsaco-2026/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-26",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6624efb597f4",
+      "title": "Graham Platner responds to Janet Mills\u2019 ad blitz at rural Maine town hall event",
+      "summary": "\u201cIf you believe in transformational politics, which I do, you have to be able to believe that people can transform,\" the Democratic candidate for U.S. Senate told more than 100 people packed into the East Millnocket municipal building.",
+      "url": "https://www.bangordailynews.com/2026/03/25/politics/elections/graham-platner-east-millinocket-town-hall/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-03-25",
+      "date": "2026-03-26",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25712,17 +25664,31 @@
       ]
     },
     {
-      "id": "9dc6323d6e85",
-      "title": "New outpatient clinic could close methadone gap in Ellsworth",
-      "summary": "Everest Recovery, which owns four opioid use treatment centers in Maine and Massachusetts, is set to open a site at 190 Bangor Road.",
-      "url": "https://www.bangordailynews.com/2026/03/25/hancock/hancock-health/new-methadone-clinic-ellsworth-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "6ecda3a6c7c5",
+      "title": "NH To Be 1st in Nation With 100 Percent Broadband; Boyle Confirmed, Boudman Sworn in",
+      "summary": "New Hampshire is on track to be the first state in the nation to have 100 percent broadband coverage of all homes and will soon also be able to distribute more than $32 million in home electrification and appliance rebates, the governor and Executive Council learned, Wednesday.",
+      "url": "https://indepthnh.org/2026/03/25/nh-to-be-1st-in-nation-with-100-percent-broadband-boyle-confirmed-boudman-sworn-in/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-03-25",
-      "category": "news",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
+      ]
+    },
+    {
+      "id": "518526605585",
+      "title": "PURA gives final OK to sale of Aquarion Water Co.",
+      "summary": "Regulators gave final approval to the Aquarion Water Company deal, paving the way for CT's largest water utility to become a public entity.",
+      "url": "https://ctmirror.org/2026/03/25/pura-approves-aquarion-sale-public-water-utility/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-03-25",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "hma"
       ]
     },
     {
@@ -25733,62 +25699,6 @@
       "source": "VTDigger",
       "state": "VT",
       "date": "2026-03-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "eacde0a43d5e",
-      "title": "2 hit by car during emergency stop on snowy I-95 in Veazie",
-      "summary": "The crash involving three drivers started when an 18-year-old Bangor woman driving north went off the highway into the median.",
-      "url": "https://www.bangordailynews.com/2026/03/24/bangor/car-crash-i95-veazie-maine/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-03-24",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "705ec59317f8",
-      "title": "Royalton residents chafe at costs of ongoing Foxstand Bridge closure",
-      "summary": "Come April, the Foxstand Bridge will have been closed for two years, and it isn\u2019t slated to reopen until fall of 2028. \nRead the story on VTDigger here:  Royalton residents chafe at costs of ongoing Foxstand Bridge closure.",
-      "url": "https://vtdigger.org/2026/03/23/royalton-residents-chafe-at-costs-of-ongoing-foxstand-bridge-closure/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-23",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "125ac22e3204",
-      "title": "Towns ban heavy rigs from muddy roads",
-      "summary": "Towns are posting weight restrictions on certain town-owned roads, targeting large trucks and commercial vehicles.\nRead the story on VTDigger here:  Towns ban heavy rigs from muddy roads.",
-      "url": "https://vtdigger.org/2026/03/22/towns-ban-heavy-rigs-from-muddy-roads/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-22",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bbace794b39f",
-      "title": "As warming climate brings bears out of hibernation earlier, preventing backyards from becoming buffets is key to coexistence",
-      "summary": "A growing bear population, human development and a warming climate are changing bears\u2019 behavior in Vermont. \nRead the story on VTDigger here:  As warming climate brings bears out of hibernation earlier, preventing backyards from becoming buffets is key to coexistence.",
-      "url": "https://vtdigger.org/2026/03/22/as-warming-climate-brings-bears-out-of-hibernation-earlier-preventing-backyards-from-becoming-buffets-is-key-to-coexistence/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-22",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25818,7 +25728,7 @@
       "raw": 10115714661.39614,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-25T11:36:26.534500",
+      "updated": "2026-03-26T11:40:15.483802",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25928,24 +25838,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-25T11:36:26.534500"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-03-26T11:40:15.483802"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-25T11:36:26.534500"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-03-26T11:40:15.483802"
     },
     "migration": {
       "score": 5.0,
@@ -25955,35 +25865,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-25T11:36:26.534500"
+      "updated": "2026-03-26T11:40:15.483802"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-25T11:36:26.534500"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-26T11:40:15.483802"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.1,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.73 | Diesel $5.76",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.73,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.76,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-25T11:36:26.534500"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-26T11:40:15.483802"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25992,19 +25902,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-25T11:36:26.534500"
+      "updated": "2026-03-26T11:40:15.483802"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-25T11:36:26.534500"
+    "calculated_at": "2026-03-26T11:40:15.483802"
   }
 }

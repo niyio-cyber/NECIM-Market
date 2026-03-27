@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T11:43:29.593384Z",
+  "generated": "2026-03-27T11:33:17.132691Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
+      "VT": 41,
       "NH": 58,
       "ME": 170,
-      "MA": 599,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 340,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1219,
-      "news": 5,
+      "news": 7,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25636,29 +25636,72 @@
   ],
   "news": [
     {
-      "id": "1a63869e91b3",
-      "title": "Best of Biddeford+Saco 2026",
-      "summary": "Nominate your favorite businesses starting Friday, March 27.",
-      "url": "https://www.pressherald.com/2026/03/25/best-of-biddefordsaco-2026/",
-      "source": "Portland Press Herald",
+      "id": "275201e49da9",
+      "title": "The Iran war is causing road paving\u00a0problems in Maine",
+      "summary": "As the spring re-paving season approaches, state and local governments will need to weigh when or whether to pave their roads.",
+      "url": "https://www.bangordailynews.com/2026/03/27/politics/state-politics/iran-war-paving-delay-maine-roads-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-03-26",
+      "date": "2026-03-27",
       "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
+      "id": "f1444ef31a37",
+      "title": "Springfield Water & Sewer needs \u2018thousands\u2019 of soil samples to get handle on PCB contamination at treatment plant site",
+      "summary": "The tests will target a soil pile at the construction site that measures roughly 2,500 cubic yards, according to documents on file at the MassDEP.",
+      "url": "https://www.masslive.com/westernmass/2026/03/springfield-water-sewer-needs-thousands-of-soil-samples-to-get-handle-on-pcb-contamination-at-treatment-plant-site.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "d15e681d8fcc",
+      "title": "Planning Board approves modifying Crepes Tea House permit to use outbuilding for dining",
+      "summary": "After nine months and numerous public hearings, the Southwick Planning Board unanimously approved modifying the special permit allowing Crepes Tea House to use one of three outbuildings on its property with conditions for outdoor dining.",
+      "url": "https://www.masslive.com/westfieldnews/2026/03/planning-board-approves-modifying-crepes-tea-house-permit-to-use-outbuilding-for-dining.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-27",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "6624efb597f4",
-      "title": "Graham Platner responds to Janet Mills\u2019 ad blitz at rural Maine town hall event",
-      "summary": "\u201cIf you believe in transformational politics, which I do, you have to be able to believe that people can transform,\" the Democratic candidate for U.S. Senate told more than 100 people packed into the East Millnocket municipal building.",
-      "url": "https://www.bangordailynews.com/2026/03/25/politics/elections/graham-platner-east-millinocket-town-hall/",
+      "id": "09a6d90dd544",
+      "title": "State senate rejects bill to establish direct state oversight of probate judges",
+      "summary": "Maine\u2019s judicial branch, which oversees and operates the state court system, is not permitted to remove elected judges from office.",
+      "url": "https://www.bangordailynews.com/2026/03/26/hancock/hancock-police-courts/state-rejects-bill-probate-judge-oversight/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-03-26",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0c5bf05f6345",
+      "title": "Cook and Grow program helps Bridgeport youth build healthy habits",
+      "summary": "The program uses cooking and gardening to address fast food diets, limited nutrition knowledge and a need for life skills in Bridgeport\u2019s youth.",
+      "url": "https://ctmirror.org/2026/03/26/cook-and-grow-program-bridgeport/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-03-26",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25692,20 +25735,6 @@
       ]
     },
     {
-      "id": "f39cf0b19580",
-      "title": "Alana Stevenson: In Vermont, it\u2019s easier to kill wildlife than to help it",
-      "summary": "State law allows wildlife to be trapped and killed under regulated methods, but restricts the public from caring for injured animals without permits.\nRead the story on VTDigger here:  Alana Stevenson: In Vermont, it\u2019s easier to kill wildlife than to help it.",
-      "url": "https://vtdigger.org/2026/03/24/opinion-alana-stevenson-in-vermont-its-easier-to-kill-wildlife-than-to-help-it/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "271e403078c1",
       "title": "Two local developers in mix for I-95 service area redevelopment",
       "summary": "Two local developers have submitted proposals to transform the two liquor stores off Interstate 95 in Hampton into service areas after the process was put in place by Gov. Kelly Ayotte last fall when it appeared the liquor commission favored\u2026",
@@ -25728,7 +25757,7 @@
       "raw": 10115714661.39614,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-26T11:43:29.332295",
+      "updated": "2026-03-27T11:33:10.026677",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25838,24 +25867,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-26T11:43:29.332295"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-03-27T11:33:10.026677"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-26T11:43:29.332295"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-03-27T11:33:10.026677"
     },
     "migration": {
       "score": 5.0,
@@ -25865,35 +25894,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-26T11:43:29.332295"
+      "updated": "2026-03-27T11:33:10.026677"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-26T11:43:29.332295"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-27T11:33:10.026677"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.1,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.73 | Diesel $5.76",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.73,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.76,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-26T11:43:29.332295"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-27T11:33:10.026677"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25902,19 +25931,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-26T11:43:29.332295"
+      "updated": "2026-03-27T11:33:10.026677"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-26T11:43:29.332295"
+    "calculated_at": "2026-03-27T11:33:10.026677"
   }
 }

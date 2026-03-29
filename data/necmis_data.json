@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-28T11:21:41.944091Z",
+  "generated": "2026-03-29T11:18:39.972374Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -9,17 +9,17 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 41,
-      "NH": 57,
-      "ME": 171,
-      "MA": 601,
+      "NH": 56,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 340,
+      "CT": 339,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1219,
-      "news": 6,
+      "news": 2,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25636,13 +25636,13 @@
   ],
   "news": [
     {
-      "id": "27360c6ebac6",
-      "title": "Cooper Flagg scores 24 as Mavericks snap five-game skid",
-      "summary": "Flagg adds four steals for Dallas, which had dropped seven of its last last games on the road.",
-      "url": "https://www.pressherald.com/2026/03/28/cooper-flagg-scores-24-as-mavericks-snap-five-game-skid/",
+      "id": "cec1e43aad6d",
+      "title": "Maine\u2019s juvenile offenders and at-risk youth have been cast aside again | Opinion",
+      "summary": "The repurposing of the Long Creek Youth Development Center is stalled once again. What is stopping Maine legislators from being the force to invest in our youth?",
+      "url": "https://www.pressherald.com/2026/03/29/maines-juvenile-offenders-and-at-risk-youth-have-been-set-aside-yet-again-opinion/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-03-28",
+      "date": "2026-03-29",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25650,14 +25650,14 @@
       ]
     },
     {
-      "id": "ee5cd06828cc",
-      "title": "3 of the best spots to get an iced coffee in Biddeford",
-      "summary": "Stop into these cafes to get your caffeine on your next trip to Maine's 'hottest' city, no matter what the weather's like.",
-      "url": "https://www.pressherald.com/2026/03/28/3-of-the-best-spots-to-get-an-iced-coffee-in-biddeford/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-28",
-      "category": "news",
+      "id": "046092addf70",
+      "title": "Cambridge salary database: What every city employee made in 2025",
+      "summary": "Ten Cambridge city employees earned $300,000 or more. Here's who.",
+      "url": "https://www.masslive.com/news/2026/03/cambridge-salary-database-what-every-city-employee-made-in-2025.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-03-29",
+      "category": "funding",
       "priority": "high",
       "business_lines": [
         "highway"
@@ -25676,62 +25676,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "b407d8b89caf",
-      "title": "Brutal Mass. winter leaves Springfield riddled with potholes. What to do about it",
-      "summary": "After a brutal winter season, potholes are back across Massachusetts. Here's why winter wreaks havoc on the roads and what you can do to help.",
-      "url": "https://www.masslive.com/westernmass/2026/03/brutal-mass-winter-leaves-springfield-riddled-with-potholes-what-to-do-about-it.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2666a890aa0e",
-      "title": "Worcester parents demand safer crosswalk across road where teen was killed in 2024",
-      "summary": "The street has experienced pedestrian accidents before and a city councilor wants to put a traffic light to slow down traffic.",
-      "url": "https://www.masslive.com/centralmass/2026/03/worcester-parents-demand-safer-crosswalk-across-road-where-teen-was-killed-in-2024.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-03-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0c5bf05f6345",
-      "title": "Cook and Grow program helps Bridgeport youth build healthy habits",
-      "summary": "The program uses cooking and gardening to address fast food diets, limited nutrition knowledge and a need for life skills in Bridgeport\u2019s youth.",
-      "url": "https://ctmirror.org/2026/03/26/cook-and-grow-program-bridgeport/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-03-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6ecda3a6c7c5",
-      "title": "NH To Be 1st in Nation With 100 Percent Broadband; Boyle Confirmed, Boudman Sworn in",
-      "summary": "New Hampshire is on track to be the first state in the nation to have 100 percent broadband coverage of all homes and will soon also be able to distribute more than $32 million in home electrification and appliance rebates, the governor and Executive Council learned, Wednesday.",
-      "url": "https://indepthnh.org/2026/03/25/nh-to-be-1st-in-nation-with-100-percent-broadband-boyle-confirmed-boudman-sworn-in/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-03-25",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25742,7 +25686,7 @@
       "raw": 10115714661.39614,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-28T11:21:41.783520",
+      "updated": "2026-03-29T11:18:31.515723",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25852,24 +25796,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-28T11:21:41.783520"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-03-29T11:18:31.515723"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-28T11:21:41.783520"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-03-29T11:18:31.515723"
     },
     "migration": {
       "score": 5.0,
@@ -25879,35 +25823,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-28T11:21:41.783520"
+      "updated": "2026-03-29T11:18:31.515723"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-28T11:21:41.783520"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-29T11:18:31.515723"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.1,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.73 | Diesel $5.76",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.73,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.76,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-28T11:21:41.783520"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-29T11:18:31.515723"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25916,19 +25860,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-28T11:21:41.783520"
+      "updated": "2026-03-29T11:18:31.515723"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-28T11:21:41.783520"
+    "calculated_at": "2026-03-29T11:18:31.515723"
   }
 }

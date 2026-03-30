@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-29T11:22:32.889606Z",
+  "generated": "2026-03-30T11:44:38.660403Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 41,
-      "NH": 56,
-      "ME": 170,
-      "MA": 600,
+      "NH": 58,
+      "ME": 173,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 339,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1219,
-      "news": 2,
+      "news": 6,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25636,12 +25636,68 @@
   ],
   "news": [
     {
-      "id": "cec1e43aad6d",
-      "title": "Maine\u2019s juvenile offenders and at-risk youth have been cast aside again | Opinion",
-      "summary": "The repurposing of the Long Creek Youth Development Center is stalled once again. What is stopping Maine legislators from being the force to invest in our youth?",
-      "url": "https://www.pressherald.com/2026/03/29/maines-juvenile-offenders-and-at-risk-youth-have-been-set-aside-yet-again-opinion/",
-      "source": "Portland Press Herald",
+      "id": "f981b3932178",
+      "title": "These are some of Maine\u2019s most expensive upcoming road projects",
+      "summary": "The state will spend $4.5 billion in road improvements from now through 2028, according to its latest three-year work plan.",
+      "url": "https://www.bangordailynews.com/2026/03/30/aroostook/maines-most-expensive-upcoming-road-projects-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
+      "date": "2026-03-30",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fded6479a83e",
+      "title": "Controversy follows Bangor housing developer\u00a0as she plans next project",
+      "summary": "The Maine Woods became one of Bangor's most controversial developments, over concerns that neighbors say have come true in the years since.",
+      "url": "https://www.bangordailynews.com/2026/03/30/business/business-housing/controversy-bangor-housing-developer-emily-ellis-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c742ee244f27",
+      "title": "Data center moratorium would stop Jay mill redevelopment",
+      "summary": "\u201cOur Jay project has little in common with these enormous projects and is, in fact, the antithesis of such hyperscaler projects. \u201d",
+      "url": "https://www.bangordailynews.com/2026/03/30/opinion/opinion-contributor/data-center-moratorium-would-stop-jay-mill-redevelopment/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f38909cd6580",
+      "title": "Belfast plans to have rules ready for recreational marijuana stores\u00a0this year",
+      "summary": "Maine voters legalized recreational marijuana in 2016. But municipalities have to opt-in to allow local recreational sales.",
+      "url": "https://www.bangordailynews.com/2026/03/30/midcoast/midcoast-government/belfast-recreational-marijuana-rules-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-03-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cbbbb222c62b",
+      "title": "Londonderry planning officials ponder an orchard eatery plan",
+      "summary": "There are still questions needing answers as Londonderry Planning Board members continue to ponder a proposed farm-to-table restaurant plan that could operate at Mack\u2019s Apples on Mammoth Road.",
+      "url": "https://www.unionleader.com/news/business/londonderry-planning-officials-ponder-an-orchard-eatery-plan/article_9f046fe5-6eef-4168-9f95-512b4a791d11.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-03-29",
       "category": "news",
       "priority": "medium",
@@ -25650,27 +25706,27 @@
       ]
     },
     {
-      "id": "046092addf70",
-      "title": "Cambridge salary database: What every city employee made in 2025",
-      "summary": "Ten Cambridge city employees earned $300,000 or more. Here's who.",
-      "url": "https://www.masslive.com/news/2026/03/cambridge-salary-database-what-every-city-employee-made-in-2025.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "7618a2ceafb7",
+      "title": "Stay Work Play NH announces the 2026 Rising Stars Leadership Cohort",
+      "summary": "Stay Work Play New Hampshire is proud to announce the 2026 Rising Stars Leadership Program Cohort, spotlighting some of New Hampshire\u2019s most promising young professionals across industries, including health care, finance, media, housing, education, energy, and economic development.",
+      "url": "https://www.unionleader.com/news/business/stay-work-play-nh-announces-the-2026-rising-stars-leadership-cohort/article_6b1ef1aa-125d-46bf-bdbb-aa430c09079b.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-03-29",
-      "category": "funding",
-      "priority": "high",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "82139e9c10bf",
-      "title": "Major League pitcher from a small Maine town took \u2018interesting\u2019 road back to the Twins",
-      "summary": "\u201cI had several options to sign a minor league deal but, at the end of the day, I was real comfortable with the Twins,\u201d said Cody Laweryson of Moscow.",
-      "url": "https://www.bangordailynews.com/2026/03/28/sports/professional-baseball/cody-laweryson-twins-pitcher-maine-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "cec1e43aad6d",
+      "title": "Maine\u2019s juvenile offenders and at-risk youth have been cast aside again | Opinion",
+      "summary": "The repurposing of the Long Creek Youth Development Center is stalled once again. What is stopping Maine legislators from being the force to invest in our youth?",
+      "url": "https://www.pressherald.com/2026/03/29/maines-juvenile-offenders-and-at-risk-youth-have-been-set-aside-yet-again-opinion/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-03-28",
+      "date": "2026-03-29",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25686,7 +25742,7 @@
       "raw": 10115714661.39614,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-29T11:22:32.485935",
+      "updated": "2026-03-30T11:44:27.043986",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25796,24 +25852,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-29T11:22:32.485935"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-03-30T11:44:27.043986"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-29T11:22:32.485935"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-03-30T11:44:27.043986"
     },
     "migration": {
       "score": 5.0,
@@ -25823,35 +25879,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-29T11:22:32.485935"
+      "updated": "2026-03-30T11:44:27.043986"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-29T11:22:32.485935"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-30T11:44:27.043986"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.1,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.73 | Diesel $5.76",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.73,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.76,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-29T11:22:32.485935"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-30T11:44:27.043986"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25860,19 +25916,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-29T11:22:32.485935"
+      "updated": "2026-03-30T11:44:27.043986"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-29T11:22:32.485935"
+    "calculated_at": "2026-03-30T11:44:27.043986"
   }
 }

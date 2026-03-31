@@ -1,26 +1,26 @@
 {
-  "generated": "2026-03-30T11:50:28.221900Z",
+  "generated": "2026-03-31T11:38:52.440058Z",
   "summary": {
-    "total_opportunities": 1220,
+    "total_opportunities": 1221,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 41,
-      "NH": 58,
+      "VT": 42,
+      "NH": 60,
       "ME": 173,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 339,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1219,
-      "news": 6,
-      "funding": 1
+      "news": 10,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25636,13 +25636,27 @@
   ],
   "news": [
     {
-      "id": "f981b3932178",
-      "title": "These are some of Maine\u2019s most expensive upcoming road projects",
-      "summary": "The state will spend $4.5 billion in road improvements from now through 2028, according to its latest three-year work plan.",
-      "url": "https://www.bangordailynews.com/2026/03/30/aroostook/maines-most-expensive-upcoming-road-projects-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "af7c402d0bdb",
+      "title": "Susan Collins should start to bridge the divide | Letter",
+      "summary": "Susan Collins says that she is tired of the divisiveness in our politics. The senator doesn\u2019t seem to realize that she is largely to blame for that. Not because of her positions, but because of her lack of clarity and forthrightness. Why does Collins never stand up, join with like-minded Republicans",
+      "url": "https://www.pressherald.com/2026/03/31/susan-collins-should-start-to-bridge-the-divide-letter/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-03-30",
+      "date": "2026-03-31",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fff8c5759bdc",
+      "title": "How Maine\u2019s elite private colleges sold Wabanaki land to bankroll early construction",
+      "summary": "Tribes were stripped of millions of acres. Some of that ended up in the hands of Bowdoin and Colby colleges.",
+      "url": "https://www.pressherald.com/2026/03/31/how-maines-elite-private-colleges-sold-wabanaki-land-to-bankroll-early-construction/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-31",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -25650,12 +25664,55 @@
       ]
     },
     {
-      "id": "fded6479a83e",
-      "title": "Controversy follows Bangor housing developer\u00a0as she plans next project",
-      "summary": "The Maine Woods became one of Bangor's most controversial developments, over concerns that neighbors say have come true in the years since.",
-      "url": "https://www.bangordailynews.com/2026/03/30/business/business-housing/controversy-bangor-housing-developer-emily-ellis-joam40zk0w/",
+      "id": "26e0b833e120",
+      "title": "Obituary: Jeff Gilpatric",
+      "summary": "SCARBOROUGH - Somewhere out there, a curvy road with smooth pavement, sunshine, and the smell of the deep earth is putting ...",
+      "url": "https://www.pressherald.com/2026/03/31/obituaryjeff-gilpatric-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-31",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
+      "id": "955712f9d9be",
+      "title": "Saco unveils $39 million municipal budget, a 10.6% increase from this year",
+      "summary": "The proposal was presented to the City Council on Monday night.",
+      "url": "https://www.pressherald.com/2026/03/30/saco-unveils-39-million-municipal-budget-a-10-6-increase-from-this-year/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-03-31",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "86e3deece1f3",
+      "title": "Lawmakers must fund child care solutions to solve Maine\u2019s workforce crisis",
+      "summary": "\u201cFor many families, child care is the infrastructure that makes entering the workforce possible.\u201d",
+      "url": "https://www.bangordailynews.com/2026/03/31/opinion/opinion-contributor/lawmakers-must-fund-child-care-solutions-to-solve-maines-workforce-crisis-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
+      "date": "2026-03-31",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "aa9c233c7569",
+      "title": "Building an economy where everyone participates and belongs: Supported employment initiatives for Vermonters with disabilities enhance lives, strengthen communities and build the economy",
+      "summary": "Employment and career development supports offered by Developmental Disability Services providers such as Champlain Community Services, and others in Vermont Care Partners\u2019 statewide network, empower Vermonters with intellectual and developmental disabilities succeed in, and help build, Vermont\u2019s c",
+      "url": "https://vtdigger.org/2026/03/30/building-an-economy-where-everyone-participates-and-belongs-supported-employment-initiatives-for-vermonters-with-disabilities-enhance-lives-strengthen-communities-and-build-the-economy/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-03-30",
       "category": "news",
       "priority": "medium",
@@ -25664,12 +25721,40 @@
       ]
     },
     {
-      "id": "c742ee244f27",
-      "title": "Data center moratorium would stop Jay mill redevelopment",
-      "summary": "\u201cOur Jay project has little in common with these enormous projects and is, in fact, the antithesis of such hyperscaler projects. \u201d",
-      "url": "https://www.bangordailynews.com/2026/03/30/opinion/opinion-contributor/data-center-moratorium-would-stop-jay-mill-redevelopment/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "dcabf67b6a7b",
+      "title": "US paves way for private assets to be included in 401(k) retirement plans",
+      "summary": "The Trump administration on Monday issued a long-awaited proposed rule to open up retirement plans to alternative assets, paving the way for private equity and cryptocurrencies to be added to 401(k) accounts.",
+      "url": "https://www.unionleader.com/news/business/us-paves-way-for-private-assets-to-be-included-in-401-k-retirement-plans/article_17dc1416-d183-5a72-84d3-883515624538.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-03-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "547cab37de2c",
+      "title": "New Report On NH Transportation Infrastructure Needs Fuels Sen. Watters\u2019 Bill",
+      "summary": "To keep New Hampshire driving its economy forward, its 16,269 miles of local and state roads and 2,549 bridges need to be improved and maintained.",
+      "url": "https://indepthnh.org/2026/03/30/new-report-on-nh-transportation-infrastructure-needs-fuels-sen-watters-bill/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-03-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5072df371f19",
+      "title": "The CT Sun is leaving. The sale has raised deeper questions.",
+      "summary": "As the Sun and other sports teams depart for larger markets, concerns have grown that CT broadly lacks appeal for major league franchises.",
+      "url": "https://ctmirror.org/2026/03/30/ct-sun-sale-houston-comets/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-03-30",
       "category": "news",
       "priority": "medium",
@@ -25678,15 +25763,15 @@
       ]
     },
     {
-      "id": "f38909cd6580",
-      "title": "Belfast plans to have rules ready for recreational marijuana stores\u00a0this year",
-      "summary": "Maine voters legalized recreational marijuana in 2016. But municipalities have to opt-in to allow local recreational sales.",
-      "url": "https://www.bangordailynews.com/2026/03/30/midcoast/midcoast-government/belfast-recreational-marijuana-rules-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "e4483a5b1e81",
+      "title": "Fast food workers at CT service plazas secure landmark union contract",
+      "summary": "A first-of-its-kind labor agreement will cover hundreds of fast food workers at 23 Connecticut highway service plazas.",
+      "url": "https://ctmirror.org/2026/03/30/highway-service-plaza-workers-union-contract-seiu/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-03-30",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25718,20 +25803,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "cec1e43aad6d",
-      "title": "Maine\u2019s juvenile offenders and at-risk youth have been cast aside again | Opinion",
-      "summary": "The repurposing of the Long Creek Youth Development Center is stalled once again. What is stopping Maine legislators from being the force to invest in our youth?",
-      "url": "https://www.pressherald.com/2026/03/29/maines-juvenile-offenders-and-at-risk-youth-have-been-set-aside-yet-again-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-03-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25742,7 +25813,7 @@
       "raw": 10115714661.39614,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-03-30T11:50:27.530958",
+      "updated": "2026-03-31T11:38:46.709561",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25852,24 +25923,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-30T11:50:27.530958"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-03-31T11:38:46.709561"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-30T11:50:27.530958"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-03-31T11:38:46.709561"
     },
     "migration": {
       "score": 5.0,
@@ -25879,35 +25950,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-03-30T11:50:27.530958"
+      "updated": "2026-03-31T11:38:46.709561"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-03-30T11:50:27.530958"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-03-31T11:38:46.709561"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.1,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.73 | Diesel $5.76",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.73,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.76,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-03-30T11:50:27.530958"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-03-31T11:38:46.709561"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25916,19 +25987,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-03-30T11:50:27.530958"
+      "updated": "2026-03-31T11:38:46.709561"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-03-30T11:50:27.530958"
+    "calculated_at": "2026-03-31T11:38:46.709561"
   }
 }

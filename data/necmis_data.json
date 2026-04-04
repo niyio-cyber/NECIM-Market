@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-03T11:32:49.525235Z",
+  "generated": "2026-04-04T11:19:36.636938Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
-      "NH": 61,
-      "ME": 169,
-      "MA": 600,
+      "VT": 42,
+      "NH": 59,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 339,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1219,
-      "news": 8,
+      "news": 5,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25636,85 +25636,43 @@
   ],
   "news": [
     {
-      "id": "a875c80f2372",
-      "title": "More secretive than Wonka? Mysteries abound at the biggest candy factory in Mass.",
-      "summary": "The only candy factory in the state that is still mass producing candy on a national scale is just outside of Central Square in Cambridge. And change is afoot in its executive ranks.",
-      "url": "https://www.masslive.com/boston/2026/04/more-secretive-than-wonka-mysteries-abound-at-the-biggest-candy-factory-in-mass.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "3a714b59dc8e",
+      "title": "5 of the best bakeries in Biddeford and Saco for a sweet (or savory) treat",
+      "summary": "Need a birthday cake or simply a pick-me-up? Here's our favorite spots to find some baked goods.",
+      "url": "https://www.pressherald.com/2026/04/04/5-of-the-best-bakeries-in-biddeford-and-saco-for-a-sweet-or-savory-treat/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-04-04",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5b9a18d08743",
+      "title": "US Forest Service cuts research positions at local lab",
+      "summary": "The U.S. Forest Service announced national reorganization plans Thursday, cutting its research and development headquarters at a University of Vermont laboratory.\nRead the story on VTDigger here:  US Forest Service cuts research positions at local lab.",
+      "url": "https://vtdigger.org/2026/04/03/us-forest-service-cuts-research-positions-at-local-lab/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-04-03",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "c97274cd4d29",
-      "title": "Federal appeals court rejects HUD bid to cut funding for Maine housing programs",
-      "summary": "The change was part of the Trump administration\u2019s plan\u00a0to divert funding toward programs with work requirements or mandatory mental health and substance use treatment.",
-      "url": "https://www.bangordailynews.com/2026/04/02/state/state-housing/appeals-court-rejects-hud-cuts/",
+      "id": "a5d607d3efb8",
+      "title": "Here\u2019s what UMaine\u2019s basketball court will look like in new $80 million arena",
+      "summary": "The facility is expected to be completed and in use during the 2027-28 basketball season. Construction began this past fall.",
+      "url": "https://www.bangordailynews.com/2026/04/03/sports/college/umaine-basketball-80-million-remodel/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-04-02",
+      "date": "2026-04-03",
       "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7f53a6c6cb1d",
-      "title": "Jeremy Baker: We\u2019re exporting our best asset \u2014 Vermont\u2019s own kids",
-      "summary": "Vermont is aging, its housing crisis is deepening, and its construction workforce is shrinking. Expanding career technical education could help turn the tide.\nRead the story on VTDigger here:  Jeremy Baker: We\u2019re exporting our best asset \u2014 Vermont\u2019s own kids.",
-      "url": "https://vtdigger.org/2026/04/01/opinion-jeremy-baker-were-exporting-our-best-asset-vermonts-own-kids/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-01",
-      "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9dcd45ab5255",
-      "title": "Whiskey mogul plans to donate Poultney college campus to a Christian group to \u2018revive Western Civilization\u2019",
-      "summary": "Poultney residents have shifted focus to investments in outdoor recreation, tourism and other revitalization efforts after the Green Mountain College campus redevelopment stalled.\nRead the story on VTDigger here:  Whiskey mogul plans to donate Poultney college campus to a Christian group to \u2018revive",
-      "url": "https://vtdigger.org/2026/03/31/whiskey-mogul-plans-to-donate-poultney-college-campus-to-a-christian-group-to-revive-western-civilization/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-03-31",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "158d806c606a",
-      "title": "Goodlander Hears Concerns: Failing Infrastructure, Housing, Rising Costs in Littleton",
-      "summary": "On Tuesday, U.S. Rep. Maggie Goodlander, D-NH, visited with community leaders and small-business owners to hear concerns and consider what she can do in Washington to help.",
-      "url": "https://indepthnh.org/2026/03/31/goodlander-hears-littletons-concerns-over-failing-infrastructure-housing-and-rising-costs/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-03-31",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4c30cf2d0b6c",
-      "title": "No Opposition To Bill To Hike Toll Rates for Non-NH EZ Pass Owners",
-      "summary": "NH-EZ Pass owners could keep their 30 percent discount with no toll increase but the state would charge an increase to all other users under a bill heard in the House Public Works and Highways Committee Tuesday without a single opponent speaking during a public hearing.",
-      "url": "https://indepthnh.org/2026/03/31/no-opposition-to-bill-to-hike-toll-rates-for-non-nh-ez-pass-owners/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-03-31",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25770,7 +25728,7 @@
       "raw": 10129928911.271898,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-04-03T11:32:48.787831",
+      "updated": "2026-04-04T11:19:28.816278",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25880,24 +25838,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-03T11:32:48.787831"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-04T11:19:28.816278"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-03T11:32:48.787831"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-04T11:19:28.816278"
     },
     "migration": {
       "score": 5.0,
@@ -25907,35 +25865,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-03T11:32:48.787831"
+      "updated": "2026-04-04T11:19:28.816278"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-03T11:32:48.787831"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-04-04T11:19:28.816278"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.9,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.79 | Diesel $5.83",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.79,
+        "score": 7.5,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.83,
+        "score": 6.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-03T11:32:48.787831"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-04T11:19:28.816278"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25944,19 +25902,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-03T11:32:48.787831"
+      "updated": "2026-04-04T11:19:28.816278"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-03T11:32:48.787831"
+    "calculated_at": "2026-04-04T11:19:28.816278"
   }
 }

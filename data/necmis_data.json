@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T11:45:57.183538Z",
+  "generated": "2026-04-08T11:43:54.435260Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -8,19 +8,19 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
+      "VT": 45,
       "NH": 57,
-      "ME": 169,
-      "MA": 599,
+      "ME": 168,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1219,
-      "news": 7,
-      "funding": 1
+      "dot_letting": 1220,
+      "news": 8,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -50,7 +50,7 @@
           "value": 1003218381
         },
         "Other": {
-          "count": 86,
+          "count": 87,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 339,
+          "count": 340,
           "value": 0
         },
         "PA": {
@@ -273,7 +273,7 @@
             "value": 0
           },
           "Other": {
-            "count": 1,
+            "count": 2,
             "value": 0
           }
         },
@@ -18726,6 +18726,26 @@
       ]
     },
     {
+      "id": "cd0330f176d8",
+      "state": "CT",
+      "project_id": "0300-0215",
+      "description": "NETWORK INFRASTRUCTURE UPGRADE FOR SECURITY SYSTEMS - PHASE 4  METRO-NORTH RAILROAD - NEW HAVEN MAIN LINE",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-05-06",
+      "fiscal_year": "FY2026",
+      "project_type": "Other",
+      "location": "New Haven",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "1e2881998d9a",
       "state": "CT",
       "project_id": "PROJECT",
@@ -25636,6 +25656,48 @@
   ],
   "news": [
     {
+      "id": "7ae550c4a775",
+      "title": "Westfield Theatre Group presents Broadway classic \u201842nd Street\u2019",
+      "summary": "The Westfield Theatre Group is proud to announce its spring 2026 production of the beloved Broadway musical 42nd Street, bringing dazzling choreography, classic songs, and old-fashioned showbiz charm to the stage of the Westfield Woman\u2019s Club, 28 Court St. on Fridays and Saturdays, April 10 - 25 at",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/westfield-theatre-group-presents-broadway-classic-42nd-street.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a1249438dfc7",
+      "title": "Once billed as the future of Town Meeting, the \u2018Brattleboro Experiment\u2019 is ending",
+      "summary": "The state\u2019s only municipality to elect members to the equivalent of a local legislature is retiring the tradition after 65 years. What comes next is sparking its own debate.\nRead the story on VTDigger here:  Once billed as the future of Town Meeting, the \u2018Brattleboro Experiment\u2019 is ending.",
+      "url": "https://vtdigger.org/2026/04/07/once-billed-as-the-future-of-town-meeting-the-brattleboro-experiment-is-ending/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-04-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6da0d4bc58c4",
+      "title": "Vermont won permission to use Medicaid funds for homelessness. It\u2019s sitting unused.",
+      "summary": "\u201cThe idea of letting this opportunity go to waste when it is there right now is unconscionable, in my opinion,\u201d said Jessica Radbord, a senior staff attorney at the American Civil Liberties Union of Vermont.\nRead the story on VTDigger here:  Vermont won permission to use Medicaid funds for homeless",
+      "url": "https://vtdigger.org/2026/04/07/vermont-won-permission-to-use-medicaid-funds-for-homelessness-its-sitting-unused/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-04-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "74ba9945d08c",
       "title": "Aly Richards, former head of Let\u2019s Grow Kids, launches bid for Vermont governor",
       "summary": "\u201cYou\u2019ve got to ask yourself: Are you better off now than you were 10 years ago?\u201d the Democrat said, pointing to when Gov. Phil Scott was first elected. \u201cIt\u2019s time for a new approach.\u201d\nRead the story on VTDigger here:  Aly Richards, former head of Let\u2019s Grow Kids, launches bid for Vermont governor.",
@@ -25656,20 +25718,6 @@
       "url": "https://vtdigger.org/2026/04/06/jackson-dam-removal-advanced-in-hardwick/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-04-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2a668b2f1c5a",
-      "title": "Casco Bay Bridge will close to large vessels Wednesday",
-      "summary": "The Maine Department of Transportation will be conducting routine maintenance between 9 a.m. and 3 p.m.",
-      "url": "https://www.pressherald.com/2026/04/06/casco-bay-bridge-will-close-to-large-vessels-wednesday/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-04-06",
       "category": "news",
       "priority": "high",
@@ -25718,34 +25766,6 @@
       "business_lines": [
         "aggregates"
       ]
-    },
-    {
-      "id": "24cefa946072",
-      "title": "No Mortgage. No Utilities. No Regrets.",
-      "summary": "Lorrie Sarafin is a van nomad in the American Southwest, one of the estimated three million Americans who live on the road. This is her story.",
-      "url": "https://ctmirror.org/2026/04/05/no-mortgage-no-utilities-no-regrets/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-05",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5b9a18d08743",
-      "title": "US Forest Service cuts research positions at local lab",
-      "summary": "The U.S. Forest Service announced national reorganization plans Thursday, cutting its research and development headquarters at a University of Vermont laboratory.\nRead the story on VTDigger here:  US Forest Service cuts research positions at local lab.",
-      "url": "https://vtdigger.org/2026/04/03/us-forest-service-cuts-research-positions-at-local-lab/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-03",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25753,10 +25773,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10129928911.271898,
+      "raw": 10125459172.221928,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-04-07T11:45:57.028338",
+      "updated": "2026-04-08T11:43:47.901425",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25797,7 +25817,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 368170200.0,
+            "weighted": 365684200.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25857,33 +25877,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3171304531.0301757,
+          "baseline_time_weighted": 3169905221.733353,
           "baseline_time_weighted_display": "$3.17B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10129928911.271898,
+          "scoring_value": 10125459172.221928,
           "scoring_value_display": "$10.13B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-07T11:45:57.028338"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-08T11:43:47.901425"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-07T11:45:57.028338"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-08T11:43:47.901425"
     },
     "migration": {
       "score": 5.0,
@@ -25893,35 +25913,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-07T11:45:57.028338"
+      "updated": "2026-04-08T11:43:47.901425"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-07T11:45:57.028338"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-04-08T11:43:47.901425"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.94 | Diesel $6.00",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.94,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.0,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-07T11:45:57.028338"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-08T11:43:47.901425"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25930,19 +25950,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-07T11:45:57.028338"
+      "updated": "2026-04-08T11:43:47.901425"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-07T11:45:57.028338"
+    "calculated_at": "2026-04-08T11:43:47.901425"
   }
 }

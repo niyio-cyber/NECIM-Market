@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-08T11:46:54.415164Z",
+  "generated": "2026-04-09T11:42:46.394420Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
+      "VT": 43,
       "NH": 57,
-      "ME": 168,
-      "MA": 600,
+      "ME": 170,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 340,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1220,
-      "news": 8,
+      "news": 7,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -25656,12 +25656,54 @@
   ],
   "news": [
     {
-      "id": "7ae550c4a775",
-      "title": "Westfield Theatre Group presents Broadway classic \u201842nd Street\u2019",
-      "summary": "The Westfield Theatre Group is proud to announce its spring 2026 production of the beloved Broadway musical 42nd Street, bringing dazzling choreography, classic songs, and old-fashioned showbiz charm to the stage of the Westfield Woman\u2019s Club, 28 Court St. on Fridays and Saturdays, April 10 - 25 at",
-      "url": "https://www.masslive.com/westfieldnews/2026/04/westfield-theatre-group-presents-broadway-classic-42nd-street.html",
+      "id": "617b714cded2",
+      "title": "Vital to invest in Lincoln County infrastructure\u00a0| Opinion",
+      "summary": "Several key projects are included in the Maine Department of Transportation's recently released three-year work plan.",
+      "url": "https://www.pressherald.com/2026/04/09/the-importance-of-investing-in-lincoln-countys-essential-infrastructure-opinion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-04-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1168df3835ca",
+      "title": "Westfield School Committee voices formal opposition to reentry facility",
+      "summary": "At the end of the April 6 regular meeting of the Westfield School Committee, member Kick Sullivan made a motion for formal opposition to the establishment of a 40-bed reentry facility by the Community Resources for Justice CRJ at the proposed location of 182-184 Southampton Road.",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/westfield-school-committee-voices-formal-opposition-to-reentry-facility.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-04-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bb0ab1ef0b43",
+      "title": "Past clearing of property at 159 Berkshire Ave. to be scrutinized",
+      "summary": "When the Southwick Planning Board approved the minor modification of a stormwater permit for the property at 159 Berkshire Ave., the board chair hoped the years-long dispute between the town and property owner was over. \nIt\u2019s not.",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/past-clearing-of-property-at-159-berkshire-ave-to-be-scrutinized.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "612c7400025c",
+      "title": "Fix for gray area in Maine\u2019s modular housing industry dies, leaving uncertainty",
+      "summary": "A bill to fix an \u2018arcane\u2019 code issue in modular housing development failed in committee last month, putting nearly 250 units in limbo.",
+      "url": "https://www.bangordailynews.com/2026/04/08/business/business-housing/fix-for-gray-area-in-maines-modular-housing-industry-dies-leaving-uncertainty/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-04-08",
       "category": "news",
       "priority": "medium",
@@ -25698,62 +25740,6 @@
       ]
     },
     {
-      "id": "74ba9945d08c",
-      "title": "Aly Richards, former head of Let\u2019s Grow Kids, launches bid for Vermont governor",
-      "summary": "\u201cYou\u2019ve got to ask yourself: Are you better off now than you were 10 years ago?\u201d the Democrat said, pointing to when Gov. Phil Scott was first elected. \u201cIt\u2019s time for a new approach.\u201d\nRead the story on VTDigger here:  Aly Richards, former head of Let\u2019s Grow Kids, launches bid for Vermont governor.",
-      "url": "https://vtdigger.org/2026/04/06/aly-richards-former-head-of-lets-grow-kids-launches-bid-for-vermont-governor/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "aadce45f3fd0",
-      "title": "Jackson Dam removal advanced in Hardwick",
-      "summary": "The dam is classified as a Significant Hazard due to the property losses and damage to downstream infrastructure that would result from its failure.\nRead the story on VTDigger here:  Jackson Dam removal advanced in Hardwick.",
-      "url": "https://vtdigger.org/2026/04/06/jackson-dam-removal-advanced-in-hardwick/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "03c49a0a7791",
-      "title": "Himes at odds with some Dems, constituents over surveillance law",
-      "summary": "FISA's 702 program allows the government to monitor non-U.S. persons abroad without warrants. Americans' records can get swept up.",
-      "url": "https://ctmirror.org/2026/04/06/himes-at-odds-with-some-dems-constituents-over-surveillance-law/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "312ce7553e4b",
-      "title": "Freeman Houses preserve history of Bridgeport\u2019s Black community",
-      "summary": "The Mary and Eliza Freeman Houses are all that's left of Little Liberia, a once-vibrant community of free Black and Native American people.",
-      "url": "https://ctmirror.org/2026/04/06/bridgeport-freeman-houses-history-black-native-american/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "4b90151c74d7",
       "title": "Brookstone Builders, Inc. completes State of NH renovation project",
       "summary": "Brookstone Builders, Inc., construction managers and general contractors headquartered in Manchester, New Hampshire, recently announced that it has completed a renovation project for the State of New Hampshire.",
@@ -25776,7 +25762,7 @@
       "raw": 10125459172.221928,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-04-08T11:46:54.238529",
+      "updated": "2026-04-09T11:42:40.532812",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25886,24 +25872,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-08T11:46:54.238529"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-09T11:42:40.532812"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-08T11:46:54.238529"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-09T11:42:40.532812"
     },
     "migration": {
       "score": 5.0,
@@ -25913,35 +25899,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-08T11:46:54.238529"
+      "updated": "2026-04-09T11:42:40.532812"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.7,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-08T11:46:54.238529"
+      "raw": 957599.9999999999,
+      "raw_display": "958K workers",
+      "yoy_change": -1.4,
+      "source": "FRED API",
+      "updated": "2026-04-09T11:42:40.532812"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.94 | Diesel $6.00",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.94,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.0,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-08T11:46:54.238529"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-09T11:42:40.532812"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25950,19 +25936,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-08T11:46:54.238529"
+      "updated": "2026-04-09T11:42:40.532812"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-08T11:46:54.238529"
+    "calculated_at": "2026-04-09T11:42:40.532812"
   }
 }

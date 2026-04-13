@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-12T11:28:01.635393Z",
+  "generated": "2026-04-13T11:57:57.579702Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
+      "VT": 46,
       "NH": 58,
-      "ME": 172,
-      "MA": 599,
+      "ME": 170,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1220,
-      "news": 11,
+      "news": 12,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -25656,12 +25656,55 @@
   ],
   "news": [
     {
-      "id": "e1bb3a30826a",
-      "title": "Development in South Portland\u2019s Eastern Waterfront should go ahead | Opinion",
-      "summary": "Concerns about VOC emissions from petroleum storage tanks seem to go against the existing evidence.",
-      "url": "https://www.pressherald.com/2026/04/12/development-in-south-portlands-eastern-waterfront-should-go-ahead-opinion/",
+      "id": "eb18e7604846",
+      "title": "Celtics reserves come up big in season-ending victory",
+      "summary": "Boston sits eight players with the postseason on deck and sends Orlando into a road play-in tournament game.",
+      "url": "https://www.pressherald.com/2026/04/12/celtics-reserves-come-up-big-in-season-ending-victory/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-04-13",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "1f597bc27650",
+      "title": "Southwick municipal elections will have seven contested seats",
+      "summary": "The ballot for the May municipal election in Southwick has been finalized by the Town Clerk and for the first time in 17 years, there will be seven contested seats.",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/southwick-municipal-elections-will-have-seven-contested-seats.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-13",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "adea0962dc81",
+      "title": "What ICE arrest data in Mass. reveals about who's really being targeted under Trump",
+      "summary": "A surge of ICE arrests in Massachusetts shows nearly a fivefold increase from the last months of Joe Biden's presidency.",
+      "url": "https://www.masslive.com/news/2026/04/nearly-half-of-ice-arrests-in-massachusetts-involve-immigrants-with-no-criminal-record.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-13",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7beb3cd4a1bd",
+      "title": "Anatomy of a forest project",
+      "summary": "A Dummerston harvest reveals how science, markets, and long experience shape what neighbors see on Black Mountain Road.\nRead the story on VTDigger here:  Anatomy of a forest project.",
+      "url": "https://vtdigger.org/2026/04/12/anatomy-of-a-forest-project/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-04-12",
       "category": "news",
       "priority": "medium",
@@ -25670,25 +25713,25 @@
       ]
     },
     {
-      "id": "876e4f4a870b",
-      "title": "Why some officials are worried about Maine\u2019s drinking water infrastructure",
-      "summary": "Many of the state's water mains are nearing the end of their lives, but it can be difficult to predict where or when the next one will fail.",
-      "url": "https://www.pressherald.com/2026/04/12/why-some-officials-are-worried-about-maines-drinking-water-infrastructure/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "b4237a3907a7",
+      "title": "Steeplegate Mall redevelopment in Concord 'has returned,' city manager says",
+      "summary": "The redevelopment of the Steeplegate Mall in Concord is still in the works after multiple lawsuits stalled the massive project, according to city officials.",
+      "url": "https://www.unionleader.com/news/business/steeplegate-mall-redevelopment-in-concord-has-returned-city-manager-says/article_a0a87d92-4668-45c0-8d73-18717793d9e1.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-04-12",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "e996279b3164",
-      "title": "Inland Hospital closed a year ago. Waterville\u2019s wounds are still fresh",
-      "summary": "'There is a hospital 20 miles down the road,' the president of the Mid-Maine Homeless Shelter said, 'and it might as well be in Portland.'",
-      "url": "https://www.pressherald.com/2026/04/12/inland-hospital-closed-a-year-ago-watervilles-wounds-are-still-fresh/",
-      "source": "Portland Press Herald",
+      "id": "a1c7f160a644",
+      "title": "MaineHealth announces relocation of its headquarters to Westbrook administrative offices",
+      "summary": "The move from Portland to Westbrook is part of a larger plan to reduce overhead so as to continue to provide high-quality, affordable care for patients and the broader community. MaineHealth announced that it plans to move its headquarters from Portland to an office building it owns in Westbrook, a",
+      "url": "https://www.bangordailynews.com/2026/04/12/bdn-maine/mainehealth-announces-relocation-of-its-headquarters-to-westbrook-administrative-offices/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-04-12",
       "category": "news",
@@ -25699,7 +25742,7 @@
     },
     {
       "id": "8489a48d7f47",
-      "title": "Search Paused For Person Who Fell from Railroad Track Bridge Into Merrimack River",
+      "title": "Update: Man\u2019s Body Recovered from Merrimack River After Fall From Railroad Track Bridge",
       "summary": "At 7:08 p.m. Saturday, April 11, 2026, the State Police Communications Unit received a report that an individual fell into the Merrimack River from the railroad track bridge in the area of Riverside Street and Main Street in Hooksett.",
       "url": "https://indepthnh.org/2026/04/11/search-paused-for-person-who-fell-from-railroad-track-bridge-into-merrimack-river/",
       "source": "InDepthNH",
@@ -25718,20 +25761,6 @@
       "url": "https://vtdigger.org/2026/04/11/concert-for-a-cause-global-ensembles-debut-concert-to-pave-the-way-for-more/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-04-11",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a22150b459b3",
-      "title": "Maine has a school construction plan. It lacks a way to pay for it.",
-      "summary": "\u201cMaine now has what it has not had in decades: a comprehensive, statewide assessment of its school infrastructure crisis.\u201d",
-      "url": "https://www.bangordailynews.com/2026/04/11/opinion/opinion-contributor/maine-has-school-construction-plan-lacks-way-to-pay-for-it-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
       "date": "2026-04-11",
       "category": "news",
       "priority": "high",
@@ -25822,20 +25851,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "4b90151c74d7",
-      "title": "Brookstone Builders, Inc. completes State of NH renovation project",
-      "summary": "Brookstone Builders, Inc., construction managers and general contractors headquartered in Manchester, New Hampshire, recently announced that it has completed a renovation project for the State of New Hampshire.",
-      "url": "https://www.unionleader.com/news/business/brookstone-builders-inc-completes-state-of-nh-renovation-project/article_e2a542c5-1a54-4100-a549-fccd4cd8bdca.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-04-05",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
     }
   ],
   "market_health": {
@@ -25846,7 +25861,7 @@
       "raw": 10125459172.221928,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-04-12T11:28:01.491730",
+      "updated": "2026-04-13T11:57:50.175428",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25956,24 +25971,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-12T11:28:01.491730"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-13T11:57:50.175428"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-12T11:28:01.491730"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-13T11:57:50.175428"
     },
     "migration": {
       "score": 5.0,
@@ -25983,35 +25998,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-12T11:28:01.491730"
+      "updated": "2026-04-13T11:57:50.175428"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-12T11:28:01.491730"
+      "raw": 934599.9999999999,
+      "raw_display": "935K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-04-13T11:57:50.175428"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.94 | Diesel $6.00",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.94,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.0,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-12T11:28:01.491730"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-13T11:57:50.175428"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26020,19 +26035,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-12T11:28:01.491730"
+      "updated": "2026-04-13T11:57:50.175428"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-12T11:28:01.491730"
+    "calculated_at": "2026-04-13T11:57:50.175428"
   }
 }

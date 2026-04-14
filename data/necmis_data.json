@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-13T11:59:08.321094Z",
+  "generated": "2026-04-14T11:47:17.367730Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -8,13 +8,13 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 46,
-      "NH": 58,
-      "ME": 170,
-      "MA": 601,
+      "VT": 45,
+      "NH": 59,
+      "ME": 172,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
@@ -18714,7 +18714,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-04-22",
+      "let_date": "2026-04-29",
       "fiscal_year": "FY2026",
       "project_type": "Pavement",
       "location": null,
@@ -25656,27 +25656,68 @@
   ],
   "news": [
     {
-      "id": "eb18e7604846",
-      "title": "Celtics reserves come up big in season-ending victory",
-      "summary": "Boston sits eight players with the postseason on deck and sends Orlando into a road play-in tournament game.",
-      "url": "https://www.pressherald.com/2026/04/12/celtics-reserves-come-up-big-in-season-ending-victory/",
-      "source": "Portland Press Herald",
+      "id": "b4cc258a4bdf",
+      "title": "How tariffs are driving up the cost of a 45-unit housing development in Maine",
+      "summary": "The Freeport project will likely cost more than an identical one under construction roughly 20 miles away.",
+      "url": "https://www.bangordailynews.com/2026/04/14/business/business-housing/tariffs-freeport-housing-development-cost-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-04-13",
+      "date": "2026-04-14",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway",
+        "highway"
+      ]
+    },
+    {
+      "id": "95e106493c34",
+      "title": "Bangor City Council passes ban on data centers",
+      "summary": "The freeze was proposed because city officials don\u2019t know how a data center would affect the city\u2019s infrastructure or resources.",
+      "url": "https://www.bangordailynews.com/2026/04/13/bangor/bangor-government/bangor-city-council-bans-data-centers/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-04-14",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b0d32a0e3f4f",
+      "title": "Caribou has a full-time code enforcement officer for first time in a year and a half",
+      "summary": "Tim St. Peter was most recently the deputy director of economic development in Presque Isle.",
+      "url": "https://www.bangordailynews.com/2026/04/13/aroostook/aroostook-government/caribou-hires-code-enforcement-officer/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-04-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
         "ready_mix"
       ]
     },
     {
-      "id": "1f597bc27650",
-      "title": "Southwick municipal elections will have seven contested seats",
-      "summary": "The ballot for the May municipal election in Southwick has been finalized by the Town Clerk and for the first time in 17 years, there will be seven contested seats.",
-      "url": "https://www.masslive.com/westfieldnews/2026/04/southwick-municipal-elections-will-have-seven-contested-seats.html",
+      "id": "e9c40a975961",
+      "title": "Westfield man sentenced to prison in connection with child\u2019s overdose",
+      "summary": "A Westfield man who was indicted by Superior Court grand jury in December of 2023 for three counts of permitting serious injury to a child and three counts of reckless endangerment of a child, pleaded guilty to the two serious injury charges and was sentenced to no less than three years in prison, a",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/westfield-man-sentenced-to-prison-in-connection-with-toddlers-overdose.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-04-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0e3899e62d49",
+      "title": "Big crowd at Brattleboro\u2019s return to open Town Meeting backs \u2018compromise\u2019 budget",
+      "summary": "Nearly 300 residents \u2014 twice the attendance of past sessions with elected members \u2014 aimed to balance spiraling municipal costs and people\u2019s shrinking ability to pay.\nRead the story on VTDigger here:  Big crowd at Brattleboro\u2019s return to open Town Meeting backs \u2018compromise\u2019 budget.",
+      "url": "https://vtdigger.org/2026/04/13/big-crowd-at-brattleboros-return-to-open-town-meeting-backs-compromise-budget/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-04-13",
       "category": "news",
       "priority": "medium",
@@ -25685,15 +25726,29 @@
       ]
     },
     {
-      "id": "adea0962dc81",
-      "title": "What ICE arrest data in Mass. reveals about who's really being targeted under Trump",
-      "summary": "A surge of ICE arrests in Massachusetts shows nearly a fivefold increase from the last months of Joe Biden's presidency.",
-      "url": "https://www.masslive.com/news/2026/04/nearly-half-of-ice-arrests-in-massachusetts-involve-immigrants-with-no-criminal-record.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "e0c85f7428a4",
+      "title": "Trump orders DoorDash to White House, trying to sell his tip tax cut",
+      "summary": "President Donald Trump had McDonald's food delivered to the Oval Office on Monday in a bid to promote his lowering of taxes on tips, and handed the driver what appeared to be a $100 bill when asked if White House\u2026",
+      "url": "https://www.unionleader.com/news/business/trump-orders-doordash-to-white-house-trying-to-sell-his-tip-tax-cut/article_1abe2cb6-bf2c-5efa-bdeb-f8da01227058.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-04-13",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8592c86d1b22",
+      "title": "Railroad employee was fired\u00a0after being injured in fiery Maine derailment, lawsuit says",
+      "summary": "Adam Jensen, a freight conductor who inspected the train and connected cars, is suing Central Maine & Quebec Railway US Inc.",
+      "url": "https://www.bangordailynews.com/2026/04/13/bangor/bangor-police-courts/railroad-derailment-injury-lawsuit/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-04-13",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25719,20 +25774,6 @@
       "url": "https://www.unionleader.com/news/business/steeplegate-mall-redevelopment-in-concord-has-returned-city-manager-says/article_a0a87d92-4668-45c0-8d73-18717793d9e1.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-04-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a1c7f160a644",
-      "title": "MaineHealth announces relocation of its headquarters to Westbrook administrative offices",
-      "summary": "The move from Portland to Westbrook is part of a larger plan to reduce overhead so as to continue to provide high-quality, affordable care for patients and the broader community. MaineHealth announced that it plans to move its headquarters from Portland to an office building it owns in Westbrook, a",
-      "url": "https://www.bangordailynews.com/2026/04/12/bdn-maine/mainehealth-announces-relocation-of-its-headquarters-to-westbrook-administrative-offices/",
-      "source": "Bangor Daily News",
-      "state": "ME",
       "date": "2026-04-12",
       "category": "news",
       "priority": "medium",
@@ -25809,48 +25850,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "89bf9b5afb32",
-      "title": "State denies permit for road to Essex site that Amazon has eyed",
-      "summary": "The Act 250 application did not include development on the part of the site where Amazon sought to build. But lack of an access road would be a second setback for the company\u2019s plans. \nRead the story on VTDigger here:  State denies permit for road to Essex site that Amazon has eyed.",
-      "url": "https://vtdigger.org/2026/04/09/state-denies-permit-for-road-to-essex-site-that-amazon-has-eyed/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1aefd5fc6f38",
-      "title": "State board recommends $10M in flood grants to Montpelier and Plainfield; Barre applications rejected",
-      "summary": "Country Club Road\u2019s infrastructure and Plainfield\u2019s 20-unit housing project could each get a major funding boost.\nRead the story on VTDigger here:  State board recommends $10M in flood grants to Montpelier and Plainfield; Barre applications rejected.",
-      "url": "https://vtdigger.org/2026/04/09/state-board-recommends-10m-in-flood-grants-to-montpelier-and-plainfield-barre-applications-rejected/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-09",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "021dfd9ec0be",
-      "title": "House passes bill that would end key revenue source for print news \u2014 legal notices",
-      "summary": "H.B. 5289 would eliminate the requirement that municipalities publish legal notices in print, requiring instead that they be posted online.",
-      "url": "https://ctmirror.org/2026/04/09/ct-lawmakers-nostalgic-newspapers-legal-notices/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25861,7 +25860,7 @@
       "raw": 10125459172.221928,
       "raw_display": "$10.13B",
       "source": "scraper_v2",
-      "updated": "2026-04-13T11:59:08.176104",
+      "updated": "2026-04-14T11:47:12.205102",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25971,24 +25970,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-13T11:59:08.176104"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-14T11:47:12.205102"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-13T11:59:08.176104"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-14T11:47:12.205102"
     },
     "migration": {
       "score": 5.0,
@@ -25998,35 +25997,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-13T11:59:08.176104"
+      "updated": "2026-04-14T11:47:12.205102"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-13T11:59:08.176104"
+      "raw": 934599.9999999999,
+      "raw_display": "935K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-04-14T11:47:12.205102"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.94 | Diesel $6.00",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.94,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.0,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-13T11:59:08.176104"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-14T11:47:12.205102"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26035,19 +26034,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-13T11:59:08.176104"
+      "updated": "2026-04-14T11:47:12.205102"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-13T11:59:08.176104"
+    "calculated_at": "2026-04-14T11:47:12.205102"
   }
 }

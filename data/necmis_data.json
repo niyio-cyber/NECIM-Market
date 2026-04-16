@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-15T11:51:01.673815Z",
+  "generated": "2026-04-16T11:48:16.102915Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -8,9 +8,9 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 41,
       "NH": 60,
-      "ME": 173,
+      "ME": 172,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1220,
-      "news": 10,
+      "news": 7,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -25656,73 +25656,73 @@
   ],
   "news": [
     {
-      "id": "1cbad8fb7626",
-      "title": "A lobster turf war is brewing in coastal Maine",
-      "summary": "A battle between a local co-op and a seafood conglomerate in Spruce Head has escalated from permit disputes to a floating blockade, testing the limits of the working waterfront.",
-      "url": "https://www.pressherald.com/2026/04/15/a-lobster-turf-war-is-brewing-in-coastal-maine/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-04-15",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "299648a9c25d",
-      "title": "Obituary: Gladys M. Beaulieu",
-      "summary": "BIDDEFORD - Gladys Beaulieu passed away peacefully on April 7, 2026, after 96 well-lived years.\n\nGladys was born on Nov. 19, 1929, ...",
-      "url": "https://www.pressherald.com/2026/04/15/obituarygladys-m-beaulieu-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-04-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bad5a4dec6a4",
-      "title": "Death Notice: Gladys M. Beaulieu",
-      "summary": "Beaulieu, Gladys M. 96, of Biddeford, April 7. ...",
-      "url": "https://www.pressherald.com/2026/04/15/obituarygladys-m-beaulieu/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-04-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "db24bc911926",
-      "title": "A mile of Acadia\u2019s Park Loop Road will be closed until mid-June",
-      "summary": "The entire road \u2014 including the closed section near Sieur de Monts \u2014 is expected to be open for Memorial Day weekend.",
-      "url": "https://www.bangordailynews.com/2026/04/14/hancock/hancock-culture/acadia-park-loop-road-closure/",
+      "id": "4ba2adfc9d37",
+      "title": "Plans to revive Bucksport\u00a0railroad delayed by complaints about the operator",
+      "summary": "A retired rail journalist suggested TransloadX is seeking the Maine lease to become classified as a railroad, changing oversight to the federal level and letting it duck regulations in Massachusetts.",
+      "url": "https://www.bangordailynews.com/2026/04/16/hancock/hancock-government/bucksport-railroad-lease-complaints-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-04-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "218dc123c054",
-      "title": "Maine\u2019s highest court \u2018gravely concerned\u2019 about proposed\u00a0federal ethics investigation rule",
-      "summary": "The rule would allow the DOJ to investigate ethics allegations against its own lawyers, without any transparency and while delaying state bar investigations.",
-      "url": "https://www.bangordailynews.com/2026/04/14/state/state-police-courts/maine-supreme-court-federal-ethics-investigation-concern/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-14",
+      "date": "2026-04-16",
       "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "277cb8eca5af",
+      "title": "What does the future hold for Biddeford public access television?",
+      "summary": "After the longtime director retired, the city is considering its options, which include investing in the channel, tightening its scope \u2014 or shutting it down completely.",
+      "url": "https://www.pressherald.com/2026/04/15/what-does-the-future-hold-for-biddeford-public-access-television/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-04-15",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "32400f04a5cb",
+      "title": "Roundabout coming to Cumberland intersection in 2028",
+      "summary": "The intersection of Blackstrap Road, Skillin Road and Route 26 currently has a blinking light and is considered a high-crash site.",
+      "url": "https://www.pressherald.com/2026/04/15/roundabout-coming-to-cumberland-intersection-in-2028/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-04-15",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
-        "aggregates"
+        "highway"
+      ]
+    },
+    {
+      "id": "5473a6d5c7e9",
+      "title": "Janet Mills holds low-key town hall at Bowdoin College as questions surround Senate\u00a0bid",
+      "summary": "Mills used the event to make the case that she's still Democrats' best chance to defeat Republican Sen. Susan Collins in November.",
+      "url": "https://www.bangordailynews.com/2026/04/15/politics/elections/janet-mills-town-hall-bowdoin-college/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-04-15",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "226bd115f66a",
+      "title": "Ayotte on Campus Carry Bill: \u2018Public Safety Is Paramount\u2019",
+      "summary": "Republican Gov. Kelly Ayotte weighed in with members of the media on the subjects of campus carry and open enrollment \u2013 along with commenting on nuclear power and broad-based taxes \u2013 on Wednesday after a long Executive Council meeting.",
+      "url": "https://indepthnh.org/2026/04/15/ayotte-on-campus-carry-bill-public-safety-is-paramount/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-04-15",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
       ]
     },
     {
@@ -25754,20 +25754,6 @@
       ]
     },
     {
-      "id": "0e3899e62d49",
-      "title": "Big crowd at Brattleboro\u2019s return to open Town Meeting backs \u2018compromise\u2019 budget",
-      "summary": "Nearly 300 residents \u2014 twice the attendance of past sessions with elected members \u2014 aimed to balance spiraling municipal costs and people\u2019s shrinking ability to pay.\nRead the story on VTDigger here:  Big crowd at Brattleboro\u2019s return to open Town Meeting backs \u2018compromise\u2019 budget.",
-      "url": "https://vtdigger.org/2026/04/13/big-crowd-at-brattleboros-return-to-open-town-meeting-backs-compromise-budget/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e0c85f7428a4",
       "title": "Trump orders DoorDash to White House, trying to sell his tip tax cut",
       "summary": "President Donald Trump had McDonald's food delivered to the Oval Office on Monday in a bid to promote his lowering of taxes on tips, and handed the driver what appeared to be a $100 bill when asked if White House\u2026",
@@ -25777,20 +25763,6 @@
       "date": "2026-04-13",
       "category": "funding",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7beb3cd4a1bd",
-      "title": "Anatomy of a forest project",
-      "summary": "A Dummerston harvest reveals how science, markets, and long experience shape what neighbors see on Black Mountain Road.\nRead the story on VTDigger here:  Anatomy of a forest project.",
-      "url": "https://vtdigger.org/2026/04/12/anatomy-of-a-forest-project/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-12",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25808,20 +25780,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "8489a48d7f47",
-      "title": "Update: Man\u2019s Body Recovered from Merrimack River After Fall From Railroad Track Bridge",
-      "summary": "At 7:08 p.m. Saturday, April 11, 2026, the State Police Communications Unit received a report that an individual fell into the Merrimack River from the railroad track bridge in the area of Riverside Street and Main Street in Hooksett.",
-      "url": "https://indepthnh.org/2026/04/11/search-paused-for-person-who-fell-from-railroad-track-bridge-into-merrimack-river/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-04-12",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25832,7 +25790,7 @@
       "raw": 10116407501.154686,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-04-15T11:51:01.490933",
+      "updated": "2026-04-16T11:48:09.485715",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25942,24 +25900,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-15T11:51:01.490933"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-16T11:48:09.485715"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-15T11:51:01.490933"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-16T11:48:09.485715"
     },
     "migration": {
       "score": 5.0,
@@ -25969,35 +25927,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-15T11:51:01.490933"
+      "updated": "2026-04-16T11:48:09.485715"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-15T11:51:01.490933"
+      "raw": 934599.9999999999,
+      "raw_display": "935K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-04-16T11:48:09.485715"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.96 | Diesel $6.02",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.96,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.02,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-15T11:51:01.490933"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-16T11:48:09.485715"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26006,19 +25964,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-15T11:51:01.490933"
+      "updated": "2026-04-16T11:48:09.485715"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-15T11:51:01.490933"
+    "calculated_at": "2026-04-16T11:48:09.485715"
   }
 }

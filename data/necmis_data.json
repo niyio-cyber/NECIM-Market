@@ -1,26 +1,26 @@
 {
-  "generated": "2026-04-20T11:59:17.519882Z",
+  "generated": "2026-04-21T11:51:43.871883Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1222,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
-      "NH": 60,
-      "ME": 171,
+      "VT": 43,
+      "NH": 59,
+      "ME": 169,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1220,
-      "news": 8,
-      "funding": 3
+      "news": 6,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -18734,7 +18734,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-04-29",
+      "let_date": "2026-05-06",
       "fiscal_year": "FY2026",
       "project_type": "Pavement",
       "location": null,
@@ -25656,13 +25656,13 @@
   ],
   "news": [
     {
-      "id": "4cfc2fa77248",
-      "title": "2012 photos capture Mumford & Sons performing at Portland\u2019s Eastern Prom",
-      "summary": "The Gentlemen of the Road Stopover featured a total of eight acts including St. Vincent and Dropkick Murphys.",
-      "url": "https://www.pressherald.com/2026/04/20/2012-photos-capture-mumford-sons-performing-at-portlands-eastern-prom/",
+      "id": "203d22ff863c",
+      "title": "Mills will hit the ground running in DC | Letter",
+      "summary": "Janet Mills should be Maine\u2019s next senator. Her age and experience are a plus.\u00a0Research and development, whether in health care or renewable energy, is on life support. Our environment is under attack. Our foreign policy, or lack thereof, is appalling.\u00a0 While I\u2019m sure Graham Platner is well intentio",
+      "url": "https://www.pressherald.com/2026/04/21/mills-will-hit-the-ground-running-in-dc-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-04-20",
+      "date": "2026-04-21",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25670,27 +25670,13 @@
       ]
     },
     {
-      "id": "12f1651cbc33",
-      "title": "Main Street in Bangor will be reduced to one-lane traffic this week",
-      "summary": "Starting Monday, a storm drain project will start, which will require an area near the YMCA construction site to be closed to traffic.",
-      "url": "https://www.bangordailynews.com/2026/04/20/bangor/main-street-bangor-one-lane-traffic/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "fd7679604dcc",
-      "title": "This mural-filled 1790 home used to be a Down East country club",
-      "summary": "Nestled on 3 acres off Jacksonville Road in East Machias, this 3-bedroom, 1-bathroom cape-style home\u00a0is for sale for $279,000.",
-      "url": "https://www.bangordailynews.com/2026/04/20/down-east/downeast-housing/1790-home-down-east-country-club-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-20",
+      "id": "996b7dd234d4",
+      "title": "Westfield Community Preservation Committee awards $200K to group home",
+      "summary": "At its April 9 meeting, the Community Preservation Committee voted unanimously in favor of a $200,000 grant to Berkshire County ARC for a group home for individuals with acquired brain injury (ABI) on Cabot Road.",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/westfield-community-preservation-committee-awards-200000-to-group-home.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-21",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -25698,17 +25684,17 @@
       ]
     },
     {
-      "id": "173300dc0a17",
-      "title": "Celtics reserves pass important test in blowout Game 1 76ers victory",
-      "summary": "The Celtics blew out the 76ers in Game 1, letting some of their reserves ease into what it's like to contribute in a playoff game.",
-      "url": "https://www.masslive.com/celtics/2026/04/celtics-reserves-pass-important-test-in-blowout-game-1-76ers-victory.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "9a21dd57e9b3",
+      "title": "A transgender Vermont veteran is riding the gravel cycling circuit. Cue filmmaker.",
+      "summary": "The new documentary \u201cClaim the Lane: Becoming Roxy,\u201d set for its state festival debut this week, focuses on the humanity behind the headlines.\nRead the story on VTDigger here:  A transgender Vermont veteran is riding the gravel cycling circuit. Cue filmmaker..",
+      "url": "https://vtdigger.org/2026/04/20/a-transgender-vermont-veteran-is-riding-the-gravel-cycling-circuit-cue-filmmaker/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-04-20",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
-        "highway"
+        "aggregates"
       ]
     },
     {
@@ -25768,20 +25754,6 @@
       ]
     },
     {
-      "id": "d308bb901acc",
-      "title": "Dems rewrite homeschool bill in bid to win over hesitant colleagues",
-      "summary": "The rewrite of House Bill 5468 would remove a requirement that homeschooling families submit evidence of instruction to the state each year.",
-      "url": "https://ctmirror.org/2026/04/17/ct-homeschooling-bill-rewrite/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-17",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "2e77ce8e8fff",
       "title": "Mixed-use plans move forward for old Cigna building in Hooksett",
       "summary": "Plans to transform the former Cigna Healthcare property on College Park Drive in Hooksett into a mixed-use development received key approvals by the Planning Board this month, and the look and feel of the project by Brady Sullivan Properties is\u2026",
@@ -25791,20 +25763,6 @@
       "date": "2026-04-16",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e0c85f7428a4",
-      "title": "Trump orders DoorDash to White House, trying to sell his tip tax cut",
-      "summary": "President Donald Trump had McDonald's food delivered to the Oval Office on Monday in a bid to promote his lowering of taxes on tips, and handed the driver what appeared to be a $100 bill when asked if White House\u2026",
-      "url": "https://www.unionleader.com/news/business/trump-orders-doordash-to-white-house-trying-to-sell-his-tip-tax-cut/article_1abe2cb6-bf2c-5efa-bdeb-f8da01227058.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-04-13",
-      "category": "funding",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25818,7 +25776,7 @@
       "raw": 10116407501.154686,
       "raw_display": "$10.12B",
       "source": "scraper_v2",
-      "updated": "2026-04-20T11:59:00.286833",
+      "updated": "2026-04-21T11:51:19.152863",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25935,7 +25893,7 @@
       "raw_display": "9,840 units/mo",
       "yoy_change": 19.5,
       "source": "FRED API",
-      "updated": "2026-04-20T11:59:00.286833"
+      "updated": "2026-04-21T11:51:19.152863"
     },
     "construction_spending": {
       "score": 5.6,
@@ -25945,7 +25903,7 @@
       "raw_display": "$149.5B SAAR",
       "yoy_change": 4.0,
       "source": "FRED API",
-      "updated": "2026-04-20T11:59:00.286833"
+      "updated": "2026-04-21T11:51:19.152863"
     },
     "migration": {
       "score": 5.0,
@@ -25955,7 +25913,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-20T11:59:00.286833"
+      "updated": "2026-04-21T11:51:19.152863"
     },
     "construction_employment": {
       "score": 5.2,
@@ -25965,7 +25923,7 @@
       "raw_display": "935K workers",
       "yoy_change": 0.9,
       "source": "FRED API",
-      "updated": "2026-04-20T11:59:00.286833"
+      "updated": "2026-04-21T11:51:19.152863"
     },
     "input_cost": {
       "score": 6.5,
@@ -25983,7 +25941,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-04-20T11:59:00.286833"
+      "updated": "2026-04-21T11:51:19.152863"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25992,7 +25950,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-20T11:59:00.286833"
+      "updated": "2026-04-21T11:51:19.152863"
     },
     "overall_score": 7.5,
     "overall_status": "stable",
@@ -26005,6 +25963,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-20T11:59:00.286833"
+    "calculated_at": "2026-04-21T11:51:19.152863"
   }
 }

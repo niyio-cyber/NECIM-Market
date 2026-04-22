@@ -1,16 +1,16 @@
 {
-  "generated": "2026-04-21T11:56:08.778359Z",
+  "generated": "2026-04-22T11:49:31.237864Z",
   "summary": {
-    "total_opportunities": 1222,
+    "total_opportunities": 1221,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 42,
       "NH": 59,
-      "ME": 169,
+      "ME": 170,
       "MA": 600,
       "NY": 1,
       "RI": 7,
@@ -18,9 +18,9 @@
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1220,
-      "news": 6,
-      "funding": 2
+      "dot_letting": 1221,
+      "news": 7,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,7 +42,7 @@
           "value": 5895804498
         },
         "Pavement": {
-          "count": 718,
+          "count": 719,
           "value": 3310707894
         },
         "Safety": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 340,
+          "count": 341,
           "value": 0
         },
         "PA": {
@@ -265,7 +265,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 338,
             "value": 0
           },
           "Safety": {
@@ -18706,6 +18706,27 @@
       ]
     },
     {
+      "id": "65495f7ed4e1",
+      "state": "CT",
+      "project_id": "0092-0702",
+      "description": "HIGHWAY SIGNS AND EXIT RENUMBERING ON I-91",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-05-20",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "I-91",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
       "id": "69370176ecc8",
       "state": "CT",
       "project_id": "0093-0251",
@@ -25656,13 +25677,27 @@
   ],
   "news": [
     {
-      "id": "203d22ff863c",
-      "title": "Mills will hit the ground running in DC | Letter",
-      "summary": "Janet Mills should be Maine\u2019s next senator. Her age and experience are a plus.\u00a0Research and development, whether in health care or renewable energy, is on life support. Our environment is under attack. Our foreign policy, or lack thereof, is appalling.\u00a0 While I\u2019m sure Graham Platner is well intentio",
-      "url": "https://www.pressherald.com/2026/04/21/mills-will-hit-the-ground-running-in-dc-letter/",
+      "id": "e72a39ec1623",
+      "title": "Pull back the curtain on Graham Platner | Letter",
+      "summary": "As a card-carrying Democrat for 62 years, I would have preferred an experienced alternative to Gov. Janet Mills to run against Sen. Susan Collins. I cannot support Graham Platner. Platner\u2019s bid for U.S. Senate is the product of a slick, well-financed marketing campaign that reminds me of a state fai",
+      "url": "https://www.pressherald.com/2026/04/22/pull-back-the-curtain-on-graham-platner-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7bda9aa689bd",
+      "title": "A Maine town decided not to raise the only flood-prone road off its peninsula",
+      "summary": "It\u2019s unclear what Surry might do there instead, if anything, or how first responders would reach residents if the road became dangerous.",
+      "url": "https://www.bangordailynews.com/2026/04/22/hancock/hancock-government/surry-maine-flood-prone-road-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-04-22",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25670,14 +25705,14 @@
       ]
     },
     {
-      "id": "996b7dd234d4",
-      "title": "Westfield Community Preservation Committee awards $200K to group home",
-      "summary": "At its April 9 meeting, the Community Preservation Committee voted unanimously in favor of a $200,000 grant to Berkshire County ARC for a group home for individuals with acquired brain injury (ABI) on Cabot Road.",
-      "url": "https://www.masslive.com/westfieldnews/2026/04/westfield-community-preservation-committee-awards-200000-to-group-home.html",
+      "id": "4468369bde97",
+      "title": "The Democrats\u2019 road to a US Senate majority runs through New England. Why that matters",
+      "summary": "Maine and New Hampshire Senate races have tightened as Trump's unpopularity and economic concerns reshape the midterm landscape for Republicans.",
+      "url": "https://www.masslive.com/politics/2026/04/the-democrats-road-to-a-us-senate-majority-runs-through-new-england-why-that-matters.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-04-21",
-      "category": "funding",
+      "date": "2026-04-22",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25726,34 +25761,6 @@
       ]
     },
     {
-      "id": "5f3da73ef232",
-      "title": "License plate fraud is costing CT towns a lot of money",
-      "summary": "Connecticut cars registered out of state are costing municipalities millions in property taxes each year. No one is trying to collect it.",
-      "url": "https://ctmirror.org/2026/04/19/license-plate-fraud-in-ct/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-19",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "32d85a73715e",
-      "title": "Rural Vermont showed up. And Montpelier listened.",
-      "summary": "Gradually, and then suddenly, Vermonters revealed a new model in the push to repeal Act 181\u2019s road rule and Tier 3.\nRead the story on VTDigger here:  Rural Vermont showed up. And Montpelier listened..",
-      "url": "https://vtdigger.org/2026/04/17/opinion-rural-vermont-showed-up-and-montpelier-listened/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-17",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "2e77ce8e8fff",
       "title": "Mixed-use plans move forward for old Cigna building in Hooksett",
       "summary": "Plans to transform the former Cigna Healthcare property on College Park Drive in Hooksett into a mixed-use development received key approvals by the Planning Board this month, and the look and feel of the project by Brady Sullivan Properties is\u2026",
@@ -25773,10 +25780,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10116407501.154686,
-      "raw_display": "$10.12B",
+      "raw": 10114059719.47671,
+      "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-04-21T11:55:38.346431",
+      "updated": "2026-04-22T11:49:23.595994",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25817,7 +25824,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 360649800.0,
+            "weighted": 359344000.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25877,33 +25884,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3167071479.6883326,
+          "baseline_time_weighted": 3166336476.4382157,
           "baseline_time_weighted_display": "$3.17B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10116407501.154686,
-          "scoring_value_display": "$10.12B"
+          "scoring_value": 10114059719.47671,
+          "scoring_value_display": "$10.11B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-21T11:55:38.346431"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-22T11:49:23.595994"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-21T11:55:38.346431"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-22T11:49:23.595994"
     },
     "migration": {
       "score": 5.0,
@@ -25913,35 +25920,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-21T11:55:38.346431"
+      "updated": "2026-04-22T11:49:23.595994"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-21T11:55:38.346431"
+      "raw": 934599.9999999999,
+      "raw_display": "935K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-04-22T11:49:23.595994"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.92 | Diesel $5.86",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.92,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.86,
+        "score": 5.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-21T11:55:38.346431"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-22T11:49:23.595994"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25950,19 +25957,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-21T11:55:38.346431"
+      "updated": "2026-04-22T11:49:23.595994"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-21T11:55:38.346431"
+    "calculated_at": "2026-04-22T11:49:23.595994"
   }
 }

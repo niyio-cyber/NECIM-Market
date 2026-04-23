@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-22T11:54:32.447165Z",
+  "generated": "2026-04-23T11:51:00.243372Z",
   "summary": {
-    "total_opportunities": 1221,
+    "total_opportunities": 1222,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 42,
-      "NH": 59,
-      "ME": 170,
-      "MA": 600,
+      "NH": 60,
+      "ME": 172,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 7,
-      "funding": 0
+      "news": 9,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25677,10 +25677,52 @@
   ],
   "news": [
     {
-      "id": "e72a39ec1623",
-      "title": "Pull back the curtain on Graham Platner | Letter",
-      "summary": "As a card-carrying Democrat for 62 years, I would have preferred an experienced alternative to Gov. Janet Mills to run against Sen. Susan Collins. I cannot support Graham Platner. Platner\u2019s bid for U.S. Senate is the product of a slick, well-financed marketing campaign that reminds me of a state fai",
-      "url": "https://www.pressherald.com/2026/04/22/pull-back-the-curtain-on-graham-platner-letter/",
+      "id": "3569d82f3ece",
+      "title": "A vision for a new Bangor Mall neighborhood",
+      "summary": "\u201cThis could act as a catalyst for the city of Bangor to develop a master plan for the entire area that could direct and organize future development to create a new, pedestrian-friendly neighborhood where people want to live, work and play.\u201d",
+      "url": "https://www.bangordailynews.com/2026/04/23/opinion/opinion-contributor/vision-new-bangor-mall-neighborhood-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-04-23",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "af75ebf17621",
+      "title": "Ex-Ports Director and His Supreme Court Justice Wife Maliciously Prosecuted, Complaint Alleges",
+      "summary": "James Fernald says former Ports Director Geno Marconi and his wife, retired Supreme Court Justice Anna Barbara Hantz Marconi, were the victims of malicious prosecution because Marconi's bosses on the Pease Development Authority board of directors broke the same law he pleaded guilty to for making pu",
+      "url": "https://indepthnh.org/2026/04/22/ex-ports-director-and-his-supreme-court-justice-wife-maliciously-prosecuted-complaint-alleges/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-04-23",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3f2901dc57b9",
+      "title": "Nathaniel Frothingham",
+      "summary": "Nat\u2019s 25 years of dedicated service at The Bridge combined sheer determination with a commitment to in-depth analysis of the key community issues and an insightful editorial approach. \nRead the story on VTDigger here:  Nathaniel Frothingham.",
+      "url": "https://vtdigger.org/2026/04/22/nathaniel-frothingham/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-04-22",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "23c03fbe1567",
+      "title": "High schools Wednesday: Biddeford opens softball season with win over Kennebunk",
+      "summary": "Madi Roy's pitching and hitting propel the Tigers to a 7-1 victory on the road.",
+      "url": "https://www.pressherald.com/2026/04/22/biddeford-opens-softball-season-with-win-over-kennebunk/",
       "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-04-22",
@@ -25691,26 +25733,40 @@
       ]
     },
     {
-      "id": "7bda9aa689bd",
-      "title": "A Maine town decided not to raise the only flood-prone road off its peninsula",
-      "summary": "It\u2019s unclear what Surry might do there instead, if anything, or how first responders would reach residents if the road became dangerous.",
-      "url": "https://www.bangordailynews.com/2026/04/22/hancock/hancock-government/surry-maine-flood-prone-road-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "953bdc2f0258",
+      "title": "Biddeford weighing how to help homeless residents while mitigating public camping",
+      "summary": "General Assistance Administrator Jake Hammer recommended Tuesday that city councilors fund the Seeds of Hope program and consider a citywide ban on camping in public places.",
+      "url": "https://www.pressherald.com/2026/04/22/biddeford-weighing-how-to-help-homeless-residents-while-mitigating-public-camping/",
+      "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-04-22",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "4468369bde97",
-      "title": "The Democrats\u2019 road to a US Senate majority runs through New England. Why that matters",
-      "summary": "Maine and New Hampshire Senate races have tightened as Trump's unpopularity and economic concerns reshape the midterm landscape for Republicans.",
-      "url": "https://www.masslive.com/politics/2026/04/the-democrats-road-to-a-us-senate-majority-runs-through-new-england-why-that-matters.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "ce7484f24451",
+      "title": "Wabanaki youth initiative nets $348K federal grant for food program",
+      "summary": "The one-of-its-kind Wabanaki initiative connects tribal farmers, gatherers and food producers directly to youth meals through the Child and Adult Care Food Program and Summer Food Service Program.",
+      "url": "https://www.bangordailynews.com/2026/04/22/aroostook/aroostook-education/farm-to-school-grant-wabanaki/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-04-22",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4d7151639284",
+      "title": "State Drops Case Against Alleged YDC Abuser Malavet",
+      "summary": "When prosecutors called Sununu Youth Development Center sex abuse survivor Natasha Maunsell this week to tell her they were dropping the case against Victor Malavet, part of her was relieved.",
+      "url": "https://indepthnh.org/2026/04/22/state-drops-case-against-alleged-ydc-abuser-malavet/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-04-22",
       "category": "news",
       "priority": "medium",
@@ -25719,17 +25775,17 @@
       ]
     },
     {
-      "id": "9a21dd57e9b3",
-      "title": "A transgender Vermont veteran is riding the gravel cycling circuit. Cue filmmaker.",
-      "summary": "The new documentary \u201cClaim the Lane: Becoming Roxy,\u201d set for its state festival debut this week, focuses on the humanity behind the headlines.\nRead the story on VTDigger here:  A transgender Vermont veteran is riding the gravel cycling circuit. Cue filmmaker..",
-      "url": "https://vtdigger.org/2026/04/20/a-transgender-vermont-veteran-is-riding-the-gravel-cycling-circuit-cue-filmmaker/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-20",
+      "id": "14c0b749af0f",
+      "title": "Officials plan to tap savings to make next CT budget work",
+      "summary": "The move would ensure Connecticut\u2019s next budget provides major boosts to municipal aid, affordable child care and tax relief.",
+      "url": "https://ctmirror.org/2026/04/22/officials-plan-to-tap-savings-to-make-next-ct-budget-work/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-04-22",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "aggregates"
+        "highway"
       ]
     },
     {
@@ -25759,20 +25815,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "2e77ce8e8fff",
-      "title": "Mixed-use plans move forward for old Cigna building in Hooksett",
-      "summary": "Plans to transform the former Cigna Healthcare property on College Park Drive in Hooksett into a mixed-use development received key approvals by the Planning Board this month, and the look and feel of the project by Brady Sullivan Properties is\u2026",
-      "url": "https://www.unionleader.com/news/local/hooksett/mixed-use-plans-move-forward-for-old-cigna-building-in-hooksett/article_68f0a223-7a98-4016-b4c4-4467a2d7db67.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-04-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25783,7 +25825,7 @@
       "raw": 10114059719.47671,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-04-22T11:54:31.966269",
+      "updated": "2026-04-23T11:50:53.936488",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25893,24 +25935,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-22T11:54:31.966269"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-23T11:50:53.936488"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-22T11:54:31.966269"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-23T11:50:53.936488"
     },
     "migration": {
       "score": 5.0,
@@ -25920,35 +25962,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-22T11:54:31.966269"
+      "updated": "2026-04-23T11:50:53.936488"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-22T11:54:31.966269"
+      "raw": 934599.9999999999,
+      "raw_display": "935K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-04-23T11:50:53.936488"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.92 | Diesel $5.86",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.92,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.86,
+        "score": 5.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-22T11:54:31.966269"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-23T11:50:53.936488"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25957,19 +25999,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-22T11:54:31.966269"
+      "updated": "2026-04-23T11:50:53.936488"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-22T11:54:31.966269"
+    "calculated_at": "2026-04-23T11:50:53.936488"
   }
 }

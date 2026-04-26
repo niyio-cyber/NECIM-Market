@@ -1,17 +1,17 @@
 {
-  "generated": "2026-04-25T11:33:22.563967Z",
+  "generated": "2026-04-26T11:30:32.154919Z",
   "summary": {
-    "total_opportunities": 1437,
+    "total_opportunities": 1436,
     "total_value_low": 12730682438,
     "total_value_high": 17114252870,
     "forward_pipeline": 11794540936.333334,
     "forward_pipeline_display": "$11.8B",
     "pipeline_yoy_pct": -4.0,
     "by_state": {
-      "VT": 42,
+      "VT": 41,
       "NH": 275,
-      "ME": 172,
-      "MA": 601,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1435,
-      "news": 12,
-      "funding": 2
+      "news": 9,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -29803,13 +29803,13 @@
   ],
   "news": [
     {
-      "id": "eb1b2c805fa6",
-      "title": "Maine\u2019s small libraries are worth celebrating | Opinion",
-      "summary": "These places play an outsize role in their communities. As you plan your summer road trips, consider including a visit.",
-      "url": "https://www.pressherald.com/2026/04/25/maines-small-libraries-are-worth-celebrating-opinion/",
+      "id": "bd5bb2a2b37f",
+      "title": "Hannah Pingree is an exceptional leader in challenging times | Letter",
+      "summary": "I feel blessed to have known and worked with all five of the Democratic candidates to become Maine\u2019s next governor. While any of these individuals would be capable leaders of our state, only one has the skill set and broad experience to be exceptional. And Maine is going to need an exceptional leade",
+      "url": "https://www.pressherald.com/2026/04/26/hannah-pingree-is-an-exceptional-leader-in-challenging-times-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-04-25",
+      "date": "2026-04-26",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -29817,69 +29817,27 @@
       ]
     },
     {
-      "id": "9a403f496aec",
-      "title": "Celtics bounce back, take 2-1 series lead over Sixers",
-      "summary": "Jayson Tatum and Jaylen Brown both score 25 points as Boston wins Game 3 on the road.",
-      "url": "https://www.pressherald.com/2026/04/24/celtics-bounce-back-take-2-1-series-lead-over-sixers/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-04-25",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9d7f52cab056",
-      "title": "Southwick lands five bids for six pickleball courts at Whalley Park",
-      "summary": "Bids for the construction of six pickleball courts at Whalley Park were opened on Tuesday, April 14 and five constructions companies submitted their estimates for construction, lighting, and installation of a pavilion and each are substantially less than the original estimate of $670,000.",
-      "url": "https://www.masslive.com/westfieldnews/2026/04/southwick-lands-five-bids-for-six-pickleball-courts-at-whalley-park.html",
+      "id": "aeae6416c250",
+      "title": "Independent Bruce Hunt Jr. collects signatures in bid for Congress (photos)",
+      "summary": "Bruce A. Hunt Jr., a veteran, teacher, and author who recently returned to Massachusetts, is collecting signatures to run as an independent candidate for the state\u2019s 1st Congressional District.",
+      "url": "https://www.masslive.com/westernmass/2026/04/independent-bruce-hunt-jr-collects-signatures-in-bid-for-congress-photos.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-04-25",
-      "category": "funding",
+      "date": "2026-04-26",
+      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "7a019c30b0b3",
-      "title": "Food Truck Festival returns May 3 to Westfield Riding Club",
-      "summary": "The second annual Food Truck Festival will take place on Sunday, May 3 from 11 to 4 p.m. at the Westfield Riding Club on 29 Fowler Road.",
-      "url": "https://www.masslive.com/westfieldnews/2026/04/food-truck-festival-returns-may-3-to-westfield-riding-club.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "ce486675fe1f",
+      "title": "Woman dead, man critically burned in Hiram house\u00a0fire",
+      "summary": "The fire in the home on Bobbin Mill Road is believed to have been sparked by an electrical malfunction in the basement.",
+      "url": "https://www.bangordailynews.com/2026/04/25/central-maine/central-maine-police-courts/woman-dead-man-critically-burned-hiram-fire/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-04-25",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bdd449f09e06",
-      "title": "UK citizen arrested on remote Maine road pleads\u00a0guilty to illegally entering US",
-      "summary": "Ali Mohammed Ali Abdullah is one of four people reported to police by maple sugar workers who saw the Middle Eastern men walking along the Golden Road.",
-      "url": "https://www.bangordailynews.com/2026/04/24/central-maine/central-maine-police-courts/uk-citizen-maine-illegally-entering-us-plea/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e9b5cb402c46",
-      "title": "Route 1 roadwork expected to cause delays in Camden and Lincolnville",
-      "summary": "The project, which will span roughly 2 miles between the town centers, is slated to start on Monday, April 27.",
-      "url": "https://www.bangordailynews.com/2026/04/24/midcoast/midcoast-government/route-1-roadwork-camden-lincolnville/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-24",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -29943,20 +29901,6 @@
       ]
     },
     {
-      "id": "3f2901dc57b9",
-      "title": "Nathaniel Frothingham",
-      "summary": "Nat\u2019s 25 years of dedicated service at The Bridge combined sheer determination with a commitment to in-depth analysis of the key community issues and an insightful editorial approach. \nRead the story on VTDigger here:  Nathaniel Frothingham.",
-      "url": "https://vtdigger.org/2026/04/22/nathaniel-frothingham/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-04-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "4d7151639284",
       "title": "State Drops Case Against Alleged YDC Abuser Malavet",
       "summary": "When prosecutors called Sununu Youth Development Center sex abuse survivor Natasha Maunsell this week to tell her they were dropping the case against Victor Malavet, part of her was relieved.",
@@ -30002,12 +29946,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 11734211809.418476,
       "raw_display": "$11.73B",
       "source": "scraper_v2",
-      "updated": "2026-04-25T11:33:22.396971",
+      "updated": "2026-04-26T11:30:27.338203",
       "v2_details": {
         "raw_total": "$12.73B",
         "weighted_total": "$6.53B",
@@ -30117,14 +30061,14 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-25T11:33:22.396971"
+      "score": 3.1,
+      "trend": "down",
+      "action": "Selective investment",
+      "raw": 1422.7653924633655,
+      "raw_display": "1,423 units/mo",
+      "yoy_change": -9.6,
+      "source": "FRED API",
+      "updated": "2026-04-26T11:30:27.338203"
     },
     "construction_spending": {
       "score": 5.0,
@@ -30134,7 +30078,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-04-25T11:33:22.396971"
+      "updated": "2026-04-26T11:30:27.338203"
     },
     "migration": {
       "score": 5.0,
@@ -30144,35 +30088,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-25T11:33:22.396971"
+      "updated": "2026-04-26T11:30:27.338203"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-25T11:33:22.396971"
+      "raw": 20900.0,
+      "raw_display": "21K workers",
+      "yoy_change": 1.0,
+      "source": "FRED API",
+      "updated": "2026-04-26T11:30:27.338203"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.92 | Diesel $5.86",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.92,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.86,
+        "score": 5.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-25T11:33:22.396971"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-26T11:30:27.338203"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30181,19 +30125,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-25T11:33:22.396971"
+      "updated": "2026-04-26T11:30:27.338203"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
+      "housing_permits": "FRED API",
       "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-25T11:33:22.396971"
+    "calculated_at": "2026-04-26T11:30:27.338203"
   }
 }

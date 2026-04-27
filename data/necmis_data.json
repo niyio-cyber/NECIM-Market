@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T11:34:13.584452Z",
+  "generated": "2026-04-27T12:13:56.120345Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 41,
-      "NH": 61,
-      "ME": 170,
-      "MA": 600,
+      "NH": 58,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 9,
+      "news": 6,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25677,11 +25677,53 @@
   ],
   "news": [
     {
-      "id": "bd5bb2a2b37f",
-      "title": "Hannah Pingree is an exceptional leader in challenging times | Letter",
-      "summary": "I feel blessed to have known and worked with all five of the Democratic candidates to become Maine\u2019s next governor. While any of these individuals would be capable leaders of our state, only one has the skill set and broad experience to be exceptional. And Maine is going to need an exceptional leade",
-      "url": "https://www.pressherald.com/2026/04/26/hannah-pingree-is-an-exceptional-leader-in-challenging-times-letter/",
+      "id": "9b49158779b9",
+      "title": "Bensonwood completes high-performance education center for Beaver Brook Association",
+      "summary": "Bensonwood, a leader in high-performance offsite construction, has completed the design, fabrication, and installation of the program building at Beaver Brook Association, a conservation and environmental education center in Hollis.",
+      "url": "https://www.unionleader.com/news/business/bensonwood-completes-high-performance-education-center-for-beaver-brook-association/article_fdfeb762-cc6c-4e14-898b-9e8ac04aa559.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-04-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cd66ba575510",
+      "title": "Maine is investing in seniors\u2019 independence because it pays off | Opinion",
+      "summary": "The state's Community Aging in Place program saves the state money, removing pressure on local emergency response and municipal budgets.",
+      "url": "https://www.pressherald.com/2026/04/27/maine-is-investing-in-seniors-independence-because-it-works-opinion/",
       "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-04-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "88ec20feb57b",
+      "title": "How do CT municipalities adopt, pay for their budgets?",
+      "summary": "While CT funds its budget off a mix of taxes, including income, sales, business and more \u2013 towns get most of their money from property taxes.",
+      "url": "https://ctmirror.org/2026/04/27/ct-town-city-budgets-revenune-mill-rate/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-04-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b7c2e6470f76",
+      "title": "Dryer fire prompts second alarm in Holden",
+      "summary": "No injuries were reported in the Main Road blaze, which was called in a little after 10 p.m. Saturday.",
+      "url": "https://www.bangordailynews.com/2026/04/26/bangor/bangor-police-courts/dryer-fire-prompts-second-alarm-in-holden/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-04-26",
       "category": "news",
@@ -25691,27 +25733,13 @@
       ]
     },
     {
-      "id": "aeae6416c250",
-      "title": "Independent Bruce Hunt Jr. collects signatures in bid for Congress (photos)",
-      "summary": "Bruce A. Hunt Jr., a veteran, teacher, and author who recently returned to Massachusetts, is collecting signatures to run as an independent candidate for the state\u2019s 1st Congressional District.",
-      "url": "https://www.masslive.com/westernmass/2026/04/independent-bruce-hunt-jr-collects-signatures-in-bid-for-congress-photos.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-04-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ce486675fe1f",
-      "title": "Woman dead, man critically burned in Hiram house\u00a0fire",
-      "summary": "The fire in the home on Bobbin Mill Road is believed to have been sparked by an electrical malfunction in the basement.",
-      "url": "https://www.bangordailynews.com/2026/04/25/central-maine/central-maine-police-courts/woman-dead-man-critically-burned-hiram-fire/",
+      "id": "9fd332c51fc2",
+      "title": "Maine extends key affordable housing tax credit for another decade",
+      "summary": "Developers have used the tax credit to subsidize the construction of more than 800 income-restricted homes in the last six years.",
+      "url": "https://www.bangordailynews.com/2026/04/26/state/state-housing/maine-extends-affordable-housing-tax-credit/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-04-25",
+      "date": "2026-04-26",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25733,20 +25761,6 @@
       ]
     },
     {
-      "id": "445af19c41c1",
-      "title": "CT housing construction reform falls behind neighboring states, data shows",
-      "summary": "A new\u00a0land use data tracker, created by NYU\u2019s Furman Center, determines how easy or difficult it is to construct housing in each state.",
-      "url": "https://ctmirror.org/2026/04/24/ct-housing-construction-data/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "01995693e7b6",
       "title": "Goodlander Demands Hegseth Investigate Failures After 6 Servicemembers Killed in Attack on U.S. Base in Kuwait",
       "summary": "The Members are specifically calling out contradictions in the Secretary\u2019s characterization of the attack, which troops injured on base have called \u201cfalsehoods,\u201d as well as the broader implications of threats posed by Iranian drones to the 50,000+ U.S. troops and billions of dollars in assets in the",
@@ -25759,73 +25773,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "af75ebf17621",
-      "title": "Ex-Ports Director and His Supreme Court Justice Wife Maliciously Prosecuted, Complaint Alleges",
-      "summary": "James Fernald says former Ports Director Geno Marconi and his wife, retired Supreme Court Justice Anna Barbara Hantz Marconi, were the victims of malicious prosecution because Marconi's bosses on the Pease Development Authority board of directors broke the same law he pleaded guilty to for making pu",
-      "url": "https://indepthnh.org/2026/04/22/ex-ports-director-and-his-supreme-court-justice-wife-maliciously-prosecuted-complaint-alleges/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-04-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4d7151639284",
-      "title": "State Drops Case Against Alleged YDC Abuser Malavet",
-      "summary": "When prosecutors called Sununu Youth Development Center sex abuse survivor Natasha Maunsell this week to tell her they were dropping the case against Victor Malavet, part of her was relieved.",
-      "url": "https://indepthnh.org/2026/04/22/state-drops-case-against-alleged-ydc-abuser-malavet/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-04-22",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "63c8456df791",
-      "title": "Ridge RTC partners with Triple Construction on its New Hampshire campus expansion",
-      "summary": "Earlier this month, representatives from Ridge RTC, Altior Healthcare, and Merrimack-based Triple Construction gathered at 619 Governors Road in Milton for a formal groundbreaking ceremony on two additional dormitories for their fast-growing campus.",
-      "url": "https://www.unionleader.com/news/business/ridge-rtc-partners-with-triple-construction-on-its-new-hampshire-campus-expansion/article_c7ea1c77-7b7d-4265-a8fe-f0bbaf25d12a.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-04-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cedf3ca48008",
-      "title": "EPTAC opens new corporate headquarters and training facility in Salem",
-      "summary": "EPTAC, a global leader in electronics manufacturing training and The Global Electronics Association\u2019s (GEA) IPC certification, will celebrate the relocation and expansion of its corporate headquarters and training facility at 7 Stiles Road, Suite 300, Salem, on Thursday, April 23,\u2026",
-      "url": "https://www.unionleader.com/news/business/eptac-opens-new-corporate-headquarters-and-training-facility-in-salem/article_fe0767ed-33d6-4f0b-ad95-1373e4537cc7.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-04-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 10114059719.47671,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-04-26T11:34:13.155776",
+      "updated": "2026-04-27T12:13:48.596768",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.63B",
@@ -25935,24 +25893,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-26T11:34:13.155776"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-27T12:13:48.596768"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-26T11:34:13.155776"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-27T12:13:48.596768"
     },
     "migration": {
       "score": 5.0,
@@ -25962,35 +25920,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-26T11:34:13.155776"
+      "updated": "2026-04-27T12:13:48.596768"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-26T11:34:13.155776"
+      "raw": 915000.0,
+      "raw_display": "915K workers",
+      "yoy_change": -1.0,
+      "source": "FRED API",
+      "updated": "2026-04-27T12:13:48.596768"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $3.92 | Diesel $5.86",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.92,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.86,
+        "score": 5.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-26T11:34:13.155776"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-27T12:13:48.596768"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25999,19 +25957,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-26T11:34:13.155776"
+      "updated": "2026-04-27T12:13:48.596768"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-26T11:34:13.155776"
+    "calculated_at": "2026-04-27T12:13:48.596768"
   }
 }

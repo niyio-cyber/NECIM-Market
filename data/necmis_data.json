@@ -1,7 +1,7 @@
 {
-  "generated": "2026-04-29T12:12:08.739415Z",
+  "generated": "2026-04-30T12:06:26.898469Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1222,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -10,16 +10,16 @@
     "by_state": {
       "VT": 43,
       "NH": 57,
-      "ME": 174,
-      "MA": 599,
+      "ME": 171,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1221,
-      "news": 9,
+      "dot_letting": 1220,
+      "news": 8,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -50,7 +50,7 @@
           "value": 1003218381
         },
         "Other": {
-          "count": 87,
+          "count": 86,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 341,
+          "count": 340,
           "value": 0
         },
         "PA": {
@@ -273,7 +273,7 @@
             "value": 0
           },
           "Other": {
-            "count": 2,
+            "count": 1,
             "value": 0
           }
         },
@@ -18727,26 +18727,6 @@
       ]
     },
     {
-      "id": "69370176ecc8",
-      "state": "CT",
-      "project_id": "0093-0251",
-      "description": "Route 175 Sidewalk - Newington",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-04-29",
-      "fiscal_year": "FY2026",
-      "project_type": "Other",
-      "location": "Route 175",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "c8d6a635f813",
       "state": "CT",
       "project_id": "0166-0104",
@@ -18775,7 +18755,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-05-06",
+      "let_date": "2026-05-20",
       "fiscal_year": "FY2026",
       "project_type": "Other",
       "location": "New Haven",
@@ -25677,55 +25657,13 @@
   ],
   "news": [
     {
-      "id": "4d8ca81f675f",
-      "title": "Floating data centers could be better for Maine | Letter",
-      "summary": "I think it is unconscionable for Gov. Janet Mills to veto the bill requiring a moratorium to halt construction of these new AI data centers. Why not investigate the consequences because of these centers\u2019 high consumption of electricity and high consumption of local water supplies? Mills doesn\u2019t seem",
-      "url": "https://www.pressherald.com/2026/04/29/floating-data-centers-could-be-better-for-maine-letter/",
+      "id": "e0d505e4c581",
+      "title": "Obituary: Mary Bridget (Costigan) Foster",
+      "summary": "SOUTH PORTLAND - Mary Bridget (Costigan) Foster, passed away on her 65th birthday, April 27, 2026.\n\nShe was born on April 27, ...",
+      "url": "https://www.pressherald.com/2026/04/30/obituarymary-bridget-costigan-foster-2/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-04-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "713990c57b33",
-      "title": "With data center veto, Janet Mills played governor of one town | Opinion",
-      "summary": "In failing to represent her broader constituency, the governor is ignoring several important concerns the facilities would bring to Maine communities.",
-      "url": "https://www.pressherald.com/2026/04/29/with-data-center-veto-janet-mills-played-governor-for-one-town-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-04-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ac185f37b01e",
-      "title": "Letter: Janet Mills right to veto broad data center moratorium",
-      "summary": "\u201cWe do need to be cautious in data center development, but let\u2019s not throw the baby out with the bathwater.\u201d",
-      "url": "https://www.bangordailynews.com/2026/04/29/opinion/letters/letter-janet-mills-right-to-veto-broad-data-center-moratorium-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7840951f261a",
-      "title": "State is \u2018strengthening\u2019 87-year-old coastal Maine bridge to island towns",
-      "summary": "Officials and residents have worried for years about the functionality of the soaring bridge and how long it might take to replace.",
-      "url": "https://www.bangordailynews.com/2026/04/29/hancock/hancock-government/strengthening-deer-isle-stonington-bridge-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25733,24 +25671,66 @@
       ]
     },
     {
-      "id": "d5a8984a5f75",
-      "title": "How to build the conditions that keep children safe",
-      "summary": "\u201cIf we want fewer children involved in the child welfare system, we have to look early and broadly: at what helps families stay stable and helps children thrive.\u201d",
-      "url": "https://www.bangordailynews.com/2026/04/29/opinion/opinion-contributor/how-to-build-conditions-that-keep-children-safe-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "838c1fc277a7",
+      "title": "Death Notice: Mary Bridget (Costigan) Foster",
+      "summary": "Foster, Mary Bridget (Costigan) 65, of South Portland, April 27. Visiting Hours, 2 to 6 p.m., May 3, Conroy-Tully Walker Funeral ...",
+      "url": "https://www.pressherald.com/2026/04/30/obituarymary-bridget-costigan-foster/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "a40e8844af16",
-      "title": "Tech students learn real-world skills while forging massive Acadian sculpture",
-      "summary": "The 20-foot star made from pieces of the former international bridge will welcome visitors to Madawaska.",
-      "url": "https://www.bangordailynews.com/2026/04/29/aroostook/aroostook-education/students-build-acadian-star-sculpture-joam40zk0w/",
+      "id": "b3158571012b",
+      "title": "Tractor-trailer crash on busy Mass. highway causing significant delays during morning commute",
+      "summary": "The incident is expected to cause significant delays through the morning commute, as the highway is reduced to one lane in that area.",
+      "url": "https://www.masslive.com/news/2026/04/tractor-trailer-crash-on-busy-mass-highway-causing-significant-delays-during-morning-commute.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fa1a45e87eaf",
+      "title": "Select Board approves MassDOT program that monitors motorists\u2019 speeds",
+      "summary": "The Southwick Police Department was successful in getting a state grant from the state Department of Transportation to have several speed feedback signs installed at fixed location and on two movable trailers to help the town manage roadway speeds and safety.",
+      "url": "https://www.masslive.com/westfieldnews/2026/04/select-board-approves-massdot-program-that-monitors-motorists-speeds.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-30",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4e8a0dcdc1f7",
+      "title": "Bay State Conference: Natick shakes up top half of boys lacrosse rankings",
+      "summary": "One-sided wins against Lexington, Bridgewater-Raynham and Braintree has Natick on the move in this week's rankings.",
+      "url": "https://www.masslive.com/highschoolsports/2026/04/bay-state-conference-natick-shakes-up-top-half-of-boys-lacrosse-rankings.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-04-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "325942a1ec96",
+      "title": "State regulators reopen northern Maine power line bids",
+      "summary": "The Northern Maine Renewable Energy Development Program is a second attempt following the failed King Pine Wind and LS Power project.",
+      "url": "https://www.bangordailynews.com/2026/04/29/aroostook/aroostook-government/state-regulators-reopen-northern-maine-power-line-bids/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-04-29",
@@ -25803,20 +25783,6 @@
       ]
     },
     {
-      "id": "03b2ba1e4c1d",
-      "title": "Lamont moves quickly to tout new CT budget deal",
-      "summary": "Lamont said $270 million in municipal aid included in the deal would be available to towns even if they\u2019ve already adopted a local budget.",
-      "url": "https://ctmirror.org/2026/04/28/lamont-moves-quickly-to-tout-new-ct-budget-deal/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-04-28",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "9b49158779b9",
       "title": "Bensonwood completes high-performance education center for Beaver Brook Association",
       "summary": "Bensonwood, a leader in high-performance offsite construction, has completed the design, fabrication, and installation of the program building at Beaver Brook Association, a conservation and environmental education center in Hollis.",
@@ -25839,7 +25805,7 @@
       "raw": 10113226902.450182,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-04-29T12:12:08.594051",
+      "updated": "2026-04-30T12:06:17.749023",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25949,24 +25915,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-29T12:12:08.594051"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-04-30T12:06:17.749023"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-29T12:12:08.594051"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-04-30T12:06:17.749023"
     },
     "migration": {
       "score": 5.0,
@@ -25976,35 +25942,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-04-29T12:12:08.594051"
+      "updated": "2026-04-30T12:06:17.749023"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-04-29T12:12:08.594051"
+      "raw": 915000.0,
+      "raw_display": "915K workers",
+      "yoy_change": -1.0,
+      "source": "FRED API",
+      "updated": "2026-04-30T12:06:17.749023"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.09 | Diesel $5.83",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.09,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.83,
+        "score": 6.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-04-29T12:12:08.594051"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-04-30T12:06:17.749023"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26013,19 +25979,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-04-29T12:12:08.594051"
+      "updated": "2026-04-30T12:06:17.749023"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-04-29T12:12:08.594051"
+    "calculated_at": "2026-04-30T12:06:17.749023"
   }
 }

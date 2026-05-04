@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-03T11:36:37.422092Z",
+  "generated": "2026-05-04T12:16:04.095052Z",
   "summary": {
-    "total_opportunities": 1224,
+    "total_opportunities": 1221,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
+      "VT": 43,
       "NH": 57,
-      "ME": 172,
-      "MA": 600,
+      "ME": 169,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1220,
-      "news": 6,
-      "funding": 4
+      "news": 9,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25657,27 +25657,13 @@
   ],
   "news": [
     {
-      "id": "3f56e2e6f5c8",
-      "title": "Reorganize SNAP to restore funding for foreign assistance | Letter",
-      "summary": "The United States Agency of International Development (USAID) helped prevent roughly 1 million child deaths per year. Other U.S. foreign assistance programs have also saved many lives, and under President Obama, the State Department used diplomacy with the United Kingdom, France, Germany, Russia, Ch",
-      "url": "https://www.pressherald.com/2026/05/03/reorganize-snap-to-restore-funding-for-foreign-assistance-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-05-03",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d53a5e0d7699",
-      "title": "With new sawmill, Mi\u2019kmaq Nation is extending it limbs into home construction",
-      "summary": "The Aroostook County tribe is is turning timber into affordable homes.",
-      "url": "https://www.pressherald.com/2026/05/03/with-new-sawmill-mikmaq-nation-is-extending-it-limbs-into-home-construction/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-05-03",
+      "id": "b6a9dcf61f95",
+      "title": "The hidden fee spreading across Vermont parking meters",
+      "summary": "In several municipalities, for shorter parking times, it is possible to pay more in service fees than in the actual parking charges.\nRead the story on VTDigger here:  The hidden fee spreading across Vermont parking meters.",
+      "url": "https://vtdigger.org/2026/05/04/the-hidden-fee-spreading-across-vermont-parking-meters/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-05-04",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25685,15 +25671,57 @@
       ]
     },
     {
-      "id": "c6eadfcbb4e4",
-      "title": "Mass. high court to have final say in case of judge accused of letting man evade ICE",
-      "summary": "A legal saga involving a judge, a defense lawyer, federal immigration agents and a defendant will go before Massachusetts' highest court on Monday.",
-      "url": "https://www.masslive.com/news/2026/05/the-thorny-case-of-a-mass-judge-accused-of-helping-a-man-escape-ice-is-nearing-its-conclusion.html",
+      "id": "58d721c87589",
+      "title": "See 3 historic riverfront mills in Maine that offer modern apartment living",
+      "summary": "Converted industrial properties in Biddeford, Lewiston and Skowhegan show what can be done with sturdy brick buildings and a little imagination.",
+      "url": "https://www.pressherald.com/2026/05/04/see-3-historic-riverfront-mills-in-maine-that-offer-modern-apartment-living/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-04",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2faf69cc2567",
+      "title": "Joe Biden backs former aide in competitive Mass. congressional race",
+      "summary": "Dan Koh shared footage of Biden's endorsement call and throwback scenes from the Oval Office as he competes in a crowded Democratic primary for Seth Moulton's seat.",
+      "url": "https://www.masslive.com/politics/2026/05/former-president-biden-endorses-dan-koh-in-6th-district-dem-primary.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-05-03",
-      "category": "funding",
+      "date": "2026-05-04",
+      "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9fbc63c3651a",
+      "title": "Former ambassador takes his Common Sense for Commonwealth project on the road",
+      "summary": "Rent control is a \u201ctourniquet to a crisis that allows people to stop hemorrhaging money,\u201d said Katie Talbot, organizing director of Springfield No One Leaves.",
+      "url": "https://www.masslive.com/westernmass/2026/05/former-ambassador-takes-his-common-sense-for-commonwealth-project-on-the-road.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-04",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1949384c4096",
+      "title": "How Bruins prospect James Hagens hopes playing for Team USA speeds his development",
+      "summary": "Hagens will play for Team USA at the IIHF World Championships in Switzerland.",
+      "url": "https://www.masslive.com/bruins/2026/05/how-bruins-prospect-james-hagens-hopes-playing-for-team-usa-speeds-his-development.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-04",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25721,34 +25749,6 @@
       "state": "CT",
       "date": "2026-05-03",
       "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ab9019c07933",
-      "title": "Midcoast auto dealer to spend up to $20M to move to Thomaston",
-      "summary": "Quirk Auto plans to move its dealership on Route 1 in Rockland to a site is is developing on New County Road",
-      "url": "https://www.bangordailynews.com/2026/05/02/midcoast/midcoast-business/midcoast-auto-dealer-to-spend-up-to-20m-to-move-to-thomaston/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-02",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ab0f0f63b41f",
-      "title": "Cooking error blamed in Lincoln fire that left 1 injured",
-      "summary": "Firefighters were dispatched to 497 Lee Road at approximately 2:41 a.m. and arrived to find heavy fire showing from a single-story home.",
-      "url": "https://www.bangordailynews.com/2026/05/02/penobscot/penobscot-police-courts/cooking-error-lincoln-fire-1-injured/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-02",
-      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25805,7 +25805,7 @@
       "raw": 10113226902.450182,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-03T11:36:37.158660",
+      "updated": "2026-05-04T12:15:58.496498",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25915,24 +25915,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-03T11:36:37.158660"
+      "score": 8.9,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 9840.400117050234,
+      "raw_display": "9,840 units/mo",
+      "yoy_change": 19.5,
+      "source": "FRED API",
+      "updated": "2026-05-04T12:15:58.496498"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-03T11:36:37.158660"
+      "raw": 149538.0,
+      "raw_display": "$149.5B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-05-04T12:15:58.496498"
     },
     "migration": {
       "score": 5.0,
@@ -25942,35 +25942,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-03T11:36:37.158660"
+      "updated": "2026-05-04T12:15:58.496498"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-03T11:36:37.158660"
+      "raw": 915000.0,
+      "raw_display": "915K workers",
+      "yoy_change": -1.0,
+      "source": "FRED API",
+      "updated": "2026-05-04T12:15:58.496498"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.09 | Diesel $5.83",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.09,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.83,
+        "score": 6.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-03T11:36:37.158660"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-04T12:15:58.496498"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25979,19 +25979,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-03T11:36:37.158660"
+      "updated": "2026-05-04T12:15:58.496498"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-03T11:36:37.158660"
+    "calculated_at": "2026-05-04T12:15:58.496498"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T11:43:01.832049Z",
+  "generated": "2026-05-10T11:39:01.076567Z",
   "summary": {
     "total_opportunities": 1220,
     "total_value_low": 10659544701,
@@ -8,9 +8,9 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
+      "VT": 43,
       "NH": 57,
-      "ME": 169,
+      "ME": 172,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1220,
-      "news": 8,
+      "news": 10,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -25657,17 +25657,59 @@
   ],
   "news": [
     {
-      "id": "2bdcc077990d",
-      "title": "Maine gubernatorial\u00a0candidates split on energy costs, natural gas and budget cuts",
-      "summary": "Friday afternoon\u2019s debate offered a rare chance to see a broad range of candidates together ahead of the June 9 primaries.",
-      "url": "https://www.bangordailynews.com/2026/05/08/politics/elections/maine-gubernatorial-candidates/",
-      "source": "Bangor Daily News",
+      "id": "b88ce3d98252",
+      "title": "How to fix Maine\u2019s tax math | Opinion",
+      "summary": "Voters across the state have been revolting against crushing property tax hikes due to crumbling infrastructure. Fortunately, there's a solution.",
+      "url": "https://www.pressherald.com/2026/05/10/how-to-fix-maines-tax-math-opinion/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-05-08",
+      "date": "2026-05-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "57b4dcccea3d",
+      "title": "Maine must consider planting for the future | Letter",
+      "summary": "Food insecurity is a growing crisis, both across the nation and right here in Maine. To combat this, we need a common-sense approach that balances a return to our agricultural roots, with a focus on education for our youth. We should start by reconsidering how our municipalities spend taxpayer dolla",
+      "url": "https://www.pressherald.com/2026/05/10/maine-should-consider-planting-for-the-future-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-10",
       "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
+      ]
+    },
+    {
+      "id": "09b23ec33b2f",
+      "title": "Obituary: Harold L. Doten",
+      "summary": "WINTER HAVEN, Fla. - Harold L. Doten, passed away April 17, 2026.\n\nHarold was born in the small town of Baileyville, Maine, ...",
+      "url": "https://www.pressherald.com/2026/05/10/obituaryharold-l-doten-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7d20eef16b83",
+      "title": "Watch: UMaine afternoon commencement ceremony",
+      "summary": "The 2:30 p.m. Saturday undergraduate ceremony includes the College of Education and Human Development, College of Liberal Arts and Sciences, and Maine College of Engineering and Computing.",
+      "url": "https://www.bangordailynews.com/2026/05/09/bangor/university-maine-afternoon-commencement/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "ready_mix"
       ]
     },
     {
@@ -25741,20 +25783,6 @@
       ]
     },
     {
-      "id": "aadeff52c00e",
-      "title": "Experienced Vermont media leader Brendan Kinney named CEO of Vermont Journalism Trust and VTDigger",
-      "summary": "\u201cAs CEO, Brendan will strengthen not just VTDigger\u2019s service to its readers, but also the broader news ecosystem of Vermont,\u201d said the organization\u2019s president. He is currently the chief operating officer at Vermont Public.\nRead the story on VTDigger here:  Experienced Vermont media leader Brendan",
-      "url": "https://vtdigger.org/2026/05/06/experienced-vermont-media-leader-brendan-kinney-named-ceo-of-vermont-journalism-trust-and-vtdigger/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "8f6ee1ca9c0c",
       "title": "New bids to slow Interstate 95 service area work in Hampton by at least 9 months",
       "summary": "The New Hampshire Liquor Commission is making quick work of requesting new bids to develop two service areas off both sides of Interstate 95 in Hampton, but the project will be delayed for months.",
@@ -25777,7 +25805,7 @@
       "raw": 10112697581.783928,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-09T11:43:01.331296",
+      "updated": "2026-05-10T11:38:54.814036",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25887,24 +25915,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-09T11:43:01.331296"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-10T11:38:54.814036"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-09T11:43:01.331296"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-10T11:38:54.814036"
     },
     "migration": {
       "score": 5.0,
@@ -25914,35 +25942,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-09T11:43:01.331296"
+      "updated": "2026-05-10T11:38:54.814036"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-09T11:43:01.331296"
+      "raw": 940400.0,
+      "raw_display": "940K workers",
+      "yoy_change": -0.8,
+      "source": "FRED API",
+      "updated": "2026-05-10T11:38:54.814036"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.2,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.38 | Diesel $5.86",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.38,
+        "score": 6.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.86,
+        "score": 6.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-09T11:43:01.331296"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-10T11:38:54.814036"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25951,19 +25979,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-09T11:43:01.331296"
+      "updated": "2026-05-10T11:38:54.814036"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-09T11:43:01.331296"
+    "calculated_at": "2026-05-10T11:38:54.814036"
   }
 }

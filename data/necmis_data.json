@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T13:01:04.580174Z",
+  "generated": "2026-05-13T13:06:30.608250Z",
   "summary": {
     "total_opportunities": 1222,
     "total_value_low": 10659544701,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 43,
       "NH": 58,
-      "ME": 173,
+      "ME": 169,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1220,
-      "news": 9,
-      "funding": 2
+      "dot_letting": 1222,
+      "news": 6,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 265,
+          "count": 266,
           "value": 5895804498
         },
         "Pavement": {
@@ -50,7 +50,7 @@
           "value": 1003218381
         },
         "Other": {
-          "count": 86,
+          "count": 87,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 340,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 0,
+            "count": 1,
             "value": 0
           },
           "Pavement": {
@@ -273,7 +273,7 @@
             "value": 0
           },
           "Other": {
-            "count": 1,
+            "count": 2,
             "value": 0
           }
         },
@@ -18727,6 +18727,26 @@
       ]
     },
     {
+      "id": "7a6d46312d20",
+      "state": "CT",
+      "project_id": "0102-0372",
+      "description": "Rehabilitation of Bridge Nos. 00058 & 03563 in Norwalk",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-10",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "Norwalk",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "17eb9cc56d77",
       "state": "CT",
       "project_id": "0171-0521",
@@ -18759,6 +18779,26 @@
       "fiscal_year": "FY2026",
       "project_type": "Other",
       "location": "New Haven",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d5b70a62cf72",
+      "state": "CT",
+      "project_id": "0320-0017",
+      "description": "HARTFORD LINE RAIL PROGRAM -  ENFIELD RAILROAD STATION AND TRACK IMPROVEMENTS",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-24",
+      "fiscal_year": "FY2026",
+      "project_type": "Other",
+      "location": "Hartford",
       "district": null,
       "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
       "source": "CTDOT Q&A",
@@ -25657,41 +25697,13 @@
   ],
   "news": [
     {
-      "id": "df73ae65931e",
-      "title": "Saco approves $44 million municipal budget",
-      "summary": "The final budget is more than $5 million higher than the city's original proposal. Its tax impact wasn't immediately clear.",
-      "url": "https://www.pressherald.com/2026/05/12/saco-approves-44-million-municipal-budget/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-05-12",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a490c135c968",
-      "title": "Graham Platner calls to end gas and diesel tax",
-      "summary": "U.S. Senate candidate Graham Platner wants to eliminate the federal tax on gasoline and diesel fuel, freeze electric rates and fund clean energy developments, as part of his \u201cTake Back American Energy\u201d plan released Friday. Platner, the presumptive Democratic nominee to challenge Republican U.S. Sen",
-      "url": "https://www.bangordailynews.com/2026/05/12/politics/elections/maine-graham-platner-gas-taxes-energy-plan/",
+      "id": "1c7876116f93",
+      "title": "2 arrested after Hermon home invasion",
+      "summary": "A group of at least four men, one of whom was armed with a handgun, forced their way into a Bog Road home.",
+      "url": "https://www.bangordailynews.com/2026/05/13/bangor/bangor-police-courts/hermon-maine-bog-road-home-invasion-drug-trafficking-arrests/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-05-12",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "05a12a3084bf",
-      "title": "Greenville set to add much-needed supply to its housing stock",
-      "summary": "The homes will be built on land where Plum Creek once proposed an ambitious development plan.",
-      "url": "https://www.bangordailynews.com/2026/05/12/piscataquis/piscataquis-housing/greenville-maine-northern-forest-center-homes-approved/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25699,43 +25711,29 @@
       ]
     },
     {
-      "id": "b352ad176a83",
-      "title": "Hampden residents challenge surging home values during town reassessment",
-      "summary": "The town\u2019s first reassessment since 1992 comes at a time when both municipal and school budgets are spiking the cost of living.",
-      "url": "https://www.bangordailynews.com/2026/05/12/bangor/bangor-government/hampden-residents-town-reassessment-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5bc84f672040",
-      "title": "Small MDI town votes to reverse nearly 100-year ban on deer hunting",
-      "summary": "Deer hunting has not been allowed on the island since 1931, though special permits have been issued for nuisance deer.",
-      "url": "https://www.bangordailynews.com/2026/05/11/hancock/hancock-government/tremont-maine-votes-to-reverse-deer-hunting-ban/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a4ef99c69930",
-      "title": "Mass. man arrested in connection with throwing gun on highway",
-      "summary": "Police told Collins to sit on the guardrail, but he ignored them and went back to his truck. Collins retrieved a gun and threw it,",
-      "url": "https://www.masslive.com/news/2026/05/mass-man-arrested-in-connection-with-throwing-gun-on-highway.html",
+      "id": "e2f377310c11",
+      "title": "Municipal Light Board compensation package not discussed at its last meeting",
+      "summary": "The unique compensation package for the members of Westfield's Municipal Light Board will remain as it is after it was told by WG&E\u2019s legal counsel that it needed \u201cno further discussion.\u201d",
+      "url": "https://www.masslive.com/westfieldnews/2026/05/municipal-light-board-compensation-package-not-discussed-at-its-last-meeting.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-05-13",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5768e9b284c5",
+      "title": "When does a public conversation about permitting begin and end?",
+      "summary": "Before you restrict appeals, ask why neighbors turned to them in the first place.\nRead the story on VTDigger here:  When does a public conversation about permitting begin and end?.",
+      "url": "https://vtdigger.org/2026/05/12/opinion-when-does-a-public-conversation-about-permitting-begin-and-end/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-05-12",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25769,34 +25767,6 @@
       ]
     },
     {
-      "id": "09a6160d4810",
-      "title": "After failed Bridgeport bid, Norwich stadium deal could be boon for Eastern CT",
-      "summary": "A recently inked deal moves the CT United Football Club soccer team, which once hoped to play in Bridgeport, to Norwich's Dodd Stadium.",
-      "url": "https://ctmirror.org/2026/05/08/ct-united-fc-soccer-norwich-dodd-stadium-singh-swanston/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-05-08",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5613b7d9bc34",
-      "title": "What\u2019s AI\u2019s place in mental health care? Vermont lawmakers say it should be limited.",
-      "summary": "Also in Final Reading: Balint reelection bid and Act 181 rollback.\nRead the story on VTDigger here:  What\u2019s AI\u2019s place in mental health care? Vermont lawmakers say it should be limited..",
-      "url": "https://vtdigger.org/2026/05/07/whats-ais-place-in-mental-health-care-vermont-lawmakers-say-it-should-be-limited/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-07",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "8f6ee1ca9c0c",
       "title": "New bids to slow Interstate 95 service area work in Hampton by at least 9 months",
       "summary": "The New Hampshire Liquor Commission is making quick work of requesting new bids to develop two service areas off both sides of Interstate 95 in Hampton, but the project will be delayed for months.",
@@ -25814,12 +25784,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10112697581.783928,
+      "raw": 10111830963.030071,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-12T13:01:04.402372",
+      "updated": "2026-05-13T13:06:15.651469",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25860,7 +25830,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 358586400.0,
+            "weighted": 358104400.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25920,33 +25890,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3165910041.7144537,
+          "baseline_time_weighted": 3165638735.567604,
           "baseline_time_weighted_display": "$3.17B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10112697581.783928,
+          "scoring_value": 10111830963.030071,
           "scoring_value_display": "$10.11B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-12T13:01:04.402372"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-13T13:06:15.651469"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-12T13:01:04.402372"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-13T13:06:15.651469"
     },
     "migration": {
       "score": 5.0,
@@ -25956,35 +25926,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-12T13:01:04.402372"
+      "updated": "2026-05-13T13:06:15.651469"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-12T13:01:04.402372"
+      "raw": 890800.0,
+      "raw_display": "891K workers",
+      "yoy_change": -0.9,
+      "source": "FRED API",
+      "updated": "2026-05-13T13:06:15.651469"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.2,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.48 | Diesel $5.85",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.48,
+        "score": 6.3,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.85,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-12T13:01:04.402372"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-13T13:06:15.651469"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25993,19 +25963,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-12T13:01:04.402372"
+      "updated": "2026-05-13T13:06:15.651469"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-12T13:01:04.402372"
+    "calculated_at": "2026-05-13T13:06:15.651469"
   }
 }

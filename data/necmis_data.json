@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-13T13:06:30.608250Z",
+  "generated": "2026-05-14T12:20:58.648576Z",
   "summary": {
-    "total_opportunities": 1222,
+    "total_opportunities": 1224,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
-      "NH": 58,
+      "VT": 45,
+      "NH": 59,
       "ME": 169,
-      "MA": 600,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 6,
-      "funding": 0
+      "news": 8,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25697,12 +25697,54 @@
   ],
   "news": [
     {
-      "id": "1c7876116f93",
-      "title": "2 arrested after Hermon home invasion",
-      "summary": "A group of at least four men, one of whom was armed with a handgun, forced their way into a Bog Road home.",
-      "url": "https://www.bangordailynews.com/2026/05/13/bangor/bangor-police-courts/hermon-maine-bog-road-home-invasion-drug-trafficking-arrests/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "87a639d6328d",
+      "title": "1 dead, 3 injured in boat crash near Logan Airport",
+      "summary": "The crash occurred at about 11 p.m. when a recreational boat hit a pier off Perimeter Road.",
+      "url": "https://www.masslive.com/boston/2026/05/1-dead-3-injured-in-boat-crash-near-logan-airport.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "50e384c55088",
+      "title": "Ribbon-cutting marks opening of Chauncey Allen Park pavilion and arboretum",
+      "summary": "WESTFIELD - At a ribbon-cutting on May 12 for the new Chauncey Allen Park pavilion and arboretum on Smith Avenue, Allen Steiger, president of the Friends of the Grandmothers\u2019 Garden asked Jackie McDowell, education coordinator for the board, Ward 3 Councilor Bridget Matthews-Kane and Mayor Michael M",
+      "url": "https://www.masslive.com/westfieldnews/2026/05/ribbon-cutting-marks-opening-of-chauncey-allen-park-pavilion-and-arboretum.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-14",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1e324de58bc3",
+      "title": "Enosburg Falls cream cheese producer agrees to pay the state $265,000 for allegedly releasing untreated wastewater",
+      "summary": "Franklin Foods was accused of repeatedly violating its pretreatment permit, including releasing untreated liquid waste to the Enosburg Falls wastewater treatment facility. \nRead the story on VTDigger here:  Enosburg Falls cream cheese producer agrees to pay the state $265,000 for allegedly releasin",
+      "url": "https://vtdigger.org/2026/05/13/enosburg-falls-cream-cheese-producer-agrees-to-pay-the-state-265000-for-allegedly-releasing-untreated-wastewater/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-05-13",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3e4566f27e6c",
+      "title": "Burtt amendment gives Vermont farms long-overdue Act 250 relief",
+      "summary": "A surprise floor amendment to S.325 exempts farms from Act 250 permitting for recreational and educational events. It's long overdue.\nRead the story on VTDigger here:  Burtt amendment gives Vermont farms long-overdue Act 250 relief.",
+      "url": "https://vtdigger.org/2026/05/13/opinion-burtt-amendment-gives-vermont-farms-long-overdue-act-250-relief/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-05-13",
       "category": "news",
       "priority": "medium",
@@ -25711,12 +25753,26 @@
       ]
     },
     {
-      "id": "e2f377310c11",
-      "title": "Municipal Light Board compensation package not discussed at its last meeting",
-      "summary": "The unique compensation package for the members of Westfield's Municipal Light Board will remain as it is after it was told by WG&E\u2019s legal counsel that it needed \u201cno further discussion.\u201d",
-      "url": "https://www.masslive.com/westfieldnews/2026/05/municipal-light-board-compensation-package-not-discussed-at-its-last-meeting.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "1a2af3983a47",
+      "title": "First National Bank commits $50,000 to Quirk Sportsplex to expand year-round recreation",
+      "summary": "BANGOR \u2014 First National Bank has committed $50,000 to support the development of the Quirk Sportsplex, a new indoor and outdoor athletic complex designed to expand year-round recreation opportunities across the greater Bangor region. The project, led by River City Athletics, will feature an indoor a",
+      "url": "https://www.bangordailynews.com/2026/05/13/bdn-maine/first-national-bank-commits-50000-to-quirk-sportsplex-to-expand-year-round-recreation/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-13",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e7be88a3163a",
+      "title": "Op-Ed: May 14 Is Momentous Day in NH",
+      "summary": "First, the NH House votes on CACR 12, a constitutional amendment designed to prevent all future governors and legislatures from adopting a \u201cbroad-based\u201d tax, which could be an income, sales or property tax.",
+      "url": "https://indepthnh.org/2026/05/13/op-ed-may-14-is-momentous-day-in-nh/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-05-13",
       "category": "news",
       "priority": "medium",
@@ -25789,7 +25845,7 @@
       "raw": 10111830963.030071,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-13T13:06:15.651469",
+      "updated": "2026-05-14T12:20:51.728863",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25906,7 +25962,7 @@
       "raw_display": "8,054 units/mo",
       "yoy_change": 13.4,
       "source": "FRED API",
-      "updated": "2026-05-13T13:06:15.651469"
+      "updated": "2026-05-14T12:20:51.728863"
     },
     "construction_spending": {
       "score": 5.6,
@@ -25916,7 +25972,7 @@
       "raw_display": "$148.9B SAAR",
       "yoy_change": 3.8,
       "source": "FRED API",
-      "updated": "2026-05-13T13:06:15.651469"
+      "updated": "2026-05-14T12:20:51.728863"
     },
     "migration": {
       "score": 5.0,
@@ -25926,17 +25982,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-13T13:06:15.651469"
+      "updated": "2026-05-14T12:20:51.728863"
     },
     "construction_employment": {
       "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 890800.0,
-      "raw_display": "891K workers",
-      "yoy_change": -0.9,
+      "raw": 940400.0,
+      "raw_display": "940K workers",
+      "yoy_change": -0.8,
       "source": "FRED API",
-      "updated": "2026-05-13T13:06:15.651469"
+      "updated": "2026-05-14T12:20:51.728863"
     },
     "input_cost": {
       "score": 6.2,
@@ -25954,7 +26010,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-05-13T13:06:15.651469"
+      "updated": "2026-05-14T12:20:51.728863"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25963,7 +26019,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-13T13:06:15.651469"
+      "updated": "2026-05-14T12:20:51.728863"
     },
     "overall_score": 7.2,
     "overall_status": "stable",
@@ -25976,6 +26032,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-13T13:06:15.651469"
+    "calculated_at": "2026-05-14T12:20:51.728863"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T12:21:55.059186Z",
+  "generated": "2026-05-15T12:27:01.362740Z",
   "summary": {
     "total_opportunities": 1224,
     "total_value_low": 10659544701,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 45,
-      "NH": 59,
-      "ME": 169,
-      "MA": 601,
+      "VT": 43,
+      "NH": 60,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 8,
+      "news": 9,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -25697,13 +25697,13 @@
   ],
   "news": [
     {
-      "id": "87a639d6328d",
-      "title": "Woman dead, 3 injured in boat crash near Logan Airport",
-      "summary": "The crash occurred at about 11 p.m. when a recreational boat hit a pier off Perimeter Road.",
-      "url": "https://www.masslive.com/boston/2026/05/1-dead-3-injured-in-boat-crash-near-logan-airport.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-05-14",
+      "id": "037310280591",
+      "title": "What to know about getting around Acadia National Park this spring",
+      "summary": "A one-mile stretch of the popular Park Loop Road will be closed until June 12, requiring a detour through downtown Bar Harbor.",
+      "url": "https://www.bangordailynews.com/2026/05/15/hancock/hancock-culture/acadia-national-park-road-closure-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-15",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25711,15 +25711,71 @@
       ]
     },
     {
-      "id": "50e384c55088",
-      "title": "Ribbon-cutting marks opening of Chauncey Allen Park pavilion and arboretum",
-      "summary": "WESTFIELD - At a ribbon-cutting on May 12 for the new Chauncey Allen Park pavilion and arboretum on Smith Avenue, Allen Steiger, president of the Friends of the Grandmothers\u2019 Garden asked Jackie McDowell, education coordinator for the board, Ward 3 Councilor Bridget Matthews-Kane and Mayor Michael M",
-      "url": "https://www.masslive.com/westfieldnews/2026/05/ribbon-cutting-marks-opening-of-chauncey-allen-park-pavilion-and-arboretum.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "5f185ea6e0a6",
+      "title": "Letter: Maine being ruined by roadside trash",
+      "summary": "\u201cThe Maine Department of Transportation spends roughly $500,000 each year cleaning up roadside litter, money that could be better spent elsewhere.\u201d",
+      "url": "https://www.bangordailynews.com/2026/05/15/opinion/letters/letter-maine-being-ruined-by-roadside-trash-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-15",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b9d92b86622f",
+      "title": "Woman dies in Aroostook County house fire",
+      "summary": "The fire on Carvell Road in Mapleton was reported shortly after 5 a.m. Thursday.",
+      "url": "https://www.bangordailynews.com/2026/05/14/aroostook/aroostook-police-courts/fatal-mapleton-maine-house-fire/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-15",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f6e3c4bd6111",
+      "title": "Developer looks to build 1,000 housing units in Londonderry, Auburn",
+      "summary": "A developer is seeking early feedback on a plan to convert the Brook Hollow gravel pit between Londonderry and Auburn into a 1,000-unit housing development over the next 15 to 20 years.",
+      "url": "https://www.unionleader.com/news/local/derry_londonderry/developer-looks-to-build-1-000-housing-units-in-londonderry-auburn/article_948c4153-c6b4-46b5-af4b-11676741b932.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-05-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "59dad1e3d73e",
+      "title": "Report finds unequal access to space, resources at city parks in Bridgeport",
+      "summary": "A custom ParkScore report from Trust for Public Land gave Bridgeport an overall score of 45 out of 100 after evaluating 61 parks in the city.",
+      "url": "https://ctmirror.org/2026/05/14/bridgeport-city-parks-report-parkscore/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-05-14",
       "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "85a89491de1f",
+      "title": "New construction reduces housing shortage in most states \u2014 but not CT",
+      "summary": "CT, NJ and RI are only states that lost housing per capita since 2020. Others have built more than enough to account for population growth.",
+      "url": "https://ctmirror.org/2026/05/14/new-construction-reduces-housing-shortage-in-most-states-but-not-ct/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-05-14",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25753,20 +25809,6 @@
       ]
     },
     {
-      "id": "1a2af3983a47",
-      "title": "First National Bank commits $50,000 to Quirk Sportsplex to expand year-round recreation",
-      "summary": "BANGOR \u2014 First National Bank has committed $50,000 to support the development of the Quirk Sportsplex, a new indoor and outdoor athletic complex designed to expand year-round recreation opportunities across the greater Bangor region. The project, led by River City Athletics, will feature an indoor a",
-      "url": "https://www.bangordailynews.com/2026/05/13/bdn-maine/first-national-bank-commits-50000-to-quirk-sportsplex-to-expand-year-round-recreation/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-13",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e7be88a3163a",
       "title": "Op-Ed: May 14 Is Momentous Day in NH",
       "summary": "First, the NH House votes on CACR 12, a constitutional amendment designed to prevent all future governors and legislatures from adopting a \u201cbroad-based\u201d tax, which could be an income, sales or property tax.",
@@ -25774,34 +25816,6 @@
       "source": "InDepthNH",
       "state": "NH",
       "date": "2026-05-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5768e9b284c5",
-      "title": "When does a public conversation about permitting begin and end?",
-      "summary": "Before you restrict appeals, ask why neighbors turned to them in the first place.\nRead the story on VTDigger here:  When does a public conversation about permitting begin and end?.",
-      "url": "https://vtdigger.org/2026/05/12/opinion-when-does-a-public-conversation-about-permitting-begin-and-end/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "dba2c14e7dd9",
-      "title": "Vermont lawmakers abandon push to ban chemical dyes from cafeterias after school district opposition",
-      "summary": "The legislation had broad support in the state Senate but faced pushback from district officials over whether replacing what would likely be just a handful of products would be worth the extra work.\nRead the story on VTDigger here:  Vermont lawmakers abandon push to ban chemical dyes from cafeteria",
-      "url": "https://vtdigger.org/2026/05/11/vermont-lawmakers-abandon-push-to-ban-chemical-dyes-from-cafeterias-after-school-district-opposition/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-11",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25845,7 +25859,7 @@
       "raw": 10111830963.030071,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-14T12:21:54.851327",
+      "updated": "2026-05-15T12:26:48.794698",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25955,24 +25969,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-14T12:21:54.851327"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-15T12:26:48.794698"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-14T12:21:54.851327"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-15T12:26:48.794698"
     },
     "migration": {
       "score": 5.0,
@@ -25982,35 +25996,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-14T12:21:54.851327"
+      "updated": "2026-05-15T12:26:48.794698"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-14T12:21:54.851327"
+      "raw": 940400.0,
+      "raw_display": "940K workers",
+      "yoy_change": -0.8,
+      "source": "FRED API",
+      "updated": "2026-05-15T12:26:48.794698"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.2,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.48 | Diesel $5.85",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.48,
+        "score": 6.3,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.85,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-14T12:21:54.851327"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-15T12:26:48.794698"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26019,19 +26033,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-14T12:21:54.851327"
+      "updated": "2026-05-15T12:26:48.794698"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-14T12:21:54.851327"
+    "calculated_at": "2026-05-15T12:26:48.794698"
   }
 }

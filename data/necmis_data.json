@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-17T11:55:23.588999Z",
+  "generated": "2026-05-18T14:21:55.740600Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1222,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 42,
       "NH": 59,
-      "ME": 173,
+      "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 10,
-      "funding": 1
+      "news": 7,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25697,13 +25697,13 @@
   ],
   "news": [
     {
-      "id": "0c2337625596",
-      "title": "Steady, practical Costello is the best choice for Senate | Letter",
-      "summary": "David Costello\u2019s approach to the economy is why I am voting for him for U.S. Senate in the June 9 Democratic primary. He supports raising wages, protecting workers\u2019 rights and expanding tax relief. He understands that lasting prosperity requires investment in our infrastructure, small businesses, re",
-      "url": "https://www.pressherald.com/2026/05/17/steady-practical-costello-is-the-best-choice-for-senate-letter/",
+      "id": "075edd5d552b",
+      "title": "9 Maine art walks to stroll through this summer",
+      "summary": "Portland, Biddeford, Brunswick, Kennebunk and Wiscasset are just some of the locales that hold the events on a regular basis.",
+      "url": "https://www.pressherald.com/2026/05/18/9-maine-art-walks-to-stroll-through-this-summer/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25711,29 +25711,15 @@
       ]
     },
     {
-      "id": "f33ea19a1550",
-      "title": "Obituary: Jacqueline M. (Parent) Cote",
-      "summary": "SACO - Jacqueline M. (Parent) Cote passed away peacefully at home on Sunday, May 10, 2026. She was born in Biddeford ...",
-      "url": "https://www.pressherald.com/2026/05/17/obituaryjacqueline-m-parent-cote-2/",
+      "id": "511eb2b478d5",
+      "title": "Mills vetoed a data center pause. Towns are looking to pass their own.",
+      "summary": "At least four municipalities have proposed their own moratoriums on new data center development while they refine local regulations.",
+      "url": "https://www.pressherald.com/2026/05/18/mills-vetoed-a-data-center-pause-towns-are-looking-to-pass-their-own/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9105665983c3",
-      "title": "Death Notice: Jacqueline M. (Parent) Cote",
-      "summary": "Cote, Jacqueline M. (Parent) 92, of Saco, May 10. Graveside service 11 a.m., Oct. 5, St Joseph Cemetery in Biddeford. ...",
-      "url": "https://www.pressherald.com/2026/05/17/obituaryjacqueline-m-parent-cote/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-05-17",
-      "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25746,34 +25732,6 @@
       "source": "CT Mirror",
       "state": "CT",
       "date": "2026-05-17",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5cc13fc5ff3e",
-      "title": "Smoke still rising from the site of deadly Searsmont fire and explosion",
-      "summary": "The roads around Robbins Lumber were quiet Saturday morning, a day after an explosion killed a firefighter and wounded others at the Searsmont mill.",
-      "url": "https://www.bangordailynews.com/2026/05/16/midcoast/midcoast-police-courts/smoke-deadly-searsmont-fire-and-explosion/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8236d46422e9",
-      "title": "Go back in time by hiking along this old Bar Harbor railway",
-      "summary": "\"Spanning Point Road and Old Route 1 in Hancock, the trail travels through a lovely forest of oaks, maples, balsam firs and other trees.\"",
-      "url": "https://www.bangordailynews.com/2026/05/16/outdoors/act-out/hiking-old-bar-harbor-railway/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-16",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25809,14 +25767,14 @@
       ]
     },
     {
-      "id": "1e324de58bc3",
-      "title": "Enosburg Falls cream cheese producer agrees to pay the state $265,000 for allegedly releasing untreated wastewater",
-      "summary": "Franklin Foods was accused of repeatedly violating its pretreatment permit, including releasing untreated liquid waste to the Enosburg Falls wastewater treatment facility. \nRead the story on VTDigger here:  Enosburg Falls cream cheese producer agrees to pay the state $265,000 for allegedly releasin",
-      "url": "https://vtdigger.org/2026/05/13/enosburg-falls-cream-cheese-producer-agrees-to-pay-the-state-265000-for-allegedly-releasing-untreated-wastewater/",
-      "source": "VTDigger",
-      "state": "VT",
+      "id": "2468cca2fcf0",
+      "title": "GM is using AI to design vehicles. Here's what that means",
+      "summary": "The birth of a new General Motors Co. car still begins with a sketch. But after that, the Detroit automaker is leaning into artificial intelligence to supercharge development.",
+      "url": "https://www.unionleader.com/news/business/gm-is-using-ai-to-design-vehicles-heres-what-that-means/article_b271a2a6-ebf7-42bb-a58f-944a0f98894a.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-05-13",
-      "category": "funding",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25835,20 +25793,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "8f6ee1ca9c0c",
-      "title": "New bids to slow Interstate 95 service area work in Hampton by at least 9 months",
-      "summary": "The New Hampshire Liquor Commission is making quick work of requesting new bids to develop two service areas off both sides of Interstate 95 in Hampton, but the project will be delayed for months.",
-      "url": "https://www.unionleader.com/news/politics/state/new-bids-to-slow-interstate-95-service-area-work-in-hampton-by-at-least-9/article_00d0335b-60c4-436b-b8e8-50941b20ad04.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-05-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25859,7 +25803,7 @@
       "raw": 10111830963.030071,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-17T11:55:22.737935",
+      "updated": "2026-05-18T14:21:48.717773",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25969,24 +25913,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-17T11:55:22.737935"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-18T14:21:48.717773"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-17T11:55:22.737935"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-18T14:21:48.717773"
     },
     "migration": {
       "score": 5.0,
@@ -25996,35 +25940,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-17T11:55:22.737935"
+      "updated": "2026-05-18T14:21:48.717773"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-17T11:55:22.737935"
+      "raw": 940400.0,
+      "raw_display": "940K workers",
+      "yoy_change": -0.8,
+      "source": "FRED API",
+      "updated": "2026-05-18T14:21:48.717773"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.2,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.48 | Diesel $5.85",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.48,
+        "score": 6.3,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.85,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-17T11:55:22.737935"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-18T14:21:48.717773"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26033,19 +25977,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-17T11:55:22.737935"
+      "updated": "2026-05-18T14:21:48.717773"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-17T11:55:22.737935"
+    "calculated_at": "2026-05-18T14:21:48.717773"
   }
 }

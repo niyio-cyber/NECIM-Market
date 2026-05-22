@@ -1,26 +1,26 @@
 {
-  "generated": "2026-05-21T13:56:56.868852Z",
+  "generated": "2026-05-22T13:19:03.733754Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
-      "NH": 59,
-      "ME": 172,
-      "MA": 599,
+      "VT": 41,
+      "NH": 58,
+      "ME": 170,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 10,
-      "funding": 0
+      "news": 6,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25716,41 +25716,41 @@
   ],
   "news": [
     {
-      "id": "1133b8f4aca9",
-      "title": "Ballroom plan lays bare warped national priorities | Letter",
-      "summary": "At a time when medical support for Americans is being cut or constrained, the proposal to build a gilded ballroom at the White House sends a troubling message about national priorities. Reducing access to essential care while advancing an extravagant construction project at taxpayer expense reflects",
-      "url": "https://www.pressherald.com/2026/05/21/ballroom-plan-lays-bare-warped-national-priorities-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-05-21",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d46f7fc2b2d2",
-      "title": "Maine should crack down on Cooke Aquaculture | Letter",
-      "summary": "Maine, like Washington, was built by people who respect the sea. That legacy is being desecrated \u2014 and our elected officials are letting it happen. A new undercover investigation has, again, exposed brutal conditions at Cooke Aquaculture\u2019s salmon hatchery in Bingham \u2014 animals slammed into concrete,",
-      "url": "https://www.pressherald.com/2026/05/21/maine-should-crack-down-on-cooke-aquaculture-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-05-21",
+      "id": "71e0d7b9a356",
+      "title": "World\u2019s tallest thermometer, between Las Vegas and LA, is for sale",
+      "summary": "The giant roadside thermometer between Las Vegas and Los Angeles \u2014 a towering sight for legions of highway drivers \u2014 is for sale.",
+      "url": "https://www.unionleader.com/news/back_page/world-s-tallest-thermometer-between-las-vegas-and-la-is-for-sale/article_b85e182f-423e-4f41-8d37-9505f89417a7.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-05-22",
       "category": "news",
       "priority": "high",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
-      "id": "f61e2c6d6d65",
-      "title": "Crews close lane of Broadway for water main break",
-      "summary": "There will be shifting lanes, and drivers who want to avoid delays should seek alternative routes.",
-      "url": "https://www.bangordailynews.com/2026/05/21/bangor/bangor-government/bangor-maine-broadway-water-main-break-husson-grandview-avenues/",
+      "id": "79961178189b",
+      "title": "Scarborough Town Council approves $169 million municipal and school budget",
+      "summary": "The budget will result in a 3.21% increase in the tax rate.",
+      "url": "https://www.pressherald.com/2026/05/22/scarborough-town-council-approves-169-million-municipal-and-school-budget/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-22",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8490e47f01ed",
+      "title": "Republicans are picking apart\u00a0Graham Platner\u2019s Reddit archive post by post",
+      "summary": "Out-of-state groups backing U.S. Sen. Susan Collins are flooding the airwaves with a mix of old and new broadsides against the political newcomer.",
+      "url": "https://www.bangordailynews.com/2026/05/22/politics/elections/republicans-picking-apart-graham-platners-reddit-archive-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25758,15 +25758,57 @@
       ]
     },
     {
-      "id": "bf00b5881c02",
-      "title": "Letter: No gas tax means worse roads",
-      "summary": "\u201cIf you like pot holes, lower the gas tax.\u201d",
-      "url": "https://www.bangordailynews.com/2026/05/21/opinion/letters/letter-no-gas-tax-means-worse-roads-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-21",
+      "id": "a37e5a1f05a8",
+      "title": "Westfield board grants permits for chickens, pool and machine shop",
+      "summary": "At the Westfield Planning Board meeting on May 19, several residents in rural residential zones sought special permits for various uses on their properties.",
+      "url": "https://www.masslive.com/westfieldnews/2026/05/westfield-board-grants-permits-for-chickens-pool-and-machine-shop.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-22",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3f0758625885",
+      "title": "Southwick road repair projects for 2026 to start soon",
+      "summary": "Late last year, the Southwick Select Board, at the urging of board member Russ Anderson, contracted with an engineering firm to complete a thorough survey of the conditions of town\u2019s roads to create a priority list of those most in need of repair.",
+      "url": "https://www.masslive.com/westfieldnews/2026/05/southwick-road-repair-projects-for-2026-to-start-soon.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-22",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ff0c26c62cae",
+      "title": "EDC considers projects for Complete Streets grants",
+      "summary": "At the Southwick Economic Development Commission meeting Wednesday, projects the town might pursue for grant funding from the Complete Streets Funding Program were discussed, including making the area along Point Grove to the North Boat Ramp more pedestrian friendly and connecting the rail trail to",
+      "url": "https://www.masslive.com/westfieldnews/2026/05/edc-considers-projects-for-complete-streets-grants.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-05-22",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7b282ac9ee81",
+      "title": "Trump will ease refrigerant rule in a bid to address surging grocery costs",
+      "summary": "The EPA is set to loosen a rule that requires grocery stores and AC companies to reduce greenhouse gases used in cooling equipment.",
+      "url": "https://ctmirror.org/2026/05/21/trump-refrigerant-rule-hfc/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-05-21",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25786,48 +25828,6 @@
       ]
     },
     {
-      "id": "3d699acf13f4",
-      "title": "Vermont is driving the next generation away",
-      "summary": "Vermont's beauty can't offset the high costs, lack of opportunity and missing infrastructure forcing young people to leave the state.\nRead the story on VTDigger here:  Vermont is driving the next generation away.",
-      "url": "https://vtdigger.org/2026/05/19/opinion-vermont-is-driving-the-next-generation-away/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2217f8f4e8ad",
-      "title": "What 2,200 Vermonters told us about local news",
-      "summary": "The Dirt Road News project gathered responses from younger and rural Vermonters, revealing that local news is often hard to find and unevenly distributed, even as many respondents expressed strong trust in VTDigger and a clear appetite for more local coverage.\nRead the story on VTDigger here:  What",
-      "url": "https://vtdigger.org/2026/05/19/vermont-local-news-survey/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "085c77936446",
-      "title": "Stay Work Play NH Launches Statewide Internship Program to Help Young Talent",
-      "summary": "New summer initiative connects interns with professional development, networking opportunities, and community experiences designed to strengthen long-term workforce retention",
-      "url": "https://indepthnh.org/2026/05/19/stay-work-play-nh-launches-statewide-internship-program-to-help-young-talent/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "b96132bfffe3",
       "title": "Judge denies accused CEO killer Mangione's bid to toss gun, notebook evidence",
       "summary": "Luigi Mangione, accused of killing the CEO of UnitedHealthcare, on Monday failed to convince a New York judge to keep a possible murder weapon out of trial evidence, though prosecutors won't be allowed to introduce some other things found in\u2026",
@@ -25840,20 +25840,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "f6e3c4bd6111",
-      "title": "Developer looks to build 1,000 housing units in Londonderry, Auburn",
-      "summary": "A developer is seeking early feedback on a plan to convert the Brook Hollow gravel pit between Londonderry and Auburn into a 1,000-unit housing development over the next 15 to 20 years.",
-      "url": "https://www.unionleader.com/news/local/derry_londonderry/developer-looks-to-build-1-000-housing-units-in-londonderry-auburn/article_948c4153-c6b4-46b5-af4b-11676741b932.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-05-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
     }
   ],
   "market_health": {
@@ -25864,7 +25850,7 @@
       "raw": 10108137225.33729,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-21T13:56:56.662536",
+      "updated": "2026-05-22T13:18:57.821135",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25974,24 +25960,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-21T13:56:56.662536"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-22T13:18:57.821135"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-21T13:56:56.662536"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-22T13:18:57.821135"
     },
     "migration": {
       "score": 5.0,
@@ -26001,35 +25987,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-21T13:56:56.662536"
+      "updated": "2026-05-22T13:18:57.821135"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-21T13:56:56.662536"
+      "raw": 940400.0,
+      "raw_display": "940K workers",
+      "yoy_change": -0.8,
+      "source": "FRED API",
+      "updated": "2026-05-22T13:18:57.821135"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.3,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.49 | Diesel $5.81",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.49,
+        "score": 6.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.81,
+        "score": 6.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-21T13:56:56.662536"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-22T13:18:57.821135"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26038,19 +26024,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-21T13:56:56.662536"
+      "updated": "2026-05-22T13:18:57.821135"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-21T13:56:56.662536"
+    "calculated_at": "2026-05-22T13:18:57.821135"
   }
 }

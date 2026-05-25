@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T11:58:10.587894Z",
+  "generated": "2026-05-25T13:53:29.475779Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 44,
       "NH": 59,
-      "ME": 169,
+      "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 8,
+      "news": 9,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -25716,6 +25716,20 @@
   ],
   "news": [
     {
+      "id": "6c1bd22c1556",
+      "title": "Maine\u2019s coast might have more than 1,000\u00a0shipwrecks",
+      "summary": "There are hundreds of shipwrecks known to lie in Penobscot Bay alone, and hundreds more dot Maine waters, many of them unknown.",
+      "url": "https://www.bangordailynews.com/2026/05/25/midcoast/maines-coast-more-than-1000-shipwrecks-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-25",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "35f10ffb43ca",
       "title": "Solar array gone awry: Vermont probes solar development owner about broken solar panels in Shaftsbury",
       "summary": "Agriculture agency says it is \u201cworking to learn more.\u201d \nRead the story on VTDigger here:  Solar array gone awry: Vermont probes solar development owner about broken solar panels in Shaftsbury.",
@@ -25730,15 +25744,15 @@
       ]
     },
     {
-      "id": "d80cb1b10b09",
-      "title": "Reflecting on two bridges, two wars, two protests | Letter",
-      "summary": "Here's hoping that the 'No Kings' demonstrations on the Sagadahoc Bridge have a more successful outcome than the 1969 March on Washington.",
-      "url": "https://www.pressherald.com/2026/05/24/reflecting-on-two-bridges-two-wars-two-protests-letter/",
-      "source": "Portland Press Herald",
+      "id": "d7b8bf51764f",
+      "title": "3 hurt\u00a0in early morning rollover on Route 1 in Brunswick",
+      "summary": "The car went off the left side of the road, struck a cable barrier and rolled over, according to Brunswick police.",
+      "url": "https://www.bangordailynews.com/2026/05/24/midcoast/midcoast-police-courts/3-hurt-early-morning-rollover-route-1-brunswick/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-05-24",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25836,7 +25850,7 @@
       "raw": 10108137225.33729,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-24T11:58:10.424825",
+      "updated": "2026-05-25T13:53:20.879076",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25946,24 +25960,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-24T11:58:10.424825"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-25T13:53:20.879076"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-24T11:58:10.424825"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-25T13:53:20.879076"
     },
     "migration": {
       "score": 5.0,
@@ -25973,35 +25987,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-24T11:58:10.424825"
+      "updated": "2026-05-25T13:53:20.879076"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.8,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-24T11:58:10.424825"
+      "raw": 940400.0,
+      "raw_display": "940K workers",
+      "yoy_change": -0.8,
+      "source": "FRED API",
+      "updated": "2026-05-25T13:53:20.879076"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.3,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.49 | Diesel $5.81",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.49,
+        "score": 6.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.81,
+        "score": 6.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-24T11:58:10.424825"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-25T13:53:20.879076"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26010,19 +26024,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-24T11:58:10.424825"
+      "updated": "2026-05-25T13:53:20.879076"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-24T11:58:10.424825"
+    "calculated_at": "2026-05-25T13:53:20.879076"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T13:50:22.490686Z",
+  "generated": "2026-05-27T14:16:09.192001Z",
   "summary": {
     "total_opportunities": 1224,
     "total_value_low": 10659544701,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
+      "VT": 42,
       "NH": 61,
-      "ME": 169,
-      "MA": 601,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 10,
+      "news": 8,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -18706,6 +18706,27 @@
       ]
     },
     {
+      "id": "e6af7baf894d",
+      "state": "CT",
+      "project_id": "0170-3757",
+      "description": "Speed Limit Signs on Local Rural Roads in Districts 3 & 4",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-24",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
       "id": "17eb9cc56d77",
       "state": "CT",
       "project_id": "0171-0521",
@@ -23506,26 +23527,6 @@
       ]
     },
     {
-      "id": "988899b992fc",
-      "state": "CT",
-      "project_id": "0170-3757",
-      "description": "CT Project 0170-3757",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "7222790031aa",
       "state": "CT",
       "project_id": "0170-3761",
@@ -25716,15 +25717,71 @@
   ],
   "news": [
     {
-      "id": "d6f9f66c9952",
-      "title": "UNE sues Biddeford after city denies permit for controversial pier project",
-      "summary": "The University of New England is asking a York County judge to declare that the city's moratorium on construction projects violates state law.",
-      "url": "https://www.pressherald.com/2026/05/26/une-sues-biddeford-after-city-denies-permit-for-controversial-pier-project/",
-      "source": "Portland Press Herald",
+      "id": "1055babd108b",
+      "title": "Construction starts on Bangor\u2019s Joshua Chamberlain Bridge next month",
+      "summary": "Traffic on the bridge will be reduced to a single lane of one-way traffic during construction.",
+      "url": "https://www.bangordailynews.com/2026/05/27/bangor/bangor-government/bangor-maine-joshua-chamberlain-bridge-construction-start-date/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-05-27",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "22269b9964ff",
+      "title": "CT expanding cannabis use will make roads more dangerous",
+      "summary": "The legislature\u2019s recent approval of expanding access to cannabis/THC will only make an already dangerous highway situation worse.",
+      "url": "https://ctmirror.org/2026/05/27/ct-expanding-cannabis-use-will-make-roads-more-dangerous/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-05-27",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f47012239c7e",
+      "title": "Once-stalled Manchester apartment building nearly ready for renters",
+      "summary": "The stalled construction of a $20 million apartment building in downtown Manchester got a boost with a new owner and investor money to bring it to the finish line, and now the 77 units are on the market.",
+      "url": "https://www.unionleader.com/news/local/manchester/once-stalled-manchester-apartment-building-nearly-ready-for-renters/article_2acb376e-cbc3-446a-a9a8-f997ce85a8db.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-05-26",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d33c7482ac74",
+      "title": "Former Acadia park ranger sues over alleged hiring discrimination",
+      "summary": "David A. Smith contends that he was passed over for positions in the park\u2019s roads division because of his age and race.",
+      "url": "https://www.bangordailynews.com/2026/05/26/hancock/hancock-police-courts/acadia-lawsuit-hiring-discrimination/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-05-26",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "aba64087650b",
+      "title": "Committee Advances HB 1588 Housing Changes",
+      "summary": "A committee of conference on Tuesday advanced changes to House Bill (HB) 1588 that would limit some local restrictions on multifamily housing development in commercial districts.",
+      "url": "https://indepthnh.org/2026/05/26/committee-advances-hb-1588-housing-changes/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-05-26",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25737,48 +25794,6 @@
       "source": "InDepthNH",
       "state": "NH",
       "date": "2026-05-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "da7acc495e63",
-      "title": "Connecticut Sun\u2019s woes continue in loss to Golden State Valkyries",
-      "summary": "The Sun have one game left to their five-game road trip.",
-      "url": "https://www.masslive.com/sports/2026/05/connecticut-suns-woes-continue-in-loss-to-golden-state-valkyries.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-05-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "45bda85bc95b",
-      "title": "Westfield City Council split on funding for brain injury group home",
-      "summary": "At its May 21 meeting, the City Council narrowly defeated an appropriation of $200,000 in Community Preservation Act funds to Berkshire County ARC for a group home for individuals with acquired brain injury (ABI) on Cabot Road, as recommended unanimously by the Community Preservation Committee at it",
-      "url": "https://www.masslive.com/westfieldnews/2026/05/westfield-city-council-split-on-funding-for-brain-injury-group-home.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-05-26",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cd3e37d804ef",
-      "title": "Steeplegate Mall plans no longer include J.C. Penney",
-      "summary": "The redevelopment of the Steeplegate Mall in Concord no longer shows plans to save the J.C. Penney department store, and the number of apartments has been reduced to 600.",
-      "url": "https://www.unionleader.com/news/business/steeplegate-mall-plans-no-longer-include-j-c-penney/article_21ced2a1-9e62-4818-91db-149afe1892b7.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-05-25",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25800,34 +25815,6 @@
       ]
     },
     {
-      "id": "cbe81be06867",
-      "title": "Legislators reject Gov. Scott\u2019s loosening of wetland protections",
-      "summary": "The governor\u2019s administration had moved to allow housing development in certain unmapped wetlands and to cut in half the buffer zone around wetlands.\nRead the story on VTDigger here:  Legislators reject Gov. Scott\u2019s loosening of wetland protections.",
-      "url": "https://vtdigger.org/2026/05/22/legislators-reject-gov-scotts-loosening-of-wetland-protections/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-22",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ce808bc96757",
-      "title": "Vermont\u2019s new farming legislation leaves small livestock operations vulnerable",
-      "summary": "A broad coalition won some protections for farmers, but new legislation allows towns to impose arbitrary caps on poultry and livestock that could push agriculture out of communities.\nRead the story on VTDigger here:  Vermont\u2019s new farming legislation leaves small livestock operations vulnerable.",
-      "url": "https://vtdigger.org/2026/05/22/opinion-vermonts-new-farming-legislation-leaves-small-livestock-operations-vulnerable/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-22",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "71e0d7b9a356",
       "title": "World\u2019s tallest thermometer, between Las Vegas and LA, is for sale",
       "summary": "The giant roadside thermometer between Las Vegas and Los Angeles \u2014 a towering sight for legions of highway drivers \u2014 is for sale.",
@@ -25837,20 +25824,6 @@
       "date": "2026-05-22",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "18b8ab9bdeab",
-      "title": "Man Recovering After Police-Involved Shooting in Milan",
-      "summary": "MILAN - A 37-year old man was shot by a Berlin police officer while officers were responding to a resident's request to remove a man from the home at 256 West Milan Road in Milan Thursday night at 8:50 p.m., according to Attorney General John Formella's press release.",
-      "url": "https://indepthnh.org/2026/05/22/man-recovering-after-police-involved-shooting-in-milan/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-22",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25875,10 +25848,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10108137225.33729,
+      "raw": 10107400060.007246,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-26T13:50:21.626479",
+      "updated": "2026-05-27T14:16:01.578270",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25919,7 +25892,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 356050000.0,
+            "weighted": 355640000.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25979,33 +25952,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3164482363.4761353,
+          "baseline_time_weighted": 3164251584.388566,
           "baseline_time_weighted_display": "$3.16B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10108137225.33729,
+          "scoring_value": 10107400060.007246,
           "scoring_value_display": "$10.11B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-26T13:50:21.626479"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-27T14:16:01.578270"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-26T13:50:21.626479"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-27T14:16:01.578270"
     },
     "migration": {
       "score": 5.0,
@@ -26015,35 +25988,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-26T13:50:21.626479"
+      "updated": "2026-05-27T14:16:01.578270"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-26T13:50:21.626479"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-05-27T14:16:01.578270"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.46 | Diesel $5.80",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.46,
+        "score": 6.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.8,
+        "score": 6.5,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-26T13:50:21.626479"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-27T14:16:01.578270"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26052,19 +26025,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-26T13:50:21.626479"
+      "updated": "2026-05-27T14:16:01.578270"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-26T13:50:21.626479"
+    "calculated_at": "2026-05-27T14:16:01.578270"
   }
 }

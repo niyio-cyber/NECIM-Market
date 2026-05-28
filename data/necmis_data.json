@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T14:21:17.930727Z",
+  "generated": "2026-05-28T14:25:53.325350Z",
   "summary": {
     "total_opportunities": 1224,
     "total_value_low": 10659544701,
@@ -9,8 +9,8 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 42,
-      "NH": 61,
-      "ME": 170,
+      "NH": 62,
+      "ME": 172,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 8,
+      "news": 11,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25717,12 +25717,110 @@
   ],
   "news": [
     {
-      "id": "1055babd108b",
-      "title": "Construction starts on Bangor\u2019s Joshua Chamberlain Bridge next month",
-      "summary": "Traffic on the bridge will be reduced to a single lane of one-way traffic during construction.",
-      "url": "https://www.bangordailynews.com/2026/05/27/bangor/bangor-government/bangor-maine-joshua-chamberlain-bridge-construction-start-date/",
-      "source": "Bangor Daily News",
+      "id": "1f23896e8bca",
+      "title": "A Republican president is expensive for America | Letter",
+      "summary": "The last\u00a0two Republican presidents \u2014 George\u00a0W. Bush and the current occupant of the White House \u2014 have down four things: cut taxes for the morbidly wealthy; blow our country\u2019s debt into the stratosphere with the same unnecessary tax cuts for people who don\u2019t need them; start a completely unnecessary",
+      "url": "https://www.pressherald.com/2026/05/28/a-republican-president-is-expensive-for-america-letter/",
+      "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-05-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cca0bd6158c3",
+      "title": "America pays the price for political roads not taken | Douglas Rooks",
+      "summary": "A pair of op-eds from 2019 offer a sad reminder of what could have been.",
+      "url": "https://www.pressherald.com/2026/05/28/america-pays-the-price-for-political-roads-not-taken-douglas-rooks/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-28",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b199ea79e8e6",
+      "title": "Obituary: Elizabeth Ann (Coffin) Coldwell",
+      "summary": "BIDDEFORD - Elizabeth Ann (Coffin) Coldwell, 81, passed away peacefully on May 3, 2026, in Portland, surrounded by the love of ...",
+      "url": "https://www.pressherald.com/2026/05/28/obituaryelizabeth-ann-coffin-coldwell-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cc4b4c5d5719",
+      "title": "Death Notice: Elizabeth Ann (Coffin) Coldwell",
+      "summary": "Coldwell, Elizabeth Ann (Coffin) 81, of Biddeford, May 3. Visit 5-8 p.m., May 29, Hope Memorial Chapel, Biddeford. Service 2 p.m., ...",
+      "url": "https://www.pressherald.com/2026/05/28/obituaryelizabeth-ann-coffin-coldwell/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-05-28",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "aea9ddfceef5",
+      "title": "AI Data Center Paused Amid Uproar in Nottingham",
+      "summary": "The man behind a proposed data center on Route 4 is retreating as hundreds of people showed up Wednesday to protest the development.",
+      "url": "https://indepthnh.org/2026/05/27/ai-data-center-paused-amid-uproar-in-nottingham/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-05-28",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5419d905d22a",
+      "title": "Vermont Conversation: \u2018Action is the antidote to despair.\u2019 Ben Cohen fights to save the soul of Ben & Jerry\u2019s.",
+      "summary": "The Vermont ice cream company co-founder reflects on what's become of his company's social mission and the socially responsible business movement that he spearheaded, how he and Jerry Greenfield are trying to take back their company, and his activism.\nRead the story on VTDigger here:  Vermont Conve",
+      "url": "https://vtdigger.org/2026/05/27/vermont-conversation-action-is-the-antidote-to-despair-ben-cohen-fights-to-save-the-soul-of-ben-jerrys/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-05-27",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b134c4cccfa5",
+      "title": "Roadquill",
+      "summary": "",
+      "url": "https://indepthnh.org/2026/05/27/roadquill/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-05-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8a354e889523",
+      "title": "State Asks Court To Dismiss Pam Smart\u2019s Latest Bid for Freedom",
+      "summary": "The state has asked the court to dismiss Pam Smart's latest bid to get out of prison, a habeas corpus petition arguing she was convicted based on dodgy tape recordings of conversations with one of the prosecution's key witnesses.",
+      "url": "https://indepthnh.org/2026/05/27/state-asks-court-to-dismiss-pam-smarts-latest-bid-for-freedom/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-05-27",
       "category": "news",
       "priority": "high",
@@ -25759,20 +25857,6 @@
       ]
     },
     {
-      "id": "d33c7482ac74",
-      "title": "Former Acadia park ranger sues over alleged hiring discrimination",
-      "summary": "David A. Smith contends that he was passed over for positions in the park\u2019s roads division because of his age and race.",
-      "url": "https://www.bangordailynews.com/2026/05/26/hancock/hancock-police-courts/acadia-lawsuit-hiring-discrimination/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "aba64087650b",
       "title": "Committee Advances HB 1588 Housing Changes",
       "summary": "A committee of conference on Tuesday advanced changes to House Bill (HB) 1588 that would limit some local restrictions on multifamily housing development in commercial districts.",
@@ -25780,34 +25864,6 @@
       "source": "InDepthNH",
       "state": "NH",
       "date": "2026-05-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4aae5d55d535",
-      "title": "Memorial Day Parade Honors Military Personnel Who Died Serving Our Country",
-      "summary": "The sun came out and so did hundreds of people to honor the military who died serving our country. Manchester was one of the limited number of municipalities that held their parade.",
-      "url": "https://indepthnh.org/2026/05/25/manchester-memorial-day-parade-honors-military-personnel-who-died-serving/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-26",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "35f10ffb43ca",
-      "title": "Solar array gone awry: Vermont probes solar development owner about broken solar panels in Shaftsbury",
-      "summary": "Agriculture agency says it is \u201cworking to learn more.\u201d \nRead the story on VTDigger here:  Solar array gone awry: Vermont probes solar development owner about broken solar panels in Shaftsbury.",
-      "url": "https://vtdigger.org/2026/05/24/solar-array-gone-awry-vermont-probes-solar-development-owner-about-broken-solar-panels-in-shaftsbury/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-24",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25827,20 +25883,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "b96132bfffe3",
-      "title": "Judge denies accused CEO killer Mangione's bid to toss gun, notebook evidence",
-      "summary": "Luigi Mangione, accused of killing the CEO of UnitedHealthcare, on Monday failed to convince a New York judge to keep a possible murder weapon out of trial evidence, though prosecutors won't be allowed to introduce some other things found in\u2026",
-      "url": "https://www.unionleader.com/news/courts/judge-denies-accused-ceo-killer-mangiones-bid-to-toss-gun-notebook-evidence/article_b7fdbe51-cd6c-56c5-a1fe-a1687fa1fe91.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-05-18",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25851,7 +25893,7 @@
       "raw": 10107400060.007246,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-27T14:21:14.588344",
+      "updated": "2026-05-28T14:25:37.194358",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25961,24 +26003,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-27T14:21:14.588344"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-28T14:25:37.194358"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-27T14:21:14.588344"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-28T14:25:37.194358"
     },
     "migration": {
       "score": 5.0,
@@ -25988,35 +26030,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-27T14:21:14.588344"
+      "updated": "2026-05-28T14:25:37.194358"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-27T14:21:14.588344"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-05-28T14:25:37.194358"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.46 | Diesel $5.80",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.46,
+        "score": 6.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.8,
+        "score": 6.5,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-27T14:21:14.588344"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-28T14:25:37.194358"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26025,19 +26067,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-27T14:21:14.588344"
+      "updated": "2026-05-28T14:25:37.194358"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-27T14:21:14.588344"
+    "calculated_at": "2026-05-28T14:25:37.194358"
   }
 }

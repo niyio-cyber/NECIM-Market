@@ -1,26 +1,26 @@
 {
-  "generated": "2026-05-29T13:53:25.187975Z",
+  "generated": "2026-05-30T11:59:43.305623Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
-      "NH": 61,
-      "ME": 171,
-      "MA": 603,
+      "VT": 41,
+      "NH": 60,
+      "ME": 169,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 11,
-      "funding": 3
+      "news": 5,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25717,54 +25717,26 @@
   ],
   "news": [
     {
-      "id": "4095710fb08c",
-      "title": "Justice Department deal with Trump is a travesty | Letter",
-      "summary": "The proposal to spend $1.8\u202fbillion on a compensation fund for people supposedly \u201cwronged\u201d by the Biden administration \u2014 including Jan. 6, 2021 insurrectionists \u2014 should alarm every taxpayer. With criteria that remain vague and politically malleable, it looks less like justice and more like an open i",
-      "url": "https://www.pressherald.com/2026/05/29/justice-department-deal-with-trump-is-a-travesty-letter/",
+      "id": "21a02154a3a1",
+      "title": "After complaints, Durham issues stop work order on gravel pit for unpermitted expansion",
+      "summary": "The town issued the order in early May and has since allowed the pit to resume some work on permitted land.",
+      "url": "https://www.pressherald.com/2026/05/30/after-complaints-durham-issues-stop-work-order-on-gravel-pit-for-unpermitted-expansion/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-05-29",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "dc43b495acf4",
-      "title": "Rabid fox found in Maine town",
-      "summary": "The fox was found Wednesday afternoon near the Lisbon Falls Big Apple.",
-      "url": "https://www.bangordailynews.com/2026/05/29/central-maine/central-maine-police-courts/lisbon-falls-maine-bayberry-street-rabid-fox-rabies/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b548f5a506a0",
-      "title": "Bangor will rename city trail after Gerald Talbot",
-      "summary": "The trail connecting Sylvan Road and Stillwater Avenue will soon bear the name of the civil rights icon and Maine's first Black legislator.",
-      "url": "https://www.bangordailynews.com/2026/05/29/bangor/bangor-government/bangor-maine-gerald-talbot-trail-naming-ceremony/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-05-29",
+      "date": "2026-05-30",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway"
+        "aggregates"
       ]
     },
     {
-      "id": "01ea020845be",
-      "title": "Mass. police trooper struck by vehicle while working highway detail",
-      "summary": "The crash happened on the northbound side, where the left two lanes had been closed due to roadwork.",
-      "url": "https://www.masslive.com/news/2026/05/mass-police-trooper-struck-by-vehicle-while-working-highway-detail.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "d5c28da330a5",
+      "title": "Dead Moose for 4 Days on Side of Kancamagus  on Memorial Day Weekend Causes Upset",
+      "summary": "Moose sightings are rare but more common in May along the state's highways. But they are also a hazard, and in some cases an eyesore that the state is not dealing with on a timely basis, an Executive Councilor said this week.",
+      "url": "https://indepthnh.org/2026/05/29/dead-moose-on-side-of-kancamagus-for-4-days-during-memorial-day-weekend-causes-upset/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-05-29",
       "category": "news",
       "priority": "high",
@@ -25773,42 +25745,14 @@
       ]
     },
     {
-      "id": "51d10318b412",
-      "title": "Mass. to make a $25M quantum leap on new computing center in Cambridge",
-      "summary": "\"This facility will serve those at the edges of our wildest imaginations in physics and quantum computing,\u201d MIT President Sally Kornbluth said",
-      "url": "https://www.masslive.com/politics/2026/05/mass-to-make-a-quantum-leap-on-new-computing-center-in-cambridge.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "78e220e9c71b",
+      "title": "First housing projects OK\u2019d through CT development authority",
+      "summary": "Developments including housing, a museum and downtown retail space got approval on Friday for about $19 million in bond funding.",
+      "url": "https://ctmirror.org/2026/05/29/first-housing-projects-okd-through-ct-development-authority/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-05-29",
       "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5dbb5aae90ce",
-      "title": "Hartford prepares to host its first WNBA game as the Sun take on the Sparks",
-      "summary": "The Connecticut Sun return from their five-game road trip on Saturday and will face the Los Angeles Sparks at the PeoplesBank Arena in Hartford as the city hosts its first regular-season WNBA game.",
-      "url": "https://www.masslive.com/sports/2026/05/hartford-prepares-to-host-its-first-wnba-game-as-the-sun-take-on-the-sparks.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-05-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b176b0b1cc6b",
-      "title": "Planning Board approves minor modification of Crepes Tea House permit",
-      "summary": "The Southwick Planning Board approved two minor modification special permits during its meeting Tuesday; one for the Tilcon Minerals property to delineate the property for the proposed dog park and another for Crepes Tea House to extend the time it cooks outdoors but not for two days a week, which t",
-      "url": "https://www.masslive.com/westfieldnews/2026/05/planning-board-approves-minor-modification-of-crepes-tea-house-permit.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-05-29",
-      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25824,48 +25768,6 @@
       "date": "2026-05-28",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5419d905d22a",
-      "title": "Vermont Conversation: \u2018Action is the antidote to despair.\u2019 Ben Cohen fights to save the soul of Ben & Jerry\u2019s.",
-      "summary": "The Vermont ice cream company co-founder reflects on what's become of his company's social mission and the socially responsible business movement that he spearheaded, how he and Jerry Greenfield are trying to take back their company, and his activism.\nRead the story on VTDigger here:  Vermont Conve",
-      "url": "https://vtdigger.org/2026/05/27/vermont-conversation-action-is-the-antidote-to-despair-ben-cohen-fights-to-save-the-soul-of-ben-jerrys/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-05-27",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b134c4cccfa5",
-      "title": "Roadquill",
-      "summary": "",
-      "url": "https://indepthnh.org/2026/05/27/roadquill/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-27",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8a354e889523",
-      "title": "State Asks Court To Dismiss Pam Smart\u2019s Latest Bid for Freedom",
-      "summary": "The state has asked the court to dismiss Pam Smart's latest bid to get out of prison, a habeas corpus petition arguing she was convicted based on dodgy tape recordings of conversations with one of the prosecution's key witnesses.",
-      "url": "https://indepthnh.org/2026/05/27/state-asks-court-to-dismiss-pam-smarts-latest-bid-for-freedom/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-27",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25921,7 +25823,7 @@
       "raw": 10107400060.007246,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-05-29T13:53:24.970974",
+      "updated": "2026-05-30T11:59:35.361126",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -26031,24 +25933,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-29T13:53:24.970974"
+      "score": 7.7,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8054.35372019227,
+      "raw_display": "8,054 units/mo",
+      "yoy_change": 13.4,
+      "source": "FRED API",
+      "updated": "2026-05-30T11:59:35.361126"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-29T13:53:24.970974"
+      "raw": 148904.0,
+      "raw_display": "$148.9B SAAR",
+      "yoy_change": 3.8,
+      "source": "FRED API",
+      "updated": "2026-05-30T11:59:35.361126"
     },
     "migration": {
       "score": 5.0,
@@ -26058,35 +25960,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-29T13:53:24.970974"
+      "updated": "2026-05-30T11:59:35.361126"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-29T13:53:24.970974"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-05-30T11:59:35.361126"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.46 | Diesel $5.80",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.46,
+        "score": 6.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.8,
+        "score": 6.5,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-29T13:53:24.970974"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-30T11:59:35.361126"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26095,19 +25997,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-29T13:53:24.970974"
+      "updated": "2026-05-30T11:59:35.361126"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-29T13:53:24.970974"
+    "calculated_at": "2026-05-30T11:59:35.361126"
   }
 }

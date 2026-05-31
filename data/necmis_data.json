@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T12:01:09.675937Z",
+  "generated": "2026-05-31T12:05:59.098791Z",
   "summary": {
     "total_opportunities": 1439,
     "total_value_low": 12730682438,
@@ -9,7 +9,7 @@
     "pipeline_yoy_pct": -4.0,
     "by_state": {
       "VT": 41,
-      "NH": 274,
+      "NH": 273,
       "ME": 169,
       "MA": 599,
       "NY": 1,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1437,
-      "news": 5,
+      "news": 4,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -29843,17 +29843,17 @@
   ],
   "news": [
     {
-      "id": "21a02154a3a1",
-      "title": "After complaints, Durham issues stop work order on gravel pit for unpermitted expansion",
-      "summary": "The town issued the order in early May and has since allowed the pit to resume some work on permitted land.",
-      "url": "https://www.pressherald.com/2026/05/30/after-complaints-durham-issues-stop-work-order-on-gravel-pit-for-unpermitted-expansion/",
-      "source": "Portland Press Herald",
+      "id": "52d7dd3633ee",
+      "title": "Build knowledge, skills through UMaine\u2019s summer and fall professional development programs",
+      "summary": "ORONO \u2014 For people seeking to start a new career or advance within their current one, the University of Maine Division of Lifelong Learning has made available several online programs for professional development this summer and fall. The programs are designed to benefit professionals from a range of",
+      "url": "https://www.bangordailynews.com/2026/05/30/bdn-maine/build-knowledge-skills-through-umaines-summer-and-fall-professional-development-programs/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-05-30",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "aggregates"
+        "highway"
       ]
     },
     {
@@ -29879,20 +29879,6 @@
       "state": "CT",
       "date": "2026-05-29",
       "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "aea9ddfceef5",
-      "title": "AI Data Center Paused Amid Uproar in Nottingham",
-      "summary": "The man behind a proposed data center on Route 4 is retreating as hundreds of people showed up Wednesday to protest the development.",
-      "url": "https://indepthnh.org/2026/05/27/ai-data-center-paused-amid-uproar-in-nottingham/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-28",
-      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -29944,12 +29930,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 11727552149.949013,
       "raw_display": "$11.73B",
       "source": "scraper_v2",
-      "updated": "2026-05-30T12:01:09.514877",
+      "updated": "2026-05-31T12:05:52.375496",
       "v2_details": {
         "raw_total": "$12.73B",
         "weighted_total": "$6.52B",
@@ -30059,14 +30045,14 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-30T12:01:09.514877"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 5694.748057379923,
+      "raw_display": "5,695 units/mo",
+      "yoy_change": 53.1,
+      "source": "FRED API",
+      "updated": "2026-05-31T12:05:52.375496"
     },
     "construction_spending": {
       "score": 5.0,
@@ -30076,7 +30062,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-05-30T12:01:09.514877"
+      "updated": "2026-05-31T12:05:52.375496"
     },
     "migration": {
       "score": 5.0,
@@ -30086,35 +30072,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-30T12:01:09.514877"
+      "updated": "2026-05-31T12:05:52.375496"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.4,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-30T12:01:09.514877"
+      "raw": 608600.0,
+      "raw_display": "609K workers",
+      "yoy_change": 1.4,
+      "source": "FRED API",
+      "updated": "2026-05-31T12:05:52.375496"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.46 | Diesel $5.80",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.46,
+        "score": 6.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.8,
+        "score": 6.5,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-05-30T12:01:09.514877"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-05-31T12:05:52.375496"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30123,19 +30109,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-30T12:01:09.514877"
+      "updated": "2026-05-31T12:05:52.375496"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.6,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
+      "housing_permits": "FRED API",
       "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-30T12:01:09.514877"
+    "calculated_at": "2026-05-31T12:05:52.375496"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T12:05:59.098791Z",
+  "generated": "2026-06-01T16:30:05.398827Z",
   "summary": {
     "total_opportunities": 1439,
     "total_value_low": 12730682438,
@@ -10,16 +10,16 @@
     "by_state": {
       "VT": 41,
       "NH": 273,
-      "ME": 169,
-      "MA": 599,
+      "ME": 170,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1437,
-      "news": 4,
+      "news": 6,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -29843,13 +29843,56 @@
   ],
   "news": [
     {
-      "id": "52d7dd3633ee",
-      "title": "Build knowledge, skills through UMaine\u2019s summer and fall professional development programs",
-      "summary": "ORONO \u2014 For people seeking to start a new career or advance within their current one, the University of Maine Division of Lifelong Learning has made available several online programs for professional development this summer and fall. The programs are designed to benefit professionals from a range of",
-      "url": "https://www.bangordailynews.com/2026/05/30/bdn-maine/build-knowledge-skills-through-umaines-summer-and-fall-professional-development-programs/",
+      "id": "c5125bcb98fc",
+      "title": "Lifespan Waiver holds promise, but Maine must be cautious | Opinion",
+      "summary": "Is this the right moment to launch a highly complex transformation of Maine's system of care for those with intellectual and developmental disabilities? I'm worried.",
+      "url": "https://www.pressherald.com/2026/06/01/lifespan-waiver-holds-promise-but-maine-must-be-cautious-opinion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8319be27c544",
+      "title": "Watch for these classic Maine signs on your next road trip",
+      "summary": "\"There was a time when Maine highways were blistered with large advertising displays. Fortunately, that is no longer the case.\"",
+      "url": "https://www.bangordailynews.com/2026/06/01/outdoors/outdoors-contributors/classic-maine-signs-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-05-30",
+      "date": "2026-06-01",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5e33c79a4b1f",
+      "title": "Six MassDOT employees resign amid overtime fraud investigation",
+      "summary": "Six state highway maintenance employees have resigned from their positions after they were accused of fraudulently collecting thousands of dollars in overtime pay.",
+      "url": "https://www.masslive.com/boston/2026/06/six-massdot-employees-resign-amid-overtime-fraud-investigation.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-01",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "aggregates"
+      ]
+    },
+    {
+      "id": "6e98a6d6e883",
+      "title": "Iconic voice on Springfield radio announces his retirement after 50 years",
+      "summary": "Veteran broadcaster shares stories from a career built on listener connection, charity work and morning radio with his wife.",
+      "url": "https://www.masslive.com/westernmass/2026/06/dan-williams-a-familiar-voice-on-springfield-radio-announces-his-retirement.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-01",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -29880,20 +29923,6 @@
       "date": "2026-05-29",
       "category": "funding",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "22269b9964ff",
-      "title": "CT expanding cannabis use will make roads more dangerous",
-      "summary": "The legislature\u2019s recent approval of expanding access to cannabis/THC will only make an already dangerous highway situation worse.",
-      "url": "https://ctmirror.org/2026/05/27/ct-expanding-cannabis-use-will-make-roads-more-dangerous/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-05-27",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -29935,7 +29964,7 @@
       "raw": 11727552149.949013,
       "raw_display": "$11.73B",
       "source": "scraper_v2",
-      "updated": "2026-05-31T12:05:52.375496",
+      "updated": "2026-06-01T16:29:45.554127",
       "v2_details": {
         "raw_total": "$12.73B",
         "weighted_total": "$6.52B",
@@ -30045,24 +30074,24 @@
       }
     },
     "housing_permits": {
-      "score": 10,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 5694.748057379923,
-      "raw_display": "5,695 units/mo",
-      "yoy_change": 53.1,
-      "source": "FRED API",
-      "updated": "2026-05-31T12:05:52.375496"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.5,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-05-31T12:05:52.375496"
+      "raw": 7655.899650185624,
+      "raw_display": "7,656 units/mo",
+      "yoy_change": -2.3,
+      "source": "FRED API",
+      "updated": "2026-06-01T16:29:45.554127"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-01T16:29:45.554127"
     },
     "migration": {
       "score": 5.0,
@@ -30072,17 +30101,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-05-31T12:05:52.375496"
+      "updated": "2026-06-01T16:29:45.554127"
     },
     "construction_employment": {
-      "score": 5.4,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 608600.0,
-      "raw_display": "609K workers",
-      "yoy_change": 1.4,
+      "raw": 349000.0,
+      "raw_display": "349K workers",
+      "yoy_change": -0.2,
       "source": "FRED API",
-      "updated": "2026-05-31T12:05:52.375496"
+      "updated": "2026-06-01T16:29:45.554127"
     },
     "input_cost": {
       "score": 6.6,
@@ -30100,7 +30129,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-05-31T12:05:52.375496"
+      "updated": "2026-06-01T16:29:45.554127"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30109,19 +30138,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-05-31T12:05:52.375496"
+      "updated": "2026-06-01T16:29:45.554127"
     },
-    "overall_score": 7.6,
-    "overall_status": "growth",
+    "overall_score": 6.8,
+    "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
       "housing_permits": "FRED API",
-      "construction_spending": "fallback",
+      "construction_spending": "FRED API",
       "migration": "Census API",
       "construction_employment": "FRED API",
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-05-31T12:05:52.375496"
+    "calculated_at": "2026-06-01T16:29:45.554127"
   }
 }

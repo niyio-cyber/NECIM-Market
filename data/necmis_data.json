@@ -1,26 +1,26 @@
 {
-  "generated": "2026-06-01T16:31:54.128322Z",
+  "generated": "2026-06-02T14:40:40.449325Z",
   "summary": {
-    "total_opportunities": 1225,
+    "total_opportunities": 1227,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 41,
+      "VT": 42,
       "NH": 59,
-      "ME": 170,
-      "MA": 601,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 6,
-      "funding": 2
+      "news": 5,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25717,12 +25717,54 @@
   ],
   "news": [
     {
-      "id": "c5125bcb98fc",
-      "title": "Lifespan Waiver holds promise, but Maine must be cautious | Opinion",
-      "summary": "Is this the right moment to launch a highly complex transformation of Maine's system of care for those with intellectual and developmental disabilities? I'm worried.",
-      "url": "https://www.pressherald.com/2026/06/01/lifespan-waiver-holds-promise-but-maine-must-be-cautious-opinion/",
+      "id": "7eb190f740cd",
+      "title": "Support Rick Bennett for governor | Letter",
+      "summary": "Please slow down and take a broader view.\u00a0When Jim Longley, our only nonpartisan governor, was elected, he was given a DemocraticHouse with a Republican Senate, yet our democracy carried on.\u00a0The big surprise, this time, will be a nonpartisan lifetime Mainer named Rick Bennett. He will be on Maine\u2019s",
+      "url": "https://www.pressherald.com/2026/06/02/support-rick-bennett-for-governor-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-06-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ab719b78b544",
+      "title": "With just $500, Maine\u2019s syringe disposal program can\u2019t get off the ground",
+      "summary": "Advocates say the state-run program could have taken a significant burden off municipalities and community organizations. Lawmakers hope it still can.",
+      "url": "https://www.pressherald.com/2026/06/02/with-just-500-maines-syringe-disposal-program-cant-get-off-the-ground/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-02",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7b9020eb8a11",
+      "title": "That wasn\u2019t a trend. It was representation",
+      "summary": "It is misleading to portray the outcome of the Glastonbury Democratic nomination vote as a rejection of moderation by the broader electorate.",
+      "url": "https://ctmirror.org/2026/06/02/that-wasnt-a-trend-in-glastonbury-it-was-representation/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-06-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9652ba608e8f",
+      "title": "Hateful words have consequences",
+      "summary": "The anti-Israel vandalism of a Cavendish studio points to a broader climate of anti-Jewish sentiment in Vermont.\nRead the story on VTDigger here:  Hateful words have consequences.",
+      "url": "https://vtdigger.org/2026/06/01/opinion-hateful-words-have-consequences/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-06-01",
       "category": "news",
       "priority": "medium",
@@ -25731,46 +25773,31 @@
       ]
     },
     {
-      "id": "8319be27c544",
-      "title": "Watch for these classic Maine signs on your next road trip",
-      "summary": "\"There was a time when Maine highways were blistered with large advertising displays. Fortunately, that is no longer the case.\"",
-      "url": "https://www.bangordailynews.com/2026/06/01/outdoors/outdoors-contributors/classic-maine-signs-joam40zk0w/",
+      "id": "df53ddb8fe4a",
+      "title": "Moderna and other groups get $60 million to develop Ebola vaccine",
+      "summary": "Global health organization CEPI will give roughly $60 million to Moderna and two other groups to accelerate the development of shots against Ebola Bundibugyo, the deadly virus that has swept through eastern Democratic Republic of Congo.",
+      "url": "https://www.unionleader.com/news/health/moderna-and-other-groups-get-60-million-to-develop-ebola-vaccine/article_7692f038-27bc-5c8f-8a40-fe5eb0d5afaa.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-06-01",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "93a63a972d4f",
+      "title": "UNE earns Silver Rating for sustainability achievements in first-ever assessment",
+      "summary": "BIDDEFORD \u2014 The University of New England earned a STARS Silver Rating for its sustainability achievements from the Association for the Advancement of Sustainability in Higher Education through its Sustainability Tracking, Assessment & Rating System, marking the first time UNE has participated in th",
+      "url": "https://www.bangordailynews.com/2026/06/01/bdn-maine/une-earns-silver-rating-for-sustainability-achievements-in-first-ever-assessment/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-06-01",
       "category": "news",
       "priority": "high",
       "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5e33c79a4b1f",
-      "title": "Six MassDOT employees resign amid overtime fraud investigation",
-      "summary": "Six state highway maintenance employees have resigned from their positions after they were accused of fraudulently collecting thousands of dollars in overtime pay.",
-      "url": "https://www.masslive.com/boston/2026/06/six-massdot-employees-resign-amid-overtime-fraud-investigation.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-01",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway",
-        "aggregates"
-      ]
-    },
-    {
-      "id": "6e98a6d6e883",
-      "title": "Iconic voice on Springfield radio announces his retirement after 50 years",
-      "summary": "Veteran broadcaster shares stories from a career built on listener connection, charity work and morning radio with his wife.",
-      "url": "https://www.masslive.com/westernmass/2026/06/dan-williams-a-familiar-voice-on-springfield-radio-announces-his-retirement.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
+        "ready_mix"
       ]
     },
     {
@@ -25814,31 +25841,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "71e0d7b9a356",
-      "title": "World\u2019s tallest thermometer, between Las Vegas and LA, is for sale",
-      "summary": "The giant roadside thermometer between Las Vegas and Los Angeles \u2014 a towering sight for legions of highway drivers \u2014 is for sale.",
-      "url": "https://www.unionleader.com/news/back_page/world-s-tallest-thermometer-between-las-vegas-and-la-is-for-sale/article_b85e182f-423e-4f41-8d37-9505f89417a7.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-05-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 10107400060.007246,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-01T16:31:53.502285",
+      "updated": "2026-06-02T14:40:29.711414",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25948,24 +25961,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-01T16:31:53.502285"
+      "score": 4.2,
+      "trend": "down",
+      "action": "Selective investment",
+      "raw": 7052.598727236775,
+      "raw_display": "7,053 units/mo",
+      "yoy_change": -3.8,
+      "source": "FRED API",
+      "updated": "2026-06-02T14:40:29.711414"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-01T16:31:53.502285"
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-02T14:40:29.711414"
     },
     "migration": {
       "score": 5.0,
@@ -25975,35 +25988,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-01T16:31:53.502285"
+      "updated": "2026-06-02T14:40:29.711414"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-01T16:31:53.502285"
+      "raw": 563900.0,
+      "raw_display": "564K workers",
+      "yoy_change": 0.8,
+      "source": "FRED API",
+      "updated": "2026-06-02T14:40:29.711414"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 6.8,
       "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.36 | Diesel $5.73",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.36,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.73,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-01T16:31:53.502285"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-02T14:40:29.711414"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26012,19 +26025,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-01T16:31:53.502285"
+      "updated": "2026-06-02T14:40:29.711414"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-01T16:31:53.502285"
+    "calculated_at": "2026-06-02T14:40:29.711414"
   }
 }

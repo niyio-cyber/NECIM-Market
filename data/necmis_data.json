@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-02T14:45:05.139801Z",
+  "generated": "2026-06-03T15:22:37.928564Z",
   "summary": {
-    "total_opportunities": 1227,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 42,
       "NH": 59,
-      "ME": 171,
+      "ME": 169,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -18,9 +18,9 @@
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1223,
-      "news": 5,
-      "funding": 4
+      "dot_letting": 1224,
+      "news": 4,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,11 +42,11 @@
           "value": 5895804498
         },
         "Pavement": {
-          "count": 720,
+          "count": 718,
           "value": 3310707894
         },
         "Safety": {
-          "count": 150,
+          "count": 153,
           "value": 1003218381
         },
         "Other": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 343,
+          "count": 344,
           "value": 0
         },
         "PA": {
@@ -265,11 +265,11 @@
             "value": 0
           },
           "Pavement": {
-            "count": 339,
+            "count": 337,
             "value": 0
           },
           "Safety": {
-            "count": 1,
+            "count": 4,
             "value": 0
           },
           "Other": {
@@ -18706,6 +18706,47 @@
       ]
     },
     {
+      "id": "d35658c9c691",
+      "state": "CT",
+      "project_id": "0131-0210",
+      "description": "REPLACEMENT OF EXISTING NOISE BARRIER ON I-691",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-01",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "I-691",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "d05e04412b5d",
+      "state": "CT",
+      "project_id": "0152-0164",
+      "description": "CT Route 85 Computerized Traffic Control Signal System Replacement",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-01",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "Route 85",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
       "id": "e6af7baf894d",
       "state": "CT",
       "project_id": "0170-3757",
@@ -18764,6 +18805,26 @@
       "source": "CTDOT Q&A",
       "business_lines": [
         "hma"
+      ]
+    },
+    {
+      "id": "d374f200d8e1",
+      "state": "CT",
+      "project_id": "0173-0542",
+      "description": "Installation and Revision of Traffic Control Signals in District 3",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-01",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "ct 3",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
       ]
     },
     {
@@ -21487,26 +21548,6 @@
       ]
     },
     {
-      "id": "7667773048d0",
-      "state": "CT",
-      "project_id": "0131-0210",
-      "description": "CT Project 0131-0210",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "6b2fdf89b8db",
       "state": "CT",
       "project_id": "0131-0213",
@@ -22971,26 +23012,6 @@
       "state": "CT",
       "project_id": "0152-0162",
       "description": "CT Project 0152-0162",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "a088fa3a5390",
-      "state": "CT",
-      "project_id": "0152-0164",
-      "description": "CT Project 0152-0164",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -25717,13 +25738,13 @@
   ],
   "news": [
     {
-      "id": "7eb190f740cd",
-      "title": "Support Rick Bennett for governor | Letter",
-      "summary": "Please slow down and take a broader view.\u00a0When Jim Longley, our only nonpartisan governor, was elected, he was given a DemocraticHouse with a Republican Senate, yet our democracy carried on.\u00a0The big surprise, this time, will be a nonpartisan lifetime Mainer named Rick Bennett. He will be on Maine\u2019s",
-      "url": "https://www.pressherald.com/2026/06/02/support-rick-bennett-for-governor-letter/",
-      "source": "Portland Press Herald",
+      "id": "7c4eaa027669",
+      "title": "TrainRiders Northeast 37th Annual Meeting Thursday",
+      "summary": "BRUNSWICK \u2014 TrainRiders Northeast will hold its 37th Annual Meeting starting at 12:30 p.m. on Thursday, June 4 in Bowdoin College\u2019s Moulton Union, 6 Campus Road. The purpose of the meeting will be to elect directors and hold a brief membership meeting, followed by presentations from the following sp",
+      "url": "https://www.bangordailynews.com/2026/06/03/bdn-maine/trainriders-northeast-37th-annual-meeting-thursday/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25731,14 +25752,14 @@
       ]
     },
     {
-      "id": "ab719b78b544",
-      "title": "With just $500, Maine\u2019s syringe disposal program can\u2019t get off the ground",
-      "summary": "Advocates say the state-run program could have taken a significant burden off municipalities and community organizations. Lawmakers hope it still can.",
-      "url": "https://www.pressherald.com/2026/06/02/with-just-500-maines-syringe-disposal-program-cant-get-off-the-ground/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "45b92097a347",
+      "title": "Rehearing on controversial small homes project in Chester set for Wednesday",
+      "summary": "A proposed housing project that would bring 34 small homes to a 20-acre property on Haverhill Road in Chester drew a large crowd in April, leading to the cancellation of a Planning Board meeting that has been rescheduled for Wednesday.",
+      "url": "https://www.unionleader.com/news/rehearing-on-controversial-small-homes-project-in-chester-set-for-wednesday/article_285f361e-0ef1-4308-85ea-9d40f34efd99.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-06-02",
-      "category": "funding",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25787,48 +25808,6 @@
       ]
     },
     {
-      "id": "93a63a972d4f",
-      "title": "UNE earns Silver Rating for sustainability achievements in first-ever assessment",
-      "summary": "BIDDEFORD \u2014 The University of New England earned a STARS Silver Rating for its sustainability achievements from the Association for the Advancement of Sustainability in Higher Education through its Sustainability Tracking, Assessment & Rating System, marking the first time UNE has participated in th",
-      "url": "https://www.bangordailynews.com/2026/06/01/bdn-maine/une-earns-silver-rating-for-sustainability-achievements-in-first-ever-assessment/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-01",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "d5c28da330a5",
-      "title": "Dead Moose for 4 Days on Side of Kancamagus  on Memorial Day Weekend Causes Upset",
-      "summary": "Moose sightings are rare but more common in May along the state's highways. But they are also a hazard, and in some cases an eyesore that the state is not dealing with on a timely basis, an Executive Councilor said this week.",
-      "url": "https://indepthnh.org/2026/05/29/dead-moose-on-side-of-kancamagus-for-4-days-during-memorial-day-weekend-causes-upset/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-05-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "78e220e9c71b",
-      "title": "First housing projects OK\u2019d through CT development authority",
-      "summary": "Developments including housing, a museum and downtown retail space got approval on Friday for about $19 million in bond funding.",
-      "url": "https://ctmirror.org/2026/05/29/first-housing-projects-okd-through-ct-development-authority/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-05-29",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "f47012239c7e",
       "title": "Once-stalled Manchester apartment building nearly ready for renters",
       "summary": "The stalled construction of a $20 million apartment building in downtown Manchester got a boost with a new owner and investor money to bring it to the finish line, and now the 77 units are on the market.",
@@ -25848,10 +25827,10 @@
       "score": 10,
       "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
-      "raw": 10107400060.007246,
+      "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-02T14:45:04.939848",
+      "updated": "2026-06-03T15:22:29.885713",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25892,7 +25871,7 @@
           },
           "ME": {
             "raw": 610760000,
-            "weighted": 355640000.0,
+            "weighted": 355414000.0,
             "estimated": 610760000,
             "is_scraped": true,
             "fhwa_ratio": "3.7%"
@@ -25952,33 +25931,33 @@
           "baseline_raw": 6000000000,
           "baseline_raw_display": "$6.00B",
           "avg_time_weight": 0.53,
-          "baseline_time_weighted": 3164251584.388566,
+          "baseline_time_weighted": 3164124374.4524918,
           "baseline_time_weighted_display": "$3.16B",
           "score_at_baseline": 7.0,
-          "scoring_value": 10107400060.007246,
+          "scoring_value": 10106993720.093613,
           "scoring_value_display": "$10.11B"
         }
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-02T14:45:04.939848"
+      "score": 4.1,
+      "trend": "down",
+      "action": "Selective investment",
+      "raw": 4191.038647577014,
+      "raw_display": "4,191 units/mo",
+      "yoy_change": -4.7,
+      "source": "FRED API",
+      "updated": "2026-06-03T15:22:29.885713"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-02T14:45:04.939848"
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-03T15:22:29.885713"
     },
     "migration": {
       "score": 5.0,
@@ -25988,35 +25967,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-02T14:45:04.939848"
+      "updated": "2026-06-03T15:22:29.885713"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-02T14:45:04.939848"
+      "raw": 381900.0,
+      "raw_display": "382K workers",
+      "yoy_change": 0.1,
+      "source": "FRED API",
+      "updated": "2026-06-03T15:22:29.885713"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 6.8,
       "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.36 | Diesel $5.73",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.36,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.73,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-02T14:45:04.939848"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-03T15:22:29.885713"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26025,19 +26004,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-02T14:45:04.939848"
+      "updated": "2026-06-03T15:22:29.885713"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.7,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-02T14:45:04.939848"
+    "calculated_at": "2026-06-03T15:22:29.885713"
   }
 }

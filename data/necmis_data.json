@@ -1,25 +1,25 @@
 {
-  "generated": "2026-06-03T15:24:52.288149Z",
+  "generated": "2026-06-04T13:51:24.232740Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1224,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
+      "VT": 43,
       "NH": 59,
       "ME": 169,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1224,
-      "news": 4,
+      "dot_letting": 1222,
+      "news": 5,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -46,11 +46,11 @@
           "value": 3310707894
         },
         "Safety": {
-          "count": 153,
+          "count": 152,
           "value": 1003218381
         },
         "Other": {
-          "count": 87,
+          "count": 86,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 344,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -269,11 +269,11 @@
             "value": 0
           },
           "Safety": {
-            "count": 4,
+            "count": 3,
             "value": 0
           },
           "Other": {
-            "count": 2,
+            "count": 1,
             "value": 0
           }
         },
@@ -18768,26 +18768,6 @@
       ]
     },
     {
-      "id": "17eb9cc56d77",
-      "state": "CT",
-      "project_id": "0171-0521",
-      "description": "District 1 Traffic Signal Revisions",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-06-03",
-      "fiscal_year": "FY2026",
-      "project_type": "Safety",
-      "location": "ct 1",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "c6064ed2d5a6",
       "state": "CT",
       "project_id": "0171-0533",
@@ -18845,26 +18825,6 @@
       "source": "CTDOT Q&A",
       "business_lines": [
         "hma"
-      ]
-    },
-    {
-      "id": "cd0330f176d8",
-      "state": "CT",
-      "project_id": "0300-0215",
-      "description": "NETWORK INFRASTRUCTURE UPGRADE FOR SECURITY SYSTEMS - PHASE 4  METRO-NORTH RAILROAD - NEW HAVEN MAIN LINE",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-06-03",
-      "fiscal_year": "FY2026",
-      "project_type": "Other",
-      "location": "New Haven",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -25738,13 +25698,27 @@
   ],
   "news": [
     {
-      "id": "7c4eaa027669",
-      "title": "TrainRiders Northeast 37th Annual Meeting Thursday",
-      "summary": "BRUNSWICK \u2014 TrainRiders Northeast will hold its 37th Annual Meeting starting at 12:30 p.m. on Thursday, June 4 in Bowdoin College\u2019s Moulton Union, 6 Campus Road. The purpose of the meeting will be to elect directors and hold a brief membership meeting, followed by presentations from the following sp",
-      "url": "https://www.bangordailynews.com/2026/06/03/bdn-maine/trainriders-northeast-37th-annual-meeting-thursday/",
-      "source": "Bangor Daily News",
+      "id": "4dbfb7b0c16a",
+      "title": "Affordable housing complex opens in downtown Waterbury",
+      "summary": "Three of the 26 new apartments are reserved for people with intellectual or developmental disabilities, and five are set aside for people exiting homelessness.\nRead the story on VTDigger here:  Affordable housing complex opens in downtown Waterbury.",
+      "url": "https://vtdigger.org/2026/06/04/affordable-housing-complex-opens-in-downtown-waterbury/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-06-04",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cb6b4b47d0cd",
+      "title": "Avoid Maine\u2019s tourist traps by taking the roads less traveled",
+      "summary": "Steer clear of the crowds and enjoy the spoils of summer at these lesser-known locales.",
+      "url": "https://www.pressherald.com/2026/06/04/avoid-maines-tourist-traps-by-taking-the-roads-less-traveled/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-06-03",
+      "date": "2026-06-04",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25830,7 +25804,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-03T15:24:51.459076",
+      "updated": "2026-06-04T13:51:11.979399",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25940,24 +25914,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-03T15:24:51.459076"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-03T15:24:51.459076"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-04T13:51:11.979399"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-04T13:51:11.979399"
     },
     "migration": {
       "score": 5.0,
@@ -25967,35 +25941,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-03T15:24:51.459076"
+      "updated": "2026-06-04T13:51:11.979399"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-03T15:24:51.459076"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-04T13:51:11.979399"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 6.8,
       "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.36 | Diesel $5.73",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.36,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.73,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-03T15:24:51.459076"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-04T13:51:11.979399"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26004,19 +25978,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-03T15:24:51.459076"
+      "updated": "2026-06-04T13:51:11.979399"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-03T15:24:51.459076"
+    "calculated_at": "2026-06-04T13:51:11.979399"
   }
 }

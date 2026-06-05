@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-04T13:54:14.124357Z",
+  "generated": "2026-06-05T13:46:16.438501Z",
   "summary": {
-    "total_opportunities": 1224,
+    "total_opportunities": 1223,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 43,
-      "NH": 59,
-      "ME": 169,
-      "MA": 599,
+      "NH": 58,
+      "ME": 172,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 5,
-      "funding": 2
+      "news": 8,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25698,10 +25698,80 @@
   ],
   "news": [
     {
-      "id": "4dbfb7b0c16a",
-      "title": "Affordable housing complex opens in downtown Waterbury",
-      "summary": "Three of the 26 new apartments are reserved for people with intellectual or developmental disabilities, and five are set aside for people exiting homelessness.\nRead the story on VTDigger here:  Affordable housing complex opens in downtown Waterbury.",
-      "url": "https://vtdigger.org/2026/06/04/affordable-housing-complex-opens-in-downtown-waterbury/",
+      "id": "94d2fe2f6bf0",
+      "title": "Approved North Yarmouth housing expansion sent back to planning board",
+      "summary": "The North Yarmouth Zoning Board of Appeals ruled that the preliminary plans for the next phase of the York Ridge housing development required further review.",
+      "url": "https://www.pressherald.com/2026/06/05/approved-north-yarmouth-housing-expansion-sent-back-to-planning-board/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7226ec10a18f",
+      "title": "Obituary: Dorothy Alzina (Wight) Abbott",
+      "summary": "GORHAM - Dottie Abbott, RN, retired, passed away May 31, 2026, at Avita of Stroudwater surrounded by her family.\n\nShe was born ...",
+      "url": "https://www.pressherald.com/2026/06/05/obituarydorothy-alzina-wight-abbott-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "249a47025857",
+      "title": "Death Notice: Dorothy Alzina (Wight) Abbott",
+      "summary": "Abbott, Dottie May 31, 2026, of Gorham. Service, 1 p.m., June 10, 2026, Sapling Hill Cemetery, Gorham, gathering after, White Rock ...",
+      "url": "https://www.pressherald.com/2026/06/05/obituarydorothy-alzina-wight-abbott/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a146911b5bb2",
+      "title": "As governor, Nirav Shah would be a needed check on Donald Trump",
+      "summary": "\u201cI believe Nirav Shah\u2019s road-tested leadership, invaluable experience and detailed plans, make him the stand-out choice.\u201d",
+      "url": "https://www.bangordailynews.com/2026/06/05/opinion/opinion-contributor/as-governor-nirav-shah-would-be-a-needed-check-on-donald-trump-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3f50cb8e49b9",
+      "title": "Longtime Cape Cod seafood spot with harbor views announces final season",
+      "summary": "After more than 30 years, this iconic seaside seafood spot will make way for a new mixed-use development.",
+      "url": "https://www.masslive.com/capecod/2026/06/longtime-cape-cod-seafood-spot-with-harbor-views-announces-final-season.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2e04544df737",
+      "title": "80-hour weeks and drowning in debt: UVM Medical Center resident doctors rally for a new contract",
+      "summary": "The union of 400 resident doctors and interns have been negotiating with the hospital for a contract since January, asking for higher wages, childcare provisions and broader immigration protection. \nRead the story on VTDigger here:  80-hour weeks and drowning in debt: UVM Medical Center resident do",
+      "url": "https://vtdigger.org/2026/06/04/80-hour-weeks-and-drowning-in-debt-uvm-medical-center-resident-doctors-rally-for-a-new-contract/",
       "source": "VTDigger",
       "state": "VT",
       "date": "2026-06-04",
@@ -25712,12 +25782,12 @@
       ]
     },
     {
-      "id": "cb6b4b47d0cd",
-      "title": "Avoid Maine\u2019s tourist traps by taking the roads less traveled",
-      "summary": "Steer clear of the crowds and enjoy the spoils of summer at these lesser-known locales.",
-      "url": "https://www.pressherald.com/2026/06/04/avoid-maines-tourist-traps-by-taking-the-roads-less-traveled/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "4dbfb7b0c16a",
+      "title": "Affordable housing complex opens in downtown Waterbury",
+      "summary": "Three of the 26 new apartments are reserved for people with intellectual or developmental disabilities, and five are set aside for people exiting homelessness.\nRead the story on VTDigger here:  Affordable housing complex opens in downtown Waterbury.",
+      "url": "https://vtdigger.org/2026/06/04/affordable-housing-complex-opens-in-downtown-waterbury/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-06-04",
       "category": "news",
       "priority": "medium",
@@ -25740,34 +25810,6 @@
       ]
     },
     {
-      "id": "7b9020eb8a11",
-      "title": "That wasn\u2019t a trend. It was representation",
-      "summary": "It is misleading to portray the outcome of the Glastonbury Democratic nomination vote as a rejection of moderation by the broader electorate.",
-      "url": "https://ctmirror.org/2026/06/02/that-wasnt-a-trend-in-glastonbury-it-was-representation/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-06-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9652ba608e8f",
-      "title": "Hateful words have consequences",
-      "summary": "The anti-Israel vandalism of a Cavendish studio points to a broader climate of anti-Jewish sentiment in Vermont.\nRead the story on VTDigger here:  Hateful words have consequences.",
-      "url": "https://vtdigger.org/2026/06/01/opinion-hateful-words-have-consequences/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-06-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "df53ddb8fe4a",
       "title": "Moderna and other groups get $60 million to develop Ebola vaccine",
       "summary": "Global health organization CEPI will give roughly $60 million to Moderna and two other groups to accelerate the development of shots against Ebola Bundibugyo, the deadly virus that has swept through eastern Democratic Republic of Congo.",
@@ -25775,20 +25817,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-06-01",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f47012239c7e",
-      "title": "Once-stalled Manchester apartment building nearly ready for renters",
-      "summary": "The stalled construction of a $20 million apartment building in downtown Manchester got a boost with a new owner and investor money to bring it to the finish line, and now the 77 units are on the market.",
-      "url": "https://www.unionleader.com/news/local/manchester/once-stalled-manchester-apartment-building-nearly-ready-for-renters/article_2acb376e-cbc3-446a-a9a8-f997ce85a8db.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-05-26",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -25804,7 +25832,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-04T13:54:13.921044",
+      "updated": "2026-06-05T13:46:08.566977",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25914,24 +25942,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-04T13:54:13.921044"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-04T13:54:13.921044"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-05T13:46:08.566977"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-05T13:46:08.566977"
     },
     "migration": {
       "score": 5.0,
@@ -25941,35 +25969,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-04T13:54:13.921044"
+      "updated": "2026-06-05T13:46:08.566977"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-04T13:54:13.921044"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-05T13:46:08.566977"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 6.8,
       "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.36 | Diesel $5.73",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.36,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.73,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-04T13:54:13.921044"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-05T13:46:08.566977"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25978,19 +26006,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-04T13:54:13.921044"
+      "updated": "2026-06-05T13:46:08.566977"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-04T13:54:13.921044"
+    "calculated_at": "2026-06-05T13:46:08.566977"
   }
 }

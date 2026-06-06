@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T13:49:30.669035Z",
+  "generated": "2026-06-06T12:03:01.613149Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 43,
-      "NH": 58,
-      "ME": 172,
-      "MA": 600,
+      "NH": 60,
+      "ME": 169,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -25698,12 +25698,40 @@
   ],
   "news": [
     {
-      "id": "94d2fe2f6bf0",
-      "title": "Approved North Yarmouth housing expansion sent back to planning board",
-      "summary": "The North Yarmouth Zoning Board of Appeals ruled that the preliminary plans for the next phase of the York Ridge housing development required further review.",
-      "url": "https://www.pressherald.com/2026/06/05/approved-north-yarmouth-housing-expansion-sent-back-to-planning-board/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "4229383af72d",
+      "title": "Dot cakes near me: 5 Mass. places selling viral dessert",
+      "summary": "You've seen them on TikTok, now where can you find a dot cake in Massachusetts? The viral dessert covered in nonpareils (or dots) has likely popped up in a bakery case near you.",
+      "url": "https://www.masslive.com/ne-where/2026/06/dot-cakes-near-me-5-mass-places-selling-viral-dessert.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-06",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e58e5675eb0d",
+      "title": "Red Sox reactions: Willson Contreras (3 RBI) leads the way in road win",
+      "summary": "The Red Sox got their tough six-game road trip off to a good start Friday night.",
+      "url": "https://www.masslive.com/redsox/2026/06/red-sox-reactions-willson-contreras-3-rbi-leads-the-way-in-road-win.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-06",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5eaec6110390",
+      "title": "Neighbors vent about \u2018enormity\u2019 of proposed Bodwell Road subdivision in Manchester",
+      "summary": "Plans for a 44-unit subdivision off Bodwell Road drew the ire of neighbors of the site during a meeting of the Manchester Planning Board.",
+      "url": "https://www.unionleader.com/news/local/manchester/neighbors-vent-about-enormity-of-proposed-bodwell-road-subdivision-in-manchester/article_5b97136e-9fab-4782-b1aa-4563f00ca975.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-06-05",
       "category": "news",
       "priority": "medium",
@@ -25712,12 +25740,12 @@
       ]
     },
     {
-      "id": "7226ec10a18f",
-      "title": "Obituary: Dorothy Alzina (Wight) Abbott",
-      "summary": "GORHAM - Dottie Abbott, RN, retired, passed away May 31, 2026, at Avita of Stroudwater surrounded by her family.\n\nShe was born ...",
-      "url": "https://www.pressherald.com/2026/06/05/obituarydorothy-alzina-wight-abbott-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "665a280605ba",
+      "title": "Rite Aid reuse: What is becoming of vacant pharmacy locations across NH?",
+      "summary": "The faded outlines of the letters spelling \u201cRite Aid\u201d remain on the building at 420 Daniel Webster Highway in Merrimack, but the former pharmacy has taken on new life as a Brazilian church, Lagoinha Nashua Church.",
+      "url": "https://www.unionleader.com/news/business/rite-aid-reuse-what-is-becoming-of-vacant-pharmacy-locations-across-nh/article_faa4455d-1ec9-480a-a6d4-213643daf003.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-06-05",
       "category": "news",
       "priority": "high",
@@ -25726,43 +25754,15 @@
       ]
     },
     {
-      "id": "249a47025857",
-      "title": "Death Notice: Dorothy Alzina (Wight) Abbott",
-      "summary": "Abbott, Dottie May 31, 2026, of Gorham. Service, 1 p.m., June 10, 2026, Sapling Hill Cemetery, Gorham, gathering after, White Rock ...",
-      "url": "https://www.pressherald.com/2026/06/05/obituarydorothy-alzina-wight-abbott/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a146911b5bb2",
-      "title": "As governor, Nirav Shah would be a needed check on Donald Trump",
-      "summary": "\u201cI believe Nirav Shah\u2019s road-tested leadership, invaluable experience and detailed plans, make him the stand-out choice.\u201d",
-      "url": "https://www.bangordailynews.com/2026/06/05/opinion/opinion-contributor/as-governor-nirav-shah-would-be-a-needed-check-on-donald-trump-joam40zk0w/",
+      "id": "4ca67927ea1d",
+      "title": "Hydrogen balloon that launched from Maine is over the ocean in bid for historic crossing",
+      "summary": "If successful, the trip would be the first trans-Atlantic crossing made in a hydrogen-powered open-basket balloon.",
+      "url": "https://www.bangordailynews.com/2026/06/05/aroostook/aroostook-culture/hydrogen-balloon-launched-from-maine-over-the-ocean/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-06-05",
       "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3f50cb8e49b9",
-      "title": "Longtime Cape Cod seafood spot with harbor views announces final season",
-      "summary": "After more than 30 years, this iconic seaside seafood spot will make way for a new mixed-use development.",
-      "url": "https://www.masslive.com/capecod/2026/06/longtime-cape-cod-seafood-spot-with-harbor-views-announces-final-season.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-05",
-      "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25832,7 +25832,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-05T13:49:29.922440",
+      "updated": "2026-06-06T12:02:53.897762",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25942,24 +25942,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-05T13:49:29.922440"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-05T13:49:29.922440"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-06T12:02:53.897762"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-06T12:02:53.897762"
     },
     "migration": {
       "score": 5.0,
@@ -25969,35 +25969,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-05T13:49:29.922440"
+      "updated": "2026-06-06T12:02:53.897762"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-05T13:49:29.922440"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-06T12:02:53.897762"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 6.8,
       "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.36 | Diesel $5.73",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.36,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.73,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-05T13:49:29.922440"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-06T12:02:53.897762"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26006,19 +26006,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-05T13:49:29.922440"
+      "updated": "2026-06-06T12:02:53.897762"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-05T13:49:29.922440"
+    "calculated_at": "2026-06-06T12:02:53.897762"
   }
 }

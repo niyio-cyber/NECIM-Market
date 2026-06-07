@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T12:03:01.613149Z",
+  "generated": "2026-06-07T12:15:14.478928Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -11,7 +11,7 @@
       "VT": 43,
       "NH": 60,
       "ME": 169,
-      "MA": 601,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 8,
+      "news": 6,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25698,29 +25698,15 @@
   ],
   "news": [
     {
-      "id": "4229383af72d",
-      "title": "Dot cakes near me: 5 Mass. places selling viral dessert",
-      "summary": "You've seen them on TikTok, now where can you find a dot cake in Massachusetts? The viral dessert covered in nonpareils (or dots) has likely popped up in a bakery case near you.",
-      "url": "https://www.masslive.com/ne-where/2026/06/dot-cakes-near-me-5-mass-places-selling-viral-dessert.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-06",
+      "id": "ce44d96f04cc",
+      "title": "Obituary: William \u201cBill\u201d Michael Robertson",
+      "summary": "OLD ORCHARD BEACH - William \"Bill\" Michael Robertson, a devoted father, doting grandfather, accomplished civil engineer, and unapologetically original soul, passed ...",
+      "url": "https://www.pressherald.com/2026/06/07/obituarywilliam-bill-michael-robertson-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-07",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e58e5675eb0d",
-      "title": "Red Sox reactions: Willson Contreras (3 RBI) leads the way in road win",
-      "summary": "The Red Sox got their tough six-game road trip off to a good start Friday night.",
-      "url": "https://www.masslive.com/redsox/2026/06/red-sox-reactions-willson-contreras-3-rbi-leads-the-way-in-road-win.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-06",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25746,20 +25732,6 @@
       "url": "https://www.unionleader.com/news/business/rite-aid-reuse-what-is-becoming-of-vacant-pharmacy-locations-across-nh/article_faa4455d-1ec9-480a-a6d4-213643daf003.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-06-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4ca67927ea1d",
-      "title": "Hydrogen balloon that launched from Maine is over the ocean in bid for historic crossing",
-      "summary": "If successful, the trip would be the first trans-Atlantic crossing made in a hydrogen-powered open-basket balloon.",
-      "url": "https://www.bangordailynews.com/2026/06/05/aroostook/aroostook-culture/hydrogen-balloon-launched-from-maine-over-the-ocean/",
-      "source": "Bangor Daily News",
-      "state": "ME",
       "date": "2026-06-05",
       "category": "news",
       "priority": "high",
@@ -25832,7 +25804,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-06T12:02:53.897762",
+      "updated": "2026-06-07T12:15:05.001028",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25949,7 +25921,7 @@
       "raw_display": "7,771 units/mo",
       "yoy_change": -2.8,
       "source": "FRED API",
-      "updated": "2026-06-06T12:02:53.897762"
+      "updated": "2026-06-07T12:15:05.001028"
     },
     "construction_spending": {
       "score": 5.6,
@@ -25959,7 +25931,7 @@
       "raw_display": "$150.9B SAAR",
       "yoy_change": 4.0,
       "source": "FRED API",
-      "updated": "2026-06-06T12:02:53.897762"
+      "updated": "2026-06-07T12:15:05.001028"
     },
     "migration": {
       "score": 5.0,
@@ -25969,7 +25941,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-06T12:02:53.897762"
+      "updated": "2026-06-07T12:15:05.001028"
     },
     "construction_employment": {
       "score": 5.2,
@@ -25979,7 +25951,7 @@
       "raw_display": "984K workers",
       "yoy_change": 0.9,
       "source": "FRED API",
-      "updated": "2026-06-06T12:02:53.897762"
+      "updated": "2026-06-07T12:15:05.001028"
     },
     "input_cost": {
       "score": 6.8,
@@ -25997,7 +25969,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-06-06T12:02:53.897762"
+      "updated": "2026-06-07T12:15:05.001028"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26006,7 +25978,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-06T12:02:53.897762"
+      "updated": "2026-06-07T12:15:05.001028"
     },
     "overall_score": 6.8,
     "overall_status": "stable",
@@ -26019,6 +25991,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-06T12:02:53.897762"
+    "calculated_at": "2026-06-07T12:15:05.001028"
   }
 }

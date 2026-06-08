@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-07T12:16:45.791862Z",
+  "generated": "2026-06-08T14:40:53.770536Z",
   "summary": {
-    "total_opportunities": 1223,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 42,
       "NH": 60,
-      "ME": 169,
-      "MA": 599,
+      "ME": 171,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -20,7 +20,7 @@
     "by_category": {
       "dot_letting": 1222,
       "news": 6,
-      "funding": 1
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25698,15 +25698,71 @@
   ],
   "news": [
     {
-      "id": "ce44d96f04cc",
-      "title": "Obituary: William \u201cBill\u201d Michael Robertson",
-      "summary": "OLD ORCHARD BEACH - William \"Bill\" Michael Robertson, a devoted father, doting grandfather, accomplished civil engineer, and unapologetically original soul, passed ...",
-      "url": "https://www.pressherald.com/2026/06/07/obituarywilliam-bill-michael-robertson-2/",
+      "id": "c7990de1a928",
+      "title": "Calling on Sen. Collins to protect grant funding for survivors of domestic abuse | Opinion",
+      "summary": "With community organizations already trying to stretch limited resources, securing the future of the Community Development Block Grant program is critical.",
+      "url": "https://www.pressherald.com/2026/06/08/calling-on-sen-collins-to-help-protect-cdbg-funding-opinion/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-06-07",
-      "category": "news",
+      "date": "2026-06-08",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "649df9253772",
+      "title": "Maine DOT has a $84M budget shortfall. How will it affect residents?",
+      "summary": "A gap in funding is forcing the state to postpone road repairs just as construction season begins, leaving local contractors scrambling for answers.",
+      "url": "https://www.pressherald.com/2026/06/08/maine-dot-has-a-budget-shortfall-how-will-it-affect-residents/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-08",
+      "category": "funding",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4dae5b930e14",
+      "title": "Every Greater Bangor municipal budget is expected\u00a0to grow",
+      "summary": "The proposed budgets show that towns are investing in largely the same services, but the costs of those services have gone up.",
+      "url": "https://www.bangordailynews.com/2026/06/08/bangor/bangor-government/every-greater-bangor-municipal-budget-expected-grow-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b857adc92e3c",
+      "title": "Valley Blue Sox earn first road win against Upper Valley Nighthawks",
+      "summary": "The Valley Blue Sox erupted for a season-high 14 runs on Sunday.",
+      "url": "https://www.masslive.com/bluesox/2026/06/valley-blue-sox-earn-first-road-win-against-upper-valley-nighthawks.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ac9121813a5a",
+      "title": "AGC of New Hampshire recognizes industry excellence at 2026 awards night",
+      "summary": "The Associated General Contractors of New Hampshire recognized some of the state\u2019s top construction projects, companies and industry leaders during its 2026 Awards Night recently in Manchester.",
+      "url": "https://www.unionleader.com/news/business/agc-of-new-hampshire-recognizes-industry-excellence-at-2026-awards-night/article_0599b54e-9f6d-4eaf-8e6e-d3c4d6cd5214.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-06-07",
+      "category": "funding",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25754,20 +25810,6 @@
       ]
     },
     {
-      "id": "4dbfb7b0c16a",
-      "title": "Affordable housing complex opens in downtown Waterbury",
-      "summary": "Three of the 26 new apartments are reserved for people with intellectual or developmental disabilities, and five are set aside for people exiting homelessness.\nRead the story on VTDigger here:  Affordable housing complex opens in downtown Waterbury.",
-      "url": "https://vtdigger.org/2026/06/04/affordable-housing-complex-opens-in-downtown-waterbury/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-06-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "45b92097a347",
       "title": "Rehearing on controversial small homes project in Chester set for Wednesday",
       "summary": "A proposed housing project that would bring 34 small homes to a 20-acre property on Haverhill Road in Chester drew a large crowd in April, leading to the cancellation of a Planning Board meeting that has been rescheduled for Wednesday.",
@@ -25776,20 +25818,6 @@
       "state": "NH",
       "date": "2026-06-02",
       "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "df53ddb8fe4a",
-      "title": "Moderna and other groups get $60 million to develop Ebola vaccine",
-      "summary": "Global health organization CEPI will give roughly $60 million to Moderna and two other groups to accelerate the development of shots against Ebola Bundibugyo, the deadly virus that has swept through eastern Democratic Republic of Congo.",
-      "url": "https://www.unionleader.com/news/health/moderna-and-other-groups-get-60-million-to-develop-ebola-vaccine/article_7692f038-27bc-5c8f-8a40-fe5eb0d5afaa.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-01",
-      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -25804,7 +25832,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-07T12:16:45.159218",
+      "updated": "2026-06-08T14:40:44.381751",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25914,24 +25942,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-07T12:16:45.159218"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-07T12:16:45.159218"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-08T14:40:44.381751"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-08T14:40:44.381751"
     },
     "migration": {
       "score": 5.0,
@@ -25941,35 +25969,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-07T12:16:45.159218"
+      "updated": "2026-06-08T14:40:44.381751"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-07T12:16:45.159218"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-08T14:40:44.381751"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 6.8,
       "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.36 | Diesel $5.73",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.36,
+        "score": 6.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.73,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-07T12:16:45.159218"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-08T14:40:44.381751"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25978,19 +26006,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-07T12:16:45.159218"
+      "updated": "2026-06-08T14:40:44.381751"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-07T12:16:45.159218"
+    "calculated_at": "2026-06-08T14:40:44.381751"
   }
 }

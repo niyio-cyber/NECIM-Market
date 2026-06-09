@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T14:42:36.613869Z",
+  "generated": "2026-06-09T13:35:06.752132Z",
   "summary": {
     "total_opportunities": 1225,
     "total_value_low": 10659544701,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 42,
-      "NH": 60,
-      "ME": 171,
+      "VT": 43,
+      "NH": 62,
+      "ME": 174,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 6,
+      "news": 13,
       "funding": 3
     },
     "pipeline_analysis": {
@@ -25698,27 +25698,83 @@
   ],
   "news": [
     {
-      "id": "c7990de1a928",
-      "title": "Calling on Sen. Collins to protect grant funding for survivors of domestic abuse | Opinion",
-      "summary": "With community organizations already trying to stretch limited resources, securing the future of the Community Development Block Grant program is critical.",
-      "url": "https://www.pressherald.com/2026/06/08/calling-on-sen-collins-to-help-protect-cdbg-funding-opinion/",
+      "id": "cb230f76b7ef",
+      "title": "Susan Collins needs to stand up to attacks on public lands | Opinion",
+      "summary": "Utah Sen. Mike Lee has been a one-man wrecking crew on behalf of the fossil fuel lobby. Maine's senior senator would be wise to oppose these efforts in her reelection bid.",
+      "url": "https://www.pressherald.com/2026/06/09/susan-collins-needs-to-stand-up-to-attacks-on-public-lands-opinion/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-06-08",
-      "category": "funding",
+      "date": "2026-06-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2d3d979ed8e9",
+      "title": "1 dead, 1 injured in head-on crash in Eddington",
+      "summary": "A work vehicle was legally parked in a breakdown lane on Route 9 when a van crossed the road and struck it head-on Monday, the Penobscot County Sheriff's Office says.",
+      "url": "https://www.pressherald.com/2026/06/08/1-dead-1-injured-in-head-on-crash-in-eddington/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-09",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "649df9253772",
-      "title": "Maine DOT has a $84M budget shortfall. How will it affect residents?",
-      "summary": "A gap in funding is forcing the state to postpone road repairs just as construction season begins, leaving local contractors scrambling for answers.",
-      "url": "https://www.pressherald.com/2026/06/08/maine-dot-has-a-budget-shortfall-how-will-it-affect-residents/",
-      "source": "Portland Press Herald",
+      "id": "8a3b6408bb24",
+      "title": "Third UK citizen pleads guilty to entering US illegally",
+      "summary": "Hameed Mohammed Nagi is one of four men arrested after being found walking on the Golden Road in the early morning hours of April 3.",
+      "url": "https://www.bangordailynews.com/2026/06/09/bangor/bangor-police-courts/third-uk-citizen-hameed-mohammed-nag-pleads-guilty-entering-us-illegally/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "efab120934e6",
+      "title": "A government-commissioned study found drinking risks. US guidelines didn\u2019t feature its findings",
+      "summary": "A study commissioned by President Joe Biden\u2019s administration to investigate alcohol-related health harms was released independently on Tuesday, after President Donald Trump\u2019s administration decided not to feature the researchers\u2019 findings in new dietary guidelines as it faced pushback from the alcoh",
+      "url": "https://www.bangordailynews.com/2026/06/09/nation/a-government-commissioned-study-found-drinking-risks-us-guidelines-didnt-feature-its-findings/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "594aa12fafc7",
+      "title": "Rahm Emanuel\u2019s uphill climb in New Hampshire tests a 2028 presidential bid",
+      "summary": "WARNER, N.H. (AP) \u2014 For Rahm Emanuel, the road to the White House runs through the uphill climbs of rural New Hampshire. The onetime Democratic congressman, White House chief of staff, Chicago mayor and U.S. ambassador to Japan hasn\u2019t formally announced his ambition to return to power in Washington.",
+      "url": "https://www.bangordailynews.com/2026/06/09/nation/rahm-emanuels-uphill-climb-in-new-hampshire-tests-a-2028-presidential-bid/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0e7f83ce35da",
+      "title": "Democratic group launches ad campaign to help flip control of Congress in midterm elections",
+      "summary": "A Democratic group that previously focused on presidential races is wading into the midterms by targeting more than a dozen House and Senate contests, many of them on Republican turf, in a new advertising campaign that begins Tuesday. American Bridge 21st Century\u2019s $50 million effort adds financial",
+      "url": "https://www.bangordailynews.com/2026/06/09/nation/democratic-group-launches-ad-campaign-to-help-flip-control-of-congress-in-midterm-elections/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-09",
       "category": "funding",
       "priority": "high",
       "business_lines": [
@@ -25726,12 +25782,40 @@
       ]
     },
     {
-      "id": "4dae5b930e14",
-      "title": "Every Greater Bangor municipal budget is expected\u00a0to grow",
-      "summary": "The proposed budgets show that towns are investing in largely the same services, but the costs of those services have gone up.",
-      "url": "https://www.bangordailynews.com/2026/06/08/bangor/bangor-government/every-greater-bangor-municipal-budget-expected-grow-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "6b833cee09c1",
+      "title": "Bloomberg Philanthropies is investing $12.8M in a Boston trade school \u2014 here's what it means for students",
+      "summary": "Bloomberg Philanthropies is funding 100 annual apprenticeship seats in construction and water utility management through 2028.",
+      "url": "https://www.masslive.com/education/2026/06/bloomberg-philanthropies-invests-128m-into-boston-tech-school-heres-why.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-09",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f4d4c1cbb538",
+      "title": "Former Bridgeport munitions testing site redeveloped as urban forest",
+      "summary": "During the cleanup effort, workers removed of nearly 5,000 pieces of bullet shells and other munitions from Lake Success.",
+      "url": "https://ctmirror.org/2026/06/09/bridgeport-munitions-testing-site-redeveloped-urban-forest/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-06-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "49ee126b25c3",
+      "title": "New roadside marker celebrates Ann Story, \u2018Mother of the Green Mountain Boys\u2019",
+      "summary": "Vermonters gathered at the Ann Story cabin in Salisbury to celebrate the Revolutionary War hero.\nRead the story on VTDigger here:  New roadside marker celebrates Ann Story, \u2018Mother of the Green Mountain Boys\u2019.",
+      "url": "https://vtdigger.org/2026/06/08/new-roadside-marker-celebrates-ann-story-mother-of-the-green-mountain-boys/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-06-08",
       "category": "news",
       "priority": "medium",
@@ -25740,12 +25824,40 @@
       ]
     },
     {
-      "id": "b857adc92e3c",
-      "title": "Valley Blue Sox earn first road win against Upper Valley Nighthawks",
-      "summary": "The Valley Blue Sox erupted for a season-high 14 runs on Sunday.",
-      "url": "https://www.masslive.com/bluesox/2026/06/valley-blue-sox-earn-first-road-win-against-upper-valley-nighthawks.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "fe1649e92780",
+      "title": "The state can\u2019t fix Vermont\u2019s hospitals by telling them what to do",
+      "summary": "Real transformation requires getting prices right, then letting hospitals respond.\nRead the story on VTDigger here:  The state can\u2019t fix Vermont\u2019s hospitals by telling them what to do.",
+      "url": "https://vtdigger.org/2026/06/08/opinion-the-state-cant-fix-vermonts-hospitals-by-telling-them-what-to-do/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-06-08",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "45aea208e556",
+      "title": "AG: Woman Who Died After Thornton Shooting Was PSU Student",
+      "summary": "Police are investigating the death of Leah Anderson, 21, a student at Plymouth State University majoring in Elementary Education and Youth Development after a shooting in Thornton, according to a news release from Attorney General John Formella.",
+      "url": "https://indepthnh.org/2026/06/08/ag-woman-who-died-after-thornton-shooting-was-psu-student/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-06-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8196c53eb7b8",
+      "title": "AG: Thornton Shooting with Serious Injuries Investigated",
+      "summary": "Police are responding to a shooting incident with serious bodily injury on Upper Mad River Road in Thornton, New Hampshire, according to a news release from Attorney General John Formella.",
+      "url": "https://indepthnh.org/2026/06/08/ag-thornton-shooting-with-serious-injuries-investigated/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-06-08",
       "category": "news",
       "priority": "medium",
@@ -25796,20 +25908,6 @@
       ]
     },
     {
-      "id": "2e04544df737",
-      "title": "80-hour weeks and drowning in debt: UVM Medical Center resident doctors rally for a new contract",
-      "summary": "The union of 400 resident doctors and interns have been negotiating with the hospital for a contract since January, asking for higher wages, childcare provisions and broader immigration protection. \nRead the story on VTDigger here:  80-hour weeks and drowning in debt: UVM Medical Center resident do",
-      "url": "https://vtdigger.org/2026/06/04/80-hour-weeks-and-drowning-in-debt-uvm-medical-center-resident-doctors-rally-for-a-new-contract/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-06-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "45b92097a347",
       "title": "Rehearing on controversial small homes project in Chester set for Wednesday",
       "summary": "A proposed housing project that would bring 34 small homes to a 20-acre property on Haverhill Road in Chester drew a large crowd in April, leading to the cancellation of a Planning Board meeting that has been rescheduled for Wednesday.",
@@ -25832,7 +25930,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-08T14:42:35.991288",
+      "updated": "2026-06-09T13:34:55.868904",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25942,24 +26040,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-08T14:42:35.991288"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-08T14:42:35.991288"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-09T13:34:55.868904"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-09T13:34:55.868904"
     },
     "migration": {
       "score": 5.0,
@@ -25969,35 +26067,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-08T14:42:35.991288"
+      "updated": "2026-06-09T13:34:55.868904"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-08T14:42:35.991288"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-09T13:34:55.868904"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.24 | Diesel $5.63",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.24,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.63,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-08T14:42:35.991288"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-09T13:34:55.868904"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26006,19 +26104,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-08T14:42:35.991288"
+      "updated": "2026-06-09T13:34:55.868904"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-08T14:42:35.991288"
+    "calculated_at": "2026-06-09T13:34:55.868904"
   }
 }

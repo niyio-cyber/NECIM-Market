@@ -1,26 +1,26 @@
 {
-  "generated": "2026-06-10T14:18:51.336698Z",
+  "generated": "2026-06-11T14:27:21.526915Z",
   "summary": {
-    "total_opportunities": 1230,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 44,
       "NH": 62,
-      "ME": 172,
-      "MA": 602,
+      "ME": 170,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 345,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1224,
-      "news": 10,
-      "funding": 6
+      "dot_letting": 1223,
+      "news": 12,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 267,
+          "count": 266,
           "value": 5895804498
         },
         "Pavement": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 344,
+          "count": 343,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 2,
+            "count": 1,
             "value": 0
           },
           "Pavement": {
@@ -18686,26 +18686,6 @@
       "project_type": "Bridge"
     },
     {
-      "id": "7a6d46312d20",
-      "state": "CT",
-      "project_id": "0102-0372",
-      "description": "Rehabilitation of Bridge Nos. 00058 & 03563 in Norwalk",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-06-10",
-      "fiscal_year": "FY2026",
-      "project_type": "Bridge",
-      "location": "Norwalk",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "d35658c9c691",
       "state": "CT",
       "project_id": "0131-0210",
@@ -25739,68 +25719,68 @@
   ],
   "news": [
     {
-      "id": "3cd3ac6dd90b",
-      "title": "Kennebunk approves $30.27M municipal budget, elects 2 to select board",
-      "summary": "3 candidates were also elected to RSU 21 school board seats in uncontested races.",
-      "url": "https://www.pressherald.com/2026/06/10/kennebunk-approves-30-27m-municipal-budget-elects-2-to-select-board/",
+      "id": "f420e9627a87",
+      "title": "4 great locally owned bookstores in Biddeford, Saco and Old Orchard Beach",
+      "summary": "Pick up a summer read from one of these spots and head to the beach.",
+      "url": "https://www.pressherald.com/2026/06/11/4-great-locally-owned-bookstores-in-biddeford-saco-and-old-orchard-beach/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-06-10",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bc172cebbf41",
-      "title": "Scarborough voters approve $78M school budget",
-      "summary": "The total school and municipal budget will result in a tax increase of 3.2%.",
-      "url": "https://www.pressherald.com/2026/06/10/scarborough-voters-approve-78m-school-budget/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-10",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d95533ec0e35",
-      "title": "Biddeford voters approve $52.6M school budget",
-      "summary": "Voters also chose 7 members of the new Charter Review Commission and picked a Democratic nominee for the York County Commissioners.",
-      "url": "https://www.pressherald.com/2026/06/10/biddeford-voters-approve-52-6m-school-budget/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-10",
-      "category": "funding",
+      "date": "2026-06-11",
+      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "a7fb1f789436",
-      "title": "Westbrook voters approve $57.2M school budget",
-      "summary": "The total municipal and school budget is $106.5 million.",
-      "url": "https://www.pressherald.com/2026/06/10/westbrook-voters-approve-57-2m-school-budget/",
-      "source": "Portland Press Herald",
+      "id": "f097cdbea5a3",
+      "title": "Pickering Square construction to resume\u00a0this week",
+      "summary": "The expected completion date this summer will come two years after the renovations began.",
+      "url": "https://www.bangordailynews.com/2026/06/11/bangor/bangor-government/pickering-square-bangor-construction-update-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-10",
-      "category": "funding",
+      "date": "2026-06-11",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "28c9c0d8ae1d",
-      "title": "\u2018Turtleboy\u2019 lawyers to revisit bid for  ex-Trooper Michael Proctor\u2019s bigoted text messages",
-      "summary": "The blogger's defense believes it should get access to all the text messages discovered on Michael Proctor's personal cellphone.",
-      "url": "https://www.masslive.com/news/2026/06/turtleboy-lawyers-to-revisit-bid-for-ex-trooper-michael-proctors-bigoted-text-messages.html",
+      "id": "ebff957e84bb",
+      "title": "Lawsuit from Central Mass. mother says company\u2019s negligence led to son\u2019s highway death",
+      "summary": "A mother is suing a company after her son was fatally struck by a crane, saying it was transported without required permits or escorts.",
+      "url": "https://www.masslive.com/centralmass/2026/06/lawsuit-from-central-mass-mother-says-companys-negligence-led-to-sons-highway-death.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-06-11",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "190dcf97744f",
+      "title": "Rival evaluators flame Red Sox for roster construction this season",
+      "summary": "\u201cThe holes that were there at the start of the season are still there,\" one rival evaluator told The Boston Globe of the Red Sox.",
+      "url": "https://www.masslive.com/redsox/2026/06/rival-evaluators-flame-red-sox-for-roster-construction-this-season.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0f3fb23c1d1b",
+      "title": "\u2018Like Christmas\u2019: For Vermont\u2019s Congolese community, a historic World Cup bid is cause for celebration",
+      "summary": "This year\u2019s tournament, along with all its controversy, also comes at a moment when soccer has perhaps never had as many fans in Vermont as it does today.\nRead the story on VTDigger here:  \u2018Like Christmas\u2019: For Vermont\u2019s Congolese community, a historic World Cup bid is cause for celebration.",
+      "url": "https://vtdigger.org/2026/06/10/like-christmas-for-vermonts-congolese-community-a-historic-world-cup-bid-is-cause-for-celebration/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-06-10",
       "category": "news",
       "priority": "high",
@@ -25809,26 +25789,26 @@
       ]
     },
     {
-      "id": "284204543746",
-      "title": "Blue Sox will \u2018shoot for another winning streak\u2019 after first loss",
-      "summary": "The Valley Blue Sox are looking ahead to their three-game road trip after suffering their first loss of the summer on Tuesday.",
-      "url": "https://www.masslive.com/bluesox/2026/06/blue-sox-will-shoot-for-another-winning-streak-after-sufferring-first-loss.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "1a8ba81ea796",
+      "title": "Developers give HUD official, exec councilors an earful on housing roadblocks",
+      "summary": "Developers told U.S. Housing and Urban Development (HUD) Regional Administrator Mike Banks and three executive councilors that despite the infusion of federal money and a steady diet of state legislative actions, New Hampshire remains a challenging and, in many places,\u2026",
+      "url": "https://www.unionleader.com/news/homes/housing/developers-give-hud-official-exec-councilors-an-earful-on-housing-roadblocks/article_8aa9264e-0ed0-409a-9698-fac8c814de9e.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-06-10",
-      "category": "news",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "a542beb97659",
-      "title": "Springfield will use $18M in federal grants for housing programs",
-      "summary": "One grant is shared with other Hampden County communities.",
-      "url": "https://www.masslive.com/westernmass/2026/06/springfield-will-use-18m-in-federal-grants-for-housing-programs.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "b30e6a52d3e5",
+      "title": "Lamont announces another $5M in grants for security at houses of worship",
+      "summary": "CT is making more funding available to support infrastructure improvements that enhance security at houses of worship across the state.",
+      "url": "https://ctmirror.org/2026/06/10/ct-security-grants-churches/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-06-10",
       "category": "funding",
       "priority": "high",
@@ -25947,20 +25927,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "665a280605ba",
-      "title": "Rite Aid reuse: What is becoming of vacant pharmacy locations across NH?",
-      "summary": "The faded outlines of the letters spelling \u201cRite Aid\u201d remain on the building at 420 Daniel Webster Highway in Merrimack, but the former pharmacy has taken on new life as a Brazilian church, Lagoinha Nashua Church.",
-      "url": "https://www.unionleader.com/news/business/rite-aid-reuse-what-is-becoming-of-vacant-pharmacy-locations-across-nh/article_faa4455d-1ec9-480a-a6d4-213643daf003.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-05",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25971,7 +25937,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-10T14:18:50.908921",
+      "updated": "2026-06-11T14:27:09.055584",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -26081,24 +26047,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-10T14:18:50.908921"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-10T14:18:50.908921"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-11T14:27:09.055584"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-11T14:27:09.055584"
     },
     "migration": {
       "score": 5.0,
@@ -26108,35 +26074,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-10T14:18:50.908921"
+      "updated": "2026-06-11T14:27:09.055584"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-10T14:18:50.908921"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-11T14:27:09.055584"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.24 | Diesel $5.63",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.24,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.63,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-10T14:18:50.908921"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-11T14:27:09.055584"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26145,19 +26111,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-10T14:18:50.908921"
+      "updated": "2026-06-11T14:27:09.055584"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-10T14:18:50.908921"
+    "calculated_at": "2026-06-11T14:27:09.055584"
   }
 }

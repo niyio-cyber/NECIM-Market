@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-12T13:58:48.914679Z",
+  "generated": "2026-06-13T12:19:08.288736Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1227,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 43,
       "NH": 60,
-      "ME": 168,
-      "MA": 600,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 347,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 6,
-      "funding": 3
+      "news": 8,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25719,15 +25719,71 @@
   ],
   "news": [
     {
-      "id": "52576dca86ab",
-      "title": "Red Sox\u2019 Willson Contreras elite in metric Driveline, player development stress; \u2018Really important as you get old\u2019",
-      "summary": "Red Sox slugger: \u201cIt\u2019s really important as you get old, for sure.\"",
-      "url": "https://www.masslive.com/redsox/2026/06/red-sox-willson-contreras-elite-in-metric-driveline-player-development-stress.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-12",
+      "id": "cb7020f845ea",
+      "title": "Boutique marks 5 years of selling art with heart in Derry",
+      "summary": "An upcycled yard sale planter. A historic building seeking a new purpose. A piece of furniture, found on the side of the road, repainted into vibrancy.",
+      "url": "https://www.unionleader.com/news/business/boutique-marks-5-years-of-selling-art-with-heart-in-derry/article_14bc33d3-8bb2-4abd-88e7-5dd45042045c.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-06-13",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9b3c8a6ccb60",
+      "title": "Portland\u2019s trees make way for yet more soulless construction | Letter",
+      "summary": "This city's priorities are blindingly clear.",
+      "url": "https://www.pressherald.com/2026/06/13/portlands-trees-make-way-for-yet-more-soulless-construction-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-06-13",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9518fb765ce7",
+      "title": "Letter: More investment needed to prevent wildlife-vehicle collisions",
+      "summary": "\"Using wildlife crossings \u2014 like bridges, tunnels, and culverts \u2014 animals are able to safely cross our roads, reducing animal-vehicle collisions by 80% to 90%, sometimes even more.\"",
+      "url": "https://www.bangordailynews.com/2026/06/13/opinion/letters/letter-more-investment-needed-to-prevent-wildlife-vehicle-collisions-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-13",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d71dca428198",
+      "title": "Finished with fundraising, Josh Elliott goes on the road",
+      "summary": "Josh Elliott's paperwork for a $3.75 million grant for his campaign to claim the Democratic nomination for governor was filed Friday.",
+      "url": "https://ctmirror.org/2026/06/12/josh-elliott-campaign-primary-ned-lamont/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-06-12",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "be0156fc3e7d",
+      "title": "Behind the scenes of Bridgeport\u2019s Democratic Town Committee",
+      "summary": "In Bridgeport, the DTC occupies an influential position. Its endorsements shape political races for top local and state offices.",
+      "url": "https://ctmirror.org/2026/06/12/bridgeport-democratic-town-committee-transparency/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-06-12",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25829,20 +25885,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "5eaec6110390",
-      "title": "Neighbors vent about \u2018enormity\u2019 of proposed Bodwell Road subdivision in Manchester",
-      "summary": "Plans for a 44-unit subdivision off Bodwell Road drew the ire of neighbors of the site during a meeting of the Manchester Planning Board.",
-      "url": "https://www.unionleader.com/news/local/manchester/neighbors-vent-about-enormity-of-proposed-bodwell-road-subdivision-in-manchester/article_5b97136e-9fab-4782-b1aa-4563f00ca975.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-05",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25853,7 +25895,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-12T13:58:48.621424",
+      "updated": "2026-06-13T12:19:01.029574",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25963,24 +26005,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-12T13:58:48.621424"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-12T13:58:48.621424"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-13T12:19:01.029574"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-13T12:19:01.029574"
     },
     "migration": {
       "score": 5.0,
@@ -25990,35 +26032,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-12T13:58:48.621424"
+      "updated": "2026-06-13T12:19:01.029574"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-12T13:58:48.621424"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-13T12:19:01.029574"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.24 | Diesel $5.63",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.24,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.63,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-12T13:58:48.621424"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-13T12:19:01.029574"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26027,19 +26069,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-12T13:58:48.621424"
+      "updated": "2026-06-13T12:19:01.029574"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-12T13:58:48.621424"
+    "calculated_at": "2026-06-13T12:19:01.029574"
   }
 }

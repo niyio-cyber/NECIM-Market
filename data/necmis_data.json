@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-14T12:30:52.593865Z",
+  "generated": "2026-06-14T12:57:50.833248Z",
   "summary": {
-    "total_opportunities": 1220,
+    "total_opportunities": 1226,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -14,11 +14,11 @@
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 340,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1217,
+      "dot_letting": 1223,
       "news": 10,
       "funding": 3
     },
@@ -38,19 +38,19 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 265,
+          "count": 266,
           "value": 5895804498
         },
         "Pavement": {
-          "count": 718,
+          "count": 719,
           "value": 3310707894
         },
         "Safety": {
-          "count": 149,
+          "count": 152,
           "value": 1003218381
         },
         "Other": {
-          "count": 85,
+          "count": 86,
           "value": 449813928
         }
       },
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 337,
+          "count": 343,
           "value": 0
         },
         "PA": {
@@ -261,19 +261,19 @@
         },
         "CT": {
           "Bridge": {
-            "count": 0,
+            "count": 1,
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 338,
             "value": 0
           },
           "Safety": {
-            "count": 0,
+            "count": 3,
             "value": 0
           },
           "Other": {
-            "count": 0,
+            "count": 1,
             "value": 0
           }
         },
@@ -18686,6 +18686,189 @@
       "project_type": "Bridge"
     },
     {
+      "id": "d35658c9c691",
+      "state": "CT",
+      "project_id": "0131-0210",
+      "description": "REPLACEMENT OF EXISTING NOISE BARRIER ON I-691",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-01",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "I-691",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "d819297a798e",
+      "state": "CT",
+      "project_id": "0141-0158",
+      "description": "Replacement of Bridge No. 03474 Route 200 Over Interstate 395",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-08",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "Route 200",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "d05e04412b5d",
+      "state": "CT",
+      "project_id": "0152-0164",
+      "description": "CT Route 85 Computerized Traffic Control Signal System Replacement",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-01",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "Route 85",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "a64d9c053e50",
+      "state": "CT",
+      "project_id": "0170-3742",
+      "description": "Video Detection Upgrades at Various Locations in the New Haven Urban Area",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-08",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "New Haven",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "e6af7baf894d",
+      "state": "CT",
+      "project_id": "0170-3757",
+      "description": "Speed Limit Signs on Local Rural Roads in Districts 3 & 4",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-24",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
+      "id": "c6064ed2d5a6",
+      "state": "CT",
+      "project_id": "0171-0533",
+      "description": "MS4 RETROFIT - Project 0171-0533 -  Towns of Newington, Killingly, Bristol, and Manchester (Sites 2, 6, 7, 8, 9)",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-17",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "ct 0171",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "d374f200d8e1",
+      "state": "CT",
+      "project_id": "0173-0542",
+      "description": "Installation and Revision of Traffic Control Signals in District 3",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-07-01",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "ct 3",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c9afbc027da4",
+      "state": "CT",
+      "project_id": "0173-0559",
+      "description": "MS4 RETROFIT (DISTRICT 3 & 4)",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-17",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "CT 3",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "d5b70a62cf72",
+      "state": "CT",
+      "project_id": "0320-0017",
+      "description": "HARTFORD LINE RAIL PROGRAM -  ENFIELD RAILROAD STATION AND TRACK IMPROVEMENTS",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-06-24",
+      "fiscal_year": "FY2026",
+      "project_type": "Other",
+      "location": "Hartford",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "1e2881998d9a",
       "state": "CT",
       "project_id": "PROJECT",
@@ -21346,26 +21529,6 @@
       ]
     },
     {
-      "id": "7667773048d0",
-      "state": "CT",
-      "project_id": "0131-0210",
-      "description": "CT Project 0131-0210",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "6b2fdf89b8db",
       "state": "CT",
       "project_id": "0131-0213",
@@ -22846,26 +23009,6 @@
       ]
     },
     {
-      "id": "a088fa3a5390",
-      "state": "CT",
-      "project_id": "0152-0164",
-      "description": "CT Project 0152-0164",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "e0f15869c140",
       "state": "CT",
       "project_id": "0152-0165",
@@ -23370,26 +23513,6 @@
       "state": "CT",
       "project_id": "0170-3756",
       "description": "CT Project 0170-3756",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "988899b992fc",
-      "state": "CT",
-      "project_id": "0170-3757",
-      "description": "CT Project 0170-3757",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -25786,7 +25909,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-14T12:30:45.143894",
+      "updated": "2026-06-14T12:57:50.663799",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25896,24 +26019,24 @@
       }
     },
     "housing_permits": {
-      "score": 4.4,
+      "score": 6.5,
       "trend": "stable",
-      "action": "Selective investment",
-      "raw": 7771.245919798059,
-      "raw_display": "7,771 units/mo",
-      "yoy_change": -2.8,
-      "source": "FRED API",
-      "updated": "2026-06-14T12:30:45.143894"
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-06-14T12:57:50.663799"
     },
     "construction_spending": {
-      "score": 5.6,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 150914.0,
-      "raw_display": "$150.9B SAAR",
-      "yoy_change": 4.0,
-      "source": "FRED API",
-      "updated": "2026-06-14T12:30:45.143894"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-06-14T12:57:50.663799"
     },
     "migration": {
       "score": 5.0,
@@ -25923,35 +26046,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-14T12:30:45.143894"
+      "updated": "2026-06-14T12:57:50.663799"
     },
     "construction_employment": {
-      "score": 5.2,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 983800.0,
-      "raw_display": "984K workers",
-      "yoy_change": 0.9,
-      "source": "FRED API",
-      "updated": "2026-06-14T12:30:45.143894"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-06-14T12:57:50.663799"
     },
     "input_cost": {
-      "score": 7.0,
-      "trend": "up",
+      "score": 9.5,
+      "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $4.24 | Diesel $5.63",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 4.24,
-        "score": 7.1,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 5.63,
-        "score": 7.0,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-06-14T12:30:45.143894"
+      "source": "historical data",
+      "updated": "2026-06-14T12:57:50.663799"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25960,19 +26083,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-14T12:30:45.143894"
+      "updated": "2026-06-14T12:57:50.663799"
     },
-    "overall_score": 6.8,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-14T12:30:45.143894"
+    "calculated_at": "2026-06-14T12:57:50.663799"
   }
 }

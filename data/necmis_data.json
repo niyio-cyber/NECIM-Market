@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T12:57:50.833248Z",
+  "generated": "2026-06-15T16:11:05.199356Z",
   "summary": {
     "total_opportunities": 1226,
     "total_value_low": 10659544701,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 43,
+      "VT": 42,
       "NH": 60,
-      "ME": 172,
-      "MA": 599,
+      "ME": 168,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 10,
+      "news": 6,
       "funding": 3
     },
     "pipeline_analysis": {
@@ -25719,41 +25719,13 @@
   ],
   "news": [
     {
-      "id": "f8882530ab16",
-      "title": "Take a road trip through Maine\u2019s food and drink trails this summer",
-      "summary": "We spotlight more than 15 delicious destinations for some of the state's best nibbles and sips.",
-      "url": "https://www.pressherald.com/2026/06/14/take-a-road-trip-through-maines-food-and-drink-trails-this-summer/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "69b32e7135bf",
-      "title": "Acadia tackles climate change with its largest-ever restoration project",
-      "summary": "The Great Meadow, a 116-acre wetland located next to Park Loop Road near downtown Bar Harbor, is the scene of the project.",
-      "url": "https://www.bangordailynews.com/2026/06/14/hancock/hancock-environment/acadia-tackles-climate-change-largest-restoration-project-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "78672403f9ef",
-      "title": "Brewer woman dies in I-95 crash in Newburgh",
-      "summary": "A\u00a0Brewer woman died Saturday in a single-vehicle crash on Interstate 95 in Newburgh, according to police. Darcel Geiser, 58, was driving north on the highway at approximately 1:30 p.m. when the vehicle went off the road and rolled several times, Shannon Moss, spokesperson for Maine Department of Pub",
-      "url": "https://www.bangordailynews.com/2026/06/13/penobscot/penobscot-police-courts/brewer-woman-dies-in-i-95-crash-in-newburgh/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-14",
+      "id": "9146accfddf2",
+      "title": "Blue Sox bid farewell to winning streak after loss to Keene",
+      "summary": "The Valley Blue Sox were unable to extend their winning streak to four games on Sunday.",
+      "url": "https://www.masslive.com/bluesox/2026/06/blue-sox-bid-farewell-to-winning-streak-after-loss-to-keene.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-15",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25770,20 +25742,6 @@
       "date": "2026-06-13",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9518fb765ce7",
-      "title": "Letter: More investment needed to prevent wildlife-vehicle collisions",
-      "summary": "\"Using wildlife crossings \u2014 like bridges, tunnels, and culverts \u2014 animals are able to safely cross our roads, reducing animal-vehicle collisions by 80% to 90%, sometimes even more.\"",
-      "url": "https://www.bangordailynews.com/2026/06/13/opinion/letters/letter-more-investment-needed-to-prevent-wildlife-vehicle-collisions-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-13",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25845,20 +25803,6 @@
       ]
     },
     {
-      "id": "0f3fb23c1d1b",
-      "title": "\u2018Like Christmas\u2019: For Vermont\u2019s Congolese community, a historic World Cup bid is cause for celebration",
-      "summary": "This year\u2019s tournament, along with all its controversy, also comes at a moment when soccer has perhaps never had as many fans in Vermont as it does today.\nRead the story on VTDigger here:  \u2018Like Christmas\u2019: For Vermont\u2019s Congolese community, a historic World Cup bid is cause for celebration.",
-      "url": "https://vtdigger.org/2026/06/10/like-christmas-for-vermonts-congolese-community-a-historic-world-cup-bid-is-cause-for-celebration/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-06-10",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "1a8ba81ea796",
       "title": "Developers give HUD official, exec councilors an earful on housing roadblocks",
       "summary": "Developers told U.S. Housing and Urban Development (HUD) Regional Administrator Mike Banks and three executive councilors that despite the infusion of federal money and a steady diet of state legislative actions, New Hampshire remains a challenging and, in many places,\u2026",
@@ -25909,7 +25853,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-14T12:57:50.663799",
+      "updated": "2026-06-15T16:10:56.323419",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -26019,24 +25963,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-14T12:57:50.663799"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-14T12:57:50.663799"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-15T16:10:56.323419"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-15T16:10:56.323419"
     },
     "migration": {
       "score": 5.0,
@@ -26046,35 +25990,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-14T12:57:50.663799"
+      "updated": "2026-06-15T16:10:56.323419"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-14T12:57:50.663799"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-15T16:10:56.323419"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.24 | Diesel $5.63",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.24,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.63,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-14T12:57:50.663799"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-15T16:10:56.323419"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26083,19 +26027,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-14T12:57:50.663799"
+      "updated": "2026-06-15T16:10:56.323419"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-14T12:57:50.663799"
+    "calculated_at": "2026-06-15T16:10:56.323419"
   }
 }

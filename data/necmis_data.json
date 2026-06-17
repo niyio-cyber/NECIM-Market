@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T15:49:13.129009Z",
+  "generated": "2026-06-17T14:20:39.050265Z",
   "summary": {
     "total_opportunities": 1227,
     "total_value_low": 10659544701,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 41,
+      "VT": 42,
       "NH": 60,
-      "ME": 169,
+      "ME": 171,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 5,
+      "news": 6,
       "funding": 4
     },
     "pipeline_analysis": {
@@ -18857,7 +18857,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-06-24",
+      "let_date": "2026-07-15",
       "fiscal_year": "FY2026",
       "project_type": "Other",
       "location": "Hartford",
@@ -25719,13 +25719,13 @@
   ],
   "news": [
     {
-      "id": "8eb227a1207c",
-      "title": "Maine House candidate could win primary despite dropping out of race",
-      "summary": "Lawrence \u201cSkip\u201d Bessey decided to end his campaign for the Maine House\u2019s 58th district not long after he launched the bid.",
-      "url": "https://www.bangordailynews.com/2026/06/16/politics/elections/lawrence-bessey-maine-house-candidate-final-count-joam40zk0w/",
+      "id": "c4c463aea39f",
+      "title": "Trump delays Jay Clayton\u2019s nomination for intel director to try to push Congress on voting bill",
+      "summary": "EVIAN-LES-BAINS, France (AP) \u2014 President Donald Trump said Wednesday that he was delaying Jay Clayton\u2019s nomination to lead the U.S. intelligence community in a bid to force Congress to act on a voter ID bill that currently lacks enough support for passage. Trump said in a social media post just hour",
+      "url": "https://www.bangordailynews.com/2026/06/17/nation/trump-delays-jay-claytons-nomination-for-intel-director-to-try-to-push-congress-on-voting-bill/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25733,12 +25733,54 @@
       ]
     },
     {
-      "id": "e0fa1c154f46",
-      "title": "Bruins\u2019 2024 first-round pick highlights development camp roster",
-      "summary": "Dean Letourneau, who wrapped up his sophomore season at Boston College with 22 goals and 17 assists, will take part in Bruins\u2019 development camp this week.",
-      "url": "https://www.masslive.com/bruins/2026/06/bruins-2024-first-round-pick-highlights-development-camp-roster.html",
+      "id": "9a396fbf7a22",
+      "title": "Aroostook County shouldn\u2019t use a failed approach to reduce youth substance use",
+      "summary": "\u201cIn 2024, the Bangor Daily News reported\u00a0that Aroostook County sends\u00a0more children to Long Creek Youth Development Center than any other county in Maine.\u201d",
+      "url": "https://www.bangordailynews.com/2026/06/17/opinion/opinion-contributor/aroostook-county-failed-approach-to-reduce-youth-substance-use-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "67bb056ece3b",
+      "title": "Letter: Political action committee forgets high prices during Biden administration",
+      "summary": "\u201cI do not recall nonstop television commercials from Majority Forward about the cost of living at the time.\u201d",
+      "url": "https://www.bangordailynews.com/2026/06/17/opinion/letters/letter-political-action-committee-forgets-high-prices-during-biden-administration/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-17",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e5ebf80fc130",
+      "title": "State to reimburse Westfield and Southwick for snow and ice removal",
+      "summary": "Because many of the commonwealth\u2019s municipalities incurred some of the largest cost ever to remove ice and snow from their roads, Westfield and Southwick were included in an $80 million allocation included in the state\u2019s fiscal 2027 budget to offset the cost.",
+      "url": "https://www.masslive.com/westfieldnews/2026/06/state-to-reimburse-westfield-and-southwick-for-snow-and-ice-removal.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-06-17",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "81d12645669e",
+      "title": "Partial rollback of Vermont\u2019s land-use law Act 181 becomes official with Phil Scott\u2019s signature",
+      "summary": "The move marks a win for a broad coalition of rural landowners who organized en masse to protest against Act 181, a land-use permitting overhaul passed in 2024.\nRead the story on VTDigger here:  Partial rollback of Vermont\u2019s land-use law Act 181 becomes official with Phil Scott\u2019s signature.",
+      "url": "https://vtdigger.org/2026/06/16/partial-rollback-of-vermonts-land-use-law-act-181-becomes-official-with-phil-scotts-signature/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-06-16",
       "category": "news",
       "priority": "medium",
@@ -25770,34 +25812,6 @@
       "date": "2026-06-13",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d71dca428198",
-      "title": "Finished with fundraising, Josh Elliott goes on the road",
-      "summary": "Josh Elliott's paperwork for a $3.75 million grant for his campaign to claim the Democratic nomination for governor was filed Friday.",
-      "url": "https://ctmirror.org/2026/06/12/josh-elliott-campaign-primary-ned-lamont/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-06-12",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "be0156fc3e7d",
-      "title": "Behind the scenes of Bridgeport\u2019s Democratic Town Committee",
-      "summary": "In Bridgeport, the DTC occupies an influential position. Its endorsements shape political races for top local and state offices.",
-      "url": "https://ctmirror.org/2026/06/12/bridgeport-democratic-town-committee-transparency/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-06-12",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25853,7 +25867,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-16T15:49:12.669005",
+      "updated": "2026-06-17T14:20:26.119597",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25963,24 +25977,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-16T15:49:12.669005"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-16T15:49:12.669005"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-17T14:20:26.119597"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-17T14:20:26.119597"
     },
     "migration": {
       "score": 5.0,
@@ -25990,35 +26004,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-16T15:49:12.669005"
+      "updated": "2026-06-17T14:20:26.119597"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-16T15:49:12.669005"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-17T14:20:26.119597"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.51,
+        "score": 7.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-16T15:49:12.669005"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-17T14:20:26.119597"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26027,19 +26041,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-16T15:49:12.669005"
+      "updated": "2026-06-17T14:20:26.119597"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-16T15:49:12.669005"
+    "calculated_at": "2026-06-17T14:20:26.119597"
   }
 }

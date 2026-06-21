@@ -1,26 +1,26 @@
 {
-  "generated": "2026-06-20T12:24:06.528690Z",
+  "generated": "2026-06-21T12:59:38.767406Z",
   "summary": {
-    "total_opportunities": 1226,
+    "total_opportunities": 1225,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -9.5,
     "by_state": {
-      "VT": 44,
+      "VT": 42,
       "NH": 64,
-      "ME": 174,
-      "MA": 601,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 18,
-      "funding": 5
+      "news": 12,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25679,41 +25679,13 @@
   ],
   "news": [
     {
-      "id": "517756fe67f6",
-      "title": "Local control is holding education back in Maine | Opinion",
-      "summary": "When it comes to accountability among educators, a statewide system for teacher evaluation and teachers' professional development would be of huge benefit to our state.",
-      "url": "https://www.pressherald.com/2026/06/20/local-control-is-holding-education-back-in-maine-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7857073f7d8b",
-      "title": "Hearts of Pine suffer fourth straight loss",
-      "summary": "Portland is winless in its last nine road matches after a blowout defeat against Westchester SC.",
-      "url": "https://www.pressherald.com/2026/06/19/hearts-of-pine-suffer-fourth-straight-loss/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "27b6f4c187c5",
-      "title": "Listen live to the Maine moose lottery drawing",
-      "summary": "Hunters who can't make it to Acton for Saturday's Maine moose permit lottery drawing can follow the event live, here.",
-      "url": "https://www.bangordailynews.com/2026/06/20/outdoors/hunting/live-maine-moose-lottery-drawing-joam40zk0w/",
+      "id": "a31124556ece",
+      "title": "You drew a Maine moose permit. Here\u2019s what to do right now.",
+      "summary": "There are several important steps moose permit winners should take as soon as possible to help ensure a successful hunt.",
+      "url": "https://www.bangordailynews.com/2026/06/21/outdoors/hunting/you-drew-maine-moose-permit-now-what-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25721,71 +25693,29 @@
       ]
     },
     {
-      "id": "e61df4cd0ac9",
-      "title": "Westfield council cuts mayor\u2019s budget by $1.5 million, reduces tax hike",
-      "summary": "Westfield council cut $1.5M from the mayor's budget, lowered the tax increase, and preserved funding for an economic development director.",
-      "url": "https://www.masslive.com/westfieldnews/2026/06/westfield-council-cuts-mayors-budget-by-15-million-reduces-tax-hike.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-20",
-      "category": "funding",
+      "id": "c3007c9176ed",
+      "title": "Didn\u2019t draw a Maine moose permit? Here\u2019s where you can still hunt moose.",
+      "summary": "While many people wait years to draw a permit in Maine, there are options if you want to pursue this species out of state.",
+      "url": "https://www.bangordailynews.com/2026/06/21/outdoors/hunting/where-hunt-moose-no-permit-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-06-21",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "9b6941cb100f",
-      "title": "Red Sox reactions: Ranger Suarez, Marcelo Mayer shine in win over Mariners",
-      "summary": "Behind Ranger Suarez's no-hit bid and a big night from Marcelo Mayer, the Red Sox snapped their four-game losing streak with a win in Seattle on Friday night.",
-      "url": "https://www.masslive.com/redsox/2026/06/red-sox-reactions-ranger-suarez-marcelo-mayer-shine-in-win-over-mariners.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-20",
+      "id": "f5ab403e666f",
+      "title": "Shapiro\u2019s Folly Part Deux: the bridge that won\u2019t die",
+      "summary": "Connecticut: the land of steady habits where bad ideas don\u2019t go away, they just get bigger.",
+      "url": "https://ctmirror.org/2026/06/21/shapiros-folly-part-deux-the-bridge-that-wont-die/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-06-21",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3e85cdf0b759",
-      "title": "Biddeford\u2019s Juneteenth celebration spotlights  progress and differences",
-      "summary": "Participants at the second annual event contemplated the significance of the holiday.",
-      "url": "https://www.pressherald.com/2026/06/19/biddefords-juneteenth-celebration-spotlights-progress-and-differences/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ab4bf57e6e63",
-      "title": "Route 141 in Swanville closed for crash",
-      "summary": "The road, also known as Swan Lake Avenue, was closed from Town House Road (Route 131) to Upper Oak HIll Road.",
-      "url": "https://www.bangordailynews.com/2026/06/19/midcoast/midcoast-police-courts/route-141-in-swanville-closed-for-crash/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "31b70528313d",
-      "title": "East Machias man dies after head-on crash in Ellsworth",
-      "summary": "The crash on Bucksport Road (Route 1) was reported at about 12:30 p.m. Thursday.",
-      "url": "https://www.bangordailynews.com/2026/06/19/hancock/hancock-police-courts/east-machias-man-dies-ellsworth-crash/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-19",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25903,34 +25833,6 @@
       ]
     },
     {
-      "id": "9430a5cec986",
-      "title": "Vernon community and the state grapple with potential redevelopment of Vermont Yankee site",
-      "summary": "Ideas for the site of the former nuclear plant include a data center, battery storage or a small nuclear reactor, but no plan has yet been finalized.\nRead the story on VTDigger here:  Vernon community and the state grapple with potential redevelopment of Vermont Yankee site.",
-      "url": "https://vtdigger.org/2026/06/17/vernon-community-and-the-state-grapple-with-potential-redevelopment-of-vermont-yankee-site/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-06-17",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5933439808b9",
-      "title": "Public weighs in on roadmap for state land planning",
-      "summary": "Some worry public input may suffer under proposed rules; proponents say it would streamline the process.\nRead the story on VTDigger here:  Public weighs in on roadmap for state land planning.",
-      "url": "https://vtdigger.org/2026/06/17/public-weighs-in-on-roadmap-for-state-land-planning/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-06-17",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "30653b291f68",
       "title": "Builder fined $18K over lead at Newport apartment complex",
       "summary": "Officials with the U.S. Environmental Protection Agency (EPA) announced this week a settlement agreement has been reached with a Vermont-based construction company resolving alleged lead safety violations at a New Hampshire apartment complex.",
@@ -26009,7 +25911,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-20T12:24:06.213827",
+      "updated": "2026-06-21T12:59:31.029223",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -26119,24 +26021,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-20T12:24:06.213827"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-20T12:24:06.213827"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-21T12:59:31.029223"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-21T12:59:31.029223"
     },
     "migration": {
       "score": 5.0,
@@ -26146,35 +26048,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-20T12:24:06.213827"
+      "updated": "2026-06-21T12:59:31.029223"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-20T12:24:06.213827"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-21T12:59:31.029223"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.51,
+        "score": 7.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-20T12:24:06.213827"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-21T12:59:31.029223"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26183,19 +26085,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-20T12:24:06.213827"
+      "updated": "2026-06-21T12:59:31.029223"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-20T12:24:06.213827"
+    "calculated_at": "2026-06-21T12:59:31.029223"
   }
 }

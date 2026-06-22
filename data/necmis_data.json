@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-21T13:02:01.809387Z",
+  "generated": "2026-06-22T15:46:38.786493Z",
   "summary": {
-    "total_opportunities": 1225,
+    "total_opportunities": 1224,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 42,
-      "NH": 64,
+      "NH": 61,
       "ME": 170,
-      "MA": 599,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1221,
-      "news": 12,
-      "funding": 4
+      "news": 11,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25679,13 +25679,13 @@
   ],
   "news": [
     {
-      "id": "a31124556ece",
-      "title": "You drew a Maine moose permit. Here\u2019s what to do right now.",
-      "summary": "There are several important steps moose permit winners should take as soon as possible to help ensure a successful hunt.",
-      "url": "https://www.bangordailynews.com/2026/06/21/outdoors/hunting/you-drew-maine-moose-permit-now-what-joam40zk0w/",
+      "id": "62b5cdbd5e78",
+      "title": "2 killed in weekend off-road crashes",
+      "summary": "The two men died in separate crashes, one in Lowell. One occurred in Lowell, while the other occurred in Mayfield.",
+      "url": "https://www.bangordailynews.com/2026/06/22/central-maine/central-maine-police-courts/2-killed-weekend-off-road-crashes/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25693,15 +25693,43 @@
       ]
     },
     {
-      "id": "c3007c9176ed",
-      "title": "Didn\u2019t draw a Maine moose permit? Here\u2019s where you can still hunt moose.",
-      "summary": "While many people wait years to draw a permit in Maine, there are options if you want to pursue this species out of state.",
-      "url": "https://www.bangordailynews.com/2026/06/21/outdoors/hunting/where-hunt-moose-no-permit-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "476a6e0029e4",
+      "title": "Economic Development Commission tackles full agenda",
+      "summary": "Scheduling a meeting with local businesses, talking about drafting a formal TIF policy and preparing proposals for the state\u2019s Complete Street Fund Program were the central topics discussed during Southwick's Economic Development Commission meeting Wednesday.",
+      "url": "https://www.masslive.com/westfieldnews/2026/06/economic-development-commission-tackles-full-agenda.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b0342a6103bf",
+      "title": "Man accused of running over pedestrian while driving stolen car in Boston to face judge Monday",
+      "summary": "The 37-year-old Hyde Park man will be arraigned on murder and several other charges in Boston Municipal Court.",
+      "url": "https://www.masslive.com/boston/2026/06/man-accused-of-running-over-pedestrian-while-driving-stolen-car-in-boston-to-face-judge-monday.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-06-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "84b2ce63e029",
+      "title": "Biddeford celebrates French heritage with La Kermesse festival",
+      "summary": "The Franco-American festival took over Biddeford's St. Louis Field for its 43rd year.",
+      "url": "https://www.pressherald.com/2026/06/21/biddeford-celebrates-french-heritage-with-la-kermesse-festival/",
+      "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-06-21",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -25791,20 +25819,6 @@
       ]
     },
     {
-      "id": "086c2b241644",
-      "title": "Smaller Southeastern Towns Lead NH Population Growth",
-      "summary": "The analysis, authored by NHFPI Senior Policy Analyst Jessica Williams, includes an interactive map that allows readers to explore population changes in every New Hampshire municipality and download the underlying data.",
-      "url": "https://indepthnh.org/2026/06/18/smaller-southeastern-towns-lead-nh-population-growth-as-housing-costs-availability-shape-where-people-move/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-06-18",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e7b81665f99f",
       "title": "100GirlsLeading summit looks to empower Bridgeport\u2019s young female leaders",
       "summary": "The free event featured activities and information designed to help girls connect with women who have forged successful paths.",
@@ -25847,20 +25861,6 @@
       ]
     },
     {
-      "id": "4a5066a00f20",
-      "title": "Fazio offers plan to ease CT\u2019s property tax burdens",
-      "summary": "Republican gubernatorial candidate Ryan Fazio offered a blueprint Wednesday to reduce CT's over-reliance on the municipal property tax.",
-      "url": "https://ctmirror.org/2026/06/17/fazio-offers-plan-to-ease-cts-property-tax-burdens/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-06-17",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "cb7020f845ea",
       "title": "Boutique marks 5 years of selling art with heart in Derry",
       "summary": "An upcycled yard sale planter. A historic building seeking a new purpose. A piece of furniture, found on the side of the road, repainted into vibrancy.",
@@ -25868,34 +25868,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-06-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1a8ba81ea796",
-      "title": "Developers give HUD official, exec councilors an earful on housing roadblocks",
-      "summary": "Developers told U.S. Housing and Urban Development (HUD) Regional Administrator Mike Banks and three executive councilors that despite the infusion of federal money and a steady diet of state legislative actions, New Hampshire remains a challenging and, in many places,\u2026",
-      "url": "https://www.unionleader.com/news/homes/housing/developers-give-hud-official-exec-councilors-an-earful-on-housing-roadblocks/article_8aa9264e-0ed0-409a-9698-fac8c814de9e.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-10",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9f5e961214fd",
-      "title": "Scrapyard in Londonderry eyed by residential developer",
-      "summary": "A Merrimack-based developer wants to buy a scrap metal site on Rockingham Road in Londonderry and build 60 residential units on it.",
-      "url": "https://www.unionleader.com/news/local/derry_londonderry/scrapyard-in-londonderry-eyed-by-residential-developer/article_4faa5d22-eed3-4bd5-b093-94e4fb0ceb87.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-09",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25911,7 +25883,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-21T13:02:01.302795",
+      "updated": "2026-06-22T15:46:28.307949",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -26021,24 +25993,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-21T13:02:01.302795"
-    },
-    "construction_spending": {
-      "score": 5.0,
+      "score": 4.4,
       "trend": "stable",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-21T13:02:01.302795"
+      "raw": 7771.245919798059,
+      "raw_display": "7,771 units/mo",
+      "yoy_change": -2.8,
+      "source": "FRED API",
+      "updated": "2026-06-22T15:46:28.307949"
+    },
+    "construction_spending": {
+      "score": 5.6,
+      "trend": "up",
+      "action": "Selective investment",
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-22T15:46:28.307949"
     },
     "migration": {
       "score": 5.0,
@@ -26048,35 +26020,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-21T13:02:01.302795"
+      "updated": "2026-06-22T15:46:28.307949"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.2,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-21T13:02:01.302795"
+      "raw": 983800.0,
+      "raw_display": "984K workers",
+      "yoy_change": 0.9,
+      "source": "FRED API",
+      "updated": "2026-06-22T15:46:28.307949"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.51,
+        "score": 7.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-21T13:02:01.302795"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-22T15:46:28.307949"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26085,19 +26057,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-21T13:02:01.302795"
+      "updated": "2026-06-22T15:46:28.307949"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.8,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-21T13:02:01.302795"
+    "calculated_at": "2026-06-22T15:46:28.307949"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T13:12:20.608704Z",
+  "generated": "2026-06-26T13:04:36.553716Z",
   "summary": {
     "total_opportunities": 1224,
     "total_value_low": 10659544701,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 43,
       "NH": 59,
-      "ME": 172,
-      "MA": 601,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 10,
+      "news": 6,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -25718,13 +25718,13 @@
   ],
   "news": [
     {
-      "id": "6f5e41df6335",
-      "title": "Obituary: Clara Pauline Pate",
-      "summary": "BIDDEFORD - Clara Pauline Pate, 91, formerly of Wildwood Drive, Saco, passed away peacefully at St. Andre\u2019s in Biddeford on June ...",
-      "url": "https://www.pressherald.com/2026/06/25/obituaryclara-pauline-pate-2/",
+      "id": "ef170aef3f8f",
+      "title": "Ashamed by Graham Platner? Quite the opposite. | Letter",
+      "summary": "Regarding the June 18 op-ed \u201cGraham Platner and the new American pillory,\u201d I am an American Jew and Zionist who was born in the shadow of the Holocaust. Aided by the Biden and Trump administrations, by the American the Israel Public Affairs Committee and Christians United for Israel, I\u2019ve witnessed",
+      "url": "https://www.pressherald.com/2026/06/26/ashamed-by-graham-platner-quite-the-opposite-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -25732,27 +25732,13 @@
       ]
     },
     {
-      "id": "52c5b3b47e46",
-      "title": "Death Notice: Clara Pauline Pate",
-      "summary": "Pate, Clara Pauline 91, of Saco, in Biddeford, June 22, 2026. Visit, June 28, 3\u20135 p.m., Dennett, Craig & Pate ...",
-      "url": "https://www.pressherald.com/2026/06/25/obituaryclara-pauline-pate/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-06-25",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e31fbc7dc376",
-      "title": "Sebago motorcycle crash leaves 1 dead and 2 injured",
-      "summary": "The crash occurred at around 5:30 p.m. when 63-year-old Ernest Poulos crossed the centerline of Convene Road on his motorcycle.",
-      "url": "https://www.bangordailynews.com/2026/06/25/central-maine/sebago-fatal-motorcycle-crash/",
+      "id": "7e2dc39799c4",
+      "title": "Volunteers pedal people with disabilities along Acadia\u2019s carriage roads",
+      "summary": "MDI Wheelers, which began in 2021, is meeting a growing need in Acadia as the park\u2019s visitation count continues to rise.",
+      "url": "https://www.bangordailynews.com/2026/06/26/hancock/hancock-culture/mdi-wheelers-acadia-national-park-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -25760,29 +25746,15 @@
       ]
     },
     {
-      "id": "64a246cccfcc",
-      "title": "1 person killed in wrong-way crash on busy Central Mass. highway",
-      "summary": "A Subaru and a Jeep were found on fire, having sustained severe damage.",
-      "url": "https://www.masslive.com/centralmass/2026/06/1-person-killed-in-wrong-way-crash-on-busy-central-mass-highway.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "3eb7aea944cd",
+      "title": "Merrimack to rehear mall\u2019s pitch for apartments",
+      "summary": "Merrimack\u2019s zoning board told the owners of Merrimack Premium Outlets that they\u2019d allow a rehearing after denying construction of apartments on the mall property.",
+      "url": "https://www.unionleader.com/news/local/merrimack/merrimack-to-rehear-mall-s-pitch-for-apartments/article_45d5a99f-320f-4037-946d-3e2fc3790188.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-06-25",
       "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "068f092f463e",
-      "title": "Transition Program honors four graduates at Bridge to Adulthood Ceremony",
-      "summary": "WESTFIELD \u2014 On June 15, the Westfield Community-Based Transition Program hosted its annual Bridge to Adulthood Ceremony to celebrate four graduates who are all aging out of the program.",
-      "url": "https://www.masslive.com/westfieldnews/2026/06/transition-program-honors-four-graduates-at-bridge-to-adulthood-ceremony.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-06-25",
-      "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25797,20 +25769,6 @@
       "date": "2026-06-24",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a2b1a74ade18",
-      "title": "Trump refuses to sign bipartisan housing bill into law. What does that mean for homebuyers, renters?",
-      "summary": "LOS ANGELES (AP) \u2014 A sprawling legislative package aimed at lowering the cost of housing and spurring more home construction won bipartisan approval from Congress this week, but it\u2019s hit a major roadblock in becoming law: President Donald Trump. The White House supported the 21st Century ROAD to Hou",
-      "url": "https://www.bangordailynews.com/2026/06/24/nation/trump-refuses-to-sign-bipartisan-housing-bill-into-law-what-does-that-mean-for-homebuyers-renters/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-24",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -25856,31 +25814,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "cb7020f845ea",
-      "title": "Boutique marks 5 years of selling art with heart in Derry",
-      "summary": "An upcycled yard sale planter. A historic building seeking a new purpose. A piece of furniture, found on the side of the road, repainted into vibrancy.",
-      "url": "https://www.unionleader.com/news/business/boutique-marks-5-years-of-selling-art-with-heart-in-derry/article_14bc33d3-8bb2-4abd-88e7-5dd45042045c.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-25T13:12:20.419250",
+      "updated": "2026-06-26T13:04:36.121605",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25997,7 +25941,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-06-25T13:12:20.419250"
+      "updated": "2026-06-26T13:04:36.121605"
     },
     "construction_spending": {
       "score": 5.0,
@@ -26007,7 +25951,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-06-25T13:12:20.419250"
+      "updated": "2026-06-26T13:04:36.121605"
     },
     "migration": {
       "score": 5.0,
@@ -26017,7 +25961,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-25T13:12:20.419250"
+      "updated": "2026-06-26T13:04:36.121605"
     },
     "construction_employment": {
       "score": 5.0,
@@ -26027,7 +25971,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-06-25T13:12:20.419250"
+      "updated": "2026-06-26T13:04:36.121605"
     },
     "input_cost": {
       "score": 9.5,
@@ -26045,7 +25989,7 @@
         "weight": "40%"
       },
       "source": "historical data",
-      "updated": "2026-06-25T13:12:20.419250"
+      "updated": "2026-06-26T13:04:36.121605"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26054,7 +25998,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-25T13:12:20.419250"
+      "updated": "2026-06-26T13:04:36.121605"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -26067,6 +26011,6 @@
       "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-25T13:12:20.419250"
+    "calculated_at": "2026-06-26T13:04:36.121605"
   }
 }

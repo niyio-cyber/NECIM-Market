@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-28T12:13:06.976912Z",
+  "generated": "2026-06-29T14:40:37.825745Z",
   "summary": {
-    "total_opportunities": 1224,
+    "total_opportunities": 1223,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,7 +9,7 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 41,
-      "NH": 62,
+      "NH": 60,
       "ME": 168,
       "MA": 599,
       "NY": 1,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 6,
-      "funding": 1
+      "news": 5,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25786,34 +25786,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "b46bf8b43f64",
-      "title": "Developer wants to build hotel along with retail, commercial space in Merrimack",
-      "summary": "The group behind a potential large commercial development in Merrimack had its opportunity Tuesday to describe their plans after their Planning Board application was continued twice in May.",
-      "url": "https://www.unionleader.com/news/local/merrimack/developer-wants-to-build-hotel-along-with-retail-commercial-space-in-merrimack/article_87445e41-6b67-467a-afcb-eac09cf01742.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-18",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "30653b291f68",
-      "title": "Builder fined $18K over lead at Newport apartment complex",
-      "summary": "Officials with the U.S. Environmental Protection Agency (EPA) announced this week a settlement agreement has been reached with a Vermont-based construction company resolving alleged lead safety violations at a New Hampshire apartment complex.",
-      "url": "https://www.unionleader.com/news/environment/builder-fined-18k-over-lead-at-newport-apartment-complex/article_8f9d490f-0869-4210-b8b0-672bd1798d1a.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-17",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -25824,7 +25796,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-28T12:13:06.142046",
+      "updated": "2026-06-29T14:40:28.293957",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25934,24 +25906,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-28T12:13:06.142046"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-06-29T14:40:28.293957"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-28T12:13:06.142046"
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-06-29T14:40:28.293957"
     },
     "migration": {
       "score": 5.0,
@@ -25961,35 +25933,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-28T12:13:06.142046"
+      "updated": "2026-06-29T14:40:28.293957"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-28T12:13:06.142046"
+      "source": "FRED API",
+      "updated": "2026-06-29T14:40:28.293957"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.5,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.95 | Diesel $5.37",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.95,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.37,
+        "score": 7.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-28T12:13:06.142046"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-06-29T14:40:28.293957"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -25998,19 +25970,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-28T12:13:06.142046"
+      "updated": "2026-06-29T14:40:28.293957"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-28T12:13:06.142046"
+    "calculated_at": "2026-06-29T14:40:28.293957"
   }
 }

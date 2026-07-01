@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T13:04:53.655833Z",
+  "generated": "2026-07-01T13:29:24.964545Z",
   "summary": {
     "total_opportunities": 1223,
     "total_value_low": 10659544701,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 42,
       "NH": 62,
-      "ME": 172,
-      "MA": 600,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 345,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1223,
-      "news": 14,
+      "news": 12,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -25718,6 +25718,48 @@
   ],
   "news": [
     {
+      "id": "0739acfdab71",
+      "title": "In Maine, ranked-choice voting is worth the wait | Opinion",
+      "summary": "The system did what it was designed to do. It produced a winner who has broader support among the electorate.",
+      "url": "https://www.pressherald.com/2026/07/01/in-maine-ranked-choice-voting-is-worth-the-wait-opinion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3e9a0a057caa",
+      "title": "How Old Town\u2019s new economic development director plans to lure businesses to the city",
+      "summary": "People have approached Amy Collinsworth about opening businesses in Old Town, but the economic development director said owners of vacant storefronts are either uninterested in leasing their space or can't be reached.",
+      "url": "https://www.bangordailynews.com/2026/07/01/bangor/bangor-government/old-town-economic-development-director-plans-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c05fd88597f5",
+      "title": "Letter: Maine should expand fall deer season",
+      "summary": "\u201cI think it's very logical to expand the \u201cany deer permits\u201d along the coast of Maine.\u201d",
+      "url": "https://www.bangordailynews.com/2026/07/01/opinion/letters/letter-maine-should-expand-fall-deer-season-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "7a79db1a8f56",
       "title": "Optima Dermatology expands its services in Nashua",
       "summary": "In July 2026, Optima Dermatology will open the doors to another practice in New Hampshire at 169 Daniel Webster Highway, Suite 300, in Nashua.",
@@ -25732,69 +25774,12 @@
       ]
     },
     {
-      "id": "a66756418150",
-      "title": "3 Maine municipalities making temporary changes to busy roads to keep pedestrians safety",
-      "summary": "Nearly 30 people were killed or seriously injured in crashes last year in Greater Portland.",
-      "url": "https://www.bangordailynews.com/2026/06/30/portland/portland-government/maine-greater-portland-road-changes-pedestrian-safety/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-30",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "85f6c657289f",
-      "title": "Ellsworth considers options after no one bids for summer food truck slots at harbor park",
-      "summary": "For the past couple of years, Salsa Shack has been the park\u2019s primary food vendor.",
-      "url": "https://www.bangordailynews.com/2026/06/30/hancock/hancock-government/ellsworth-no-bids-food-truck-harbor-park-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-30",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e00e1c54828f",
-      "title": "Bangor permitted fewer houses last year than towns a fraction\u00a0of its size",
-      "summary": "New state data provides for the first time the ability to easily compare how towns are performing against each other when it comes to creating more housing.",
-      "url": "https://www.bangordailynews.com/2026/06/30/business/business-housing/bangor-house-permits-data-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-30",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "47b9adda44df",
-      "title": "How I unwind in the North Maine Woods",
-      "summary": "\"Outhouses and bumpy gravel roads aren\u2019t everyone\u2019s idea of a relaxing time. But if you\u2019re even a little bit intrigued, I suggest you check it out.\"",
-      "url": "https://www.bangordailynews.com/2026/06/30/outdoors/act-out/unwind-in-the-north-maine-woods-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-06-30",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway",
-        "aggregates"
-      ]
-    },
-    {
-      "id": "bfcb1cc99feb",
-      "title": "Planning Board approves minor site plan changes for convenience store and gas station on Friendly\u2019s Way",
-      "summary": "With a significant restructuring of the Exit 41 interchange occurring in the next five years, the Westfield Planning Board recently approved minor changes to the special permit for the company planning to build a Pride convenience store and gas station on the site of the old Friendly\u2019s.",
-      "url": "https://www.masslive.com/westfieldnews/2026/06/planning-board-approves-minor-site-plan-changes-for-convenience-store-and-gas-station-on-friendlys-way.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "ed5c78c78eef",
+      "title": "SCOTUS upholds state laws banning transgender girls, women from athletics",
+      "summary": "Left unresolved by the outcome are challenges to state laws in CT and elsewhere that permit trans athletes to compete consistent with gender identity.",
+      "url": "https://ctmirror.org/2026/06/30/scotus-transgender-athletics-wv-id-ct/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-06-30",
       "category": "news",
       "priority": "medium",
@@ -25873,20 +25858,6 @@
       ]
     },
     {
-      "id": "b5eacc51cc1c",
-      "title": "Two railroad giants at war \u2014 and riders pay the price",
-      "summary": "There\u2019s a nasty feud brewing between Metro-North and Amtrak. And\u00a0It's already hurting our train service in CT.",
-      "url": "https://ctmirror.org/2026/06/28/two-railroad-giants-at-war-and-riders-pay-the-price/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-06-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "71fb7a14f40d",
       "title": "Friendships forged in China help Atlas Fireworks mark America's 250th",
       "summary": "Sure, fireworks are mostly produced in China. They\u2019re purchased by American entrepreneurs and imported to the states to mark our nation\u2019s largest celebrations and events. But to leave it at that would be to misunderstand their importance here and abroad.",
@@ -25923,7 +25894,7 @@
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-06-30T13:04:53.027752",
+      "updated": "2026-07-01T13:28:58.166916",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -26033,24 +26004,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-30T13:04:53.027752"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-01T13:28:58.166916"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-30T13:04:53.027752"
+      "raw": 150914.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 4.0,
+      "source": "FRED API",
+      "updated": "2026-07-01T13:28:58.166916"
     },
     "migration": {
       "score": 5.0,
@@ -26060,35 +26031,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-06-30T13:04:53.027752"
+      "updated": "2026-07-01T13:28:58.166916"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-06-30T13:04:53.027752"
+      "source": "FRED API",
+      "updated": "2026-07-01T13:28:58.166916"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.25",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.25,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-06-30T13:04:53.027752"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-01T13:28:58.166916"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26097,19 +26068,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-06-30T13:04:53.027752"
+      "updated": "2026-07-01T13:28:58.166916"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-06-30T13:04:53.027752"
+    "calculated_at": "2026-07-01T13:28:58.166916"
   }
 }

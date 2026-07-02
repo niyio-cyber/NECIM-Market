@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-01T13:31:41.574702Z",
+  "generated": "2026-07-02T12:52:10.701807Z",
   "summary": {
-    "total_opportunities": 1437,
+    "total_opportunities": 1436,
     "total_value_low": 12730682438,
     "total_value_high": 17114252870,
     "forward_pipeline": 11794540936.333334,
@@ -10,16 +10,16 @@
     "by_state": {
       "VT": 42,
       "NH": 276,
-      "ME": 171,
-      "MA": 599,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1437,
-      "news": 12,
+      "dot_letting": 1436,
+      "news": 11,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -42,11 +42,11 @@
           "value": 5668267408
         },
         "Pavement": {
-          "count": 960,
+          "count": 961,
           "value": 5653787655
         },
         "Safety": {
-          "count": 143,
+          "count": 141,
           "value": 961174448
         },
         "Other": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 343,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -265,11 +265,11 @@
             "value": 0
           },
           "Pavement": {
-            "count": 336,
+            "count": 337,
             "value": 0
           },
           "Safety": {
-            "count": 4,
+            "count": 2,
             "value": 0
           },
           "Other": {
@@ -22852,26 +22852,6 @@
       ]
     },
     {
-      "id": "d35658c9c691",
-      "state": "CT",
-      "project_id": "0131-0210",
-      "description": "REPLACEMENT OF EXISTING NOISE BARRIER ON I-691",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-01",
-      "fiscal_year": "FY2026",
-      "project_type": "Safety",
-      "location": "I-691",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
       "id": "d819297a798e",
       "state": "CT",
       "project_id": "0141-0158",
@@ -22931,26 +22911,6 @@
       "source": "CTDOT Q&A",
       "business_lines": [
         "hma"
-      ]
-    },
-    {
-      "id": "d374f200d8e1",
-      "state": "CT",
-      "project_id": "0173-0542",
-      "description": "Installation and Revision of Traffic Control Signals in District 3",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-01",
-      "fiscal_year": "FY2026",
-      "project_type": "Safety",
-      "location": "ct 3",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -25618,6 +25578,26 @@
       "state": "CT",
       "project_id": "0129-0118",
       "description": "CT Project 0129-0118",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "TBD",
+      "ad_date": null,
+      "let_date": null,
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
+      "source": "CTDOT STIP",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "7667773048d0",
+      "state": "CT",
+      "project_id": "0131-0210",
+      "description": "CT Project 0131-0210",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -29844,13 +29824,13 @@
   ],
   "news": [
     {
-      "id": "0739acfdab71",
-      "title": "In Maine, ranked-choice voting is worth the wait | Opinion",
-      "summary": "The system did what it was designed to do. It produced a winner who has broader support among the electorate.",
-      "url": "https://www.pressherald.com/2026/07/01/in-maine-ranked-choice-voting-is-worth-the-wait-opinion/",
+      "id": "025ea5096da5",
+      "title": "Take extra care on Maine roads this weekend | Letter",
+      "summary": "Be mindful and play it safe while traveling this Fourth of July.",
+      "url": "https://www.pressherald.com/2026/07/02/take-extra-care-on-maine-roads-this-weekend-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -29858,10 +29838,24 @@
       ]
     },
     {
-      "id": "3e9a0a057caa",
-      "title": "How Old Town\u2019s new economic development director plans to lure businesses to the city",
-      "summary": "People have approached Amy Collinsworth about opening businesses in Old Town, but the economic development director said owners of vacant storefronts are either uninterested in leasing their space or can't be reached.",
-      "url": "https://www.bangordailynews.com/2026/07/01/bangor/bangor-government/old-town-economic-development-director-plans-joam40zk0w/",
+      "id": "8a3680888ff0",
+      "title": "Proposal could allow much larger signs for big Holyoke developments",
+      "summary": "City Council Vice President Meg Magrath-Smith, the ordinance committee chair, said the proposal is intended to get ahead of a development planned for the former Kmart Plaza site.",
+      "url": "https://www.masslive.com/westernmass/2026/07/proposal-could-allow-much-larger-signs-for-big-holyoke-developments.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-02",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8b759c42ffbd",
+      "title": "See how much new housing is being built in your Maine town",
+      "summary": "New Maine housing data shows about half of counties met building permit goals set by the state two years ago.",
+      "url": "https://www.bangordailynews.com/2026/07/01/business/business-housing/how-much-new-housing-maine-towns/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-07-01",
@@ -29872,17 +29866,17 @@
       ]
     },
     {
-      "id": "c05fd88597f5",
-      "title": "Letter: Maine should expand fall deer season",
-      "summary": "\u201cI think it's very logical to expand the \u201cany deer permits\u201d along the coast of Maine.\u201d",
-      "url": "https://www.bangordailynews.com/2026/07/01/opinion/letters/letter-maine-should-expand-fall-deer-season-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "f039926c9907",
+      "title": "State Takes \u2018Rogue\u2019 Abutter To Court For Blocking Northern Rail Trail",
+      "summary": "A dispute between an abutter and gravel pit owner and the state, which impacts the more than 150,000 bicycle riders and pedestrians who enjoy the 59-mile Northern Rail Trail, is going to court.",
+      "url": "https://indepthnh.org/2026/07/01/state-takes-rogue-abutter-to-court-over-his-blockage-of-northern-rail-trail-to-pedestrians/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-07-01",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway"
+        "aggregates"
       ]
     },
     {
@@ -29904,20 +29898,6 @@
       "title": "SCOTUS upholds state laws banning transgender girls, women from athletics",
       "summary": "Left unresolved by the outcome are challenges to state laws in CT and elsewhere that permit trans athletes to compete consistent with gender identity.",
       "url": "https://ctmirror.org/2026/06/30/scotus-transgender-athletics-wv-id-ct/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-06-30",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6009b5ee10c3",
-      "title": "Rethinking the academy in the Age of AI",
-      "summary": "AI can produce paragraphs, and sometimes very good ones. AI cannot demonstrate the intellectual development process students engage in when assignments are broken down.",
-      "url": "https://ctmirror.org/2026/06/30/rethinking-the-academy-in-the-age-of-ai/",
       "source": "CT Mirror",
       "state": "CT",
       "date": "2026-06-30",
@@ -29970,20 +29950,6 @@
       ]
     },
     {
-      "id": "d1ecbf74aaf7",
-      "title": "Pride Parade and Festival Draws Big Crowd in Manchester",
-      "summary": "Hundreds of people lined Elm Street in Manchester as the gay pride parade traveled from Bridge Street to Veterans Park Saturday where the pride festival was held.",
-      "url": "https://indepthnh.org/2026/06/27/pride-parade-and-festival-draws-big-crowd-in-manchester/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-06-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "71fb7a14f40d",
       "title": "Friendships forged in China help Atlas Fireworks mark America's 250th",
       "summary": "Sure, fireworks are mostly produced in China. They\u2019re purchased by American entrepreneurs and imported to the states to mark our nation\u2019s largest celebrations and events. But to leave it at that would be to misunderstand their importance here and abroad.",
@@ -30015,12 +29981,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 11727145810.03538,
       "raw_display": "$11.73B",
       "source": "scraper_v2",
-      "updated": "2026-07-01T13:31:41.358423",
+      "updated": "2026-07-02T12:51:57.569378",
       "v2_details": {
         "raw_total": "$12.73B",
         "weighted_total": "$6.52B",
@@ -30130,24 +30096,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-01T13:31:41.358423"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-02T12:51:57.569378"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-01T13:31:41.358423"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-02T12:51:57.569378"
     },
     "migration": {
       "score": 5.0,
@@ -30157,35 +30123,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-01T13:31:41.358423"
+      "updated": "2026-07-02T12:51:57.569378"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-01T13:31:41.358423"
+      "source": "FRED API",
+      "updated": "2026-07-02T12:51:57.569378"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.25",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.25,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-01T13:31:41.358423"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-02T12:51:57.569378"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30194,19 +30160,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-01T13:31:41.358423"
+      "updated": "2026-07-02T12:51:57.569378"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-01T13:31:41.358423"
+    "calculated_at": "2026-07-02T12:51:57.569378"
   }
 }

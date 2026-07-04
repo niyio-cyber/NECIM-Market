@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-03T12:52:02.673698Z",
+  "generated": "2026-07-04T11:59:35.139091Z",
   "summary": {
-    "total_opportunities": 1222,
+    "total_opportunities": 1223,
     "total_value_low": 10659544701,
     "total_value_high": 15043115133,
     "forward_pipeline": 9243108708.333334,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -9.5,
     "by_state": {
       "VT": 43,
-      "NH": 63,
-      "ME": 172,
-      "MA": 599,
+      "NH": 62,
+      "ME": 173,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1222,
-      "news": 13,
-      "funding": 0
+      "news": 14,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -25698,6 +25698,76 @@
   ],
   "news": [
     {
+      "id": "24219910d737",
+      "title": "Red Sox starts road trip with win over Angels",
+      "summary": "Aroldis Chapman sets the record for career strikeouts by a reliever and Jake Bennett pitches into the eighth in Boston's victory.",
+      "url": "https://www.pressherald.com/2026/07/04/red-sox-starts-road-trip-with-win-over-angels/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-04",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4a9f6e691415",
+      "title": "Sinclair Broadcast executive lists $16.5 million Cape Elizabeth mansion",
+      "summary": "David D. Smith is selling one of two summer homes he owns on Cunner Lane.",
+      "url": "https://www.pressherald.com/2026/07/04/sinclair-broadcast-executive-lists-16-5m-cape-elizabeth-mansion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-04",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6152d963e5f8",
+      "title": "Portland should bring in new road traffic rules | Letter",
+      "summary": "I read in the paper that the city is considering an emergency workshop on traffic safety after a pedestrian was unfortunately killed while standing on a raised median (June 23). I certainly don\u2019t think that anyone in the city thinks that it is a safe idea to stand there; I wouldn\u2019t want my kids or [",
+      "url": "https://www.pressherald.com/2026/07/04/portland-should-bring-in-new-road-traffic-rules-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-04",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "acfa780b1ced",
+      "title": "Mystery fluid identified after leak on Ohio highway, and it\u2019s delicious",
+      "summary": "\u201cWill just make the roadkill tastier,\u201d one person joked.",
+      "url": "https://www.masslive.com/news/2026/07/mystery-fluid-identified-after-truck-leak-on-highway-and-its-delicious.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-04",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "af5f4a30e317",
+      "title": "Red Sox reactions: Behind strong Jake Bennett start, record-breaking strikeout for Aroldis Chapman, a win to start trip",
+      "summary": "The Red Sox raced out to a four-run lead after three and cruised to a win to open their road trip.",
+      "url": "https://www.masslive.com/redsox/2026/07/red-sox-reactions-behind-strong-jake-bennett-start-record-breaking-strikeout-for-aroldis-chapman-a-win-to-start-trip.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-04",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "944f30b13348",
       "title": "Noah Kahan fans blamed for disappearing Strafford road sign",
       "summary": "Town officials think fans of the famous singer-songwriter are stealing a road sign referenced in one of his songs.\nRead the story on VTDigger here:  Noah Kahan fans blamed for disappearing Strafford road sign.",
@@ -25726,25 +25796,25 @@
       ]
     },
     {
-      "id": "b733c9534294",
-      "title": "Here\u2019s a presidential thought experiment | Letter",
-      "summary": "Just imagine. It\u2019s January 2024 and Joe Biden has just been inaugurated as president of the United States. Since that day, President Biden has: While performing his presidential duties, Sleepy Joe has been found countless times napping during Cabinet meetings and public events and sending mean and h",
-      "url": "https://www.pressherald.com/2026/07/03/heres-a-presidential-thought-experiment-letter/",
-      "source": "Portland Press Herald",
+      "id": "c0951156435d",
+      "title": "Small businesses say they\u2019re having a good summer as Americans travel closer to home",
+      "summary": "NEW YORK (AP) \u2014 Small business owners in U.S. tourist destinations say they\u2019re seeing more Americans sticking closer to home this summer, trading overseas travel for road trips, choosing daylong sojourns over extended beach stays, and cooking instead of eating out while on vacation to save money. Th",
+      "url": "https://www.bangordailynews.com/2026/07/03/nation/small-businesses-say-theyre-having-a-good-summer-as-americans-travel-closer-to-home/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-07-03",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "8370dc9920fd",
-      "title": "What\u2019s causing unsafe bacteria levels at Maine beaches?",
-      "summary": "Recent swim advisories highlight how old infrastructure and heavy summer downpours combine to trap bacteria along the coast.",
-      "url": "https://www.pressherald.com/2026/07/03/whats-causing-unsafe-bacteria-levels-at-maine-beaches/",
-      "source": "Portland Press Herald",
+      "id": "7b9f4f3d14d4",
+      "title": "Fatal fall from Rockport bridge under investigation",
+      "summary": "According to the Rockport Police Department, a person had fallen from the bridge at around 6:10 p.m. Thursday.",
+      "url": "https://www.bangordailynews.com/2026/07/03/midcoast/fatal-fall-rockport-bridge-investigation/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-07-03",
       "category": "news",
@@ -25765,35 +25835,6 @@
       "priority": "medium",
       "business_lines": [
         "highway"
-      ]
-    },
-    {
-      "id": "e8485f316d02",
-      "title": "Chris Mantis becomes 1st former UMaine player to make NBA Summer League roster",
-      "summary": "The 6-foot-7 forward from Lowell, Indiana, played for the Capital City Go-Go in the NBA\u2019s developmental G League this past season.",
-      "url": "https://www.bangordailynews.com/2026/07/02/sports/professional-basketball/chris-mantis-former-umaine-player-nba-summer-league/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "81c245a61d6b",
-      "title": "How \u2018Country Roads\u2019 became the soundtrack of the US team\u2019s World Cup run",
-      "summary": "It\u2019s become one of the enduring scenes of the U.S. team during this World Cup: jubilant U.S. players joining tens of thousands of fans in singing John Denver\u2019s \u201cTake Me Home, Country Roads\u201d at the end of their matches. Even coach Mauricio Pochettino, who was born in Argentina and lives in Spain, got",
-      "url": "https://www.bangordailynews.com/2026/07/02/nation/how-country-roads-became-the-soundtrack-of-the-us-teams-world-cup-run/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway",
-        "aggregates"
       ]
     },
     {
@@ -25865,31 +25906,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "3eb7aea944cd",
-      "title": "Merrimack to rehear mall\u2019s pitch for apartments",
-      "summary": "Merrimack\u2019s zoning board told the owners of Merrimack Premium Outlets that they\u2019d allow a rehearing after denying construction of apartments on the mall property.",
-      "url": "https://www.unionleader.com/news/local/merrimack/merrimack-to-rehear-mall-s-pitch-for-apartments/article_45d5a99f-320f-4037-946d-3e2fc3790188.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-25",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 10106993720.093613,
       "raw_display": "$10.11B",
       "source": "scraper_v2",
-      "updated": "2026-07-03T12:52:02.364251",
+      "updated": "2026-07-04T11:59:27.370832",
       "v2_details": {
         "raw_total": "$10.66B",
         "weighted_total": "$5.62B",
@@ -25999,24 +26026,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-03T12:52:02.364251"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-04T11:59:27.370832"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-03T12:52:02.364251"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-04T11:59:27.370832"
     },
     "migration": {
       "score": 5.0,
@@ -26026,35 +26053,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-03T12:52:02.364251"
+      "updated": "2026-07-04T11:59:27.370832"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-03T12:52:02.364251"
+      "source": "FRED API",
+      "updated": "2026-07-04T11:59:27.370832"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.25",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.25,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-03T12:52:02.364251"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-04T11:59:27.370832"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -26063,19 +26090,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-03T12:52:02.364251"
+      "updated": "2026-07-04T11:59:27.370832"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-03T12:52:02.364251"
+    "calculated_at": "2026-07-04T11:59:27.370832"
   }
 }

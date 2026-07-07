@@ -1,26 +1,26 @@
 {
-  "generated": "2026-07-06T14:22:33.158309Z",
+  "generated": "2026-07-07T13:09:08.029337Z",
   "summary": {
-    "total_opportunities": 1186,
+    "total_opportunities": 1184,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 44,
-      "NH": 24,
-      "ME": 171,
+      "VT": 45,
+      "NH": 23,
+      "ME": 168,
       "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1184,
-      "news": 12,
-      "funding": 2
+      "dot_letting": 1183,
+      "news": 15,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -46,7 +46,7 @@
           "value": 3070042217
         },
         "Safety": {
-          "count": 141,
+          "count": 140,
           "value": 959896527
         },
         "Other": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 18,
+          "count": 17,
           "value": 0
         },
         "ME": {
@@ -179,7 +179,7 @@
             "value": 0
           },
           "Safety": {
-            "count": 1,
+            "count": 0,
             "value": 0
           },
           "Other": {
@@ -16216,7 +16216,7 @@
       "id": "bc8fbb065244",
       "state": "NH",
       "project_id": null,
-      "description": "Manchester Bids: FY26-500-52 Highway: Bid - Crack SealingQuestions: DPW_Engineering@manchesternh.gov(603) 624-6444 BIDAppendix A Bids Due:June 25, 2026By 2:00 PM Addendum 1 ",
+      "description": "Manchester Bids: FY26-500-52 Highway: Bid - Crack SealingQuestions: DPW_Engineering@manchesternh.gov(603) 624-6444 BIDAppendix A Bids Due:June 25, 2026By 2:00 PM Addendum 1 BID Summary",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "See Bid Docs",
@@ -16268,25 +16268,6 @@
       "business_lines": [
         "highway",
         "hma"
-      ]
-    },
-    {
-      "id": "aeae01a529c2",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-500-57 Highway:On-Call Transporation Design and Engineering servicesQuestions: Margarete Baldwin, P.E.(603)792-7396mbaldwin@manchesternh.gov RFQ RFQ DUE:June 12, 2026By 2:00PM Addendum 1 ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Safety",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -24466,12 +24447,68 @@
   ],
   "news": [
     {
-      "id": "0f68863b3dd6",
-      "title": "172-unit affordable housing development on the way in Windham",
-      "summary": "The first 36 units of Windham Village will open by the end of the year.",
-      "url": "https://www.pressherald.com/2026/07/06/172-unit-affordable-housing-development-on-the-way-in-windham/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "8fa2927d88c3",
+      "title": "The National comes to town this Saturday",
+      "summary": "For motocross fans around the world, Southwick will be at the center of their universe at 9 a.m., this Saturday when the starting gate drops at The Wick 338 for the 45th running of The Crestview Construction Southwick National.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/the-national-comes-to-town-this-saturday.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7ec1058b5bac",
+      "title": "Christian Pulisic\u2019s disappointing World Cup experience comes to end",
+      "summary": "United States forward Christian Pulisic could only watch from the bench as Belgium extinguished his team's World Cup bid.",
+      "url": "https://www.masslive.com/sports/2026/07/christian-pulisics-disappointing-world-cup-experience-comes-to-end.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4f1f795cf0f4",
+      "title": "Proposed golf facility violates UConn\u2019s environmental responsibility",
+      "summary": "When students learned of The University of Connecticut\u2019s plans to construct a golf practice facility on Mansfield's East Road, opposition was immediate.",
+      "url": "https://ctmirror.org/2026/07/07/proposed-golf-facility-violates-uconns-environmental-responsibility/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cfc413bfab37",
+      "title": "VTrans receives over $19 million in federal funds for Route 7 reconstruction",
+      "summary": "The U.S. BUILD grant to help fund the reconstruction project was announced Monday by the Vermont Congressional Delegation.\nRead the story on VTDigger here:  VTrans receives over $19 million in federal funds for Route 7 reconstruction.",
+      "url": "https://vtdigger.org/2026/07/06/vtrans-receives-over-19-million-in-federal-funds-for-route-7-reconstruction/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-06",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7da46e800c57",
+      "title": "Cornhole aside, board supports 51-unit building at North End Superette site",
+      "summary": "Despite concerns involving possible rooftop cornhole games, Manchester Planning Board members were supportive of a proposed six-story, 51-unit housing development at the site of a popular city convenience store.",
+      "url": "https://www.unionleader.com/news/local/manchester/cornhole-aside-board-supports-51-unit-building-at-north-end-superette-site/article_1e43c42c-1a08-4eaf-b836-4df7d50984a7.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-07-06",
       "category": "news",
       "priority": "medium",
@@ -24480,26 +24517,12 @@
       ]
     },
     {
-      "id": "6f7a200a09df",
-      "title": "Proposed federal rule threatens far more than scientific research | Opinion",
-      "summary": "A troubling new framework for grant applications would put invaluable federal grants of all kinds at risk.",
-      "url": "https://www.pressherald.com/2026/07/06/proposed-federal-rule-threatens-far-more-than-scientific-research-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-06",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "dac333872524",
-      "title": "Effort to restore 50K acres of Wabanaki land reaches halfway point",
-      "summary": "The Mi\u2019kmaq Nation is celebrating the acquisiiton of 3,400 acres near Bridgewater, doubling its footprint in Aroostook County.",
-      "url": "https://www.bangordailynews.com/2026/07/06/aroostook/aroostook-culture/wabanaki-restore-50000-acres-land-halfway-point-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "4a07167fc4e2",
+      "title": "PODCAST: How this CT reporter is taking a different approach to journalism",
+      "summary": "WSHU's Ebong Udoma interviews CT Mirror's Reginald David about his work as a community engagement reporter in Bridgeport.",
+      "url": "https://ctmirror.org/2026/07/06/podcast-reginald-david-community-engagement/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-06",
       "category": "news",
       "priority": "high",
@@ -24508,29 +24531,29 @@
       ]
     },
     {
-      "id": "a53bb718a079",
-      "title": "Worcester developer plans 74 new apartments at former laundromat site",
-      "summary": "The development firm wants to add eight studio, 56 one-bedroom and 10 two-bedroom apartments to 27 Chandler St.",
-      "url": "https://www.masslive.com/centralmass/2026/07/worcester-developer-plans-74-new-apartments-at-former-laundromat-site.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "0074b0a7213e",
+      "title": "Why Bridgeport\u2019s anti-ethics faction is winning",
+      "summary": "A small faction of the Bridgeport City Council holds veto power over the appointment of three new Ethics Committee volunteers.",
+      "url": "https://ctmirror.org/2026/07/06/why-bridgeports-anti-ethics-faction-is-winning-galen/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-06",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "30c2b25dbc5e",
+      "title": "As Trump buyouts shake up offshore wind, states hope developers stay in the game",
+      "summary": "As President Donald Trump blocks new permits for offshore wind development, state leaders are hoping some companies will stay interested.",
+      "url": "https://ctmirror.org/2026/07/06/trump-offshore-wind-states-developers/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-06",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "27f8ef5f9f89",
-      "title": "Mega Millions jackpot climbs to $576M ahead of Tuesday drawing",
-      "summary": "No lottery players took home the Mega Millions jackpot July 3, letting the prize raise to $576M for the next drawing Tuesday night.",
-      "url": "https://www.masslive.com/lottery/2026/07/mega-millions-jackpot-climbs-to-576m-ahead-of-tuesday-drawing.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-06",
-      "category": "funding",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24606,20 +24629,6 @@
       ]
     },
     {
-      "id": "f039926c9907",
-      "title": "State Takes \u2018Rogue\u2019 Abutter To Court For Blocking Northern Rail Trail",
-      "summary": "A dispute between an abutter and gravel pit owner and the state, which impacts the more than 150,000 bicycle riders and pedestrians who enjoy the 59-mile Northern Rail Trail, is going to court.",
-      "url": "https://indepthnh.org/2026/07/01/state-takes-rogue-abutter-to-court-over-his-blockage-of-northern-rail-trail-to-pedestrians/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-07-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
       "id": "7a79db1a8f56",
       "title": "Optima Dermatology expands its services in Nashua",
       "summary": "In July 2026, Optima Dermatology will open the doors to another practice in New Hampshire at 169 Daniel Webster Highway, Suite 300, in Nashua.",
@@ -24670,7 +24679,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-06T14:22:32.857207",
+      "updated": "2026-07-07T13:08:55.600404",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24780,24 +24789,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-06T14:22:32.857207"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-07T13:08:55.600404"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-06T14:22:32.857207"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-07T13:08:55.600404"
     },
     "migration": {
       "score": 5.0,
@@ -24807,35 +24816,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-06T14:22:32.857207"
+      "updated": "2026-07-07T13:08:55.600404"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-06T14:22:32.857207"
+      "source": "FRED API",
+      "updated": "2026-07-07T13:08:55.600404"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.25",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.25,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-06T14:22:32.857207"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-07T13:08:55.600404"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24844,19 +24853,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-06T14:22:32.857207"
+      "updated": "2026-07-07T13:08:55.600404"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-06T14:22:32.857207"
+    "calculated_at": "2026-07-07T13:08:55.600404"
   }
 }

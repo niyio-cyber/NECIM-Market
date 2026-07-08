@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T12:10:37.194682Z",
+  "generated": "2026-07-08T12:14:53.833178Z",
   "summary": {
     "total_opportunities": 1185,
     "total_value_low": 10119560641,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 46,
       "NH": 23,
-      "ME": 172,
+      "ME": 171,
       "MA": 600,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1183,
-      "news": 18,
+      "news": 17,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -24546,20 +24546,6 @@
       ]
     },
     {
-      "id": "06de43b8df23",
-      "title": "Woman fatally struck by train in Brunswick",
-      "summary": "Police said the woman parked nearby and walked to the area where she was hit by the train, which is not near sidewalks or road crossings.",
-      "url": "https://www.bangordailynews.com/2026/07/07/midcoast/midcoast-police-courts/woman-fatally-struck-by-train-brunswick-maine/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "4f1f795cf0f4",
       "title": "Proposed golf facility violates UConn\u2019s environmental responsibility",
       "summary": "When students learned of The University of Connecticut\u2019s plans to construct a golf practice facility on Mansfield's East Road, opposition was immediate.",
@@ -24736,7 +24722,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-08T12:10:27.811703",
+      "updated": "2026-07-08T12:14:53.637197",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24846,24 +24832,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.1,
-      "trend": "up",
+      "score": 6.5,
+      "trend": "stable",
       "action": "Monitor trends",
-      "raw": 8343.201028102214,
-      "raw_display": "8,343 units/mo",
-      "yoy_change": 5.7,
-      "source": "FRED API",
-      "updated": "2026-07-08T12:10:27.811703"
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-07-08T12:14:53.637197"
     },
     "construction_spending": {
-      "score": 5.5,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 151701.0,
-      "raw_display": "$151.7B SAAR",
-      "yoy_change": 3.0,
-      "source": "FRED API",
-      "updated": "2026-07-08T12:10:27.811703"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-07-08T12:14:53.637197"
     },
     "migration": {
       "score": 5.0,
@@ -24873,35 +24859,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-08T12:10:27.811703"
+      "updated": "2026-07-08T12:14:53.637197"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 1003200.0000000001,
-      "raw_display": "1003K workers",
+      "raw": 875000,
+      "raw_display": "875K workers",
       "yoy_change": 0.0,
-      "source": "FRED API",
-      "updated": "2026-07-08T12:10:27.811703"
+      "source": "fallback",
+      "updated": "2026-07-08T12:14:53.637197"
     },
     "input_cost": {
-      "score": 7.7,
-      "trend": "up",
+      "score": 9.5,
+      "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.81 | Diesel $5.22",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 3.81,
-        "score": 7.9,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 5.22,
-        "score": 7.3,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-07-08T12:10:27.811703"
+      "source": "historical data",
+      "updated": "2026-07-08T12:14:53.637197"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24910,19 +24896,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-08T12:10:27.811703"
+      "updated": "2026-07-08T12:14:53.637197"
     },
-    "overall_score": 7.1,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-08T12:10:27.811703"
+    "calculated_at": "2026-07-08T12:14:53.637197"
   }
 }

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-07T13:12:26.498460Z",
+  "generated": "2026-07-08T12:10:37.194682Z",
   "summary": {
-    "total_opportunities": 1184,
+    "total_opportunities": 1185,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 45,
+      "VT": 46,
       "NH": 23,
-      "ME": 168,
-      "MA": 601,
+      "ME": 172,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1183,
-      "news": 15,
-      "funding": 1
+      "news": 18,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24447,12 +24447,83 @@
   ],
   "news": [
     {
-      "id": "8fa2927d88c3",
-      "title": "The National comes to town this Saturday",
-      "summary": "For motocross fans around the world, Southwick will be at the center of their universe at 9 a.m., this Saturday when the starting gate drops at The Wick 338 for the 45th running of The Crestview Construction Southwick National.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/the-national-comes-to-town-this-saturday.html",
+      "id": "e41dc4dcf72f",
+      "title": "Speculation swirls about future of Bath\u2019s fish cannery site",
+      "summary": "The City Council recently adopted changes to the land use code, and some neighbors say they fear overdevelopment is on the horizon for the old Stinson Seafood property.",
+      "url": "https://www.pressherald.com/2026/07/07/speculation-swirls-about-future-of-baths-fish-cannery-site/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f34decd5169c",
+      "title": "You can take an Aroostook \u2018Roadside Joyride on Route 1\u2019",
+      "summary": "\u201cIn my little chunk of road I knew that there were tons of roadside stands and we could become something to see, not just my stand.\"",
+      "url": "https://www.bangordailynews.com/2026/07/08/aroostook/aroostook-business/aroostook-roadside-joyride-route-1-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6f5cf137b233",
+      "title": "1-day show of George W Bush\u2019s paintings planned in Biddeford",
+      "summary": "The show is a benefit for St. Ann\u2019s Episcopal Church in Kennebunkport.",
+      "url": "https://www.bangordailynews.com/2026/07/07/york/york-culture/george-w-bush-painting-show-biddeford/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-08",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "dd3dc2fa45a3",
+      "title": "Wyben Fourth of July parade honors the country\u2019s milestone birthday",
+      "summary": "The Wyben Fourth of July parade kicked off at 5 p.m. on Saturday and marched from Montgomery Road to West Road.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/wyben-fourth-of-july-parade-honors-the-countrys-milestone-birthday.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-07-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway",
+        "aggregates"
+      ]
+    },
+    {
+      "id": "6a4592300699",
+      "title": "New Chittenden County recycling facility to remain on track after waste district recovers $2.27 million stolen in scam",
+      "summary": "The money was stolen early this year by scammers appearing as a construction company that the district had been working with for the project.\nRead the story on VTDigger here:  New Chittenden County recycling facility to remain on track after waste district recovers $2.27 million stolen in scam.",
+      "url": "https://vtdigger.org/2026/07/07/new-chittenden-county-recycling-facility-to-remain-on-track-after-waste-district-recovers-2-27-million-stolen-in-scam/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-07",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "dd54b8e351cc",
+      "title": "Grand Isle prosecutor\u2019s DUI case heading to court diversion, court records state",
+      "summary": "The program permits participants to avoid a criminal conviction provided they complete the requirements, which can include counseling and community service.\nRead the story on VTDigger here:  Grand Isle prosecutor\u2019s DUI case heading to court diversion, court records state.",
+      "url": "https://vtdigger.org/2026/07/07/grand-isle-prosecutors-dui-case-heading-to-court-diversion-court-records-state/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-07-07",
       "category": "news",
       "priority": "medium",
@@ -24461,15 +24532,29 @@
       ]
     },
     {
-      "id": "7ec1058b5bac",
-      "title": "Christian Pulisic\u2019s disappointing World Cup experience comes to end",
-      "summary": "United States forward Christian Pulisic could only watch from the bench as Belgium extinguished his team's World Cup bid.",
-      "url": "https://www.masslive.com/sports/2026/07/christian-pulisics-disappointing-world-cup-experience-comes-to-end.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "82f8893fe4c2",
+      "title": "State, local officials cut ribbon for large Londonderry development with a subdued boom",
+      "summary": "Afternoon showers didn\u2019t stop Gov. Kelly Ayotte and U.S. Sen. Maggie Hassan, D-N.H., from having a blast in Londonderry on Tuesday.",
+      "url": "https://www.unionleader.com/news/local/derry_londonderry/state-local-officials-cut-ribbon-for-large-londonderry-development-with-a-subdued-boom/article_7fe3a1d6-0ffd-4f98-9dae-45404f86959e.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-07-07",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "06de43b8df23",
+      "title": "Woman fatally struck by train in Brunswick",
+      "summary": "Police said the woman parked nearby and walked to the area where she was hit by the train, which is not near sidewalks or road crossings.",
+      "url": "https://www.bangordailynews.com/2026/07/07/midcoast/midcoast-police-courts/woman-fatally-struck-by-train-brunswick-maine/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-07",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24601,20 +24686,6 @@
       ]
     },
     {
-      "id": "88c1b25c7b53",
-      "title": "Dirt Road News is back on the road this summer",
-      "summary": "Join us as we travel around Vermont, listen to communities and continue the conversation with a new survey and summer events.\nRead the story on VTDigger here:  Dirt Road News is back on the road this summer.",
-      "url": "https://vtdigger.org/2026/07/03/dirt-road-news-listening-tour/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-03",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "929e76d36d62",
       "title": "Zuckerberg says AI agent tech is developing more slowly\u00a0than expected",
       "summary": "Meta Chief Executive Mark Zuckerberg told an internal town hall on Thursday that AI agent development over the last four months had not \u201caccelerated in the way we expected,\u201d according to a recording heard by Reuters.",
@@ -24655,20 +24726,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "d8c51f4b30f0",
-      "title": "NBCUniversal to be split from Comcast in latest media shakeup",
-      "summary": "Comcast will split into two publicly traded companies through a spinoff of NBCUniversal and Sky, separating its cash-generating broadband arm from a media and entertainment business under pressure from streaming rivals and industry consolidation.",
-      "url": "https://www.unionleader.com/news/business/nbcuniversal-to-be-split-from-comcast-in-latest-media-shakeup/article_d220cd33-6b89-5333-82cc-e23d89d07390.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24679,7 +24736,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-07T13:12:25.878352",
+      "updated": "2026-07-08T12:10:27.811703",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24789,24 +24846,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-07T13:12:25.878352"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-08T12:10:27.811703"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-07T13:12:25.878352"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-08T12:10:27.811703"
     },
     "migration": {
       "score": 5.0,
@@ -24816,35 +24873,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-07T13:12:25.878352"
+      "updated": "2026-07-08T12:10:27.811703"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-07T13:12:25.878352"
+      "source": "FRED API",
+      "updated": "2026-07-08T12:10:27.811703"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.7,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.81 | Diesel $5.22",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.81,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.22,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-07T13:12:25.878352"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-08T12:10:27.811703"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24853,19 +24910,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-07T13:12:25.878352"
+      "updated": "2026-07-08T12:10:27.811703"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-07T13:12:25.878352"
+    "calculated_at": "2026-07-08T12:10:27.811703"
   }
 }

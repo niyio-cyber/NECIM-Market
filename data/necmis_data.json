@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T12:14:53.833178Z",
+  "generated": "2026-07-09T13:39:34.431556Z",
   "summary": {
     "total_opportunities": 1185,
     "total_value_low": 10119560641,
@@ -8,19 +8,19 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 46,
+      "VT": 45,
       "NH": 23,
-      "ME": 171,
+      "ME": 170,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1183,
-      "news": 17,
-      "funding": 2
+      "dot_letting": 1181,
+      "news": 11,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,11 +38,11 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 253,
+          "count": 252,
           "value": 5668046584
         },
         "Pavement": {
-          "count": 708,
+          "count": 707,
           "value": 3070042217
         },
         "Safety": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 342,
+          "count": 340,
           "value": 0
         },
         "PA": {
@@ -261,11 +261,11 @@
         },
         "CT": {
           "Bridge": {
-            "count": 1,
+            "count": 0,
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 336,
             "value": 0
           },
           "Safety": {
@@ -17475,27 +17475,6 @@
       ]
     },
     {
-      "id": "d819297a798e",
-      "state": "CT",
-      "project_id": "0141-0158",
-      "description": "Replacement of Bridge No. 03474 Route 200 Over Interstate 395",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-08",
-      "fiscal_year": "FY2026",
-      "project_type": "Bridge",
-      "location": "Route 200",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
       "id": "d05e04412b5d",
       "state": "CT",
       "project_id": "0152-0164",
@@ -17514,26 +17493,6 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
-    },
-    {
-      "id": "a64d9c053e50",
-      "state": "CT",
-      "project_id": "0170-3742",
-      "description": "Video Detection Upgrades at Various Locations in the New Haven Urban Area",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-08",
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": "New Haven",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "hma"
       ]
     },
     {
@@ -24447,41 +24406,27 @@
   ],
   "news": [
     {
-      "id": "e41dc4dcf72f",
-      "title": "Speculation swirls about future of Bath\u2019s fish cannery site",
-      "summary": "The City Council recently adopted changes to the land use code, and some neighbors say they fear overdevelopment is on the horizon for the old Stinson Seafood property.",
-      "url": "https://www.pressherald.com/2026/07/07/speculation-swirls-about-future-of-baths-fish-cannery-site/",
+      "id": "4900b165ca4d",
+      "title": "\u2018Broken\u2019 trust: Energy site redevelopment company seeks input from Vernon community on uses for former Vermont Yankee plant",
+      "summary": "\u201cCommunities have more say in outcomes, and I think it's important to figure out how we can work together,\u201d said PowerTransitions spokesperson at a Tuesday night meeting.\nRead the story on VTDigger here:  \u2018Broken\u2019 trust: Energy site redevelopment company seeks input from Vernon community on uses fo",
+      "url": "https://vtdigger.org/2026/07/09/broken-trust-energy-site-redevelopment-company-seeks-input-from-vernon-community-on-uses-for-former-vermont-yankee-plant/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8364f1cee4ce",
+      "title": "Graham Platner suspends bid for Maine Senate seat amid sexual assault scandal",
+      "summary": "Platner announced he was leaving the race in a video posted to X.",
+      "url": "https://www.pressherald.com/2026/07/08/graham-platner-ends-bid-for-maine-senate-seat-amid-sexual-assault-scandal/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-08",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f34decd5169c",
-      "title": "You can take an Aroostook \u2018Roadside Joyride on Route 1\u2019",
-      "summary": "\u201cIn my little chunk of road I knew that there were tons of roadside stands and we could become something to see, not just my stand.\"",
-      "url": "https://www.bangordailynews.com/2026/07/08/aroostook/aroostook-business/aroostook-roadside-joyride-route-1-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-08",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6f5cf137b233",
-      "title": "1-day show of George W Bush\u2019s paintings planned in Biddeford",
-      "summary": "The show is a benefit for St. Ann\u2019s Episcopal Church in Kennebunkport.",
-      "url": "https://www.bangordailynews.com/2026/07/07/york/york-culture/george-w-bush-painting-show-biddeford/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24489,18 +24434,45 @@
       ]
     },
     {
-      "id": "dd3dc2fa45a3",
-      "title": "Wyben Fourth of July parade honors the country\u2019s milestone birthday",
-      "summary": "The Wyben Fourth of July parade kicked off at 5 p.m. on Saturday and marched from Montgomery Road to West Road.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/wyben-fourth-of-july-parade-honors-the-countrys-milestone-birthday.html",
+      "id": "93e30ac15624",
+      "title": "DOT shortfall shows why Maine must change transportation funding",
+      "summary": "\u201cMaine\u2019s traditional transportation funding sources no longer keep pace with infrastructure needs.\u201d",
+      "url": "https://www.bangordailynews.com/2026/07/09/opinion/opinion-contributor/dot-shortfall-shows-why-maine-must-change-transportation-funding-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-09",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "91b61949db5d",
+      "title": "Rare bacteria in water traced to AI data center construction in Wyoming",
+      "summary": "The $800 million project is for Meta, which operates Facebook and Instagram.",
+      "url": "https://www.masslive.com/news/2026/07/rare-bacteria-in-water-traced-to-ai-data-center-construction-project.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-07-09",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4ba0ba2e8bd1",
+      "title": "Epping waste transfer station approved after months of debate",
+      "summary": "A long-contested waste transfer station along the Piscassic River in Epping has received its solid waste permit, capping months of debate but requiring the operator to prove itself before running at full scale.",
+      "url": "https://www.unionleader.com/news/environment/epping-waste-transfer-station-approved-after-months-of-debate/article_0eae4b3f-1212-4802-9bba-ca8d8839ea24.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-07-08",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway",
-        "aggregates"
+        "highway"
       ]
     },
     {
@@ -24602,48 +24574,6 @@
       ]
     },
     {
-      "id": "0074b0a7213e",
-      "title": "Why Bridgeport\u2019s anti-ethics faction is winning",
-      "summary": "A small faction of the Bridgeport City Council holds veto power over the appointment of three new Ethics Committee volunteers.",
-      "url": "https://ctmirror.org/2026/07/06/why-bridgeports-anti-ethics-faction-is-winning-galen/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "30c2b25dbc5e",
-      "title": "As Trump buyouts shake up offshore wind, states hope developers stay in the game",
-      "summary": "As President Donald Trump blocks new permits for offshore wind development, state leaders are hoping some companies will stay interested.",
-      "url": "https://ctmirror.org/2026/07/06/trump-offshore-wind-states-developers/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c3a31941f4ab",
-      "title": "Montpelier tackles housing shortage with talks of taller buildings and simplified zoning",
-      "summary": "Planners say development projects in the River District, including apartment buildings, can shape Montpelier's future and that current zoning allows for six-story buildings but developers aren\u2019t doing it.\nRead the story on VTDigger here:  Montpelier tackles housing shortage with talks of taller bui",
-      "url": "https://vtdigger.org/2026/07/05/montpelier-tackles-housing-shortage-with-talks-of-taller-buildings-and-simplified-zoning/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-05",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e09fafdfedbc",
       "title": "St. Mary\u2019s Bank completes renovations at Londonderry branch",
       "summary": "St. Mary\u2019s Bank has completed renovations at its Londonderry branch, located at 50 Nashua Road in Londonderry Square.",
@@ -24651,20 +24581,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-07-05",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "944f30b13348",
-      "title": "Noah Kahan fans blamed for disappearing Strafford road sign",
-      "summary": "Town officials think fans of the famous singer-songwriter are stealing a road sign referenced in one of his songs.\nRead the story on VTDigger here:  Noah Kahan fans blamed for disappearing Strafford road sign.",
-      "url": "https://vtdigger.org/2026/07/03/noah-kahan-fans-blamed-for-disappearing-strafford-road-sign/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-03",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24698,20 +24614,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "19e6cd935200",
-      "title": "Six-story, 51-unit mixed-use building at North End Superette site up for review",
-      "summary": "Plans for a new six-story, 51-unit multifamily housing development at the site of a popular Manchester convenience store are slated to go before the Manchester Planning Board later this week.",
-      "url": "https://www.unionleader.com/news/business/six-story-51-unit-mixed-use-building-at-north-end-superette-site-up-for-review/article_45b47332-f0a9-4473-95e4-45f118e539d6.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24722,7 +24624,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-08T12:14:53.637197",
+      "updated": "2026-07-09T13:39:23.641725",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24832,24 +24734,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-08T12:14:53.637197"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-09T13:39:23.641725"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-08T12:14:53.637197"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-09T13:39:23.641725"
     },
     "migration": {
       "score": 5.0,
@@ -24859,35 +24761,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-08T12:14:53.637197"
+      "updated": "2026-07-09T13:39:23.641725"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-08T12:14:53.637197"
+      "source": "FRED API",
+      "updated": "2026-07-09T13:39:23.641725"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.7,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.81 | Diesel $5.22",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.81,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.22,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-08T12:14:53.637197"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-09T13:39:23.641725"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24896,19 +24798,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-08T12:14:53.637197"
+      "updated": "2026-07-09T13:39:23.641725"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-08T12:14:53.637197"
+    "calculated_at": "2026-07-09T13:39:23.641725"
   }
 }

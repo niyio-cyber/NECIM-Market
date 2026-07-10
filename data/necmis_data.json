@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-09T13:44:03.824308Z",
+  "generated": "2026-07-10T13:02:28.199455Z",
   "summary": {
-    "total_opportunities": 1185,
+    "total_opportunities": 1179,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 45,
-      "NH": 23,
-      "ME": 170,
-      "MA": 600,
+      "NH": 21,
+      "ME": 173,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
       "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1181,
-      "news": 11,
-      "funding": 4
+      "dot_letting": 1178,
+      "news": 20,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,11 +38,11 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 252,
+          "count": 250,
           "value": 5668046584
         },
         "Pavement": {
-          "count": 707,
+          "count": 706,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 17,
+          "count": 14,
           "value": 0
         },
         "ME": {
@@ -171,11 +171,11 @@
         },
         "NH": {
           "Bridge": {
-            "count": 2,
+            "count": 0,
             "value": 0
           },
           "Pavement": {
-            "count": 13,
+            "count": 12,
             "value": 0
           },
           "Safety": {
@@ -16366,63 +16366,6 @@
       ]
     },
     {
-      "id": "5e589cd7c664",
-      "state": "NH",
-      "project_id": null,
-      "description": "Concord Bids: Show MeOpen BidsContractor ServicesInfrastructure (Highways, Bridges, etc)Sorted ByCategoryBid TitleClosing DateBid Number (Ascending)Bid Number (Descending)Show Closed/Awarded/Cancelled Bids:",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8e8aeebd99a5",
-      "state": "NH",
-      "project_id": null,
-      "description": "Concord Bids: Contractor Services1 BidB13-26 Industrial Park Water Main ReplacementThe Purchasing Division, located at the Combined Operations and Maintenance Facility, 311 North State Street, Concord, New Hampshir",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "e838ab05d8a2",
-      "state": "NH",
-      "project_id": null,
-      "description": "Concord Bids: Infrastructure (Highways, Bridges, etc)1 Bid",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Bridge",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "ff6cc90f9923",
       "state": "VT",
       "source": "VTrans",
@@ -17504,7 +17447,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-07-15",
+      "let_date": "2026-07-22",
       "fiscal_year": "FY2026",
       "project_type": "Other",
       "location": "Hartford",
@@ -24406,6 +24349,104 @@
   ],
   "news": [
     {
+      "id": "f117c57838da",
+      "title": "America is at a crossroads. Maine must choose a road. | Opinion",
+      "summary": "We must choose between renewing our institutions or allowing them to decay.",
+      "url": "https://www.pressherald.com/2026/07/10/america-is-at-a-crossroads-maine-must-choose-a-road-opinion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b030a8b16b7e",
+      "title": "New York construction scare highlights the challenges of converting offices into housing",
+      "summary": "NEW YORK (AP) \u2014 When two steel columns buckled this week inside the former Pfizer headquarters in midtown Manhattan, the scare prompted evacuations and halted work on one of the nation\u2019s largest office-to-apartment conversions. It also highlighted the complex engineering behind adaptive reuse projec",
+      "url": "https://www.bangordailynews.com/2026/07/10/nation/new-york-construction-scare-highlights-the-challenges-of-converting-offices-into-housing/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f2c05c1a4a85",
+      "title": "In any language: English speakers are tuning into World Cup broadcasts in Spanish",
+      "summary": "MIAMI (AP) \u2014 Ashleigh Hallam teaches English as a second language at her local library in Indiana. Soccer is now teaching her Spanish as a second language. For her, this World Cup couldn\u2019t make more sense. Hallam is among a sizable number of English-speaking people in the U.S. who are doing somethin",
+      "url": "https://www.bangordailynews.com/2026/07/10/nation/in-any-language-english-speakers-are-tuning-into-world-cup-broadcasts-in-spanish/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f82826ed0117",
+      "title": "Traffic detoured as fire shuts down main highway into Cape Cod",
+      "summary": "Heavy delays are expected through the morning, as vehicles were backed up for 5.5 miles along the highway.",
+      "url": "https://www.masslive.com/capecod/2026/07/traffic-detoured-as-fire-shuts-down-main-highway-into-cape-cod.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "22826dfeb6ff",
+      "title": "Belgian rising stars and Southwick privateers will race in The National",
+      "summary": "Not only will seven local motocross racers compete at The Wick 338 for the 45th running of The Crestview Construction Southwick National, including Jacob Walker and Austin Brooks from Southwick, two of the hottest rising stars in world motocross will take to the world-famous sand track.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/belgian-rising-stars-and-southwick-privateers-will-race-in-the-national.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "d2144232e2d3",
+      "title": "Board of Health has significant role in siting renewable energy systems",
+      "summary": "With the expectation that a large solar field and a battery energy storage system being built along College Highway in the next year or so, Southwick\u2019s Board of Health heard a presentation Tuesday from a health department policy expert to explain the significant role boards of health play in siting",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/board-of-health-has-significant-role-in-siting-renewable-energy-systems.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "82fa9e4343c4",
+      "title": "Gov. Scott names new secretary of commerce and community development as Kurrle exits for Vermont Gas",
+      "summary": "Lindsay Kurrle, who has led the agency for seven years, will leave her position July 24 to become the energy company\u2019s president and CEO.\nRead the story on VTDigger here:  Gov. Scott names new secretary of commerce and community development as Kurrle exits for Vermont Gas.",
+      "url": "https://vtdigger.org/2026/07/09/gov-scott-names-new-secretary-of-commerce-and-community-development-as-kurrle-exits-for-vermont-gas/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "4900b165ca4d",
       "title": "\u2018Broken\u2019 trust: Energy site redevelopment company seeks input from Vernon community on uses for former Vermont Yankee plant",
       "summary": "\u201cCommunities have more say in outcomes, and I think it's important to figure out how we can work together,\u201d said PowerTransitions spokesperson at a Tuesday night meeting.\nRead the story on VTDigger here:  \u2018Broken\u2019 trust: Energy site redevelopment company seeks input from Vernon community on uses fo",
@@ -24420,10 +24461,24 @@
       ]
     },
     {
-      "id": "8364f1cee4ce",
-      "title": "Graham Platner suspends bid for Maine Senate seat amid sexual assault scandal",
-      "summary": "Platner announced he was leaving the race in a video posted to X.",
-      "url": "https://www.pressherald.com/2026/07/08/graham-platner-ends-bid-for-maine-senate-seat-amid-sexual-assault-scandal/",
+      "id": "de56de847a00",
+      "title": "Amazon distribution center set to open in Tilton",
+      "summary": "A 50,500-square-foot Amazon distribution center is scheduled to open next April in Tilton in a small industrial area on Sanborn Road, roughly a half-mile north of Routes 3 and 11.",
+      "url": "https://www.unionleader.com/news/business/amazon-distribution-center-set-to-open-in-tilton/article_0ec108c6-4ed3-4daf-9916-462f5c57a3e9.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-07-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "81cb8bd874f7",
+      "title": "Nirav Shah opens bid to win over Platner supporters",
+      "summary": "The former public health official, whom Graham Platner did not favor in the governor's race, cast himself on Thursday as another outsider who largely shared Platner's policy positions.",
+      "url": "https://www.pressherald.com/2026/07/09/nirav-shah-opens-bid-to-win-over-platner-supporters/",
       "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-07-09",
@@ -24434,28 +24489,42 @@
       ]
     },
     {
-      "id": "93e30ac15624",
-      "title": "DOT shortfall shows why Maine must change transportation funding",
-      "summary": "\u201cMaine\u2019s traditional transportation funding sources no longer keep pace with infrastructure needs.\u201d",
-      "url": "https://www.bangordailynews.com/2026/07/09/opinion/opinion-contributor/dot-shortfall-shows-why-maine-must-change-transportation-funding-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "7ba9c93537a8",
+      "title": "Oily rags the likely cause of fire that destroyed Harrison home",
+      "summary": "Shortly after 4 p.m., fire crews were called to 25 Ruby Lane, off Chapman Road, for a report that the single-family home was on fire.",
+      "url": "https://www.pressherald.com/2026/07/09/firefighters-encounter-exploding-fireworks-as-harrison-home-burns-2/",
+      "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-07-09",
-      "category": "funding",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "194254eb8ed4",
+      "title": "Success Village cleanup offers hope, raises questions in Bridgeport community",
+      "summary": "Success Village is one of CT's largest housing cooperatives. But it became infamous for financial mismanagement and failing infrastructure.",
+      "url": "https://ctmirror.org/2026/07/09/success-village-cleanup-bridgeport-stratford/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-09",
+      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "91b61949db5d",
-      "title": "Rare bacteria in water traced to AI data center construction in Wyoming",
-      "summary": "The $800 million project is for Meta, which operates Facebook and Instagram.",
-      "url": "https://www.masslive.com/news/2026/07/rare-bacteria-in-water-traced-to-ai-data-center-construction-project.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "679d42fb35d7",
+      "title": "Medicaid meal deliveries reduce hospital visits and costs",
+      "summary": "Massachusetts was the first state to broadly offer medically tailored meals to Medicaid recipients with diet-related diseases.",
+      "url": "https://ctmirror.org/2026/07/09/massachusetts-food-as-medicine-medicaid/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-09",
-      "category": "funding",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24518,34 +24587,6 @@
       ]
     },
     {
-      "id": "4f1f795cf0f4",
-      "title": "Proposed golf facility violates UConn\u2019s environmental responsibility",
-      "summary": "When students learned of The University of Connecticut\u2019s plans to construct a golf practice facility on Mansfield's East Road, opposition was immediate.",
-      "url": "https://ctmirror.org/2026/07/07/proposed-golf-facility-violates-uconns-environmental-responsibility/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cfc413bfab37",
-      "title": "VTrans receives over $19 million in federal funds for Route 7 reconstruction",
-      "summary": "The U.S. BUILD grant to help fund the reconstruction project was announced Monday by the Vermont Congressional Delegation.\nRead the story on VTDigger here:  VTrans receives over $19 million in federal funds for Route 7 reconstruction.",
-      "url": "https://vtdigger.org/2026/07/06/vtrans-receives-over-19-million-in-federal-funds-for-route-7-reconstruction/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-06",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "7da46e800c57",
       "title": "Cornhole aside, board supports 51-unit building at North End Superette site",
       "summary": "Despite concerns involving possible rooftop cornhole games, Manchester Planning Board members were supportive of a proposed six-story, 51-unit housing development at the site of a popular city convenience store.",
@@ -24555,20 +24596,6 @@
       "date": "2026-07-06",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4a07167fc4e2",
-      "title": "PODCAST: How this CT reporter is taking a different approach to journalism",
-      "summary": "WSHU's Ebong Udoma interviews CT Mirror's Reginald David about his work as a community engagement reporter in Bridgeport.",
-      "url": "https://ctmirror.org/2026/07/06/podcast-reginald-david-community-engagement/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-06",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24624,7 +24651,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-09T13:44:02.978213",
+      "updated": "2026-07-10T13:01:40.856323",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24734,24 +24761,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-09T13:44:02.978213"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-10T13:01:40.856323"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-09T13:44:02.978213"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-10T13:01:40.856323"
     },
     "migration": {
       "score": 5.0,
@@ -24761,35 +24788,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-09T13:44:02.978213"
+      "updated": "2026-07-10T13:01:40.856323"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-09T13:44:02.978213"
+      "source": "FRED API",
+      "updated": "2026-07-10T13:01:40.856323"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.7,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.81 | Diesel $5.22",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.81,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.22,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-09T13:44:02.978213"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-10T13:01:40.856323"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24798,19 +24825,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-09T13:44:02.978213"
+      "updated": "2026-07-10T13:01:40.856323"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-09T13:44:02.978213"
+    "calculated_at": "2026-07-10T13:01:40.856323"
   }
 }

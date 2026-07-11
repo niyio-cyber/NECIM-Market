@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-10T13:04:52.648087Z",
+  "generated": "2026-07-11T11:40:38.730907Z",
   "summary": {
     "total_opportunities": 1179,
     "total_value_low": 10119560641,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 45,
-      "NH": 21,
-      "ME": 173,
-      "MA": 602,
+      "VT": 43,
+      "NH": 19,
+      "ME": 168,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1178,
-      "news": 20,
+      "news": 9,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -24349,82 +24349,27 @@
   ],
   "news": [
     {
-      "id": "f117c57838da",
-      "title": "America is at a crossroads. Maine must choose a road. | Opinion",
-      "summary": "We must choose between renewing our institutions or allowing them to decay.",
-      "url": "https://www.pressherald.com/2026/07/10/america-is-at-a-crossroads-maine-must-choose-a-road-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "9387861800a9",
+      "title": "Ayotte Signs Bill Paving Way for More Corporate Tax Cuts; Vetoes 10-Year-Highway Plan",
+      "summary": "Gov. Kelly Ayotte signed HB 155 into law this week, legislation that Democrats say paves the way for another corporate tax cut and downshifts $26 million a year to local property taxpayers. She signed 37 other bills and vetoed five more.",
+      "url": "https://indepthnh.org/2026/07/10/ayotte-signs-bill-paving-way-for-more-corporate-tax-cuts-vetoes-10-year-highway-plan/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-07-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b030a8b16b7e",
-      "title": "New York construction scare highlights the challenges of converting offices into housing",
-      "summary": "NEW YORK (AP) \u2014 When two steel columns buckled this week inside the former Pfizer headquarters in midtown Manhattan, the scare prompted evacuations and halted work on one of the nation\u2019s largest office-to-apartment conversions. It also highlighted the complex engineering behind adaptive reuse projec",
-      "url": "https://www.bangordailynews.com/2026/07/10/nation/new-york-construction-scare-highlights-the-challenges-of-converting-offices-into-housing/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f2c05c1a4a85",
-      "title": "In any language: English speakers are tuning into World Cup broadcasts in Spanish",
-      "summary": "MIAMI (AP) \u2014 Ashleigh Hallam teaches English as a second language at her local library in Indiana. Soccer is now teaching her Spanish as a second language. For her, this World Cup couldn\u2019t make more sense. Hallam is among a sizable number of English-speaking people in the U.S. who are doing somethin",
-      "url": "https://www.bangordailynews.com/2026/07/10/nation/in-any-language-english-speakers-are-tuning-into-world-cup-broadcasts-in-spanish/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f82826ed0117",
-      "title": "Traffic detoured as fire shuts down main highway into Cape Cod",
-      "summary": "Heavy delays are expected through the morning, as vehicles were backed up for 5.5 miles along the highway.",
-      "url": "https://www.masslive.com/capecod/2026/07/traffic-detoured-as-fire-shuts-down-main-highway-into-cape-cod.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-10",
-      "category": "news",
+      "category": "funding",
       "priority": "high",
       "business_lines": [
-        "highway"
+        "highway",
+        "hma"
       ]
     },
     {
-      "id": "22826dfeb6ff",
-      "title": "Belgian rising stars and Southwick privateers will race in The National",
-      "summary": "Not only will seven local motocross racers compete at The Wick 338 for the 45th running of The Crestview Construction Southwick National, including Jacob Walker and Austin Brooks from Southwick, two of the hottest rising stars in world motocross will take to the world-famous sand track.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/belgian-rising-stars-and-southwick-privateers-will-race-in-the-national.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
-      "id": "d2144232e2d3",
-      "title": "Board of Health has significant role in siting renewable energy systems",
-      "summary": "With the expectation that a large solar field and a battery energy storage system being built along College Highway in the next year or so, Southwick\u2019s Board of Health heard a presentation Tuesday from a health department policy expert to explain the significant role boards of health play in siting",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/board-of-health-has-significant-role-in-siting-renewable-energy-systems.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "f0d0d40e340c",
+      "title": "In Bridgeport, a call to protect Haitians with Temporary Protected Status",
+      "summary": "The end of Temporary Protected Status threatens Haitians in Connecticut, but community members said they would stand together and fight.",
+      "url": "https://ctmirror.org/2026/07/10/in-bridgeport-a-call-to-protect-haitians-with-temporary-protected-status/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-10",
       "category": "news",
       "priority": "high",
@@ -24453,48 +24398,6 @@
       "url": "https://vtdigger.org/2026/07/09/broken-trust-energy-site-redevelopment-company-seeks-input-from-vernon-community-on-uses-for-former-vermont-yankee-plant/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-07-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "de56de847a00",
-      "title": "Amazon distribution center set to open in Tilton",
-      "summary": "A 50,500-square-foot Amazon distribution center is scheduled to open next April in Tilton in a small industrial area on Sanborn Road, roughly a half-mile north of Routes 3 and 11.",
-      "url": "https://www.unionleader.com/news/business/amazon-distribution-center-set-to-open-in-tilton/article_0ec108c6-4ed3-4daf-9916-462f5c57a3e9.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-07-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "81cb8bd874f7",
-      "title": "Nirav Shah opens bid to win over Platner supporters",
-      "summary": "The former public health official, whom Graham Platner did not favor in the governor's race, cast himself on Thursday as another outsider who largely shared Platner's policy positions.",
-      "url": "https://www.pressherald.com/2026/07/09/nirav-shah-opens-bid-to-win-over-platner-supporters/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-09",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7ba9c93537a8",
-      "title": "Oily rags the likely cause of fire that destroyed Harrison home",
-      "summary": "Shortly after 4 p.m., fire crews were called to 25 Ruby Lane, off Chapman Road, for a report that the single-family home was on fire.",
-      "url": "https://www.pressherald.com/2026/07/09/firefighters-encounter-exploding-fireworks-as-harrison-home-burns-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-07-09",
       "category": "news",
       "priority": "medium",
@@ -24545,34 +24448,6 @@
       ]
     },
     {
-      "id": "6a4592300699",
-      "title": "New Chittenden County recycling facility to remain on track after waste district recovers $2.27 million stolen in scam",
-      "summary": "The money was stolen early this year by scammers appearing as a construction company that the district had been working with for the project.\nRead the story on VTDigger here:  New Chittenden County recycling facility to remain on track after waste district recovers $2.27 million stolen in scam.",
-      "url": "https://vtdigger.org/2026/07/07/new-chittenden-county-recycling-facility-to-remain-on-track-after-waste-district-recovers-2-27-million-stolen-in-scam/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-07",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "dd54b8e351cc",
-      "title": "Grand Isle prosecutor\u2019s DUI case heading to court diversion, court records state",
-      "summary": "The program permits participants to avoid a criminal conviction provided they complete the requirements, which can include counseling and community service.\nRead the story on VTDigger here:  Grand Isle prosecutor\u2019s DUI case heading to court diversion, court records state.",
-      "url": "https://vtdigger.org/2026/07/07/grand-isle-prosecutors-dui-case-heading-to-court-diversion-court-records-state/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "82f8893fe4c2",
       "title": "State, local officials cut ribbon for large Londonderry development with a subdued boom",
       "summary": "Afternoon showers didn\u2019t stop Gov. Kelly Ayotte and U.S. Sen. Maggie Hassan, D-N.H., from having a blast in Londonderry on Tuesday.",
@@ -24613,34 +24488,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "929e76d36d62",
-      "title": "Zuckerberg says AI agent tech is developing more slowly\u00a0than expected",
-      "summary": "Meta Chief Executive Mark Zuckerberg told an internal town hall on Thursday that AI agent development over the last four months had not \u201caccelerated in the way we expected,\u201d according to a recording heard by Reuters.",
-      "url": "https://www.unionleader.com/news/business/zuckerberg-says-ai-agent-tech-is-developing-more-slowly-than-expected/article_34612053-5382-592e-9e68-8ade4de6beba.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-07-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7a79db1a8f56",
-      "title": "Optima Dermatology expands its services in Nashua",
-      "summary": "In July 2026, Optima Dermatology will open the doors to another practice in New Hampshire at 169 Daniel Webster Highway, Suite 300, in Nashua.",
-      "url": "https://www.unionleader.com/news/health/optima-dermatology-expands-its-services-in-nashua/article_c0d0dfdd-ffbe-4e2b-894a-b75f8fae8e22.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-06-30",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24651,7 +24498,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-10T13:04:51.758786",
+      "updated": "2026-07-11T11:40:27.377975",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24761,24 +24608,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-10T13:04:51.758786"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-11T11:40:27.377975"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-10T13:04:51.758786"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-11T11:40:27.377975"
     },
     "migration": {
       "score": 5.0,
@@ -24788,35 +24635,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-10T13:04:51.758786"
+      "updated": "2026-07-11T11:40:27.377975"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-10T13:04:51.758786"
+      "source": "FRED API",
+      "updated": "2026-07-11T11:40:27.377975"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.7,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.81 | Diesel $5.22",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.81,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.22,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-10T13:04:51.758786"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-11T11:40:27.377975"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24825,19 +24672,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-10T13:04:51.758786"
+      "updated": "2026-07-11T11:40:27.377975"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-10T13:04:51.758786"
+    "calculated_at": "2026-07-11T11:40:27.377975"
   }
 }

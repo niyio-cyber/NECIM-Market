@@ -1,16 +1,16 @@
 {
-  "generated": "2026-07-11T11:45:17.616944Z",
+  "generated": "2026-07-12T11:48:49.889830Z",
   "summary": {
-    "total_opportunities": 1179,
+    "total_opportunities": 1180,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 19,
-      "ME": 168,
+      "VT": 44,
+      "NH": 20,
+      "ME": 171,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1178,
-      "news": 9,
-      "funding": 1
+      "news": 13,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24349,6 +24349,76 @@
   ],
   "news": [
     {
+      "id": "c9aeb266a67d",
+      "title": "The nation is craving protein, but Vermont dairy isn\u2019t cashing in",
+      "summary": "Expensive land and aging infrastructure have left Vermont\u2019s dairy industry behind as other states dominate.\nRead the story on VTDigger here:  The nation is craving protein, but Vermont dairy isn\u2019t cashing in.",
+      "url": "https://vtdigger.org/2026/07/12/the-nation-is-craving-protein-but-vermont-dairy-isnt-cashing-in/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-12",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "834167130abb",
+      "title": "Fences along Maine highways could prevent animal collisions | Letter",
+      "summary": "On a recent trip to St. John, New Brunswick, Canada, I noticed the major highways had two sets of high fences along the major highway. One was immediately adjacent to the road, another about 40 or 50 feet away. These fences seemed at least 10 feet high. The function of these fences did not occur [\u2026]",
+      "url": "https://www.pressherald.com/2026/07/12/fences-along-maine-highways-could-prevent-animal-collisions-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-12",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "54c132a38324",
+      "title": "Eastbrook man arrested after road rage crash seriously injures motorcyclist",
+      "summary": "Witnesses said the pickup truck struck a motorcycle, forcing it into a guardrail. The motorcyclist then lost control and crashed.",
+      "url": "https://www.bangordailynews.com/2026/07/12/hancock/shannon-abbott-eastbrook-arrested-road-rage-crash-motorcyclist/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-12",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "262339cef0b7",
+      "title": "Judge tosses remnants of Proud Boys seditious conspiracy case after Trump\u2019s broad clemency",
+      "summary": "WASHINGTON (AP) \u2014 A federal judge has dismissed the remnants of the government\u2019s landmark case against far-right Proud Boys members who were convicted of seditious conspiracy for plotting to attack the Capitol to keep President Donald Trump in the White House more than five years ago. The case\u2019s dis",
+      "url": "https://www.bangordailynews.com/2026/07/11/nation/judge-tosses-remnants-of-proud-boys-seditious-conspiracy-case-after-trumps-broad-clemency/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-11",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fb112e12321c",
+      "title": "Distant Dome: Ayotte\u2019s Veto of Highway Plan Sets Off Lawmakers",
+      "summary": "Historically, there are two things a governor can do that really pisses off lawmakers, veto a hard-fought budget deal or the state\u2019s 10-Year Highway Improvement Plan.",
+      "url": "https://indepthnh.org/2026/07/11/ayottes-veto-of-highway-plan-sets-off-lawmakers/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-07-11",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "9387861800a9",
       "title": "Ayotte Signs Bill Paving Way for More Corporate Tax Cuts; Vetoes 10-Year-Highway Plan",
       "summary": "Gov. Kelly Ayotte signed HB 155 into law this week, legislation that Democrats say paves the way for another corporate tax cut and downshifts $26 million a year to local property taxpayers. She signed 37 other bills and vetoed five more.",
@@ -24498,7 +24568,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-11T11:45:17.321100",
+      "updated": "2026-07-12T11:48:42.925886",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24608,24 +24678,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-11T11:45:17.321100"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-12T11:48:42.925886"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-11T11:45:17.321100"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-12T11:48:42.925886"
     },
     "migration": {
       "score": 5.0,
@@ -24635,35 +24705,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-11T11:45:17.321100"
+      "updated": "2026-07-12T11:48:42.925886"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-11T11:45:17.321100"
+      "source": "FRED API",
+      "updated": "2026-07-12T11:48:42.925886"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.7,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.81 | Diesel $5.22",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.81,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.22,
+        "score": 7.3,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-11T11:45:17.321100"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-12T11:48:42.925886"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24672,19 +24742,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-11T11:45:17.321100"
+      "updated": "2026-07-12T11:48:42.925886"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-11T11:45:17.321100"
+    "calculated_at": "2026-07-12T11:48:42.925886"
   }
 }

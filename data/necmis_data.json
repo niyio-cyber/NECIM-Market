@@ -1,26 +1,26 @@
 {
-  "generated": "2026-07-16T12:14:43.140225Z",
+  "generated": "2026-07-17T12:02:22.855722Z",
   "summary": {
-    "total_opportunities": 1184,
+    "total_opportunities": 1181,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 42,
+      "VT": 43,
       "NH": 18,
-      "ME": 173,
-      "MA": 599,
+      "ME": 168,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1180,
-      "news": 10,
-      "funding": 4
+      "news": 11,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24388,12 +24388,68 @@
   ],
   "news": [
     {
-      "id": "3a2f19151c90",
-      "title": "Obituary: Staci Kay Converse",
-      "summary": "SOUTH PORTLAND - Staci Kay Converse, an unyielding pillar of developmental disability rights in Maine, died unexpectedly Wednesday, July 8, 2026. ...",
-      "url": "https://www.pressherald.com/2026/07/16/obituarystaci-kay-converse-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "a615bf997719",
+      "title": "One dead, driver critically hurt after commercial crane overturns on I-95 in North Carolina",
+      "summary": "A commercial crane vehicle overturned on Interstate 95 near Kenly, North Carolina, after investigators say a tire failure caused it to leave the roadway.",
+      "url": "https://www.masslive.com/news/2026/07/investigators-probe-fatal-north-carolina-highway-incident.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "20d60e1dd65b",
+      "title": "Traffic backed up after truck gets stuck under bridge on busy Boston road",
+      "summary": "The truck\u2019s roof was ripped off, or \u201cStorrowed,\u201d as locals refer to vehicles that become lodged under the road\u2019s low-clearance bridges.",
+      "url": "https://www.masslive.com/boston/2026/07/traffic-backed-up-after-truck-gets-stuck-under-bridge-on-busy-boston-road.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-17",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3f47f23c6ea6",
+      "title": "New special education facility at 390 Southampton Road readies for students",
+      "summary": "Westfield's new facility at 390 Southampton Road will house special education classrooms and transition services.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/new-special-education-facility-at-390-southampton-road-readies-for-students.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "079538c03610",
+      "title": "Shuttered Vermont colleges: reincarnated and repurposed.",
+      "summary": "\"The success will be measured on whether we have preserved opportunity, jobs, community vitality, because the last thing we want is a closed campus to sit idle,\u201d said the Vermont Agency of Commerce and Community Development secretary.\nRead the story on VTDigger here:  Shuttered Vermont colleges: re",
+      "url": "https://vtdigger.org/2026/07/16/shuttered-vermont-colleges-reincarnated-and-repurposed/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-16",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e5b77ef152a3",
+      "title": "SNHU to sell building and parking garage in Manchester's Millyard",
+      "summary": "Southern New Hampshire University will move all of its offices and operations to its main campus on North River Road in Manchester as part of a plan to sell its Millyard building and six-story parking garage.",
+      "url": "https://www.unionleader.com/news/business/snhu-to-sell-building-and-parking-garage-in-manchesters-millyard/article_f89ed25a-91d6-4a83-845b-afb3f6c0fffb.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-07-16",
       "category": "news",
       "priority": "medium",
@@ -24430,65 +24486,9 @@
       ]
     },
     {
-      "id": "7ebd2bd57c33",
-      "title": "Protesters shoo Gov. Janet Mills from Johan Sebasti\u00e1n Dur\u00e1n Guerrero\u2019s memorial in Biddeford",
-      "summary": "'Don't come back up here unless you got results!' one person yelled at the governor.",
-      "url": "https://www.pressherald.com/2026/07/15/protesters-shoo-gov-janet-mills-from-johan-sebastian-duran-guerreros-memorial-in-biddeford/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "361833f977d2",
-      "title": "Federal officials refuse to identify ICE agent who shot Biddeford man",
-      "summary": "ABC News and the Atlantic have reported that the unnamed agent was hired by ICE earlier this year, but have not disclosed his name.",
-      "url": "https://www.pressherald.com/2026/07/15/federal-officials-refuse-to-identify-ice-agent-who-shot-biddeford-man/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-15",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3d436320c8af",
-      "title": "Why ICE says it needs to detain people in their vehicles \u2014 and how Trump shifted the policy again",
-      "summary": "Immigration and Customs Enforcement agents were told to no longer make most traffic stops after deadly shootings in Biddeford and Houston, but President Donald Trump has forced a reversal of that temporary policy shift.",
-      "url": "https://www.pressherald.com/2026/07/15/why-ice-says-it-needs-to-detain-people-in-their-vehicles-and-how-trump-shifted-its-policy-again/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "6dcc4323cc04",
-      "title": "\u2018It\u2019s too quiet:\u2019 Fear ripples through Maine immigrant communities after Biddeford ICE shooting",
-      "summary": "The killing of a 26-year-old Colombian man this week has paralyzed many communities already fearful of the Trump administration's immigration crackdown.",
-      "url": "https://www.pressherald.com/2026/07/15/its-too-quiet-fear-ripples-through-maine-immigrant-communities-in-wake-of-biddeford-ice-shooting/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-15",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "68988279ff0c",
       "title": "Ayotte Signs 20 Bills, Including the Controversial Local School Budget Cap HB 1300",
-      "summary": "Gov. Kelly Ayotte signed 20 bills into law this week - including one of the most controversial HB 1300, which requires each municipality to include a question on the 2026 and 2028 ballots capping local school budgets \u201cfor a period of two years.\u201d\u00a0 She also vetoed three bills.",
+      "summary": "Gov. Kelly Ayotte signed 20 bills into law this week - including one of the most controversial HB 1300, which requires each municipality to include a question on the 2026 and 2028 ballots capping local school budgets \u201cfor a period of two years.\u201d\u00a0 She also vetoed three bills.\nThe post Ayotte Signs 20",
       "url": "https://indepthnh.org/2026/07/15/ayotte-signs-20-bills-including-the-controversial-local-school-budget-cap-hb-1300/",
       "source": "InDepthNH",
       "state": "NH",
@@ -24528,20 +24528,6 @@
       ]
     },
     {
-      "id": "0ceb090c50f2",
-      "title": "CT sues, again, over withheld school mental health grants",
-      "summary": "CT joined a second lawsuit against the U.S. Education Dept as it continues trying to end federal grants for school mental health services.",
-      "url": "https://ctmirror.org/2026/07/14/ct-sues-again-over-withheld-school-mental-health-grants/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-14",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "452dc9a85038",
       "title": "State approves Hooksett Road expansion for 2031",
       "summary": "About 1.5 miles of Route 28 just east of Southern New Hampshire University in Hooksett is going to be widened from two lanes to five, but the $30 million project is not scheduled to start until spring 2031.",
@@ -24568,20 +24554,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "fb112e12321c",
-      "title": "Distant Dome: Ayotte\u2019s Veto of Highway Plan Sets Off Lawmakers",
-      "summary": "Historically, there are two things a governor can do that really pisses off lawmakers, veto a hard-fought budget deal or the state\u2019s 10-Year Highway Improvement Plan.",
-      "url": "https://indepthnh.org/2026/07/11/ayottes-veto-of-highway-plan-sets-off-lawmakers/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-07-11",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24592,7 +24564,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-16T12:14:42.356967",
+      "updated": "2026-07-17T12:01:24.367945",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24702,24 +24674,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-16T12:14:42.356967"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-17T12:01:24.367945"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-16T12:14:42.356967"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-17T12:01:24.367945"
     },
     "migration": {
       "score": 5.0,
@@ -24729,35 +24701,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-16T12:14:42.356967"
+      "updated": "2026-07-17T12:01:24.367945"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-16T12:14:42.356967"
+      "source": "FRED API",
+      "updated": "2026-07-17T12:01:24.367945"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.19",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.19,
+        "score": 7.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-16T12:14:42.356967"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-17T12:01:24.367945"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24766,19 +24738,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-16T12:14:42.356967"
+      "updated": "2026-07-17T12:01:24.367945"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-16T12:14:42.356967"
+    "calculated_at": "2026-07-17T12:01:24.367945"
   }
 }

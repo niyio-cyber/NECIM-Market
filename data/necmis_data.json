@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-17T12:02:22.855722Z",
+  "generated": "2026-07-18T11:42:16.578969Z",
   "summary": {
-    "total_opportunities": 1181,
+    "total_opportunities": 1183,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 43,
       "NH": 18,
-      "ME": 168,
-      "MA": 602,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1180,
-      "news": 11,
-      "funding": 1
+      "news": 10,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -17446,7 +17446,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-07-22",
+      "let_date": "2026-07-29",
       "fiscal_year": "FY2026",
       "project_type": "Other",
       "location": "ROUTE 72",
@@ -17486,7 +17486,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-07-22",
+      "let_date": "2026-07-29",
       "fiscal_year": "FY2026",
       "project_type": "Other",
       "location": "Hartford",
@@ -24388,26 +24388,54 @@
   ],
   "news": [
     {
-      "id": "a615bf997719",
-      "title": "One dead, driver critically hurt after commercial crane overturns on I-95 in North Carolina",
-      "summary": "A commercial crane vehicle overturned on Interstate 95 near Kenly, North Carolina, after investigators say a tire failure caused it to leave the roadway.",
-      "url": "https://www.masslive.com/news/2026/07/investigators-probe-fatal-north-carolina-highway-incident.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-17",
-      "category": "news",
-      "priority": "medium",
+      "id": "ee442788c321",
+      "title": "How immigration has shaped Biddeford\u2019s identity for over 150 years",
+      "summary": "Johan Sebasti\u00e1n Dur\u00e1n Guerrero, a 25-year-old Columbian who was killed by an ICE agent this week, was the latest in a long line of immigrants seeking a better life in this Maine city.",
+      "url": "https://www.pressherald.com/2026/07/18/how-immigration-has-shaped-biddefords-identity-for-over-150-years/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-18",
+      "category": "funding",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "20d60e1dd65b",
-      "title": "Traffic backed up after truck gets stuck under bridge on busy Boston road",
-      "summary": "The truck\u2019s roof was ripped off, or \u201cStorrowed,\u201d as locals refer to vehicles that become lodged under the road\u2019s low-clearance bridges.",
-      "url": "https://www.masslive.com/boston/2026/07/traffic-backed-up-after-truck-gets-stuck-under-bridge-on-busy-boston-road.html",
+      "id": "bb609466ae4f",
+      "title": "Death Notice: Charles Patrick Scally",
+      "summary": "Scally, Charles Patrick 55, of Gorham, July 8. Visit 4-7 p.m., July 24, GracePoint Church, Biddeford. Celebration of Life 2 p.m., ...",
+      "url": "https://www.pressherald.com/2026/07/18/obituarycharles-patrick-scally/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "573c0d6135cc",
+      "title": "Neal, Blandford officials announce $1 million for water system upgrades",
+      "summary": "Blandford received $1 million in federal funding for major water system and infrastructure upgrades.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/neal-blandford-officials-announce-1-million-for-water-system-upgrades.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-07-18",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1717581cea56",
+      "title": "Himes calls Trump\u2019s election speech \u2018easily disprovable lies\u2019",
+      "summary": "Trump bemoaned vulnerabilities in the country's election infrastructure but didn't provide evidence of interference or election tampering.",
+      "url": "https://ctmirror.org/2026/07/17/jim-himes-donald-trump-election-fraud-lies/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-17",
       "category": "news",
       "priority": "high",
@@ -24416,12 +24444,12 @@
       ]
     },
     {
-      "id": "3f47f23c6ea6",
-      "title": "New special education facility at 390 Southampton Road readies for students",
-      "summary": "Westfield's new facility at 390 Southampton Road will house special education classrooms and transition services.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/new-special-education-facility-at-390-southampton-road-readies-for-students.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "ece5db8f0c51",
+      "title": "CT redoubles efforts to equip workforce for AI economy",
+      "summary": "Business and development leaders hope AI will usher in a productivity boom, but workers are concerned. CT has big plans to train them.",
+      "url": "https://ctmirror.org/2026/07/17/artificial-intelligence-raise-us-workforce-ct/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-17",
       "category": "news",
       "priority": "medium",
@@ -24514,20 +24542,6 @@
       ]
     },
     {
-      "id": "e641d5beda4c",
-      "title": "Bridgeport: Sit & Speak Listening Session",
-      "summary": "Community Engagement Reporter Reginald David is hosting a Sit & Speak on July 30, 2026, at the Bridgeport Public Library.",
-      "url": "https://ctmirror.org/2026/07/15/bridgeport-sit-speak-listening-session-2/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "452dc9a85038",
       "title": "State approves Hooksett Road expansion for 2031",
       "summary": "About 1.5 miles of Route 28 just east of Southern New Hampshire University in Hooksett is going to be widened from two lanes to five, but the $30 million project is not scheduled to start until spring 2031.",
@@ -24564,7 +24578,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-17T12:01:24.367945",
+      "updated": "2026-07-18T11:42:10.588633",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24681,7 +24695,7 @@
       "raw_display": "8,343 units/mo",
       "yoy_change": 5.7,
       "source": "FRED API",
-      "updated": "2026-07-17T12:01:24.367945"
+      "updated": "2026-07-18T11:42:10.588633"
     },
     "construction_spending": {
       "score": 5.5,
@@ -24691,7 +24705,7 @@
       "raw_display": "$151.7B SAAR",
       "yoy_change": 3.0,
       "source": "FRED API",
-      "updated": "2026-07-17T12:01:24.367945"
+      "updated": "2026-07-18T11:42:10.588633"
     },
     "migration": {
       "score": 5.0,
@@ -24701,7 +24715,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-17T12:01:24.367945"
+      "updated": "2026-07-18T11:42:10.588633"
     },
     "construction_employment": {
       "score": 5.0,
@@ -24711,7 +24725,7 @@
       "raw_display": "1003K workers",
       "yoy_change": 0.0,
       "source": "FRED API",
-      "updated": "2026-07-17T12:01:24.367945"
+      "updated": "2026-07-18T11:42:10.588633"
     },
     "input_cost": {
       "score": 7.6,
@@ -24729,7 +24743,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-07-17T12:01:24.367945"
+      "updated": "2026-07-18T11:42:10.588633"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24738,7 +24752,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-17T12:01:24.367945"
+      "updated": "2026-07-18T11:42:10.588633"
     },
     "overall_score": 7.1,
     "overall_status": "stable",
@@ -24751,6 +24765,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-17T12:01:24.367945"
+    "calculated_at": "2026-07-18T11:42:10.588633"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T11:45:55.668296Z",
+  "generated": "2026-07-19T11:46:46.504618Z",
   "summary": {
     "total_opportunities": 1183,
     "total_value_low": 10119560641,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
+      "VT": 44,
       "NH": 18,
-      "ME": 170,
+      "ME": 173,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1180,
-      "news": 10,
+      "news": 13,
       "funding": 3
     },
     "pipeline_analysis": {
@@ -24388,13 +24388,13 @@
   ],
   "news": [
     {
-      "id": "ee442788c321",
-      "title": "How immigration has shaped Biddeford\u2019s identity for over 150 years",
-      "summary": "Johan Sebasti\u00e1n Dur\u00e1n Guerrero, a 25-year-old Columbian who was killed by an ICE agent this week, was the latest in a long line of immigrants seeking a better life in this Maine city.",
-      "url": "https://www.pressherald.com/2026/07/18/how-immigration-has-shaped-biddefords-identity-for-over-150-years/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-18",
+      "id": "b882d3156db2",
+      "title": "President Trump\u2019s priorities could put a hefty portion of federal grants in Vermont on the chopping block under proposed rule",
+      "summary": "\u201cFederal grants were politicized under the last administration to promote a far-left DEI agenda with projects like drag shows in Ecuador and transgender experiments on mice,\u201d a government spokesperson wrote in an email to VTDIgger. \u201cThat ends now.\u201d\nRead the story on VTDigger here:  President Trump\u2019",
+      "url": "https://vtdigger.org/2026/07/19/president-trumps-priorities-could-put-a-hefty-portion-of-federal-grants-in-vermont-on-the-chopping-block-under-proposed-rule/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-19",
       "category": "funding",
       "priority": "high",
       "business_lines": [
@@ -24402,13 +24402,27 @@
       ]
     },
     {
-      "id": "bb609466ae4f",
-      "title": "Death Notice: Charles Patrick Scally",
-      "summary": "Scally, Charles Patrick 55, of Gorham, July 8. Visit 4-7 p.m., July 24, GracePoint Church, Biddeford. Celebration of Life 2 p.m., ...",
-      "url": "https://www.pressherald.com/2026/07/18/obituarycharles-patrick-scally/",
+      "id": "6fc663662876",
+      "title": "Maine ICE death is part of Susan Collins\u2019 legacy | Letter",
+      "summary": "So we finally have a death here in Biddeford, Maine \u2014 a 26-year-old Colombian with legal working papers \u2014 killed at the hands of the ICE goon squad. Our credulous Sen. Susan Collins \u2014 who voted for another $70 billion of enhanced funding for ICE \u2014 claims that this unvetted gang of armed thugs is [\u2026]",
+      "url": "https://www.pressherald.com/2026/07/19/maine-ice-death-is-part-of-susan-collins-legacy-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-18",
+      "date": "2026-07-19",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a36482a0253a",
+      "title": "For Maine artists angered by Biddeford ICE shooting, their art is their voice",
+      "summary": "Planned works include a mural honoring Johan Sebasti\u00e1n Dur\u00e1n Guerrero, a video projection of a peace dove over Biddeford, posters, signs and benefit concerts.",
+      "url": "https://www.pressherald.com/2026/07/19/for-maine-artists-speaking-out-on-biddeford-ice-shooting-their-art-is-their-voice/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-19",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24416,14 +24430,56 @@
       ]
     },
     {
-      "id": "573c0d6135cc",
-      "title": "Neal, Blandford officials announce $1 million for water system upgrades",
-      "summary": "Blandford received $1 million in federal funding for major water system and infrastructure upgrades.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/neal-blandford-officials-announce-1-million-for-water-system-upgrades.html",
+      "id": "8dd56a7c3072",
+      "title": "Obituary: Shirley Jane Jones",
+      "summary": "SACO / BIDDEFORD - Shirley Jane Jones, devoted and beloved daughter, sister, aunt, teacher, coach and friend peacefully received her angel ...",
+      "url": "https://www.pressherald.com/2026/07/19/obituaryshirley-jane-jones-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-19",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a69f50baebe2",
+      "title": "Death Notice: Shirley Jane Jones",
+      "summary": "Jones, Shirley Jane 86, of Biddeford/Saco, June 27. Service 10 a.m., July 29, Notre Dame Church in Waterville. Celebration 1 p.m., ...",
+      "url": "https://www.pressherald.com/2026/07/19/obituaryshirley-jane-jones/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-19",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "19ee91885b7e",
+      "title": "Lawsuit with Springfield student at forefront highlights longstanding problem of segregation in Mass. schools",
+      "summary": "\u201cWhen municipal boundaries consistently separate students by race and wealth, we have a moral and constitutional obligation to ask whether we\u2019re preserving opportunity, or perpetuating inequality,\u201d says Bishop Talbert Swan II.",
+      "url": "https://www.masslive.com/westernmass/2026/07/lawsuit-with-springfield-student-at-forefront-highlights-longstanding-problem-of-segregation-in-mass-schools.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-07-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b79848b8b053",
+      "title": "Maine chefs offer advice on how to stretch your dollar in the kitchen",
+      "summary": "Maine chefs offer helpful tips to help stretch your food budget while still letting you put together delicious meals.",
+      "url": "https://www.bangordailynews.com/2026/07/18/state/state-health/maine-chef-advice-stretch-budget/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-07-18",
-      "category": "funding",
+      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"
@@ -24528,20 +24584,6 @@
       ]
     },
     {
-      "id": "8826035dbafa",
-      "title": "Bridgeport residents seek answers at FaithActs gubernatorial forum",
-      "summary": "Residents heard Ned Lamont, Josh Elliott and Ryan Fazio respond directly to questions that came from years of conversations in the community.",
-      "url": "https://ctmirror.org/2026/07/15/bridgeport-faithacts-gubernatorial-forum/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "452dc9a85038",
       "title": "State approves Hooksett Road expansion for 2031",
       "summary": "About 1.5 miles of Route 28 just east of Southern New Hampshire University in Hooksett is going to be widened from two lanes to five, but the $30 million project is not scheduled to start until spring 2031.",
@@ -24578,7 +24620,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-18T11:45:55.472807",
+      "updated": "2026-07-19T11:46:39.327515",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24688,24 +24730,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-18T11:45:55.472807"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-19T11:46:39.327515"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-18T11:45:55.472807"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-19T11:46:39.327515"
     },
     "migration": {
       "score": 5.0,
@@ -24715,35 +24757,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-18T11:45:55.472807"
+      "updated": "2026-07-19T11:46:39.327515"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-18T11:45:55.472807"
+      "source": "FRED API",
+      "updated": "2026-07-19T11:46:39.327515"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.19",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.19,
+        "score": 7.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-18T11:45:55.472807"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-19T11:46:39.327515"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24752,19 +24794,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-18T11:45:55.472807"
+      "updated": "2026-07-19T11:46:39.327515"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-18T11:45:55.472807"
+    "calculated_at": "2026-07-19T11:46:39.327515"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T11:49:10.578354Z",
+  "generated": "2026-07-20T12:58:30.987813Z",
   "summary": {
     "total_opportunities": 1183,
     "total_value_low": 10119560641,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 44,
-      "NH": 18,
-      "ME": 173,
-      "MA": 600,
+      "NH": 20,
+      "ME": 169,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
       "CT": 345,
@@ -24388,6 +24388,76 @@
   ],
   "news": [
     {
+      "id": "d0b6af6fda72",
+      "title": "Bucksport wants vacant downtown lot back after development promise\u00a0falls through",
+      "summary": "SFS Development didn't follow through with agreement to develop the property in exchange for a $1 purchase price, officials said.",
+      "url": "https://www.bangordailynews.com/2026/07/20/hancock/hancock-government/bucksport-wants-vacant-downtown-lot-back-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-20",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ae5482cc8958",
+      "title": "Rideshare passenger hit, seriously hurt on Greater Boston highway while fleeing police",
+      "summary": "A rideshare car passenger was struck by oncoming highway traffic in Quincy on Sunday night after they tried to flee from police on foot.",
+      "url": "https://www.masslive.com/news/2026/07/rideshare-passenger-hit-seriously-hurt-on-mass-highway-while-fleeing-police.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-20",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6d15e9c38210",
+      "title": "Tipster charged with murder after making anonymous call for 1993 death in Alaska",
+      "summary": "The body was found in a barrel off a remote highway.",
+      "url": "https://www.masslive.com/news/2026/07/tipster-charged-with-murder-after-making-anonymous-call-for-1993-death.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-20",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0190e3d31c44",
+      "title": "MassDOT/MBTA boss Phil Eng has \u2018no timeline\u2019 to step down from dual roles | Bay State Briefing",
+      "summary": "Phil Eng says he\u2019s enjoying his roles as MassDOT secretary and MBTA general manager. He and Gov. Maura Healey said there are no plans to end the arrangement anytime soon.",
+      "url": "https://www.masslive.com/politics/2026/07/no-mad-dash-for-massdot-mbta-chief-phil-eng-to-drop-his-hyphen-bay-state-briefing.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-20",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "13d149a8738d",
+      "title": "Vermont\u2019s new education law pays districts to merge. It doesn\u2019t make them save.",
+      "summary": "Act 170 sets deadlines and creates regional service areas but leaves out efficiency targets, oversight and any requirement that savings actually materialize before construction aid flows.\nRead the story on VTDigger here:  Vermont\u2019s new education law pays districts to merge. It doesn\u2019t make them sav",
+      "url": "https://vtdigger.org/2026/07/19/opinion-vermonts-new-education-law-pays-districts-to-merge-it-doesnt-make-them-save/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "b882d3156db2",
       "title": "President Trump\u2019s priorities could put a hefty portion of federal grants in Vermont on the chopping block under proposed rule",
       "summary": "\u201cFederal grants were politicized under the last administration to promote a far-left DEI agenda with projects like drag shows in Ecuador and transgender experiments on mice,\u201d a government spokesperson wrote in an email to VTDIgger. \u201cThat ends now.\u201d\nRead the story on VTDigger here:  President Trump\u2019",
@@ -24402,68 +24472,12 @@
       ]
     },
     {
-      "id": "6fc663662876",
-      "title": "Maine ICE death is part of Susan Collins\u2019 legacy | Letter",
-      "summary": "So we finally have a death here in Biddeford, Maine \u2014 a 26-year-old Colombian with legal working papers \u2014 killed at the hands of the ICE goon squad. Our credulous Sen. Susan Collins \u2014 who voted for another $70 billion of enhanced funding for ICE \u2014 claims that this unvetted gang of armed thugs is [\u2026]",
-      "url": "https://www.pressherald.com/2026/07/19/maine-ice-death-is-part-of-susan-collins-legacy-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-19",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a36482a0253a",
-      "title": "For Maine artists angered by Biddeford ICE shooting, their art is their voice",
-      "summary": "Planned works include a mural honoring Johan Sebasti\u00e1n Dur\u00e1n Guerrero, a video projection of a peace dove over Biddeford, posters, signs and benefit concerts.",
-      "url": "https://www.pressherald.com/2026/07/19/for-maine-artists-speaking-out-on-biddeford-ice-shooting-their-art-is-their-voice/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8dd56a7c3072",
-      "title": "Obituary: Shirley Jane Jones",
-      "summary": "SACO / BIDDEFORD - Shirley Jane Jones, devoted and beloved daughter, sister, aunt, teacher, coach and friend peacefully received her angel ...",
-      "url": "https://www.pressherald.com/2026/07/19/obituaryshirley-jane-jones-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a69f50baebe2",
-      "title": "Death Notice: Shirley Jane Jones",
-      "summary": "Jones, Shirley Jane 86, of Biddeford/Saco, June 27. Service 10 a.m., July 29, Notre Dame Church in Waterville. Celebration 1 p.m., ...",
-      "url": "https://www.pressherald.com/2026/07/19/obituaryshirley-jane-jones/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "19ee91885b7e",
-      "title": "Lawsuit with Springfield student at forefront highlights longstanding problem of segregation in Mass. schools",
-      "summary": "\u201cWhen municipal boundaries consistently separate students by race and wealth, we have a moral and constitutional obligation to ask whether we\u2019re preserving opportunity, or perpetuating inequality,\u201d says Bishop Talbert Swan II.",
-      "url": "https://www.masslive.com/westernmass/2026/07/lawsuit-with-springfield-student-at-forefront-highlights-longstanding-problem-of-segregation-in-mass-schools.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "be017dccd876",
+      "title": "AG: Youth Hospitalized After Serious Assault at YDC, Another Charged as Juvenile",
+      "summary": "The Attorney General's Office confirmed that one of the juveniles incarcerated at the Sununu Youth Services Center in Manchester, formerly and widely known as the Youth Development Center or YDC, has been hospitalized after a serious assault by another youth being held there.\nThe post AG: Youth Hosp",
+      "url": "https://indepthnh.org/2026/07/19/ag-youth-hospitalized-after-serious-assault-another-charged-as-juvenile/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-07-19",
       "category": "news",
       "priority": "medium",
@@ -24472,15 +24486,15 @@
       ]
     },
     {
-      "id": "b79848b8b053",
-      "title": "Maine chefs offer advice on how to stretch your dollar in the kitchen",
-      "summary": "Maine chefs offer helpful tips to help stretch your food budget while still letting you put together delicious meals.",
-      "url": "https://www.bangordailynews.com/2026/07/18/state/state-health/maine-chef-advice-stretch-budget/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-18",
+      "id": "c0eb4b8dcc80",
+      "title": "Zoo Health Club fights eviction from Steeplegate Mall",
+      "summary": "Zoo Health Club continues to fight eviction from the Steeplegate Mall in Concord as the owner plans to tear down most of the building to make way for a mixed-use development, including 600 apartments and a Costco Wholesale.",
+      "url": "https://www.unionleader.com/news/business/zoo-health-club-fights-eviction-from-steeplegate-mall/article_224d4c33-c56e-403c-af4d-4b6ecdafd56b.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-07-17",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24556,20 +24570,6 @@
       ]
     },
     {
-      "id": "73766ce37777",
-      "title": "Judge rejects bid for new lawyer by Burlington man accused of shooting three Palestinian students",
-      "summary": "The ruling Wednesday comes ahead of a trial set for September for Jason Eaton on three counts of attempted murder.\nRead the story on VTDigger here:  Judge rejects bid for new lawyer by Burlington man accused of shooting three Palestinian students.",
-      "url": "https://vtdigger.org/2026/07/15/judge-rejects-bid-for-new-lawyer-by-burlington-man-accused-of-shooting-three-palestinian-students/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "68988279ff0c",
       "title": "Ayotte Signs 20 Bills, Including the Controversial Local School Budget Cap HB 1300",
       "summary": "Gov. Kelly Ayotte signed 20 bills into law this week - including one of the most controversial HB 1300, which requires each municipality to include a question on the 2026 and 2028 ballots capping local school budgets \u201cfor a period of two years.\u201d\u00a0 She also vetoed three bills.\nThe post Ayotte Signs 20",
@@ -24620,7 +24620,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-19T11:49:09.808593",
+      "updated": "2026-07-20T12:58:20.157166",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24730,24 +24730,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-19T11:49:09.808593"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-20T12:58:20.157166"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-19T11:49:09.808593"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-20T12:58:20.157166"
     },
     "migration": {
       "score": 5.0,
@@ -24757,35 +24757,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-19T11:49:09.808593"
+      "updated": "2026-07-20T12:58:20.157166"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-19T11:49:09.808593"
+      "source": "FRED API",
+      "updated": "2026-07-20T12:58:20.157166"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.19",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.19,
+        "score": 7.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-19T11:49:09.808593"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-20T12:58:20.157166"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24794,19 +24794,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-19T11:49:09.808593"
+      "updated": "2026-07-20T12:58:20.157166"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-19T11:49:09.808593"
+    "calculated_at": "2026-07-20T12:58:20.157166"
   }
 }

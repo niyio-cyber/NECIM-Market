@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-20T13:01:00.754441Z",
+  "generated": "2026-07-21T12:16:29.084315Z",
   "summary": {
-    "total_opportunities": 1183,
+    "total_opportunities": 1186,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 44,
-      "NH": 20,
-      "ME": 169,
-      "MA": 602,
+      "VT": 43,
+      "NH": 19,
+      "ME": 174,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 345,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1180,
-      "news": 13,
-      "funding": 3
+      "news": 11,
+      "funding": 6
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24388,13 +24388,41 @@
   ],
   "news": [
     {
-      "id": "d0b6af6fda72",
-      "title": "Bucksport wants vacant downtown lot back after development promise\u00a0falls through",
-      "summary": "SFS Development didn't follow through with agreement to develop the property in exchange for a $1 purchase price, officials said.",
-      "url": "https://www.bangordailynews.com/2026/07/20/hancock/hancock-government/bucksport-wants-vacant-downtown-lot-back-joam40zk0w/",
+      "id": "974c90439a8f",
+      "title": "Susan Collins partially to blame for Biddeford killing | Letter",
+      "summary": "Sen. Collins' voting to allocate $70 billion to federal immigration enforcement showed a stark lack of supervision.",
+      "url": "https://www.pressherald.com/2026/07/21/susan-collins-partially-to-blame-for-biddeford-killing-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-21",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "45c68a1b1409",
+      "title": "Death Notice: Brad Tibbetts",
+      "summary": "Tibbetts, Brad of South Portland, April 17, 2026. Gather, 2 p.m., July 23, Willows on Broadway in South Portland. ...",
+      "url": "https://www.pressherald.com/2026/07/21/obituarybrad-tibbetts/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-21",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c2fa0994bc4e",
+      "title": "Some residents want ICE out of Scarborough. Is that possible?",
+      "summary": "A petition is calling on federal lawmakers to do something about the agency\u2019s facility on Manson Libby Road.",
+      "url": "https://www.bangordailynews.com/2026/07/21/portland/portland-police-courts/ice-out-of-scarborough-petition-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -24402,43 +24430,71 @@
       ]
     },
     {
-      "id": "ae5482cc8958",
-      "title": "Rideshare passenger hit, seriously hurt on Greater Boston highway while fleeing police",
-      "summary": "A rideshare car passenger was struck by oncoming highway traffic in Quincy on Sunday night after they tried to flee from police on foot.",
-      "url": "https://www.masslive.com/news/2026/07/rideshare-passenger-hit-seriously-hurt-on-mass-highway-while-fleeing-police.html",
+      "id": "f77130e89342",
+      "title": "Paving to begin this week at Westfield Middle School parking lot",
+      "summary": "Extensive work over the summer at Westfield Middle School includes a complete redesign of the parking area thanks to an $800,000 MVP grant and repainting of the first floor hallway in the school by the Hampden County Sheriff's Dept.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/paving-to-begin-this-week-at-westfield-middle-school-parking-lot.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-07-20",
-      "category": "news",
+      "date": "2026-07-21",
+      "category": "funding",
       "priority": "high",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "10b406a64213",
+      "title": "It\u2019s a bird! It\u2019s a plane! It\u2019s a very expensive collision!",
+      "summary": "After one of CT's most expensive airplane vs. bird strikes, Danbury Municipal Airport\u2019s team is working to ensure it doesn\u2019t happen again.",
+      "url": "https://ctmirror.org/2026/07/21/ct-airplane-bird-strikes-danbury-airport/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-21",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "6d15e9c38210",
-      "title": "Tipster charged with murder after making anonymous call for 1993 death in Alaska",
-      "summary": "The body was found in a barrel off a remote highway.",
-      "url": "https://www.masslive.com/news/2026/07/tipster-charged-with-murder-after-making-anonymous-call-for-1993-death.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "e0a6e030262f",
+      "title": "Portland council passes downtown entertainment license work-around",
+      "summary": "The change exempts single-day permits from a rule that limits the number of businesses that can hold entertainment licenses downtown.",
+      "url": "https://www.pressherald.com/2026/07/20/portland-council-passes-downtown-entertainment-license-work-around/",
+      "source": "Portland Press Herald",
+      "state": "ME",
       "date": "2026-07-20",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "0190e3d31c44",
-      "title": "MassDOT/MBTA boss Phil Eng has \u2018no timeline\u2019 to step down from dual roles | Bay State Briefing",
-      "summary": "Phil Eng says he\u2019s enjoying his roles as MassDOT secretary and MBTA general manager. He and Gov. Maura Healey said there are no plans to end the arrangement anytime soon.",
-      "url": "https://www.masslive.com/politics/2026/07/no-mad-dash-for-massdot-mbta-chief-phil-eng-to-drop-his-hyphen-bay-state-briefing.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "01e3a003c0f3",
+      "title": "Road deaths have declined globally since 1990 except in poorer countries, study finds",
+      "summary": "NEW YORK (AP) \u2014 Road deaths are declining in the U.S. and worldwide, but lower-income countries aren\u2019t experiencing much of the improvement, according to a study published Monday. Global rates of road injuries and deaths each fell more than 30% between 1990 and 2023, according to the study published",
+      "url": "https://www.bangordailynews.com/2026/07/20/nation/road-deaths-have-declined-globally-since-1990-except-in-poorer-countries-study-finds/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-07-20",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2fc5abdd355b",
+      "title": "Downtown Old Town office building\u00a0listed for $1.1M",
+      "summary": "The listing comes at a time when Old Town officials are trying to boost the city\u2019s economic development.",
+      "url": "https://www.bangordailynews.com/2026/07/20/bangor/bangor-business/old-town-office-building-for-sale/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-20",
+      "category": "funding",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24460,7 +24516,7 @@
     {
       "id": "b882d3156db2",
       "title": "President Trump\u2019s priorities could put a hefty portion of federal grants in Vermont on the chopping block under proposed rule",
-      "summary": "\u201cFederal grants were politicized under the last administration to promote a far-left DEI agenda with projects like drag shows in Ecuador and transgender experiments on mice,\u201d a government spokesperson wrote in an email to VTDIgger. \u201cThat ends now.\u201d\nRead the story on VTDigger here:  President Trump\u2019",
+      "summary": "\u201cFederal grants were politicized under the last administration to promote a far-left DEI agenda with projects like drag shows in Ecuador and transgender experiments on mice,\u201d a government spokesperson wrote in an email to VTDigger. \u201cThat ends now.\u201d\nRead the story on VTDigger here:  President Trump\u2019",
       "url": "https://vtdigger.org/2026/07/19/president-trumps-priorities-could-put-a-hefty-portion-of-federal-grants-in-vermont-on-the-chopping-block-under-proposed-rule/",
       "source": "VTDigger",
       "state": "VT",
@@ -24528,20 +24584,6 @@
       ]
     },
     {
-      "id": "079538c03610",
-      "title": "Shuttered Vermont colleges: reincarnated and repurposed.",
-      "summary": "\"The success will be measured on whether we have preserved opportunity, jobs, community vitality, because the last thing we want is a closed campus to sit idle,\u201d said the Vermont Agency of Commerce and Community Development secretary.\nRead the story on VTDigger here:  Shuttered Vermont colleges: re",
-      "url": "https://vtdigger.org/2026/07/16/shuttered-vermont-colleges-reincarnated-and-repurposed/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e5b77ef152a3",
       "title": "SNHU to sell building and parking garage in Manchester's Millyard",
       "summary": "Southern New Hampshire University will move all of its offices and operations to its main campus on North River Road in Manchester as part of a plan to sell its Millyard building and six-story parking garage.",
@@ -24549,34 +24591,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-07-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b6a5c7551b7c",
-      "title": "Citizens\u2019 group seeks to force gubernatorial debate on property tax",
-      "summary": "Municipal leaders hope a fresh look at CT's enduring property tax problem will push gubernatorial candidates to confront the issue.",
-      "url": "https://ctmirror.org/2026/07/16/ct-citizens-assembly-property-tax-gubernatorial-debate/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "68988279ff0c",
-      "title": "Ayotte Signs 20 Bills, Including the Controversial Local School Budget Cap HB 1300",
-      "summary": "Gov. Kelly Ayotte signed 20 bills into law this week - including one of the most controversial HB 1300, which requires each municipality to include a question on the 2026 and 2028 ballots capping local school budgets \u201cfor a period of two years.\u201d\u00a0 She also vetoed three bills.\nThe post Ayotte Signs 20",
-      "url": "https://indepthnh.org/2026/07/15/ayotte-signs-20-bills-including-the-controversial-local-school-budget-cap-hb-1300/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-07-15",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24620,7 +24634,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-20T13:00:59.903150",
+      "updated": "2026-07-21T12:16:08.458697",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24730,24 +24744,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-20T13:00:59.903150"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-21T12:16:08.458697"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-20T13:00:59.903150"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-21T12:16:08.458697"
     },
     "migration": {
       "score": 5.0,
@@ -24757,35 +24771,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-20T13:00:59.903150"
+      "updated": "2026-07-21T12:16:08.458697"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-20T13:00:59.903150"
+      "source": "FRED API",
+      "updated": "2026-07-21T12:16:08.458697"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.6,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.85 | Diesel $5.19",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.85,
+        "score": 7.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.19,
+        "score": 7.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-20T13:00:59.903150"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-21T12:16:08.458697"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24794,19 +24808,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-20T13:00:59.903150"
+      "updated": "2026-07-21T12:16:08.458697"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-20T13:00:59.903150"
+    "calculated_at": "2026-07-21T12:16:08.458697"
   }
 }

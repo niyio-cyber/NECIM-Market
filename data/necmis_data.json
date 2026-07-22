@@ -1,26 +1,26 @@
 {
-  "generated": "2026-07-21T12:19:59.855717Z",
+  "generated": "2026-07-22T12:19:00.635936Z",
   "summary": {
-    "total_opportunities": 1186,
+    "total_opportunities": 1179,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 19,
-      "ME": 174,
-      "MA": 600,
+      "VT": 44,
+      "NH": 14,
+      "ME": 171,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
       "CT": 345,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1180,
-      "news": 11,
-      "funding": 6
+      "dot_letting": 1176,
+      "news": 13,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,11 +42,11 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 706,
+          "count": 701,
           "value": 3070042217
         },
         "Safety": {
-          "count": 140,
+          "count": 141,
           "value": 959896527
         },
         "Other": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 14,
+          "count": 9,
           "value": 0
         },
         "ME": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 342,
+          "count": 343,
           "value": 0
         },
         "PA": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 12,
+            "count": 7,
             "value": 0
           },
           "Safety": {
@@ -269,7 +269,7 @@
             "value": 0
           },
           "Safety": {
-            "count": 2,
+            "count": 3,
             "value": 0
           },
           "Other": {
@@ -16099,101 +16099,6 @@
       ]
     },
     {
-      "id": "21c0cd063e84",
-      "state": "NH",
-      "project_id": "RFP0619-093026The",
-      "description": "Nashua Bids: City5 BidsEnterprise Resource Planning (ERP) System SoftwareBid No.RFP0619-093026The City of Nashua, NH, herein referred to as \u201cthe City\u201d, is seeking proposals from qualified vendors that possess outs",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Nashua Bids",
-      "district": null,
-      "url": "https://www.nashuanh.gov/Bids.aspx",
-      "source": "Nashua Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f9ba7608e82b",
-      "state": "NH",
-      "project_id": null,
-      "description": "Nashua Bids: WWTF Phase I Upgrade ProjectBid No.IFB0285-072126The City of Nashua, Division of Public Works, invites experienced and qualified firms to submit bids for construction related to the WWTF Phase I Upgra",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Nashua Bids",
-      "district": null,
-      "url": "https://www.nashuanh.gov/Bids.aspx",
-      "source": "Nashua Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f9ba7608e82b",
-      "state": "NH",
-      "project_id": null,
-      "description": "Nashua Bids: WWTF Phase I Upgrade ProjectBid No.IFB0285-072126The City of Nashua, Division of Public Works, invites experienced and qualified firms to submit bids for construction related to the WWTF Phase I Upgra",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Nashua Bids",
-      "district": null,
-      "url": "https://www.nashuanh.gov/Bids.aspx",
-      "source": "Nashua Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f9ba7608e82b",
-      "state": "NH",
-      "project_id": null,
-      "description": "Nashua Bids: WWTF Phase I Upgrade ProjectBid No.IFB0285-072126The City of Nashua, Division of Public Works, invites experienced and qualified firms to submit bids for construction related to the WWTF Phase I Upgra",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Nashua Bids",
-      "district": null,
-      "url": "https://www.nashuanh.gov/Bids.aspx",
-      "source": "Nashua Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f9ba7608e82b",
-      "state": "NH",
-      "project_id": null,
-      "description": "Nashua Bids: WWTF Phase I Upgrade ProjectBid No.IFB0285-072126The City of Nashua, Division of Public Works, invites experienced and qualified firms to submit bids for construction related to the WWTF Phase I Upgra",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Nashua Bids",
-      "district": null,
-      "url": "https://www.nashuanh.gov/Bids.aspx",
-      "source": "Nashua Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "d277ccb007ad",
       "state": "NH",
       "project_id": null,
@@ -17470,6 +17375,26 @@
       "fiscal_year": "FY2026",
       "project_type": "Bridge",
       "location": "Route 1",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "38c9063f406a",
+      "state": "CT",
+      "project_id": "0171-0504",
+      "description": "INSTALLATION AND REVISION OF TRAFFIC CONTROL SIGNALS IN DISTRICT 1",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-08-19",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "CT 1",
       "district": null,
       "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
       "source": "CTDOT Q&A",
@@ -24388,27 +24313,27 @@
   ],
   "news": [
     {
-      "id": "974c90439a8f",
-      "title": "Susan Collins partially to blame for Biddeford killing | Letter",
-      "summary": "Sen. Collins' voting to allocate $70 billion to federal immigration enforcement showed a stark lack of supervision.",
-      "url": "https://www.pressherald.com/2026/07/21/susan-collins-partially-to-blame-for-biddeford-killing-letter/",
+      "id": "0b6e7da5c7ec",
+      "title": "Biddeford leaders, residents call for justice, accountability in wake of fatal ICE shooting",
+      "summary": "While city leaders' proclamations were met with applause, many of the roughly 40 residents at Tuesday\u2019s meeting called for action by the city.",
+      "url": "https://www.pressherald.com/2026/07/21/biddeford-leaders-residents-call-for-justice-accountability-in-wake-of-fatal-ice-shooting/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-21",
-      "category": "funding",
+      "date": "2026-07-22",
+      "category": "news",
       "priority": "high",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
-      "id": "45c68a1b1409",
-      "title": "Death Notice: Brad Tibbetts",
-      "summary": "Tibbetts, Brad of South Portland, April 17, 2026. Gather, 2 p.m., July 23, Willows on Broadway in South Portland. ...",
-      "url": "https://www.pressherald.com/2026/07/21/obituarybrad-tibbetts/",
-      "source": "Portland Press Herald",
+      "id": "e47f172a69e0",
+      "title": "Roadwork taking shape on Presque Isle bypass",
+      "summary": "This second phase of the roadway will stretch 6.17 miles from Conant Road to Route 1 just outside Westfield.",
+      "url": "https://www.bangordailynews.com/2026/07/22/aroostook/aroostook-government/presque-isle-bypass-update-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24416,31 +24341,101 @@
       ]
     },
     {
-      "id": "c2fa0994bc4e",
-      "title": "Some residents want ICE out of Scarborough. Is that possible?",
-      "summary": "A petition is calling on federal lawmakers to do something about the agency\u2019s facility on Manson Libby Road.",
-      "url": "https://www.bangordailynews.com/2026/07/21/portland/portland-police-courts/ice-out-of-scarborough-petition-joam40zk0w/",
+      "id": "90643c953fdb",
+      "title": "Canada cancels joint bridge-opening event with US after Trump announces tariffs",
+      "summary": "WASHINGTON (AP) \u2014 A planned joint U.S.-Canada ceremony Friday celebrating the opening of the Gordie Howe International Bridge connecting Detroit and Windsor, Ontario, is no longer expected to take place after President Donald Trump announced a 50% tariff on most Canadian goods. In announcing the tar",
+      "url": "https://www.bangordailynews.com/2026/07/21/nation/canada-cancels-joint-bridge-opening-event-with-us-after-trump-announces-tariffs/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-07-21",
-      "category": "funding",
+      "date": "2026-07-22",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "72856ef7967a",
+      "title": "Police try to address residents\u2019 concerns regarding automatic license plate readers on town roads",
+      "summary": "During the Southwick Select Board\u2019s meeting Monday, it was perhaps David Methe who summed up the tension created between public safety and individual privacy during a discussion about the police department potentially installing three automatic license plate readers in town.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/police-try-to-address-residents-concerns-regarding-automatic-license-plate-readers-on-town-roads.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-22",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "f77130e89342",
-      "title": "Paving to begin this week at Westfield Middle School parking lot",
-      "summary": "Extensive work over the summer at Westfield Middle School includes a complete redesign of the parking area thanks to an $800,000 MVP grant and repainting of the first floor hallway in the school by the Hampden County Sheriff's Dept.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/paving-to-begin-this-week-at-westfield-middle-school-parking-lot.html",
+      "id": "b9d1ac54f24d",
+      "title": "Panera just put a 30-drink limit on its once-unlimited beverage subscription",
+      "summary": "Panera joins other subscription programs cracking down on account sharing as it prepares a broader loyalty program overhaul.",
+      "url": "https://www.masslive.com/food/2026/07/panera-bread-cuts-unlimited-drinks-sets-new-cap-for-sip-club.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-07-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a10875664a10",
+      "title": "How 'red boxing' turns these Mass. campaign websites into road maps for dark money",
+      "summary": "Candidates aren't supposed to coordinate with super PACs. But a little-known tactic called \"red boxing\" helps them send messages anyway.",
+      "url": "https://www.masslive.com/politics/2026/07/the-back-door-way-big-money-is-getting-involved-in-these-key-mass-races.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c365b5cbf5dc",
+      "title": "What the wildfire smoke is telling us",
+      "summary": "Recent fires in California and smoke from Canadian wildfires drifting across the Northeast are different events, but they point to a shared reality: wildfire conditions and smoke do not respect borders. Together, they raise a broader question about what is making dangerous fire conditions more likel",
+      "url": "https://ctmirror.org/2026/07/22/what-is-the-smoke-is-telling-us/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "abdc04d2f376",
+      "title": "Judge denies bid by suspect\u2019s lawyers in border patrol agent killing to change records screening process",
+      "summary": "Attorneys for Teresa Youngblut had called on the federal judge overseeing the death penalty case in Vermont to set a new system after what they described as \u201cfailures\u201d with the current method.\nRead the story on VTDigger here:  Judge denies bid by suspect\u2019s lawyers in border patrol agent killing to",
+      "url": "https://vtdigger.org/2026/07/21/judge-denies-bid-by-suspects-lawyers-in-border-patrol-agent-killing-to-change-records-screening-process/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-07-21",
       "category": "funding",
       "priority": "high",
       "business_lines": [
-        "hma"
+        "highway"
+      ]
+    },
+    {
+      "id": "ce9474ff41bf",
+      "title": "After Fatal ICE Shootings, Shaheen, Hassan Join Colleagues in Renewing Demands to DHS for Civilian Protections, Greater Transparency",
+      "summary": "The measures called for by the Senators are intended to help prevent future deadly encounters involving ICE enforcement officers\u2014and come after two recent fatal shootings during immigration enforcement operations in Biddeford, Maine, and Houston, Texas. \nThe post After Fatal ICE Shootings, Shaheen,",
+      "url": "https://indepthnh.org/2026/07/21/after-fatal-ice-shootings-shaheen-hassan-join-colleagues-in-renewing-demands-to-dhs-for-civilian-protections-greater-transparency/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-07-21",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "ready_mix"
       ]
     },
     {
@@ -24452,48 +24447,6 @@
       "state": "CT",
       "date": "2026-07-21",
       "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e0a6e030262f",
-      "title": "Portland council passes downtown entertainment license work-around",
-      "summary": "The change exempts single-day permits from a rule that limits the number of businesses that can hold entertainment licenses downtown.",
-      "url": "https://www.pressherald.com/2026/07/20/portland-council-passes-downtown-entertainment-license-work-around/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "01e3a003c0f3",
-      "title": "Road deaths have declined globally since 1990 except in poorer countries, study finds",
-      "summary": "NEW YORK (AP) \u2014 Road deaths are declining in the U.S. and worldwide, but lower-income countries aren\u2019t experiencing much of the improvement, according to a study published Monday. Global rates of road injuries and deaths each fell more than 30% between 1990 and 2023, according to the study published",
-      "url": "https://www.bangordailynews.com/2026/07/20/nation/road-deaths-have-declined-globally-since-1990-except-in-poorer-countries-study-finds/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "2fc5abdd355b",
-      "title": "Downtown Old Town office building\u00a0listed for $1.1M",
-      "summary": "The listing comes at a time when Old Town officials are trying to boost the city\u2019s economic development.",
-      "url": "https://www.bangordailynews.com/2026/07/20/bangor/bangor-business/old-town-office-building-for-sale/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-20",
-      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24556,34 +24509,6 @@
       ]
     },
     {
-      "id": "1717581cea56",
-      "title": "Himes calls Trump\u2019s election speech \u2018easily disprovable lies\u2019",
-      "summary": "Trump bemoaned vulnerabilities in the country's election infrastructure but didn't provide evidence of interference or election tampering.",
-      "url": "https://ctmirror.org/2026/07/17/jim-himes-donald-trump-election-fraud-lies/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-17",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ece5db8f0c51",
-      "title": "CT redoubles efforts to equip workforce for AI economy",
-      "summary": "Business and development leaders hope AI will usher in a productivity boom, but workers are concerned. CT has big plans to train them.",
-      "url": "https://ctmirror.org/2026/07/17/artificial-intelligence-raise-us-workforce-ct/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-17",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e5b77ef152a3",
       "title": "SNHU to sell building and parking garage in Manchester's Millyard",
       "summary": "Southern New Hampshire University will move all of its offices and operations to its main campus on North River Road in Manchester as part of a plan to sell its Millyard building and six-story parking garage.",
@@ -24610,20 +24535,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "4813c3ab4701",
-      "title": "The Moore Center welcomes new chief financial officer",
-      "summary": "The Moore Center, a Manchester-based nonprofit providing services to individuals with developmental and intellectual disabilities and acquired brain disorders as well as services to children and senior citizens, recently hired experienced financial leader Mahesh Bhatia as chief financial officer.",
-      "url": "https://www.unionleader.com/news/business/the-moore-center-welcomes-new-chief-financial-officer/article_ff156335-4c25-4d95-aa86-7fb397c0c918.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-07-12",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24634,7 +24545,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-21T12:19:59.054323",
+      "updated": "2026-07-22T12:18:47.087499",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24744,24 +24655,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-21T12:19:59.054323"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-22T12:18:47.087499"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-21T12:19:59.054323"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-22T12:18:47.087499"
     },
     "migration": {
       "score": 5.0,
@@ -24771,35 +24682,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-21T12:19:59.054323"
+      "updated": "2026-07-22T12:18:47.087499"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1003200.0000000001,
+      "raw_display": "1003K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-21T12:19:59.054323"
+      "source": "FRED API",
+      "updated": "2026-07-22T12:18:47.087499"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 7.3,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.01 | Diesel $5.40",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.01,
+        "score": 7.5,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.4,
+        "score": 7.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-21T12:19:59.054323"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-22T12:18:47.087499"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24808,19 +24719,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-21T12:19:59.054323"
+      "updated": "2026-07-22T12:18:47.087499"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-21T12:19:59.054323"
+    "calculated_at": "2026-07-22T12:18:47.087499"
   }
 }

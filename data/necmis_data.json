@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T12:22:33.504872Z",
+  "generated": "2026-07-23T12:16:32.572235Z",
   "summary": {
     "total_opportunities": 1179,
     "total_value_low": 10119560641,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 44,
       "NH": 14,
-      "ME": 171,
+      "ME": 169,
       "MA": 602,
       "NY": 1,
       "RI": 7,
@@ -18,9 +18,9 @@
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1176,
-      "news": 13,
-      "funding": 3
+      "dot_letting": 1175,
+      "news": 11,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -46,7 +46,7 @@
           "value": 3070042217
         },
         "Safety": {
-          "count": 141,
+          "count": 140,
           "value": 959896527
         },
         "Other": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 343,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -269,7 +269,7 @@
             "value": 0
           },
           "Safety": {
-            "count": 3,
+            "count": 2,
             "value": 0
           },
           "Other": {
@@ -17283,26 +17283,6 @@
       "project_type": "Bridge"
     },
     {
-      "id": "309e605df873",
-      "state": "CT",
-      "project_id": "0088-0203",
-      "description": "Replace Noise Barrier/Guiderail on Route 72 EB between CT 555 & 372",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-22",
-      "fiscal_year": "FY2026",
-      "project_type": "Safety",
-      "location": "Route 72",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "61dc19333148",
       "state": "CT",
       "project_id": "0102-0372-R1",
@@ -24313,13 +24293,13 @@
   ],
   "news": [
     {
-      "id": "0b6e7da5c7ec",
-      "title": "Biddeford leaders, residents call for justice, accountability in wake of fatal ICE shooting",
-      "summary": "While city leaders' proclamations were met with applause, many of the roughly 40 residents at Tuesday\u2019s meeting called for action by the city.",
-      "url": "https://www.pressherald.com/2026/07/21/biddeford-leaders-residents-call-for-justice-accountability-in-wake-of-fatal-ice-shooting/",
+      "id": "05ea721dcbab",
+      "title": "Susan Collins must go | Letter",
+      "summary": "I had a hard time sleeping last night. I could not stop thinking about the 3-year-old girl in Biddeford who lost her father on July 13, shot right through the windshield of the car, with her in the backseat. It is an unspeakable horror and heartbreak. And it would never have happened without Sen. Su",
+      "url": "https://www.pressherald.com/2026/07/23/susan-collins-must-go-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24327,12 +24307,82 @@
       ]
     },
     {
-      "id": "e47f172a69e0",
-      "title": "Roadwork taking shape on Presque Isle bypass",
-      "summary": "This second phase of the roadway will stretch 6.17 miles from Conant Road to Route 1 just outside Westfield.",
-      "url": "https://www.bangordailynews.com/2026/07/22/aroostook/aroostook-government/presque-isle-bypass-update-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "0705801832de",
+      "title": "C-SPAN: Republican Scott Brown Speaks to Veterans in Concord",
+      "summary": "InDepthNH.org is partnering with C-SPAN's Campaign 2026\u00a0imitative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail. Please watch for video of the candidates in which C-SPAN will provide nonprofit newsrooms with free access to on-the-ground election coverage\nThe post C-SPAN: Republica",
+      "url": "https://indepthnh.org/2026/07/22/c-span-republican-scott-brown-speaks-to-veterans-in-concord/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-07-23",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "52e014a773db",
+      "title": "Southwick fiber-optic network project to start soon",
+      "summary": "With the Southwick Select Board approving a municipal agreement with Whip City Fiber during its meeting Monday to build a town-owned fiber optic network, the project\u2019s construction should start soon.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/southwick-fiber-optic-network-project-to-start-soon.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-23",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "8a3b2cd1be2d",
+      "title": "Westfield Planning Board OKs outdoor equipment sales at Southampton Road",
+      "summary": "Westfield approved retail sales and indoor servicing of outdoor power equipment at 1026 Southampton Road under new permit conditions.",
+      "url": "https://www.masslive.com/westfieldnews/2026/07/westfield-planning-board-oks-outdoor-equipment-sales-at-southampton-road.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-23",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "77bd34ee3fdd",
+      "title": "Kohl's makes you walk through 2 aisles of impulse buys \u2014 and Reddit is done with it",
+      "summary": "A Reddit post about Kohl's pre-register aisles sparked a broader reckoning with the retail tricks engineered into every shopping trip.",
+      "url": "https://www.masslive.com/business/2026/07/reddit-users-slam-kohls-for-forcing-customers-through-impulse-gauntlet.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-23",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5ea3cddf40a5",
+      "title": "\u2018A step forward\u2019: Deep in the new federal housing law, changes to disaster recovery funding are brewing",
+      "summary": "Although the new law about the Department of Housing and Urban Development\u2019s long-term disaster recovery program leaves key questions open, experts say it moves in the right direction.\nRead the story on VTDigger here:  \u2018A step forward\u2019: Deep in the new federal housing law, changes to disaster recov",
+      "url": "https://vtdigger.org/2026/07/22/a-step-forward-deep-in-the-new-federal-housing-law-changes-to-disaster-recovery-funding-are-brewing/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-22",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "935e865865ad",
+      "title": "Brattleboro weighs a municipal tax hike to aid the local hospital\u2019s endangered birthing center",
+      "summary": "The selectboard may hold a special Town Meeting to ask residents to help subsidize a facility that\u2019s losing money due to cost and staffing challenges and declining births.\nRead the story on VTDigger here:  Brattleboro weighs a municipal tax hike to aid the local hospital\u2019s endangered birthing cente",
+      "url": "https://vtdigger.org/2026/07/22/brattleboro-weighs-a-municipal-tax-hike-to-aid-the-local-hospitals-endangered-birthing-center/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-07-22",
       "category": "news",
       "priority": "medium",
@@ -24341,56 +24391,14 @@
       ]
     },
     {
-      "id": "90643c953fdb",
-      "title": "Canada cancels joint bridge-opening event with US after Trump announces tariffs",
-      "summary": "WASHINGTON (AP) \u2014 A planned joint U.S.-Canada ceremony Friday celebrating the opening of the Gordie Howe International Bridge connecting Detroit and Windsor, Ontario, is no longer expected to take place after President Donald Trump announced a 50% tariff on most Canadian goods. In announcing the tar",
-      "url": "https://www.bangordailynews.com/2026/07/21/nation/canada-cancels-joint-bridge-opening-event-with-us-after-trump-announces-tariffs/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "3971b6aa8caa",
+      "title": "Westport registrars demonstrate voting machines as federal pressures mount",
+      "summary": "Westport\u2019s election security is similar to other municipalities in CT. The town's registrars encourage residents to see it for themselves.",
+      "url": "https://ctmirror.org/2026/07/22/westport-ct-voting-machines/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "72856ef7967a",
-      "title": "Police try to address residents\u2019 concerns regarding automatic license plate readers on town roads",
-      "summary": "During the Southwick Select Board\u2019s meeting Monday, it was perhaps David Methe who summed up the tension created between public safety and individual privacy during a discussion about the police department potentially installing three automatic license plate readers in town.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/police-try-to-address-residents-concerns-regarding-automatic-license-plate-readers-on-town-roads.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-22",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b9d1ac54f24d",
-      "title": "Panera just put a 30-drink limit on its once-unlimited beverage subscription",
-      "summary": "Panera joins other subscription programs cracking down on account sharing as it prepares a broader loyalty program overhaul.",
-      "url": "https://www.masslive.com/food/2026/07/panera-bread-cuts-unlimited-drinks-sets-new-cap-for-sip-club.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-22",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a10875664a10",
-      "title": "How 'red boxing' turns these Mass. campaign websites into road maps for dark money",
-      "summary": "Candidates aren't supposed to coordinate with super PACs. But a little-known tactic called \"red boxing\" helps them send messages anyway.",
-      "url": "https://www.masslive.com/politics/2026/07/the-back-door-way-big-money-is-getting-involved-in-these-key-mass-races.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-22",
-      "category": "news",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24453,48 +24461,6 @@
       ]
     },
     {
-      "id": "13d149a8738d",
-      "title": "Vermont\u2019s new education law pays districts to merge. It doesn\u2019t make them save.",
-      "summary": "Act 170 sets deadlines and creates regional service areas but leaves out efficiency targets, oversight and any requirement that savings actually materialize before construction aid flows.\nRead the story on VTDigger here:  Vermont\u2019s new education law pays districts to merge. It doesn\u2019t make them sav",
-      "url": "https://vtdigger.org/2026/07/19/opinion-vermonts-new-education-law-pays-districts-to-merge-it-doesnt-make-them-save/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b882d3156db2",
-      "title": "President Trump\u2019s priorities could put a hefty portion of federal grants in Vermont on the chopping block under proposed rule",
-      "summary": "\u201cFederal grants were politicized under the last administration to promote a far-left DEI agenda with projects like drag shows in Ecuador and transgender experiments on mice,\u201d a government spokesperson wrote in an email to VTDigger. \u201cThat ends now.\u201d\nRead the story on VTDigger here:  President Trump\u2019",
-      "url": "https://vtdigger.org/2026/07/19/president-trumps-priorities-could-put-a-hefty-portion-of-federal-grants-in-vermont-on-the-chopping-block-under-proposed-rule/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-19",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "be017dccd876",
-      "title": "AG: Youth Hospitalized After Serious Assault at YDC, Another Charged as Juvenile",
-      "summary": "The Attorney General's Office confirmed that one of the juveniles incarcerated at the Sununu Youth Services Center in Manchester, formerly and widely known as the Youth Development Center or YDC, has been hospitalized after a serious assault by another youth being held there.\nThe post AG: Youth Hosp",
-      "url": "https://indepthnh.org/2026/07/19/ag-youth-hospitalized-after-serious-assault-another-charged-as-juvenile/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-07-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "c0eb4b8dcc80",
       "title": "Zoo Health Club fights eviction from Steeplegate Mall",
       "summary": "Zoo Health Club continues to fight eviction from the Steeplegate Mall in Concord as the owner plans to tear down most of the building to make way for a mixed-use development, including 600 apartments and a Costco Wholesale.",
@@ -24545,7 +24511,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-22T12:22:31.644578",
+      "updated": "2026-07-23T12:16:24.456178",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24655,24 +24621,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
+      "score": 6.1,
+      "trend": "up",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-22T12:22:31.644578"
+      "raw": 8343.201028102214,
+      "raw_display": "8,343 units/mo",
+      "yoy_change": 5.7,
+      "source": "FRED API",
+      "updated": "2026-07-23T12:16:24.456178"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-22T12:22:31.644578"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-23T12:16:24.456178"
     },
     "migration": {
       "score": 5.0,
@@ -24682,35 +24648,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-22T12:22:31.644578"
+      "updated": "2026-07-23T12:16:24.456178"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-22T12:22:31.644578"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-07-23T12:16:24.456178"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 7.3,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.01 | Diesel $5.40",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.01,
+        "score": 7.5,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.4,
+        "score": 7.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-22T12:22:31.644578"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-23T12:16:24.456178"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24719,19 +24685,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-22T12:22:31.644578"
+      "updated": "2026-07-23T12:16:24.456178"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.1,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-22T12:22:31.644578"
+    "calculated_at": "2026-07-23T12:16:24.456178"
   }
 }

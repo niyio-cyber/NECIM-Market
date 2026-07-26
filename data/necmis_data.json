@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T11:57:46.550541Z",
+  "generated": "2026-07-26T11:51:37.517057Z",
   "summary": {
     "total_opportunities": 1179,
     "total_value_low": 10119560641,
@@ -9,17 +9,17 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 43,
-      "NH": 13,
-      "ME": 173,
+      "NH": 12,
+      "ME": 169,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1175,
-      "news": 11,
+      "news": 7,
       "funding": 4
     },
     "pipeline_analysis": {
@@ -24293,41 +24293,41 @@
   ],
   "news": [
     {
-      "id": "579611ea6f83",
-      "title": "Sea Dogs stroll past Rumble Ponies",
-      "summary": "A six-run fifth inning is more than enough for Portland, which picks up another road win.",
-      "url": "https://www.pressherald.com/2026/07/24/sea-dogs-stroll-past-rumble-ponies/",
+      "id": "9c789fdef5ff",
+      "title": "Despite protests and pleas, Biddeford waits on ICE to investigate itself after shooting",
+      "summary": "The sense that an opaque federal agency can kill with impunity has gripped residents and local officials now debating whether they're doing enough to prevent another tragedy \u2014 or if they can do anything at all.",
+      "url": "https://www.pressherald.com/2026/07/26/despite-protests-and-pleas-biddeford-waits-on-ice-to-investigate-itself-after-shooting/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-25",
-      "category": "news",
-      "priority": "medium",
+      "date": "2026-07-26",
+      "category": "funding",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "a182279cadcf",
-      "title": "Choosing safety is about valuing each other",
-      "summary": "\u201cIn the split second when someone justifies driving a little faster, the people working on the road seem to disappear.\u201d",
-      "url": "https://www.bangordailynews.com/2026/07/25/opinion/opinion-contributor/choosing-safety-is-about-valuing-each-other-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-25",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "33255b484c1b",
-      "title": "Officials need help locating family after rabid bat interrupts restaurant meal",
-      "summary": "San Diego County health officials are searching for anyone who may have touched a rabid bat after it landed on a family\u2019s table inside the Yellow Deli Restaurant in Vista, California.",
-      "url": "https://www.masslive.com/news/2026/07/health-officials-seek-diners-after-rabid-bat-lands-on-california-restaurant-table.html",
+      "id": "be99820e8239",
+      "title": "Country music singer making a comeback after hiatus: \u2018We\u2019re hitting the pavement\u2019",
+      "summary": "The 30-year-old singer stepped away from the stage earlier this year.",
+      "url": "https://www.masslive.com/entertainment/2026/07/country-music-singer-making-a-comeback-after-hiatus-were-hitting-the-pavement.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-07-25",
+      "date": "2026-07-26",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
+      "id": "2d2078a15cf6",
+      "title": "P.T. Barnum\u2019s Bridgeport was no circus",
+      "summary": "Barnum helped build Bridgeport into an industrial powerhouse.",
+      "url": "https://ctmirror.org/2026/07/26/pt-barnums-bridgeport-was-no-circus/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-26",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24341,49 +24341,6 @@
       "url": "https://www.unionleader.com/news/business/pease-development-authority-investigation-clears-ports-and-harbors-director-of-harassment-claims/article_ca1601e7-811b-443d-ae58-d634917410d1.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-07-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "99e55729d4a7",
-      "title": "Any pride I had as a taxpayer has been wrecked by ICE | Letter",
-      "summary": "Johan Sebasti\u00e1n Dur\u00e1n Guerrero\u2019s Facebook photo (Portland Press Herald, July 14), taken before the federal government gunned him to a bloody death on the streets of Biddeford, took my heart and entered my memory for life.\u00a0 I take strong pride in paying my federal taxes with the expectation that the",
-      "url": "https://www.pressherald.com/2026/07/24/any-pride-i-had-as-a-taxpayer-has-been-wrecked-by-ice-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-24",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bb2a9c85080f",
-      "title": "Here\u2019s what to know about the Buxton-Hollis bridge replacement",
-      "summary": "Reconstruction of the 80-year-old span that connects Hollis and Buxton will cause traffic delays and necessitate a detour.",
-      "url": "https://www.pressherald.com/2026/07/24/heres-what-to-know-about-the-buxton-hollis-bridge-replacement/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-24",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "3bd0d02c2cd2",
-      "title": "After delay, Portland Congress Square work will stretch through August",
-      "summary": "The latest delay was caused by an unidentified utility line under the roadway.",
-      "url": "https://www.pressherald.com/2026/07/24/after-delay-portland-congress-square-work-will-stretch-through-august/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-07-24",
       "category": "news",
       "priority": "medium",
@@ -24488,20 +24445,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "0705801832de",
-      "title": "C-SPAN: Republican Scott Brown Speaks to Veterans in Concord",
-      "summary": "InDepthNH.org is partnering with C-SPAN's Campaign 2026\u00a0imitative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail. Please watch for video of the candidates in which C-SPAN will provide nonprofit newsrooms with free access to on-the-ground election coverage\nThe post C-SPAN: Republica",
-      "url": "https://indepthnh.org/2026/07/22/c-span-republican-scott-brown-speaks-to-veterans-in-concord/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-07-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24512,7 +24455,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-25T11:57:45.693294",
+      "updated": "2026-07-26T11:51:30.053128",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24622,24 +24565,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-25T11:57:45.693294"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-07-26T11:51:30.053128"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-25T11:57:45.693294"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-26T11:51:30.053128"
     },
     "migration": {
       "score": 5.0,
@@ -24649,35 +24592,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-25T11:57:45.693294"
+      "updated": "2026-07-26T11:51:30.053128"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-25T11:57:45.693294"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-07-26T11:51:30.053128"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 7.3,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.01 | Diesel $5.40",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.01,
+        "score": 7.5,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.4,
+        "score": 7.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-25T11:57:45.693294"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-26T11:51:30.053128"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24686,19 +24629,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-25T11:57:45.693294"
+      "updated": "2026-07-26T11:51:30.053128"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-25T11:57:45.693294"
+    "calculated_at": "2026-07-26T11:51:30.053128"
   }
 }

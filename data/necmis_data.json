@@ -1,17 +1,17 @@
 {
-  "generated": "2026-07-28T12:48:45.479303Z",
+  "generated": "2026-07-29T12:52:49.059118Z",
   "summary": {
-    "total_opportunities": 1439,
+    "total_opportunities": 1440,
     "total_value_low": 12730682438,
     "total_value_high": 17114252870,
     "forward_pipeline": 11794540936.333334,
     "forward_pipeline_display": "$11.8B",
     "pipeline_yoy_pct": -4.0,
     "by_state": {
-      "VT": 41,
-      "NH": 274,
-      "ME": 171,
-      "MA": 599,
+      "VT": 42,
+      "NH": 273,
+      "ME": 174,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 349,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1436,
-      "news": 11,
-      "funding": 3
+      "news": 14,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -22892,6 +22892,27 @@
       ]
     },
     {
+      "id": "ca4b44c6a0a5",
+      "state": "CT",
+      "project_id": "0170-3740",
+      "description": "Upgrade and Installation of Advanced Traffic Management System (ATMS) Along I-84 and Route 8",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-08-26",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "I-84",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
       "id": "38c9063f406a",
       "state": "CT",
       "project_id": "0171-0504",
@@ -27852,26 +27873,6 @@
       ]
     },
     {
-      "id": "cbca7fb39a32",
-      "state": "CT",
-      "project_id": "0170-3740",
-      "description": "CT Project 0170-3740",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "b3cb8fbb0cb8",
       "state": "CT",
       "project_id": "0170-3743",
@@ -29822,13 +29823,27 @@
   ],
   "news": [
     {
-      "id": "710233ad16ae",
-      "title": "Biddeford organizations fear upheaval from proposed community center changes",
-      "summary": "Parks and Recreation Director Lisa Thompson says high demand for space is making a reconfiguration necessary. But groups like Meals on Wheels and the Biddeford Cultural and Heritage Center worry they could lose vital access.",
-      "url": "https://www.pressherald.com/2026/07/28/biddeford-organizations-fear-upheaval-from-proposed-community-center-changes/",
+      "id": "6f2f4d2d7577",
+      "title": "Portland launches strategic plan for urban forest areas as risks persist",
+      "summary": "The city has partnered with the Portland Parks Conservancy and a consulting firm to identify ways to better protect trees against pests, climate change and development.",
+      "url": "https://www.pressherald.com/2026/07/29/portland-launches-strategic-plan-for-urban-forest-areas-as-risks-persist/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d5ec7cbfe139",
+      "title": "No, Maine kids are not alright | Opinion",
+      "summary": "The tragic loss in Biddeford is a reminder that we need to call on Maine's elected officials to prioritize the safety and security of all our children.",
+      "url": "https://www.pressherald.com/2026/07/29/no-maine-kids-are-not-alright-opinion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-29",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -29836,17 +29851,87 @@
       ]
     },
     {
-      "id": "2b39c7bd6455",
-      "title": "ICE agent in Biddeford shooting had \u2018too many red flags\u2019 to become local\u00a0cop",
-      "summary": "Reports that David Brouillette shot and killed a man while working for U.S. Immigration and Customs Enforcement have pushed concerns about his past into a national spotlight.",
-      "url": "https://www.bangordailynews.com/2026/07/28/york/york-police-courts/ice-agent-biddeford-shooting-red-flags/",
-      "source": "Bangor Daily News",
+      "id": "c95ce07347b0",
+      "title": "What does the Hearts of Pine statement about the Biddeford shooting represent?",
+      "summary": "The club's call for ICE to be held accountable for the killing of a Biddeford man puts them in a small minority of pro sports teams to take a stand on human rights issues.",
+      "url": "https://www.pressherald.com/2026/07/29/what-does-the-hearts-of-pine-statement-about-the-biddeford-shooting-represent/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "category": "news",
       "priority": "high",
       "business_lines": [
-        "ready_mix"
+        "highway"
+      ]
+    },
+    {
+      "id": "daa95a078595",
+      "title": "ICE tactics raise alarms in wake of Biddeford shooting",
+      "summary": "The agent who allegedly shot Johan Sebasti\u00e1n Dur\u00e1n Guerrero had stopped another father in a similar circumstance just over a month prior.",
+      "url": "https://www.pressherald.com/2026/07/29/ice-tactics-raise-alarms-in-wake-of-biddeford-shooting/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-29",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1681cc2b40bd",
+      "title": "ICE agent who killed Biddeford\u00a0man left a trail of disputed arrests",
+      "summary": "The BDN reviewed records from four of David Brouillette's past arrests to better understand his conduct during his first months on the job.",
+      "url": "https://www.bangordailynews.com/2026/07/29/mainefocus/mainefocus-police-courts/ice-agent-fatal-biddeford-shooting-disputed-arrests-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-29",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "98b5f3b9abe1",
+      "title": "Why plastic traffic posts are suddenly popping up across Greater Bangor",
+      "summary": "The bollards appeared around the same time on roads in Bangor, Orono, Bradley, Veazie and Hampden.",
+      "url": "https://www.bangordailynews.com/2026/07/29/bangor/bangor-health/plastic-traffic-post-greater-bangor-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-07-29",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "66eb43ea4833",
+      "title": "Police searching for driver who hit bicyclist on Mass. highway",
+      "summary": "After the collision, the driver braked for a brief period, then continued driving into the next town.",
+      "url": "https://www.masslive.com/news/2026/07/police-searching-for-driver-who-hit-bicyclist-on-mass-highway.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-07-29",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1d1c53c88193",
+      "title": "Judge finds Vermont\u2019s federal grants can\u2019t be rescinded if political priorities shift",
+      "summary": "\u201cThis ruling is an important step toward protecting Vermont\u2019s federal funding, now and in the future, from arbitrary termination based on the shifting priorities of the Trump Administration,\u201d Vermont Attorney General Charity Clark wrote. \nRead the story on VTDigger here:  Judge finds Vermont\u2019s fede",
+      "url": "https://vtdigger.org/2026/07/28/judge-finds-vermonts-federal-grants-cant-be-rescinded-if-political-priorities-shift/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-07-28",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
       ]
     },
     {
@@ -29875,20 +29960,6 @@
       "priority": "medium",
       "business_lines": [
         "highway"
-      ]
-    },
-    {
-      "id": "37ab28277d58",
-      "title": "ICE agent in Biddeford shooting had \u2018too many red flags\u2019 to become local cop",
-      "summary": "Reports that David Brouillette shot and killed a man while working for U.S. Immigration and Customs Enforcement have pushed concerns about his past into a national spotlight.",
-      "url": "https://www.pressherald.com/2026/07/27/ice-agent-in-biddeford-shooting-had-too-many-red-flags-to-become-local-cop/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-27",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "ready_mix"
       ]
     },
     {
@@ -29939,20 +30010,6 @@
       "summary": "The Pease Development Authority hired a law firm to conduct an independent investigation into at least two complaints regarding Director of Ports and Harbors Richard Hartley.",
       "url": "https://www.unionleader.com/news/business/pease-development-authority-investigation-clears-ports-and-harbors-director-of-harassment-claims/article_ca1601e7-811b-443d-ae58-d634917410d1.html",
       "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-07-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9150cecc950d",
-      "title": "PDA: Investigation of Ports and Harbors Director Hartley Finds No Harassment; Legislator Questions Probe",
-      "summary": "There was no harassment or retaliation by Ports and Harbors Director Richard Hartley as alleged by one former and one present employee, according to a statement by the Pease Development Authority released Friday.\nThe post PDA: Investigation of Ports and Harbors Director Hartley Finds No Harassment;",
-      "url": "https://indepthnh.org/2026/07/24/pda-investigation-of-ports-and-harbors-director-hartley-finds-no-harassment-legislator-questions-probe/",
-      "source": "InDepthNH",
       "state": "NH",
       "date": "2026-07-24",
       "category": "news",
@@ -30021,12 +30078,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 11727145810.03538,
       "raw_display": "$11.73B",
       "source": "scraper_v2",
-      "updated": "2026-07-28T12:48:45.310326",
+      "updated": "2026-07-29T12:52:39.494673",
       "v2_details": {
         "raw_total": "$12.73B",
         "weighted_total": "$6.52B",
@@ -30136,24 +30193,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-28T12:48:45.310326"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-07-29T12:52:39.494673"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-28T12:48:45.310326"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-29T12:52:39.494673"
     },
     "migration": {
       "score": 5.0,
@@ -30163,35 +30220,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-28T12:48:45.310326"
+      "updated": "2026-07-29T12:52:39.494673"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-28T12:48:45.310326"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-07-29T12:52:39.494673"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.07 | Diesel $5.52",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.07,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.52,
+        "score": 6.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-28T12:48:45.310326"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-29T12:52:39.494673"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30200,19 +30257,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-28T12:48:45.310326"
+      "updated": "2026-07-29T12:52:39.494673"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-28T12:48:45.310326"
+    "calculated_at": "2026-07-29T12:52:39.494673"
   }
 }

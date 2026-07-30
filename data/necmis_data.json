@@ -1,26 +1,26 @@
 {
-  "generated": "2026-07-29T12:55:56.495647Z",
+  "generated": "2026-07-30T12:20:27.136624Z",
   "summary": {
-    "total_opportunities": 1179,
+    "total_opportunities": 1172,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 42,
-      "NH": 12,
-      "ME": 174,
-      "MA": 600,
+      "VT": 43,
+      "NH": 9,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 349,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1175,
-      "news": 14,
-      "funding": 4
+      "dot_letting": 1170,
+      "news": 10,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 701,
+          "count": 699,
           "value": 3070042217
         },
         "Safety": {
@@ -50,7 +50,7 @@
           "value": 959896527
         },
         "Other": {
-          "count": 82,
+          "count": 79,
           "value": 421575313
         }
       },
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 9,
+          "count": 6,
           "value": 0
         },
         "ME": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 342,
+          "count": 340,
           "value": 0
         },
         "PA": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 7,
+            "count": 5,
             "value": 0
           },
           "Safety": {
@@ -183,7 +183,7 @@
             "value": 0
           },
           "Other": {
-            "count": 2,
+            "count": 1,
             "value": 0
           }
         },
@@ -273,7 +273,7 @@
             "value": 0
           },
           "Other": {
-            "count": 2,
+            "count": 0,
             "value": 0
           }
         },
@@ -16118,44 +16118,6 @@
       ]
     },
     {
-      "id": "bc8fbb065244",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-500-52 Highway: Bid - Crack SealingQuestions: DPW_Engineering@manchesternh.gov(603) 624-6444 BIDAppendix A Bids Due:June 25, 2026By 2:00 PM Addendum 1 BID Summary",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a2fe5055d228",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-500-53 Highway: RFP-Repairing and Resufacing School Parking LotsQuestions: DPW_Engineering@manchesternh.gov(603) 624-6444 RFPAppendix A BakersvilleAppendix A Highland Goffes FallAppendix A ListAp",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Other",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "e10c1e7ca275",
       "state": "NH",
       "project_id": null,
@@ -16173,25 +16135,6 @@
       "business_lines": [
         "highway",
         "hma"
-      ]
-    },
-    {
-      "id": "e64e9f0a97bf",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-500-58 Highway: On-Call Transporation Planning ServicesQuestions: Margarete Baldwin, P.E.(603)792-7396mbaldwin@manchesternh.gov RFQ RFQ DUE:June12, 2026By 2:00PM Addendum 1 ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -17323,26 +17266,6 @@
       ]
     },
     {
-      "id": "9e8646c3c269",
-      "state": "CT",
-      "project_id": "0109-0176",
-      "description": "FARMINGTON CANAL HERITAGE TRAIL PHASE 2  ROUTE 72 TO NORTHWEST DRIVE  PLAINVILLE",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-29",
-      "fiscal_year": "FY2026",
-      "project_type": "Other",
-      "location": "ROUTE 72",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "16f88657e225",
       "state": "CT",
       "project_id": "0154-0127",
@@ -17396,26 +17319,6 @@
       "fiscal_year": "FY2026",
       "project_type": "Safety",
       "location": "CT 1",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d5b70a62cf72",
-      "state": "CT",
-      "project_id": "0320-0017",
-      "description": "HARTFORD LINE RAIL PROGRAM -  ENFIELD RAILROAD STATION AND TRACK IMPROVEMENTS",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-07-29",
-      "fiscal_year": "FY2026",
-      "project_type": "Other",
-      "location": "Hartford",
       "district": null,
       "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
       "source": "CTDOT Q&A",
@@ -24294,26 +24197,54 @@
   ],
   "news": [
     {
-      "id": "6f2f4d2d7577",
-      "title": "Portland launches strategic plan for urban forest areas as risks persist",
-      "summary": "The city has partnered with the Portland Parks Conservancy and a consulting firm to identify ways to better protect trees against pests, climate change and development.",
-      "url": "https://www.pressherald.com/2026/07/29/portland-launches-strategic-plan-for-urban-forest-areas-as-risks-persist/",
+      "id": "b1119b2e512c",
+      "title": "Bipartisan federal housing bill offers a model to follow | Douglas Rooks",
+      "summary": "The spirit of cooperation shown during the passage of the 21st Century ROAD to Housing Act should be applied to immigration policy.",
+      "url": "https://www.pressherald.com/2026/07/30/bipartisan-federal-housing-bill-is-a-model-to-follow-douglas-rooks/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-29",
-      "category": "news",
+      "date": "2026-07-30",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "d5ec7cbfe139",
-      "title": "No, Maine kids are not alright | Opinion",
-      "summary": "The tragic loss in Biddeford is a reminder that we need to call on Maine's elected officials to prioritize the safety and security of all our children.",
-      "url": "https://www.pressherald.com/2026/07/29/no-maine-kids-are-not-alright-opinion/",
+      "id": "bebcc35ed9ea",
+      "title": "After Biddeford shooting, Mainers turn their anger on ICE facility in Scarborough",
+      "summary": "The Town Council passed a proclamation calling on Maine's congressional delegation to evaluate the necessity of having the ICE facility in town.",
+      "url": "https://www.pressherald.com/2026/07/29/after-ice-shooting-mainers-turn-their-anger-to-ice-facility-in-scarborough-2/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-07-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4c1791fd5f15",
+      "title": "Thank you, Hartford, for letting me teach. Now save your public schools",
+      "summary": "The recent gutless conduct of state and city officials demonstrates the primacy of a cancerous consensus killing Hartford\u2019s public schools.",
+      "url": "https://ctmirror.org/2026/07/30/thank-you-hartford-for-letting-me-teach-now-save-your-public-schools/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-07-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7956633cbca3",
+      "title": "Vermont Conversation: Author Chris Bohjalian on writing, activism and challenging the language of genocide",
+      "summary": "Bohjalian, who lives in Weybridge, tells aspiring writers to be persistent in their craft. \u201cWrite because you love it. Write in the genre you love to read. Write every day.\u201d\nRead the story on VTDigger here:  Vermont Conversation: Author Chris Bohjalian on writing, activism and challenging the langu",
+      "url": "https://vtdigger.org/2026/07/29/vermont-conversation-author-chris-bohjalian-on-writing-activism-and-challenging-the-language-of-genocide/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-07-29",
       "category": "news",
       "priority": "high",
@@ -24322,71 +24253,15 @@
       ]
     },
     {
-      "id": "c95ce07347b0",
-      "title": "What does the Hearts of Pine statement about the Biddeford shooting represent?",
-      "summary": "The club's call for ICE to be held accountable for the killing of a Biddeford man puts them in a small minority of pro sports teams to take a stand on human rights issues.",
-      "url": "https://www.pressherald.com/2026/07/29/what-does-the-hearts-of-pine-statement-about-the-biddeford-shooting-represent/",
+      "id": "f7e376f76470",
+      "title": "Could a Maine court case lead to broader campaign finance reform?",
+      "summary": "It would take a lot more litigating, but advocates say the potential is there.",
+      "url": "https://www.pressherald.com/2026/07/29/could-a-maine-court-case-lead-to-broader-campaign-finance-reform/",
       "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "daa95a078595",
-      "title": "ICE tactics raise alarms in wake of Biddeford shooting",
-      "summary": "The agent who allegedly shot Johan Sebasti\u00e1n Dur\u00e1n Guerrero had stopped another father in a similar circumstance just over a month prior.",
-      "url": "https://www.pressherald.com/2026/07/29/ice-tactics-raise-alarms-in-wake-of-biddeford-shooting/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-07-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1681cc2b40bd",
-      "title": "ICE agent who killed Biddeford\u00a0man left a trail of disputed arrests",
-      "summary": "The BDN reviewed records from four of David Brouillette's past arrests to better understand his conduct during his first months on the job.",
-      "url": "https://www.bangordailynews.com/2026/07/29/mainefocus/mainefocus-police-courts/ice-agent-fatal-biddeford-shooting-disputed-arrests-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "98b5f3b9abe1",
-      "title": "Why plastic traffic posts are suddenly popping up across Greater Bangor",
-      "summary": "The bollards appeared around the same time on roads in Bangor, Orono, Bradley, Veazie and Hampden.",
-      "url": "https://www.bangordailynews.com/2026/07/29/bangor/bangor-health/plastic-traffic-post-greater-bangor-joam40zk0w/",
-      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-07-29",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "66eb43ea4833",
-      "title": "Police searching for driver who hit bicyclist on Mass. highway",
-      "summary": "After the collision, the driver braked for a brief period, then continued driving into the next town.",
-      "url": "https://www.masslive.com/news/2026/07/police-searching-for-driver-who-hit-bicyclist-on-mass-highway.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-07-29",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24462,20 +24337,6 @@
       ]
     },
     {
-      "id": "2d2078a15cf6",
-      "title": "P.T. Barnum\u2019s Bridgeport was no circus",
-      "summary": "Barnum helped build Bridgeport into an industrial powerhouse.",
-      "url": "https://ctmirror.org/2026/07/26/pt-barnums-bridgeport-was-no-circus/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "d4df6b9f8945",
       "title": "Pease Development Authority investigation clears Ports and Harbors director of harassment claims",
       "summary": "The Pease Development Authority hired a law firm to conduct an independent investigation into at least two complaints regarding Director of Ports and Harbors Richard Hartley.",
@@ -24484,48 +24345,6 @@
       "state": "NH",
       "date": "2026-07-24",
       "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7204330c7e6c",
-      "title": "Bronin campaign, Iran war votes, TPS holders: CT politics news",
-      "summary": "Plus: Work stacks up for Congress post-recess, a report condemns \"extorded compliance,\" and CT puts $10M towards rural infrastructure.",
-      "url": "https://ctmirror.org/2026/07/24/ct-politics-bronin-campaign-iran-war-votes-tps-holders/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-24",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "761c64a6b050",
-      "title": "After delays, CT finalizes $53M in federal disaster relief for farmers",
-      "summary": "Eligible CT farmers will soon get to apply for a portion of disaster relief from a federal grant for smaller farming states.",
-      "url": "https://ctmirror.org/2026/07/24/federal-disaster-relief-for-connecticut-farmers/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-24",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ab91b34cac05",
-      "title": "Landmark federal housing law tries new ways to boost local building",
-      "summary": "Cities\u2014not the federal government\u2014control most development through zoning. The law takes a new approach to nudge them toward more housing.",
-      "url": "https://ctmirror.org/2026/07/24/road-to-housing-act-cities-hartford/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-07-24",
-      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24549,12 +24368,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-29T12:55:55.601840",
+      "updated": "2026-07-30T12:20:17.467774",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24664,24 +24483,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-29T12:55:55.601840"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-07-30T12:20:17.467774"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-29T12:55:55.601840"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-07-30T12:20:17.467774"
     },
     "migration": {
       "score": 5.0,
@@ -24691,35 +24510,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-29T12:55:55.601840"
+      "updated": "2026-07-30T12:20:17.467774"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-29T12:55:55.601840"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-07-30T12:20:17.467774"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.07 | Diesel $5.52",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.07,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.52,
+        "score": 6.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-29T12:55:55.601840"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-07-30T12:20:17.467774"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24728,19 +24547,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-29T12:55:55.601840"
+      "updated": "2026-07-30T12:20:17.467774"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-29T12:55:55.601840"
+    "calculated_at": "2026-07-30T12:20:17.467774"
   }
 }

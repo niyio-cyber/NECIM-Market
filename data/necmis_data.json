@@ -1,26 +1,26 @@
 {
-  "generated": "2026-07-31T12:52:05.792107Z",
+  "generated": "2026-08-01T11:53:21.215771Z",
   "summary": {
-    "total_opportunities": 1172,
+    "total_opportunities": 1171,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 9,
-      "ME": 171,
+      "VT": 42,
+      "NH": 8,
+      "ME": 173,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1170,
-      "news": 9,
-      "funding": 2
+      "news": 11,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24197,13 +24197,42 @@
   ],
   "news": [
     {
-      "id": "8d2ce3ec1689",
-      "title": "Maine DHHS should pause Lifespan Waiver | Opinion",
-      "summary": "While its goals to help individuals with intellectual and developmental disabilities are laudable, more time is needed to address key concerns.",
-      "url": "https://www.pressherald.com/2026/07/31/maine-dhhs-should-pause-lifespan-waiver-opinion/",
+      "id": "b63b3a47d7c1",
+      "title": "Pleased with Portland\u2019s new paving | Letter",
+      "summary": "I am loving all the freshly paved roads in Portland and the surrounding areas. It\u2019s wonderful to drive on them. I want to thank Portland Public Works and the Maine Department of Transportation. I appreciate their hard work.\u00a0 Jennifer TuchinskyPortland",
+      "url": "https://www.pressherald.com/2026/08/01/pleased-with-portlands-new-paving-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-07-31",
+      "date": "2026-08-01",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
+      "id": "73d2f69b9db8",
+      "title": "The harrowing truth about Trump, ICE | Letter",
+      "summary": "Regarding the ICE killing in Biddeford, everyone should remember that President Donald Trump and the Republicans in Congress are OK with ICE killing people. If they weren\u2019t, they\u2019d stop it. It\u2019s that simple. Jack\u00a0WaltonPalm Springs, Calif.",
+      "url": "https://www.pressherald.com/2026/08/01/the-harrowing-truth-about-trump-ice-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-01",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fc6774baddbf",
+      "title": "Red Sox keep rolling, take opener against Dodgers",
+      "summary": "A five-run seventh inning lifts Boston to another road victory.",
+      "url": "https://www.pressherald.com/2026/08/01/red-sox-keep-rolling-take-opener-against-dodgers/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-01",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24211,41 +24240,54 @@
       ]
     },
     {
-      "id": "4692e5db8268",
-      "title": "Main Street bridge in Caribou closed until November",
-      "summary": "The culvert will be replaced with a wider concrete arch designed to allow moose, deer and other large animals to pass under Route 164.",
-      "url": "https://www.bangordailynews.com/2026/07/31/aroostook/aroostook-government/main-street-bridge-caribou-closed-joam40zk0w/",
+      "id": "ca4bc42697b2",
+      "title": "Letter: Trapping is inhumane",
+      "summary": "\u201cWhy is this activity considered a sport or even permitted?\u201d",
+      "url": "https://www.bangordailynews.com/2026/08/01/opinion/letters/letter-trapping-is-inhumane-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-07-31",
+      "date": "2026-08-01",
       "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "e76ddffd9732",
-      "title": "Letter: Maine roads need to be cleared of vegetation",
-      "summary": "\u201cAlong miles of state roads, highways and interstates, trees, brush, and tall grass have been allowed to grow mostly unchecked it seems, creating a serious safety hazard that should no longer be ignored.\u201d",
-      "url": "https://www.bangordailynews.com/2026/07/31/opinion/letters/letter-maine-roads-need-to-be-cleared-of-vegetation-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-07-31",
-      "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "a3653697566e",
-      "title": "Public asked to stay off Westfield athletic fields amid ongoing construction",
-      "summary": "Officials urge the public to avoid Westfield High's new fields during construction for safety and to prevent project delays.",
-      "url": "https://www.masslive.com/westfieldnews/2026/07/public-asked-to-stay-off-westfield-athletic-fields-amid-ongoing-construction.html",
+      "id": "28a6f2e76505",
+      "title": "Americans give Republicans and Democrats brutal ratings on #1 issue: New poll",
+      "summary": "Voters are split when it comes to each party\u2019s handling of broad economic issues",
+      "url": "https://www.masslive.com/politics/2026/08/americans-give-republicans-and-democrats-brutal-ratings-on-1-issue-new-poll.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-08-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4e59817b41a6",
+      "title": "As a Gorham quarry pursues expansion, neighbors push back",
+      "summary": "The town will hire a consultant to see how Gorham's ordinances that regulate the Brickyard Quarry compare to other municipalities.",
+      "url": "https://www.pressherald.com/2026/07/31/as-a-gorham-quarry-pursues-expansion-neighbors-push-back/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-07-31",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "96ce9c6425c5",
+      "title": "Opposition builds to redevelopment on Norwalk\u2019s Manresa Island",
+      "summary": "An application for a special zoning district for Manresa Island raised concerns among neighbors who now want more vetting of the project.",
+      "url": "https://ctmirror.org/2026/07/31/manresa-island-opposition-norwalk/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-07-31",
       "category": "news",
       "priority": "medium",
@@ -24296,20 +24338,6 @@
       ]
     },
     {
-      "id": "1d1c53c88193",
-      "title": "Judge finds Vermont\u2019s federal grants can\u2019t be rescinded if political priorities shift",
-      "summary": "\u201cThis ruling is an important step toward protecting Vermont\u2019s federal funding, now and in the future, from arbitrary termination based on the shifting priorities of the Trump Administration,\u201d Vermont Attorney General Charity Clark wrote. \nRead the story on VTDigger here:  Judge finds Vermont\u2019s fede",
-      "url": "https://vtdigger.org/2026/07/28/judge-finds-vermonts-federal-grants-cant-be-rescinded-if-political-priorities-shift/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-07-28",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "70203cbf6b49",
       "title": "The Fox Run mall in Newington is on the road to rubble",
       "summary": "Complete demolition of the Mall at Fox Run and its adjacent Newington Shopping Center is set to be complete by the end of 2026, making way for the development of Seacoast Landing, a sprawling mixed-use retail project.",
@@ -24336,20 +24364,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "37e789fce973",
-      "title": "Hooksett lowers tax incentives for Marmon development",
-      "summary": "The Hooksett Town Council reduced its business growth incentives for Marmon Defense this week compared with what it discussed with the Manchester-based firm last year.",
-      "url": "https://www.unionleader.com/news/local/hooksett/hooksett-lowers-tax-incentives-for-marmon-development/article_300e6901-3430-4f0c-9929-b57b1a7985cd.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-07-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24360,7 +24374,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-07-31T12:52:05.645501",
+      "updated": "2026-08-01T11:53:10.216026",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24470,24 +24484,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-31T12:52:05.645501"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-01T11:53:10.216026"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.5,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-31T12:52:05.645501"
+      "raw": 151701.0,
+      "raw_display": "$151.7B SAAR",
+      "yoy_change": 3.0,
+      "source": "FRED API",
+      "updated": "2026-08-01T11:53:10.216026"
     },
     "migration": {
       "score": 5.0,
@@ -24497,35 +24511,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-07-31T12:52:05.645501"
+      "updated": "2026-08-01T11:53:10.216026"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-07-31T12:52:05.645501"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-01T11:53:10.216026"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.07 | Diesel $5.52",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.07,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.52,
+        "score": 6.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-07-31T12:52:05.645501"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-01T11:53:10.216026"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24534,19 +24548,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-07-31T12:52:05.645501"
+      "updated": "2026-08-01T11:53:10.216026"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-07-31T12:52:05.645501"
+    "calculated_at": "2026-08-01T11:53:10.216026"
   }
 }

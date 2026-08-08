@@ -1,26 +1,26 @@
 {
-  "generated": "2026-08-07T11:38:54.639864Z",
+  "generated": "2026-08-08T11:17:32.860934Z",
   "summary": {
-    "total_opportunities": 1172,
+    "total_opportunities": 1175,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 44,
-      "NH": 10,
-      "ME": 173,
-      "MA": 600,
+      "VT": 45,
+      "NH": 9,
+      "ME": 170,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 339,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1167,
-      "news": 10,
-      "funding": 5
+      "dot_letting": 1171,
+      "news": 11,
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,15 +38,15 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 250,
+          "count": 253,
           "value": 5668046584
         },
         "Pavement": {
-          "count": 700,
+          "count": 699,
           "value": 3070042217
         },
         "Safety": {
-          "count": 138,
+          "count": 140,
           "value": 959896527
         },
         "Other": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 337,
+          "count": 341,
           "value": 0
         },
         "PA": {
@@ -261,15 +261,15 @@
         },
         "CT": {
           "Bridge": {
-            "count": 0,
+            "count": 3,
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 336,
             "value": 0
           },
           "Safety": {
-            "count": 0,
+            "count": 2,
             "value": 0
           },
           "Other": {
@@ -17226,6 +17226,128 @@
       "project_type": "Bridge"
     },
     {
+      "id": "43b7d924cc61",
+      "state": "CT",
+      "project_id": "0068-0217",
+      "description": "Replacement of Bridge No. 02599 Route 101 Over Alvia Chase Reservoir",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-09-02",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "Route 101",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "9d58d480f403",
+      "state": "CT",
+      "project_id": "0083-0270",
+      "description": "REHABILITATION OF BRIDGE NO. 06770   SR 796 (MILFORD PARKWAY EXTENSION)   OVER UNNAMED BROOK",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-09-02",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "SR 796",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a01628a44af5",
+      "state": "CT",
+      "project_id": "0103-0278",
+      "description": "SAFETY IMPROVEMENTS AT THE INTERSECTION OF SR-642 AND STURTEVANT STREET",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-08-12",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "16f88657e225",
+      "state": "CT",
+      "project_id": "0154-0127",
+      "description": "Rehabilitation of Bridge No. 00349 US Route 1 Over Patchogue River",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-08-12",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "Route 1",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ca4b44c6a0a5",
+      "state": "CT",
+      "project_id": "0170-3740",
+      "description": "Upgrade and Installation of Advanced Traffic Management System (ATMS) Along I-84 and Route 8",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-08-26",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "I-84",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
+      "id": "38c9063f406a",
+      "state": "CT",
+      "project_id": "0171-0504",
+      "description": "INSTALLATION AND REVISION OF TRAFFIC CONTROL SIGNALS IN DISTRICT 1",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-08-19",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "CT 1",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "1e2881998d9a",
       "state": "CT",
       "project_id": "PROJECT",
@@ -21186,26 +21308,6 @@
       ]
     },
     {
-      "id": "9ce82b200060",
-      "state": "CT",
-      "project_id": "0103-0278",
-      "description": "CT Project 0103-0278",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "af1facc05a48",
       "state": "CT",
       "project_id": "0103-0282",
@@ -22150,26 +22252,6 @@
       "state": "CT",
       "project_id": "0124-0173",
       "description": "CT Project 0124-0173",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "cbca7fb39a32",
-      "state": "CT",
-      "project_id": "0170-3740",
-      "description": "CT Project 0170-3740",
       "cost_low": null,
       "cost_high": null,
       "cost_display": "TBD",
@@ -24136,13 +24218,55 @@
   ],
   "news": [
     {
-      "id": "7580a329be3a",
-      "title": "ICE will release body camera video only when seen in the agency\u2019s \u2018best interests,\u2019 policy says",
-      "summary": "Immigration and Customs Enforcement is moving to equip officers with body cameras in the next two months but the agency\u2019s policy gives it broad control over what footage will be made public by specifying any releases must be in its \u201cbest interests.\u201d After years of delays, ICE said its field officers",
-      "url": "https://www.bangordailynews.com/2026/08/07/nation/ice-will-release-body-camera-video-only-when-seen-in-the-agencys-best-interests-policy-says/",
+      "id": "0bdf702f5cea",
+      "title": "Road trip",
+      "summary": "Vacationland!",
+      "url": "https://www.bangordailynews.com/2026/08/08/opinion/danby-ink/road-trip/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "761ae1da75f1",
+      "title": "Top trending sports headlines this week August 4-8: ICYMI",
+      "summary": "Former NFL wide receiver Ray Jarvis died at age 77, longtime Giants broadcaster Mike Krukow announced his retirement and more trending sports headlines you may have missed this week, August 4-8, 2026.",
+      "url": "https://www.masslive.com/sports/2026/08/top-trending-sports-headlines-icymi-aug-4-8.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "98663b6574a4",
+      "title": "Board of Health looks to crack down on unpermitted food trucks",
+      "summary": "Using two examples of businesses and food trucks not following the town\u2019s food truck permitting process, Southwick's health director has asked the Board the Health to draft rules that would possibly establish fines for violating the rules.",
+      "url": "https://www.masslive.com/westfieldnews/2026/08/board-of-health-looks-to-crack-down-on-unpermitted-food-trucks.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "57eb051b8947",
+      "title": "Conservation Commission issues enforcement order for homeowner",
+      "summary": "The owner of a home on South Road in Southwick was issued an enforcement order by the Conservation Commission for sediment flow from his property that inundated a protected wetland area after a heavy rainstorm Monday.",
+      "url": "https://www.masslive.com/westfieldnews/2026/08/conservation-commission-issues-enforcement-order-for-homeowner.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-08",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24151,10 +24275,38 @@
       ]
     },
     {
-      "id": "3e972b7342d4",
-      "title": "She wanted to build an addition for her aging parents. Now she\u2019s suing her contractor over work that doesn\u2019t meet code.",
-      "summary": "The Cape Elizabeth woman\u2019s experience shows how difficult it can be to financially recover when a homeowner is dissatisfied with a construction project.",
-      "url": "https://www.bangordailynews.com/2026/08/07/business/business-housing/maine-woman-suing-contractor-work-doesnt-meet-code-joam40zk0w/",
+      "id": "5e052cf71553",
+      "title": "Compensate Vermonters for the cost of coexisting with beavers",
+      "summary": "Beavers provide broad benefits to Vermont's landscape, but the people who bear the personal costs of living near them shouldn't have to foot the bill alone.\nRead the story on VTDigger here:  Compensate Vermonters for the cost of coexisting with beavers.",
+      "url": "https://vtdigger.org/2026/08/07/opinion-compensate-vermonters-for-the-cost-of-coexisting-with-beavers/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-08-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d4e66e896a9f",
+      "title": "ICE agents arrest several in Londonderry operation",
+      "summary": "The people arrested were targeted while traveling to a construction job site, according to a member of Two Rivers Area Indivisible, an immigrants rights activist group in the area. \nRead the story on VTDigger here:  ICE agents arrest several in Londonderry operation.",
+      "url": "https://vtdigger.org/2026/08/07/ice-agents-arrest-several-in-londonderry-operation/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-08-07",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "42b519a59fe3",
+      "title": "Maine man accused of pointing gun at woman and child in Connecticut road rage incident",
+      "summary": "The incident allegedly started when the driver of a red Honda sedan brake-checked a woman on Route 15 in Westport.",
+      "url": "https://www.bangordailynews.com/2026/08/07/central-maine/central-maine-police-courts/maine-man-arrested-connecticut-road-rage/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-08-07",
@@ -24165,43 +24317,15 @@
       ]
     },
     {
-      "id": "c12386d7718b",
-      "title": "How\u00a0southern Aroostook is changing its education to build the local workforce",
-      "summary": "\u201cWe want you in our buildings talking about your businesses just like we want our students in your buildings learning from you about what you do,\u201d RSU 29 Superintendent Joe Fagnant told the Southern Aroostook Development Corporation\u00a0board and other business leaders in Houlton on Wednesday.",
-      "url": "https://www.bangordailynews.com/2026/08/07/aroostook/aroostook-education/aroostook-education-business-partnership-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "0157fea74b32",
+      "title": "Bridgeport\u2019s Steelpointe Harbor project wraps up first residential phase",
+      "summary": "The project overcame funding challenges and morphed from a luxury development to allotting a certain number of middle-income apartments.",
+      "url": "https://ctmirror.org/2026/08/07/bridgeport-steelepointe-harbor-residential/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-08-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "691a9e62ce8e",
-      "title": "Ellsworth boutique and hair salon owner opens city\u2019s only gelato stand",
-      "summary": "Maple & Cream, sits in the parking lot of Fika Boutique, at the intersection of High Street and Beechland Road.",
-      "url": "https://www.bangordailynews.com/2026/08/07/hancock/hancock-business/ellsworth-gelato-stand-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a500345f00e5",
-      "title": "A new solution to road fixes? Make TikTok videos.",
-      "summary": "One content creator complained about squiggly lines near his house.",
-      "url": "https://www.masslive.com/news/2026/08/a-new-solution-to-road-fixes-make-tiktok-videos.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-07",
-      "category": "news",
-      "priority": "medium",
+      "category": "funding",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24244,20 +24368,6 @@
       "date": "2026-08-06",
       "category": "funding",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "166a411656f6",
-      "title": "Maine community colleges to expand skilled manufacturing training",
-      "summary": "A federal grant will allow 600 more students to take free courses that prepare them for skilled manufacturing and defense industry jobs.",
-      "url": "https://www.pressherald.com/2026/08/06/maine-community-colleges-to-expand-manufacturing-training/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-06",
-      "category": "funding",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24317,34 +24427,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "dbdbad763089",
-      "title": "Judge allows clergy abuse claimants to sue for parish assets in Vermont Catholic bankruptcy case",
-      "summary": "The state\u2019s largest religious denomination has yet to respond to a court decision permitting creditors to file a lawsuit for an estimated $500 million in local properties and possessions the church has sheltered in trusts.\nRead the story on VTDigger here:  Judge allows clergy abuse claimants to sue",
-      "url": "https://vtdigger.org/2026/08/04/judge-allows-clergy-abuse-claimants-to-sue-for-parish-assets-in-vermont-catholic-bankruptcy-case/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-04",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "202d52801b8b",
-      "title": "Goodlander Calls for Federal YDC Abuse Investigation",
-      "summary": "Breaking the seal on federal action, U.S. Rep. Maggie Goodlander (D-2nd Congressional District) is calling for a federal investigation into current and historic abuses inside the Sununu Youth Services Center, formerly called the Youth Development Center or YDC.\nThe post Goodlander Calls for Federal",
-      "url": "https://indepthnh.org/2026/08/04/goodlander-calls-for-federal-ydc-abuse-investigation/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-04",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24355,7 +24437,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-07T11:38:54.403524",
+      "updated": "2026-08-08T11:17:25.995906",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24465,24 +24547,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-07T11:38:54.403524"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-08T11:17:25.995906"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-07T11:38:54.403524"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-08T11:17:25.995906"
     },
     "migration": {
       "score": 5.0,
@@ -24492,35 +24574,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-07T11:38:54.403524"
+      "updated": "2026-08-08T11:17:25.995906"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-07T11:38:54.403524"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-08T11:17:25.995906"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.07 | Diesel $5.55",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.07,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.55,
+        "score": 6.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-07T11:38:54.403524"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-08T11:17:25.995906"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24529,19 +24611,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-07T11:38:54.403524"
+      "updated": "2026-08-08T11:17:25.995906"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-07T11:38:54.403524"
+    "calculated_at": "2026-08-08T11:17:25.995906"
   }
 }

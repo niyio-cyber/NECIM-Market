@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-08T11:20:57.614283Z",
+  "generated": "2026-08-09T11:17:48.717595Z",
   "summary": {
-    "total_opportunities": 1175,
+    "total_opportunities": 1176,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 45,
       "NH": 9,
-      "ME": 170,
-      "MA": 602,
+      "ME": 174,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1171,
-      "news": 11,
-      "funding": 4
+      "news": 13,
+      "funding": 5
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24218,10 +24218,94 @@
   ],
   "news": [
     {
-      "id": "0bdf702f5cea",
-      "title": "Road trip",
-      "summary": "Vacationland!",
-      "url": "https://www.bangordailynews.com/2026/08/08/opinion/danby-ink/road-trip/",
+      "id": "a13f4e1dfa87",
+      "title": "Collins absolutely deserves blame for Biddeford ICE killing | Letter",
+      "summary": "This was not an isolated incident and the senator should not dodge the consequences of her support for the agency.",
+      "url": "https://www.pressherald.com/2026/08/09/collins-absolutely-deserves-blame-for-biddeford-ice-killing-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a5ec9c899b26",
+      "title": "Comparing immigration policies | Letter",
+      "summary": "The recent immigration enforcement operation in Biddeford, which resulted in the fatal shooting of a legal immigrant, has left Mainers with many unanswered questions about immigration laws and what role federal agencies play in our communities. The recent tragedy reminds us of the importance of exam",
+      "url": "https://www.pressherald.com/2026/08/09/comparing-immigration-policies-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-09",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "223146c60c44",
+      "title": "Obituary: Nancy Small",
+      "summary": "SHAPLEIGH - Nancy Small, 96, lifelong Shapleigh resident, EMT, sailor, knitter, and Bridge Grand Master.\n\nPhoto of Nancy Small, at home in ...",
+      "url": "https://www.pressherald.com/2026/08/09/obituarynancy-small-4/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "24079b65e9f3",
+      "title": "Fire crews battle blaze at old Moosehead\u00a0Mill",
+      "summary": "A permitted debris burn got out of control at a Monson mill Saturday night, destroying at least three buildings.",
+      "url": "https://www.bangordailynews.com/2026/08/09/piscataquis/piscataquis-police-courts/fire-crews-battle-blaze-old-moosehead-mill-monson/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-09",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d775933b01f5",
+      "title": "Asking Eric: Beloved bridge player is struggling and it\u2019s affecting the whole group",
+      "summary": "Some people have quit the group because of this person's inability to keep up with the games.",
+      "url": "https://www.masslive.com/advice/2026/08/asking-eric-beloved-bridge-player-is-struggling-and-its-affecting-the-whole-group.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e9be6db08790",
+      "title": "Is it time for CT to tax EVs?",
+      "summary": "Why do electric vehicle drivers pay much less toward the upkeep of our highways even though they contribute to their wear and tear?",
+      "url": "https://ctmirror.org/2026/08/09/is-it-time-for-ct-to-tax-evs/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-08-09",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "34c8ec870301",
+      "title": "Hannaford recalls deli, produce items due to possible salmonella contamination",
+      "summary": "The Hannaford recall is part of a broader recall by jalapeno supplier Coast Citrus Distributors, company officials said.",
+      "url": "https://www.bangordailynews.com/2026/08/08/state/state-health/hannaford-recalls-deli-produce-items-due-to-possible-salmonella-contamination/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-08-08",
@@ -24232,46 +24316,17 @@
       ]
     },
     {
-      "id": "761ae1da75f1",
-      "title": "Top trending sports headlines this week August 4-8: ICYMI",
-      "summary": "Former NFL wide receiver Ray Jarvis died at age 77, longtime Giants broadcaster Mike Krukow announced his retirement and more trending sports headlines you may have missed this week, August 4-8, 2026.",
-      "url": "https://www.masslive.com/sports/2026/08/top-trending-sports-headlines-icymi-aug-4-8.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "db8f9dac0c8a",
+      "title": "Belfast\u2019s East Side is a \u2018business graveyard\u2019 compared with Searsport",
+      "summary": "The municipalities take a different approach to economic development, the author says.",
+      "url": "https://www.bangordailynews.com/2026/08/08/midcoast/midcoast-business/belfasts-east-side-business-graveyard-compared-to-searsport/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-08-08",
       "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
-      ]
-    },
-    {
-      "id": "98663b6574a4",
-      "title": "Board of Health looks to crack down on unpermitted food trucks",
-      "summary": "Using two examples of businesses and food trucks not following the town\u2019s food truck permitting process, Southwick's health director has asked the Board the Health to draft rules that would possibly establish fines for violating the rules.",
-      "url": "https://www.masslive.com/westfieldnews/2026/08/board-of-health-looks-to-crack-down-on-unpermitted-food-trucks.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-08",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "57eb051b8947",
-      "title": "Conservation Commission issues enforcement order for homeowner",
-      "summary": "The owner of a home on South Road in Southwick was issued an enforcement order by the Conservation Commission for sediment flow from his property that inundated a protected wetland area after a heavy rainstorm Monday.",
-      "url": "https://www.masslive.com/westfieldnews/2026/08/conservation-commission-issues-enforcement-order-for-homeowner.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-08",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway",
-        "ready_mix"
       ]
     },
     {
@@ -24297,20 +24352,6 @@
       "state": "VT",
       "date": "2026-08-07",
       "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "42b519a59fe3",
-      "title": "Maine man accused of pointing gun at woman and child in Connecticut road rage incident",
-      "summary": "The incident allegedly started when the driver of a red Honda sedan brake-checked a woman on Route 15 in Westport.",
-      "url": "https://www.bangordailynews.com/2026/08/07/central-maine/central-maine-police-courts/maine-man-arrested-connecticut-road-rage/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-07",
-      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24437,7 +24478,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-08T11:20:57.445530",
+      "updated": "2026-08-09T11:17:41.370572",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24547,24 +24588,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-08T11:20:57.445530"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-09T11:17:41.370572"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-08T11:20:57.445530"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-09T11:17:41.370572"
     },
     "migration": {
       "score": 5.0,
@@ -24574,35 +24615,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-08T11:20:57.445530"
+      "updated": "2026-08-09T11:17:41.370572"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-08T11:20:57.445530"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-09T11:17:41.370572"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.07 | Diesel $5.55",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.07,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.55,
+        "score": 6.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-08T11:20:57.445530"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-09T11:17:41.370572"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24611,19 +24652,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-08T11:20:57.445530"
+      "updated": "2026-08-09T11:17:41.370572"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-08T11:20:57.445530"
+    "calculated_at": "2026-08-09T11:17:41.370572"
   }
 }

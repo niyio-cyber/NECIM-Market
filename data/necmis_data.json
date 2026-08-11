@@ -1,26 +1,26 @@
 {
-  "generated": "2026-08-10T11:41:34.866878Z",
+  "generated": "2026-08-11T11:34:26.305635Z",
   "summary": {
-    "total_opportunities": 1175,
+    "total_opportunities": 1174,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 44,
-      "NH": 12,
-      "ME": 169,
-      "MA": 599,
+      "VT": 43,
+      "NH": 13,
+      "ME": 174,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1171,
-      "news": 10,
-      "funding": 4
+      "news": 19,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24218,6 +24218,174 @@
   ],
   "news": [
     {
+      "id": "e444449581a0",
+      "title": "Sea Dogs chase their dreams while living the ever-changing life of a minor leaguer",
+      "summary": "There are more than a few twists, turns and exits on the road to Major League Baseball.",
+      "url": "https://www.pressherald.com/2026/08/11/sea-dogs-chase-their-dreams-while-living-the-ever-changing-life-of-a-minor-leaguer/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2d6d8466614a",
+      "title": "The time to implement the Lifespan Waiver is now | Letter",
+      "summary": "A recent op-ed about the new Lifespan Waiver applauded the goals of the waiver, while suggesting that its implementation be paused due to concerns that it will not achieve its goals (\u201cMaine DHHS should pause Lifespan Waiver,\u201d July 31). The Maine Developmental Services Oversight and Advisory Board is",
+      "url": "https://www.pressherald.com/2026/08/11/the-time-to-implement-the-lifespan-waiver-is-now-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c1605d5d1b55",
+      "title": "We need to learn to live with Canada geese | Letter",
+      "summary": "I have been made aware of several instances of Canada geese being removed and killed in South Portland and Scarborough. The geese are protected by the Migratory Bird Treaty Act. However, this protection can be waived by getting a permit that allows the killing \u2014 even for the \u201ccrime\u201d of pooping. Kill",
+      "url": "https://www.pressherald.com/2026/08/11/we-need-to-learn-to-live-with-canada-geese-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5758a53de136",
+      "title": "Obituary: Eleanor Knight",
+      "summary": "SANFORD - Eleanor was born in Biddeford, on Sept. 12, 1932, the daughter of William P. and Edith Clough Thomas. Eleanor ...",
+      "url": "https://www.pressherald.com/2026/08/11/obituaryeleanor-knight-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "38d319127eb1",
+      "title": "Obituary: Maryanne Gilbert",
+      "summary": "BIDDEFORD - Maryanne Gilbert, 70, passed away Saturday, Aug. 8, 2026 after brief illness. She is survived by husband John Gilbert, ...",
+      "url": "https://www.pressherald.com/2026/08/11/obituarymaryanne-gilbert-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6320f6068444",
+      "title": "Sanford Mainers bid for NECBL title on hold after postponement",
+      "summary": "Game 2 of the NECBL championship series against the Danbury Westerners was rained out and will be made up Tuesday.",
+      "url": "https://www.pressherald.com/2026/08/10/sanford-mainers-bid-at-necbl-title-on-hold-after-postponement/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3138dd324e60",
+      "title": "Littleville Fair features its iconic events for the 104th year",
+      "summary": "The 104th Littleville Fair took place from Aug. 7-9 at 15 Kinnebrook Road. All of the fair\u2019s most famous events, including the oxen draws, truck pull, bingo and Line Dancing with Stompin\u2019 Boots, returned this year. Performances included Cris Merenda & the Wheel, October Mountain Band, the Pitoniak B",
+      "url": "https://www.masslive.com/westfieldnews/2026/08/littleville-fair-features-its-iconic-events-for-the-104th-year.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bf27fce7561c",
+      "title": "Can a city require a permit for prayer at home? Supreme Court will decide",
+      "summary": "An Ohio homeowner\u2019s Supreme Court case over a home prayer gathering could reshape religious freedom claims, zoning disputes and First Amendment rights.",
+      "url": "https://www.masslive.com/news/2026/08/what-started-in-an-ohio-rec-room-could-change-religious-rights-nationwide.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f268dd128064",
+      "title": "A CT prisoner\u2019s gratitude for education",
+      "summary": "We are not students in the true sense of that word and we are not permitted to fully commit or engage in the educational experience.",
+      "url": "https://ctmirror.org/2026/08/11/to-the-educators-who-care-ian-t/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-08-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0405d7c4dba7",
+      "title": "U.S. House Candidate Hollie Noveletsky Campaigns at Red Arrow Diner",
+      "summary": "InDepthNH.org is partnering with C-SPAN\u2019s Campaign 2026\u00a0initiative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail.\nThe post U.S. House Candidate Hollie Noveletsky Campaigns at Red Arrow Diner appeared first on InDepthNH.org.",
+      "url": "https://indepthnh.org/2026/08/10/u-s-house-candidate-hollie-noveletsky-campaigns-at-red-arrow-diner/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-08-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "59714bddd193",
+      "title": "Durham Sex Offender Arrested After Throwing Fireworks At Police",
+      "summary": "On Monday, August 10, 2026, at approximately 6:00 a.m., the Durham Police Department attempted to serve an arrest warrant at 16 Denbow Road on Rory Robertson (age 46), of Durham.\nThe post Durham Sex Offender Arrested After Throwing Fireworks At Police appeared first on InDepthNH.org.",
+      "url": "https://indepthnh.org/2026/08/10/durham-sex-offender-arrested-after-throwing-fireworks-at-police/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-08-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bd530426c30f",
+      "title": "ConnCAT founder Clemons steps down to focus on sister organization ConnCORP",
+      "summary": "The shared goal of ConnCAT and ConnCORP is to promote economic empowerment and community development in New Haven\u2019s Black communities.",
+      "url": "https://ctmirror.org/2026/08/10/conncat-conncorp-new-haven-erik-clemons-ct/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-08-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "4e7f1f8872c3",
       "title": "Chester Planning Board to resume hearing on plan for 34 tiny homes",
       "summary": "It\u2019s been several weeks since the last public hearing on a proposed small house development plan in Chester.",
@@ -24238,20 +24406,6 @@
       "url": "https://www.unionleader.com/news/business/secondwind-water-systems-expands-with-new-seacoast-location/article_d807fa3a-ebfd-4144-8def-af511c1bdf10.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-08-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9d441bc4ef2b",
-      "title": "Edgecomb man dead after truck crash in Wiscasset",
-      "summary": "Investigators believe a medical event may have led to the single-vehicle crash on Wiscasset Road in Boothbay.",
-      "url": "https://www.bangordailynews.com/2026/08/09/midcoast/midcoast-police-courts/edgecomb-man-dead-after-truck-crash-in-wiscasset/",
-      "source": "Bangor Daily News",
-      "state": "ME",
       "date": "2026-08-09",
       "category": "news",
       "priority": "medium",
@@ -24344,20 +24498,6 @@
       ]
     },
     {
-      "id": "b0cc12be5957",
-      "title": "Local development corporation wins bid for former Montpelier post office",
-      "summary": "The final auction price of $540,000 was far under the federal government\u2019s initial asking price.\nRead the story on VTDigger here:  Local development corporation wins bid for former Montpelier post office.",
-      "url": "https://vtdigger.org/2026/08/06/local-development-corporation-wins-bid-for-former-montpelier-post-office/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-06",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "4b8cbb0c2189",
       "title": "Agency ends 39% household cap on local TV station owners",
       "summary": "The Federal Communications Commission voted on Thursday to rescind the rule that bars local broadcast station owners from reaching more than 39% of U.S. TV households in a move that could spark industry consolidation.",
@@ -24367,34 +24507,6 @@
       "date": "2026-08-06",
       "category": "funding",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "7a6e8d40c479",
-      "title": "U.S. Rep Chris Pappas D-NH Talks Social Security on C-SPAN",
-      "summary": "InDepthNH.org is partnering with C-SPAN\u2019s Campaign 2026\u00a0initiative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail.\u00a0Please watch for video of the candidates in which C-SPAN will provide nonprofit newsrooms with free access to on-the-ground election coverage. \nThe post U.S. Rep Chris",
-      "url": "https://indepthnh.org/2026/08/06/u-s-rep-chris-pappas-d-nh-talks-social-security-on-c-span/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a66612e425af",
-      "title": "Waterbury\u2019s water main breaks: A century of aging infrastructure",
-      "summary": "The recent failures beneath Waterbury's streets were not isolated incidents but warnings from an aging infrastructure network.",
-      "url": "https://ctmirror.org/2026/08/06/waterburys-water-main-breaks-arent-just-bad-luck-theyre-the-result-of-a-century-of-aging-infrastructure-tavares/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-06",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24422,7 +24534,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-10T11:41:34.634682",
+      "updated": "2026-08-11T11:34:16.959875",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24532,24 +24644,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-10T11:41:34.634682"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-11T11:34:16.959875"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-10T11:41:34.634682"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-11T11:34:16.959875"
     },
     "migration": {
       "score": 5.0,
@@ -24559,35 +24671,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-10T11:41:34.634682"
+      "updated": "2026-08-11T11:34:16.959875"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-10T11:41:34.634682"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-11T11:34:16.959875"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.07 | Diesel $5.55",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.07,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.55,
+        "score": 6.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-10T11:41:34.634682"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-11T11:34:16.959875"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24596,19 +24708,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-10T11:41:34.634682"
+      "updated": "2026-08-11T11:34:16.959875"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-10T11:41:34.634682"
+    "calculated_at": "2026-08-11T11:34:16.959875"
   }
 }

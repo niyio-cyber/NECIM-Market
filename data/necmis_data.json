@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T11:37:44.999219Z",
+  "generated": "2026-08-12T11:36:31.432617Z",
   "summary": {
     "total_opportunities": 1174,
     "total_value_low": 10119560641,
@@ -8,19 +8,19 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 13,
-      "ME": 174,
-      "MA": 601,
+      "VT": 41,
+      "NH": 12,
+      "ME": 171,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1171,
-      "news": 19,
-      "funding": 3
+      "dot_letting": 1172,
+      "news": 10,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 699,
+          "count": 700,
           "value": 3070042217
         },
         "Safety": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 341,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -265,7 +265,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 336,
+            "count": 337,
             "value": 0
           },
           "Safety": {
@@ -17287,6 +17287,27 @@
       ]
     },
     {
+      "id": "5dec7f198356",
+      "state": "CT",
+      "project_id": "0124-0165",
+      "description": "SPOT IMPROVEMENTS ON RIVER STREET (ROUTE 313)",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-09-16",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "ROUTE 313",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
       "id": "16f88657e225",
       "state": "CT",
       "project_id": "0154-0127",
@@ -24218,13 +24239,13 @@
   ],
   "news": [
     {
-      "id": "e444449581a0",
-      "title": "Sea Dogs chase their dreams while living the ever-changing life of a minor leaguer",
-      "summary": "There are more than a few twists, turns and exits on the road to Major League Baseball.",
-      "url": "https://www.pressherald.com/2026/08/11/sea-dogs-chase-their-dreams-while-living-the-ever-changing-life-of-a-minor-leaguer/",
+      "id": "b62317f7fd00",
+      "title": "A former long-haul trucking dispatcher returns to the road in debut novel",
+      "summary": "South Portland\u2019s Ryan Lowell writes about a high-stakes heist in 'Freight.'",
+      "url": "https://www.pressherald.com/2026/08/12/a-former-long-haul-trucking-dispatcher-returns-to-the-road-in-debut-novel/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24232,41 +24253,13 @@
       ]
     },
     {
-      "id": "2d6d8466614a",
-      "title": "The time to implement the Lifespan Waiver is now | Letter",
-      "summary": "A recent op-ed about the new Lifespan Waiver applauded the goals of the waiver, while suggesting that its implementation be paused due to concerns that it will not achieve its goals (\u201cMaine DHHS should pause Lifespan Waiver,\u201d July 31). The Maine Developmental Services Oversight and Advisory Board is",
-      "url": "https://www.pressherald.com/2026/08/11/the-time-to-implement-the-lifespan-waiver-is-now-letter/",
+      "id": "edff4e01336a",
+      "title": "Danbury comeback delays Sanford\u2019s bid for NECBL title",
+      "summary": "The Mainers can't hold on to a five-run lead but will have another chance to win the championship series on Wednesday.",
+      "url": "https://www.pressherald.com/2026/08/11/danbury-comeback-delays-sanfords-bid-for-necbl-title/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-08-11",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c1605d5d1b55",
-      "title": "We need to learn to live with Canada geese | Letter",
-      "summary": "I have been made aware of several instances of Canada geese being removed and killed in South Portland and Scarborough. The geese are protected by the Migratory Bird Treaty Act. However, this protection can be waived by getting a permit that allows the killing \u2014 even for the \u201ccrime\u201d of pooping. Kill",
-      "url": "https://www.pressherald.com/2026/08/11/we-need-to-learn-to-live-with-canada-geese-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-11",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5758a53de136",
-      "title": "Obituary: Eleanor Knight",
-      "summary": "SANFORD - Eleanor was born in Biddeford, on Sept. 12, 1932, the daughter of William P. and Edith Clough Thomas. Eleanor ...",
-      "url": "https://www.pressherald.com/2026/08/11/obituaryeleanor-knight-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24274,41 +24267,13 @@
       ]
     },
     {
-      "id": "38d319127eb1",
-      "title": "Obituary: Maryanne Gilbert",
-      "summary": "BIDDEFORD - Maryanne Gilbert, 70, passed away Saturday, Aug. 8, 2026 after brief illness. She is survived by husband John Gilbert, ...",
-      "url": "https://www.pressherald.com/2026/08/11/obituarymaryanne-gilbert-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-11",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6320f6068444",
-      "title": "Sanford Mainers bid for NECBL title on hold after postponement",
-      "summary": "Game 2 of the NECBL championship series against the Danbury Westerners was rained out and will be made up Tuesday.",
-      "url": "https://www.pressherald.com/2026/08/10/sanford-mainers-bid-at-necbl-title-on-hold-after-postponement/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-11",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3138dd324e60",
-      "title": "Littleville Fair features its iconic events for the 104th year",
-      "summary": "The 104th Littleville Fair took place from Aug. 7-9 at 15 Kinnebrook Road. All of the fair\u2019s most famous events, including the oxen draws, truck pull, bingo and Line Dancing with Stompin\u2019 Boots, returned this year. Performances included Cris Merenda & the Wheel, October Mountain Band, the Pitoniak B",
-      "url": "https://www.masslive.com/westfieldnews/2026/08/littleville-fair-features-its-iconic-events-for-the-104th-year.html",
+      "id": "821bd619188b",
+      "title": "Despite recent rain, mandatory water ban continues in Southwick",
+      "summary": "In the years before the state tied municipal water use to the state\u2019s drought status, Southwick's mandatory water ban would have already been lifted.",
+      "url": "https://www.masslive.com/westfieldnews/2026/08/despite-recent-rain-mandatory-water-ban-continues-in-southwick.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24316,14 +24281,28 @@
       ]
     },
     {
-      "id": "bf27fce7561c",
-      "title": "Can a city require a permit for prayer at home? Supreme Court will decide",
-      "summary": "An Ohio homeowner\u2019s Supreme Court case over a home prayer gathering could reshape religious freedom claims, zoning disputes and First Amendment rights.",
-      "url": "https://www.masslive.com/news/2026/08/what-started-in-an-ohio-rec-room-could-change-religious-rights-nationwide.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-11",
+      "id": "e2b6ca12de6a",
+      "title": "Doug McCrory loses Democratic primary for CT 2nd Senate District",
+      "summary": "Sen. Doug McCrory, a veteran Democratic lawmaker of more than two decades, lost a bid to hold onto his state Senate seat on Tuesday night.",
+      "url": "https://ctmirror.org/2026/08/11/doug-mccrory-primary-general-assembly-house-senate/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-08-12",
       "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "362fb4714653",
+      "title": "Demand for Maine trails grants remains high in second round of funding",
+      "summary": "Stakeholders have started talking about more sustainable funding sources for trail design and development.",
+      "url": "https://www.pressherald.com/2026/08/11/demand-for-maine-trails-grants-remains-high-in-second-round-of-funding/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-11",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24350,34 +24329,6 @@
       "url": "https://indepthnh.org/2026/08/10/u-s-house-candidate-hollie-noveletsky-campaigns-at-red-arrow-diner/",
       "source": "InDepthNH",
       "state": "NH",
-      "date": "2026-08-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "59714bddd193",
-      "title": "Durham Sex Offender Arrested After Throwing Fireworks At Police",
-      "summary": "On Monday, August 10, 2026, at approximately 6:00 a.m., the Durham Police Department attempted to serve an arrest warrant at 16 Denbow Road on Rory Robertson (age 46), of Durham.\nThe post Durham Sex Offender Arrested After Throwing Fireworks At Police appeared first on InDepthNH.org.",
-      "url": "https://indepthnh.org/2026/08/10/durham-sex-offender-arrested-after-throwing-fireworks-at-police/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bd530426c30f",
-      "title": "ConnCAT founder Clemons steps down to focus on sister organization ConnCORP",
-      "summary": "The shared goal of ConnCAT and ConnCORP is to promote economic empowerment and community development in New Haven\u2019s Black communities.",
-      "url": "https://ctmirror.org/2026/08/10/conncat-conncorp-new-haven-erik-clemons-ct/",
-      "source": "CT Mirror",
-      "state": "CT",
       "date": "2026-08-10",
       "category": "news",
       "priority": "medium",
@@ -24414,82 +24365,12 @@
       ]
     },
     {
-      "id": "e9be6db08790",
-      "title": "Is it time for CT to tax EVs?",
-      "summary": "Why do electric vehicle drivers pay much less toward the upkeep of our highways even though they contribute to their wear and tear?",
-      "url": "https://ctmirror.org/2026/08/09/is-it-time-for-ct-to-tax-evs/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-09",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5e052cf71553",
-      "title": "Compensate Vermonters for the cost of coexisting with beavers",
-      "summary": "Beavers provide broad benefits to Vermont's landscape, but the people who bear the personal costs of living near them shouldn't have to foot the bill alone.\nRead the story on VTDigger here:  Compensate Vermonters for the cost of coexisting with beavers.",
-      "url": "https://vtdigger.org/2026/08/07/opinion-compensate-vermonters-for-the-cost-of-coexisting-with-beavers/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d4e66e896a9f",
-      "title": "ICE agents arrest several in Londonderry operation",
-      "summary": "The people arrested were targeted while traveling to a construction job site, according to a member of Two Rivers Area Indivisible, an immigrants rights activist group in the area. \nRead the story on VTDigger here:  ICE agents arrest several in Londonderry operation.",
-      "url": "https://vtdigger.org/2026/08/07/ice-agents-arrest-several-in-londonderry-operation/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-07",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "559000e2ae46",
       "title": "Woodmont Commons gets extension for road upgrades as developer adds 300 more units.",
       "summary": "A Londonderry developer is getting more time to finish road improvements as part of its agreement with the town to improve the corridor before adding more than 300 more units to the Woodmont Commons project.",
       "url": "https://www.unionleader.com/news/local/derry_londonderry/woodmont-commons-gets-extension-for-road-upgrades-as-developer-adds-300-more-units/article_ef829da7-6bf8-49e3-858d-d381363f6458.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-08-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0157fea74b32",
-      "title": "Bridgeport\u2019s Steelpointe Harbor project wraps up first residential phase",
-      "summary": "The project overcame funding challenges and morphed from a luxury development to allotting a certain number of middle-income apartments.",
-      "url": "https://ctmirror.org/2026/08/07/bridgeport-steelepointe-harbor-residential/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-07",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "45c5d4ff64d4",
-      "title": "A reality check for CT\u2019s housing market",
-      "summary": "State and municipal officials control the real answer to CT housing shortage: allowing higher density zoning and cutting local red tape.",
-      "url": "https://ctmirror.org/2026/08/07/a-reality-check-for-cts-housing-market/",
-      "source": "CT Mirror",
-      "state": "CT",
       "date": "2026-08-07",
       "category": "news",
       "priority": "medium",
@@ -24534,7 +24415,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-11T11:37:44.453321",
+      "updated": "2026-08-12T11:36:20.467462",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24644,24 +24525,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-11T11:37:44.453321"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-12T11:36:20.467462"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-11T11:37:44.453321"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-12T11:36:20.467462"
     },
     "migration": {
       "score": 5.0,
@@ -24671,35 +24552,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-11T11:37:44.453321"
+      "updated": "2026-08-12T11:36:20.467462"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-11T11:37:44.453321"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-12T11:36:20.467462"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.4,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.98 | Diesel $5.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.98,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.51,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-11T11:37:44.453321"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-12T11:36:20.467462"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24708,19 +24589,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-11T11:37:44.453321"
+      "updated": "2026-08-12T11:36:20.467462"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-11T11:37:44.453321"
+    "calculated_at": "2026-08-12T11:36:20.467462"
   }
 }

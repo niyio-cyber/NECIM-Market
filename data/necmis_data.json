@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T11:17:39.910902Z",
+  "generated": "2026-08-18T11:13:34.185506Z",
   "summary": {
     "total_opportunities": 1177,
     "total_value_low": 10119560641,
@@ -9,8 +9,8 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 43,
-      "NH": 18,
-      "ME": 170,
+      "NH": 16,
+      "ME": 173,
       "MA": 600,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1176,
-      "news": 13,
+      "news": 14,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -24318,12 +24318,96 @@
   ],
   "news": [
     {
-      "id": "816d66a9cdd5",
-      "title": "Warren goes West: Talking housing, Trump and the midterms in Pittsfield | Bay State Briefing",
-      "summary": "As ever, the Cambridge Democrat had lots on her mind. We listened.",
-      "url": "https://www.masslive.com/politics/2026/08/warren-goes-west-talking-housing-trump-and-the-midterms-in-pittsfield-bay-state-briefing.html",
+      "id": "d1eafb50ab9d",
+      "title": "Obituary: Diana (Elkins) Young",
+      "summary": "WELLS - Diana (Elkins) Young, 81, of Bald Hill Road, died peacefully on Saturday, August 15, 2026, at Avita of Wells. ...",
+      "url": "https://www.pressherald.com/2026/08/18/obituarydiana-elkins-young-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "96a5d74fdf7a",
+      "title": "This easy Maine bike trail winds through a stunning coastal marsh",
+      "summary": "\"Through parts of Kennebunk, Saco, Old Orchard Beach and Scarborough, the ET travels over the old rail bed used by the Eastern Railroad that ran from Boston to Portland.\"",
+      "url": "https://www.bangordailynews.com/2026/08/18/outdoors/outdoors-contributors/easy-maine-bike-trail-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "901b948e445c",
+      "title": "What we know about the Old Town bridge collapse",
+      "summary": "Four days after the catastrophic structural failure little is known about what caused the collapse or when the public will learn the full scope of what happened.",
+      "url": "https://www.bangordailynews.com/2026/08/18/bangor/bangor-government/bridge-collapse-old-town-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "48b8bc46f2a1",
+      "title": "Rev It Up Party kicks off New England Auto Auction weekend with music, food, games, family fun",
+      "summary": "OWLS HEAD \u2014 The Owls Head Transportation Museum will kick off the 48th Annual New England Auto Auction weekend with the Rev It Up Party from 2 to 7 p.m. on Thursday, Aug. 20. The evening offers a relaxed, family-friendly way to experience the excitement of auction weekend before the bidding begins F",
+      "url": "https://www.bangordailynews.com/2026/08/17/bdn-maine/rev-it-up-party-kicks-off-new-england-auto-auction-weekend-with-music-food-games-family-fun/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "726e738a148d",
+      "title": "Bangor\u2019s council holds firm on deal for homeless housing development",
+      "summary": "The Yellen Pines development has been the subject of heated public debate in recent weeks.",
+      "url": "https://www.bangordailynews.com/2026/08/17/bangor/bangor-government/bangor-tax-deal-homeless-housing-development/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "aebd4eb98dbc",
+      "title": "A new study finds a surprising way rural communities may reduce partisan hostility",
+      "summary": "A new study of Community Works, a Rural Urban Bridge Initiative program, suggests that nonpolitical volunteer projects in rural communities may help reduce partisan hostility and soften negative attitudes toward people in the opposing political party.",
+      "url": "https://www.masslive.com/news/2026/08/a-simple-idea-may-be-easing-political-hostility-in-rural-america.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4513924d554c",
+      "title": "New funds for Alburgh rail bridge could boost future Amtrak link to Montreal",
+      "summary": "Upgrading or replacing the bridge across Lake Champlain is one of the hurdles left in the way of restarting cross-border passenger rail in Vermont.\nRead the story on VTDigger here:  New funds for Alburgh rail bridge could boost future Amtrak link to Montreal.",
+      "url": "https://vtdigger.org/2026/08/17/new-funds-for-alburgh-rail-bridge-could-boost-future-amtrak-link-to-montreal/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-08-17",
       "category": "news",
       "priority": "high",
@@ -24332,27 +24416,27 @@
       ]
     },
     {
-      "id": "c7c40ddaa54f",
-      "title": "Cape Elizabeth considers new uses for old school building",
-      "summary": "A committee is looking into selling, leasing, demolishing or other municipal uses for the building.",
-      "url": "https://www.pressherald.com/2026/08/16/cape-elizabeth-considers-new-uses-for-old-school-building/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-16",
-      "category": "news",
-      "priority": "medium",
+      "id": "698c61a6d16a",
+      "title": "Who gets to see themselves on a Vermont ballot?",
+      "summary": "From a Tunbridge dairy farmer to a Montpelier immigrant, Vermont ballots have room for all kinds of stories.\nRead the story on VTDigger here:  Who gets to see themselves on a Vermont ballot?.",
+      "url": "https://vtdigger.org/2026/08/17/opinion-who-gets-to-see-themselves-on-a-vermont-ballot/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-08-17",
+      "category": "funding",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "e02decfef001",
-      "title": "NH man charged after 14 callers report car going over 100 mph on Maine highway",
-      "summary": "The Bangor Regional Communications Center began receiving calls at approximately 3:35 p.m. about a vehicle driving erratically.",
-      "url": "https://www.bangordailynews.com/2026/08/16/bangor/bangor-police-courts/nh-man-charged-14-callers-car-100-mph-maine-highway/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-16",
+      "id": "9ec664c18f8e",
+      "title": "Back-to-school shopping? Here\u2019s where Bridgeport, Hartford families can find help",
+      "summary": "Here is a list of some upcoming 2026 back-to-school giveaways and events, as well as more info on CT's sales tax break this week.",
+      "url": "https://ctmirror.org/2026/08/17/back-to-school-bridgeport-hartford-2026/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-08-17",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24369,34 +24453,6 @@
       "date": "2026-08-16",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "199aabda1ac8",
-      "title": "Long-vacant \u2018pit\u2019 in downtown Newport nears new chapter with purchase plan",
-      "summary": "Caught up in scandal, the city block known as \u201cthe pit\u201d has been empty for a decade. Now it\u2019s slated for purchase by the Northeastern Vermont Development Association, which plans to transfer the property to the city or a development partner. \nRead the story on VTDigger here:  Long-vacant \u2018pit\u2019 in d",
-      "url": "https://vtdigger.org/2026/08/13/long-vacant-pit-in-downtown-newport-nears-new-chapter-with-purchase-plan/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "abafcff0e903",
-      "title": "Killington passes budget after second vote but tumult still reigns",
-      "summary": "Killington\u2019s town manager is on administrative leave pending a disciplinary hearing, and large scale infrastructure projects are on hold because of a staffing shortage.\nRead the story on VTDigger here:  Killington passes budget after second vote but tumult still reigns.",
-      "url": "https://vtdigger.org/2026/08/13/killington-passes-budget-after-second-vote-but-tumult-still-reigns/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-13",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24444,35 +24500,6 @@
       ]
     },
     {
-      "id": "ead9a683e01b",
-      "title": "Op-Ed: NH Infrastructure Groups Urge Veto Override on 10-Year Transportation Plan",
-      "summary": "The Associated General Contractors of NH, NH Good Roads Association, the American Council of Engineering Companies of NH, and the Aggregate Manufacturers of New Hampshire today issued the following joint statement urging members of the New Hampshire General Court to override the\u00a0veto\u00a0of House Bill 2",
-      "url": "https://indepthnh.org/2026/08/13/op-ed-nh-infrastructure-groups-urge-veto-override-on-10-year-transportation-plan/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-13",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway",
-        "aggregates"
-      ]
-    },
-    {
-      "id": "b901305e789a",
-      "title": "Hartford awarded $20M \u2018innovation cluster\u2019 award",
-      "summary": "The state grant will go toward developing a 100K square foot campus intended to support workforce development around applied AI technologies.",
-      "url": "https://ctmirror.org/2026/08/13/hartford-innovation-clusters-ai-decd-ct/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-13",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "4e7f1f8872c3",
       "title": "Chester Planning Board to resume hearing on plan for 34 tiny homes",
       "summary": "It\u2019s been several weeks since the last public hearing on a proposed small house development plan in Chester.",
@@ -24499,20 +24526,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "559000e2ae46",
-      "title": "Woodmont Commons gets extension for road upgrades as developer adds 300 more units.",
-      "summary": "A Londonderry developer is getting more time to finish road improvements as part of its agreement with the town to improve the corridor before adding more than 300 more units to the Woodmont Commons project.",
-      "url": "https://www.unionleader.com/news/local/derry_londonderry/woodmont-commons-gets-extension-for-road-upgrades-as-developer-adds-300-more-units/article_ef829da7-6bf8-49e3-858d-d381363f6458.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-08-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24523,7 +24536,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-17T11:17:39.171194",
+      "updated": "2026-08-18T11:12:57.047881",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24633,24 +24646,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-17T11:17:39.171194"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-18T11:12:57.047881"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-17T11:17:39.171194"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-18T11:12:57.047881"
     },
     "migration": {
       "score": 5.0,
@@ -24660,17 +24673,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-17T11:17:39.171194"
+      "updated": "2026-08-18T11:12:57.047881"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-17T11:17:39.171194"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-18T11:12:57.047881"
     },
     "input_cost": {
       "score": 9.5,
@@ -24687,8 +24700,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-17T11:17:39.171194"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-18T11:12:57.047881"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24697,19 +24710,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-17T11:17:39.171194"
+      "updated": "2026-08-18T11:12:57.047881"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 8.0,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-17T11:17:39.171194"
+    "calculated_at": "2026-08-18T11:12:57.047881"
   }
 }

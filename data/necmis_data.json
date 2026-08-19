@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-18T11:16:59.929231Z",
+  "generated": "2026-08-19T11:13:38.514489Z",
   "summary": {
-    "total_opportunities": 1177,
+    "total_opportunities": 1178,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 43,
-      "NH": 16,
-      "ME": 173,
-      "MA": 600,
+      "NH": 15,
+      "ME": 174,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1176,
-      "news": 14,
-      "funding": 1
+      "news": 16,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -38,11 +38,11 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 252,
+          "count": 253,
           "value": 5668046584
         },
         "Pavement": {
-          "count": 705,
+          "count": 704,
           "value": 3070042217
         },
         "Safety": {
@@ -261,11 +261,11 @@
         },
         "CT": {
           "Bridge": {
-            "count": 2,
+            "count": 3,
             "value": 0
           },
           "Pavement": {
-            "count": 338,
+            "count": 337,
             "value": 0
           },
           "Safety": {
@@ -17366,6 +17366,26 @@
       ]
     },
     {
+      "id": "95a584d234e6",
+      "state": "CT",
+      "project_id": "0105-0217",
+      "description": "REHABILITATION OF BRIDGE NOS. 06200 A AND B  I-95 NB AND SB OVER CT RIVER AND FERRY ROAD  OLD SAYBROOK AND OLD LYME",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-09-16",
+      "fiscal_year": "FY2026",
+      "project_type": "Bridge",
+      "location": "I-95",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "5dec7f198356",
       "state": "CT",
       "project_id": "0124-0165",
@@ -20888,26 +20908,6 @@
       ]
     },
     {
-      "id": "6e453e67c661",
-      "state": "CT",
-      "project_id": "0105-0217",
-      "description": "CT Project 0105-0217",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "TBD",
-      "ad_date": null,
-      "let_date": null,
-      "fiscal_year": "FY2026",
-      "project_type": "Pavement",
-      "location": null,
-      "district": null,
-      "url": "https://portal.ct.gov/dot/bureaus/policy-and-planning/state-transportation-improvement-program",
-      "source": "CTDOT STIP",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
       "id": "36f95e705e16",
       "state": "CT",
       "project_id": "0105-0222",
@@ -24318,13 +24318,13 @@
   ],
   "news": [
     {
-      "id": "d1eafb50ab9d",
-      "title": "Obituary: Diana (Elkins) Young",
-      "summary": "WELLS - Diana (Elkins) Young, 81, of Bald Hill Road, died peacefully on Saturday, August 15, 2026, at Avita of Wells. ...",
-      "url": "https://www.pressherald.com/2026/08/18/obituarydiana-elkins-young-2/",
+      "id": "1e830034e22c",
+      "title": "Thank you, Susan Collins, now hit the road | Opinion",
+      "summary": "I'll acquiesce to the senator's repeated requests for appreciation ... for the early days of service. As for today? Forget it.",
+      "url": "https://www.pressherald.com/2026/08/19/thank-you-susan-collins-now-hit-the-road-opinion/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24332,27 +24332,13 @@
       ]
     },
     {
-      "id": "96a5d74fdf7a",
-      "title": "This easy Maine bike trail winds through a stunning coastal marsh",
-      "summary": "\"Through parts of Kennebunk, Saco, Old Orchard Beach and Scarborough, the ET travels over the old rail bed used by the Eastern Railroad that ran from Boston to Portland.\"",
-      "url": "https://www.bangordailynews.com/2026/08/18/outdoors/outdoors-contributors/easy-maine-bike-trail-joam40zk0w/",
+      "id": "9c7f7e5f62b9",
+      "title": "Inside Troy Jackson\u2019s\u00a0warp-speed Senate campaign hiring spree",
+      "summary": "Jackson, who ran a comparatively small bid for governor, had days to assemble the infrastructure campaigns typically spend months building.",
+      "url": "https://www.bangordailynews.com/2026/08/19/politics/elections/troy-jackson-senate-campaign-hiring-spree-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-08-18",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "901b948e445c",
-      "title": "What we know about the Old Town bridge collapse",
-      "summary": "Four days after the catastrophic structural failure little is known about what caused the collapse or when the public will learn the full scope of what happened.",
-      "url": "https://www.bangordailynews.com/2026/08/18/bangor/bangor-government/bridge-collapse-old-town-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24360,13 +24346,13 @@
       ]
     },
     {
-      "id": "48b8bc46f2a1",
-      "title": "Rev It Up Party kicks off New England Auto Auction weekend with music, food, games, family fun",
-      "summary": "OWLS HEAD \u2014 The Owls Head Transportation Museum will kick off the 48th Annual New England Auto Auction weekend with the Rev It Up Party from 2 to 7 p.m. on Thursday, Aug. 20. The evening offers a relaxed, family-friendly way to experience the excitement of auction weekend before the bidding begins F",
-      "url": "https://www.bangordailynews.com/2026/08/17/bdn-maine/rev-it-up-party-kicks-off-new-england-auto-auction-weekend-with-music-food-games-family-fun/",
+      "id": "e73e6d13b4b0",
+      "title": "Letter: Mainers have the power to choose someone better than Susan Collins",
+      "summary": "\u201cI believe Sen. Susan Collins doesn\u2019t trust the citizens of Maine to support her in her bid for a sixth term.\u201d",
+      "url": "https://www.bangordailynews.com/2026/08/19/opinion/letters/letter-mainers-have-the-power-to-choose-someone-better-than-susan-collins-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24374,13 +24360,13 @@
       ]
     },
     {
-      "id": "726e738a148d",
-      "title": "Bangor\u2019s council holds firm on deal for homeless housing development",
-      "summary": "The Yellen Pines development has been the subject of heated public debate in recent weeks.",
-      "url": "https://www.bangordailynews.com/2026/08/17/bangor/bangor-government/bangor-tax-deal-homeless-housing-development/",
+      "id": "1a738e990479",
+      "title": "Bar Harbor hotelier backs town\u2019s extended freeze on lodging developments",
+      "summary": "David C. Witham said he thinks the lodging industry has contributed to the loss of year-round housing, but it is not \u201cworthy of the bullseye many put on it for the housing challenges.\u201d",
+      "url": "https://www.bangordailynews.com/2026/08/18/hancock/hancock-government/bar-harbor-hotelier-backs-towns-extended-freeze-on-lodging-developments/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24388,12 +24374,110 @@
       ]
     },
     {
-      "id": "aebd4eb98dbc",
-      "title": "A new study finds a surprising way rural communities may reduce partisan hostility",
-      "summary": "A new study of Community Works, a Rural Urban Bridge Initiative program, suggests that nonpolitical volunteer projects in rural communities may help reduce partisan hostility and soften negative attitudes toward people in the opposing political party.",
-      "url": "https://www.masslive.com/news/2026/08/a-simple-idea-may-be-easing-political-hostility-in-rural-america.html",
+      "id": "e76dcad788b7",
+      "title": "5 drivers snagged in median-crossing crash on I-95 in Hermon",
+      "summary": "The chain reaction started when a pickup truck hauling a trailer failed to yield while merging onto the interstate from Coldbrook Road.",
+      "url": "https://www.bangordailynews.com/2026/08/18/bangor/bangor-police-courts/crash-i-95-hermon-maine/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b926a8390949",
+      "title": "State DEP to fund water pollution mitigation plan in the Congamond Lakes",
+      "summary": "At the Lake Management Committee meeting last week, it was announced the state\u2019s Department of Environmental Protection had chosen Congamond Lakes to fund the continued development of a watershed-management plan with the goal of increasing the water quality of the three Great Ponds.",
+      "url": "https://www.masslive.com/westfieldnews/2026/08/state-dep-to-fund-water-pollution-mitigation-plan-in-the-congamond-lakes.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-08-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1c2f4caae312",
+      "title": "Ohio prosecutor pushes new death penalty debate",
+      "summary": "Trumbull County Prosecutor Dennis Watkins is urging Ohio lawmakers to revisit the state\u2019s death penalty law after a new Pew Research Center poll found broad national support for capital punishment in murder cases.",
+      "url": "https://www.masslive.com/news/2026/08/longtime-ohio-prosecutor-wants-to-reopen-a-national-debate.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "76ca01ef6525",
+      "title": "DPW director updates the Select Board on road projects",
+      "summary": "With the completion of Ed Holcombe Road repair project, Southwick's DPW is moving forward with several other projects on the drawing board including finishing the restoration of Gargon Terrace.",
+      "url": "https://www.masslive.com/westfieldnews/2026/08/dpw-director-updates-the-select-board-on-road-projects.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-19",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7bbcb42ed246",
+      "title": "Common Man Roadside sues after Hampton proposal rejected",
+      "summary": "The process to redevelop the two liquor stores on Interstate 95 in Hampton has had multiple starts and stops over the past several years, and now a lawsuit against the New Hampshire Liquor Commission is in the mix.",
+      "url": "https://www.unionleader.com/news/business/common-man-roadside-sues-after-hampton-proposal-rejected/article_95d67a66-1de8-4aed-a0a6-0e495482d93a.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "43421e928fa2",
+      "title": "Disney, ABC sue FCC over threats to broadcast licenses",
+      "summary": "Disney and its ABC unit sued the Federal Communications Commission on Tuesday to block an early review of licenses for eight ABC stations, arguing that the Trump administration is trying to punish the network over its broadcast content.",
+      "url": "https://www.unionleader.com/news/courts/disney-abc-sue-fcc-over-threats-to-broadcast-licenses/article_23112985-5109-5431-a9b3-edfec13314d8.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-08-18",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a3f62559164b",
+      "title": "Repair or replace: Bridge between Lubec and Campobello Island faces pivotal choice",
+      "summary": "Public feedback, environmental reviews and cross\u2011border impacts will guide MaineDOT\u2019s decision on the future of the 63\u2011year\u2011old international crossing.",
+      "url": "https://www.bangordailynews.com/2026/08/18/down-east/downeast-government/fdr-bridge-lubec-campobello-island-repair-replace/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2ecd4f56ba2d",
+      "title": "Bridgeport exhibit shows Greene Homes through residents\u2019 eyes: \u2018It\u2019s our story to tell\u2019",
+      "summary": "Photos documented deteriorating buildings, while challenging the idea that the Bridgeport complex can be reduced to a collection of problems.",
+      "url": "https://ctmirror.org/2026/08/18/bridgeport-greene-homes-public-housing-exhibit-photos-voices/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-08-18",
       "category": "news",
       "priority": "high",
@@ -24484,48 +24568,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "67c9deb393c8",
-      "title": "Fire Suppression, Water Woes Boil Over with Development Pressure in Lincoln",
-      "summary": "They learned that at least twice in recent years during structure fires in town, the fire chief was asked by the public works director to stop using town water to put the fire out because there was a lack of water.\nThe post Fire Suppression, Water Woes Boil Over with Development Pressure in Lincoln",
-      "url": "https://indepthnh.org/2026/08/13/water-concerns-boil-over-with-development-pressure-fire-suppression-concern-in-lincoln/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4e7f1f8872c3",
-      "title": "Chester Planning Board to resume hearing on plan for 34 tiny homes",
-      "summary": "It\u2019s been several weeks since the last public hearing on a proposed small house development plan in Chester.",
-      "url": "https://www.unionleader.com/news/homes/chester-planning-board-to-resume-hearing-on-plan-for-34-tiny-homes/article_a635e9e1-52c1-457a-8919-f6e9e3e04f62.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-08-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9488d460aef1",
-      "title": "Secondwind Water Systems expands with new Seacoast location",
-      "summary": "Secondwind Water Systems is opening its second location at 97 Lafayette Road inHampton Falls, expanding the company\u2019s presence on the Seacoast and strengthening its ability to serve homeowners, businesses, and public water systems throughout the region.",
-      "url": "https://www.unionleader.com/news/business/secondwind-water-systems-expands-with-new-seacoast-location/article_d807fa3a-ebfd-4144-8def-af511c1bdf10.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-08-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24536,7 +24578,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-18T11:16:59.759199",
+      "updated": "2026-08-19T11:12:32.864375",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24646,24 +24688,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-18T11:16:59.759199"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-19T11:12:32.864375"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-18T11:16:59.759199"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-19T11:12:32.864375"
     },
     "migration": {
       "score": 5.0,
@@ -24673,17 +24715,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-18T11:16:59.759199"
+      "updated": "2026-08-19T11:12:32.864375"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-18T11:16:59.759199"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-19T11:12:32.864375"
     },
     "input_cost": {
       "score": 9.5,
@@ -24700,8 +24742,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-18T11:16:59.759199"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-19T11:12:32.864375"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24710,19 +24752,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-18T11:16:59.759199"
+      "updated": "2026-08-19T11:12:32.864375"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 8.0,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-18T11:16:59.759199"
+    "calculated_at": "2026-08-19T11:12:32.864375"
   }
 }

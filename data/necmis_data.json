@@ -1,26 +1,26 @@
 {
-  "generated": "2026-08-20T11:18:33.063408Z",
+  "generated": "2026-08-21T11:14:08.148817Z",
   "summary": {
-    "total_opportunities": 1179,
+    "total_opportunities": 1178,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 17,
-      "ME": 176,
-      "MA": 601,
+      "VT": 41,
+      "NH": 19,
+      "ME": 172,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1175,
-      "news": 16,
-      "funding": 4
+      "news": 11,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24298,13 +24298,55 @@
   ],
   "news": [
     {
-      "id": "b9853d671f61",
-      "title": "How to stay safe when you or your kids are riding ATVs",
-      "summary": "In the wake of 2 fatal off-road crashes over the weekend, Maine officials are reminding riders to take safety precautions while working and recreating with all-terrain vehicles.",
-      "url": "https://www.pressherald.com/2026/08/20/how-to-stay-safe-when-you-or-your-kids-are-riding-atvs/",
+      "id": "02a3bc501d24",
+      "title": "It\u2019s chaos on Maine roads. Here\u2019s one way to make them safer right now. | Column",
+      "summary": "With a variety of new vehicles adding to existing tensions, we shouldn't wait for laws and infrastructure improvements to change our behavior.",
+      "url": "https://www.pressherald.com/2026/08/21/its-chaos-on-maine-roads-heres-one-way-to-make-them-safer-right-now-column/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4aa251617407",
+      "title": "Death Notice: Roland Albert Petrin",
+      "summary": "Petrin, Roland Albert 83, of Woodstock, Ga., formerly of Biddeford, Sept. 22, 2025. Graveside, Sept. 14, Southern Maine Veterans' Cemetery, Springvale, ...",
+      "url": "https://www.pressherald.com/2026/08/21/obituaryroland-albert-petrin/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-21",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b5c3ad815275",
+      "title": "Matt Dunlap\u2019s campaign is openly attacking\u00a0Paul LePage\u2019s age",
+      "summary": "The sharp words come as Democrats question whether LePage is just a bridge candidate to bolster President Donald Trump\u2019s agenda during his final two years in the White House.",
+      "url": "https://www.bangordailynews.com/2026/08/21/politics/elections/matt-dunlap-campaign-attacking-paul-lepage-age-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-21",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3ce3452e2796",
+      "title": "Rep. Maggie Goodlander Accepts Environmental Group Endorsement, Tours Facility",
+      "summary": "InDepthNH.org is partnering with C-SPAN\u2019s Campaign 2026\u00a0initiative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail.\u00a0Please watch for video of the candidates in which C-SPAN will provide InDepthNH.org free access to on-the-ground election coverage.\nThe post Rep. Maggie Goodlander Acc",
+      "url": "https://indepthnh.org/2026/08/20/rep-maggie-goodlander-d-nh-accepts-environmental-group-endorsement-tours-energy-facility/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-08-21",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24312,127 +24354,57 @@
       ]
     },
     {
-      "id": "38030454133a",
-      "title": "Ignorance or complicity by Sen. Collins? | Letter",
-      "summary": "Sen. Susan Collins enthusiastically supported putting another $70 billion into the hands of Donald Trump\u2019s secret police force. These are the same terrorists who recently murdered Joan Sebasti\u00e1n Dur\u00e1n Guerrero in Biddeford, and who illegally kidnapped Maine nurse Debora Kapisha, along with countless",
-      "url": "https://www.pressherald.com/2026/08/20/ignorance-or-complicity-by-sen-collins-letter/",
-      "source": "Portland Press Herald",
+      "id": "260c9a847bd8",
+      "title": "Truck crash spills produce on Mass. highway, slows morning commute",
+      "summary": "Two lanes on the northbound side of I-93 were closed as crews worked to clear the scene. The crash spilled boxes of produce onto the road.",
+      "url": "https://www.masslive.com/news/2026/08/truck-crash-spills-produce-on-mass-highway-slows-morning-commute.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-21",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c5f7b7d6dd40",
+      "title": "Harvard agrees to $53 million settlement over body parts stolen and sold by former morgue manager",
+      "summary": "BOSTON (AP) \u2014 Harvard Medical School says it agreed to pay $53 million to settle class action lawsuits by relatives of body donors whose remains were sold on the black market by its former morgue manager. Harvard Medical School Deans George Q. Daley and Bernard S. Chang announced the development in",
+      "url": "https://www.bangordailynews.com/2026/08/20/nation/harvard-agrees-to-53-million-settlement-over-body-parts-stolen-and-sold-by-former-morgue-manager/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-08-20",
       "category": "funding",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "6a9b043fc4b3",
-      "title": "Unnecessary ships an example of government\u2019s misplaced priorities | Letter",
-      "summary": "Recently, our Republican government, following their president\u2019s direction, awarded no-bid contracts to build 11 icebreaking ships for Arctic duties. The contracts total about $7 billion, including $3.5 billion included in last July\u2019s \u201cbig, beautiful bill.\u201d That amount would likely have covered only",
-      "url": "https://www.pressherald.com/2026/08/20/unnecessary-ships-an-example-of-governments-misplaced-priorities-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
+      "id": "43a7d2f2dcc8",
+      "title": "Democratic U.S. Senate Candidate Pappas Accepts Labor Organization Endorsement",
+      "summary": "InDepthNH.org is partnering with C-SPAN\u2019s Campaign 2026\u00a0initiative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail.\nThe post Democratic U.S. Senate Candidate Pappas Accepts Labor Organization Endorsement appeared first on InDepthNH.org.",
+      "url": "https://indepthnh.org/2026/08/20/democratic-u-s-senate-candidate-chris-pappas-accepts-local-labor-organization-endorsement-c-span/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-08-20",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d1db2f9166a3",
+      "title": "NH Reaction Mixed on Trump Plans To Dismantle Roadless Rule on National Forest",
+      "summary": "While the New Hampshire House of Representatives passed a resolution to support keeping the federal Roadless Rule on the 230,000 acres of White Mountain National Forest this past March, the Trump Administration is going forward with plans to dismantle the 2001 measure calling it a \"one-size-fits-all",
+      "url": "https://indepthnh.org/2026/08/20/nh-reaction-mixed-on-trump-plans-to-dismantle-roadless-rule-on-national-forest/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-08-20",
       "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "86856a12e56f",
-      "title": "When the signal drops, so do sales: Maine business owners need connections",
-      "summary": "The Maine Connectivity Authority is working to ensure all residents have access to broadband and cellular, as well as the skills and devices they need to use them.",
-      "url": "https://www.pressherald.com/2026/08/20/when-the-signal-drops-so-do-sales-maine-business-owners-need-connections/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-20",
-      "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "85dac06237b6",
-      "title": "All Roads Music Festival back in Belfast this fall",
-      "summary": "The two-day music festival kicks off on Friday, Oct. 16, with a lineup of more than two dozen acts playing at five different venues.",
-      "url": "https://www.bangordailynews.com/2026/08/20/midcoast/midcoast-culture/all-roads-music-festival-belfast-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f48cc0f8038d",
-      "title": "It\u2019s a city-owned snow dump. Caribou wants to turn it into affordable\u00a0housing.",
-      "summary": "Municipalities in Maine and across the U.S. have taken similar hands-on approaches as both younger Americans and seniors struggle to find quality affordable housing.",
-      "url": "https://www.bangordailynews.com/2026/08/20/aroostook/aroostook-government/caribou-snow-dump-affordable-housing-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e7a35ee91f25",
-      "title": "AOC backs Markey in latest twist of Mass. Democratic Senate showdown",
-      "summary": "With early voting set to begin Saturday, U.S. Rep. Alexandria Ocasio-Cortez, D.-N.Y., is backing Sen. Ed Markey's reelection bid, giving the incumbent a high-profile progressive endorsement.",
-      "url": "https://www.masslive.com/boston-fleet/2026/08/aoc-backs-markey-as-mass-senate-primary-enters-final-stretch.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5a38cbf73d2f",
-      "title": "Climate Matters: Sensing sacred presence in a changing climate",
-      "summary": "Simple, yet profound, expressions of nature remind us that our awareness of the Divine is found not only in temples and sacred texts, but also in creation herself. This realization bridges the natural world with our spiritual longing, reinforcing that the sacred is all around us. For me, that bridge",
-      "url": "https://www.masslive.com/westfieldnews/2026/08/climate-matters-sensing-sacred-presence-in-a-changing-climate.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9c2689ce4e41",
-      "title": "New county food resource to open next month in Biddeford",
-      "summary": "The York County Food Hub will help food pantries across the county provide meals for more families, advocates said at a forum Tuesday night.",
-      "url": "https://www.pressherald.com/2026/08/19/new-york-county-food-resource-to-open-next-month-in-biddeford/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-19",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0a250b6da886",
-      "title": "Missouri court allows new Trump-backed US House districts be used in November election",
-      "summary": "JEFFERSON CITY, Mo. (AP) \u2014 A Missouri judge has allowed new U.S. House districts backed by President Donald Trump to be used in the November elections, rejecting a bid by to put the Republican-friendly districts to a statewide vote of the people. The ruling Wednesday by Cole County Circuit Judge Dan",
-      "url": "https://www.bangordailynews.com/2026/08/19/nation/missouri-court-allows-new-trump-backed-us-house-districts-be-used-in-november-election/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-19",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24508,66 +24480,10 @@
       ]
     },
     {
-      "id": "4513924d554c",
-      "title": "New funds for Alburgh rail bridge could boost future Amtrak link to Montreal",
-      "summary": "Upgrading or replacing the bridge across Lake Champlain is one of the hurdles left in the way of restarting cross-border passenger rail in Vermont.\nRead the story on VTDigger here:  New funds for Alburgh rail bridge could boost future Amtrak link to Montreal.",
-      "url": "https://vtdigger.org/2026/08/17/new-funds-for-alburgh-rail-bridge-could-boost-future-amtrak-link-to-montreal/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-17",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "698c61a6d16a",
-      "title": "Who gets to see themselves on a Vermont ballot?",
-      "summary": "From a Tunbridge dairy farmer to a Montpelier immigrant, Vermont ballots have room for all kinds of stories.\nRead the story on VTDigger here:  Who gets to see themselves on a Vermont ballot?.",
-      "url": "https://vtdigger.org/2026/08/17/opinion-who-gets-to-see-themselves-on-a-vermont-ballot/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-17",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9ec664c18f8e",
-      "title": "Back-to-school shopping? Here\u2019s where Bridgeport, Hartford families can find help",
-      "summary": "Here is a list of some upcoming 2026 back-to-school giveaways and events, as well as more info on CT's sales tax break this week.",
-      "url": "https://ctmirror.org/2026/08/17/back-to-school-bridgeport-hartford-2026/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-17",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "402ec93639fd",
       "title": "Trump allows Navy to build ships abroad, orders return to steam catapults on carriers",
       "summary": "President Donald Trump has allowed the Navy to build ships overseas and ordered it to abandon a complex system for launching jet fighters from its aircraft carriers and instead return to using steam catapults, the White House said on Thursday.",
       "url": "https://www.unionleader.com/news/business/trump-allows-navy-to-build-ships-abroad-orders-return-to-steam-catapults-on-carriers/article_657a7966-3960-57c1-93c2-7bf1c704f209.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-08-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a9158f817cd1",
-      "title": "Hooksett ponders a \u2018downtown,\u2019 river development as growth looms",
-      "summary": "Hooksett officials on Wednesday brainstormed ways to preserve community character while managing change.",
-      "url": "https://www.unionleader.com/news/local/hooksett/hooksett-ponders-a-downtown-river-development-as-growth-looms/article_4cb619cd-e331-44b5-b9f3-a465fe3aac95.html",
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-08-13",
@@ -24586,7 +24502,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-20T11:18:32.134488",
+      "updated": "2026-08-21T11:13:59.110140",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24696,24 +24612,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-20T11:18:32.134488"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-21T11:13:59.110140"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-20T11:18:32.134488"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-21T11:13:59.110140"
     },
     "migration": {
       "score": 5.0,
@@ -24723,35 +24639,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-20T11:18:32.134488"
+      "updated": "2026-08-21T11:13:59.110140"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-20T11:18:32.134488"
+      "raw": 1021600.0000000001,
+      "raw_display": "1022K workers",
+      "yoy_change": 0.3,
+      "source": "FRED API",
+      "updated": "2026-08-21T11:13:59.110140"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 7.5,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.95 | Diesel $5.54",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.95,
+        "score": 7.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.54,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-20T11:18:32.134488"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-21T11:13:59.110140"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24760,19 +24676,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-20T11:18:32.134488"
+      "updated": "2026-08-21T11:13:59.110140"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-20T11:18:32.134488"
+    "calculated_at": "2026-08-21T11:13:59.110140"
   }
 }

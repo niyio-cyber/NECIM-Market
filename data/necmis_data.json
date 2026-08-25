@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-24T11:18:59.351398Z",
+  "generated": "2026-08-25T11:14:54.297489Z",
   "summary": {
-    "total_opportunities": 1176,
+    "total_opportunities": 1175,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -9,7 +9,7 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 42,
-      "NH": 16,
+      "NH": 14,
       "ME": 171,
       "MA": 600,
       "NY": 1,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1175,
-      "news": 9,
-      "funding": 1
+      "news": 8,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24298,10 +24298,52 @@
   ],
   "news": [
     {
-      "id": "558f1d966ced",
-      "title": "Why investment profit is at the center of CMP\u2019s rate hike",
-      "summary": "Maine's biggest electric utility and consumer advocates are at odds over how much money the company should be allowed to make on its infrastructure investments.",
-      "url": "https://www.pressherald.com/2026/08/24/why-investment-profit-is-at-the-center-of-cmps-rate-hike/",
+      "id": "90f83c644c7b",
+      "title": "Karen Guregian: Christian Gonzalez returns to Patriots practice, but the contract cloud hasn\u2019t lifted",
+      "summary": "Christian Gonzalez' return was a positive development. But the contract cloud hovering above remains.",
+      "url": "https://www.masslive.com/patriots/2026/08/christian-gonzalez-returns-to-patriots-practice-but-contract-cloud-hasnt-lifted-karen-guregian.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-08-25",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3b226666e685",
+      "title": "Portland City Council repeals downtown entertainment buffer",
+      "summary": "Removing the 3-decade-old rule received broad support from officials after businesses said it's outdated and hindering nightlife.",
+      "url": "https://www.pressherald.com/2026/08/24/portland-city-council-repeals-downtown-entertainment-buffer/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ca43b172bfa1",
+      "title": "Freeport voters could decide whether long-landlocked ship gets to see the ocean",
+      "summary": "Last week, the Town Council declined to adopt an ordinance permitting the launch of the homemade ship Island Rover. If a citizens' petition gains enough valid signatures, the issue will go to voters.",
+      "url": "https://www.pressherald.com/2026/08/24/freeport-voters-could-decide-whether-long-landlocked-ship-gets-to-see-the-ocean/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "44dc7b91cae4",
+      "title": "Biddeford 911 calls detail moments after fatal ICE shooting",
+      "summary": "Newly released transcripts show several people calling for help and information after hearing the shots that killed Johan Sebasti\u00e1n Dur\u00e1n Guerrero on July 13.",
+      "url": "https://www.pressherald.com/2026/08/24/biddeford-911-calls-detail-moments-after-fatal-ice-shooting/",
       "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-08-24",
@@ -24312,54 +24354,12 @@
       ]
     },
     {
-      "id": "b03d29120353",
-      "title": "Maine patients should not have to wait 12 years for an ME/CFS diagnosis \u2014 like I did | Opinion",
-      "summary": "A roadmap is now in place to prevent patients from living a prolonged nightmare with myalgic encephalomyelitis/chronic fatigue syndrome. All Congress needs to do is fund it.",
-      "url": "https://www.pressherald.com/2026/08/24/maine-patients-should-not-have-to-wait-12-years-for-an-me-cfs-diagnosis-like-i-did-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "250ecc5a6484",
-      "title": "Man gravely hurt in Raynham motorcycle, truck crash",
-      "summary": "A motorcyclist was seriously injured in a collision with a pickup truck in Raynham on Sunday night.",
-      "url": "https://www.masslive.com/news/2026/08/man-gravely-hurt-in-raynham-motorcycle-truck-crash.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-08-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
       "id": "a605949f7eb2",
       "title": "New Hampshire PBS public media leader Dawn DeAngelis to retire",
       "summary": "New Hampshire PBS announced that Dawn DeAngelis, vice president and chief content officer, will retire Oct. 2, following a 46-year career at the forefront of commercial broadcasting, public television and the emergence of multi-platform media.",
       "url": "https://www.unionleader.com/news/business/new-hampshire-pbs-public-media-leader-dawn-deangelis-to-retire/article_cd8a2e43-116d-44df-96a4-98ed8169055e.html",
       "source": "Union Leader",
       "state": "NH",
-      "date": "2026-08-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cc04361dcab1",
-      "title": "New Hampshire man dead after crashing dirt bike in Parsonsfield",
-      "summary": "Kevin O'Connell was riding on a dusty road with low visibility when he struck a tree.",
-      "url": "https://www.pressherald.com/2026/08/23/new-hampshire-man-dead-after-crashing-dirt-bike-in-parsonsfield/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-08-23",
       "category": "news",
       "priority": "medium",
@@ -24396,34 +24396,6 @@
       ]
     },
     {
-      "id": "43a7d2f2dcc8",
-      "title": "Democratic U.S. Senate Candidate Pappas Accepts Labor Organization Endorsement",
-      "summary": "InDepthNH.org is partnering with C-SPAN\u2019s Campaign 2026\u00a0initiative,\u00a0Road to the Capitol: Candidate Coverage from the Campaign Trail.\nThe post Democratic U.S. Senate Candidate Pappas Accepts Labor Organization Endorsement appeared first on InDepthNH.org.",
-      "url": "https://indepthnh.org/2026/08/20/democratic-u-s-senate-candidate-chris-pappas-accepts-local-labor-organization-endorsement-c-span/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d1db2f9166a3",
-      "title": "NH Reaction Mixed on Trump Plans To Dismantle Roadless Rule on National Forest",
-      "summary": "While the New Hampshire House of Representatives passed a resolution to support keeping the federal Roadless Rule on the 230,000 acres of White Mountain National Forest this past March, the Trump Administration is going forward with plans to dismantle the 2001 measure calling it a \"one-size-fits-all",
-      "url": "https://indepthnh.org/2026/08/20/nh-reaction-mixed-on-trump-plans-to-dismantle-roadless-rule-on-national-forest/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-08-20",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "7bbcb42ed246",
       "title": "Common Man Roadside sues after Hampton proposal rejected",
       "summary": "The process to redevelop the two liquor stores on Interstate 95 in Hampton has had multiple starts and stops over the past several years, and now a lawsuit against the New Hampshire Liquor Commission is in the mix.",
@@ -24446,7 +24418,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-24T11:18:58.993523",
+      "updated": "2026-08-25T11:14:46.442270",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24556,24 +24528,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-24T11:18:58.993523"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10769.165689531426,
+      "raw_display": "10,769 units/mo",
+      "yoy_change": 61.7,
+      "source": "FRED API",
+      "updated": "2026-08-25T11:14:46.442270"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-24T11:18:58.993523"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-25T11:14:46.442270"
     },
     "migration": {
       "score": 5.0,
@@ -24583,35 +24555,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-24T11:18:58.993523"
+      "updated": "2026-08-25T11:14:46.442270"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-24T11:18:58.993523"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-08-25T11:14:46.442270"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 7.5,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.95 | Diesel $5.54",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.95,
+        "score": 7.8,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.54,
+        "score": 7.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-24T11:18:58.993523"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-25T11:14:46.442270"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24620,19 +24592,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-24T11:18:58.993523"
+      "updated": "2026-08-25T11:14:46.442270"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-24T11:18:58.993523"
+    "calculated_at": "2026-08-25T11:14:46.442270"
   }
 }

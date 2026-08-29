@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T21:17:06.015323Z",
+  "generated": "2026-08-29T15:21:58.890479Z",
   "summary": {
     "total_opportunities": 1180,
     "total_value_low": 10119560641,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 43,
-      "NH": 13,
-      "ME": 173,
-      "MA": 600,
+      "NH": 14,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 347,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1177,
-      "news": 12,
+      "news": 10,
       "funding": 3
     },
     "pipeline_analysis": {
@@ -24337,6 +24337,48 @@
   ],
   "news": [
     {
+      "id": "13ea0672d017",
+      "title": "Lebanon among cities turning to AI to speed housing permitting",
+      "summary": "New housing projects can sometimes stall out as a developer applies to city or county planning boards and goes through cycles of inspections, reviews and approvals.",
+      "url": "https://www.unionleader.com/news/homes/lebanon-among-cities-turning-to-ai-to-speed-housing-permitting/article_5385c395-16bc-4ec3-ac29-6acb7c26d223.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-08-29",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3e907de7903a",
+      "title": "What\u2019s next as UNE\u2019s Biddeford pier project moves forward",
+      "summary": "The proposal got a key extension Wednesday from the Saco River Corridor Commission, but the city has previously enacted undertaken steps to stall the project.",
+      "url": "https://www.pressherald.com/2026/08/29/whats-next-as-unes-biddeford-pier-project-moves-forward/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-08-29",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "fe0ee2134334",
+      "title": "Some US cities have begun rewarding careful drivers with fewer red lights",
+      "summary": "Officials struggled for years to curb high-speed crashes along a residential corridor cutting through Albuquerque, New Mexico, but simply punishing the lead-footed drivers didn\u2019t seem to work. What ultimately did was rewarding the law-abiding ones with fewer red lights. The solution, which the city",
+      "url": "https://www.bangordailynews.com/2026/08/29/nation/some-us-cities-have-begun-rewarding-careful-drivers-with-fewer-red-lights/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-29",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "ece1f76fedbb",
       "title": "Killington seeks financial help after cash crunch, TIF compliance issues",
       "summary": "The town needed to take out a loan as it works on public infrastructure for the multibillion-dollar Killington Village project.\nRead the story on VTDigger here:  Killington seeks financial help after cash crunch, TIF compliance issues.",
@@ -24351,82 +24393,12 @@
       ]
     },
     {
-      "id": "6600712da8e1",
-      "title": "Celebrated Cooper Flagg rookie card headed for auction with Fanatics",
-      "summary": "The merchandise company obtained the card, the only one of its kind in the world, and will put it up for bidding in September.",
-      "url": "https://www.pressherald.com/2026/08/28/celebrated-cooper-flagg-rookie-card-headed-for-auction-with-fanatics/",
+      "id": "56db215b6d65",
+      "title": "York County volunteers host school sendoff event with free backpacks",
+      "summary": "Uplifting Families Together, an initiative through Volunteers of America, hosted Friday's event in Biddeford to provide resources to families in need.",
+      "url": "https://www.pressherald.com/2026/08/28/york-county-volunteers-host-school-sendoff-event-with-free-backpacks/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-08-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "33533db60fbd",
-      "title": "July heat wave revealed the challenges facing Maine\u2019s electrical grid | Opinion",
-      "summary": "With stronger storms and more frequent extreme heat, the state's energy needs are evolving, and the grid must evolve with them. That's why continued investment in its infrastructure remains essential.",
-      "url": "https://www.pressherald.com/2026/08/28/july-heat-wave-revealed-the-challenges-facing-maines-electrical-grid-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-28",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "17c2e1d7c97a",
-      "title": "Ten things you\u2019ll see different at UMaine this fall",
-      "summary": "ORONO \u2014 Students returning to UMaine this fall will find a campus that looks \u2014 and in many places functions \u2014 noticeably different than it did when they left in May. New research and education facilities are open. Major athletics construction is taking shape. More parking spaces have been added, and",
-      "url": "https://www.bangordailynews.com/2026/08/28/bdn-maine/ten-things-youll-see-different-at-umaine-this-fall/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c1e2536f6241",
-      "title": "Millinocket salmon farm project paused due to tariffs \u2018roller coaster\u2019",
-      "summary": "The project was expected\u00a0to create more than 100 jobs during construction, and dozens when it was operational.",
-      "url": "https://www.bangordailynews.com/2026/08/28/penobscot/penobscot-business/millinocket-maine-salmon-farm-paused-tariffs/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f547c97fd3ee",
-      "title": "Rockland man admits to reduced charges in attack on protesters",
-      "summary": "Michael Robinson used a snow plow to inundate protesters with ice, snow and gravel.",
-      "url": "https://www.bangordailynews.com/2026/08/28/midcoast/midcoast-police-courts/rockland-maine-michael-robinson-protest-attack-plea-deal/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-08-28",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
-      "id": "2b25ea127cf8",
-      "title": "JD Vance allies expose alleged 2028 sabotage plot: \u2018Do you think we\u2019re f---ing stupid?\u2019",
-      "summary": "The vice president's political operation say there is a campaign brewing to destroy his possible presidential bid.",
-      "url": "https://www.masslive.com/politics/2026/08/jd-vance-allies-expose-alleged-2028-sabotage-plot-do-you-think-were-f-ing-stupid.html",
-      "source": "MassLive",
-      "state": "MA",
       "date": "2026-08-28",
       "category": "news",
       "priority": "high",
@@ -24555,7 +24527,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-28T21:16:51.988763",
+      "updated": "2026-08-29T15:21:47.796647",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24672,7 +24644,7 @@
       "raw_display": "10,143 units/mo",
       "yoy_change": 28.9,
       "source": "FRED API",
-      "updated": "2026-08-28T21:16:51.988763"
+      "updated": "2026-08-29T15:21:47.796647"
     },
     "construction_spending": {
       "score": 5.4,
@@ -24682,7 +24654,7 @@
       "raw_display": "$152.1B SAAR",
       "yoy_change": 2.9,
       "source": "FRED API",
-      "updated": "2026-08-28T21:16:51.988763"
+      "updated": "2026-08-29T15:21:47.796647"
     },
     "migration": {
       "score": 5.0,
@@ -24692,7 +24664,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-28T21:16:51.988763"
+      "updated": "2026-08-29T15:21:47.796647"
     },
     "construction_employment": {
       "score": 4.9,
@@ -24702,7 +24674,7 @@
       "raw_display": "1024K workers",
       "yoy_change": -0.3,
       "source": "FRED API",
-      "updated": "2026-08-28T21:16:51.988763"
+      "updated": "2026-08-29T15:21:47.796647"
     },
     "input_cost": {
       "score": 7.3,
@@ -24720,7 +24692,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-08-28T21:16:51.988763"
+      "updated": "2026-08-29T15:21:47.796647"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24729,7 +24701,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-28T21:16:51.988763"
+      "updated": "2026-08-29T15:21:47.796647"
     },
     "overall_score": 7.7,
     "overall_status": "growth",
@@ -24742,6 +24714,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-28T21:16:51.988763"
+    "calculated_at": "2026-08-29T15:21:47.796647"
   }
 }

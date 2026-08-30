@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-29T15:23:23.450484Z",
+  "generated": "2026-08-30T15:05:28.859632Z",
   "summary": {
-    "total_opportunities": 1180,
+    "total_opportunities": 1181,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -14,13 +14,13 @@
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 347,
+      "CT": 348,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1177,
       "news": 10,
-      "funding": 3
+      "funding": 4
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24337,6 +24337,48 @@
   ],
   "news": [
     {
+      "id": "79233c65892e",
+      "title": "3 hurt in wrong-way driver crash on I-295",
+      "summary": "An 88-year-old New Hampshire man entered I-295 going the wrong way, leading to a head-on crash near Portland's Tukey's Bridge.",
+      "url": "https://www.bangordailynews.com/2026/08/30/portland/portland-police-courts/3-hurt-wrong-way-driver-crash-i-295/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "981dee212613",
+      "title": "Firefighters battle Penobscot wildfire, Castine Road closed",
+      "summary": "Firefighters returned Sunday to extinguish hot spots from the fire, and drivers were warned to watch for wildlife displaced by the blaze.",
+      "url": "https://www.bangordailynews.com/2026/08/30/hancock/hancock-police-courts/penobscot-wildfire-castine-road-closed/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-08-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e0291d7354bd",
+      "title": "Florida\u2019s failing for-profit railroad",
+      "summary": "A for-profit railroad sounds good in theory but, as the finance bros ask, \u201cDoes it pencil?\u201d",
+      "url": "https://ctmirror.org/2026/08/30/floridas-failing-for-profit-railroad/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-08-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "13ea0672d017",
       "title": "Lebanon among cities turning to AI to speed housing permitting",
       "summary": "New housing projects can sometimes stall out as a developer applies to city or county planning boards and goes through cycles of inspections, reviews and approvals.",
@@ -24351,29 +24393,15 @@
       ]
     },
     {
-      "id": "3e907de7903a",
-      "title": "What\u2019s next as UNE\u2019s Biddeford pier project moves forward",
-      "summary": "The proposal got a key extension Wednesday from the Saco River Corridor Commission, but the city has previously enacted undertaken steps to stall the project.",
-      "url": "https://www.pressherald.com/2026/08/29/whats-next-as-unes-biddeford-pier-project-moves-forward/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "fe0ee2134334",
-      "title": "Some US cities have begun rewarding careful drivers with fewer red lights",
-      "summary": "Officials struggled for years to curb high-speed crashes along a residential corridor cutting through Albuquerque, New Mexico, but simply punishing the lead-footed drivers didn\u2019t seem to work. What ultimately did was rewarding the law-abiding ones with fewer red lights. The solution, which the city",
-      "url": "https://www.bangordailynews.com/2026/08/29/nation/some-us-cities-have-begun-rewarding-careful-drivers-with-fewer-red-lights/",
+      "id": "dc3ea9660e32",
+      "title": "Farmington Food Co-op awarded $15,000 grant to expand bulk foods and sustainable shopping options",
+      "summary": "FARMINGTON \u2014 The Farmington Food Co-op has been awarded a $15,000 grant from the Greater Franklin Development Council\u2019s Community Investment Fund to expand its fill-your-own bulk foods program and invest in staff training, helping the co-op offer more affordable, sustainable shopping options for the",
+      "url": "https://www.bangordailynews.com/2026/08/29/bdn-maine/farmington-food-co-op-awarded-15000-grant-to-expand-bulk-foods-and-sustainable-shopping-options/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-08-29",
-      "category": "news",
-      "priority": "high",
+      "category": "funding",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24387,20 +24415,6 @@
       "state": "VT",
       "date": "2026-08-28",
       "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "56db215b6d65",
-      "title": "York County volunteers host school sendoff event with free backpacks",
-      "summary": "Uplifting Families Together, an initiative through Volunteers of America, hosted Friday's event in Biddeford to provide resources to families in need.",
-      "url": "https://www.pressherald.com/2026/08/28/york-county-volunteers-host-school-sendoff-event-with-free-backpacks/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-08-28",
-      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"
@@ -24527,7 +24541,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-29T15:23:23.279167",
+      "updated": "2026-08-30T15:05:16.877582",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24637,24 +24651,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-29T15:23:23.279167"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-08-30T15:05:16.877582"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.4,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-29T15:23:23.279167"
+      "raw": 152065.0,
+      "raw_display": "$152.1B SAAR",
+      "yoy_change": 2.9,
+      "source": "FRED API",
+      "updated": "2026-08-30T15:05:16.877582"
     },
     "migration": {
       "score": 5.0,
@@ -24664,35 +24678,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-29T15:23:23.279167"
+      "updated": "2026-08-30T15:05:16.877582"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-29T15:23:23.279167"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-08-30T15:05:16.877582"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 7.3,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.03 | Diesel $5.72",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.03,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.72,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-29T15:23:23.279167"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-08-30T15:05:16.877582"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24701,19 +24715,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-29T15:23:23.279167"
+      "updated": "2026-08-30T15:05:16.877582"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-29T15:23:23.279167"
+    "calculated_at": "2026-08-30T15:05:16.877582"
   }
 }

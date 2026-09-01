@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-31T17:46:29.681147Z",
+  "generated": "2026-09-01T15:15:46.212565Z",
   "summary": {
-    "total_opportunities": 1180,
+    "total_opportunities": 1177,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -9,7 +9,7 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 43,
-      "NH": 13,
+      "NH": 10,
       "ME": 169,
       "MA": 599,
       "NY": 1,
@@ -18,7 +18,7 @@
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1177,
+      "dot_letting": 1174,
       "news": 9,
       "funding": 3
     },
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 704,
+          "count": 702,
           "value": 3070042217
         },
         "Safety": {
@@ -50,7 +50,7 @@
           "value": 959896527
         },
         "Other": {
-          "count": 80,
+          "count": 79,
           "value": 421575313
         }
       },
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 11,
+          "count": 8,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 9,
+            "count": 7,
             "value": 0
           },
           "Safety": {
@@ -183,7 +183,7 @@
             "value": 0
           },
           "Other": {
-            "count": 2,
+            "count": 1,
             "value": 0
           }
         },
@@ -16138,63 +16138,6 @@
       ]
     },
     {
-      "id": "d8a5ee9d9735",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-270-61 EPD:Engineering Serves For Environmental Infrastructure ProjectsQuestions: Robert Robinson, P.E.Chief Engeineer (603)624-6526rrobinson@manchesternh.gov RFQ RFQ Due:June 17, 2026By 4:00PM ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Other",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "dfd66798ff57",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-804-64 Water Works: Generators & SwitchesQuestions: Tim Duvaltduval@manchesternh.gov RFB RFB DUE:June 25, 2026By 2:00PM Addendum 1 ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "41d6f1648c75",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-804-65 Water Works: Medium Voltage TransformerQuestions: Tim Duval RFB RFB DUE:June 25, 2026By 2:00PM ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "b9e493d5c68e",
       "state": "NH",
       "project_id": null,
@@ -24337,15 +24280,57 @@
   ],
   "news": [
     {
-      "id": "df08d795ad39",
-      "title": "House Republicans launch investigation into DEA tactic that allowed fentanyl to hit streets",
-      "summary": "MIAMI (AP) \u2014 Republicans on the House Oversight Committee have launched an investigation into a controversial policing tactic that permitted staggering amounts of deadly fentanyl to reach the streets as federal authorities sought to build bigger drug cases. The committee\u2019s chairman, Rep. James Comer",
-      "url": "https://www.bangordailynews.com/2026/08/31/nation/house-republicans-launch-investigation-into-dea-tactic-that-allowed-fentanyl-to-hit-streets/",
-      "source": "Bangor Daily News",
+      "id": "9d6b7e6a6f14",
+      "title": "Tempting cakes, tantalizing experiences and more up for bid in historical association\u2019s fundraiser",
+      "summary": "The Lincoln County Historical Association's annual Preservation Party is Sept. 13 at the Pownalborough Court House.",
+      "url": "https://www.pressherald.com/2026/08/31/tempting-cakes-tantalizing-experiences-and-more-up-for-bid-in-historical-associations-fundraiser/",
+      "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-09-01",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "540b25273879",
+      "title": "Ryan Fazio offers prayers, talks property taxes to unseat a governor",
+      "summary": "Ryan Fazio is trying to be the first person to unseat a Connecticut governor in 72 years. The road ahead is steep and not clearly mapped.",
+      "url": "https://ctmirror.org/2026/09/01/ryan-fazio-offers-prayers-talks-property-taxes-to-unseat-a-governor/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-01",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "44b0abb035b1",
+      "title": "\u2018Stronger now than it was\u2019: Quechee Gorge Bridge reopens with new suicide barriers",
+      "summary": "The upgrades to the bridge overlooking Vermont\u2019s deepest natural canyon are meant to save lives.\nRead the story on VTDigger here:  \u2018Stronger now than it was\u2019: Quechee Gorge Bridge reopens with new suicide barriers.",
+      "url": "https://vtdigger.org/2026/08/31/stronger-now-than-it-was-quechee-gorge-bridge-reopens-with-new-suicide-barriers/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-08-31",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a1a1f101ccd4",
+      "title": "Lamont said he OK\u2019d a $250k no-bid contract with Miguel Cardona",
+      "summary": "Gov. Ned Lamont said he knew of and OK'd a $250,000 no-bid contract with a company owned by former U.S. Education Secretary Miguel Cardona.",
+      "url": "https://ctmirror.org/2026/08/31/lamont-said-he-okd-a-250k-no-bid-contract-with-miguel-cardona/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-08-31",
       "category": "funding",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24461,59 +24446,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "e1a04ea2dec1",
-      "title": "Greenwich to consider construction of 13 townhomes off I-95",
-      "summary": "After failed attempts to win approval for a fast food restaurant, new developers proposed luxury townhomes in Greenwich's Riverside neighborhood.",
-      "url": "https://ctmirror.org/2026/08/27/greenwich-moderate-housing/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-27",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "96cf75598299",
-      "title": "Don\u2019t let St. Stephen\u2019s Road become a sacrifice zone",
-      "summary": "We suggest an immediate formal rerouting designation; thus protecting the vulnerable populations of St. Stephen\u2019s Rd.",
-      "url": "https://ctmirror.org/2026/08/27/dont-let-st-stephens-road-become-a-sacrifice-zone/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-27",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4501bbd6e1cb",
-      "title": "Manchester Selectboard discusses future of Flock cameras",
-      "summary": "Some town officials and residents are questioning the use of the cameras, which have been in place in Manchester since 2023, concerned about the potential creation of a surveillance-state infrastructure.\nRead the story on VTDigger here:  Manchester Selectboard discusses future of Flock cameras.",
-      "url": "https://vtdigger.org/2026/08/26/manchester-selectboard-discusses-future-of-flock-cameras/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-08-31T17:46:28.813172",
+      "updated": "2026-09-01T15:15:21.081135",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24623,24 +24566,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-31T17:46:28.813172"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-01T15:15:21.081135"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-31T17:46:28.813172"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-01T15:15:21.081135"
     },
     "migration": {
       "score": 5.0,
@@ -24650,35 +24593,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-08-31T17:46:28.813172"
+      "updated": "2026-09-01T15:15:21.081135"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-08-31T17:46:28.813172"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-01T15:15:21.081135"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.74",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.74,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-08-31T17:46:28.813172"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-01T15:15:21.081135"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24687,19 +24630,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-08-31T17:46:28.813172"
+      "updated": "2026-09-01T15:15:21.081135"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-08-31T17:46:28.813172"
+    "calculated_at": "2026-09-01T15:15:21.081135"
   }
 }

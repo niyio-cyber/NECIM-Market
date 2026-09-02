@@ -1,26 +1,26 @@
 {
-  "generated": "2026-09-01T15:20:07.724354Z",
+  "generated": "2026-09-02T14:45:53.718568Z",
   "summary": {
-    "total_opportunities": 1177,
+    "total_opportunities": 1178,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 10,
+      "VT": 42,
+      "NH": 12,
       "ME": 169,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 349,
+      "CT": 347,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1174,
-      "news": 9,
-      "funding": 3
+      "dot_letting": 1176,
+      "news": 7,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,11 +42,11 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 702,
+          "count": 703,
           "value": 3070042217
         },
         "Safety": {
-          "count": 139,
+          "count": 140,
           "value": 959896527
         },
         "Other": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 342,
+          "count": 344,
           "value": 0
         },
         "PA": {
@@ -265,11 +265,11 @@
             "value": 0
           },
           "Pavement": {
-            "count": 337,
+            "count": 338,
             "value": 0
           },
           "Safety": {
-            "count": 1,
+            "count": 2,
             "value": 0
           },
           "Other": {
@@ -17317,7 +17317,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-09-16",
+      "let_date": "2026-09-30",
       "fiscal_year": "FY2026",
       "project_type": "Bridge",
       "location": "I-95",
@@ -17370,6 +17370,26 @@
       ]
     },
     {
+      "id": "357b04a4eb14",
+      "state": "CT",
+      "project_id": "0170-3749",
+      "description": "0170-3749 Video Detection Upgrades at Various Locations in Urban Areas of 5,000-49,999 Persons\n0170-3750 Video Detection Upgrades at Various Locations in Rural Areas\n0172-0546 Video Detection Upgrades",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-09-30",
+      "fiscal_year": "FY2026",
+      "project_type": "Pavement",
+      "location": "Waterbury",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "851d946ebcc9",
       "state": "CT",
       "project_id": "0172-0535",
@@ -17382,6 +17402,26 @@
       "fiscal_year": "FY2026",
       "project_type": "Safety",
       "location": "CT 2",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6ca512cdf6de",
+      "state": "CT",
+      "project_id": "0172-0549",
+      "description": "District 2 Traffic Safety Improvements in District 2",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-09-30",
+      "fiscal_year": "FY2026",
+      "project_type": "Safety",
+      "location": "ct 2",
       "district": null,
       "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
       "source": "CTDOT Q&A",
@@ -24280,12 +24320,54 @@
   ],
   "news": [
     {
-      "id": "9d6b7e6a6f14",
-      "title": "Tempting cakes, tantalizing experiences and more up for bid in historical association\u2019s fundraiser",
-      "summary": "The Lincoln County Historical Association's annual Preservation Party is Sept. 13 at the Pownalborough Court House.",
-      "url": "https://www.pressherald.com/2026/08/31/tempting-cakes-tantalizing-experiences-and-more-up-for-bid-in-historical-associations-fundraiser/",
+      "id": "bb9cd0dab4a3",
+      "title": "Anheuser-Busch plant in Merrimack sold to United Therapeutics for $47.5M",
+      "summary": "Anheuser-Busch sold its former brewery and expansive property on the Daniel Webster Highway in Merrimack to United Therapeutics for $47.5 million, according to the Hillsborough County Registry of Deeds.",
+      "url": "https://www.unionleader.com/news/business/anheuser-busch-plant-in-merrimack-sold-to-united-therapeutics-for-47-5m/article_9435b283-6150-437e-aa18-2dfc0b21063d.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-09-02",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "660d4f97e182",
+      "title": "Obituary:  Barrett \u201cBarry\u201d Eugene Jenkins",
+      "summary": "BIDDEFORD - On August 28, 2026, Barrett \u201cBarry\u201d Eugene Jenkins, 85, passed away on what would have been his 61st wedding ...",
+      "url": "https://www.pressherald.com/2026/09/02/obituary-barrett-barry-eugene-jenkins-2/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-09-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2f4cf9d59056",
+      "title": "What Bridgeport and Fairfield reveal about who shows up for school",
+      "summary": "We are very good at counting whether families show up for institutions. We should become just as serious about whether institutions show up for families.",
+      "url": "https://ctmirror.org/2026/09/02/what-bridgeport-and-fairfield-reveal-about-who-gets-to-show-up-for-school/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9003131a8b62",
+      "title": "Court hearing on I-95 liquor store redevelopment lawsuit closed to public",
+      "summary": "Court proceedings on a lawsuit filed by the Common Man Roadside after being disqualified by the New Hampshire Liquor Commission from the bidding process to redevelop the two liquor stores on Interstate 95 in Hampton will take place behind closed\u2026",
+      "url": "https://www.unionleader.com/news/courts/court-hearing-on-i-95-liquor-store-redevelopment-lawsuit-closed-to-public/article_238686dc-6e46-4634-bbef-ae22d836daa7.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-09-01",
       "category": "news",
       "priority": "high",
@@ -24336,48 +24418,6 @@
       ]
     },
     {
-      "id": "e07edddc79e6",
-      "title": "Congress can finally make progress on this chronic disease",
-      "summary": "Chronic fatigue syndrome affects 38,000 people in Connecticut. Now there's a roadmap to help them.",
-      "url": "https://ctmirror.org/2026/08/31/congress-can-finally-make-progress-on-this-chronic-disease/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-31",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d44a6051c279",
-      "title": "Generational health is generational wealth",
-      "summary": "To close Connecticut's racial wealth gap, we must start treating health equity as an economic development strategy.",
-      "url": "https://ctmirror.org/2026/08/31/generational-health-is-generational-wealth/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-31",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e0291d7354bd",
-      "title": "Florida\u2019s failing for-profit railroad",
-      "summary": "A for-profit railroad sounds good in theory but, as the finance bros ask, \u201cDoes it pencil?\u201d",
-      "url": "https://ctmirror.org/2026/08/30/floridas-failing-for-profit-railroad/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-30",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "13ea0672d017",
       "title": "Lebanon among cities turning to AI to speed housing permitting",
       "summary": "New housing projects can sometimes stall out as a developer applies to city or county planning boards and goes through cycles of inspections, reviews and approvals.",
@@ -24387,48 +24427,6 @@
       "date": "2026-08-29",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ece1f76fedbb",
-      "title": "Killington seeks financial help after cash crunch, TIF compliance issues",
-      "summary": "The town needed to take out a loan as it works on public infrastructure for the multibillion-dollar Killington Village project.\nRead the story on VTDigger here:  Killington seeks financial help after cash crunch, TIF compliance issues.",
-      "url": "https://vtdigger.org/2026/08/28/killington-seeks-financial-help-after-cash-crunch-tif-compliance-issues/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-28",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c9ad0fe5e9cb",
-      "title": "CT to pay Miguel Cardona $250k to consult for commission he leads",
-      "summary": "A no-bid consulting contract that will pay former Education Secretary Miguel Cardona $250,000 has raised ethical questions.",
-      "url": "https://ctmirror.org/2026/08/28/ct-to-pay-miguel-cardona-250k-to-consult-for-commission-he-leads/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-28",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "78a4352d3819",
-      "title": "Bridgeport voters deserve answers on absentee ballot fraud",
-      "summary": "The upcoming trial is another reminder of how important it is that every vote in Bridgeport be cast and counted honestly.",
-      "url": "https://ctmirror.org/2026/08/28/bridgeport-voters-deserve-answers-on-absentee-ballot-fraud/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-08-28",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24456,7 +24454,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-01T15:20:06.768498",
+      "updated": "2026-09-02T14:45:27.694121",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24566,24 +24564,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-01T15:20:06.768498"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-02T14:45:27.694121"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-01T15:20:06.768498"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-02T14:45:27.694121"
     },
     "migration": {
       "score": 5.0,
@@ -24593,35 +24591,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-01T15:20:06.768498"
+      "updated": "2026-09-02T14:45:27.694121"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-01T15:20:06.768498"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-02T14:45:27.694121"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.74",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.74,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-01T15:20:06.768498"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-02T14:45:27.694121"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24630,19 +24628,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-01T15:20:06.768498"
+      "updated": "2026-09-02T14:45:27.694121"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-01T15:20:06.768498"
+    "calculated_at": "2026-09-02T14:45:27.694121"
   }
 }

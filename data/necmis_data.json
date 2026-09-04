@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-03T14:49:37.172912Z",
+  "generated": "2026-09-04T14:36:03.104977Z",
   "summary": {
-    "total_opportunities": 1176,
+    "total_opportunities": 1177,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 42,
-      "NH": 13,
-      "ME": 172,
-      "MA": 600,
+      "VT": 43,
+      "NH": 12,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1174,
-      "news": 13,
-      "funding": 2
+      "news": 9,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24279,41 +24279,13 @@
   ],
   "news": [
     {
-      "id": "2e62ddb2efa4",
-      "title": "Troy Jackson tries to tap town hall magic that propelled Graham Platner\u2019s Senate bid",
-      "summary": "The stylistic differences between the current and former Democratic Senate nominees were on display in Lewiston on Tuesday night.",
-      "url": "https://www.pressherald.com/2026/09/03/troy-jackson-tries-to-tap-town-hall-magic-that-propelled-graham-platners-senate-bid/",
+      "id": "a81a41fa6665",
+      "title": "This historic York home is free to anyone who can move it",
+      "summary": "If no one agrees to pick up the John Kingsbury House and relocate it, then the 250-year-old building will likely be demolished to make room for a new mixed-use development.",
+      "url": "https://www.pressherald.com/2026/09/04/this-historic-york-home-is-free-to-anyone-who-can-move-it/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c3f745c83831",
-      "title": "Facing tough reelection bid, Susan Collins navigates Donald Trump\u2019s tariffs on Canada",
-      "summary": "The trade war with the longtime U.S. ally has pitted Collins against the president, who remains deeply unpopular with Maine Democrats and independents.",
-      "url": "https://www.bangordailynews.com/2026/09/03/politics/elections/maine-election-senate-2026-susan-collins-canada-trade-war/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "eaeeeb361db8",
-      "title": "Person found unresponsive along Dover-Foxcroft road",
-      "summary": "Evidence right now doesn\u2019t support early reports that this was a hit-and-run crash, police said.",
-      "url": "https://www.bangordailynews.com/2026/09/03/piscataquis/piscataquis-police-courts/dover-foxcroft-maine-north-street-unresponsive-person-found/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24321,29 +24293,57 @@
       ]
     },
     {
-      "id": "c467b7c97c49",
-      "title": "Canadian brewery eyes move to shuttered Maine pub amid escalating tariff dispute",
-      "summary": "Given the latest developments, the owners of Mother Mushroom Brewery & Farmstay, have decided they can no longer operate out of their oceanfront lot on Campobello Island.",
-      "url": "https://www.bangordailynews.com/2026/09/03/down-east/downeast-business/campobello-brewery-move-to-lubec-tariff-dispute-joam40zk0w/",
+      "id": "ec32dfa77f5c",
+      "title": "This roadless area of Maine could lose federal protections",
+      "summary": "The roughly 6,000-acre tract\u00a0is part of the White Mountain National Forest in western Maine.",
+      "url": "https://www.bangordailynews.com/2026/09/04/outdoors/outdoors-environment/maine-forest-could-lose-federal-protections-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-03",
-      "category": "news",
+      "date": "2026-09-04",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "9df54c450116",
-      "title": "Coffee chain outbids rival with $143M offer for bankrupt drive-thru locations",
-      "summary": "The 73 former Salad and Go locations were closed in August.",
-      "url": "https://www.masslive.com/business/2026/09/coffee-chain-outbids-rival-with-143m-offer-for-bankrupt-drive-thru-locations.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "1eec4ce136ec",
+      "title": "For some patients seeking drugs like Ozempic, the best path is to just get sicker",
+      "summary": "Now a federal pilot program is broadening access to the weight loss medication for some Medicare patients.\nRead the story on VTDigger here:  For some patients seeking drugs like Ozempic, the best path is to just get sicker.",
+      "url": "https://vtdigger.org/2026/09/03/for-some-patients-seeking-drugs-like-ozempic-the-best-path-is-to-just-get-sicker/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-09-03",
       "category": "funding",
-      "priority": "high",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "bb2d581c82ef",
+      "title": "Save New England\u2019s wildest forests before it\u2019s too late",
+      "summary": "The roadless rule protects 260,000 acres of the White and Green Mountain national forests. The Trump administration wants to rescind it.\nRead the story on VTDigger here:  Save New England\u2019s wildest forests before it\u2019s too late.",
+      "url": "https://vtdigger.org/2026/09/03/opinion-save-new-englands-wildest-forests-before-its-too-late/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-03",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ba91e81df969",
+      "title": "Fazio opposed to data-center tax break, not data centers",
+      "summary": "Fazio sidestepped the broader data center controversy by focusing on an economic development measure signed into law five years ago.",
+      "url": "https://ctmirror.org/2026/09/03/fazio-opposed-to-data-center-tax-break-not-data-centers/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-03",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24433,34 +24433,6 @@
       ]
     },
     {
-      "id": "540b25273879",
-      "title": "Ryan Fazio offers prayers, talks property taxes to unseat a governor",
-      "summary": "Ryan Fazio is trying to be the first person to unseat a Connecticut governor in 72 years. The road ahead is steep and not clearly mapped.",
-      "url": "https://ctmirror.org/2026/09/01/ryan-fazio-offers-prayers-talks-property-taxes-to-unseat-a-governor/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "44b0abb035b1",
-      "title": "\u2018Stronger now than it was\u2019: Quechee Gorge Bridge reopens with new suicide barriers",
-      "summary": "The upgrades to the bridge overlooking Vermont\u2019s deepest natural canyon are meant to save lives.\nRead the story on VTDigger here:  \u2018Stronger now than it was\u2019: Quechee Gorge Bridge reopens with new suicide barriers.",
-      "url": "https://vtdigger.org/2026/08/31/stronger-now-than-it-was-quechee-gorge-bridge-reopens-with-new-suicide-barriers/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-08-31",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "13ea0672d017",
       "title": "Lebanon among cities turning to AI to speed housing permitting",
       "summary": "New housing projects can sometimes stall out as a developer applies to city or county planning boards and goes through cycles of inspections, reviews and approvals.",
@@ -24468,20 +24440,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-08-29",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1fdad2e4de24",
-      "title": "Soil issues, other details delay Chester plan for 34 small homes",
-      "summary": "The Chester Planning Board may be getting closer to making a decision on whether to allow 34 small homes to be built at 611 Haverhill Road.",
-      "url": "https://www.unionleader.com/news/business/soil-issues-other-details-delay-chester-plan-for-34-small-homes/article_b3a69653-d490-4e78-bc8f-559adee0f2a7.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-08-27",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24497,7 +24455,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-03T14:49:33.910137",
+      "updated": "2026-09-04T14:35:51.025363",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24607,24 +24565,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-03T14:49:33.910137"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-04T14:35:51.025363"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-03T14:49:33.910137"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-04T14:35:51.025363"
     },
     "migration": {
       "score": 5.0,
@@ -24634,35 +24592,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-03T14:49:33.910137"
+      "updated": "2026-09-04T14:35:51.025363"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-03T14:49:33.910137"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-04T14:35:51.025363"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.74",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.74,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-03T14:49:33.910137"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-04T14:35:51.025363"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24671,19 +24629,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-03T14:49:33.910137"
+      "updated": "2026-09-04T14:35:51.025363"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-03T14:49:33.910137"
+    "calculated_at": "2026-09-04T14:35:51.025363"
   }
 }

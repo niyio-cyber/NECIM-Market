@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T14:38:49.669383Z",
+  "generated": "2026-09-05T13:35:35.795356Z",
   "summary": {
     "total_opportunities": 1177,
     "total_value_low": 10119560641,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
+      "VT": 44,
       "NH": 12,
-      "ME": 170,
-      "MA": 599,
+      "ME": 173,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 346,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1174,
-      "news": 9,
+      "news": 14,
       "funding": 3
     },
     "pipeline_analysis": {
@@ -24279,12 +24279,82 @@
   ],
   "news": [
     {
-      "id": "a81a41fa6665",
-      "title": "This historic York home is free to anyone who can move it",
-      "summary": "If no one agrees to pick up the John Kingsbury House and relocate it, then the 250-year-old building will likely be demolished to make room for a new mixed-use development.",
-      "url": "https://www.pressherald.com/2026/09/04/this-historic-york-home-is-free-to-anyone-who-can-move-it/",
+      "id": "c9ff4bcb99f4",
+      "title": "A word of caution about cyclists \u2018taking up space\u2019 | Letter",
+      "summary": "I am an avid bicyclist. I would encourage bicyclists to consider safety tip No. 9 in the Aug. 20 bike safety feature \u2014 \u201cTake up space\u201d \u2014 very carefully. I believe a bicyclist following this point risks ending up \u201cdead right.\u201d Traveling in the middle of the road where there are limited opportunities",
+      "url": "https://www.pressherald.com/2026/09/05/a-word-of-caution-about-cyclists-taking-up-space-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-09-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1312fa21aae7",
+      "title": "Obituary: Linda L. Fondak",
+      "summary": "SACO - Linda L. Fondak, 80, of McKenney Road passed away Tuesday Sept. 1, 2026, at her home with her family ...",
+      "url": "https://www.pressherald.com/2026/09/05/obituarylinda-l-fondak-2/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c3a2a9518624",
+      "title": "Biddeford field hockey outlasts Sanford/Kennebunk in season opener",
+      "summary": "Junior Mia Mariello scores 4 goals to help the Tigers hold off the Spartans after letting a three-goal lead slip away.",
+      "url": "https://www.pressherald.com/2026/09/04/biddeford-field-hockey-outlasts-sanford-kennebunk-in-season-opener/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ca42779c0e88",
+      "title": "Rhode Island Gov. Dan McKee faces rematch with Helena Foulkes amid turmoil over Washington Bridge",
+      "summary": "PROVIDENCE, R.I. (AP) \u2014 Four years ago, Rhode Island Gov. Dan McKee was celebrating his narrow victory in the Democratic primary surrounded by supporters, when someone handed him phone \u2014 it was his opponent simply calling to concede. \u201cThat\u2019s not going to happen,\u201d he said, waving the phone away. \u201cHan",
+      "url": "https://www.bangordailynews.com/2026/09/05/nation/rhode-island-gov-dan-mckee-faces-rematch-with-helena-foulkes-amid-turmoil-over-washington-bridge/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "70635cab5274",
+      "title": "Trump reveals 1 stunning reason behind his obsession with construction projects",
+      "summary": "In a recent interview with New Yorker magazine, Trump suggested that the reason behind all of his construction projects is to cement himself into U.S. history",
+      "url": "https://www.masslive.com/politics/2026/09/trump-reveals-1-stunning-reason-behind-his-obsession-with-construction-projects.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "4da490809d28",
+      "title": "UVM Health opens new outpatient clinic with leader in suicide care at the helm",
+      "summary": "The 100-patient clinic seeks to expand Vermont\u2019s capacity to treat suicidal thinking while also broadening research into the condition.\nRead the story on VTDigger here:  UVM Health opens new outpatient clinic with leader in suicide care at the helm.",
+      "url": "https://vtdigger.org/2026/09/04/uvm-health-opens-new-outpatient-clinic-with-leader-in-suicide-care-at-the-helm/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-09-04",
       "category": "news",
       "priority": "medium",
@@ -24293,15 +24363,29 @@
       ]
     },
     {
-      "id": "ec32dfa77f5c",
-      "title": "This roadless area of Maine could lose federal protections",
-      "summary": "The roughly 6,000-acre tract\u00a0is part of the White Mountain National Forest in western Maine.",
-      "url": "https://www.bangordailynews.com/2026/09/04/outdoors/outdoors-environment/maine-forest-could-lose-federal-protections-joam40zk0w/",
+      "id": "c745568d18dc",
+      "title": "Triathlete Sports buys former Family Dollar building in Bangor",
+      "summary": "The property on the corner of State Street and Broadway went on the market in June for nearly $1.4 million.",
+      "url": "https://www.bangordailynews.com/2026/09/04/bangor/bangor-business/former-family-dollar-building-bangor-sold-joam40zk0w/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-09-04",
       "category": "funding",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5e7d9ac7d18f",
+      "title": "Jahana Hayes, angling for labor chair, suggests Dems failed unions",
+      "summary": "Hayes accused Democrats of slow-walking a labor agenda when the party enjoyed a power trifecta for two years when Joe Biden was president.",
+      "url": "https://ctmirror.org/2026/09/04/jahana-hayes-angling-for-labor-chair-suggests-dems-failed-unions/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-04",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24405,20 +24489,6 @@
       ]
     },
     {
-      "id": "2f4cf9d59056",
-      "title": "What Bridgeport and Fairfield reveal about who shows up for school",
-      "summary": "We are very good at counting whether families show up for institutions. We should become just as serious about whether institutions show up for families.",
-      "url": "https://ctmirror.org/2026/09/02/what-bridgeport-and-fairfield-reveal-about-who-gets-to-show-up-for-school/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-02",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "9003131a8b62",
       "title": "Court hearing on I-95 liquor store redevelopment lawsuit closed to public",
       "summary": "Court proceedings on a lawsuit filed by the Common Man Roadside after being disqualified by the New Hampshire Liquor Commission from the bidding process to redevelop the two liquor stores on Interstate 95 in Hampton will take place behind closed\u2026",
@@ -24455,7 +24525,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-04T14:38:44.564160",
+      "updated": "2026-09-05T13:35:22.431477",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24565,24 +24635,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-04T14:38:44.564160"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-05T13:35:22.431477"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-04T14:38:44.564160"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-05T13:35:22.431477"
     },
     "migration": {
       "score": 5.0,
@@ -24592,35 +24662,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-04T14:38:44.564160"
+      "updated": "2026-09-05T13:35:22.431477"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-04T14:38:44.564160"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-05T13:35:22.431477"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.74",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.74,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-04T14:38:44.564160"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-05T13:35:22.431477"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24629,19 +24699,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-04T14:38:44.564160"
+      "updated": "2026-09-05T13:35:22.431477"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-04T14:38:44.564160"
+    "calculated_at": "2026-09-05T13:35:22.431477"
   }
 }

@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-05T13:37:21.224840Z",
+  "generated": "2026-09-06T13:50:47.348993Z",
   "summary": {
-    "total_opportunities": 1177,
+    "total_opportunities": 1176,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 44,
+      "VT": 45,
       "NH": 12,
-      "ME": 173,
+      "ME": 170,
       "MA": 600,
       "NY": 1,
       "RI": 7,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1174,
-      "news": 14,
-      "funding": 3
+      "news": 13,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24279,41 +24279,28 @@
   ],
   "news": [
     {
-      "id": "c9ff4bcb99f4",
-      "title": "A word of caution about cyclists \u2018taking up space\u2019 | Letter",
-      "summary": "I am an avid bicyclist. I would encourage bicyclists to consider safety tip No. 9 in the Aug. 20 bike safety feature \u2014 \u201cTake up space\u201d \u2014 very carefully. I believe a bicyclist following this point risks ending up \u201cdead right.\u201d Traveling in the middle of the road where there are limited opportunities",
-      "url": "https://www.pressherald.com/2026/09/05/a-word-of-caution-about-cyclists-taking-up-space-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-05",
+      "id": "a9275e0f20e0",
+      "title": "Then Again: Armed with a spirit of discovery and a gun, the first lady road-trips through Vermont",
+      "summary": "Eleanor Roosevelt had planned a getaway. But the trip also helped reshape expectations of what a first lady could do \u2014 and helped cement her role as a partner in her husband\u2019s presidency. \nRead the story on VTDigger here:  Then Again: Armed with a spirit of discovery and a gun, the first lady road-",
+      "url": "https://vtdigger.org/2026/09/06/then-again-armed-with-a-spirit-of-discovery-and-a-gun-the-first-lady-road-trips-through-vermont/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-06",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway"
+        "highway",
+        "ready_mix"
       ]
     },
     {
-      "id": "1312fa21aae7",
-      "title": "Obituary: Linda L. Fondak",
-      "summary": "SACO - Linda L. Fondak, 80, of McKenney Road passed away Tuesday Sept. 1, 2026, at her home with her family ...",
-      "url": "https://www.pressherald.com/2026/09/05/obituarylinda-l-fondak-2/",
-      "source": "Portland Press Herald",
+      "id": "4aa5887d3db7",
+      "title": "Dover-Foxcroft police ID vehicle in fatal hit-and-run",
+      "summary": "Police say they have identified the vehicle involved in the death of a Cambridge man found on a Dover-Foxcroft roadside last week.",
+      "url": "https://www.bangordailynews.com/2026/09/06/piscataquis/piscataquis-police-courts/dover-foxcroft-police-id-vehicle-in-fatal-hit-and-run/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-05",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c3a2a9518624",
-      "title": "Biddeford field hockey outlasts Sanford/Kennebunk in season opener",
-      "summary": "Junior Mia Mariello scores 4 goals to help the Tigers hold off the Spartans after letting a three-goal lead slip away.",
-      "url": "https://www.pressherald.com/2026/09/04/biddeford-field-hockey-outlasts-sanford-kennebunk-in-season-opener/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24321,31 +24308,45 @@
       ]
     },
     {
-      "id": "ca42779c0e88",
-      "title": "Rhode Island Gov. Dan McKee faces rematch with Helena Foulkes amid turmoil over Washington Bridge",
-      "summary": "PROVIDENCE, R.I. (AP) \u2014 Four years ago, Rhode Island Gov. Dan McKee was celebrating his narrow victory in the Democratic primary surrounded by supporters, when someone handed him phone \u2014 it was his opponent simply calling to concede. \u201cThat\u2019s not going to happen,\u201d he said, waving the phone away. \u201cHan",
-      "url": "https://www.bangordailynews.com/2026/09/05/nation/rhode-island-gov-dan-mckee-faces-rematch-with-helena-foulkes-amid-turmoil-over-washington-bridge/",
+      "id": "9ac99cf184ca",
+      "title": "Revolution continue road woes in loss to Los Angeles Galaxy",
+      "summary": "The Revs dug themselves an early two-goal deficit and couldn't rally on the West Coast.",
+      "url": "https://www.masslive.com/sports/2026/09/revolution-continue-road-woes-in-loss-to-los-angeles-galaxy.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-06",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1d74de05d2fe",
+      "title": "Police seek driver who fled after forcing car off road in Limington",
+      "summary": "A gold Subaru sedan caught fire after being forced off the road by a pickup truck whose driver fled the scene, police said.",
+      "url": "https://www.bangordailynews.com/2026/09/05/york/york-police-courts/police-seek-driver-forced-car-off-road-limington/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-09-05",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "70635cab5274",
-      "title": "Trump reveals 1 stunning reason behind his obsession with construction projects",
-      "summary": "In a recent interview with New Yorker magazine, Trump suggested that the reason behind all of his construction projects is to cement himself into U.S. history",
-      "url": "https://www.masslive.com/politics/2026/09/trump-reveals-1-stunning-reason-behind-his-obsession-with-construction-projects.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "fd3aecc4e8d0",
+      "title": "Firefighters Line Highways To Honor Fallen Firefighter Firefighter Eric Phillips",
+      "summary": "Fire departments set up apparatus on overpasses as Firefighter Eric Phillips's body was escorted from an Epping funeral home to the Office of the Chief Medical Examiner in Concord.\nThe post Firefighters Line Highways To Honor Fallen Firefighter Firefighter Eric Phillips appeared first on InDepthNH.o",
+      "url": "https://indepthnh.org/2026/09/05/firefighters-line-highways-to-honor-fallen-firefighter-firefighter-eric-phillips/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-09-05",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
@@ -24357,20 +24358,6 @@
       "state": "VT",
       "date": "2026-09-04",
       "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c745568d18dc",
-      "title": "Triathlete Sports buys former Family Dollar building in Bangor",
-      "summary": "The property on the corner of State Street and Broadway went on the market in June for nearly $1.4 million.",
-      "url": "https://www.bangordailynews.com/2026/09/04/bangor/bangor-business/former-family-dollar-building-bangor-sold-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-04",
-      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -24475,20 +24462,6 @@
       ]
     },
     {
-      "id": "9f33784f057c",
-      "title": "Politicians Pile On Calls for Moratorium as Data Centers Talks In Bow Confirmed",
-      "summary": "State lawmakers and local officials were quick to call for a moratorium on data center development as rumors were confirmed that a private company is looking to build a data center in Bow.\nThe post Politicians Pile On Calls for Moratorium as Data Centers Talks In Bow Confirmed appeared first on InDe",
-      "url": "https://indepthnh.org/2026/09/02/politicians-pile-on-calls-for-moratorium-as-data-centers-talks-in-bow-confirmed/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-09-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "9003131a8b62",
       "title": "Court hearing on I-95 liquor store redevelopment lawsuit closed to public",
       "summary": "Court proceedings on a lawsuit filed by the Common Man Roadside after being disqualified by the New Hampshire Liquor Commission from the bidding process to redevelop the two liquor stores on Interstate 95 in Hampton will take place behind closed\u2026",
@@ -24525,7 +24498,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-05T13:37:20.805016",
+      "updated": "2026-09-06T13:50:35.997888",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24635,24 +24608,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-05T13:37:20.805016"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-06T13:50:35.997888"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-05T13:37:20.805016"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-06T13:50:35.997888"
     },
     "migration": {
       "score": 5.0,
@@ -24662,35 +24635,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-05T13:37:20.805016"
+      "updated": "2026-09-06T13:50:35.997888"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-05T13:37:20.805016"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-06T13:50:35.997888"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.74",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.74,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-05T13:37:20.805016"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-06T13:50:35.997888"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24699,19 +24672,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-05T13:37:20.805016"
+      "updated": "2026-09-06T13:50:35.997888"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-05T13:37:20.805016"
+    "calculated_at": "2026-09-06T13:50:35.997888"
   }
 }

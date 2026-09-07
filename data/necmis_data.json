@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T13:50:47.348993Z",
+  "generated": "2026-09-07T16:08:13.525205Z",
   "summary": {
     "total_opportunities": 1176,
     "total_value_low": 10119560641,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 45,
+      "VT": 47,
       "NH": 12,
-      "ME": 170,
+      "ME": 171,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 346,
+      "CT": 345,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1174,
-      "news": 13,
+      "news": 15,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -24279,6 +24279,90 @@
   ],
   "news": [
     {
+      "id": "0c1ee611d65f",
+      "title": "Letting the river roam: Surveying the scars left by Irene 15 years later",
+      "summary": "To river scientists and conservationists, a collapsing slope in southern Vermont is a case study in what happens when decades of flood\u2011control instincts collide with more recent extreme weather.\nRead the story on VTDigger here:  Letting the river roam: Surveying the scars left by Irene 15 years lat",
+      "url": "https://vtdigger.org/2026/09/07/letting-the-river-roam-surveying-the-scars-left-by-irene-15-years-later-2/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c32458f36972",
+      "title": "Vermonters will vote on constitutional amendment enshrining labor protections in November",
+      "summary": "The measure, which has seen broad cross-party support in the Statehouse, would affirm workers\u2019 right to organize and prevent lawmakers from easily reversing existing labor protections in the future.\nRead the story on VTDigger here:  Vermonters will vote on constitutional amendment enshrining labor",
+      "url": "https://vtdigger.org/2026/09/07/vermonters-will-vote-on-constitutional-amendment-enshrining-labor-protections-in-november/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4b29d486b062",
+      "title": "Judge bans woman from Maine road",
+      "summary": "Leianne Messina, 57, kept driving past the victim's house honking her horn even after she was served with a protection from harassment order.",
+      "url": "https://www.bangordailynews.com/2026/09/07/midcoast/midcoast-police-courts/warren-maine-leianne-messina-oyster-river-road-ban/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e726e7ac46d6",
+      "title": "This is my favorite excuse to head into the North Maine Woods",
+      "summary": "\"If there\u2019s anything that will get me to load up the F-150 and hit the road for a few days during the fall, it is ruffed grouse.\"",
+      "url": "https://www.bangordailynews.com/2026/09/07/outdoors/outdoors-contributors/favorite-excuse-head-into-north-maine-woods-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "13f5fdbe4879",
+      "title": "Police search for suspects after passenger fires shot into fleeing car on Mass. roadway",
+      "summary": "Police are investigating a Friday morning incident in Massachusetts during which a passenger fired a shot into another vehicle.",
+      "url": "https://www.masslive.com/news/2026/09/easton-police-search-for-suspects-after-passenger-fires-shot-into-fleeing-car.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c6266bf54df3",
+      "title": "Bridgeport\u2019s superintendent search is a sham",
+      "summary": "The Bridgeport Board of Education's search for a new superintendent appears to have been hijacked before it's begun.",
+      "url": "https://ctmirror.org/2026/09/07/bridgeport-superintendent-search-a-sham/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "a9275e0f20e0",
       "title": "Then Again: Armed with a spirit of discovery and a gun, the first lady road-trips through Vermont",
       "summary": "Eleanor Roosevelt had planned a getaway. But the trip also helped reshape expectations of what a first lady could do \u2014 and helped cement her role as a partner in her husband\u2019s presidency. \nRead the story on VTDigger here:  Then Again: Armed with a spirit of discovery and a gun, the first lady road-",
@@ -24294,11 +24378,11 @@
       ]
     },
     {
-      "id": "4aa5887d3db7",
-      "title": "Dover-Foxcroft police ID vehicle in fatal hit-and-run",
-      "summary": "Police say they have identified the vehicle involved in the death of a Cambridge man found on a Dover-Foxcroft roadside last week.",
-      "url": "https://www.bangordailynews.com/2026/09/06/piscataquis/piscataquis-police-courts/dover-foxcroft-police-id-vehicle-in-fatal-hit-and-run/",
-      "source": "Bangor Daily News",
+      "id": "599242b8323d",
+      "title": "History professor to speak in Brunswick on Chamberlain and Declaration of Independence",
+      "summary": "Chandra Manning of Georgetown University will present 'Something Abides: Joshua Lawrence Chamberlain and the Declaration of Independence' at 6 p.m. Friday at the Brunswick Hotel.",
+      "url": "https://www.pressherald.com/2026/09/06/history-professor-to-speak-in-brunswick-on-chamberlain-and-declaration-of-independence/",
+      "source": "Portland Press Herald",
       "state": "ME",
       "date": "2026-09-06",
       "category": "news",
@@ -24308,37 +24392,9 @@
       ]
     },
     {
-      "id": "9ac99cf184ca",
-      "title": "Revolution continue road woes in loss to Los Angeles Galaxy",
-      "summary": "The Revs dug themselves an early two-goal deficit and couldn't rally on the West Coast.",
-      "url": "https://www.masslive.com/sports/2026/09/revolution-continue-road-woes-in-loss-to-los-angeles-galaxy.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-09-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1d74de05d2fe",
-      "title": "Police seek driver who fled after forcing car off road in Limington",
-      "summary": "A gold Subaru sedan caught fire after being forced off the road by a pickup truck whose driver fled the scene, police said.",
-      "url": "https://www.bangordailynews.com/2026/09/05/york/york-police-courts/police-seek-driver-forced-car-off-road-limington/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-05",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "fd3aecc4e8d0",
-      "title": "Firefighters Line Highways To Honor Fallen Firefighter Firefighter Eric Phillips",
-      "summary": "Fire departments set up apparatus on overpasses as Firefighter Eric Phillips's body was escorted from an Epping funeral home to the Office of the Chief Medical Examiner in Concord.\nThe post Firefighters Line Highways To Honor Fallen Firefighter Firefighter Eric Phillips appeared first on InDepthNH.o",
+      "title": "Firefighters Line Highways To Honor Fallen Firefighter Eric Phillips",
+      "summary": "Fire departments set up apparatus on overpasses as Firefighter Eric Phillips's body was escorted from an Epping funeral home to the Office of the Chief Medical Examiner in Concord.\nThe post Firefighters Line Highways To Honor Fallen Firefighter Eric Phillips appeared first on InDepthNH.org.",
       "url": "https://indepthnh.org/2026/09/05/firefighters-line-highways-to-honor-fallen-firefighter-firefighter-eric-phillips/",
       "source": "InDepthNH",
       "state": "NH",
@@ -24420,34 +24476,6 @@
       ]
     },
     {
-      "id": "2411d023d75b",
-      "title": "New Steelpointe apartments fuel affordability debate in Bridgeport",
-      "summary": "Residents reflecting on the new Steelpointe apartments said they want Bridgeport to grow. But they don't want to be left behind.",
-      "url": "https://ctmirror.org/2026/09/03/bridgeport-steelpointe-the-august-apartments/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5c4fd953d5f3",
-      "title": "We are one rainstorm away from another public health crisis",
-      "summary": "New England\u2019s infrastructure cannot handle more intense rainfall that overwhelms systems designed decades ago.",
-      "url": "https://ctmirror.org/2026/09/03/we-are-one-rainstorm-away-from-another-public-health-crisis/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "bb9cd0dab4a3",
       "title": "Anheuser-Busch plant in Merrimack sold to United Therapeutics for $47.5M",
       "summary": "United Therapeutics Corp. continues its investment in New Hampshire\u2019s life science industry with the purchase of the former Anheuser-Busch brewery on the Daniel Webster Highway in Merrimack for $47.5 million.",
@@ -24498,7 +24526,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-06T13:50:35.997888",
+      "updated": "2026-09-07T16:08:01.328896",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24615,7 +24643,7 @@
       "raw_display": "10,143 units/mo",
       "yoy_change": 28.9,
       "source": "FRED API",
-      "updated": "2026-09-06T13:50:35.997888"
+      "updated": "2026-09-07T16:08:01.328896"
     },
     "construction_spending": {
       "score": 5.7,
@@ -24625,7 +24653,7 @@
       "raw_display": "$151.5B SAAR",
       "yoy_change": 4.5,
       "source": "FRED API",
-      "updated": "2026-09-06T13:50:35.997888"
+      "updated": "2026-09-07T16:08:01.328896"
     },
     "migration": {
       "score": 5.0,
@@ -24635,7 +24663,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-06T13:50:35.997888"
+      "updated": "2026-09-07T16:08:01.328896"
     },
     "construction_employment": {
       "score": 4.9,
@@ -24645,7 +24673,7 @@
       "raw_display": "1024K workers",
       "yoy_change": -0.3,
       "source": "FRED API",
-      "updated": "2026-09-06T13:50:35.997888"
+      "updated": "2026-09-07T16:08:01.328896"
     },
     "input_cost": {
       "score": 7.3,
@@ -24663,7 +24691,7 @@
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-09-06T13:50:35.997888"
+      "updated": "2026-09-07T16:08:01.328896"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24672,7 +24700,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-06T13:50:35.997888"
+      "updated": "2026-09-07T16:08:01.328896"
     },
     "overall_score": 7.8,
     "overall_status": "growth",
@@ -24685,6 +24713,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-06T13:50:35.997888"
+    "calculated_at": "2026-09-07T16:08:01.328896"
   }
 }

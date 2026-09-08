@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-07T16:13:04.298673Z",
+  "generated": "2026-09-08T14:48:29.971768Z",
   "summary": {
-    "total_opportunities": 1176,
+    "total_opportunities": 1177,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 47,
       "NH": 12,
-      "ME": 171,
-      "MA": 600,
+      "ME": 173,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 345,
@@ -20,7 +20,7 @@
     "by_category": {
       "dot_letting": 1174,
       "news": 15,
-      "funding": 2
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24279,6 +24279,62 @@
   ],
   "news": [
     {
+      "id": "ef0178bf946e",
+      "title": "Millions in federal dollars for short-term workforce training programs come to Maine",
+      "summary": "Maine is rolling out Workforce Pell, a program that will allow students to use federal grant money for workforce training programs lasting 8 to 15 weeks.",
+      "url": "https://www.pressherald.com/2026/09/08/millions-in-federal-dollars-for-short-term-workforce-training-programs-come-to-maine/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-08",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "57fbcc5754dc",
+      "title": "Small plane ends up off road in Lincolnville",
+      "summary": "A man at the scene who identified himself as the pilot said he was unharmed and that the plane was OK.",
+      "url": "https://www.bangordailynews.com/2026/09/08/midcoast/midcoast-police-courts/lincolnville-maine-youngtown-road-plane-crash/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "540ee7f1684d",
+      "title": "Dust, landowners and a bridge disrupted this Maine ATV route. Now it\u2019s open again.",
+      "summary": "The proximity of nearby homes made it difficult to ameliorate landowner concerns about dust and traffic.",
+      "url": "https://www.bangordailynews.com/2026/09/08/outdoors/recreation/maine-atv-veterans-memorial-trail-dust-complaints-reopened-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-08",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9a46a7789ef2",
+      "title": "Meet the man behind Bangor\u2019s most controversial housing development",
+      "summary": "The backlash was so intense that Mike Myatt and his team decided to abandon a second supportive housing project in the city.",
+      "url": "https://www.bangordailynews.com/2026/09/08/bangor/bangor-housing/bangor-maine-yellen-pines-mike-myatt-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-08",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "0c1ee611d65f",
       "title": "Letting the river roam: Surveying the scars left by Irene 15 years later",
       "summary": "To river scientists and conservationists, a collapsing slope in southern Vermont is a case study in what happens when decades of flood\u2011control instincts collide with more recent extreme weather.\nRead the story on VTDigger here:  Letting the river roam: Surveying the scars left by Irene 15 years lat",
@@ -24307,40 +24363,12 @@
       ]
     },
     {
-      "id": "4b29d486b062",
-      "title": "Judge bans woman from Maine road",
-      "summary": "Leianne Messina, 57, kept driving past the victim's house honking her horn even after she was served with a protection from harassment order.",
-      "url": "https://www.bangordailynews.com/2026/09/07/midcoast/midcoast-police-courts/warren-maine-leianne-messina-oyster-river-road-ban/",
-      "source": "Bangor Daily News",
+      "id": "be63286e25ac",
+      "title": "Changes to deer hunt necessary to control herd",
+      "summary": "There are more anterless deer permits, and geographic area covered in the archery hunt has expanded.",
+      "url": "https://www.pressherald.com/2026/09/07/changes-to-deer-hunt-necessary-to-control-the-herd/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e726e7ac46d6",
-      "title": "This is my favorite excuse to head into the North Maine Woods",
-      "summary": "\"If there\u2019s anything that will get me to load up the F-150 and hit the road for a few days during the fall, it is ruffed grouse.\"",
-      "url": "https://www.bangordailynews.com/2026/09/07/outdoors/outdoors-contributors/favorite-excuse-head-into-north-maine-woods-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "13f5fdbe4879",
-      "title": "Police search for suspects after passenger fires shot into fleeing car on Mass. roadway",
-      "summary": "Police are investigating a Friday morning incident in Massachusetts during which a passenger fired a shot into another vehicle.",
-      "url": "https://www.masslive.com/news/2026/09/easton-police-search-for-suspects-after-passenger-fires-shot-into-fleeing-car.html",
-      "source": "MassLive",
-      "state": "MA",
       "date": "2026-09-07",
       "category": "news",
       "priority": "medium",
@@ -24375,20 +24403,6 @@
       "business_lines": [
         "highway",
         "ready_mix"
-      ]
-    },
-    {
-      "id": "599242b8323d",
-      "title": "History professor to speak in Brunswick on Chamberlain and Declaration of Independence",
-      "summary": "Chandra Manning of Georgetown University will present 'Something Abides: Joshua Lawrence Chamberlain and the Declaration of Independence' at 6 p.m. Friday at the Brunswick Hotel.",
-      "url": "https://www.pressherald.com/2026/09/06/history-professor-to-speak-in-brunswick-on-chamberlain-and-declaration-of-independence/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
       ]
     },
     {
@@ -24526,7 +24540,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-07T16:13:04.112621",
+      "updated": "2026-09-08T14:48:12.218074",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24636,24 +24650,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-07T16:13:04.112621"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-08T14:48:12.218074"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-07T16:13:04.112621"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-08T14:48:12.218074"
     },
     "migration": {
       "score": 5.0,
@@ -24663,35 +24677,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-07T16:13:04.112621"
+      "updated": "2026-09-08T14:48:12.218074"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-07T16:13:04.112621"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-08T14:48:12.218074"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.3,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.10 | Diesel $5.74",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.1,
+        "score": 7.6,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.74,
+        "score": 6.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-07T16:13:04.112621"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-08T14:48:12.218074"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24700,19 +24714,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-07T16:13:04.112621"
+      "updated": "2026-09-08T14:48:12.218074"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.8,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-07T16:13:04.112621"
+    "calculated_at": "2026-09-08T14:48:12.218074"
   }
 }

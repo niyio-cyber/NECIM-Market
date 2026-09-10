@@ -1,25 +1,25 @@
 {
-  "generated": "2026-09-09T14:56:34.553831Z",
+  "generated": "2026-09-10T14:40:57.194099Z",
   "summary": {
-    "total_opportunities": 1175,
+    "total_opportunities": 1170,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 45,
-      "NH": 11,
-      "ME": 171,
-      "MA": 599,
+      "VT": 44,
+      "NH": 6,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1174,
-      "news": 11,
+      "dot_letting": 1169,
+      "news": 8,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 704,
+          "count": 699,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 8,
+          "count": 3,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 8,
+            "count": 3,
             "value": 0
           },
           "Safety": {
@@ -16157,105 +16157,6 @@
       ]
     },
     {
-      "id": "ea5f558ca868",
-      "state": "NH",
-      "project_id": "RFP 03-27",
-      "description": "Concord Bids: Contractor Services3 BidsB05-27 Timber Sale: Concord City Forest - Hooksett TurnpikeThe Purchasing Division, located at the Combined Operations and Maintenance Facility, 311 North State Street, Concor",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ea5f558ca868",
-      "state": "NH",
-      "project_id": "RFP 03-27",
-      "description": "Concord Bids: RFP 03-27 ARENA REFRIGERATION SYSTEM REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the refrigeration system at the Douglas N. Everett Arena located at 15 Loudon Road, Concord, ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "ea5f558ca868",
-      "state": "NH",
-      "project_id": "RFP 03-27",
-      "description": "Concord Bids: RFP 03-27 ARENA REFRIGERATION SYSTEM REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the refrigeration system at the Douglas N. Everett Arena located at 15 Loudon Road, Concord, ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "ea5f558ca868",
-      "state": "NH",
-      "project_id": "RFP 03-27",
-      "description": "Concord Bids: RFP 03-27 ARENA REFRIGERATION SYSTEM REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the refrigeration system at the Douglas N. Everett Arena located at 15 Loudon Road, Concord, ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "ea5f558ca868",
-      "state": "NH",
-      "project_id": "RFP 03-27",
-      "description": "Concord Bids: RFP 03-27 ARENA REFRIGERATION SYSTEM REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the refrigeration system at the Douglas N. Everett Arena located at 15 Loudon Road, Concord, ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
       "id": "ff6cc90f9923",
       "state": "VT",
       "source": "VTrans",
@@ -24279,27 +24180,27 @@
   ],
   "news": [
     {
-      "id": "0bfbaea2534c",
-      "title": "Obituary: Joseph B. Esposito",
-      "summary": "PORTLAND - Joseph B. Esposito, 92, formerly of Curtis Road in Portland, passed away on Friday Sept. 4, 2026.\n\nVisiting hours will ...",
-      "url": "https://www.pressherald.com/2026/09/09/obituaryjoseph-b-esposito-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-09",
+      "id": "66fe2c28f0a8",
+      "title": "Thousands of acres conserved in Woodbury, where family plans to sustainably log for generations",
+      "summary": "The final phase of a conservation easement project sees more than 18,000 acres of northern hardwood forest permanently set aside from development.\nRead the story on VTDigger here:  Thousands of acres conserved in Woodbury, where family plans to sustainably log for generations.",
+      "url": "https://vtdigger.org/2026/09/10/thousands-of-acres-conserved-in-woodbury-where-family-plans-to-sustainably-log-for-generations/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-10",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway"
+        "aggregates"
       ]
     },
     {
-      "id": "76f80e5d3319",
-      "title": "Brewer firefighters battle blaze that started in back of trailer",
-      "summary": "Firefighters had to dump the construction debris along the side of the highway to get to the heart of the blaze.",
-      "url": "https://www.bangordailynews.com/2026/09/09/bangor/bangor-police-courts/brewer-maine-interstate-395-trailer-debris-fire/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-09",
+      "id": "89ba5b02d0f1",
+      "title": "Affordable housing project falls apart over infrastructure gaps in Highgate",
+      "summary": "The lack of basic infrastructure like water and sewer lines has impeded housing development in many rural towns across Vermont. But the cancellation of a publicly-funded affordable housing project is highly unusual. \nRead the story on VTDigger here:  Affordable housing project falls apart over infr",
+      "url": "https://vtdigger.org/2026/09/10/affordable-housing-project-falls-apart-over-infrastructure-gaps-in-highgate/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-10",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24307,13 +24208,41 @@
       ]
     },
     {
-      "id": "eda693280c5a",
-      "title": "Bangor Celtic Crossroads presents Woodson, Finley and Pearlman",
-      "summary": "BREWER \u2014 Bangor Celtic Crossroads presents Woodson, Finley and Pearlman in concert at 7 p.m. on\u00a0 Saturday, Sept. 19 at Next Generation Theatre 39 Center St. Tickets: Bangorceltic.org/tickets. Caitlin Finley (fiddle) and Will Woodson (flute, uilleann pipes) play sparky and driving traditional Irish m",
-      "url": "https://www.bangordailynews.com/2026/09/09/bdn-maine/bangor-celtic-crossroads-presents-woodson-finley-and-pearlman/",
+      "id": "30ed9a9dee4a",
+      "title": "New weight restriction imposed on aging Hampden bridge",
+      "summary": "The weight limit on Manning Mill Bridge has dropped from 15 tons to just under 3 tons, potentially making some passenger vehicles and pickup trucks to heavy to safely cross.",
+      "url": "https://www.bangordailynews.com/2026/09/10/bangor/bangor-government/hampden-maine-manning-mill-bridge-weight-restriction-3-tons/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f3c8b39109fb",
+      "title": "Broken water pipe has left Camden road \u2018impassable\u2019",
+      "summary": "A Maine Water Co. worker called it \u201cthe worst one I have seen.\u201d",
+      "url": "https://www.bangordailynews.com/2026/09/10/midcoast/midcoast-police-courts/camden-maine-mountain-street-water-main-break-impassable/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b5e3ae67d0de",
+      "title": "Mysterious activity at Iranian mountain site draws new scrutiny",
+      "summary": "New satellite images show increased construction at Iran\u2019s Pickaxe Mountain facility, raising questions about nuclear activity and U.S. planning.",
+      "url": "https://www.masslive.com/news/2026/09/a-mountain-in-iran-is-drawing-fresh-attention-heres-why.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-10",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24342,77 +24271,6 @@
       "source": "Union Leader",
       "state": "NH",
       "date": "2026-09-08",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0c1ee611d65f",
-      "title": "Letting the river roam: Surveying the scars left by Irene 15 years later",
-      "summary": "To river scientists and conservationists, a collapsing slope in southern Vermont is a case study in what happens when decades of flood\u2011control instincts collide with more recent extreme weather.\nRead the story on VTDigger here:  Letting the river roam: Surveying the scars left by Irene 15 years lat",
-      "url": "https://vtdigger.org/2026/09/07/letting-the-river-roam-surveying-the-scars-left-by-irene-15-years-later-2/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-07",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c32458f36972",
-      "title": "Vermonters will vote on constitutional amendment enshrining labor protections in November",
-      "summary": "The measure, which has seen broad cross-party support in the Statehouse, would affirm workers\u2019 right to organize and prevent lawmakers from easily reversing existing labor protections in the future.\nRead the story on VTDigger here:  Vermonters will vote on constitutional amendment enshrining labor",
-      "url": "https://vtdigger.org/2026/09/07/vermonters-will-vote-on-constitutional-amendment-enshrining-labor-protections-in-november/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-07",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c6266bf54df3",
-      "title": "Bridgeport\u2019s superintendent search is a sham",
-      "summary": "The Bridgeport Board of Education's search for a new superintendent appears to have been hijacked before it's begun.",
-      "url": "https://ctmirror.org/2026/09/07/bridgeport-superintendent-search-a-sham/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-07",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a9275e0f20e0",
-      "title": "Then Again: Armed with a spirit of discovery and a gun, the first lady road-trips through Vermont",
-      "summary": "Eleanor Roosevelt had planned a getaway. But the trip also helped reshape expectations of what a first lady could do \u2014 and helped cement her role as a partner in her husband\u2019s presidency. \nRead the story on VTDigger here:  Then Again: Armed with a spirit of discovery and a gun, the first lady road-",
-      "url": "https://vtdigger.org/2026/09/06/then-again-armed-with-a-spirit-of-discovery-and-a-gun-the-first-lady-road-trips-through-vermont/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-06",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway",
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "5e7d9ac7d18f",
-      "title": "Jahana Hayes, angling for labor chair, suggests Dems failed unions",
-      "summary": "Hayes accused Democrats of slow-walking a labor agenda when the party enjoyed a power trifecta for two years when Joe Biden was president.",
-      "url": "https://ctmirror.org/2026/09/04/jahana-hayes-angling-for-labor-chair-suggests-dems-failed-unions/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-04",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24451,12 +24309,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-09T14:56:04.402269",
+      "updated": "2026-09-10T14:40:42.594156",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24566,24 +24424,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-09T14:56:04.402269"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-10T14:40:42.594156"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-09T14:56:04.402269"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-10T14:40:42.594156"
     },
     "migration": {
       "score": 5.0,
@@ -24593,35 +24451,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-09T14:56:04.402269"
+      "updated": "2026-09-10T14:40:42.594156"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-09T14:56:04.402269"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-10T14:40:42.594156"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.19 | Diesel $5.99",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.19,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.99,
+        "score": 6.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-09T14:56:04.402269"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-10T14:40:42.594156"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24630,19 +24488,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-09T14:56:04.402269"
+      "updated": "2026-09-10T14:40:42.594156"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-09T14:56:04.402269"
+    "calculated_at": "2026-09-10T14:40:42.594156"
   }
 }

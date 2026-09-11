@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10T14:42:40.348126Z",
+  "generated": "2026-09-11T14:39:45.652362Z",
   "summary": {
-    "total_opportunities": 1170,
+    "total_opportunities": 1172,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -11,7 +11,7 @@
       "VT": 44,
       "NH": 6,
       "ME": 170,
-      "MA": 600,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1169,
-      "news": 8,
-      "funding": 1
+      "news": 5,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24180,6 +24180,48 @@
   ],
   "news": [
     {
+      "id": "eea2934d092f",
+      "title": "Hancock County\u2019s new $5.5M emergency operations center to open in November",
+      "summary": "The new complex comes as some of the county\u2019s aging, underfunded infrastructure has strained under a steadily growing population.",
+      "url": "https://www.bangordailynews.com/2026/09/11/hancock/hancock-government/hancock-county-new-emergency-operations-center-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-11",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b734948b9401",
+      "title": "New owners revamp a 50-year-old store into a local hub",
+      "summary": "Lake Road Grocery is the only store for at least 10 miles in either direction, making it a lifeline for many residents.",
+      "url": "https://www.bangordailynews.com/2026/09/11/aroostook/aroostook-business/lake-road-grocery-new-canada-maine-new-owners-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3ddbd4d00a65",
+      "title": "Vermont awards first batch of $195 million in federal rural health funds",
+      "summary": "Rural workforce development and nursing homes receive the first round of $11.7 million in funds.\nRead the story on VTDigger here:  Vermont awards first batch of $195 million in federal rural health funds.",
+      "url": "https://vtdigger.org/2026/09/10/vermont-awards-first-batch-of-195-million-in-federal-rural-health-funds/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-10",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "66fe2c28f0a8",
       "title": "Thousands of acres conserved in Woodbury, where family plans to sustainably log for generations",
       "summary": "The final phase of a conservation easement project sees more than 18,000 acres of northern hardwood forest permanently set aside from development.\nRead the story on VTDigger here:  Thousands of acres conserved in Woodbury, where family plans to sustainably log for generations.",
@@ -24201,62 +24243,6 @@
       "source": "VTDigger",
       "state": "VT",
       "date": "2026-09-10",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "30ed9a9dee4a",
-      "title": "New weight restriction imposed on aging Hampden bridge",
-      "summary": "The weight limit on Manning Mill Bridge has dropped from 15 tons to just under 3 tons, potentially making some passenger vehicles and pickup trucks to heavy to safely cross.",
-      "url": "https://www.bangordailynews.com/2026/09/10/bangor/bangor-government/hampden-maine-manning-mill-bridge-weight-restriction-3-tons/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-10",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f3c8b39109fb",
-      "title": "Broken water pipe has left Camden road \u2018impassable\u2019",
-      "summary": "A Maine Water Co. worker called it \u201cthe worst one I have seen.\u201d",
-      "url": "https://www.bangordailynews.com/2026/09/10/midcoast/midcoast-police-courts/camden-maine-mountain-street-water-main-break-impassable/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b5e3ae67d0de",
-      "title": "Mysterious activity at Iranian mountain site draws new scrutiny",
-      "summary": "New satellite images show increased construction at Iran\u2019s Pickaxe Mountain facility, raising questions about nuclear activity and U.S. planning.",
-      "url": "https://www.masslive.com/news/2026/09/a-mountain-in-iran-is-drawing-fresh-attention-heres-why.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-09-10",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cac316333a40",
-      "title": "Vermont regulators finalize 5.5% rate increase for Green Mountain Power customers",
-      "summary": "The decision from the state\u2019s Public Utility Commission sought to balance affordability concerns with a desire to shore up electrical infrastructure against weather damage.\nRead the story on VTDigger here:  Vermont regulators finalize 5.5% rate increase for Green Mountain Power customers.",
-      "url": "https://vtdigger.org/2026/09/08/vermont-regulators-finalize-5-5-percent-rate-increase-for-green-mountain-power-customers/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-08",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24314,7 +24300,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-10T14:42:39.647420",
+      "updated": "2026-09-11T14:39:31.034821",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24424,24 +24410,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-10T14:42:39.647420"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-11T14:39:31.034821"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-10T14:42:39.647420"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-11T14:39:31.034821"
     },
     "migration": {
       "score": 5.0,
@@ -24451,35 +24437,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-10T14:42:39.647420"
+      "updated": "2026-09-11T14:39:31.034821"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-10T14:42:39.647420"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-11T14:39:31.034821"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.19 | Diesel $5.99",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.19,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.99,
+        "score": 6.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-10T14:42:39.647420"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-11T14:39:31.034821"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24488,19 +24474,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-10T14:42:39.647420"
+      "updated": "2026-09-11T14:39:31.034821"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-10T14:42:39.647420"
+    "calculated_at": "2026-09-11T14:39:31.034821"
   }
 }

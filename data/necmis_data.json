@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-11T14:43:55.133190Z",
+  "generated": "2026-09-12T13:47:50.534894Z",
   "summary": {
-    "total_opportunities": 1172,
+    "total_opportunities": 1171,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -11,7 +11,7 @@
       "VT": 44,
       "NH": 6,
       "ME": 170,
-      "MA": 599,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1169,
-      "news": 5,
-      "funding": 3
+      "news": 8,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24180,24 +24180,52 @@
   ],
   "news": [
     {
-      "id": "eea2934d092f",
-      "title": "Hancock County\u2019s new $5.5M emergency operations center to open in November",
-      "summary": "The new complex comes as some of the county\u2019s aging, underfunded infrastructure has strained under a steadily growing population.",
-      "url": "https://www.bangordailynews.com/2026/09/11/hancock/hancock-government/hancock-county-new-emergency-operations-center-joam40zk0w/",
+      "id": "9c181c407e18",
+      "title": "Judge rejects bid to release Arizona sheriff\u2019s office from supervision in racial profiling case",
+      "summary": "PHOENIX (AP) \u2014 A judge who ruled 13 years ago that Hispanics were racially profiled in then-Arizona Sheriff Joe Arpaio\u2019s immigration crackdowns has rejected a bid to end the court\u2019s supervision of the sheriff\u2019s office. Maricopa County failed to show that the objectives of the court\u2019s orders \u2014 such a",
+      "url": "https://www.bangordailynews.com/2026/09/11/nation/judge-rejects-bid-to-release-arizona-sheriffs-office-from-supervision-in-racial-profiling-case/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-11",
-      "category": "funding",
+      "date": "2026-09-12",
+      "category": "news",
       "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "b734948b9401",
-      "title": "New owners revamp a 50-year-old store into a local hub",
-      "summary": "Lake Road Grocery is the only store for at least 10 miles in either direction, making it a lifeline for many residents.",
-      "url": "https://www.bangordailynews.com/2026/09/11/aroostook/aroostook-business/lake-road-grocery-new-canada-maine-new-owners-joam40zk0w/",
+      "id": "c24710a8c777",
+      "title": "Man arraigned in connection with fatal road-rage fight at Mass. gas station",
+      "summary": "Officers found the victim outside the gas station, disoriented and experiencing headaches and blurred vision.",
+      "url": "https://www.masslive.com/news/2026/09/man-arraigned-in-connection-with-fatal-road-rage-fight-at-mass-gas-station.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-12",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2168dbcba51d",
+      "title": "Westfield Pickleball to host Kevin Fedora Memorial tournament Sept. 26",
+      "summary": "Westfield Pickleball will host the second annual Kevin Fedora Memorial tournament on Sept. 26 at the Municipal Playground courts on Greylock Street. Registration is available at westfieldpickleball.com.",
+      "url": "https://www.masslive.com/westfieldnews/2026/09/westfield-pickleball-to-host-kevin-fedora-memorial-tournament-sept-26.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-12",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "130eb84e5bb6",
+      "title": "Lawsuit alleges Houlton is still withholding camera information",
+      "summary": "It\u2019s the latest development in a case that appeared headed for resolution in October, when the town agreed to remove the facial recognition video surveillance system.",
+      "url": "https://www.bangordailynews.com/2026/09/11/aroostook/aroostook-police-courts/holton-video-camera-lawsuit/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-09-11",
@@ -24300,7 +24328,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-11T14:43:54.655428",
+      "updated": "2026-09-12T13:47:21.113792",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24410,24 +24438,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-11T14:43:54.655428"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-12T13:47:21.113792"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-11T14:43:54.655428"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-12T13:47:21.113792"
     },
     "migration": {
       "score": 5.0,
@@ -24437,35 +24465,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-11T14:43:54.655428"
+      "updated": "2026-09-12T13:47:21.113792"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-11T14:43:54.655428"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-12T13:47:21.113792"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.19 | Diesel $5.99",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.19,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.99,
+        "score": 6.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-11T14:43:54.655428"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-12T13:47:21.113792"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24474,19 +24502,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-11T14:43:54.655428"
+      "updated": "2026-09-12T13:47:21.113792"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-11T14:43:54.655428"
+    "calculated_at": "2026-09-12T13:47:21.113792"
   }
 }

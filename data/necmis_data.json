@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13T14:44:48.810559Z",
+  "generated": "2026-09-14T16:39:58.664028Z",
   "summary": {
     "total_opportunities": 1171,
     "total_value_low": 10119560641,
@@ -9,9 +9,9 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 43,
-      "NH": 6,
-      "ME": 172,
-      "MA": 599,
+      "NH": 5,
+      "ME": 170,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1169,
-      "news": 8,
+      "news": 6,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -17197,7 +17197,7 @@
       "cost_high": null,
       "cost_display": "See Bid Docs",
       "ad_date": null,
-      "let_date": "2026-09-16",
+      "let_date": "2026-09-23",
       "fiscal_year": "FY2026",
       "project_type": "Pavement",
       "location": "ROUTE 313",
@@ -24180,6 +24180,62 @@
   ],
   "news": [
     {
+      "id": "4964158c1051",
+      "title": "Blair Talbot Motors celebrates grand opening of new Dover facility designed and built by PROCON",
+      "summary": "Blair Talbot Motors celebrated the grand opening of its new state-of-the-art facility at 34 Industrial Park Road in Dover, marking an exciting new chapter for one of New England\u2019s premier destinations for European automotive service and professional vehicle storage.",
+      "url": "https://www.unionleader.com/news/business/blair-talbot-motors-celebrates-grand-opening-of-new-dover-facility-designed-and-built-by-procon/article_06ceb704-3b8e-4d5d-97d7-6eb972bae13b.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-09-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "11dd12609aba",
+      "title": "Texas landowners sue to block Trump border wall plans in the remote Big Bend region",
+      "summary": "MARFA, Texas (AP) \u2014 Landowners, ranchers and business owners in the Big Bend region of Texas along with a nonprofit organization dedicated to protecting the region\u2019s landscape and heritage are suing to stop the Trump administration\u2019s plans to build a wall and other border infrastructure through the",
+      "url": "https://www.bangordailynews.com/2026/09/14/nation/texas-landowners-sue-to-block-trump-border-wall-plans-in-the-remote-big-bend-region/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-14",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0c398588fcd8",
+      "title": "The great American road trip, fueled by \u2014 and undercut by \u2014 the automobile that created it",
+      "summary": "NASHVILLE, Tenn. (AP) \u2014 There\u2019s something about the American road trip. It brings to mind visions of cars the size of boats, the glory days before seat-belt laws and pit stops at the world\u2019s largest fill-in-the-blank. It has been memorialized in books like Jack Kerouac\u2019s \u201cOn the Road\u201d and satirized",
+      "url": "https://www.bangordailynews.com/2026/09/14/nation/the-great-american-road-trip-fueled-by-and-undercut-by-the-automobile-that-created-it/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-14",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e38a38f444a1",
+      "title": "East Bridgewater man wins $281K on $1 Mass. Lottery wager: \u2018It still doesn\u2019t feel real\u2019",
+      "summary": "An East Bridgewater man is celebrating a $281K Mass. Lottery win after turning a single dollar into a life-changing payout.",
+      "url": "https://www.masslive.com/lottery/2026/09/east-bridgewater-man-wins-281k-on-1-mass-lottery-wager-it-still-doesnt-feel-real.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-14",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "e272f2af4c9c",
       "title": "Revealed in the river",
       "summary": "Local historians discover the remnants of a blockhouse on the Crown Point Road, Vermont\u2019s first interstate highway.\nRead the story on VTDigger here:  Revealed in the river.",
@@ -24194,62 +24250,6 @@
       ]
     },
     {
-      "id": "0f9edace8bb3",
-      "title": "Three-alarm fire at Sig Sauer plant in Epping leaves firefighter injured",
-      "summary": "A three-alarm fire tore through the Sig Sauer facility on Exeter Road in Epping Saturday morning, injuring one firefighter and drawing a large mutual aid response from surrounding communities, Epping Fire officials said.",
-      "url": "https://www.unionleader.com/news/safety/three-alarm-fire-at-sig-sauer-plant-in-epping-leaves-firefighter-injured/article_3ed8b451-e529-44e2-a009-719a1b512470.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-09-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "14a3adb998c5",
-      "title": "Our nation\u2019s war debt undermines our freedom | Opinion",
-      "summary": "We need to assert our right to determine what wars and military expenditures are justified, not leave it to lobbyists or the politicians intent on doing their bidding.",
-      "url": "https://www.pressherald.com/2026/09/13/our-nations-war-debt-undermines-our-freedom-opinion/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-13",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ea8f79b1e1e6",
-      "title": "At this auction people bid with stories, not money",
-      "summary": "\"Sellers\" offer objects they are ready to part with, but carry too much sentimental weight to assign monetary value.",
-      "url": "https://www.bangordailynews.com/2026/09/13/state/state-culture/maine-artist-emotional-value-auctions/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-13",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b7dcceb3af35",
-      "title": "This remote Maine trail follows the route of a boy who survived 9 days lost in the wilderness",
-      "summary": "During the fourth and fifth days of his extraordinary ordeal in July 1939, 12-year-old Donn Fendler followed the old Wassataquoik Tote Road, the same route that runs through this remote corner of Baxter State Park. More than 80 years later, I\u2019m following part of that route. My primary goal on this f",
-      "url": "https://www.bangordailynews.com/2026/09/13/outdoors/outdoors-contributors/donn-fendler-historic-route-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "8fb75ab5573f",
       "title": "The museum that owns its own railroad",
       "summary": "It was in 1996 that the museum, which now has almost 100 rail cars in its collection, made its first passenger runs.",
@@ -24257,20 +24257,6 @@
       "source": "CT Mirror",
       "state": "CT",
       "date": "2026-09-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b7b74a710534",
-      "title": "Anthropic CEO Dario Amodei says AI industry needs to slow down for safety",
-      "summary": "NEW YORK (AP) \u2014 The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measures time to catch up. Without it, Dario Amodei warned AI could be capable within six to 12 months of leading a swarm that could take over the entire int",
-      "url": "https://www.bangordailynews.com/2026/09/12/nation/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-slow-down-for-safety/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-12",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24304,20 +24290,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "bb9cd0dab4a3",
-      "title": "Anheuser-Busch plant in Merrimack sold to United Therapeutics for $47.5M",
-      "summary": "United Therapeutics Corp. continues its investment in New Hampshire\u2019s life science industry with the purchase of the former Anheuser-Busch brewery on the Daniel Webster Highway in Merrimack for $47.5 million.",
-      "url": "https://www.unionleader.com/news/business/anheuser-busch-plant-in-merrimack-sold-to-united-therapeutics-for-47-5m/article_9435b283-6150-437e-aa18-2dfc0b21063d.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-09-02",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24328,7 +24300,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-13T14:44:47.921568",
+      "updated": "2026-09-14T16:39:23.601174",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24438,24 +24410,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-13T14:44:47.921568"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-14T16:39:23.601174"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-13T14:44:47.921568"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-14T16:39:23.601174"
     },
     "migration": {
       "score": 5.0,
@@ -24465,35 +24437,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-13T14:44:47.921568"
+      "updated": "2026-09-14T16:39:23.601174"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-13T14:44:47.921568"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-14T16:39:23.601174"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "down",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.19 | Diesel $5.99",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.19,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 5.99,
+        "score": 6.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-13T14:44:47.921568"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-14T16:39:23.601174"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24502,19 +24474,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-13T14:44:47.921568"
+      "updated": "2026-09-14T16:39:23.601174"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-13T14:44:47.921568"
+    "calculated_at": "2026-09-14T16:39:23.601174"
   }
 }

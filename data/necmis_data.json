@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15T15:21:08.897143Z",
+  "generated": "2026-09-16T15:11:53.276802Z",
   "summary": {
     "total_opportunities": 1171,
     "total_value_low": 10119560641,
@@ -8,18 +8,18 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 42,
+      "VT": 41,
       "NH": 5,
-      "ME": 172,
-      "MA": 600,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 345,
+      "CT": 344,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1169,
-      "news": 9,
+      "news": 5,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -24180,27 +24180,13 @@
   ],
   "news": [
     {
-      "id": "457c3e06a250",
-      "title": "Gorham gives green light to Amazon facility as opposition persists",
-      "summary": "The planning board approved Amazon's proposed facility for Main Street, outraging opponents. The project still needs state permits to move forward, and residents are circulating a petition to stop it.",
-      "url": "https://www.pressherald.com/2026/09/15/gorham-gives-green-light-to-amazon-facility-as-opposition-persists/",
+      "id": "3a69969b26bb",
+      "title": "Poet from Presque Isle muses on queer awakening as a marriage dissolves",
+      "summary": "In \u2018Abider,\u2019 Melissa Crowe returns to the Maine of her upbringing.",
+      "url": "https://www.pressherald.com/2026/09/16/poet-from-presque-isle-muses-on-queer-awakening-as-a-marriage-dissolves/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-15",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "bf96da69eb3a",
-      "title": "The Latest: Supreme Court rejects Trump mail ballot restrictions ahead of midterms",
-      "summary": "The Supreme Court has rejected President Donald Trump\u2019s bid to restrict mail ballots for the midterm elections, capping a flurry of last-minute legal action with voting already underway. The decision allows states to continue sending out mail ballots under the same processes they\u2019ve used for years.",
-      "url": "https://www.bangordailynews.com/2026/09/15/nation/the-latest-supreme-court-rejects-trump-mail-ballot-restrictions-ahead-of-midterms/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24208,46 +24194,31 @@
       ]
     },
     {
-      "id": "8f404155a932",
-      "title": "State should demand better conservation plan from energy corridor",
-      "summary": "\u201cIt may take years before we know whether NECEC meets its promise of delivering 1,200 megawatts of clean electricity, but the Maine BEP can act in the weeks ahead to ensure that the NECEC complies with the permit requirement to conserve mature forests.\u201d",
-      "url": "https://www.bangordailynews.com/2026/09/15/opinion/opinion-contributor/state-should-demand-better-conservation-plan-from-energy-corridor-joam40zk0w/",
+      "id": "fb77cf0aa628",
+      "title": "Trump administration has cut or frozen $177 billion in grants across every state, analysis shows",
+      "summary": "The Trump administration has cut or frozen up to $177 billion in federal grants since the president took office for his second term, according to a tracking tool released Wednesday by a pro-democracy nonprofit and a group of researchers and scientists. The cuts affected all 50 states and the Distric",
+      "url": "https://www.bangordailynews.com/2026/09/16/nation/trump-administration-has-cut-or-frozen-177-billion-in-grants-across-every-state-analysis-shows/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-15",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8785f2ff0138",
-      "title": "Hampden takes 1st step toward building access to homes cut off by aging bridge",
-      "summary": "The years-long issue became more urgent when the bridge's weight limit was reduced last week, meaning that fire trucks, school buses and mail trucks can no longer cross it.",
-      "url": "https://www.bangordailynews.com/2026/09/14/bangor/bangor-government/hampden-approves-easements-access-road-aging-bridge/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cfd41b7b09af",
-      "title": "Holyoke council to weigh $750,000 for public safety through Ezekiel\u2019s Plan 2.0",
-      "summary": "After a previous $1 million plan failed, the mayor is seeking cannabis stabilization funds for a broad public safety initiative focused on enforcement, housing and neighborhood improvements.",
-      "url": "https://www.masslive.com/westernmass/2026/09/holyoke-council-to-weigh-750000-for-public-safety-through-ezekiels-plan-20.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d4bd8da06fa1",
+      "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
+      "summary": "On the way home from a recent trip, Eriech Tapia drove past a sea of dark industrial buildings lining an already jam-packed northern Virginia road: data centers. \u201cIt was interesting to see how many were going up,\u201d said Tapia, a 30-year-old Republican from Arlington, Virginia, who works in higher edu",
+      "url": "https://www.bangordailynews.com/2026/09/16/nation/americans-are-increasingly-concerned-about-the-environmental-impact-of-ai-new-poll-finds/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-16",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway",
-        "ready_mix"
+        "highway"
       ]
     },
     {
@@ -24293,34 +24264,6 @@
       ]
     },
     {
-      "id": "e272f2af4c9c",
-      "title": "Revealed in the river",
-      "summary": "Local historians discover the remnants of a blockhouse on the Crown Point Road, Vermont\u2019s first interstate highway.\nRead the story on VTDigger here:  Revealed in the river.",
-      "url": "https://vtdigger.org/2026/09/13/revealed-in-the-river/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-13",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "8fb75ab5573f",
-      "title": "The museum that owns its own railroad",
-      "summary": "It was in 1996 that the museum, which now has almost 100 rail cars in its collection, made its first passenger runs.",
-      "url": "https://ctmirror.org/2026/09/13/the-museum-that-owns-its-own-railroad-jim/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "03f9e40a9e17",
       "title": "Oil jumps on new Houthi attacks, reported Kharg Island blasts",
       "summary": "Brent oil advanced to the highest level since late July as another round of strikes on Middle East energy infrastructure, including reported explosions at Iran\u2019s vital export hub Kharg Island, stoked fears of fresh supply tightness.",
@@ -24338,12 +24281,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-15T15:21:08.355090",
+      "updated": "2026-09-16T15:11:39.901129",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24453,24 +24396,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-15T15:21:08.355090"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-16T15:11:39.901129"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-15T15:21:08.355090"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-16T15:11:39.901129"
     },
     "migration": {
       "score": 5.0,
@@ -24480,35 +24423,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-15T15:21:08.355090"
+      "updated": "2026-09-16T15:11:39.901129"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-15T15:21:08.355090"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-16T15:11:39.901129"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.29 | Diesel $6.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.29,
+        "score": 7.2,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.2,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-15T15:21:08.355090"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-16T15:11:39.901129"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24517,19 +24460,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-15T15:21:08.355090"
+      "updated": "2026-09-16T15:11:39.901129"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-15T15:21:08.355090"
+    "calculated_at": "2026-09-16T15:11:39.901129"
   }
 }

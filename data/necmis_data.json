@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T15:13:18.320203Z",
+  "generated": "2026-09-17T15:20:45.464474Z",
   "summary": {
-    "total_opportunities": 1171,
+    "total_opportunities": 1170,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 41,
-      "NH": 5,
+      "NH": 8,
       "ME": 171,
-      "MA": 599,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 344,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1169,
-      "news": 5,
-      "funding": 2
+      "news": 9,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24180,12 +24180,82 @@
   ],
   "news": [
     {
-      "id": "3a69969b26bb",
-      "title": "Poet from Presque Isle muses on queer awakening as a marriage dissolves",
-      "summary": "In \u2018Abider,\u2019 Melissa Crowe returns to the Maine of her upbringing.",
-      "url": "https://www.pressherald.com/2026/09/16/poet-from-presque-isle-muses-on-queer-awakening-as-a-marriage-dissolves/",
+      "id": "5bf7fc6661e6",
+      "title": "What you need to know about Biddeford\u2019s newest development",
+      "summary": "Plans for the 5-building Pearl Point project include housing, shops, offices and restaurants close to downtown Biddeford. It's expected to be completed in phases over the next several years.",
+      "url": "https://www.pressherald.com/2026/09/17/what-you-need-to-know-about-biddefords-newest-development/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-09-17",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3fcd8d557051",
+      "title": "Susan Collins is not a moderate Republican | Letter",
+      "summary": "Sen. Susan Collins presents herself as a moderate Republican. Analysis does not bear that out. According to one nonpartisan research group, in Trump\u2019s current administration, Collins voted with President Trump\u2019s legislation 95% of the time. According to the American Bridge PAC, in Trump\u2019s first admi",
+      "url": "https://www.pressherald.com/2026/09/17/susan-collins-is-not-a-moderate-republican-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-17",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e736a18154e0",
+      "title": "State to spend more than $30M improving Maine island\u2019s roads",
+      "summary": "Deer Isle Town Manager Jim Fisher said local officials have been meeting with MDOT representatives on incoming projects for months.",
+      "url": "https://www.bangordailynews.com/2026/09/17/midcoast/midcoast-government/state-to-spend-more-than-30m-improving-maine-islands-roads/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-17",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f9997534bb72",
+      "title": "Worcester board seeks further review of controversial housing project near peat bog",
+      "summary": "The controversial development would consist of 300 apartments, 600 parking spaces and a pool house built in a currently wooded area with a peat bog.",
+      "url": "https://www.masslive.com/centralmass/2026/09/worcester-board-seeks-further-review-of-controversial-housing-project-near-peat-bog.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f7670920ff07",
+      "title": "Bill to require AM radio in automobiles passes House",
+      "summary": "Members of the House of Representatives passed legislation to require AM broadcast radio devices in all automobiles on Tuesday, a move to ensure than Americans have access to information during emergencies.",
+      "url": "https://www.unionleader.com/news/business/bill-to-require-am-radio-in-automobiles-passes-house/article_2fd518cd-a8e8-5bd3-82f5-8a863063761b.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-09-16",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "99eefc4743a0",
+      "title": "Council Mulls Home Heating Funds, Cost To Replace Cannon Tram & Accepts MacDonald Resignation Without Discussion",
+      "summary": "With winter around the corner, the Executive Council took on issues related to home heating for the vulnerable, and bids that came in much higher than anticipated for the state's only tramway for skiers and tourists at Cannon Mountain in Franconia Notch State Park.\nThe post Council Mulls Home Heatin",
+      "url": "https://indepthnh.org/2026/09/16/council-mulls-home-heating-funds-cost-to-replace-cannon-tram-accepts-macdonald-resignation-without-discussion/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-09-16",
       "category": "news",
       "priority": "high",
@@ -24194,26 +24264,12 @@
       ]
     },
     {
-      "id": "fb77cf0aa628",
-      "title": "Trump administration has cut or frozen $177 billion in grants across every state, analysis shows",
-      "summary": "The Trump administration has cut or frozen up to $177 billion in federal grants since the president took office for his second term, according to a tracking tool released Wednesday by a pro-democracy nonprofit and a group of researchers and scientists. The cuts affected all 50 states and the Distric",
-      "url": "https://www.bangordailynews.com/2026/09/16/nation/trump-administration-has-cut-or-frozen-177-billion-in-grants-across-every-state-analysis-shows/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-16",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d4bd8da06fa1",
-      "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
-      "summary": "On the way home from a recent trip, Eriech Tapia drove past a sea of dark industrial buildings lining an already jam-packed northern Virginia road: data centers. \u201cIt was interesting to see how many were going up,\u201d said Tapia, a 30-year-old Republican from Arlington, Virginia, who works in higher edu",
-      "url": "https://www.bangordailynews.com/2026/09/16/nation/americans-are-increasingly-concerned-about-the-environmental-impact-of-ai-new-poll-finds/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "5ba1497ff515",
+      "title": "Divisions emerge in the tech industry over calls for a coordinated AI slowdown",
+      "summary": "Fears about out-of-control artificial intelligence and suggestions to hit the brakes on the technology's development aren't new, but they have recently found new life as warnings about rogue AI systems causing mayhem grow louder.\nThe post Divisions emerge in the tech industry over calls for a coordi",
+      "url": "https://indepthnh.org/2026/09/16/divisions-emerge-in-the-tech-industry-over-calls-for-a-coordinated-ai-slowdown/",
+      "source": "InDepthNH",
+      "state": "NH",
       "date": "2026-09-16",
       "category": "news",
       "priority": "medium",
@@ -24250,20 +24306,6 @@
       ]
     },
     {
-      "id": "449e804a73c5",
-      "title": "States sue Trump over rule denying green cards to immigrants on public benefits",
-      "summary": "The lawsuit challenges a federal rule states say gives the Trump administration broad discretion to deny green cards to immigrants who rely on public assistance.",
-      "url": "https://ctmirror.org/2026/09/14/ct-states-cities-trump-immigrants-public-charge-rule/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-14",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "03f9e40a9e17",
       "title": "Oil jumps on new Houthi attacks, reported Kharg Island blasts",
       "summary": "Brent oil advanced to the highest level since late July as another round of strikes on Middle East energy infrastructure, including reported explosions at Iran\u2019s vital export hub Kharg Island, stoked fears of fresh supply tightness.",
@@ -24286,7 +24328,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-16T15:13:17.324384",
+      "updated": "2026-09-17T15:20:29.647461",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24396,24 +24438,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-16T15:13:17.324384"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-17T15:20:29.647461"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-16T15:13:17.324384"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-17T15:20:29.647461"
     },
     "migration": {
       "score": 5.0,
@@ -24423,35 +24465,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-16T15:13:17.324384"
+      "updated": "2026-09-17T15:20:29.647461"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-16T15:13:17.324384"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-17T15:20:29.647461"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.29 | Diesel $6.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.29,
+        "score": 7.2,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.2,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-16T15:13:17.324384"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-17T15:20:29.647461"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24460,19 +24502,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-16T15:13:17.324384"
+      "updated": "2026-09-17T15:20:29.647461"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-16T15:13:17.324384"
+    "calculated_at": "2026-09-17T15:20:29.647461"
   }
 }

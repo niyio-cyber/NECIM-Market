@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-17T15:22:42.908452Z",
+  "generated": "2026-09-18T14:40:54.635962Z",
   "summary": {
-    "total_opportunities": 1170,
+    "total_opportunities": 1167,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -5.0,
     "by_state": {
       "VT": 41,
-      "NH": 8,
-      "ME": 171,
-      "MA": 600,
+      "NH": 6,
+      "ME": 169,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1169,
-      "news": 9,
-      "funding": 1
+      "dot_letting": 1167,
+      "news": 8,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 699,
+          "count": 697,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 3,
+          "count": 1,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 3,
+            "count": 1,
             "value": 0
           },
           "Safety": {
@@ -16099,59 +16099,20 @@
       ]
     },
     {
-      "id": "d277ccb007ad",
+      "id": "2bd36bd2d6e8",
       "state": "NH",
       "project_id": null,
-      "description": "Manchester Bids: FY26-804-44 Water Works: Improvements to Massabesic Lake DamQuestions: joneil@manchesternh.gov BID Bids Due:July 8, 2026By 2:00 PM Addendum 1Addendum 2Addendum 3 ",
+      "description": "NHDOT Bid Schedule - Visit portal for current lettings",
       "cost_low": null,
       "cost_high": null,
-      "cost_display": "See Bid Docs",
+      "cost_display": "See Portal",
       "ad_date": null,
       "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
+      "project_type": null,
+      "location": null,
       "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e10c1e7ca275",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-500-54 Highway: RFP Pine Street Paving(CDBG)Questions:DPW_Engineering@manchesternh.gov(603)624-6444 RFP RFP DUE:July 9, 2026By 2:00 PM Addendum 1 Summary",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway",
-        "hma"
-      ]
-    },
-    {
-      "id": "b9e493d5c68e",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: FY26-804-66 Water Works: RFP Testing Agent for Adminstration & Vehicle Maintanance Building ProjectQuestions: pcroasdale@manchesternh.gov RFP RFP DUE:July 9, 2026By 2:00PM ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
+      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
+      "source": "NHDOT",
       "business_lines": [
         "highway"
       ]
@@ -24180,57 +24141,57 @@
   ],
   "news": [
     {
-      "id": "5bf7fc6661e6",
-      "title": "What you need to know about Biddeford\u2019s newest development",
-      "summary": "Plans for the 5-building Pearl Point project include housing, shops, offices and restaurants close to downtown Biddeford. It's expected to be completed in phases over the next several years.",
-      "url": "https://www.pressherald.com/2026/09/17/what-you-need-to-know-about-biddefords-newest-development/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-17",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3fcd8d557051",
-      "title": "Susan Collins is not a moderate Republican | Letter",
-      "summary": "Sen. Susan Collins presents herself as a moderate Republican. Analysis does not bear that out. According to one nonpartisan research group, in Trump\u2019s current administration, Collins voted with President Trump\u2019s legislation 95% of the time. According to the American Bridge PAC, in Trump\u2019s first admi",
-      "url": "https://www.pressherald.com/2026/09/17/susan-collins-is-not-a-moderate-republican-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-17",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e736a18154e0",
-      "title": "State to spend more than $30M improving Maine island\u2019s roads",
-      "summary": "Deer Isle Town Manager Jim Fisher said local officials have been meeting with MDOT representatives on incoming projects for months.",
-      "url": "https://www.bangordailynews.com/2026/09/17/midcoast/midcoast-government/state-to-spend-more-than-30m-improving-maine-islands-roads/",
+      "id": "fc68ef6b031d",
+      "title": "Kauai small businesses ask tourists to return after Hurricane Lowell, with aloha and some patience",
+      "summary": "Watching her staff happily hand out free meals for hundreds of residents outside their Wailua commercial kitchen, food truck co-owner Kelly Kakalia felt fulfilled. It was the day after Hurricane Lowell finished knocking out power, washing out roads and felling trees across Kauai, and Kakalia was foc",
+      "url": "https://www.bangordailynews.com/2026/09/18/nation/kauai-small-businesses-ask-tourists-to-return-after-hurricane-lowell-with-aloha-and-some-patience/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-17",
-      "category": "funding",
-      "priority": "high",
+      "date": "2026-09-18",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "f9997534bb72",
-      "title": "Worcester board seeks further review of controversial housing project near peat bog",
-      "summary": "The controversial development would consist of 300 apartments, 600 parking spaces and a pool house built in a currently wooded area with a peat bog.",
-      "url": "https://www.masslive.com/centralmass/2026/09/worcester-board-seeks-further-review-of-controversial-housing-project-near-peat-bog.html",
+      "id": "fe1601ca3f7d",
+      "title": "Communities deserve top say in data center construction | The Republican Editorials",
+      "summary": "We are glad the governor said communities should say yes before data centers are built. That should be Healey\u2019s position on this, but it might depend on the results of the latest poll.",
+      "url": "https://www.masslive.com/opinion/2026/09/communities-deserve-top-say-in-data-center-construction-the-republican-editorials.html",
       "source": "MassLive",
       "state": "MA",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "category": "news",
       "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c516b69752ad",
+      "title": "WMass school places principal, asst. principal on leave amid investigation",
+      "summary": "Chief of Schools Sarita Graveline has been assigned to oversee Peck Middle School during the investigation. The district anticipates naming an interim principal next week, officials said.",
+      "url": "https://www.masslive.com/westernmass/2026/09/wmass-school-places-principal-asst-principal-on-leave-amid-investigation.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-18",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "aggregates"
+      ]
+    },
+    {
+      "id": "7c798017c09d",
+      "title": "Pam Smart\u2019s latest bid for freedom rejected",
+      "summary": "Decades after she was convicted of manipulating her teenage boyfriend into murdering her husband, Pam Smart\u2019s latest attempt to get out of prison failed.\nThe post Pam Smart\u2019s latest bid for freedom rejected appeared first on InDepthNH.org.",
+      "url": "https://indepthnh.org/2026/09/17/pam-smarts-latest-bid-for-freedom-rejected/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-09-17",
+      "category": "news",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24278,20 +24239,6 @@
       ]
     },
     {
-      "id": "f1ecf1418bba",
-      "title": "Bridgeport must recognize Eid al-Adha",
-      "summary": "Muslims are not standing outside the American community asking to be admitted. They are already part of its fabric.",
-      "url": "https://ctmirror.org/2026/09/15/bridgeport-must-recognize-eid-al-adha/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-15",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "4964158c1051",
       "title": "Blair Talbot Motors celebrates grand opening of new Dover facility designed and built by PROCON",
       "summary": "Blair Talbot Motors celebrated the grand opening of its new state-of-the-art facility at 34 Industrial Park Road in Dover, marking an exciting new chapter for one of New England\u2019s premier destinations for European automotive service and professional vehicle storage.",
@@ -24301,20 +24248,6 @@
       "date": "2026-09-14",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "03f9e40a9e17",
-      "title": "Oil jumps on new Houthi attacks, reported Kharg Island blasts",
-      "summary": "Brent oil advanced to the highest level since late July as another round of strikes on Middle East energy infrastructure, including reported explosions at Iran\u2019s vital export hub Kharg Island, stoked fears of fresh supply tightness.",
-      "url": "https://www.unionleader.com/news/business/oil-jumps-on-new-houthi-attacks-reported-kharg-island-blasts/article_835a4f7d-950c-44d2-92ad-899afe0812c6.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-09-08",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24328,7 +24261,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-17T15:22:41.918473",
+      "updated": "2026-09-18T14:40:44.113825",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24438,24 +24371,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-17T15:22:41.918473"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-18T14:40:44.113825"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-17T15:22:41.918473"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-18T14:40:44.113825"
     },
     "migration": {
       "score": 5.0,
@@ -24465,35 +24398,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-17T15:22:41.918473"
+      "updated": "2026-09-18T14:40:44.113825"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-17T15:22:41.918473"
+      "raw": 1024400.0000000001,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.3,
+      "source": "FRED API",
+      "updated": "2026-09-18T14:40:44.113825"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.29 | Diesel $6.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.29,
+        "score": 7.2,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.2,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-17T15:22:41.918473"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-18T14:40:44.113825"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24502,19 +24435,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-17T15:22:41.918473"
+      "updated": "2026-09-18T14:40:44.113825"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-17T15:22:41.918473"
+    "calculated_at": "2026-09-18T14:40:44.113825"
   }
 }

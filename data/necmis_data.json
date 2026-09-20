@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T14:03:55.236872Z",
+  "generated": "2026-09-20T14:22:17.890858Z",
   "summary": {
     "total_opportunities": 1169,
     "total_value_low": 10119560641,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 43,
       "NH": 5,
-      "ME": 170,
-      "MA": 600,
+      "ME": 171,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -24141,6 +24141,21 @@
   ],
   "news": [
     {
+      "id": "594aeffc2f6d",
+      "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
+      "summary": "WASHINGTON (AP) \u2014 President Donald Trump has renewed his attacks on the Federal Reserve after it hiked its benchmark interest rate Wednesday, but the Fed matters less than broader economic trends when it comes to longer-term borrowing costs, economists say. The economy is growing steadily despite be",
+      "url": "https://www.bangordailynews.com/2026/09/20/nation/federal-reserve-rate-hike-reflects-new-world-of-sticky-inflation-and-faster-growth/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-20",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway",
+        "hma"
+      ]
+    },
+    {
       "id": "3012e6b6fd7c",
       "title": "How existential fears are shaping the debate over AI",
       "summary": "The current round of panic over artificial intelligence is based on the conviction that the technology has slipped out of human control to do its own bidding in several recent incidents. To some disillusioned AI researchers \u2014 and some senior\u2026",
@@ -24155,11 +24170,11 @@
       ]
     },
     {
-      "id": "4cd42e54bf6f",
-      "title": "Portland\u2019s road safety efforts must extend to Riverton | Letter",
-      "summary": "This is clearly one of the city's locations most in need of creative and effective safety improvements.",
-      "url": "https://www.pressherald.com/2026/09/19/portlands-road-safety-efforts-must-extend-to-riverton-letter/",
-      "source": "Portland Press Herald",
+      "id": "d481bd9dc63a",
+      "title": "Lowriding culture celebrated in San Francisco as it receives broader recognition",
+      "summary": "SAN FRANCISCO (AP) \u2014 Drivers in vehicles built to move low and slow cruised Saturday down San Francisco\u2019s Mission Street in celebration of one of the city\u2019s most distinctive cultural traditions: lowriding. Music played as hundreds of customized cars bounced, tilted and otherwise made their way along",
+      "url": "https://www.bangordailynews.com/2026/09/19/nation/lowriding-culture-celebrated-in-san-francisco-as-it-receives-broader-recognition/",
+      "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-09-19",
       "category": "news",
@@ -24169,26 +24184,12 @@
       ]
     },
     {
-      "id": "8ee7b154452d",
-      "title": "Demolition of long-condemned Belfast building set to begin this fall",
-      "summary": "The city has awarded a $264,065 contract to Lakeside Concrete Cutting Inc., clearing the way for work to begin this fall.",
-      "url": "https://www.bangordailynews.com/2026/09/19/midcoast/midcoast-government/demolition-of-long-condemned-belfast-building-set-to-begin-this-fall/",
+      "id": "44440ee7afee",
+      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
+      "summary": "A new lawsuit claims Anthropic, OpenAI, SpaceXAI and Google made an illegal deal to slow the pace of their respective AI development. The lawsuit, which was filed Friday in the U.S. District Court for the Northern District of California, argues that the leading AI companies violated antitrust laws w",
+      "url": "https://www.bangordailynews.com/2026/09/19/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-19",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "5b87b6615895",
-      "title": "One surprising guest changed football Sundays in a big way",
-      "summary": "Taylor Swift\u2019s Chiefs game appearances boosted NFL ratings, sparked debate, changed broadcasts and brought new fans to football.",
-      "url": "https://www.masslive.com/sports/2026/09/how-taylor-swifts-chiefs-appearances-changed-nfl-broadcasts-and-fan-culture.html",
-      "source": "MassLive",
-      "state": "MA",
       "date": "2026-09-19",
       "category": "news",
       "priority": "medium",
@@ -24270,12 +24271,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-19T14:03:53.644786",
+      "updated": "2026-09-20T14:22:05.872221",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24385,24 +24386,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-19T14:03:53.644786"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-20T14:22:05.872221"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-19T14:03:53.644786"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-20T14:22:05.872221"
     },
     "migration": {
       "score": 5.0,
@@ -24412,35 +24413,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-19T14:03:53.644786"
+      "updated": "2026-09-20T14:22:05.872221"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-19T14:03:53.644786"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-20T14:22:05.872221"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.29 | Diesel $6.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.29,
+        "score": 7.2,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.2,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-19T14:03:53.644786"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-20T14:22:05.872221"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24449,19 +24450,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-19T14:03:53.644786"
+      "updated": "2026-09-20T14:22:05.872221"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-19T14:03:53.644786"
+    "calculated_at": "2026-09-20T14:22:05.872221"
   }
 }

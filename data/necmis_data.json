@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T14:23:48.449041Z",
+  "generated": "2026-09-21T16:40:18.288007Z",
   "summary": {
     "total_opportunities": 1169,
     "total_value_low": 10119560641,
@@ -24141,18 +24141,59 @@
   ],
   "news": [
     {
-      "id": "594aeffc2f6d",
-      "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
-      "summary": "WASHINGTON (AP) \u2014 President Donald Trump has renewed his attacks on the Federal Reserve after it hiked its benchmark interest rate Wednesday, but the Fed matters less than broader economic trends when it comes to longer-term borrowing costs, economists say. The economy is growing steadily despite be",
-      "url": "https://www.bangordailynews.com/2026/09/20/nation/federal-reserve-rate-hike-reflects-new-world-of-sticky-inflation-and-faster-growth/",
-      "source": "Bangor Daily News",
+      "id": "a464a532d923",
+      "title": "Maine needs more oversight of cable and broadband providers | Letter",
+      "summary": "I\u2019ve had cable television since it first became available in Wells in the early 1980s. Back then, using it was simple. Now, in my mid-80s, Spectrum\u2019s service has become far more complicated, unreliable and expensive. I pay\u00a0$305.67 a month\u00a0for a package that includes many channels I neither watch nor",
+      "url": "https://www.pressherald.com/2026/09/21/maine-needs-more-oversight-of-cable-and-broadband-providers-letter/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
-        "highway",
-        "hma"
+        "highway"
+      ]
+    },
+    {
+      "id": "d192477358df",
+      "title": "8 Maine events include Common Ground Country Fair, Biddeford Oktoberfest",
+      "summary": "The Runaway Maine Music Fest in Turner features Marcy Playground and Sister Hazel.",
+      "url": "https://www.pressherald.com/2026/09/21/8-maine-events-include-common-ground-country-fair-biddeford-oktoberfest/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-21",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b95f7a3f5c38",
+      "title": "Belfast won\u2019t permit recreational cannabis sales",
+      "summary": "That was fueled partly by worries that Belfast could be perceived as a \"pot town.\"",
+      "url": "https://www.bangordailynews.com/2026/09/21/midcoast/midcoast-government/belfast-maine-recreational-cannabis-sales-rejected/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-21",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "eddaaae94ffe",
+      "title": "Common Man Roadside asks judge to reconsider I-95 Hampton liquor store bid ruling",
+      "summary": "Common Man Roadside has asked a judge to reconsider an order denying a request to halt the state\u2019s bidding process to redevelop the two liquor stores on Interstate 95 in Hampton.",
+      "url": "https://www.unionleader.com/news/business/common-man-roadside-asks-judge-to-reconsider-i-95-hampton-liquor-store-bid-ruling/article_19636d0d-a423-4fc9-88be-b592addb0e81.html",
+      "source": "Union Leader",
+      "state": "NH",
+      "date": "2026-09-20",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
       ]
     },
     {
@@ -24165,34 +24206,6 @@
       "date": "2026-09-19",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d481bd9dc63a",
-      "title": "Lowriding culture celebrated in San Francisco as it receives broader recognition",
-      "summary": "SAN FRANCISCO (AP) \u2014 Drivers in vehicles built to move low and slow cruised Saturday down San Francisco\u2019s Mission Street in celebration of one of the city\u2019s most distinctive cultural traditions: lowriding. Music played as hundreds of customized cars bounced, tilted and otherwise made their way along",
-      "url": "https://www.bangordailynews.com/2026/09/19/nation/lowriding-culture-celebrated-in-san-francisco-as-it-receives-broader-recognition/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-19",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "44440ee7afee",
-      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
-      "summary": "A new lawsuit claims Anthropic, OpenAI, SpaceXAI and Google made an illegal deal to slow the pace of their respective AI development. The lawsuit, which was filed Friday in the U.S. District Court for the Northern District of California, argues that the leading AI companies violated antitrust laws w",
-      "url": "https://www.bangordailynews.com/2026/09/19/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-09-19",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24252,20 +24265,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "4964158c1051",
-      "title": "Blair Talbot Motors celebrates grand opening of new Dover facility designed and built by PROCON",
-      "summary": "Blair Talbot Motors celebrated the grand opening of its new state-of-the-art facility at 34 Industrial Park Road in Dover, marking an exciting new chapter for one of New England\u2019s premier destinations for European automotive service and professional vehicle storage.",
-      "url": "https://www.unionleader.com/news/business/blair-talbot-motors-celebrates-grand-opening-of-new-dover-facility-designed-and-built-by-procon/article_06ceb704-3b8e-4d5d-97d7-6eb972bae13b.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-09-14",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24276,7 +24275,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-20T14:23:47.940356",
+      "updated": "2026-09-21T16:39:57.261785",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24386,24 +24385,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-20T14:23:47.940356"
+      "score": 10,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 10142.870673652542,
+      "raw_display": "10,143 units/mo",
+      "yoy_change": 28.9,
+      "source": "FRED API",
+      "updated": "2026-09-21T16:39:57.261785"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-20T14:23:47.940356"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-21T16:39:57.261785"
     },
     "migration": {
       "score": 5.0,
@@ -24413,35 +24412,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-20T14:23:47.940356"
+      "updated": "2026-09-21T16:39:57.261785"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-20T14:23:47.940356"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-21T16:39:57.261785"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.29 | Diesel $6.20",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.29,
+        "score": 7.2,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.2,
+        "score": 6.1,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-20T14:23:47.940356"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-21T16:39:57.261785"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24450,19 +24449,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-20T14:23:47.940356"
+      "updated": "2026-09-21T16:39:57.261785"
     },
-    "overall_score": 7.3,
-    "overall_status": "stable",
+    "overall_score": 7.7,
+    "overall_status": "growth",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-20T14:23:47.940356"
+    "calculated_at": "2026-09-21T16:39:57.261785"
   }
 }

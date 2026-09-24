@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T15:32:07.810986Z",
+  "generated": "2026-09-24T15:36:50.273142Z",
   "summary": {
     "total_opportunities": 1170,
     "total_value_low": 10119560641,
@@ -11,7 +11,7 @@
       "VT": 44,
       "NH": 6,
       "ME": 173,
-      "MA": 599,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1166,
-      "news": 11,
+      "news": 13,
       "funding": 4
     },
     "pipeline_analysis": {
@@ -24190,6 +24190,34 @@
       ]
     },
     {
+      "id": "c092e22ade90",
+      "title": "Gas leak contained in Holyoke; residents return home as repairs continue",
+      "summary": "A gas leak during a Holyoke Gas & Electric construction project prompted the evacuation of three buildings.",
+      "url": "https://www.masslive.com/westernmass/2026/09/gas-leak-contained-in-holyoke-residents-return-home-as-repairs-continue.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "06b95940ec91",
+      "title": "Trump adviser makes urgent plea against \u2018dangerous\u2019 Fox News",
+      "summary": "The network joined other broadcasters in rescinding their press pool duties amid the president's press ban against three outlets.",
+      "url": "https://www.masslive.com/politics/2026/09/trump-adviser-makes-urgent-plea-against-dangerous-fox-news.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "1b933e4fc2e7",
       "title": "Vermont Conversation: \u2018There was some justice.\u2019 Hisham Awartani on enduring and speaking out for Palestinian lives.",
       "summary": "Awartani was gravely wounded in 2023 when he and two friends were shot by Jason Eaton. A Vermont jury delivered a measure of justice this week when it convicted Eaton of three counts of attempted second-degree murder.\nRead the story on VTDigger here:  Vermont Conversation: \u2018There was some justice.\u2019",
@@ -24338,7 +24366,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-24T15:31:44.368242",
+      "updated": "2026-09-24T15:36:49.389353",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24448,24 +24476,24 @@
       }
     },
     "housing_permits": {
-      "score": 7.1,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 8592.994176398728,
-      "raw_display": "8,593 units/mo",
-      "yoy_change": 10.7,
-      "source": "FRED API",
-      "updated": "2026-09-24T15:31:44.368242"
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-09-24T15:36:49.389353"
     },
     "construction_spending": {
-      "score": 5.7,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 151508.0,
-      "raw_display": "$151.5B SAAR",
-      "yoy_change": 4.5,
-      "source": "FRED API",
-      "updated": "2026-09-24T15:31:44.368242"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-09-24T15:36:49.389353"
     },
     "migration": {
       "score": 5.0,
@@ -24475,35 +24503,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-24T15:31:44.368242"
+      "updated": "2026-09-24T15:36:49.389353"
     },
     "construction_employment": {
-      "score": 4.9,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 1023599.9999999999,
-      "raw_display": "1024K workers",
-      "yoy_change": -0.2,
-      "source": "FRED API",
-      "updated": "2026-09-24T15:31:44.368242"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-09-24T15:36:49.389353"
     },
     "input_cost": {
-      "score": 6.5,
-      "trend": "down",
-      "action": "Hedge 6 months",
-      "raw_display": "Gas $4.38 | Diesel $6.52",
+      "score": 9.5,
+      "trend": "stable",
+      "action": "Lock contracts",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 4.38,
-        "score": 7.0,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 6.52,
-        "score": 5.7,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-09-24T15:31:44.368242"
+      "source": "historical data",
+      "updated": "2026-09-24T15:36:49.389353"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24512,19 +24540,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-24T15:31:44.368242"
+      "updated": "2026-09-24T15:36:49.389353"
     },
-    "overall_score": 7.2,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-24T15:31:44.368242"
+    "calculated_at": "2026-09-24T15:36:49.389353"
   }
 }

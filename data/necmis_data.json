@@ -1,17 +1,17 @@
 {
-  "generated": "2026-09-24T15:36:50.273142Z",
+  "generated": "2026-09-25T15:36:01.086808Z",
   "summary": {
-    "total_opportunities": 1170,
+    "total_opportunities": 1169,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 44,
+      "VT": 43,
       "NH": 6,
       "ME": 173,
-      "MA": 601,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 343,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1166,
-      "news": 13,
-      "funding": 4
+      "news": 12,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24120,13 +24120,27 @@
   ],
   "news": [
     {
-      "id": "05803e8e3899",
-      "title": "Endorsing Tim Nangle for Senate District 26 | Letter",
-      "summary": "State Sen. Tim Nangle, D-Windham, has built a legislative record grounded in the same instinct that defined his 27-year career as a Portland Fire Department paramedic: showing up for people when it matters. As Senate chair of the Transportation Committee, Nangle led passage of a two-year Highway Fun",
-      "url": "https://www.pressherald.com/2026/09/24/endorsing-tim-nangle-for-senate-district-26-letter/",
+      "id": "d107489117b3",
+      "title": "Thoughtful planning, craftsmanship and design set this new construction home apart",
+      "summary": "$1.545 million | Lot #2, Blackstrap Road, Falmouth",
+      "url": "https://www.pressherald.com/2026/09/25/thoughtful-planning-craftsmanship-and-design-set-this-new-construction-home-apart/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a472a07a4b23",
+      "title": "Augusta woman arrested for Waterville crash that killed DOT workers",
+      "summary": "Police arrested Samantha Tupper, 34, Friday morning, after a grand jury returned an indictment on several charges stemming from the January crash.",
+      "url": "https://www.pressherald.com/2026/09/25/augusta-woman-arrested-for-waterville-crash-that-killed-dot-workers/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-25",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24134,13 +24148,13 @@
       ]
     },
     {
-      "id": "ab288095b451",
-      "title": "Judge blocks Trump\u2019s ban and says CNN, MS NOW and Politico must have White House access restored",
-      "summary": "NEW YORK (AP) \u2014 A federal judge early Thursday temporarily blocked President Donald Trump\u2019s move to ban three news outlets from the White House grounds and said CNN, MS NOW and Politico must have their access restored. It\u2019s the latest development in an escalating showdown between Trump and media out",
-      "url": "https://www.bangordailynews.com/2026/09/24/nation/judge-blocks-trumps-ban-and-says-cnn-ms-now-and-politico-must-have-white-house-access-restored/",
-      "source": "Bangor Daily News",
+      "id": "a78a4327f023",
+      "title": "State denies 2 home care providers\u2019 licenses, ends MaineCare funding over allegations of neglect",
+      "summary": "The Portland- and South Portland-based providers specializing in services for adults with developmental disabilities failed to protect patients from mistreatment, DHHS claims.",
+      "url": "https://www.pressherald.com/2026/09/25/2-home-care-providers-licenses-denied-mainecare-funding-terminated-over-allegations-of-neglect/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -24148,40 +24162,54 @@
       ]
     },
     {
-      "id": "9998b124d53b",
-      "title": "Letter: Susan Collins helped ease harm of tariffs in Maine",
-      "summary": "\u201cHad the tariff gone into effect it would have cost our small concrete business about $150,000 every month.\u201d",
-      "url": "https://www.bangordailynews.com/2026/09/24/opinion/letters/letter-susan-collins-helped-ease-harm-of-tariffs-in-maine-joam40zk0w/",
-      "source": "Bangor Daily News",
+      "id": "1f4e945d5383",
+      "title": "How a 1-in-100-million lobster is helping UNE students study genes",
+      "summary": "Casper, a 'ghost' lobster, will be studied for personality traits and what makes him white. He joins a growing rainbow of rare lobsters being studied at the Biddeford university.",
+      "url": "https://www.pressherald.com/2026/09/25/how-a-1-in-100-million-lobster-is-helping-une-students-study-genes/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "category": "funding",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
-      "id": "962beca6f5c1",
-      "title": "Letter: Susan Collins\u2019 vote for RFK Jr. puts children at risk",
-      "summary": "\u201cHad the tariff gone into effect it would have cost our small concrete business about $150,000 every month.\u201d",
-      "url": "https://www.bangordailynews.com/2026/09/24/opinion/letters/letter-susan-collins-vote-for-rfk-jr-puts-children-at-risk-joam40zk0w/",
+      "id": "cdab001f1c34",
+      "title": "Woman arrested in Maine crash that left 2 state road workers dead",
+      "summary": "Samantha Tupper, 34, faces charges of manslaughter, aggravated driving to endanger, endangering the welfare of a child and aggravated assault",
+      "url": "https://www.bangordailynews.com/2026/09/25/central-maine/central-maine-police-courts/augusta-maine-interstate-95-construction-worker-deaths-manslaughter-samantha-tupper/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-24",
-      "category": "funding",
+      "date": "2026-09-25",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
-        "ready_mix"
+        "highway"
       ]
     },
     {
-      "id": "a46cd6244a57",
-      "title": "Rural Maine road to a popular hiking trail finally being\u00a0paved after a year-long battle",
-      "summary": "The road is used by residents and hikers to gain access to the 1,100-foot peak of Chick Hill.",
-      "url": "https://www.bangordailynews.com/2026/09/24/penobscot/penobscot-government/clifton-maine-to-pave-chick-hill-road-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "a45fcf1e997c",
+      "title": "Don\u2019t give up on politically challenging conversations | Judy Feinstein",
+      "summary": "So how do we bridge the gap and depoliticize our day-to-day living? How can we talk to and work with each other to ensure that everyone\u2019s basic needs are met?",
+      "url": "https://www.masslive.com/opinion/2026/09/dont-give-up-on-politically-challenging-conversations-judy-feinstein.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-25",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b972ac81289b",
+      "title": "Its selectboard mired in controversy, Weston to hold special election",
+      "summary": "Weston selectboard resignations and complaints from residents may point to a broader trend in Vermont.\nRead the story on VTDigger here:  Its selectboard mired in controversy, Weston to hold special election.",
+      "url": "https://vtdigger.org/2026/09/24/its-selectboard-mired-in-controversy-weston-to-hold-special-election/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-09-24",
       "category": "news",
       "priority": "medium",
@@ -24190,26 +24218,12 @@
       ]
     },
     {
-      "id": "c092e22ade90",
-      "title": "Gas leak contained in Holyoke; residents return home as repairs continue",
-      "summary": "A gas leak during a Holyoke Gas & Electric construction project prompted the evacuation of three buildings.",
-      "url": "https://www.masslive.com/westernmass/2026/09/gas-leak-contained-in-holyoke-residents-return-home-as-repairs-continue.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-09-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "06b95940ec91",
-      "title": "Trump adviser makes urgent plea against \u2018dangerous\u2019 Fox News",
-      "summary": "The network joined other broadcasters in rescinding their press pool duties amid the president's press ban against three outlets.",
-      "url": "https://www.masslive.com/politics/2026/09/trump-adviser-makes-urgent-plea-against-dangerous-fox-news.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "d67fa95ae494",
+      "title": "State sues construction companies over illegal dredging operations on Lake Winnipesaukee",
+      "summary": "State officials have filed a lawsuit against construction companies accused of conducting illegal dredging and filling along the shoreline and lakebed of Lake Winnipesaukee, the Attorney General\u2019s Office announced Thursday.",
+      "url": "https://www.unionleader.com/news/business/state-sues-construction-companies-over-illegal-dredging-operations-on-lake-winnipesaukee/article_80cbdf03-d4cd-46c4-8911-e6d890beba6c.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-09-24",
       "category": "news",
       "priority": "medium",
@@ -24246,20 +24260,6 @@
       ]
     },
     {
-      "id": "813e544a4ce1",
-      "title": "Dorothy (Dot) Naylor",
-      "summary": "She was a lifelong learner, an innovator before innovation was cool, and generally a feisty woman who regarded obstacles as challenges to be overcome her whole life.\nRead the story on VTDigger here:  Dorothy (Dot) Naylor.",
-      "url": "https://vtdigger.org/2026/09/22/dorothy-dot-naylor/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "3a983de323de",
       "title": "Report shows steady improvement in Long Island Sound water quality",
       "summary": "From 2023 to 2025, water quality in Long Island Sound improved following wastewater treatment and infrastructure upgrades in CT and NY.",
@@ -24281,34 +24281,6 @@
       "source": "CT Mirror",
       "state": "CT",
       "date": "2026-09-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e8cc16a53987",
-      "title": "Federal grants invigorate efforts to address veteran homelessness in Vermont",
-      "summary": "The Department of Veterans Affairs awarded over $18 million to Vermont and New Hampshire community organizations.\nRead the story on VTDigger here:  Federal grants invigorate efforts to address veteran homelessness in Vermont.",
-      "url": "https://vtdigger.org/2026/09/21/federal-grants-invigorate-efforts-to-address-veteran-homelessness-in-vermont/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-21",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "90d27ee71999",
-      "title": "Manchester\u2019s Queen City Bridge Closed",
-      "summary": "On Monday morning the City of Manchester, Department of Public Works, was notified of potential structural deficiencies identified during a routine NH DOT inspection of the Queen City Bridge.\nThe post Manchester\u2019s Queen City Bridge Closed appeared first on InDepthNH.org.",
-      "url": "https://indepthnh.org/2026/09/21/manchesters-queen-city-bridge-closed/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-09-21",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24366,7 +24338,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-24T15:36:49.389353",
+      "updated": "2026-09-25T15:35:48.368613",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24476,24 +24448,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-24T15:36:49.389353"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-09-25T15:35:48.368613"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-24T15:36:49.389353"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-25T15:35:48.368613"
     },
     "migration": {
       "score": 5.0,
@@ -24503,35 +24475,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-24T15:36:49.389353"
+      "updated": "2026-09-25T15:35:48.368613"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-24T15:36:49.389353"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-25T15:35:48.368613"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.38 | Diesel $6.52",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.38,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.52,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-24T15:36:49.389353"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-25T15:35:48.368613"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24540,19 +24512,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-24T15:36:49.389353"
+      "updated": "2026-09-25T15:35:48.368613"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-24T15:36:49.389353"
+    "calculated_at": "2026-09-25T15:35:48.368613"
   }
 }

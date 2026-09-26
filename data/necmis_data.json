@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-25T15:41:25.125839Z",
+  "generated": "2026-09-26T14:47:01.082659Z",
   "summary": {
-    "total_opportunities": 1438,
+    "total_opportunities": 1435,
     "total_value_low": 12730682438,
     "total_value_high": 17114252870,
     "forward_pipeline": 11794540936.333334,
@@ -9,18 +9,18 @@
     "pipeline_yoy_pct": -4.0,
     "by_state": {
       "VT": 43,
-      "NH": 275,
-      "ME": 173,
+      "NH": 276,
+      "ME": 171,
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1435,
       "news": 12,
-      "funding": 3
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -29802,27 +29802,13 @@
   ],
   "news": [
     {
-      "id": "d107489117b3",
-      "title": "Thoughtful planning, craftsmanship and design set this new construction home apart",
-      "summary": "$1.545 million | Lot #2, Blackstrap Road, Falmouth",
-      "url": "https://www.pressherald.com/2026/09/25/thoughtful-planning-craftsmanship-and-design-set-this-new-construction-home-apart/",
+      "id": "740b7c716fdf",
+      "title": "Friday\u2019s high school football: Falmouth sends Biddeford to first defeat",
+      "summary": "The Navigators pick up their second straight win, led by three touchdowns from Owen Ross.",
+      "url": "https://www.pressherald.com/2026/09/25/fridays-high-school-football-falmouth-sends-biddeford-to-first-defeat/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-25",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a472a07a4b23",
-      "title": "Augusta woman arrested for Waterville crash that killed DOT workers",
-      "summary": "Police arrested Samantha Tupper, 34, Friday morning, after a grand jury returned an indictment on several charges stemming from the January crash.",
-      "url": "https://www.pressherald.com/2026/09/25/augusta-woman-arrested-for-waterville-crash-that-killed-dot-workers/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -29830,40 +29816,54 @@
       ]
     },
     {
-      "id": "a78a4327f023",
-      "title": "State denies 2 home care providers\u2019 licenses, ends MaineCare funding over allegations of neglect",
-      "summary": "The Portland- and South Portland-based providers specializing in services for adults with developmental disabilities failed to protect patients from mistreatment, DHHS claims.",
-      "url": "https://www.pressherald.com/2026/09/25/2-home-care-providers-licenses-denied-mainecare-funding-terminated-over-allegations-of-neglect/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-25",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1f4e945d5383",
-      "title": "How a 1-in-100-million lobster is helping UNE students study genes",
-      "summary": "Casper, a 'ghost' lobster, will be studied for personality traits and what makes him white. He joins a growing rainbow of rare lobsters being studied at the Biddeford university.",
-      "url": "https://www.pressherald.com/2026/09/25/how-a-1-in-100-million-lobster-is-helping-une-students-study-genes/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-09-25",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cdab001f1c34",
-      "title": "Woman arrested in Maine crash that left 2 state road workers dead",
-      "summary": "Samantha Tupper, 34, faces charges of manslaughter, aggravated driving to endanger, endangering the welfare of a child and aggravated assault",
-      "url": "https://www.bangordailynews.com/2026/09/25/central-maine/central-maine-police-courts/augusta-maine-interstate-95-construction-worker-deaths-manslaughter-samantha-tupper/",
+      "id": "e675e828dde4",
+      "title": "Southern Democrats see hope for first time in years, seek to build on discontent of midterm voters",
+      "summary": "DOTHAN, Ala. (AP) \u2014 People crowded shoulder to shoulder upstairs in a south Alabama coffee shop, in a region sometimes called the reddest in the heavily conservative state. They were there to hear Doug Jones, the Democratic nominee for governor and the last Democrat to hold statewide office in Alaba",
+      "url": "https://www.bangordailynews.com/2026/09/26/nation/southern-democrats-see-hope-for-first-time-in-years-seek-to-build-on-discontent-of-midterm-voters/",
       "source": "Bangor Daily News",
       "state": "ME",
+      "date": "2026-09-26",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a3b6af7e409a",
+      "title": "Roads flood in New Jersey, inundate some homes, as major signs of nor\u2019easter take shape",
+      "summary": "PROVIDENCE, R.I. (AP) \u2014 More than 70,000 customers were without electricity in the U.S. Northeast on Saturday, the effect of a powerful nor\u2019easter expected to create dangerous conditions through the weekend. Forecasters warned of gale winds that could down trees and heavy rain that could put roads u",
+      "url": "https://www.bangordailynews.com/2026/09/26/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape-2/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-26",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f7af61de6ef3",
+      "title": "Data projections forecast tight score: What DraftKings bettors expect for Patriots vs. Jaguars",
+      "summary": "Can Drake Maye lead the Patriots to a road cover (+2.5) in Jacksonville? We break down final 24-21 score projections and DraftKings prop values.",
+      "url": "https://www.masslive.com/betting/2026/09/patriots-jaguars-draftkings-odds-model-projections-preview.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-09-26",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "3cd2368de4ad",
+      "title": "Tilton's development boom may be too much, too fast for some residents",
+      "summary": "The transformation of Tilton from a pocket-size mill town to a rapidly expanding hub for retail and housing has town officials sprinting.",
+      "url": "https://www.unionleader.com/news/business/tiltons-development-boom-may-be-too-much-too-fast-for-some-residents/article_b7b21509-19e5-4096-a346-77b5635c873c.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-09-25",
       "category": "news",
       "priority": "medium",
@@ -29872,15 +29872,15 @@
       ]
     },
     {
-      "id": "a45fcf1e997c",
-      "title": "Don\u2019t give up on politically challenging conversations | Judy Feinstein",
-      "summary": "So how do we bridge the gap and depoliticize our day-to-day living? How can we talk to and work with each other to ensure that everyone\u2019s basic needs are met?",
-      "url": "https://www.masslive.com/opinion/2026/09/dont-give-up-on-politically-challenging-conversations-judy-feinstein.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "52271a60999c",
+      "title": "Tilton volunteer shortage strains boards as growth accelerates",
+      "summary": "Tilton is a bustling Lakes Region town at the crossroads of Interstate 93 and Route 3. Its development has accelerated to a dizzying pace.",
+      "url": "https://www.unionleader.com/news/business/tilton-volunteer-shortage-strains-boards-as-growth-accelerates/article_58b42271-01ec-4d8a-807c-3a04d373f887.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-09-25",
       "category": "news",
-      "priority": "high",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -29942,34 +29942,6 @@
       ]
     },
     {
-      "id": "3a983de323de",
-      "title": "Report shows steady improvement in Long Island Sound water quality",
-      "summary": "From 2023 to 2025, water quality in Long Island Sound improved following wastewater treatment and infrastructure upgrades in CT and NY.",
-      "url": "https://ctmirror.org/2026/09/22/save-the-sound-report-long-island-sound-water-quality/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0fbd6f95a477",
-      "title": "Bridgeport\u2019s police union wants chief sidelined during probe",
-      "summary": "Mayor Joe Ganim has agreed to a probe, but the Bridgeport police union called on him to remove Chief Roderick Porter until it is done.",
-      "url": "https://ctmirror.org/2026/09/22/bridgeport-investigation-police-chief-roderick-porter-union/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-22",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "eddaaae94ffe",
       "title": "Common Man Roadside asks judge to reconsider I-95 Hampton liquor store bid ruling",
       "summary": "Common Man Roadside has asked a judge to reconsider an order denying a request to halt the state\u2019s bidding process to redevelop the two liquor stores on Interstate 95 in Hampton.",
@@ -29996,31 +29968,17 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "f7670920ff07",
-      "title": "Bill to require AM radio in automobiles passes House",
-      "summary": "Members of the House of Representatives passed legislation to require AM broadcast radio devices in all automobiles on Tuesday, a move to ensure than Americans have access to information during emergencies.",
-      "url": "https://www.unionleader.com/news/business/bill-to-require-am-radio-in-automobiles-passes-house/article_2fd518cd-a8e8-5bd3-82f5-8a863063761b.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-09-16",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 11727145810.03538,
       "raw_display": "$11.73B",
       "source": "scraper_v2",
-      "updated": "2026-09-25T15:41:24.936159",
+      "updated": "2026-09-26T14:46:51.752347",
       "v2_details": {
         "raw_total": "$12.73B",
         "weighted_total": "$6.52B",
@@ -30130,24 +30088,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-25T15:41:24.936159"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-09-26T14:46:51.752347"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-25T15:41:24.936159"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-26T14:46:51.752347"
     },
     "migration": {
       "score": 5.0,
@@ -30157,35 +30115,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-25T15:41:24.936159"
+      "updated": "2026-09-26T14:46:51.752347"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-25T15:41:24.936159"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-26T14:46:51.752347"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.38 | Diesel $6.52",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.38,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.52,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-25T15:41:24.936159"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-26T14:46:51.752347"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30194,19 +30152,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-25T15:41:24.936159"
+      "updated": "2026-09-26T14:46:51.752347"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-25T15:41:24.936159"
+    "calculated_at": "2026-09-26T14:46:51.752347"
   }
 }

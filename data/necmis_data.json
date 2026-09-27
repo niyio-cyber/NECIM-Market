@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26T14:49:02.740536Z",
+  "generated": "2026-09-27T15:25:01.378584Z",
   "summary": {
     "total_opportunities": 1166,
     "total_value_low": 10119560641,
@@ -8,10 +8,10 @@
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 43,
-      "NH": 7,
-      "ME": 171,
-      "MA": 600,
+      "VT": 42,
+      "NH": 6,
+      "ME": 172,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 341,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1166,
-      "news": 12,
+      "news": 10,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -24120,13 +24120,27 @@
   ],
   "news": [
     {
-      "id": "740b7c716fdf",
-      "title": "Friday\u2019s high school football: Falmouth sends Biddeford to first defeat",
-      "summary": "The Navigators pick up their second straight win, led by three touchdowns from Owen Ross.",
-      "url": "https://www.pressherald.com/2026/09/25/fridays-high-school-football-falmouth-sends-biddeford-to-first-defeat/",
+      "id": "424b3ef69285",
+      "title": "Maine\u2019s cyclists and walkers need to get with the program | Letter",
+      "summary": "Remember when AAA had school crossing guards and the local police departments came to our schools to drill into us the rules of the road?\u00a0Do we remember that, when bicycling, we were required to follow the same rules that cars do?\u00a0 Bicyclists are (or were) required to stop for red lights and stop si",
+      "url": "https://www.pressherald.com/2026/09/27/maines-cyclists-and-walkers-need-to-get-with-the-program-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "da61468fb066",
+      "title": "Division in America begins and ends with Trump | Letter",
+      "summary": "In Margaret Hight\u2019s Sept. 12 letter, \u201cPresident Trump is doing a great job,\u201d she decries the \u201cderogatory, hateful and disgusting words\u201d directed at Trump. She bemoans the division in the country caused by negativism, but then calls President Biden senile and Kamala Harris manipulative. Does she not",
+      "url": "https://www.pressherald.com/2026/09/27/division-in-america-begins-and-ends-with-trump-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-09-27",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24134,13 +24148,13 @@
       ]
     },
     {
-      "id": "e675e828dde4",
-      "title": "Southern Democrats see hope for first time in years, seek to build on discontent of midterm voters",
-      "summary": "DOTHAN, Ala. (AP) \u2014 People crowded shoulder to shoulder upstairs in a south Alabama coffee shop, in a region sometimes called the reddest in the heavily conservative state. They were there to hear Doug Jones, the Democratic nominee for governor and the last Democrat to hold statewide office in Alaba",
-      "url": "https://www.bangordailynews.com/2026/09/26/nation/southern-democrats-see-hope-for-first-time-in-years-seek-to-build-on-discontent-of-midterm-voters/",
+      "id": "e7d8bf55e383",
+      "title": "Supreme Court vote shadows Susan Collins in her first bid after abortion rights decision",
+      "summary": "Voters weigh U.S. Sen. Susan Collins' record against her Kavanaugh vote as Democrat Troy Jackson challenges her for a sixth term.",
+      "url": "https://www.bangordailynews.com/2026/09/27/nation/supreme-court-vote-shadows-maine-sen-susan-collins-in-her-first-bid-after-abortion-rights-decision/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24148,12 +24162,12 @@
       ]
     },
     {
-      "id": "a3b6af7e409a",
-      "title": "Roads flood in New Jersey, inundate some homes, as major signs of nor\u2019easter take shape",
-      "summary": "PROVIDENCE, R.I. (AP) \u2014 More than 70,000 customers were without electricity in the U.S. Northeast on Saturday, the effect of a powerful nor\u2019easter expected to create dangerous conditions through the weekend. Forecasters warned of gale winds that could down trees and heavy rain that could put roads u",
-      "url": "https://www.bangordailynews.com/2026/09/26/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape-2/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "d67fa95ae494",
+      "title": "State sues construction companies over illegal dredging operations on Lake Winnipesaukee",
+      "summary": "State officials have filed a lawsuit against construction companies accused of conducting illegal dredging and filling along the shoreline and lakebed of Lake Winnipesaukee, the Attorney General\u2019s Office announced Thursday.",
+      "url": "https://www.unionleader.com/news/business/state-sues-construction-companies-over-illegal-dredging-operations-on-lake-winnipesaukee/article_80cbdf03-d4cd-46c4-8911-e6d890beba6c.html",
+      "source": "Union Leader",
+      "state": "NH",
       "date": "2026-09-26",
       "category": "news",
       "priority": "medium",
@@ -24162,12 +24176,12 @@
       ]
     },
     {
-      "id": "f7af61de6ef3",
-      "title": "Data projections forecast tight score: What DraftKings bettors expect for Patriots vs. Jaguars",
-      "summary": "Can Drake Maye lead the Patriots to a road cover (+2.5) in Jacksonville? We break down final 24-21 score projections and DraftKings prop values.",
-      "url": "https://www.masslive.com/betting/2026/09/patriots-jaguars-draftkings-odds-model-projections-preview.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "420eae6fd1e2",
+      "title": "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways",
+      "summary": "NEW YORK (AP) \u2014 OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount. The decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents from the summer in which OpenAI agent",
+      "url": "https://www.bangordailynews.com/2026/09/26/nation/openai-pauses-training-of-latest-models-after-agents-probed-us-government-sites-in-unexpected-ways/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-09-26",
       "category": "news",
       "priority": "medium",
@@ -24218,48 +24232,6 @@
       ]
     },
     {
-      "id": "d67fa95ae494",
-      "title": "State sues construction companies over illegal dredging operations on Lake Winnipesaukee",
-      "summary": "State officials have filed a lawsuit against construction companies accused of conducting illegal dredging and filling along the shoreline and lakebed of Lake Winnipesaukee, the Attorney General\u2019s Office announced Thursday.",
-      "url": "https://www.unionleader.com/news/business/state-sues-construction-companies-over-illegal-dredging-operations-on-lake-winnipesaukee/article_80cbdf03-d4cd-46c4-8911-e6d890beba6c.html",
-      "source": "Union Leader",
-      "state": "NH",
-      "date": "2026-09-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1b933e4fc2e7",
-      "title": "Vermont Conversation: \u2018There was some justice.\u2019 Hisham Awartani on enduring and speaking out for Palestinian lives.",
-      "summary": "Awartani was gravely wounded in 2023 when he and two friends were shot by Jason Eaton. A Vermont jury delivered a measure of justice this week when it convicted Eaton of three counts of attempted second-degree murder.\nRead the story on VTDigger here:  Vermont Conversation: \u2018There was some justice.\u2019",
-      "url": "https://vtdigger.org/2026/09/23/vermont-conversation-there-was-some-justice-hisham-awartani-on-enduring-and-speaking-out-for-palestinian-lives/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
-      "id": "28e96992ed5c",
-      "title": "Box Truck Careens into River in Chain of Crashes Injuring Child Passenger on I-293",
-      "summary": "At 7:38 a.m. on\u00a0Wednesday, State Troopers assigned to the Troop B barracks responded to a report of a crash involving serious injuries and a box truck that broke through the guardrail on the bridge and fell into the Merrimack River on I-293 northbound in Manchester.\nThe post Box Truck Careens into R",
-      "url": "https://indepthnh.org/2026/09/23/box-truck-careens-into-river-in-chain-of-crashes-injuring-child-passenger-on-i-293/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-09-23",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "eddaaae94ffe",
       "title": "Common Man Roadside asks judge to reconsider I-95 Hampton liquor store bid ruling",
       "summary": "Common Man Roadside has asked a judge to reconsider an order denying a request to halt the state\u2019s bidding process to redevelop the two liquor stores on Interstate 95 in Hampton.",
@@ -24291,12 +24263,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-26T14:49:02.397536",
+      "updated": "2026-09-27T15:24:51.992136",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24406,24 +24378,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-26T14:49:02.397536"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-09-27T15:24:51.992136"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-26T14:49:02.397536"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-27T15:24:51.992136"
     },
     "migration": {
       "score": 5.0,
@@ -24433,35 +24405,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-26T14:49:02.397536"
+      "updated": "2026-09-27T15:24:51.992136"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-26T14:49:02.397536"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-27T15:24:51.992136"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.38 | Diesel $6.52",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.38,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.52,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-26T14:49:02.397536"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-27T15:24:51.992136"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24470,19 +24442,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-26T14:49:02.397536"
+      "updated": "2026-09-27T15:24:51.992136"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-26T14:49:02.397536"
+    "calculated_at": "2026-09-27T15:24:51.992136"
   }
 }

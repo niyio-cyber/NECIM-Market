@@ -1,25 +1,25 @@
 {
-  "generated": "2026-09-28T18:19:16.494061Z",
+  "generated": "2026-09-29T16:40:03.819484Z",
   "summary": {
-    "total_opportunities": 1166,
+    "total_opportunities": 1167,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 42,
-      "NH": 1,
+      "VT": 41,
+      "NH": 2,
       "ME": 169,
-      "MA": 600,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 343,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1166,
-      "news": 4,
+      "dot_letting": 1167,
+      "news": 3,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 696,
+          "count": 697,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 1,
+          "count": 2,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 1,
+            "count": 2,
             "value": 0
           },
           "Safety": {
@@ -16099,20 +16099,39 @@
       ]
     },
     {
-      "id": "2bd36bd2d6e8",
+      "id": "66b2bb7fa51a",
       "state": "NH",
       "project_id": null,
-      "description": "NHDOT Bid Schedule - Visit portal for current lettings",
+      "description": "Manchester Bids: 2600044 Manchester Water Works: RFB Timber Harvesting Services on Alvin Pingree/Cora Morse/Iron Axle WoodlotsQuestions: John O'Neil @ 603-496-5836 jmoneil@manchesternh.gov RFB BIDS DUE: 10/28/2026By 2",
       "cost_low": null,
       "cost_high": null,
-      "cost_display": "See Portal",
+      "cost_display": "See Bid Docs",
       "ad_date": null,
       "let_date": null,
-      "project_type": null,
-      "location": null,
+      "project_type": "Pavement",
+      "location": "Manchester Bids",
       "district": null,
-      "url": "https://www.dot.nh.gov/doing-business-nhdot/contractors/invitation-bid",
-      "source": "NHDOT",
+      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
+      "source": "Manchester Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4c77bb72489e",
+      "state": "NH",
+      "project_id": null,
+      "description": "Manchester Bids: 2600045 Manchester Water Works: Timber Harvesting Services on Leeds WoodlotQuestions: John O'Neil @ 603-496-5836 jmoneil@manchesternh.gov RFB BIDS DUE: 10/28/2026By 2:00PM ",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Manchester Bids",
+      "district": null,
+      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
+      "source": "Manchester Bids Municipal",
       "business_lines": [
         "highway"
       ]
@@ -24120,29 +24139,29 @@
   ],
   "news": [
     {
-      "id": "c5af75be5e34",
-      "title": "Propane explosion left Maine man with serious burns",
-      "summary": "His son, who lives across the road, heard the explosion and rushed over to help his father to safety before using a fire extinguisher to put out the flames.",
-      "url": "https://www.bangordailynews.com/2026/09/28/york/york-police-courts/limington-maine-east-sand-pond-house-fire-propane-explosion/",
-      "source": "Bangor Daily News",
+      "id": "7b410083118f",
+      "title": "What to know about Biddeford\u2019s newly opened elementary school expansion",
+      "summary": "Students from grades pre-K through second now learn under a single roof at the expanded Biddeford Primary School.",
+      "url": "https://www.pressherald.com/2026/09/29/what-to-know-about-biddefords-newly-opened-elementary-school-expansion/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "83591eccf1fe",
-      "title": "Al Roker suddenly leaves \u2018Today,\u2019 explains unexpected absence",
-      "summary": "Al Roker abruptly left the \u201cToday\u201d show mid-broadcast before later revealing the unexpected reason for his absence.",
-      "url": "https://www.masslive.com/entertainment/2026/09/al-roker-abruptly-leaves-today-mid-broadcast-later-reveals-why.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-09-28",
+      "id": "807e0ee7dddc",
+      "title": "Prosecution won\u2019t fix Bridgeport\u2019s voter turnout \u2014 but can begin to restore trust",
+      "summary": "Some Bridgeport residents have simply stopped believing in the integrity of the election process.",
+      "url": "https://ctmirror.org/2026/09/29/prosecution-wont-fix-bridgeports-voter-turnout-but-can-begin-to-restore-trust/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-29",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24160,20 +24179,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "b972ac81289b",
-      "title": "Its selectboard mired in controversy, Weston to hold special election",
-      "summary": "Weston selectboard resignations and complaints from residents may point to a broader trend in Vermont.\nRead the story on VTDigger here:  Its selectboard mired in controversy, Weston to hold special election.",
-      "url": "https://vtdigger.org/2026/09/24/its-selectboard-mired-in-controversy-weston-to-hold-special-election/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-09-24",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24184,7 +24189,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-28T18:19:15.620923",
+      "updated": "2026-09-29T16:39:45.298235",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24294,24 +24299,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-28T18:19:15.620923"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-09-29T16:39:45.298235"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-28T18:19:15.620923"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-29T16:39:45.298235"
     },
     "migration": {
       "score": 5.0,
@@ -24321,35 +24326,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-28T18:19:15.620923"
+      "updated": "2026-09-29T16:39:45.298235"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-28T18:19:15.620923"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-29T16:39:45.298235"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.37 | Diesel $6.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.37,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.51,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-28T18:19:15.620923"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-29T16:39:45.298235"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24358,19 +24363,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-28T18:19:15.620923"
+      "updated": "2026-09-29T16:39:45.298235"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-28T18:19:15.620923"
+    "calculated_at": "2026-09-29T16:39:45.298235"
   }
 }

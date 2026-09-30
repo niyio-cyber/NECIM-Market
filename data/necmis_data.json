@@ -1,25 +1,25 @@
 {
-  "generated": "2026-09-29T16:42:16.580328Z",
+  "generated": "2026-09-30T16:32:24.402935Z",
   "summary": {
-    "total_opportunities": 1167,
+    "total_opportunities": 1168,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 9195213974.333334,
     "forward_pipeline_display": "$9.2B",
     "pipeline_yoy_pct": -5.0,
     "by_state": {
-      "VT": 41,
-      "NH": 2,
-      "ME": 169,
+      "VT": 42,
+      "NH": 3,
+      "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 346,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1167,
-      "news": 3,
+      "dot_letting": 1168,
+      "news": 8,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 252,
+          "count": 253,
           "value": 5668046584
         },
         "Pavement": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 341,
+          "count": 342,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 2,
+            "count": 3,
             "value": 0
           },
           "Pavement": {
@@ -17189,6 +17189,26 @@
       ]
     },
     {
+      "id": "645eb261a353",
+      "state": "CT",
+      "project_id": "0138-0252",
+      "description": "REHABILITATION OF BRIDGE NO. 02150;  CARRYING ROUTE 15 OVER FREEMAN BROOK",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-10-28",
+      "fiscal_year": "FY2027",
+      "project_type": "Bridge",
+      "location": "ROUTE 15",
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "98b5e40a2344",
       "state": "CT",
       "project_id": "0150-0137",
@@ -24139,13 +24159,83 @@
   ],
   "news": [
     {
-      "id": "7b410083118f",
-      "title": "What to know about Biddeford\u2019s newly opened elementary school expansion",
-      "summary": "Students from grades pre-K through second now learn under a single roof at the expanded Biddeford Primary School.",
-      "url": "https://www.pressherald.com/2026/09/29/what-to-know-about-biddefords-newly-opened-elementary-school-expansion/",
+      "id": "87c9bffc7ffe",
+      "title": "Nettie Morse focuses on a future in pediatric occupational therapy",
+      "summary": "A founding member of VSAC GEAR UP Leads and a QuestBridge Junior College Prep Scholar, Nettie has been recognized for building opportunity for her peers. Now she's preparing her own college applications, with the goal of working with children.\nRead the story on VTDigger here:  Nettie Morse focuses",
+      "url": "https://vtdigger.org/2026/09/30/nettie-morse-focuses-on-a-future-in-pediatric-occupational-therapy/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-09-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b4360ed1ad65",
+      "title": "Author George Jreije wants to broaden horizons at Portland\u2019s Mechanics\u2019 Hall",
+      "summary": "The author, who started Tuesday as Mechanics' Hall's next writer-in-residence, wants to foster literacy, community and interest in genre fiction.",
+      "url": "https://www.pressherald.com/2026/09/30/author-george-jreije-wants-to-broaden-horizons-at-portlands-mechanics-hall/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a7a12e014c70",
+      "title": "Couple sued by lobster co-op over fraud scheme sells marina to pay off penalty",
+      "summary": "The sale closes a yearslong legal saga between the owners of the Trenton Bridge Lobster Pound\u00a0and Maine Lobstering Union Local 207.",
+      "url": "https://www.bangordailynews.com/2026/09/30/hancock/hancock-police-courts/pettegrow-lobster-207-lawsuit-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-09-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a0e400e636ce",
+      "title": "Committee Approves Hampton I-95 Liquor Store Project; Lawsuit By Losing Bidder Ongoing",
+      "summary": "Questions still linger regarding the future of a pending lawsuit over a bid to redevelop liquor stores in Hampton after the Long Range Capital Planning and Utilization Committee unanimously approved Dick Anagnost and Global Partners for the project on Monday at a special meeting.\nThe post Committee",
+      "url": "https://indepthnh.org/2026/09/29/committee-approves-hampton-i-95-liquor-store-project-lawsuit-by-losing-bidder-ongoing/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-09-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a17aca2d9f0f",
+      "title": "Bridgeport: Sit & Speak Listening Session",
+      "summary": "Community Engagement Reporter Reginald David is hosting a Sit & Speak on October 8, 2026, at the Burroughs Community Center.",
+      "url": "https://ctmirror.org/2026/09/30/bridgeport-sit-speak-listening-session-3/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-30",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b6f114d9b821",
+      "title": "Could MLK Corridor title help revitalize Bridgeport\u2019s East End?",
+      "summary": "The East End is one of seven CT areas designated as a Martin Luther King, Jr. Corridor, a program intended to stimulate economic development.",
+      "url": "https://ctmirror.org/2026/09/30/bridgeport-east-end-mlk-corridor/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-09-30",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24189,7 +24279,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-09-29T16:42:15.715756",
+      "updated": "2026-09-30T16:31:57.930513",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24299,24 +24389,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-29T16:42:15.715756"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-09-30T16:31:57.930513"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-29T16:42:15.715756"
+      "raw": 151508.0,
+      "raw_display": "$151.5B SAAR",
+      "yoy_change": 4.5,
+      "source": "FRED API",
+      "updated": "2026-09-30T16:31:57.930513"
     },
     "migration": {
       "score": 5.0,
@@ -24326,35 +24416,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-09-29T16:42:15.715756"
+      "updated": "2026-09-30T16:31:57.930513"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-09-29T16:42:15.715756"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-09-30T16:31:57.930513"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.37 | Diesel $6.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.37,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.51,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-09-29T16:42:15.715756"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-09-30T16:31:57.930513"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24363,19 +24453,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-09-29T16:42:15.715756"
+      "updated": "2026-09-30T16:31:57.930513"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-09-29T16:42:15.715756"
+    "calculated_at": "2026-09-30T16:31:57.930513"
   }
 }

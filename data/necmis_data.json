@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T16:24:07.291566Z",
+  "generated": "2026-10-02T16:26:13.954253Z",
   "summary": {
     "total_opportunities": 1167,
     "total_value_low": 10119560641,
@@ -24267,7 +24267,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-02T16:23:29.793192",
+      "updated": "2026-10-02T16:26:13.230420",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24377,24 +24377,24 @@
       }
     },
     "housing_permits": {
-      "score": 7.1,
-      "trend": "up",
-      "action": "Ready-mix expansion opportunity",
-      "raw": 8592.994176398728,
-      "raw_display": "8,593 units/mo",
-      "yoy_change": 10.7,
-      "source": "FRED API",
-      "updated": "2026-10-02T16:23:29.793192"
+      "score": 6.5,
+      "trend": "stable",
+      "action": "Monitor trends",
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-10-02T16:26:13.230420"
     },
     "construction_spending": {
-      "score": 5.7,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 152213.0,
-      "raw_display": "$152.2B SAAR",
-      "yoy_change": 4.6,
-      "source": "FRED API",
-      "updated": "2026-10-02T16:23:29.793192"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-10-02T16:26:13.230420"
     },
     "migration": {
       "score": 5.0,
@@ -24404,17 +24404,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-02T16:23:29.793192"
+      "updated": "2026-10-02T16:26:13.230420"
     },
     "construction_employment": {
-      "score": 4.9,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 1023599.9999999999,
-      "raw_display": "1024K workers",
-      "yoy_change": -0.2,
-      "source": "FRED API",
-      "updated": "2026-10-02T16:23:29.793192"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-10-02T16:26:13.230420"
     },
     "input_cost": {
       "score": 9.5,
@@ -24431,8 +24431,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-10-02T16:23:29.793192"
+      "source": "historical data",
+      "updated": "2026-10-02T16:26:13.230420"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24441,19 +24441,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-02T16:23:29.793192"
+      "updated": "2026-10-02T16:26:13.230420"
     },
-    "overall_score": 7.5,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-02T16:23:29.793192"
+    "calculated_at": "2026-10-02T16:26:13.230420"
   }
 }

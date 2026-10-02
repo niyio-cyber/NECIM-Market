@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-01T17:12:38.154396Z",
+  "generated": "2026-10-02T16:24:07.291566Z",
   "summary": {
-    "total_opportunities": 1166,
+    "total_opportunities": 1167,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 43,
       "NH": 3,
-      "ME": 169,
-      "MA": 600,
+      "ME": 173,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 343,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1166,
-      "news": 8,
-      "funding": 0
+      "news": 9,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24119,30 +24119,71 @@
   ],
   "news": [
     {
-      "id": "1bc1942ac194",
-      "title": "Decades-old fight over Down East gravel road is heading back to court",
-      "summary": "Judge considers a new trial after plaintiffs claim the original judge had an undisclosed tie to a key witness.",
-      "url": "https://www.bangordailynews.com/2026/10/01/down-east/downeast-police-courts/machiasport-maine-gravel-road-dispute-new-trial-motion/",
-      "source": "Bangor Daily News",
+      "id": "80e4e0a1a47e",
+      "title": "Susan Collins votes conscientiously and gets results | Letter",
+      "summary": "Sen. Susan Collins has taken years of criticism for her vote to confirm Justice Brett Kavanaugh. What her critics rarely mention is that she also voted to confirm Justices Sonia Sotomayor and Elena Kagan, nominated by President Obama, and Justice Ketanji Brown Jackson, nominated by President Biden.",
+      "url": "https://www.pressherald.com/2026/10/02/susan-collins-votes-conscientiously-and-gets-results-letter/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "category": "news",
-      "priority": "medium",
+      "priority": "high",
       "business_lines": [
-        "highway",
-        "aggregates"
+        "highway"
       ]
     },
     {
-      "id": "0dab4cb9b19a",
-      "title": "More Americans blame Trump for high prices than blamed Biden, new poll shows",
-      "summary": "Sixty-five percent of Americans said high prices are a result of Trump\u2019s policies, according to the latest AP-NORC Center for Public Affairs Research poll.",
-      "url": "https://www.masslive.com/politics/2026/10/more-americans-blame-trump-for-high-prices-than-blamed-biden-new-poll-shows.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-10-01",
+      "id": "e841a383bff4",
+      "title": "New ICE guidance bans high-speed car chases and sets tighter rules for traffic stops, a memo shows",
+      "summary": "The directive was issued after several drivers were shot by immigration agents, including a fatal encounter in Biddeford in July.",
+      "url": "https://www.pressherald.com/2026/10/02/new-ice-guidance-bans-high-speed-car-chases-and-sets-tighter-rules-for-traffic-stops-a-memo-shows/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-10-02",
       "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "31d3941899c8",
+      "title": "I-95 bridge construction will close Broadway lane next week",
+      "summary": "The lane closure will allow crews to complete necessary work under the new Interstate 95 bridge.",
+      "url": "https://www.bangordailynews.com/2026/10/02/bangor/bangor-government/bangor-maine-broadway-lane-closure-interstate-95-bridge-construction-october-6-9/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "c2053f4d6718",
+      "title": "Former Maine Capitol Police chief given chance to avoid most serious charges after bar fight",
+      "summary": "If he abides by the terms of the deal, which includes neither consuming nor possessing alcohol, and seeking substance use treatment and counseling, Matthew Clancy will avoid charges of assault and resisting arrest.",
+      "url": "https://www.bangordailynews.com/2026/10/02/central-maine/central-maine-police-courts/maine-capitol-police-chief-matthew-clancy-bar-fight-assault-deferred-disposition/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-02",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1a4a3a04cd2a",
+      "title": "Maine Coastal Program announces $299,057 in Habitat Restoration Planning Grants to communities",
+      "summary": "AUGUSTA \u2013 The Maine Office of Community Affairs\u2019 Maine Coastal Program awarded $299,057 to four municipalities and service providers for projects to develop habitat restoration plans in support of community resilience. Communities depend on healthy coastal habitats to buffer storm surge, maintain cl",
+      "url": "https://www.bangordailynews.com/2026/10/02/bdn-maine/maine-coastal-program-announces-299057-in-habitat-restoration-planning-grants-to-communities/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-02",
+      "category": "funding",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24216,20 +24257,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "807e0ee7dddc",
-      "title": "Prosecution won\u2019t fix Bridgeport\u2019s voter turnout \u2014 but can begin to restore trust",
-      "summary": "Some Bridgeport residents have simply stopped believing in the integrity of the election process.",
-      "url": "https://ctmirror.org/2026/09/29/prosecution-wont-fix-bridgeports-voter-turnout-but-can-begin-to-restore-trust/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-29",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24240,7 +24267,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-01T17:12:37.278552",
+      "updated": "2026-10-02T16:23:29.793192",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24350,24 +24377,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-01T17:12:37.278552"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-10-02T16:23:29.793192"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-01T17:12:37.278552"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-02T16:23:29.793192"
     },
     "migration": {
       "score": 5.0,
@@ -24377,17 +24404,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-01T17:12:37.278552"
+      "updated": "2026-10-02T16:23:29.793192"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-01T17:12:37.278552"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-10-02T16:23:29.793192"
     },
     "input_cost": {
       "score": 9.5,
@@ -24404,8 +24431,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-01T17:12:37.278552"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-02T16:23:29.793192"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24414,19 +24441,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-01T17:12:37.278552"
+      "updated": "2026-10-02T16:23:29.793192"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-01T17:12:37.278552"
+    "calculated_at": "2026-10-02T16:23:29.793192"
   }
 }

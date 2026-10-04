@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-03T14:59:55.337738Z",
+  "generated": "2026-10-04T15:31:45.346020Z",
   "summary": {
-    "total_opportunities": 1167,
+    "total_opportunities": 1166,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -10,8 +10,8 @@
     "by_state": {
       "VT": 42,
       "NH": 2,
-      "ME": 177,
-      "MA": 600,
+      "ME": 170,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
       "CT": 342,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1166,
-      "news": 12,
-      "funding": 1
+      "news": 5,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24119,153 +24119,41 @@
   ],
   "news": [
     {
-      "id": "7ec43f21dc89",
-      "title": "Family of man shot by ICE agent in Biddeford wants transparency, accountability",
-      "summary": "Johan Sebasti\u00e1n Dur\u00e1n Guerrero's widow and sister said they want people to know he was a good man, 'just working for his family.'",
-      "url": "https://www.pressherald.com/2026/10/03/family-of-man-shot-by-ice-agent-in-biddeford-wants-transparency-accountability/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a800c843b490",
-      "title": "Portland must be thoughtful about solutions to addiction | Letter",
-      "summary": "I\u2019m a Portland counselor who has worked in addiction treatment for 13 years, writing in response to Leslie Bridgers\u2019 recent column (\u201cAggressive behavior by \u2018addicts\u2019 is testing Portland\u2019s values,\u201d Sept. 26). Forcing people into treatment is neither \u201ccommon sense\u201d nor \u201cpractical.\u201d We\u2019ve also been doi",
-      "url": "https://www.pressherald.com/2026/10/03/portland-must-be-thoughtful-about-solutions-to-addiction-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "03b9caf16e53",
-      "title": "Obituary: Ruth E. Bridges",
-      "summary": "SCARBOROUGH - Ruth E. Bridges, 81, passed away peacefully on Sept. 26, 2026, at the Enclave, where she was cared for ...",
-      "url": "https://www.pressherald.com/2026/10/03/obituaryruth-e-bridges-3/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c681ae1cb1cd",
-      "title": "Death Notice: Ruth E. Bridges",
-      "summary": "Bridges, Ruth E. 81, in Scarborough, Sept. 26. Visit 4-6 p.m., Oct. 6, Conroy-Tully Walker Cremation, Funeral, and Gathering Center, Portland. ...",
-      "url": "https://www.pressherald.com/2026/10/03/obituaryruth-e-bridges-2/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "45a6b4d15187",
-      "title": "Death Notice: Ruth E. Bridges",
-      "summary": "Bridges, Ruth E. 81, in Scarborough, Sept. 26. Visit 4-6 p.m., Oct. 6, Conroy-Tully Walker Cremation, Funeral, and Gathering Center, Portland. ...",
-      "url": "https://www.pressherald.com/2026/10/03/obituaryruth-e-bridges/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "673e60c418bb",
-      "title": "Friday\u2019s high school football: Biddeford rebounds, takes down Westbrook",
-      "summary": "The Tigers bounce back from their first loss of the season, led by three touchdowns from Estevao Lembissa.",
-      "url": "https://www.pressherald.com/2026/10/02/fridays-high-school-football-biddeford-rebounds-takes-down-westbrook/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "972b341120cd",
-      "title": "Maine Historic Preservation Commission receives federal grant",
-      "summary": "The Maine Historic Preservation Commission (Commission) is pleased to announce that it has received a grant award of $877,873 from the National Park Service for the 2026 federal fiscal year. These funds are appropriated from the Historic Preservation Fund by Public Laws 118-83 and 119-4 and are used",
-      "url": "https://www.bangordailynews.com/2026/10/03/bdn-maine/maine-historic-preservation-commission-receives-federal-grant/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6809eb8533cd",
-      "title": "Meet the air traffic controller who flies himself to work",
-      "summary": "PUEBLO, Colo. (AP) \u2014 Jake Hutzler spends his workdays directing planes from an airport tower. Once a week, he gets there by strapping a propeller to his back and taking to the skies of Colorado. Before his commute, the 28-year-old air traffic controller lays out a large wing on the road outside his",
-      "url": "https://www.bangordailynews.com/2026/10/03/nation/meet-the-air-traffic-controller-who-flies-himself-to-work/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "be28f4a1bf4d",
-      "title": "How the Smithsonian is using AI to connect artifacts from the American Revolution",
-      "summary": "WASHINGTON (AP) \u2014 The distance in the march from the American Revolution to the age of artificial intelligence is almost beyond comprehension. But leaders of the Smithsonian Institution are using AI to bridge the divide. As the United States celebrates its 250th anniversary of independence, Smithson",
-      "url": "https://www.bangordailynews.com/2026/10/03/nation/how-the-smithsonian-is-using-ai-to-connect-artifacts-from-the-american-revolution/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "43a7015f2981",
-      "title": "20 people dead in road crash in Nigeria\u2019s Plateau state",
-      "summary": "Four vehicles were involved in the accident.",
-      "url": "https://www.masslive.com/news/2026/10/20-people-dead-in-road-crash-in-nigerias-plateau-state.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-10-03",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "ade7c3a819ac",
-      "title": "Putney affordable housing project opens after clearing court battles",
-      "summary": "The price tag for the apartment complex ballooned by nearly 50% over the course of its development, including two years of legal disputes involving neighbors.\nRead the story on VTDigger here:  Putney affordable housing project opens after clearing court battles.",
-      "url": "https://vtdigger.org/2026/09/30/putney-affordable-housing-project-opens-after-clearing-court-battles/",
+      "id": "1e6eb0696bd1",
+      "title": "An Essex County officials\u2019 parking fight puts taxpayers in a tight spot",
+      "summary": "Essex County\u2019s sheriff and assistant judges are negotiating over justice center construction that could cost taxpayers more \u2014 whether work stops or continues.\nRead the story on VTDigger here:  An Essex County officials\u2019 parking fight puts taxpayers in a tight spot.",
+      "url": "https://vtdigger.org/2026/10/04/an-essex-county-officials-parking-fight-puts-taxpayers-in-a-tight-spot/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-09-30",
+      "date": "2026-10-04",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "9642cdd935e6",
+      "title": "A Black community in Louisiana faces a future without a champion in Congress after redistricting",
+      "summary": "SCOTLANDVILLE, La. (AP) \u2014 If you cross the Mississippi River on the Huey P. Long-O.K. Allen Bridge, pass the Exxon Refinery, then head north for a few minutes, you\u2019ll find a pocket of Louisiana that\u2019s unlike any other place in America\u2019s never-ending battle over what it means to have equal representa",
+      "url": "https://www.bangordailynews.com/2026/10/04/nation/a-black-community-in-louisiana-faces-a-future-without-a-champion-in-congress-after-redistricting/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-04",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0ccdb72f0128",
+      "title": "Caribou City Council candidate wants to lower taxes and support those who struggle",
+      "summary": "New to municipal government, Jeff Whitney wants to lower taxes, keep skilled people local and be a voice for the overlooked.",
+      "url": "https://www.bangordailynews.com/2026/10/04/aroostook/aroostook-government/caribou-city-council-candidate-jeff-whitney-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-04",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24304,12 +24192,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-03T14:59:54.777897",
+      "updated": "2026-10-04T15:31:30.141073",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24419,24 +24307,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-03T14:59:54.777897"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-10-04T15:31:30.141073"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-03T14:59:54.777897"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-04T15:31:30.141073"
     },
     "migration": {
       "score": 5.0,
@@ -24446,35 +24334,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-03T14:59:54.777897"
+      "updated": "2026-10-04T15:31:30.141073"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-03T14:59:54.777897"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-10-04T15:31:30.141073"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.37 | Diesel $6.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.37,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.51,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-03T14:59:54.777897"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-04T15:31:30.141073"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24483,19 +24371,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-03T14:59:54.777897"
+      "updated": "2026-10-04T15:31:30.141073"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-03T14:59:54.777897"
+    "calculated_at": "2026-10-04T15:31:30.141073"
   }
 }

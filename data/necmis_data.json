@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T15:35:33.576268Z",
+  "generated": "2026-10-05T19:24:53.083405Z",
   "summary": {
     "total_opportunities": 1166,
     "total_value_low": 10119560641,
@@ -10,11 +10,11 @@
     "by_state": {
       "VT": 42,
       "NH": 2,
-      "ME": 170,
+      "ME": 172,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 342,
+      "CT": 340,
       "PA": 8
     },
     "by_category": {
@@ -24119,6 +24119,62 @@
   ],
   "news": [
     {
+      "id": "2b92e1a4fbb5",
+      "title": "Matt Dunlap is the man for Congress | Letter",
+      "summary": "This is a letter supporting Matt Dunlap for Congress in Maine\u2019s 2nd Congressional District. As governor, Paul LePage vetoed more than 600 bills, including Medicaid expansion and a number of housing and infrastructure bills. Back then, he did not have concern for the citizens of this state and there",
+      "url": "https://www.pressherald.com/2026/10/05/matt-dunlap-is-the-man-for-congress-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-10-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4e80403db84e",
+      "title": "Recovery changed Biddeford-area resident\u2019s life, now she helps others | County Report",
+      "summary": "York County Recover Center expected to open in early 2027.",
+      "url": "https://www.pressherald.com/2026/10/05/recovery-changed-biddeford-area-residents-life-now-she-helps-others-county-report/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-10-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "6274ffcb8fb1",
+      "title": "Portland band Small Pond creates a lush indie sound",
+      "summary": "See them live this week in Portland and at the All Roads Music Festival in Belfast on Oct. 17.",
+      "url": "https://www.pressherald.com/2026/10/05/portland-band-small-pond-creates-a-lush-indie-sound/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-10-05",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f14ab4a7c676",
+      "title": "Former housemate of Biddeford ICE shooting victim tries to rebuild while struggling with loss",
+      "summary": "Like his friend Johan Sebastian Duran Guerrero, Jhonathan Ramirez came to Maine because he heard it was quiet and safe.",
+      "url": "https://www.bangordailynews.com/2026/10/05/york/york-police-courts/biddeford-maine-ice-shooting-duran-guerrero-housemate/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-05",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "1e6eb0696bd1",
       "title": "An Essex County officials\u2019 parking fight puts taxpayers in a tight spot",
       "summary": "Essex County\u2019s sheriff and assistant judges are negotiating over justice center construction that could cost taxpayers more \u2014 whether work stops or continues.\nRead the story on VTDigger here:  An Essex County officials\u2019 parking fight puts taxpayers in a tight spot.",
@@ -24128,62 +24184,6 @@
       "date": "2026-10-04",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9642cdd935e6",
-      "title": "A Black community in Louisiana faces a future without a champion in Congress after redistricting",
-      "summary": "SCOTLANDVILLE, La. (AP) \u2014 If you cross the Mississippi River on the Huey P. Long-O.K. Allen Bridge, pass the Exxon Refinery, then head north for a few minutes, you\u2019ll find a pocket of Louisiana that\u2019s unlike any other place in America\u2019s never-ending battle over what it means to have equal representa",
-      "url": "https://www.bangordailynews.com/2026/10/04/nation/a-black-community-in-louisiana-faces-a-future-without-a-champion-in-congress-after-redistricting/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-04",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0ccdb72f0128",
-      "title": "Caribou City Council candidate wants to lower taxes and support those who struggle",
-      "summary": "New to municipal government, Jeff Whitney wants to lower taxes, keep skilled people local and be a voice for the overlooked.",
-      "url": "https://www.bangordailynews.com/2026/10/04/aroostook/aroostook-government/caribou-city-council-candidate-jeff-whitney-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-04",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a17aca2d9f0f",
-      "title": "Bridgeport: Sit & Speak Listening Session",
-      "summary": "Community Engagement Reporter Reginald David is hosting a Sit & Speak on October 8, 2026, at the Burroughs Community Center.",
-      "url": "https://ctmirror.org/2026/09/30/bridgeport-sit-speak-listening-session-3/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-30",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b6f114d9b821",
-      "title": "Could MLK Corridor title help revitalize Bridgeport\u2019s East End?",
-      "summary": "The East End is one of seven CT areas designated as a Martin Luther King, Jr. Corridor, a program intended to stimulate economic development.",
-      "url": "https://ctmirror.org/2026/09/30/bridgeport-east-end-mlk-corridor/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-09-30",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24197,7 +24197,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-04T15:35:32.925979",
+      "updated": "2026-10-05T19:24:40.593461",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24307,24 +24307,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-04T15:35:32.925979"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-10-05T19:24:40.593461"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-04T15:35:32.925979"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-05T19:24:40.593461"
     },
     "migration": {
       "score": 5.0,
@@ -24334,35 +24334,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-04T15:35:32.925979"
+      "updated": "2026-10-05T19:24:40.593461"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-04T15:35:32.925979"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-10-05T19:24:40.593461"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.5,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.37 | Diesel $6.51",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.37,
+        "score": 7.0,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.51,
+        "score": 5.7,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-04T15:35:32.925979"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-05T19:24:40.593461"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24371,19 +24371,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-04T15:35:32.925979"
+      "updated": "2026-10-05T19:24:40.593461"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-04T15:35:32.925979"
+    "calculated_at": "2026-10-05T19:24:40.593461"
   }
 }

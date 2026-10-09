@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-08T17:40:00.274970Z",
+  "generated": "2026-10-09T17:13:37.058517Z",
   "summary": {
-    "total_opportunities": 1167,
+    "total_opportunities": 1172,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -9,17 +9,17 @@
     "pipeline_yoy_pct": -39.9,
     "by_state": {
       "VT": 43,
-      "NH": 2,
-      "ME": 175,
+      "NH": 7,
+      "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1165,
-      "news": 9,
+      "dot_letting": 1170,
+      "news": 5,
       "funding": 2
     },
     "pipeline_analysis": {
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 696,
+          "count": 701,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 2,
+          "count": 7,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 2,
+            "count": 7,
             "value": 0
           },
           "Safety": {
@@ -16099,6 +16099,101 @@
       ]
     },
     {
+      "id": "9916cc285bb7",
+      "state": "NH",
+      "project_id": "RFP0589-111326This",
+      "description": "Nashua Bids: Administrative Services1 BidComprehensive Firefighter Occupational Health Evaluations & Early Detection Cancer ScreeningsBid No.RFP0589-111326This Request for Proposal (RFP) invites proposals from qua",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "ec2d93caac66",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: Rotary Pool Replacement ConstructionBid No.IFB0897-110426The City of Nashua is seeking Bids from qualified firms for the replacement of the existing Rotary Pool in Nashua, New Hampshire. Work includes",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "ec2d93caac66",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: Rotary Pool Replacement ConstructionBid No.IFB0897-110426The City of Nashua is seeking Bids from qualified firms for the replacement of the existing Rotary Pool in Nashua, New Hampshire. Work includes",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "ec2d93caac66",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: Rotary Pool Replacement ConstructionBid No.IFB0897-110426The City of Nashua is seeking Bids from qualified firms for the replacement of the existing Rotary Pool in Nashua, New Hampshire. Work includes",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "ec2d93caac66",
+      "state": "NH",
+      "project_id": null,
+      "description": "Nashua Bids: Rotary Pool Replacement ConstructionBid No.IFB0897-110426The City of Nashua is seeking Bids from qualified firms for the replacement of the existing Rotary Pool in Nashua, New Hampshire. Work includes",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Nashua Bids",
+      "district": null,
+      "url": "https://www.nashuanh.gov/Bids.aspx",
+      "source": "Nashua Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
       "id": "66b2bb7fa51a",
       "state": "NH",
       "project_id": null,
@@ -24099,27 +24194,13 @@
   ],
   "news": [
     {
-      "id": "036e737136c8",
-      "title": "People in addiction often fear law enforcement. In Biddeford, they met on a softball field.",
-      "summary": "The game, which has become an annual tradition, is meant to break down stigma on both sides.",
-      "url": "https://www.pressherald.com/2026/10/08/people-in-addiction-often-fear-law-enforcement-in-biddeford-they-met-on-a-softball-field/",
+      "id": "0ce3ec4acd33",
+      "title": "Biddeford looks to mitigate rising complaints of needle waste, public encampments",
+      "summary": "City and nonprofit leaders hope a collaborative pilot program could make a positive impact for residents and homeless people.",
+      "url": "https://www.pressherald.com/2026/10/09/biddeford-looks-to-mitigate-rising-complaints-of-needle-waste-public-encampments/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-10-08",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "a8b3656067a9",
-      "title": "Remembering a beloved family farm dog",
-      "summary": "Bonnie protected her family against a rabid fox, a 490-boar and a raging river.",
-      "url": "https://www.pressherald.com/2026/10/08/remembering-a-beloved-family-farm-dog/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "category": "news",
       "priority": "high",
       "business_lines": [
@@ -24127,41 +24208,13 @@
       ]
     },
     {
-      "id": "a4328c5b81b7",
-      "title": "UNE gets green light from Biddeford for pier project, Decary Hall renovations",
-      "summary": "The city has lifted a moratorium to allow the 2 projects to proceed and extended the university's permit to construct the pier along the Saco River.",
-      "url": "https://www.pressherald.com/2026/10/08/une-gets-green-light-from-biddeford-for-pier-project-decary-hall-renovations/",
+      "id": "834b42727ec0",
+      "title": "Yarmouth breaks ground on 18 affordable housing units behind town hall",
+      "summary": "The development on Cleaves Street is the first affordable housing project built since the town set a goal of 431 new affordable units in 2024.",
+      "url": "https://www.pressherald.com/2026/10/09/yarmouth-breaks-ground-on-18-affordable-housing-units-behind-town-hall/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-10-08",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1873e9f86e62",
-      "title": "Musical weekend lined up at Cadenza in Freeport",
-      "summary": "Organist Jordan Gravel, and bands Onward and the Potboilers are performing Friday, Saturday and Sunday, Oct. 9-11.",
-      "url": "https://www.pressherald.com/2026/10/08/musical-weekend-lined-up-at-cadenza-in-freeport/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-08",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
-      "id": "8cea4fc2e4b1",
-      "title": "MDI summer residents complain about construction noise",
-      "summary": "Most of those complaints focused around Seal Harbor, where there were multiple projects.",
-      "url": "https://www.bangordailynews.com/2026/10/08/hancock/hancock-government/seal-harbor-maine-mdi-summer-resident-construction-noise-complaints/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24169,29 +24222,15 @@
       ]
     },
     {
-      "id": "ac1759ec62e3",
-      "title": "National report underscores how UMaine Cooperative Extension is tackling the state\u2019s workforce challenges",
-      "summary": "Maine faces an urgent challenge: growing its skilled workforce by tens of thousands of people over the next several years. According to the state\u2019s 10-year Economic Development Strategy, this will require flexible ways for adults to build on what they already know, develop new skills and continue le",
-      "url": "https://www.bangordailynews.com/2026/10/08/bdn-maine/national-report-underscores-how-umaine-cooperative-extension-is-tackling-the-states-workforce-challenges/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-08",
+      "id": "41835839cbc7",
+      "title": "Which CT towns are the most walkable?",
+      "summary": "Compared to other cities and towns around the U.S., several CT municipalities were more walkable than most, according to 2025 data.",
+      "url": "https://ctmirror.org/2026/10/09/which-ct-towns-are-the-most-walkable/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-10-09",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
-      "id": "520f3989f1f4",
-      "title": "Man pleads not guilty in attack that left woman dying along Maine highway",
-      "summary": "Glen Rodney, 58, faces a murder charge\u00a0in the death of 21-year-old Julian Nadeau of Portland.",
-      "url": "https://www.bangordailynews.com/2026/10/08/portland/portland-police-courts/portland-maine-tukeys-bridge-stabbing-glen-rodney-not-guilty-plea/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-08",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24261,7 +24300,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-08T17:39:59.926056",
+      "updated": "2026-10-09T17:13:26.903367",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24371,24 +24410,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-08T17:39:59.926056"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-10-09T17:13:26.903367"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-08T17:39:59.926056"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-09T17:13:26.903367"
     },
     "migration": {
       "score": 5.0,
@@ -24398,35 +24437,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-08T17:39:59.926056"
+      "updated": "2026-10-09T17:13:26.903367"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-08T17:39:59.926056"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-10-09T17:13:26.903367"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.34 | Diesel $6.48",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.34,
+        "score": 7.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.48,
+        "score": 5.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-08T17:39:59.926056"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-09T17:13:26.903367"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24435,19 +24474,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-08T17:39:59.926056"
+      "updated": "2026-10-09T17:13:26.903367"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-08T17:39:59.926056"
+    "calculated_at": "2026-10-09T17:13:26.903367"
   }
 }

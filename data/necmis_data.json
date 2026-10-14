@@ -1,26 +1,26 @@
 {
-  "generated": "2026-10-13T17:52:28.231954Z",
+  "generated": "2026-10-14T15:34:40.353781Z",
   "summary": {
-    "total_opportunities": 1170,
+    "total_opportunities": 1172,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
     "forward_pipeline_display": "$5.8B",
     "pipeline_yoy_pct": -39.9,
     "by_state": {
-      "VT": 41,
+      "VT": 43,
       "NH": 9,
-      "ME": 175,
-      "MA": 599,
+      "ME": 169,
+      "MA": 601,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 342,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1170,
-      "news": 11,
-      "funding": 0
+      "news": 8,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24194,13 +24194,27 @@
   ],
   "news": [
     {
-      "id": "a3a476805701",
-      "title": "Hegseth goes lower and lower still | Letter",
-      "summary": "Malvina Reynolds\u2019 folk song \u201cThere\u2019s a Bottom Below\u201d came to mind when\u00a0Defense Secretary Pete Hegseth announced that TV would broadcast an execution by firing squad. When we think President Trump and Hegseth can go no lower,\u00a0they go even lower.\u00a0 Peg CruikshankScarborough",
-      "url": "https://www.pressherald.com/2026/10/13/hegseth-goes-lower-and-lower-still-letter/",
+      "id": "daf5762cb413",
+      "title": "Sheriff King deserves to be reelected in York County | Letter",
+      "summary": "Sheriff Bill King\u2019s depth of experience in municipal, federal and county law enforcement are unparalleled in Maine. His expertise has been demonstrated by the many improvements at the sheriff\u2019s office since his initial election in 2014. The York County Sheriff\u2019s Office was the first sheriff\u2019s office",
+      "url": "https://www.pressherald.com/2026/10/14/sheriff-king-deserves-to-be-reelected-in-york-county-letter/",
       "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "7db989e82796",
+      "title": "Winter weather advisory issued for 4 states; 12-14 inches of snow possible",
+      "summary": "\u201cEarly season snowfall on roadways may pose a significant risk to under-prepared travelers.\u201d",
+      "url": "https://www.masslive.com/news/2026/10/winter-weather-advisory-issued-for-4-states-12-14-inches-of-snow-possible.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-10-14",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24208,40 +24222,26 @@
       ]
     },
     {
-      "id": "60f8f985954b",
-      "title": "Two dead in Penobscot County I-95 crash",
-      "summary": "Authorities say the head-on collision occurred at a construction zone in Medway.",
-      "url": "https://www.pressherald.com/2026/10/13/two-dead-in-penobscot-county-i-95-crash-police-say/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "b16d1d784c53",
-      "title": "Here\u2019s what\u2019s on the municipal ballot in Saco and Biddeford",
-      "summary": "Saco residents will vote in 3 City Council races this fall.",
-      "url": "https://www.pressherald.com/2026/10/13/heres-whats-on-the-municipal-ballot-in-saco-and-biddeford/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-10-13",
-      "category": "news",
+      "id": "1bc7ef213db8",
+      "title": "Holyoke community development administrator to step down after 27 years",
+      "summary": "Alicia Zoeller, who helped oversee millions in federal funding for housing, infrastructure and community projects, plans to leave her post in January.",
+      "url": "https://www.masslive.com/westernmass/2026/10/holyoke-community-development-administrator-to-step-down-after-27-years.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-10-14",
+      "category": "funding",
       "priority": "high",
       "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "804b9a3926b5",
-      "title": "Washington County sheriff investigating death near Grand Lake Stream",
-      "summary": "The body was found off Amazon Road late Tuesday morning.",
-      "url": "https://www.bangordailynews.com/2026/10/13/down-east/downeast-police-courts/grand-lake-stream-maine-death-investigation/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "aab4a764f312",
+      "title": "Essex County parking saga comes to a close",
+      "summary": "Judge dismisses the Essex County sheriff\u2019s appeal against an ongoing parking lot construction project.\nRead the story on VTDigger here:  Essex County parking saga comes to a close.",
+      "url": "https://vtdigger.org/2026/10/13/essex-parking-saga-comes-to-a-close/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-10-13",
       "category": "news",
       "priority": "medium",
@@ -24250,45 +24250,17 @@
       ]
     },
     {
-      "id": "ad025f3a7693",
-      "title": "Man stopped his truck and walked into road where another driver hit him in Palermo",
-      "summary": "The man He was taken to Eastern Maine Medical Center, where he was being treated for life-threatening injuries.",
-      "url": "https://www.bangordailynews.com/2026/10/13/midcoast/midcoast-police-courts/palermo-maine-route-3-pedestrian-crash/",
-      "source": "Bangor Daily News",
-      "state": "ME",
+      "id": "f46bb9ad7126",
+      "title": "UVM Health watchdog turns its sights to Vermont\u2019s broader healthcare system",
+      "summary": "Regulators can put pressure on a narrow slice of Vermont\u2019s healthcare costs, but in their last report, independent liaisons open a conversation of how Vermont can reduce costs more evenly across the healthcare sector.\nRead the story on VTDigger here:  UVM Health watchdog turns its sights to Vermont",
+      "url": "https://vtdigger.org/2026/10/13/uvm-health-watchdog-turns-its-sights-to-vermonts-broader-healthcare-system/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-10-13",
       "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
-      ]
-    },
-    {
-      "id": "4471c4fa61c1",
-      "title": "2 killed in wrong-way collision on I-95 in Medway",
-      "summary": "Luis Mendoza, 20, was speeding south through a construction zone on the northbound side of I-95 when he collided with another vehicle, killing himself and the other driver.",
-      "url": "https://www.bangordailynews.com/2026/10/13/penobscot/penobscot-police-courts/medway-maine-interstate-95-wrong-way-collision-fatal-luis-mendoza/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "0356472f5515",
-      "title": "Greenville driveway dispute drags neighbors into a years-long legal battle",
-      "summary": "The dispute escalated to one homeowner blocking portions of the driveway with a 6-foot concrete wall to restrict their neighbors\u2019 access.",
-      "url": "https://www.bangordailynews.com/2026/10/13/business/business-housing/greenville-maine-driveway-dispute-joam40zk0w/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-10-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "ready_mix"
       ]
     },
     {
@@ -24298,6 +24270,20 @@
       "url": "https://indepthnh.org/2026/10/12/still-time-for-a-road-trip/",
       "source": "InDepthNH",
       "state": "NH",
+      "date": "2026-10-13",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "5f8289006cf1",
+      "title": "Trump administration seeks to rescind approval for Revolution Wind",
+      "summary": "The move is the latest effort by the Department of Interior to halt the development of offshore wind projects.",
+      "url": "https://ctmirror.org/2026/10/13/trump-administration-seeks-to-rescind-approval-for-revolution-wind/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-10-13",
       "category": "news",
       "priority": "medium",
@@ -24356,7 +24342,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-13T17:52:27.263905",
+      "updated": "2026-10-14T15:34:10.566218",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24466,24 +24452,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-13T17:52:27.263905"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-10-14T15:34:10.566218"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-13T17:52:27.263905"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-14T15:34:10.566218"
     },
     "migration": {
       "score": 5.0,
@@ -24493,35 +24479,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-13T17:52:27.263905"
+      "updated": "2026-10-14T15:34:10.566218"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-13T17:52:27.263905"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-10-14T15:34:10.566218"
     },
     "input_cost": {
-      "score": 9.5,
+      "score": 8.3,
       "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.18 | Diesel $6.44",
       "gasoline": {
         "price": 3.18,
         "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.44,
+        "score": 5.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-13T17:52:27.263905"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-14T15:34:10.566218"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24530,19 +24516,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-13T17:52:27.263905"
+      "updated": "2026-10-14T15:34:10.566218"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.4,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-13T17:52:27.263905"
+    "calculated_at": "2026-10-14T15:34:10.566218"
   }
 }

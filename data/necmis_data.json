@@ -1,26 +1,26 @@
 {
-  "generated": "2026-10-16T15:04:33.226816Z",
+  "generated": "2026-10-17T13:59:32.623070Z",
   "summary": {
-    "total_opportunities": 1002,
+    "total_opportunities": 1003,
     "total_value_low": 9508800641,
     "total_value_high": 13892371073,
     "forward_pipeline": 5815634470.0,
     "forward_pipeline_display": "$5.8B",
     "pipeline_yoy_pct": -38.8,
     "by_state": {
-      "VT": 44,
+      "VT": 42,
       "NH": 10,
-      "ME": 2,
+      "ME": 3,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 339,
+      "CT": 338,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1002,
-      "news": 8,
-      "funding": 0
+      "news": 5,
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -20979,14 +20979,28 @@
   ],
   "news": [
     {
-      "id": "f263ace78e94",
-      "title": "The shocking amount 10 people paid to hunt moose in Maine",
-      "summary": "Maine auctions 10 permits annually, giving hunters another way to obtain one beyond the state\u2019s public lottery.",
-      "url": "https://www.bangordailynews.com/2026/10/16/outdoors/hunting/shocking-amount-paid-to-hunt-moose-in-maine-joam40zk0w/",
+      "id": "1af475dc5db1",
+      "title": "How a driver, a dad and a teacher tried to stop the Oregon school shooter",
+      "summary": "BEND, Ore. (AP) \u2014 In the middle of an October day, a 16-year-old boy tossed a shotgun over a low chain-link fence. Then he climbed over it himself. There was a playground and a broad grass field leading to an elementary school he once attended. Inside were hundreds of children, including a handful a",
+      "url": "https://www.bangordailynews.com/2026/10/17/nation/how-a-driver-a-dad-and-a-teacher-tried-to-stop-the-oregon-school-shooter/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-17",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "1c0e5024a3fc",
+      "title": "Public comment period on federal permit for proposed Eastport data center ends Monday",
+      "summary": "As the federal deadline arrives, opponents gather signatures for a revised petition giving residents final vote on large industrial projects.",
+      "url": "https://www.bangordailynews.com/2026/10/16/down-east/downeast-government/public-comment-period-eastport-data-center/",
       "source": "Bangor Daily News",
       "state": "ME",
       "date": "2026-10-16",
-      "category": "news",
+      "category": "funding",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -21048,48 +21062,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "aab4a764f312",
-      "title": "Essex County parking saga comes to a close",
-      "summary": "Judge dismisses the Essex County sheriff\u2019s appeal against an ongoing parking lot construction project.\nRead the story on VTDigger here:  Essex County parking saga comes to a close.",
-      "url": "https://vtdigger.org/2026/10/13/essex-parking-saga-comes-to-a-close/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-10-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f46bb9ad7126",
-      "title": "UVM Health watchdog turns its sights to Vermont\u2019s broader healthcare system",
-      "summary": "Regulators can put pressure on a narrow slice of Vermont\u2019s healthcare costs, but in their last report, independent liaisons open a conversation of how Vermont can reduce costs more evenly across the healthcare sector.\nRead the story on VTDigger here:  UVM Health watchdog turns its sights to Vermont",
-      "url": "https://vtdigger.org/2026/10/13/uvm-health-watchdog-turns-its-sights-to-vermonts-broader-healthcare-system/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-10-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5f8289006cf1",
-      "title": "Trump administration seeks to rescind approval for Revolution Wind",
-      "summary": "The move is the latest effort by the Department of Interior to halt the development of offshore wind projects.",
-      "url": "https://ctmirror.org/2026/10/13/trump-administration-seeks-to-rescind-approval-for-revolution-wind/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-10-13",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -21100,7 +21072,7 @@
       "raw": 9984732358.31964,
       "raw_display": "$9.98B",
       "source": "scraper_v2",
-      "updated": "2026-10-16T15:04:32.708640",
+      "updated": "2026-10-17T13:58:50.769223",
       "v2_details": {
         "raw_total": "$9.51B",
         "weighted_total": "$4.86B",
@@ -21210,24 +21182,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
-      "trend": "stable",
-      "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-16T15:04:32.708640"
+      "score": 7.1,
+      "trend": "up",
+      "action": "Ready-mix expansion opportunity",
+      "raw": 8592.994176398728,
+      "raw_display": "8,593 units/mo",
+      "yoy_change": 10.7,
+      "source": "FRED API",
+      "updated": "2026-10-17T13:58:50.769223"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-16T15:04:32.708640"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-17T13:58:50.769223"
     },
     "migration": {
       "score": 5.0,
@@ -21237,17 +21209,17 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-16T15:04:32.708640"
+      "updated": "2026-10-17T13:58:50.769223"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 4.9,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-16T15:04:32.708640"
+      "raw": 1023599.9999999999,
+      "raw_display": "1024K workers",
+      "yoy_change": -0.2,
+      "source": "FRED API",
+      "updated": "2026-10-17T13:58:50.769223"
     },
     "input_cost": {
       "score": 9.5,
@@ -21264,8 +21236,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-16T15:04:32.708640"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-17T13:58:50.769223"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -21274,19 +21246,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-16T15:04:32.708640"
+      "updated": "2026-10-17T13:58:50.769223"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.5,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-16T15:04:32.708640"
+    "calculated_at": "2026-10-17T13:58:50.769223"
   }
 }

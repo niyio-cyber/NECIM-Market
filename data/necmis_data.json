@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-17T13:59:32.623070Z",
+  "generated": "2026-10-18T14:11:27.891099Z",
   "summary": {
-    "total_opportunities": 1003,
+    "total_opportunities": 1002,
     "total_value_low": 9508800641,
     "total_value_high": 13892371073,
     "forward_pipeline": 5815634470.0,
@@ -9,8 +9,8 @@
     "pipeline_yoy_pct": -38.8,
     "by_state": {
       "VT": 42,
-      "NH": 10,
-      "ME": 3,
+      "NH": 11,
+      "ME": 4,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -19,8 +19,8 @@
     },
     "by_category": {
       "dot_letting": 1002,
-      "news": 5,
-      "funding": 1
+      "news": 8,
+      "funding": 0
     },
     "pipeline_analysis": {
       "project_types": [
@@ -20979,13 +20979,27 @@
   ],
   "news": [
     {
-      "id": "1af475dc5db1",
-      "title": "How a driver, a dad and a teacher tried to stop the Oregon school shooter",
-      "summary": "BEND, Ore. (AP) \u2014 In the middle of an October day, a 16-year-old boy tossed a shotgun over a low chain-link fence. Then he climbed over it himself. There was a playground and a broad grass field leading to an elementary school he once attended. Inside were hundreds of children, including a handful a",
-      "url": "https://www.bangordailynews.com/2026/10/17/nation/how-a-driver-a-dad-and-a-teacher-tried-to-stop-the-oregon-school-shooter/",
+      "id": "aeed8f3e0287",
+      "title": "Driver seriously injured in Maine Turnpike crash near Falmouth",
+      "summary": "The driver of a Hyundai Elantra reportedly lost control of the vehicle, striking multiple guardrails before becoming disabled in the middle of the highway.",
+      "url": "https://www.bangordailynews.com/2026/10/18/portland/portland-police-courts/devon-thomas-seriously-injured-turnpike-crash-falmouth/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-10-17",
+      "date": "2026-10-18",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "7951b1d193fd",
+      "title": "Racist, Antisemitic Vandalism Hits Manchester, Again",
+      "summary": "So far, police have identified 15 incidents in three areas: Candia Road, Gabrielle Street, and South Beech Street, according to a Manchester police news release.\nThe post Racist, Antisemitic Vandalism Hits Manchester, Again appeared first on InDepthNH.org.",
+      "url": "https://indepthnh.org/2026/10/17/racist-antisemitic-vandalism-hits-manchester-again/",
+      "source": "InDepthNH",
+      "state": "NH",
+      "date": "2026-10-18",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -20993,14 +21007,28 @@
       ]
     },
     {
-      "id": "1c0e5024a3fc",
-      "title": "Public comment period on federal permit for proposed Eastport data center ends Monday",
-      "summary": "As the federal deadline arrives, opponents gather signatures for a revised petition giving residents final vote on large industrial projects.",
-      "url": "https://www.bangordailynews.com/2026/10/16/down-east/downeast-government/public-comment-period-eastport-data-center/",
+      "id": "e4044f413bfb",
+      "title": "Husson, UNE pick up football victories",
+      "summary": "Husson University of Bangor and Biddeford\u2019s University of New England picked up small college football wins on Saturday. Husson beat New England College 42-0 for its second straight win and UNE dealt Castine\u2019s Maine Maritime Academy its 38th straight loss, 62-14. The state\u2019s other three NCAA Divisio",
+      "url": "https://www.bangordailynews.com/2026/10/17/sports/college-football/husson-une-pick-up-football-victories/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-10-16",
-      "category": "funding",
+      "date": "2026-10-17",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e5d1075a81c3",
+      "title": "Man shot, killed on subway platform in midtown Manhattan",
+      "summary": "NEW YORK (AP) \u2014 An argument on a subway platform in midtown Manhattan turned deadly Saturday, leaving one man fatally shot and train service disrupted. The shooting happened around 12:20 p.m. at the station at 7th Avenue and 53rd Street, a short walk from several Broadway theaters and Carnegie Hall.",
+      "url": "https://www.bangordailynews.com/2026/10/17/nation/man-shot-killed-on-subway-platform-in-midtown-manhattan/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-10-17",
+      "category": "news",
       "priority": "medium",
       "business_lines": [
         "highway"
@@ -21072,7 +21100,7 @@
       "raw": 9984732358.31964,
       "raw_display": "$9.98B",
       "source": "scraper_v2",
-      "updated": "2026-10-17T13:58:50.769223",
+      "updated": "2026-10-18T14:11:06.595459",
       "v2_details": {
         "raw_total": "$9.51B",
         "weighted_total": "$4.86B",
@@ -21189,7 +21217,7 @@
       "raw_display": "8,593 units/mo",
       "yoy_change": 10.7,
       "source": "FRED API",
-      "updated": "2026-10-17T13:58:50.769223"
+      "updated": "2026-10-18T14:11:06.595459"
     },
     "construction_spending": {
       "score": 5.7,
@@ -21199,7 +21227,7 @@
       "raw_display": "$152.2B SAAR",
       "yoy_change": 4.6,
       "source": "FRED API",
-      "updated": "2026-10-17T13:58:50.769223"
+      "updated": "2026-10-18T14:11:06.595459"
     },
     "migration": {
       "score": 5.0,
@@ -21209,7 +21237,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-17T13:58:50.769223"
+      "updated": "2026-10-18T14:11:06.595459"
     },
     "construction_employment": {
       "score": 4.9,
@@ -21219,25 +21247,25 @@
       "raw_display": "1024K workers",
       "yoy_change": -0.2,
       "source": "FRED API",
-      "updated": "2026-10-17T13:58:50.769223"
+      "updated": "2026-10-18T14:11:06.595459"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.6,
+      "trend": "down",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.29 | Diesel $6.44",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.29,
+        "score": 7.2,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.44,
+        "score": 5.8,
         "weight": "40%"
       },
       "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-10-17T13:58:50.769223"
+      "updated": "2026-10-18T14:11:06.595459"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -21246,9 +21274,9 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-17T13:58:50.769223"
+      "updated": "2026-10-18T14:11:06.595459"
     },
-    "overall_score": 7.5,
+    "overall_score": 7.2,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
@@ -21259,6 +21287,6 @@
       "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-17T13:58:50.769223"
+    "calculated_at": "2026-10-18T14:11:06.595459"
   }
 }

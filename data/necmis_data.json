@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T15:41:29.210080Z",
+  "generated": "2026-10-21T15:45:50.650360Z",
   "summary": {
     "total_opportunities": 1169,
     "total_value_low": 10119560641,
@@ -24275,12 +24275,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-21T15:40:55.980969",
+      "updated": "2026-10-21T15:45:49.698747",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24397,7 +24397,7 @@
       "raw_display": "15,000 units/mo",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-10-21T15:40:55.980969"
+      "updated": "2026-10-21T15:45:49.698747"
     },
     "construction_spending": {
       "score": 5.0,
@@ -24407,7 +24407,7 @@
       "raw_display": "$143.0B SAAR",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-10-21T15:40:55.980969"
+      "updated": "2026-10-21T15:45:49.698747"
     },
     "migration": {
       "score": 5.0,
@@ -24417,7 +24417,7 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-21T15:40:55.980969"
+      "updated": "2026-10-21T15:45:49.698747"
     },
     "construction_employment": {
       "score": 5.0,
@@ -24427,7 +24427,7 @@
       "raw_display": "875K workers",
       "yoy_change": 0.0,
       "source": "fallback",
-      "updated": "2026-10-21T15:40:55.980969"
+      "updated": "2026-10-21T15:45:49.698747"
     },
     "input_cost": {
       "score": 9.5,
@@ -24444,8 +24444,8 @@
         "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-10-21T15:40:55.980969"
+      "source": "historical data",
+      "updated": "2026-10-21T15:45:49.698747"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24454,7 +24454,7 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-21T15:40:55.980969"
+      "updated": "2026-10-21T15:45:49.698747"
     },
     "overall_score": 7.3,
     "overall_status": "stable",
@@ -24464,9 +24464,9 @@
       "construction_spending": "fallback",
       "migration": "Census API",
       "construction_employment": "fallback",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-21T15:40:55.980969"
+    "calculated_at": "2026-10-21T15:45:49.698747"
   }
 }

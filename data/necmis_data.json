@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-28T16:54:45.672000Z",
+  "generated": "2026-10-29T17:07:03.412030Z",
   "summary": {
-    "total_opportunities": 1170,
+    "total_opportunities": 1169,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -14,11 +14,11 @@
       "MA": 600,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 340,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1169,
+      "dot_letting": 1168,
       "news": 8,
       "funding": 1
     },
@@ -38,7 +38,7 @@
       ],
       "by_type": {
         "Bridge": {
-          "count": 252,
+          "count": 251,
           "value": 5668046584
         },
         "Pavement": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 338,
+          "count": 337,
           "value": 0
         },
         "PA": {
@@ -261,7 +261,7 @@
         },
         "CT": {
           "Bridge": {
-            "count": 2,
+            "count": 1,
             "value": 0
           },
           "Pavement": {
@@ -17264,26 +17264,6 @@
       ]
     },
     {
-      "id": "645eb261a353",
-      "state": "CT",
-      "project_id": "0138-0252",
-      "description": "REHABILITATION OF BRIDGE NO. 02150;  CARRYING ROUTE 15 OVER FREEMAN BROOK",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": "2026-10-28",
-      "fiscal_year": "FY2027",
-      "project_type": "Bridge",
-      "location": "ROUTE 15",
-      "district": null,
-      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
-      "source": "CTDOT Q&A",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "1e2881998d9a",
       "state": "CT",
       "project_id": "PROJECT",
@@ -24174,26 +24154,68 @@
   ],
   "news": [
     {
-      "id": "5176cabfc7ee",
-      "title": "This Maine man dresses \u2018The Masked Singer\u2019",
-      "summary": "Luke D'Alessandro, who grew up in Biddeford, won an Emmy for his work as a costume designer on the Fox show. He's also worked in film and theater.",
-      "url": "https://www.pressherald.com/2026/10/28/this-maine-man-dresses-the-masked-singer/",
+      "id": "6119ef95d2d0",
+      "title": "Lewiston-Auburn Boys & Girls Club chapter hit by more cuts in grant funding",
+      "summary": "The Boys & Girls Club of Southern Maine lost 50% of a federal grant it relies on to fund its after-school programming.",
+      "url": "https://www.pressherald.com/2026/10/29/lewiston-auburn-boys-girls-club-chapter-hit-by-more-cuts-in-grant-funding/",
       "source": "Portland Press Herald",
       "state": "ME",
+      "date": "2026-10-29",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "001b3aef5cf4",
+      "title": "Authorities ID motorcyclist who died after crash along Northampton roadside",
+      "summary": "A 21-year-old Florence man died Sunday after his motorcycle struck a cluster of trees on the side of the road.",
+      "url": "https://www.masslive.com/westernmass/2026/10/authorities-identify-motorcyclist-who-died-after-crashing-into-trees-along-northampton-roadside.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-10-29",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "94baf17d6753",
+      "title": "Voter voices: At the Cambridge dump, unease about Vermont\u2019s future",
+      "summary": "Benton Donlevy wants to buy a house, but \u201cthere\u2019s a lot of factors making that pretty difficult right now,\u201d the 25-year-old from Jeffersonville said.\nRead the story on VTDigger here:  Voter voices: At the Cambridge dump, unease about Vermont\u2019s future.",
+      "url": "https://vtdigger.org/2026/10/28/voter-voices-at-the-cambridge-dump-unease-about-vermonts-future/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-10-28",
       "category": "news",
       "priority": "high",
       "business_lines": [
-        "aggregates"
+        "highway"
       ]
     },
     {
-      "id": "7e12e1cc0dad",
-      "title": "Governor calls deadly tornado in Turkey a very unusual natural phenomenon",
-      "summary": "A rare tornado struck a construction site in Antalya, Turkey, killing four workers staying in shipping containers. The governor called it \u201ca very unusual natural phenomenon\u201d ahead of the city\u2019s COP31 climate summit.",
-      "url": "https://www.masslive.com/news/2026/10/what-we-know-about-the-rare-tornado-that-killed-4-workers-in-turkey.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "b29f425b35c1",
+      "title": "Vermont Conversation: Bill McKibben sees a nation at a crossroads as he barnstorms battleground states",
+      "summary": "\"We tell ourselves that this is the richest country on Earth,\" said the author and environmental activist. \"But man, for the most part in this country, there are a lot of people just barely getting by.\"\nRead the story on VTDigger here:  Vermont Conversation: Bill McKibben sees a nation at a crossro",
+      "url": "https://vtdigger.org/2026/10/28/vermont-conversation-bill-mckibben-sees-a-nation-at-a-crossroads-as-he-barnstorms-battleground-states/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-10-28",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "2e660978fb27",
+      "title": "New Naugatuck apartments a \u2018blueprint\u2019 for transit-oriented development",
+      "summary": "Officials say the project is part of a transit oriented plan to revitalize downtown Naugatuck to make the town more inclusive and connected.",
+      "url": "https://ctmirror.org/2026/10/28/new-naugatuck-apartments-a-blueprint-for-transit-oriented-development/",
+      "source": "CT Mirror",
+      "state": "CT",
       "date": "2026-10-28",
       "category": "news",
       "priority": "medium",
@@ -24256,48 +24278,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "3642ac934aa6",
-      "title": "Voter voices from the Upper Valley",
-      "summary": "A Saturday snapshot from the Norwich Farmers\u2019 Market just over two weeks ahead of Election Day shows some former Scott voters growing skeptical about the governor\u2019s bid for reelection.\nRead the story on VTDigger here:  Voter voices from the Upper Valley.",
-      "url": "https://vtdigger.org/2026/10/26/voter-voices-from-the-upper-valley/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-10-26",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "fb1bd41a969d",
-      "title": "Supporters raise offer for Rice Memorial High in hopes of spurring court approval of sale",
-      "summary": "A nonprofit aiming to save the South Burlington parochial school campus from potential Chapter 11 liquidation has increased its bid to $5.9 million.\nRead the story on VTDigger here:  Supporters raise offer for Rice Memorial High in hopes of spurring court approval of sale.",
-      "url": "https://vtdigger.org/2026/10/26/supporters-raise-offer-for-rice-memorial-high-in-hopes-of-spurring-court-approval-of-sale/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-10-26",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "6b92fd2ee37f",
-      "title": "Are AI data centers coming to CT towns? Backlash and anxieties rise",
-      "summary": "Efforts to enact moratoriums and complete bans on data center development have outpaced actual proposals for new facilities in Connecticut.",
-      "url": "https://ctmirror.org/2026/10/25/data-centers-artificial-intelligence-ct/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-10-25",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24308,7 +24288,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-28T16:54:44.746146",
+      "updated": "2026-10-29T17:06:50.233080",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24418,24 +24398,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-28T16:54:44.746146"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-10-29T17:06:50.233080"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.7,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-28T16:54:44.746146"
+      "raw": 152213.0,
+      "raw_display": "$152.2B SAAR",
+      "yoy_change": 4.6,
+      "source": "FRED API",
+      "updated": "2026-10-29T17:06:50.233080"
     },
     "migration": {
       "score": 5.0,
@@ -24445,35 +24425,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-28T16:54:44.746146"
+      "updated": "2026-10-29T17:06:50.233080"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-10-28T16:54:44.746146"
+      "raw": 1018499.9999999999,
+      "raw_display": "1018K workers",
+      "yoy_change": 0.4,
+      "source": "FRED API",
+      "updated": "2026-10-29T17:06:50.233080"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.7,
+      "trend": "up",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.20 | Diesel $6.42",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.2,
+        "score": 7.4,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.42,
+        "score": 5.8,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-10-28T16:54:44.746146"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-10-29T17:06:50.233080"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24482,19 +24462,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-28T16:54:44.746146"
+      "updated": "2026-10-29T17:06:50.233080"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.9,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-28T16:54:44.746146"
+    "calculated_at": "2026-10-29T17:06:50.233080"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T16:50:52.931040Z",
+  "generated": "2026-10-30T16:53:45.299215Z",
   "summary": {
     "total_opportunities": 1169,
     "total_value_low": 10119560641,
@@ -11,7 +11,7 @@
       "VT": 44,
       "NH": 8,
       "ME": 171,
-      "MA": 599,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 339,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1168,
-      "news": 8,
+      "news": 9,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -24196,6 +24196,20 @@
       ]
     },
     {
+      "id": "2bdd38596c61",
+      "title": "Lee football remains perfect after defeating Ware",
+      "summary": "The Lee football team posted its third straight 8-0 regular season with the road win.",
+      "url": "https://www.masslive.com/highschoolsports/2026/10/lee-football-remains-perfect-after-defeating-ware.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-10-30",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "94baf17d6753",
       "title": "Voter voices: At the Cambridge dump, unease about Vermont\u2019s future",
       "summary": "Benton Donlevy wants to buy a house, but \u201cthere\u2019s a lot of factors making that pretty difficult right now,\u201d the 25-year-old from Jeffersonville said.\nRead the story on VTDigger here:  Voter voices: At the Cambridge dump, unease about Vermont\u2019s future.",
@@ -24288,7 +24302,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-10-30T16:50:38.117329",
+      "updated": "2026-10-30T16:53:44.391367",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24398,24 +24412,24 @@
       }
     },
     "housing_permits": {
-      "score": 5.2,
+      "score": 6.5,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 9628.118442378296,
-      "raw_display": "9,628 units/mo",
-      "yoy_change": 1.1,
-      "source": "FRED API",
-      "updated": "2026-10-30T16:50:38.117329"
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-10-30T16:53:44.391367"
     },
     "construction_spending": {
-      "score": 5.7,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 152213.0,
-      "raw_display": "$152.2B SAAR",
-      "yoy_change": 4.6,
-      "source": "FRED API",
-      "updated": "2026-10-30T16:50:38.117329"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-10-30T16:53:44.391367"
     },
     "migration": {
       "score": 5.0,
@@ -24425,35 +24439,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-10-30T16:50:38.117329"
+      "updated": "2026-10-30T16:53:44.391367"
     },
     "construction_employment": {
-      "score": 5.1,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 1018499.9999999999,
-      "raw_display": "1018K workers",
-      "yoy_change": 0.4,
-      "source": "FRED API",
-      "updated": "2026-10-30T16:50:38.117329"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-10-30T16:53:44.391367"
     },
     "input_cost": {
-      "score": 6.7,
-      "trend": "up",
-      "action": "Hedge 6 months",
-      "raw_display": "Gas $4.20 | Diesel $6.42",
+      "score": 9.5,
+      "trend": "stable",
+      "action": "Lock contracts",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 4.2,
-        "score": 7.4,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 6.42,
-        "score": 5.8,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-10-30T16:50:38.117329"
+      "source": "historical data",
+      "updated": "2026-10-30T16:53:44.391367"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24462,19 +24476,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-10-30T16:50:38.117329"
+      "updated": "2026-10-30T16:53:44.391367"
     },
-    "overall_score": 6.9,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-10-30T16:50:38.117329"
+    "calculated_at": "2026-10-30T16:53:44.391367"
   }
 }

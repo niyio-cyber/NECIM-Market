@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-02T20:34:57.739660Z",
+  "generated": "2026-11-03T18:06:35.730363Z",
   "summary": {
-    "total_opportunities": 1171,
+    "total_opportunities": 1170,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 45,
       "NH": 9,
-      "ME": 171,
+      "ME": 173,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 339,
+      "CT": 338,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1168,
-      "news": 8,
-      "funding": 3
+      "news": 10,
+      "funding": 2
     },
     "pipeline_analysis": {
       "project_types": [
@@ -24154,6 +24154,76 @@
   ],
   "news": [
     {
+      "id": "6f2789a66d31",
+      "title": "For lease: Build-to-suit commercial space in Saco\u2019s growing Cascade Falls community",
+      "summary": "Rate available upon request | 991 Portland Road, Saco",
+      "url": "https://www.pressherald.com/2026/11/03/for-lease-build-to-suit-commercial-space-in-sacos-growing-cascade-falls-community/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-03",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0ed6a8dc5883",
+      "title": "Could Biddeford\u2019s harbormaster halt UNE\u2019s pier project? Here\u2019s what you should know.",
+      "summary": "Harbormaster Paul Lariviere has said he will not approve the project, but the city's attorney says his approval has effectively already been given.",
+      "url": "https://www.pressherald.com/2026/11/03/could-biddefords-harbormaster-halt-unes-pier-project-heres-what-you-should-know/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-03",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "41d4ad9b7351",
+      "title": "Buying American has drawbacks for builders | Letter",
+      "summary": "Portland is part of the broader U.S. housing crisis, and Sen. Angus King recently introduced the Build American Efficiency Act in the U.S. Senate to cut the red tape developers must navigate. While this act could streamline development, it also has drawbacks that would harm the communities that need",
+      "url": "https://www.pressherald.com/2026/11/03/buying-american-has-drawbacks-for-builders-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-03",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "207d81ef5f2b",
+      "title": "Senior volunteer programs are an antidote to isolation | Letter",
+      "summary": "These opportunities for friendship, routine and civic action support participants' emotional and physical well-being.",
+      "url": "https://www.pressherald.com/2026/11/03/senior-volunteer-programs-are-an-antidote-to-isolation-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-03",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "356d1007a904",
+      "title": "Sidewalk outside Collins\u2019 Biddeford office\u00a0vandalized",
+      "summary": "Staffers found the sidewalk in front of Collins' Biddeford office covered in red paint, with the words \"blood on her hands\" painted nearby.",
+      "url": "https://www.bangordailynews.com/2026/11/03/politics/sidewalk-outside-collins-biddeford-office-vandalized/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-11-03",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "734c447a8104",
       "title": "Vermont has assigned its $195 million in federal rural health dollars. Here\u2019s where it\u2019s going.",
       "summary": "The largest sums of money are directed toward hospital infrastructure upgrades and funds to facilitate hospital redesign.  \nRead the story on VTDigger here:  Vermont has assigned its $195 million in federal rural health dollars. Here\u2019s where it\u2019s going..",
@@ -24182,48 +24252,6 @@
       ]
     },
     {
-      "id": "921c901a7320",
-      "title": "Learn what\u2019s on your local Maine ballot",
-      "summary": "Voters across the state will cast ballots in municipal and school elections on Nov. 3.",
-      "url": "https://www.pressherald.com/2026/11/02/learn-whats-on-your-local-maine-ballot/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-02",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "c47d9d101e15",
-      "title": "ICE officer accused of hitting immigrant in Houston with an SUV turns himself in",
-      "summary": "A U.S. Immigration and Customs Enforcement officer who is accused of intentionally ramming his car into a Mexican construction worker in Houston turned himself in Monday, his attorney said. Mario Alberto Morales made his first court appearance on a felony charge of aggravated assault with a deadly w",
-      "url": "https://www.bangordailynews.com/2026/11/02/nation/ice-officer-accused-of-hitting-immigrant-in-houston-with-an-suv-turns-himself-in/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-02",
-      "category": "funding",
-      "priority": "medium",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "963ff3312595",
-      "title": "Lindsay Clancy returns to court in a bid to dismiss charges she killed her three young children",
-      "summary": "PLYMOUTH, Mass. (AP) \u2014 Lindsay Clancy returns to court Monday in a bid to dismiss the charges that she murdered her three young children. The hearing Monday is the second time the Massachusetts mother has been in court since her trial ended with a deadlocked jury in September after jurors were unabl",
-      "url": "https://www.bangordailynews.com/2026/11/02/nation/lindsay-clancy-returns-to-court-in-a-bid-to-dismiss-charges-she-killed-her-three-young-children/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-02",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "d30d646cd2ac",
       "title": "U.S. DOJ to send election monitors to New Haven Tuesday",
       "summary": "New Haven is the only CT municipality the DOJ plans on sending election monitors to Tuesday, according to a Sec. of the State spokesperson.",
@@ -24244,20 +24272,6 @@
       "url": "https://vtdigger.org/2026/11/01/opinion-data-centers-need-guardrails-now/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-11-01",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "f6f26ebe05ee",
-      "title": "Your most dangerous drive home",
-      "summary": "With the end of Daylight Savings Time comes earlier darkness -- and increasing danger -- on the streets and roads.",
-      "url": "https://ctmirror.org/2026/11/01/your-most-dangerous-drive-home/",
-      "source": "CT Mirror",
-      "state": "CT",
       "date": "2026-11-01",
       "category": "news",
       "priority": "medium",
@@ -24316,7 +24330,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-02T20:34:57.230552",
+      "updated": "2026-11-03T18:06:21.406019",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24426,24 +24440,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-02T20:34:57.230552"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-11-03T18:06:21.406019"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-02T20:34:57.230552"
+      "raw": 150941.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 3.9,
+      "source": "FRED API",
+      "updated": "2026-11-03T18:06:21.406019"
     },
     "migration": {
       "score": 5.0,
@@ -24453,35 +24467,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-02T20:34:57.230552"
+      "updated": "2026-11-03T18:06:21.406019"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-02T20:34:57.230552"
+      "raw": 1018499.9999999999,
+      "raw_display": "1018K workers",
+      "yoy_change": 0.4,
+      "source": "FRED API",
+      "updated": "2026-11-03T18:06:21.406019"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "up",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.14 | Diesel $6.42",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.14,
+        "score": 7.5,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.42,
+        "score": 5.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-11-02T20:34:57.230552"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-11-03T18:06:21.406019"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24490,19 +24504,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-02T20:34:57.230552"
+      "updated": "2026-11-03T18:06:21.406019"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.9,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-02T20:34:57.230552"
+    "calculated_at": "2026-11-03T18:06:21.406019"
   }
 }

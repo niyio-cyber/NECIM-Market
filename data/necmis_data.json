@@ -1,25 +1,25 @@
 {
-  "generated": "2026-11-06T17:45:28.182218Z",
+  "generated": "2026-11-07T16:39:58.693850Z",
   "summary": {
-    "total_opportunities": 1163,
+    "total_opportunities": 1168,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
     "forward_pipeline_display": "$5.8B",
     "pipeline_yoy_pct": -39.9,
     "by_state": {
-      "VT": 43,
-      "NH": 3,
-      "ME": 169,
+      "VT": 44,
+      "NH": 7,
+      "ME": 175,
       "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 338,
+      "CT": 340,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1163,
-      "news": 5,
+      "dot_letting": 1168,
+      "news": 13,
       "funding": 0
     },
     "pipeline_analysis": {
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 696,
+          "count": 701,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 2,
+          "count": 7,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 2,
+            "count": 7,
             "value": 0
           },
           "Safety": {
@@ -16137,6 +16137,101 @@
       ]
     },
     {
+      "id": "995f7754c91d",
+      "state": "NH",
+      "project_id": "RFP 13-27",
+      "description": "Concord Bids: Contractor Services1 BidRFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Constru",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Concord Bids",
+      "district": null,
+      "url": "https://www.concordnh.gov/Bids.aspx",
+      "source": "Concord Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "995f7754c91d",
+      "state": "NH",
+      "project_id": "RFP 13-27",
+      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Concord Bids",
+      "district": null,
+      "url": "https://www.concordnh.gov/Bids.aspx",
+      "source": "Concord Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "995f7754c91d",
+      "state": "NH",
+      "project_id": "RFP 13-27",
+      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Concord Bids",
+      "district": null,
+      "url": "https://www.concordnh.gov/Bids.aspx",
+      "source": "Concord Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "995f7754c91d",
+      "state": "NH",
+      "project_id": "RFP 13-27",
+      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Concord Bids",
+      "district": null,
+      "url": "https://www.concordnh.gov/Bids.aspx",
+      "source": "Concord Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
+      "id": "995f7754c91d",
+      "state": "NH",
+      "project_id": "RFP 13-27",
+      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": null,
+      "project_type": "Pavement",
+      "location": "Concord Bids",
+      "district": null,
+      "url": "https://www.concordnh.gov/Bids.aspx",
+      "source": "Concord Bids Municipal",
+      "business_lines": [
+        "ready_mix"
+      ]
+    },
+    {
       "id": "ff6cc90f9923",
       "state": "VT",
       "source": "VTrans",
@@ -24059,18 +24154,157 @@
   ],
   "news": [
     {
-      "id": "a5e829c3c0d3",
-      "title": "Stanton celebrates 10-year anniversary with Broadreach Public Relations",
-      "summary": "Milestone recognizes Stanton\u2019s decade of leadership, growth and impact at the Portland communications firm PORTLAND \u2013 Broadreach Public Relations, a woman-owned strategic communications firm located in Portland, is recognizing Paula Stanton as she celebrates 10 years with the firm. Stanton joined Br",
-      "url": "https://www.bangordailynews.com/2026/11/06/bdn-maine/stanton-celebrates-10-year-anniversary-with-broadreach-public-relations/",
-      "source": "Bangor Daily News",
+      "id": "1e06bb5aab02",
+      "title": "Uplifting sign at Red Barn in Augusta leads to misconception over political message",
+      "summary": "Red Barn owner Trever Benedict said the positive roadside sign he posted Wednesday was unrelated to the election, but received heavy backlash from people who thought otherwise.",
+      "url": "https://www.pressherald.com/2026/11/07/uplifting-sign-at-red-barn-in-augusta-leads-to-misconception-over-political-message/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "highway",
-        "aggregates"
+        "highway"
+      ]
+    },
+    {
+      "id": "80130aa550fa",
+      "title": "Maine should be rallying behind clean energy permitting reform | Letter",
+      "summary": "I was disappointed to see Attorney General Aaron Frey sign a letter to Senate leadership (Oct. 21) opposing the Bipartisan American Affordability and Jobs Act (BAAJA). Mainers pay some of the highest electricity rates in the country, driven largely by our dependence on out-of-state fossil fuels, par",
+      "url": "https://www.pressherald.com/2026/11/07/maine-should-be-rallying-behind-clean-energy-permitting-reform-letter/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "dd35100b2df2",
+      "title": "Obituary: Daniel J. MacGillivary",
+      "summary": "GEORGETOWN - Daniel J. MacGillivary of Old Schoolhouse Road, died Monday Oct. 26, 2026 after a short visit at Maine Health ...",
+      "url": "https://www.pressherald.com/2026/11/07/obituarydaniel-j-macgillivary-3/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "eee5798619c4",
+      "title": "Kennebunk football posts impressive win over Biddeford in B South semifinal",
+      "summary": "The Rams score on their 1st 3 possessions and shut out the big-play Tigers.",
+      "url": "https://www.pressherald.com/2026/11/06/kennebunk-football-posts-impressive-win-over-biddeford-in-b-south-semifinal/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "62ad1c635e50",
+      "title": "Nithya Raman to take charge in LA amid homeless crisis and political division",
+      "summary": "LOS ANGELES (AP) \u2014 In her bid for Los Angeles mayor, Nithya Raman ran as an outsider. The democratic socialist didn\u2019t win a single endorsement from her 14 colleagues on the city council. The police union opposed her, she had friction with the Jewish community and the Democratic establishment lined u",
+      "url": "https://www.bangordailynews.com/2026/11/07/nation/nithya-raman-to-take-charge-in-la-amid-homeless-crisis-and-political-division/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-11-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "e638833cb17f",
+      "title": "From high-flying AI stocks to tariff-hit alcohol companies, the midterms shook up Wall Street",
+      "summary": "NEW YORK (AP) \u2014 The overwhelming victory by the Democrats in the midterm elections shook up Wall Street this week. The biggest tremors were felt in shares of companies tied to the boom in artificial intelligence on concerns that a Democratic Congress will put the brakes on further development of dat",
+      "url": "https://www.bangordailynews.com/2026/11/07/nation/from-high-flying-ai-stocks-to-tariff-hit-alcohol-companies-the-midterms-shook-up-wall-street/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-11-07",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "0ee66531dd34",
+      "title": "US Justice Department drops bid to force California to set aside disputed ballots",
+      "summary": "Los Angeles (AP) \u2014 The U.S. Department of Justice on Friday moved to dismiss its own lawsuit that sought to stop California from counting roughly 20,000 ballots it alleged went to noncitizens until their immigration status could be verified. The request to dismiss the case comes days after Republica",
+      "url": "https://www.bangordailynews.com/2026/11/06/nation/us-justice-department-drops-bid-to-force-california-to-set-aside-disputed-ballots/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-11-07",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "efb3771b2ce7",
+      "title": "Burlington City Council president launches bid for mayor",
+      "summary": "Democrat Ben Traverse said the success of the city depends on lifting everyone up. \u201cBecause the truth is, we\u2019re all in this together.\u201d\nRead the story on VTDigger here:  Burlington City Council president launches bid for mayor.",
+      "url": "https://vtdigger.org/2026/11/06/burlington-city-council-president-launches-bid-for-mayor/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-11-06",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "aae4974bbaa4",
+      "title": "Construction of the South Burlington Walk-Bike Bridge advances at Exit 14",
+      "summary": "Phase one of construction is underway to connect Williston Road and University Mall.\nRead the story on VTDigger here:  Construction of the South Burlington Walk-Bike Bridge advances at Exit 14.",
+      "url": "https://vtdigger.org/2026/11/06/construction-of-the-south-burlington-walk-bike-bridge-advances-at-exit-14/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-11-06",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d6e84bba54ce",
+      "title": "Bridgeport Art Trail rolls into its 18th year",
+      "summary": "This weekend, the Bridgeport Art Trail will feature more than 200 artists, spanning 30+ sites, multiple studios, stores and galleries.",
+      "url": "https://ctmirror.org/2026/11/06/bridgeport-art-trail-rolls-into-its-18th-year/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-11-06",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cffbf4391b9b",
+      "title": "In CT towns affected heavily by Trump policies, voter turnout grew",
+      "summary": "Danbury, Bridgeport and New London all saw turnout increase by more than 10 percentage points compared to the 2022 midterm elections.",
+      "url": "https://ctmirror.org/2026/11/06/in-ct-towns-affected-heavily-by-trump-policies-voter-turnout-grew/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-11-06",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
       ]
     },
     {
@@ -24100,34 +24334,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "a62fa8701ab8",
-      "title": "Republican incumbent state senator from Rutland County arrested last week loses reelection bid",
-      "summary": "It was one of several legislative races across Rutland County that Republicans lost. \nRead the story on VTDigger here:  Republican incumbent state senator from Rutland County arrested last week loses reelection bid.",
-      "url": "https://vtdigger.org/2026/11/04/republican-incumbent-state-senator-from-rutland-county-arrested-last-week-loses-reelection-bid/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-11-04",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3c6e0229a374",
-      "title": "State appears to have its first-ever Executive Council occupied by all Democrats",
-      "summary": "The state has never had an all-Democratic Executive Council, but it appears from unofficial vote tallies that it will have one for the next two years after voters turned out and turned down re-election bids for four seats held by Republicans, Tuesday.\nThe post State appears to have its first-ever Ex",
-      "url": "https://indepthnh.org/2026/11/04/state-appears-to-have-its-first-ever-executive-council-occupied-by-all-democrats/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-11-04",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24138,7 +24344,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-06T17:45:12.959625",
+      "updated": "2026-11-07T16:39:43.524259",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24248,24 +24454,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-06T17:45:12.959625"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-11-07T16:39:43.524259"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-06T17:45:12.959625"
+      "raw": 150941.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 3.9,
+      "source": "FRED API",
+      "updated": "2026-11-07T16:39:43.524259"
     },
     "migration": {
       "score": 5.0,
@@ -24275,35 +24481,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-06T17:45:12.959625"
+      "updated": "2026-11-07T16:39:43.524259"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-06T17:45:12.959625"
+      "raw": 1018499.9999999999,
+      "raw_display": "1018K workers",
+      "yoy_change": 0.4,
+      "source": "FRED API",
+      "updated": "2026-11-07T16:39:43.524259"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
-      "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "score": 6.8,
+      "trend": "up",
+      "action": "Hedge 6 months",
+      "raw_display": "Gas $4.14 | Diesel $6.42",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.14,
+        "score": 7.5,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.42,
+        "score": 5.9,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-11-06T17:45:12.959625"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-11-07T16:39:43.524259"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24312,19 +24518,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-06T17:45:12.959625"
+      "updated": "2026-11-07T16:39:43.524259"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.9,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-06T17:45:12.959625"
+    "calculated_at": "2026-11-07T16:39:43.524259"
   }
 }

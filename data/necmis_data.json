@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T21:12:41.864029Z",
+  "generated": "2026-11-10T18:20:14.251686Z",
   "summary": {
     "total_opportunities": 1169,
     "total_value_low": 10119560641,
@@ -10,16 +10,16 @@
     "by_state": {
       "VT": 44,
       "NH": 8,
-      "ME": 175,
-      "MA": 599,
+      "ME": 170,
+      "MA": 602,
       "NY": 1,
       "RI": 7,
-      "CT": 340,
+      "CT": 341,
       "PA": 8
     },
     "by_category": {
       "dot_letting": 1168,
-      "news": 13,
+      "news": 12,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -24154,55 +24154,27 @@
   ],
   "news": [
     {
-      "id": "15d02787865c",
-      "title": "Lawsuit seeks to block proposed campground on Sanford\u2019s Sand Pond",
-      "summary": "A group of neighbors argues that Sand Pond Shores Camping Resort would violate the area's common scheme of development and overburden an easement.",
-      "url": "https://www.pressherald.com/2026/11/09/lawsuit-seeks-to-block-proposed-campground-on-sanfords-sand-pond/",
-      "source": "Portland Press Herald",
+      "id": "1b417f0ed876",
+      "title": "NYC sightseeing helicopter makes emergency landing after reporting possible engine trouble",
+      "summary": "BAYONNE, N.J. (AP) \u2014 A New York City sightseeing helicopter on a maintenance flight made an emergency landing on Tuesday at a New Jersey cargo port after the pilot reported possible engine trouble. Two people were aboard the Bell 206L-4 helicopter when it came down on a road at the Port Jersey Marin",
+      "url": "https://www.bangordailynews.com/2026/11/10/nation/nyc-sightseeing-helicopter-makes-emergency-landing-after-reporting-possible-engine-trouble/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "category": "news",
       "priority": "medium",
       "business_lines": [
-        "aggregates"
-      ]
-    },
-    {
-      "id": "07438fe0b7a1",
-      "title": "Reassured by NECEC op-ed | Letter",
-      "summary": "The Nov. 4 op-ed by Matt Scott (\u201cNECEC should not be renegotiated now\u201d) about trying to apply ex-post-facto terms to the power line through the North Woods was reassuring, in that such upgraded infrastructure is in operation, particularly with the projected needs of data centers and heat pumps.\u00a0(Too",
-      "url": "https://www.pressherald.com/2026/11/09/reassured-by-necec-op-ed-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-09",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
         "highway"
       ]
     },
     {
-      "id": "01831696f26a",
-      "title": "Windham state representative requests recount",
-      "summary": "Republicn Rep. Barbara Bagshaw lost her reelection bid by 139 votes last week.",
-      "url": "https://www.pressherald.com/2026/11/09/windham-state-representative-requests-recount/",
-      "source": "Portland Press Herald",
+      "id": "cfd98e3d3937",
+      "title": "Letter: Federal permitting reform bill would reverse environmental protections",
+      "summary": "\u201cWe need common sense legislation that will enable the transition to clean energy sources and cease subsidizing the fossil fuel industry with our tax dollars.\u201d",
+      "url": "https://www.bangordailynews.com/2026/11/10/opinion/letters/letter-federal-permitting-reform-bill-would-reverse-environmental-protections-joam40zk0w/",
+      "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-11-09",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "5e0ebb11658b",
-      "title": "Does Maine count votes for undeclared write-in candidates in state and federal elections? | Fact brief",
-      "summary": "Municipal clerks are not required to count write-in votes for fictional or dead people.",
-      "url": "https://www.pressherald.com/2026/11/09/does-maine-count-votes-for-undeclared-write-in-candidates-in-state-and-federal-elections-fact-brief/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -24210,43 +24182,57 @@
       ]
     },
     {
-      "id": "93c8d37f2cfb",
-      "title": "Supreme Court clears the way for border wall construction in Texas\u2019s Big Bend to resume",
-      "summary": "WASHINGTON (AP) \u2014 The Supreme Court cleared the way Monday for the Trump administration to resume border wall construction in the Big Bend region of Texas for now, a blow to bipartisan opponents who had argued the project is a waste of money that threatens the unique landscape. The border wall is a",
-      "url": "https://www.bangordailynews.com/2026/11/09/nation/supreme-court-clears-the-way-for-border-wall-construction-in-texass-big-bend-to-resume/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e19083f0f4f7",
-      "title": "Developer revives data center plan for old Maine paper mill",
-      "summary": "The developer plans to file a site location permit and an air emission license application with the Department of Environmental Protection.",
-      "url": "https://www.bangordailynews.com/2026/11/09/mainefocus/mainefocus-business/jay-maine-paper-mill-date-center-plans-revived-jgt2-redevelopment/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-09",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "aa63f25b3aef",
-      "title": "Senate weighs sweeping energy legislation in first major action since midterm elections",
-      "summary": "WASHINGTON (AP) \u2014 The Senate on Monday is set to take up bipartisan legislation aimed at speeding up permitting reviews for data centers and other infrastructure projects, in the first major action since last week\u2019s election that soundly repudiated President Donald Trump and congressional Republican",
-      "url": "https://www.bangordailynews.com/2026/11/09/nation/senate-weighs-sweeping-energy-legislation-in-first-major-action-since-midterm-elections/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-09",
+      "id": "568f38ac8238",
+      "title": "Ex-Biden official fuels 2028 speculation with new book: \u2018Not a policy manual\u2019",
+      "summary": "Buttigieg, who served as Transportation Secretary during the Biden administration, announced Tuesday that his new book \u201cNext\u201d will be published on Jan. 26, 2027.",
+      "url": "https://www.masslive.com/politics/2026/11/ex-biden-official-fuels-2028-speculation-with-new-book-not-a-policy-manual.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-11-10",
       "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "cb4d57925578",
+      "title": "NJ, Pa. among states to be hit by Comcast job cuts",
+      "summary": "Comcast is cutting jobs in its cable and broadband division as cable television continues to see a decline in viewership.",
+      "url": "https://www.masslive.com/news/2026/11/major-telecommunications-company-to-cut-over-1k-jobs-in-4-states.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-11-10",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d424cec912d6",
+      "title": "Tom Brady makes bold Raiders prediction, but fans aren\u2019t letting one detail slide",
+      "summary": "Tom Brady made a bold Super Bowl prediction for the Las Vegas Raiders, but NFL fans quickly pointed to his ownership stake as the team sits at 4-5 following a loss to the San Francisco 49ers.",
+      "url": "https://www.masslive.com/sports/2026/11/tom-brady-makes-bold-raiders-prediction-nfl-fans-immediately-point-out-one-thing.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-11-10",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "b0c4465df631",
+      "title": "Montpelier has its long-awaited housing blueprint for Country Club Road",
+      "summary": "DEW Properties plans to build roughly 108 housing units in its initial phase. Residents won\u2019t move in for several years.\nRead the story on VTDigger here:  Montpelier has its long-awaited housing blueprint for Country Club Road.",
+      "url": "https://vtdigger.org/2026/11/09/montpelier-has-its-long-awaited-housing-blueprint-for-country-club-road/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-11-09",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24261,6 +24247,20 @@
       "date": "2026-11-09",
       "category": "news",
       "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "aa080d2b3e84",
+      "title": "CT Mirror\u2019s P.R. Lockhart selected for New America Foundation reporting fellowship",
+      "summary": "Lockhart, CT Mirror\u2019s economic development reporter, was selected to participate in New America and Work Shift\u2019s new Future of Work Reporting Fellowship.",
+      "url": "https://ctmirror.org/2026/11/09/announcement-new-american-future-of-work-reporting-fellowship/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-11-09",
+      "category": "news",
+      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24308,20 +24308,6 @@
       ]
     },
     {
-      "id": "aae4974bbaa4",
-      "title": "Construction of the South Burlington Walk-Bike Bridge advances at Exit 14",
-      "summary": "Phase one of construction is underway to connect Williston Road and University Mall.\nRead the story on VTDigger here:  Construction of the South Burlington Walk-Bike Bridge advances at Exit 14.",
-      "url": "https://vtdigger.org/2026/11/06/construction-of-the-south-burlington-walk-bike-bridge-advances-at-exit-14/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-11-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "d6e84bba54ce",
       "title": "Bridgeport Art Trail rolls into its 18th year",
       "summary": "This weekend, the Bridgeport Art Trail will feature more than 200 artists, spanning 30+ sites, multiple studios, stores and galleries.",
@@ -24353,12 +24339,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "down",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-09T21:12:41.443293",
+      "updated": "2026-11-10T18:20:06.417550",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24468,24 +24454,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-09T21:12:41.443293"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-11-10T18:20:06.417550"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-09T21:12:41.443293"
+      "raw": 150941.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 3.9,
+      "source": "FRED API",
+      "updated": "2026-11-10T18:20:06.417550"
     },
     "migration": {
       "score": 5.0,
@@ -24495,35 +24481,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-09T21:12:41.443293"
+      "updated": "2026-11-10T18:20:06.417550"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-09T21:12:41.443293"
+      "raw": 1018499.9999999999,
+      "raw_display": "1018K workers",
+      "yoy_change": 0.4,
+      "source": "FRED API",
+      "updated": "2026-11-10T18:20:06.417550"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.06 | Diesel $6.35",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.06,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.35,
+        "score": 6.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-11-09T21:12:41.443293"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-11-10T18:20:06.417550"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24532,19 +24518,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-09T21:12:41.443293"
+      "updated": "2026-11-10T18:20:06.417550"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.9,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-09T21:12:41.443293"
+    "calculated_at": "2026-11-10T18:20:06.417550"
   }
 }

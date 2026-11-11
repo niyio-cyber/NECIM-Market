@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T18:10:00.494964Z",
+  "generated": "2026-11-11T18:15:17.765575Z",
   "summary": {
-    "total_opportunities": 1172,
+    "total_opportunities": 1167,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -9,7 +9,7 @@
     "pipeline_yoy_pct": -39.9,
     "by_state": {
       "VT": 44,
-      "NH": 8,
+      "NH": 3,
       "ME": 174,
       "MA": 599,
       "NY": 1,
@@ -18,7 +18,7 @@
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1169,
+      "dot_letting": 1164,
       "news": 9,
       "funding": 3
     },
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 702,
+          "count": 697,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 7,
+          "count": 2,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 7,
+            "count": 2,
             "value": 0
           },
           "Safety": {
@@ -16137,101 +16137,6 @@
       ]
     },
     {
-      "id": "995f7754c91d",
-      "state": "NH",
-      "project_id": "RFP 13-27",
-      "description": "Concord Bids: Contractor Services2 BidsB12-27 Pavement Crack SealingThe Purchasing Division, 311 N. State Street, Concord, New Hampshire 03301, will receive sealed Bids for: B12-27, 2027 PAVEMENT CRACK SEALING PROJ",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "hma"
-      ]
-    },
-    {
-      "id": "995f7754c91d",
-      "state": "NH",
-      "project_id": "RFP 13-27",
-      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "995f7754c91d",
-      "state": "NH",
-      "project_id": "RFP 13-27",
-      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "995f7754c91d",
-      "state": "NH",
-      "project_id": "RFP 13-27",
-      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
-      "id": "995f7754c91d",
-      "state": "NH",
-      "project_id": "RFP 13-27",
-      "description": "Concord Bids: RFP 13-27 WHITE PARK HOCKEY RINK REPLACEMENTThe City of Concord, NH is seeking proposals for replacing the hockey rink at White Park located at 1 White St, Concord, NH. Construction is scheduled for t",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Concord Bids",
-      "district": null,
-      "url": "https://www.concordnh.gov/Bids.aspx",
-      "source": "Concord Bids Municipal",
-      "business_lines": [
-        "ready_mix"
-      ]
-    },
-    {
       "id": "ff6cc90f9923",
       "state": "VT",
       "source": "VTrans",
@@ -24350,7 +24255,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-11T18:09:48.866120",
+      "updated": "2026-11-11T18:15:17.247744",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24460,24 +24365,24 @@
       }
     },
     "housing_permits": {
-      "score": 5.2,
+      "score": 6.5,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 9628.118442378296,
-      "raw_display": "9,628 units/mo",
-      "yoy_change": 1.1,
-      "source": "FRED API",
-      "updated": "2026-11-11T18:09:48.866120"
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-11-11T18:15:17.247744"
     },
     "construction_spending": {
-      "score": 5.6,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 150941.0,
-      "raw_display": "$150.9B SAAR",
-      "yoy_change": 3.9,
-      "source": "FRED API",
-      "updated": "2026-11-11T18:09:48.866120"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-11-11T18:15:17.247744"
     },
     "migration": {
       "score": 5.0,
@@ -24487,35 +24392,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-11T18:09:48.866120"
+      "updated": "2026-11-11T18:15:17.247744"
     },
     "construction_employment": {
-      "score": 5.1,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 1018499.9999999999,
-      "raw_display": "1018K workers",
-      "yoy_change": 0.4,
-      "source": "FRED API",
-      "updated": "2026-11-11T18:09:48.866120"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-11-11T18:15:17.247744"
     },
     "input_cost": {
-      "score": 7.0,
-      "trend": "up",
+      "score": 9.5,
+      "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $4.06 | Diesel $6.35",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 4.06,
-        "score": 7.7,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 6.35,
-        "score": 6.0,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-11-11T18:09:48.866120"
+      "source": "historical data",
+      "updated": "2026-11-11T18:15:17.247744"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24524,19 +24429,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-11T18:09:48.866120"
+      "updated": "2026-11-11T18:15:17.247744"
     },
-    "overall_score": 6.9,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-11T18:09:48.866120"
+    "calculated_at": "2026-11-11T18:15:17.247744"
   }
 }

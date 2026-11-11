@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T18:22:47.830070Z",
+  "generated": "2026-11-11T18:10:00.494964Z",
   "summary": {
-    "total_opportunities": 1169,
+    "total_opportunities": 1172,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -10,17 +10,17 @@
     "by_state": {
       "VT": 44,
       "NH": 8,
-      "ME": 170,
-      "MA": 602,
+      "ME": 174,
+      "MA": 599,
       "NY": 1,
       "RI": 7,
-      "CT": 341,
+      "CT": 340,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1168,
-      "news": 12,
-      "funding": 1
+      "dot_letting": 1169,
+      "news": 9,
+      "funding": 3
     },
     "pipeline_analysis": {
       "project_types": [
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 701,
+          "count": 702,
           "value": 3070042217
         },
         "Safety": {
@@ -142,7 +142,7 @@
           "value": 909700000
         },
         "CT": {
-          "count": 337,
+          "count": 338,
           "value": 0
         },
         "PA": {
@@ -265,7 +265,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 336,
+            "count": 337,
             "value": 0
           },
           "Safety": {
@@ -17264,6 +17264,26 @@
       ]
     },
     {
+      "id": "7929ce3e1fb7",
+      "state": "CT",
+      "project_id": "0172-0544",
+      "description": "Construction of Maintenance Facility",
+      "cost_low": null,
+      "cost_high": null,
+      "cost_display": "See Bid Docs",
+      "ad_date": null,
+      "let_date": "2026-12-09",
+      "fiscal_year": "FY2027",
+      "project_type": "Pavement",
+      "location": null,
+      "district": null,
+      "url": "https://contractsqanda.dot.ct.gov/Proposals.aspx",
+      "source": "CTDOT Q&A",
+      "business_lines": [
+        "hma"
+      ]
+    },
+    {
       "id": "1e2881998d9a",
       "state": "CT",
       "project_id": "PROJECT",
@@ -24154,13 +24174,13 @@
   ],
   "news": [
     {
-      "id": "1b417f0ed876",
-      "title": "NYC sightseeing helicopter makes emergency landing after reporting possible engine trouble",
-      "summary": "BAYONNE, N.J. (AP) \u2014 A New York City sightseeing helicopter on a maintenance flight made an emergency landing on Tuesday at a New Jersey cargo port after the pilot reported possible engine trouble. Two people were aboard the Bell 206L-4 helicopter when it came down on a road at the Port Jersey Marin",
-      "url": "https://www.bangordailynews.com/2026/11/10/nation/nyc-sightseeing-helicopter-makes-emergency-landing-after-reporting-possible-engine-trouble/",
-      "source": "Bangor Daily News",
+      "id": "010536074322",
+      "title": "Jay data center could create up to 1,000 construction jobs, 150 permanent positions, developer says",
+      "summary": "Gov.-elect Hannah Pingree, however, said that without statewide regulations, she is skeptical of that the project will benefit the community.",
+      "url": "https://www.pressherald.com/2026/11/11/jay-data-center-could-create-up-to-1000-construction-jobs-150-permanent-positions-developer-says/",
+      "source": "Portland Press Herald",
       "state": "ME",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "category": "news",
       "priority": "medium",
       "business_lines": [
@@ -24168,13 +24188,69 @@
       ]
     },
     {
-      "id": "cfd98e3d3937",
-      "title": "Letter: Federal permitting reform bill would reverse environmental protections",
-      "summary": "\u201cWe need common sense legislation that will enable the transition to clean energy sources and cease subsidizing the fossil fuel industry with our tax dollars.\u201d",
-      "url": "https://www.bangordailynews.com/2026/11/10/opinion/letters/letter-federal-permitting-reform-bill-would-reverse-environmental-protections-joam40zk0w/",
+      "id": "a8e079184bde",
+      "title": "New quick-service salad restaurant planned for Portland",
+      "summary": "Restaurateur Chad Conley of Rose Foods and Biddeford's Palace Diner is behind the project.",
+      "url": "https://www.pressherald.com/2026/11/11/new-quick-service-salad-restaurant-planned-for-portland/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-11",
+      "category": "news",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "636ea7e3b410",
+      "title": "Family of ICE agent in Biddeford shooting accuses him of immigrant bias, New York Times reports",
+      "summary": "David Brouillette, who shot and killed Johan Sebasti\u00e1n Dur\u00e1n Guerrero in Biddeford, reportedly sent a series of racist emails regarding a Colombian man in 2021.",
+      "url": "https://www.pressherald.com/2026/11/11/family-of-ice-agent-in-biddeford-shooting-accuses-him-of-immigrant-bias-new-york-times-reports/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-11",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "a0d03751c901",
+      "title": "A roadmap for Democrats who want peace in Gaza | Opinion",
+      "summary": "The campaign is over. It\u2019s time to get down to the hard work of crafting solutions.",
+      "url": "https://www.pressherald.com/2026/11/11/a-roadmap-for-democrats-who-want-peace-in-gaza-opinion/",
+      "source": "Portland Press Herald",
+      "state": "ME",
+      "date": "2026-11-11",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "d38a3135fb88",
+      "title": "NYT: ICE agent who fatally shot Biddeford man had record of anti-immigrant hostility",
+      "summary": "David Brouillette didn't hide his disdain toward people born outside the U.S., according to an investigation by the New York Times.",
+      "url": "https://www.bangordailynews.com/2026/11/11/york/york-police-courts/david-brouillette-anti-immigrant-hostility/",
       "source": "Bangor Daily News",
       "state": "ME",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
+      "category": "funding",
+      "priority": "high",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "4beb25ed87ed",
+      "title": "Former Bangor mayor\u2019s historic downtown\u00a0home available\u00a0for $1.1M",
+      "summary": "Located at 50 Broadway, the stately Colonial Revival-style home offers more than 4,200 square feet of living space.",
+      "url": "https://www.bangordailynews.com/2026/11/11/business/business-housing/former-bangor-mayors-historic-downtown-home-for-sale-joam40zk0w/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-11-11",
       "category": "funding",
       "priority": "medium",
       "business_lines": [
@@ -24182,43 +24258,15 @@
       ]
     },
     {
-      "id": "568f38ac8238",
-      "title": "Ex-Biden official fuels 2028 speculation with new book: \u2018Not a policy manual\u2019",
-      "summary": "Buttigieg, who served as Transportation Secretary during the Biden administration, announced Tuesday that his new book \u201cNext\u201d will be published on Jan. 26, 2027.",
-      "url": "https://www.masslive.com/politics/2026/11/ex-biden-official-fuels-2028-speculation-with-new-book-not-a-policy-manual.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-11-10",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cb4d57925578",
-      "title": "NJ, Pa. among states to be hit by Comcast job cuts",
-      "summary": "Comcast is cutting jobs in its cable and broadband division as cable television continues to see a decline in viewership.",
-      "url": "https://www.masslive.com/news/2026/11/major-telecommunications-company-to-cut-over-1k-jobs-in-4-states.html",
-      "source": "MassLive",
-      "state": "MA",
+      "id": "adb7aca9f43b",
+      "title": "Vermont can\u2019t build its way to affordability",
+      "summary": "Every acre of open land lost to development makes Vermont less special, not less expensive.\nRead the story on VTDigger here:  Vermont can\u2019t build its way to affordability.",
+      "url": "https://vtdigger.org/2026/11/10/vermont-cant-build-its-way-to-affordability/",
+      "source": "VTDigger",
+      "state": "VT",
       "date": "2026-11-10",
       "category": "news",
       "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d424cec912d6",
-      "title": "Tom Brady makes bold Raiders prediction, but fans aren\u2019t letting one detail slide",
-      "summary": "Tom Brady made a bold Super Bowl prediction for the Las Vegas Raiders, but NFL fans quickly pointed to his ownership stake as the team sits at 4-5 following a loss to the San Francisco 49ers.",
-      "url": "https://www.masslive.com/sports/2026/11/tom-brady-makes-bold-raiders-prediction-nfl-fans-immediately-point-out-one-thing.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-11-10",
-      "category": "news",
-      "priority": "high",
       "business_lines": [
         "highway"
       ]
@@ -24253,7 +24301,7 @@
     },
     {
       "id": "aa080d2b3e84",
-      "title": "CT Mirror\u2019s P.R. Lockhart selected for New America Foundation reporting fellowship",
+      "title": "CT Mirror\u2019s P.R. Lockhart selected for New America Foundation fellowship",
       "summary": "Lockhart, CT Mirror\u2019s economic development reporter, was selected to participate in New America and Work Shift\u2019s new Future of Work Reporting Fellowship.",
       "url": "https://ctmirror.org/2026/11/09/announcement-new-american-future-of-work-reporting-fellowship/",
       "source": "CT Mirror",
@@ -24292,48 +24340,6 @@
       "business_lines": [
         "highway"
       ]
-    },
-    {
-      "id": "efb3771b2ce7",
-      "title": "Burlington City Council president launches bid for mayor",
-      "summary": "Democrat Ben Traverse said the success of the city depends on lifting everyone up. \u201cBecause the truth is, we\u2019re all in this together.\u201d\nRead the story on VTDigger here:  Burlington City Council president launches bid for mayor.",
-      "url": "https://vtdigger.org/2026/11/06/burlington-city-council-president-launches-bid-for-mayor/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-11-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "d6e84bba54ce",
-      "title": "Bridgeport Art Trail rolls into its 18th year",
-      "summary": "This weekend, the Bridgeport Art Trail will feature more than 200 artists, spanning 30+ sites, multiple studios, stores and galleries.",
-      "url": "https://ctmirror.org/2026/11/06/bridgeport-art-trail-rolls-into-its-18th-year/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-11-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "cffbf4391b9b",
-      "title": "In CT towns affected heavily by Trump policies, voter turnout grew",
-      "summary": "Danbury, Bridgeport and New London all saw turnout increase by more than 10 percentage points compared to the 2022 midterm elections.",
-      "url": "https://ctmirror.org/2026/11/06/in-ct-towns-affected-heavily-by-trump-policies-voter-turnout-grew/",
-      "source": "CT Mirror",
-      "state": "CT",
-      "date": "2026-11-06",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
     }
   ],
   "market_health": {
@@ -24344,7 +24350,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-10T18:22:47.570983",
+      "updated": "2026-11-11T18:09:48.866120",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24454,24 +24460,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-10T18:22:47.570983"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-11-11T18:09:48.866120"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-10T18:22:47.570983"
+      "raw": 150941.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 3.9,
+      "source": "FRED API",
+      "updated": "2026-11-11T18:09:48.866120"
     },
     "migration": {
       "score": 5.0,
@@ -24481,35 +24487,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-10T18:22:47.570983"
+      "updated": "2026-11-11T18:09:48.866120"
     },
     "construction_employment": {
-      "score": 5.0,
+      "score": 5.1,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-10T18:22:47.570983"
+      "raw": 1018499.9999999999,
+      "raw_display": "1018K workers",
+      "yoy_change": 0.4,
+      "source": "FRED API",
+      "updated": "2026-11-11T18:09:48.866120"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.0,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $4.06 | Diesel $6.35",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 4.06,
+        "score": 7.7,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.35,
+        "score": 6.0,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-11-10T18:22:47.570983"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-11-11T18:09:48.866120"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24518,19 +24524,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-10T18:22:47.570983"
+      "updated": "2026-11-11T18:09:48.866120"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.9,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-10T18:22:47.570983"
+    "calculated_at": "2026-11-11T18:09:48.866120"
   }
 }

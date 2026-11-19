@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19T19:13:17.615757Z",
+  "generated": "2026-11-19T19:16:22.114898Z",
   "summary": {
-    "total_opportunities": 1443,
+    "total_opportunities": 1442,
     "total_value_low": 12307520591,
     "total_value_high": 16691091023,
     "forward_pipeline": 5816892072.0,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 42,
       "NH": 280,
-      "ME": 171,
+      "ME": 170,
       "MA": 599,
       "NY": 1,
       "RI": 7,
@@ -20,7 +20,7 @@
     "by_category": {
       "dot_letting": 1441,
       "news": 5,
-      "funding": 2
+      "funding": 1
     },
     "pipeline_analysis": {
       "project_types": [
@@ -29937,20 +29937,6 @@
   ],
   "news": [
     {
-      "id": "194067d62768",
-      "title": "Kittery voters could approve a water district debt limit in December. What\u2019s that mean?",
-      "summary": "The $75 million limit will help the district plan for infrastructure improvements that could prevent future leaks and main breaks.",
-      "url": "https://www.pressherald.com/2026/11/19/kittery-voters-could-approve-a-water-district-debt-limit-in-december-whats-that-mean/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-19",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "16da9e89af87",
       "title": "A construction worker is missing in Maine",
       "summary": "Alex Goncalves Dourado has been working for the past few weeks for an unknown construction company in the Bethel area.",
@@ -30038,12 +30024,12 @@
   "market_health": {
     "dot_pipeline": {
       "score": 10,
-      "trend": "up",
+      "trend": "stable",
       "action": "Aggressive expansion - strong near-term pipeline",
       "raw": 11347782034.99784,
       "raw_display": "$11.35B",
       "source": "scraper_v2",
-      "updated": "2026-11-19T19:13:01.844365",
+      "updated": "2026-11-19T19:16:21.605635",
       "v2_details": {
         "raw_total": "$12.31B",
         "weighted_total": "$6.31B",
@@ -30153,24 +30139,24 @@
       }
     },
     "housing_permits": {
-      "score": 5.2,
+      "score": 6.5,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 9628.118442378296,
-      "raw_display": "9,628 units/mo",
-      "yoy_change": 1.1,
-      "source": "FRED API",
-      "updated": "2026-11-19T19:13:01.844365"
+      "raw": 15000,
+      "raw_display": "15,000 units/mo",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-11-19T19:16:21.605635"
     },
     "construction_spending": {
-      "score": 5.6,
-      "trend": "up",
+      "score": 5.0,
+      "trend": "stable",
       "action": "Selective investment",
-      "raw": 150941.0,
-      "raw_display": "$150.9B SAAR",
-      "yoy_change": 3.9,
-      "source": "FRED API",
-      "updated": "2026-11-19T19:13:01.844365"
+      "raw": 143000,
+      "raw_display": "$143.0B SAAR",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-11-19T19:16:21.605635"
     },
     "migration": {
       "score": 5.0,
@@ -30180,35 +30166,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-19T19:13:01.844365"
+      "updated": "2026-11-19T19:16:21.605635"
     },
     "construction_employment": {
-      "score": 5.1,
+      "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 1018499.9999999999,
-      "raw_display": "1018K workers",
-      "yoy_change": 0.4,
-      "source": "FRED API",
-      "updated": "2026-11-19T19:13:01.844365"
+      "raw": 875000,
+      "raw_display": "875K workers",
+      "yoy_change": 0.0,
+      "source": "fallback",
+      "updated": "2026-11-19T19:16:21.605635"
     },
     "input_cost": {
-      "score": 7.2,
-      "trend": "up",
+      "score": 9.5,
+      "trend": "stable",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.91 | Diesel $6.22",
+      "raw_display": "Gas $3.18 | Diesel $4.31",
       "gasoline": {
-        "price": 3.91,
-        "score": 7.9,
+        "price": 3.18,
+        "score": 9.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 6.22,
-        "score": 6.2,
+        "price": 4.31,
+        "score": 8.8,
         "weight": "40%"
       },
-      "source": "EIA API (Gas + Diesel)",
-      "updated": "2026-11-19T19:13:01.844365"
+      "source": "historical data",
+      "updated": "2026-11-19T19:16:21.605635"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -30217,19 +30203,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-19T19:13:01.844365"
+      "updated": "2026-11-19T19:16:21.605635"
     },
-    "overall_score": 7.0,
+    "overall_score": 7.3,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "FRED API",
-      "construction_spending": "FRED API",
+      "housing_permits": "fallback",
+      "construction_spending": "fallback",
       "migration": "Census API",
-      "construction_employment": "FRED API",
-      "input_cost": "EIA API (Gas + Diesel)",
+      "construction_employment": "fallback",
+      "input_cost": "historical data",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-19T19:13:01.844365"
+    "calculated_at": "2026-11-19T19:16:21.605635"
   }
 }

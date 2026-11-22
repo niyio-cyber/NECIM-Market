@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T17:50:29.023822Z",
+  "generated": "2026-11-22T18:06:00.025782Z",
   "summary": {
     "total_opportunities": 1174,
     "total_value_low": 10119560641,
@@ -10,7 +10,7 @@
     "by_state": {
       "VT": 43,
       "NH": 12,
-      "ME": 171,
+      "ME": 169,
       "MA": 601,
       "NY": 1,
       "RI": 7,
@@ -19,7 +19,7 @@
     },
     "by_category": {
       "dot_letting": 1173,
-      "news": 9,
+      "news": 7,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -24251,57 +24251,43 @@
   ],
   "news": [
     {
-      "id": "489e2aa8ea8e",
-      "title": "Newspaper should launch road safety campaign | Letter",
-      "summary": "There has been a lot of talk recently about injuries and deaths of pedestrians and cyclists on our roads. I would like to see this newspaper initiate a public safety campaign, informing the public about how to safely walk and ride on our roadways. When I was a kid, my mother taught me to walk [\u2026]",
-      "url": "https://www.pressherald.com/2026/11/21/newspaper-should-launch-road-safety-campaign-letter/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-21",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "62857460bf7b",
-      "title": "UMaine men\u2019s hockey shut out by Boston College",
-      "summary": "The Eagles earn their first road win against the Black Bears in more than eight years.",
-      "url": "https://www.pressherald.com/2026/11/20/umaine-mens-hockey-shut-out-by-boston-college/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-21",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "9e9bf17d6272",
-      "title": "Dear Annie: Everyone I love keeps leaving, and at my age - I'm terrified of waking up alone",
-      "summary": "Annie: Technology has changed how we connect, but it can also help bridge the distance when we\u2019re miles apart.",
-      "url": "https://www.masslive.com/advice/2026/11/dear-annie-everyone-i-love-keeps-leaving-and-at-my-age-im-terrified-of-waking-up-alone.html",
+      "id": "e66d1427209a",
+      "title": "Movie star, 43, found dead in apartment",
+      "summary": "Lance Broadway, a former MLB pitcher who appeared in \u2018Olympus Has Fallen,\u2019 was found dead in a Dallas apartment stairwell at 43.",
+      "url": "https://www.masslive.com/entertainment/2026/11/movie-star-43-found-dead-in-apartment.html",
       "source": "MassLive",
       "state": "MA",
+      "date": "2026-11-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "defadb880267",
+      "title": "Former NFL star, legendary ESPN broadcaster dies at 75",
+      "summary": "He was a Hall of Fame broadcaster after starring for the Denver Broncos.",
+      "url": "https://www.masslive.com/sports/2026/11/former-nfl-star-legendary-espn-broadcaster-dies-at-75.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-11-22",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "86bb9f3e19be",
+      "title": "Immigration officers make arrest at Seattle airport in \u2018distressing\u2019 scene, delaying flight",
+      "summary": "Masked immigration officers detained at least one person on a crowded airport jet bridge in Seattle as people were boarding Saturday, causing what the airline called a \u201cdistressing\u201d scene for passengers and employees and delaying the Los Angeles-bound flight. Video of the incident showed officers dr",
+      "url": "https://www.bangordailynews.com/2026/11/21/nation/immigration-officers-make-arrest-at-seattle-airport-in-distressing-scene-delaying-flight/",
+      "source": "Bangor Daily News",
+      "state": "ME",
       "date": "2026-11-21",
       "category": "news",
       "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "397daa46ca93",
-      "title": "5 strangers were stuck at an airport. Their unusual solution quickly went viral",
-      "summary": "Five women stranded by the FAA ground stop shared a rental car from Chicago to Nashville. Their eight-hour road trip became a viral adventure.",
-      "url": "https://www.masslive.com/news/2026/11/5-strangers-were-stranded-at-an-airport-their-solution-turned-into-a-viral-adventure.html",
-      "source": "MassLive",
-      "state": "MA",
-      "date": "2026-11-21",
-      "category": "news",
-      "priority": "medium",
       "business_lines": [
         "highway"
       ]
@@ -24327,20 +24313,6 @@
       "url": "https://vtdigger.org/2026/11/20/pfas-contamination-from-capped-landfill-impacting-shaftsbury-residents-and-officials/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-11-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "1c94cf8bdceb",
-      "title": "Affordable housing project breaks ground in Windham",
-      "summary": "The 48-unit Pettingill Pines development is primarily catered toward residents aged 55 or older.",
-      "url": "https://www.pressherald.com/2026/11/20/affordable-housing-project-breaks-ground-in-windham/",
-      "source": "Portland Press Herald",
-      "state": "ME",
       "date": "2026-11-20",
       "category": "news",
       "priority": "medium",
@@ -24399,7 +24371,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-21T17:50:28.483104",
+      "updated": "2026-11-22T18:05:51.044392",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24509,24 +24481,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-21T17:50:28.483104"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-11-22T18:05:51.044392"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-21T17:50:28.483104"
+      "raw": 150941.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 3.9,
+      "source": "FRED API",
+      "updated": "2026-11-22T18:05:51.044392"
     },
     "migration": {
       "score": 5.0,
@@ -24536,35 +24508,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-21T17:50:28.483104"
+      "updated": "2026-11-22T18:05:51.044392"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1010500.0,
+      "raw_display": "1010K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-21T17:50:28.483104"
+      "source": "FRED API",
+      "updated": "2026-11-22T18:05:51.044392"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.2,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.91 | Diesel $6.22",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.91,
+        "score": 7.9,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.22,
+        "score": 6.2,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-11-21T17:50:28.483104"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-11-22T18:05:51.044392"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24573,19 +24545,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-21T17:50:28.483104"
+      "updated": "2026-11-22T18:05:51.044392"
     },
-    "overall_score": 7.3,
+    "overall_score": 6.9,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-21T17:50:28.483104"
+    "calculated_at": "2026-11-22T18:05:51.044392"
   }
 }

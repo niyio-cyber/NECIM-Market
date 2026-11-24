@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-23T22:19:19.103694Z",
+  "generated": "2026-11-24T20:54:45.825384Z",
   "summary": {
-    "total_opportunities": 1174,
+    "total_opportunities": 1172,
     "total_value_low": 10119560641,
     "total_value_high": 14503131073,
     "forward_pipeline": 5815634470.0,
@@ -9,17 +9,17 @@
     "pipeline_yoy_pct": -39.9,
     "by_state": {
       "VT": 45,
-      "NH": 12,
-      "ME": 172,
-      "MA": 599,
+      "NH": 8,
+      "ME": 169,
+      "MA": 600,
       "NY": 1,
       "RI": 7,
       "CT": 340,
       "PA": 8
     },
     "by_category": {
-      "dot_letting": 1173,
-      "news": 10,
+      "dot_letting": 1171,
+      "news": 6,
       "funding": 1
     },
     "pipeline_analysis": {
@@ -42,7 +42,7 @@
           "value": 5668046584
         },
         "Pavement": {
-          "count": 705,
+          "count": 703,
           "value": 3070042217
         },
         "Safety": {
@@ -122,7 +122,7 @@
           "value": 0
         },
         "NH": {
-          "count": 10,
+          "count": 8,
           "value": 0
         },
         "ME": {
@@ -175,7 +175,7 @@
             "value": 0
           },
           "Pavement": {
-            "count": 10,
+            "count": 8,
             "value": 0
           },
           "Safety": {
@@ -16099,44 +16099,6 @@
       ]
     },
     {
-      "id": "66b2bb7fa51a",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: 2600044 Manchester Water Works: RFB Timber Harvesting Services on Alvin Pingree/Cora Morse/Iron Axle WoodlotsQuestions: John O'Neil @ 603-496-5836 jmoneil@manchesternh.gov RFB BIDS DUE: 10/28/2026By 2",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "4c77bb72489e",
-      "state": "NH",
-      "project_id": null,
-      "description": "Manchester Bids: 2600045 Manchester Water Works: Timber Harvesting Services on Leeds WoodlotQuestions: John O'Neil @ 603-496-5836 jmoneil@manchesternh.gov RFB BIDS DUE: 10/28/2026By 2:00PM Results",
-      "cost_low": null,
-      "cost_high": null,
-      "cost_display": "See Bid Docs",
-      "ad_date": null,
-      "let_date": null,
-      "project_type": "Pavement",
-      "location": "Manchester Bids",
-      "district": null,
-      "url": "https://www.manchesternh.gov/Departments/Purchasing/Bid-Opportunities-and-Results",
-      "source": "Manchester Bids Municipal",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "b96156c7035b",
       "state": "NH",
       "project_id": null,
@@ -24251,6 +24213,62 @@
   ],
   "news": [
     {
+      "id": "8422b6eecdba",
+      "title": "Federal legislation pits energy development against conservation and historic preservation",
+      "summary": "One camp says the legislation would hasten green energy projects, housing and other development, while the other says the rollback of bedrock laws protecting environmental and cultural resources is not worth the risk.\nRead the story on VTDigger here:  Federal legislation pits energy development aga",
+      "url": "https://vtdigger.org/2026/11/24/federal-legislation-pits-energy-development-against-conservation-and-historic-preservation/",
+      "source": "VTDigger",
+      "state": "VT",
+      "date": "2026-11-24",
+      "category": "funding",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "f3859aa0964c",
+      "title": "Bucksport approves after-the-fact license to marijuana grow house",
+      "summary": "The grow house had been operating without the required local permits but has since met conditions set by the Planning Board.",
+      "url": "https://www.bangordailynews.com/2026/11/24/hancock/hancock-government/bucksport-maine-marijuana-grow-house-local-permit-approved-guo-xin-chen/",
+      "source": "Bangor Daily News",
+      "state": "ME",
+      "date": "2026-11-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "14b599a7d764",
+      "title": "Never Trumper makes shocking prediction on president\u2019s political future",
+      "summary": "The Jensen Huang scandal, amid other developments, has Bill Kristol more confident in Donald Trump's political demise.",
+      "url": "https://www.masslive.com/politics/2026/11/never-trumper-makes-shocking-prediction-about-presidents-future.html",
+      "source": "MassLive",
+      "state": "MA",
+      "date": "2026-11-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
+      "id": "17ca46dc0864",
+      "title": "DHS contract for downtown Hartford parking under review",
+      "summary": "The Capital Region Development Authority is reviewing a Hartford parking lease signed by the Department of Homeland Security.",
+      "url": "https://ctmirror.org/2026/11/24/dhs-parking-ice-downtown-hartford-garage-crda/",
+      "source": "CT Mirror",
+      "state": "CT",
+      "date": "2026-11-24",
+      "category": "news",
+      "priority": "medium",
+      "business_lines": [
+        "highway"
+      ]
+    },
+    {
       "id": "1d0abd43ad13",
       "title": "Historic bridge month shines light on landmarks",
       "summary": "From Tunbridge\u2019s covered bridges to Royalton\u2019s steel trusses, Vermont\u2019s historic crossings tell stories of ingenuity, preservation and change.\nRead the story on VTDigger here:  Historic bridge month shines light on landmarks.",
@@ -24279,124 +24297,12 @@
       ]
     },
     {
-      "id": "758905bb178d",
-      "title": "Longtime leader of Maine construction giant dies at 72",
-      "summary": "Jackson Parker, who led Reed & Reed Construction for 41 years, died Saturday in an accident in the woods.",
-      "url": "https://www.pressherald.com/2026/11/23/longtime-leader-of-maine-construction-giant-dies-at-72/",
-      "source": "Portland Press Herald",
-      "state": "ME",
-      "date": "2026-11-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "3009c1e80ba7",
-      "title": "Jensen Huang\u2019s return to Nvidia caps a comeback bid that stumbled before White House helped",
-      "summary": "Nvidia\u2019s surprise move to bring back Jensen Huang capped an unlikely comeback bid for the celebrity CEO, whose campaign to reclaim the top job following his resignation foundered before the White House intervened. Huang, a company co-founder, stepped down after reports of extramarital affairs includ",
-      "url": "https://www.bangordailynews.com/2026/11/23/nation/jensen-huangs-return-to-nvidia-caps-a-comeback-bid-that-stumbled-before-white-house-helped/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-23",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "935bd16967ca",
-      "title": "Ashland woman dies after being ejected during an Aroostook rollover",
-      "summary": "Police received word of the crash shortly after midnight Monday near 1186 State Road.",
-      "url": "https://www.bangordailynews.com/2026/11/23/aroostook/ashland-woman-dies-mapleton-maine-rollover/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "715395890965",
-      "title": "CEO of Maine construction giant has died",
-      "summary": "Reed & Reed CEO Jack Parker died after an accident working in the woods on his property. He was 72.",
-      "url": "https://www.bangordailynews.com/2026/11/23/business/maine-reed-and-reed-ceo-jack-parker-death/",
-      "source": "Bangor Daily News",
-      "state": "ME",
-      "date": "2026-11-23",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
       "id": "fe732150b1be",
       "title": "A week of tech disruptions explained \u2014 sorta",
       "summary": "A UVM computer science professor thinks the outages might be emblematic of a broader technological shift as AI empowers companies to find bugs hidden in their infrastructure faster.\nRead the story on VTDigger here:  A week of tech disruptions explained \u2014 sorta.",
       "url": "https://vtdigger.org/2026/11/20/a-week-of-tech-disruptions-explained-sorta/",
       "source": "VTDigger",
       "state": "VT",
-      "date": "2026-11-20",
-      "category": "news",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "e57c5187d75c",
-      "title": "PFAS contamination from capped landfill impacting Shaftsbury residents and officials",
-      "summary": "Wells at 19 homes on Grove Road eyed for testing.\nRead the story on VTDigger here:  PFAS contamination from capped landfill impacting Shaftsbury residents and officials.",
-      "url": "https://vtdigger.org/2026/11/20/pfas-contamination-from-capped-landfill-impacting-shaftsbury-residents-and-officials/",
-      "source": "VTDigger",
-      "state": "VT",
-      "date": "2026-11-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "acf7585b7717",
-      "title": "Youth Development Center Settlement Program Needs More Money for Next Biennium, Lawmakers Told",
-      "summary": "Youth Development Center Claims Administration and Settlement Fund administrator Gerard Boyle, said hiring a deputy will allow his office to increase the number of hearings and more cases to be settled sooner.\nThe post Youth Development Center Settlement Program Needs More Money for Next Biennium,",
-      "url": "https://indepthnh.org/2026/11/20/youth-development-center-settlement-program-needs-more-money-for-next-biennium-lawmakers-told/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-11-20",
-      "category": "news",
-      "priority": "medium",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "644727b86647",
-      "title": "Joint Legislative Fiscal Committee Holds Last Meeting of the Term: Sea Wall Rehab Approved",
-      "summary": "The Joint Legislative Fiscal Committee approved accepting $20 million in federal highway funds to rehabilitate a section of the seawall protecting Route 1A between North Hampton and Rye.\nThe post Joint Legislative Fiscal Committee Holds Last Meeting of the Term: Sea Wall Rehab Approved\u00a0 appeared fir",
-      "url": "https://indepthnh.org/2026/11/20/joint-legislative-fiscal-committee-holds-last-meeting-of-the-term-sea-wall-rehab-approved/",
-      "source": "InDepthNH",
-      "state": "NH",
-      "date": "2026-11-20",
-      "category": "funding",
-      "priority": "high",
-      "business_lines": [
-        "highway"
-      ]
-    },
-    {
-      "id": "a8597bfd4204",
-      "title": "Trump pick to lead agency protecting US elections says Jan. 6 wasn\u2019t \u2018attack\u2019",
-      "summary": "Trump nominee to the Cybersecurity and Infrastructure Security Agency, Michael LoSapio, was questioned by Sen. Blumenthal at a hearing.",
-      "url": "https://ctmirror.org/2026/11/20/trump-pick-to-lead-agency-protecting-us-elections-says-jan-6-wasnt-attack/",
-      "source": "CT Mirror",
-      "state": "CT",
       "date": "2026-11-20",
       "category": "news",
       "priority": "high",
@@ -24413,7 +24319,7 @@
       "raw": 9966680608.132011,
       "raw_display": "$9.97B",
       "source": "scraper_v2",
-      "updated": "2026-11-23T22:19:18.786063",
+      "updated": "2026-11-24T20:54:36.992441",
       "v2_details": {
         "raw_total": "$10.12B",
         "weighted_total": "$5.21B",
@@ -24523,24 +24429,24 @@
       }
     },
     "housing_permits": {
-      "score": 6.5,
+      "score": 5.2,
       "trend": "stable",
       "action": "Monitor trends",
-      "raw": 15000,
-      "raw_display": "15,000 units/mo",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-23T22:19:18.786063"
+      "raw": 9628.118442378296,
+      "raw_display": "9,628 units/mo",
+      "yoy_change": 1.1,
+      "source": "FRED API",
+      "updated": "2026-11-24T20:54:36.992441"
     },
     "construction_spending": {
-      "score": 5.0,
-      "trend": "stable",
+      "score": 5.6,
+      "trend": "up",
       "action": "Selective investment",
-      "raw": 143000,
-      "raw_display": "$143.0B SAAR",
-      "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-23T22:19:18.786063"
+      "raw": 150941.0,
+      "raw_display": "$150.9B SAAR",
+      "yoy_change": 3.9,
+      "source": "FRED API",
+      "updated": "2026-11-24T20:54:36.992441"
     },
     "migration": {
       "score": 5.0,
@@ -24550,35 +24456,35 @@
       "raw_display": "47.7M people",
       "pct_change": -0.16,
       "source": "Census API",
-      "updated": "2026-11-23T22:19:18.786063"
+      "updated": "2026-11-24T20:54:36.992441"
     },
     "construction_employment": {
       "score": 5.0,
       "trend": "stable",
       "action": "Stable operations",
-      "raw": 875000,
-      "raw_display": "875K workers",
+      "raw": 1010500.0,
+      "raw_display": "1010K workers",
       "yoy_change": 0.0,
-      "source": "fallback",
-      "updated": "2026-11-23T22:19:18.786063"
+      "source": "FRED API",
+      "updated": "2026-11-24T20:54:36.992441"
     },
     "input_cost": {
-      "score": 9.5,
-      "trend": "stable",
+      "score": 7.4,
+      "trend": "up",
       "action": "Lock contracts",
-      "raw_display": "Gas $3.18 | Diesel $4.31",
+      "raw_display": "Gas $3.78 | Diesel $6.06",
       "gasoline": {
-        "price": 3.18,
-        "score": 9.9,
+        "price": 3.78,
+        "score": 8.1,
         "weight": "60%"
       },
       "diesel": {
-        "price": 4.31,
-        "score": 8.8,
+        "price": 6.06,
+        "score": 6.4,
         "weight": "40%"
       },
-      "source": "historical data",
-      "updated": "2026-11-23T22:19:18.786063"
+      "source": "EIA API (Gas + Diesel)",
+      "updated": "2026-11-24T20:54:36.992441"
     },
     "infrastructure_funding": {
       "score": 8.9,
@@ -24587,19 +24493,19 @@
       "raw": 7000000000,
       "raw_display": "$7.0B",
       "source": "IIJA hardcoded",
-      "updated": "2026-11-23T22:19:18.786063"
+      "updated": "2026-11-24T20:54:36.992441"
     },
-    "overall_score": 7.3,
+    "overall_score": 7.0,
     "overall_status": "stable",
     "data_sources": {
       "dot_pipeline": "scraper_v2",
-      "housing_permits": "fallback",
-      "construction_spending": "fallback",
+      "housing_permits": "FRED API",
+      "construction_spending": "FRED API",
       "migration": "Census API",
-      "construction_employment": "fallback",
-      "input_cost": "historical data",
+      "construction_employment": "FRED API",
+      "input_cost": "EIA API (Gas + Diesel)",
       "infrastructure_funding": "IIJA hardcoded"
     },
-    "calculated_at": "2026-11-23T22:19:18.786063"
+    "calculated_at": "2026-11-24T20:54:36.992441"
   }
 }
